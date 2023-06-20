@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="22" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="68">
+ <properties>
+  <property name="AmbientLight" value="50 50 50"/>
+  <property name="DayTiles" value="Front 6 4 2123 Front 15 4 2132 Back1 3 5 2152 Back1 4 5 2153 Back1 3 4 2120 Back1 4 4 2121 Back1 3 3 2088 Back1 4 3 2089 Back1 5 4 2122 Back1 7 4 2124 Back1 5 3 2090 Back1 6 3 2091 Back1 7 3 2092 Back1 5 2 2058 Back1 6 2 2059 Back1 7 2 2060 Back1 5 1 2026 Back1 6 1 2027 Back1 7 1 2028 Back1 9 5 2158 Back1 10 5 2159 Back1 11 5 2160 Back1 12 5 2161 Back1 9 4 2126 Back1 10 4 2127 Back1 11 4 2128 Back1 12 4 2129 Back1 9 3 2094 Back1 10 3 2095 Back1 11 3 2096 Back1 12 3 2097 Back1 9 2 2062 Back1 10 2 2063 Back1 11 2 2064 Back1 12 2 2065 Back1 14 4 2131 Back1 16 4 2133 Back1 14 3 2099 Back1 15 3 2100 Back1 16 3 2101 Back1 14 2 2067 Back1 15 2 2068 Back1 16 2 2069 Back1 14 1 2035 Back1 15 1 2036 Back1 16 1 2037 Back1 17 5 2166 Back1 18 5 2167 Back1 17 4 2134 Back1 18 4 2135 Back1 17 3 2102 Back1 18 3 2103"/>
+  <property name="FloorIDs" value="Balc"/>
+  <property name="ForceAllowTreePlanting" value="t"/>
+  <property name="IsFarm" value="t"/>
+  <property name="LocationContext Default" value=""/>
+  <property name="NightTiles" value="Front 6 4 1963 Front 15 4 1972 Back1 3 5 1992 Back1 4 5 1993 Back1 3 4 1960 Back1 4 4 1961 Back1 3 3 1928 Back1 4 3 1929 Back1 5 4 1962 Back1 7 4 1964 Back1 5 3 1930 Back1 6 3 1931 Back1 7 3 1932 Back1 5 2 1898 Back1 6 2 1899 Back1 7 2 1900 Back1 5 1 1866 Back1 6 1 1867 Back1 7 1 1868 Back1 9 5 1998 Back1 10 5 1999 Back1 11 5 2000 Back1 12 5 2001 Back1 9 4 1966 Back1 10 4 1967 Back1 11 4 1968 Back1 12 4 1969 Back1 9 3 1934 Back1 10 3 1935 Back1 11 3 1936 Back1 12 3 1937 Back1 9 2 1902 Back1 10 2 1903 Back1 11 2 1904 Back1 12 2 1905 Back1 14 4 1971 Back1 16 4 1973 Back1 14 3 1939 Back1 15 3 1940 Back1 16 3 1941 Back1 14 2 1907 Back1 15 2 1908 Back1 16 2 1909 Back1 14 1 1875 Back1 15 1 1876 Back1 16 1 1877 Back1 17 5 2006 Back1 18 5 2007 Back1 17 4 1974 Back1 18 4 1975 Back1 17 3 1942 Back1 18 3 1943"/>
+  <property name="WallIDs" value="Balc"/>
+ </properties>
+ <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="z_redesignedfarmhousetiles" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="z_redesignedfarmhousetiles.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="4353" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="560" columns="16">
+  <image source="walls_and_floors.png" width="256" height="560"/>
+ </tileset>
+ <tileset firstgid="4913" name="z_additions" tilewidth="16" tileheight="16" tilecount="2516" columns="37">
+  <image source="z_additions.png" width="600" height="1088"/>
+  <tile id="79">
+   <animation>
+    <frame tileid="82" duration="500"/>
+    <frame tileid="83" duration="500"/>
+    <frame tileid="84" duration="500"/>
+    <frame tileid="85" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="187">
+   <animation>
+    <frame tileid="187" duration="100"/>
+    <frame tileid="189" duration="100"/>
+    <frame tileid="191" duration="100"/>
+    <frame tileid="193" duration="100"/>
+    <frame tileid="195" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="224">
+   <animation>
+    <frame tileid="224" duration="100"/>
+    <frame tileid="226" duration="100"/>
+    <frame tileid="228" duration="100"/>
+    <frame tileid="230" duration="100"/>
+    <frame tileid="232" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="225">
+   <animation>
+    <frame tileid="225" duration="100"/>
+    <frame tileid="227" duration="100"/>
+    <frame tileid="229" duration="100"/>
+    <frame tileid="231" duration="100"/>
+    <frame tileid="233" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="261">
+   <animation>
+    <frame tileid="261" duration="500"/>
+    <frame tileid="264" duration="500"/>
+    <frame tileid="267" duration="500"/>
+    <frame tileid="270" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="262">
+   <animation>
+    <frame tileid="265" duration="500"/>
+    <frame tileid="268" duration="500"/>
+    <frame tileid="271" duration="500"/>
+    <frame tileid="262" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="263">
+   <animation>
+    <frame tileid="266" duration="500"/>
+    <frame tileid="269" duration="500"/>
+    <frame tileid="272" duration="500"/>
+    <frame tileid="263" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="298">
+   <animation>
+    <frame tileid="298" duration="500"/>
+    <frame tileid="301" duration="500"/>
+    <frame tileid="304" duration="500"/>
+    <frame tileid="307" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="299">
+   <animation>
+    <frame tileid="299" duration="500"/>
+    <frame tileid="302" duration="500"/>
+    <frame tileid="305" duration="500"/>
+    <frame tileid="308" duration="500"/>
+   </animation>
+  </tile>
+  <tile id="300">
+   <animation>
+    <frame tileid="303" duration="500"/>
+    <frame tileid="306" duration="500"/>
+    <frame tileid="309" duration="500"/>
+    <frame tileid="300" duration="500"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Back" width="22" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,0,
+0,0,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,4667,0,
+0,0,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,4651,0,0,4651,4651,4651,4651,0,0,
+0,4869,4667,4667,4667,4870,4869,4870,4667,4667,4667,4667,4667,4667,4870,4869,4870,4667,4667,4667,4870,0,
+0,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,0,
+0,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,0,
+0,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,0,
+0,4869,4870,4869,5137,5138,4991,4992,4993,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,4869,4870,0,
+0,4853,4854,4853,5174,5175,5176,5029,5030,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,4853,4854,0,
+0,0,0,4869,5211,5212,5213,5066,5067,4869,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="Back1" width="22" height="12">
+  <data encoding="csv">
+0,3777,3778,3779,3780,3781,3782,3783,3784,3785,3786,2147487434,2147487433,2147487432,2147487431,2147487430,2147487429,2147487428,2147487427,2147487426,2147487425,0,
+0,3809,3810,4201,4202,4203,4204,4205,4206,4207,4208,4209,4210,4211,4212,4213,4214,4215,4216,2147487458,2147487457,0,
+0,3841,3842,4233,4234,4235,4236,4237,4238,4239,4240,4241,4242,4243,4244,4245,4246,4247,4248,2147487490,2147487489,0,
+0,3873,3874,4265,4266,4267,4268,4269,4270,4271,4272,4273,4274,4275,4276,4277,4278,4279,4280,2147487522,2147487521,0,
+0,3905,3906,4297,4298,4299,0,4301,4302,4303,4304,4305,4306,4307,4308,0,4310,4311,4312,2147487554,2147487553,0,
+0,3937,3938,4329,4330,4331,4332,4333,4334,4335,4336,4337,4338,4339,4340,4341,4342,4343,4344,2147487586,2147487585,0,
+0,3969,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487617,0,
+0,4001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487649,0,
+0,4987,4988,4987,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487681,0,
+0,4065,4066,4002,4003,4004,0,2147487652,2147487651,2147487650,4102,4102,4102,4102,3970,3971,2147487618,4102,4102,2147487714,2147487713,0,
+0,0,0,4034,4035,2147487684,2147487684,2147487684,2147487683,2147487682,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="14" name="Back2" width="22" height="12">
+  <data encoding="csv">
+0,0,0,0,0,1787,0,1610614556,3758098204,2147485434,0,0,1610614556,2147485436,0,0,0,0,0,0,0,0,
+0,0,3758098204,2147485436,3758098204,3758098172,2684356380,1610614524,1610614556,2684356380,3758098204,3758098172,0,3758098204,3758098172,0,2684356378,2684356346,0,2684356346,0,0,
+0,0,2147485434,0,3758098203,3758098171,0,0,1820,0,2684356380,0,0,3758098203,3758098171,0,2684356379,2684356347,2684356380,2684356348,0,0,
+0,0,3758098172,0,3758098202,3758098170,0,0,0,0,0,0,0,0,0,0,2684356380,2684356348,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="17" name="Back3" width="22" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3758098204,3758098172,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,3758098203,3758098171,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,1073743612,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="22" height="12">
+  <data encoding="csv">
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,3937,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487585,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2177,
+2177,2177,2177,2177,0,0,0,0,0,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,
+0,0,0,2177,2177,2177,2177,2177,2177,2177,0,0,0,0,2177,2177,2177,0,0,0,0,2177
+</data>
+ </layer>
+ <layer id="3" name="Front" width="22" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,4300,0,0,0,0,0,0,0,0,4309,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,5100,4953,4954,4955,4956,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="AlwaysFront" width="22" height="12">
+  <data encoding="csv">
+2177,2177,2177,3975,3976,3977,3978,3977,3977,3977,3977,3977,3977,3977,3977,3978,3977,2147487624,2147487623,2177,2177,2177,
+2177,4005,4006,4007,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487655,2147487654,2147487653,2177,
+2177,4037,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487685,2177,
+2177,4069,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487717,2177,
+2177,4033,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487681,2177,
+2177,4033,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487681,2177,
+2177,4033,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487681,2177,
+2177,4033,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487681,2177,
+2177,4033,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147487681,2177,
+2177,4101,4066,4002,4003,4004,0,2147487652,2147487651,2147487650,4102,4102,4102,4102,3970,3971,2147487618,4102,4102,2147487714,2147487749,2177,
+2177,2177,2177,4034,4035,2147487684,2147487684,2147487684,2147487683,2147487682,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,
+2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177,2177
+</data>
+ </layer>
+ <layer id="15" name="AlwaysFront1" width="22" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="Paths" width="22" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Paths" visible="0"/>
+ <objectgroup id="5" name="Back">
+  <object id="35" name="TileData" x="224" y="80" width="48" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="37" name="TileData" x="64" y="128" width="80" height="48">
+   <properties>
+    <property name="Passable" value="t"/>
+    <property name="Water" value="I"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="144" y="96" width="192" height="64">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="224" y="64" width="48" height="16">
+   <properties>
+    <property name="Passable" value="t"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="80" y="64" width="48" height="16">
+   <properties>
+    <property name="Passable" value="t"/>
+   </properties>
+  </object>
+  <object id="46" name="TileData" x="128" y="80" width="96" height="16">
+   <properties>
+    <property name="FloorID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="48" name="TileData" x="144" y="128" width="192" height="48">
+   <properties>
+    <property name="FloorID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="49" name="TileData" x="32" y="16" width="304" height="16">
+   <properties>
+    <property name="WallID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="128" y="48" width="96" height="16">
+   <properties>
+    <property name="WallID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="80" y="64" width="48" height="32">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="32" y="48" width="48" height="16">
+   <properties>
+    <property name="WallID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="272" y="48" width="48" height="16">
+   <properties>
+    <property name="WallID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="56" name="TileData" x="272" y="80" width="48" height="16">
+   <properties>
+    <property name="Passable" value="t"/>
+   </properties>
+  </object>
+  <object id="57" name="TileData" x="128" y="80" width="96" height="16">
+   <properties>
+    <property name="Passable" value="t"/>
+   </properties>
+  </object>
+  <object id="58" name="TileData" x="32" y="80" width="48" height="16">
+   <properties>
+    <property name="Passable" value="t"/>
+   </properties>
+  </object>
+  <object id="60" name="TileData" x="224" y="64" width="48" height="16">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="61" name="TileData" x="80" y="64" width="48" height="32">
+   <properties>
+    <property name="FloorID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="62" name="TileData" x="224" y="64" width="48" height="32">
+   <properties>
+    <property name="FloorID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="64" name="TileData" x="16" y="80" width="320" height="48">
+   <properties>
+    <property name="FloorID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="65" name="TileData" x="16" y="128" width="48" height="48">
+   <properties>
+    <property name="FloorID" value="Balc"/>
+   </properties>
+  </object>
+  <object id="66" name="TileData" x="16" y="96" width="128" height="32">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+  <object id="67" name="TileData" x="16" y="128" width="48" height="32">
+   <properties>
+    <property name="Diggable" value="t"/>
+    <property name="Type" value="Stone"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Buildings" visible="0">
+  <object id="19" name="TileData" x="160" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="playSound croak"/>
+    <property name="Passable" value="t"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="224" y="160" width="48" height="16">
+   <properties>
+    <property name="Action" value="Warp 4 7 FarmHouse"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

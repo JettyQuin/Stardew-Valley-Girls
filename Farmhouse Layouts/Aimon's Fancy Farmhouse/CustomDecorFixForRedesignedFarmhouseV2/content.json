@@ -1,0 +1,27 @@
+﻿{
+    "data":
+    [
+        {
+            "name": "Custom_balcony",
+            "replaceFloors": false,
+            "replaceWalls": false,
+            "replaceNonDecorationTiles": true,
+            "getFloorsFromFile":"",
+            "getWallsFromFile":"",
+            "floors":
+            [
+                
+            ],
+            "walls":
+            [
+                
+            ],
+            "floorsOmit":
+            [
+            ],
+            "wallsOmit":
+            [
+            ]
+        }
+    ]
+}

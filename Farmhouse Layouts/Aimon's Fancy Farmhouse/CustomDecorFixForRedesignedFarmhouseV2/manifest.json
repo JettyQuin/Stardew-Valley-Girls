@@ -1,0 +1,18 @@
+﻿{
+  "Name": "CustomBalcony Content Pack for Custom Walls and Floors",
+  "Author": "Aimon111",
+  "Version": "1.0.1",
+  "Description": "",
+  "UniqueID": "Aimon111.CWFBalcony",
+  "MinimumApiVersion": "3.12.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.CustomWallsAndFloors",
+    "MinimumVersion": "0.4.1"
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.CustomWallsAndFloors",
+      "IsRequired": true
+   },
+  ]
+}

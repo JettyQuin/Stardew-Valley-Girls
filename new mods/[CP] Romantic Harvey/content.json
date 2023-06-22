@@ -1,0 +1,45 @@
+{
+    "Format": "1.3",
+    "Changes": [
+    {
+        "Action": "EditData",
+        "Target": "Characters/Dialogue/MarriageDialogueHarvey",
+        "Entries": {
+            "Rainy_Day_0": "Maybe you should stay in today.#$b#I'm sure we could find something fun to do.$l",
+            "Rainy_Day_1": "Be careful working today. It's slippery.$s",
+            "Rainy_Night_0": "You're sopping wet, dear.$s#$b#You'd best change into something dry.$0",
+            "Rainy_Night_1": "I hope you were careful today.$l#$e#You didn't slip or fall, did you?$s",
+	            "Indoor_Day_0": "I'm in the mood to do cleaning today.$0#$b#It is looking a bit messy in here, don't you think?",
+                "Indoor_Day_1": "Be sure to wipe off your boots before you come back in, dear.$h",
+	            "Indoor_Day_2": "Good morning!$h#$b#I hope I didn't keep you up too late last night.$11",
+                "Indoor_Day_3": "Your backside is looking particularly lovely today.$h#$b#...$s#$b#Sorry, I wasn't sure how else to say it.$l",
+                "Indoor_Night_0": "Wine and a book tonight, I think.#$h",
+                "Indoor_Night_1": "How about we cozy up a bit earlier tonight?#$l#$b#If you're not too sleepy, I might have just the remedy...$l",
+                "Indoor_Night_2": "*Yawn*$0#$b#!$8#$b#I didn't see you there, dear.$l",
+                "Indoor_Night_3": "I hope you had a nice day!$l#$b# If not...$2#$b# I believe a massage is in order!$h",
+                "Indoor_Night_4": "There's my handsome groom.$l^There's my beautiful bride.$l",
+            "Outdoor_0": "You've worked wonders on this farm.$l#$b#It looks incredible.$0",
+            "Outdoor_Harvey": "I'd help out more on the farm if I had a clue what I was doing.$0#$b#I wouldn't want to get in your way!$h",
+                "funLeave_Harvey":"I think I'll take a little walk today.$0#$b#Don't miss me too much.$l",
+                "funReturn_Harvey":"I saw a mother duck and her babies on the walk back!.$h#$b#*sigh*$0#$b#Almost as cute as you.",
+            "OneKid_0": "I'll feed little %kid1.$h#$b#You just do what you need to do, my love.$l",
+            "OneKid_1": "I'll take care of %kid1 tonight.$0#$b# You get all the rest you need, alright?$h",
+            "OneKid_2": "I wonder if %kid1 will follow in your footsteps and become a farmer.$0",
+            "OneKid_3": "It's funny...$0#$b#I've always wanted to be a father, but now I'm afraid I'll leave an awful impression on little %kid1.$s#$b#But, I will always follow the principal that is;$0#$b# to give your children what you wish your parents gave you!$h",
+            "TwoKids_0": "I hope the little ones still get along when they're in their adolescence.$s#$b#You know how teenagers are.$0#$b#Ridiculously hormonal.",
+            "TwoKids_1": "I wonder what the kids will want to be when they grow up.",
+            "TwoKids_2": "%kid1 and %kid2 fought over a spoon last night...$0#$b#Do you know how many spoons are in the cutlery drawer?$h",
+                "Good_0": "I love you so much, @.$l",
+                "Good_1": "I'm so happy you're in my life, @.$l",
+                "Good_2": "Could we have...$0#$b#An especially close cuddle tonight?$l",
+                "Good_3": "I wish I could tell you how much I miss you when you're out working the farm.$l",
+                "Good_4": "I hope you miss me as much as I miss you when you're not right next to me.$l",
+                "Good_6": "Your backside is looking particularly lovely today.$h#$b#...$s#$b#Sorry, I wasn't sure how else to say it.$l",
+            "Neutral_0": "Need something, dear?",
+                "fall_26_1": "Will you hold my hand tomorrow?$0#$b#Spirit's Eve gives me intestinal pains...$s",
+                "winter_25_0": "Have you found a gift for your secret friend yet?$0#$b#It took me forever to find a good one!$h#$e#Who is your secret friend, by the way...?$0#$b#Is it me?$h#$b#...$0#$b#I know, I know.$h#$b#You can't tell me.$0"
+
+	}
+}
+]
+}

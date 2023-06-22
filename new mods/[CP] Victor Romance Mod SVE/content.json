@@ -1,0 +1,969 @@
+{
+"Format": "1.29.0",
+"Changes": [
+
+	/////////// PRE-MARRIAGE ///////////
+	
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Victor",
+		"Entries": {
+		
+			"Tue2": "Mom's making her mushroom casserolle tonight... $2#$b# Maybe I should stop by the Saloon later? $2",
+			"Tue6": "I've been thinking lately... $0#$b# I may or may not have another reason for staying in the valley. $1#$e# Oh, what reason is that? $0#$b# Well, I... It's a secret, okay? $2#$e# ... $2",
+			"Fri6": "Come hang out with me, Sam, Abby and Seb at the Saloon sometime. $1#$b# I'd personally love to hang out with you more... $l#$b# ... $0#$b#Err, we. We'd like to hang out with you more! You know, Seb, Abby, Sam... $7#$b# ... $2#$b# ...Crap. $2",
+			"Thu6": "Oh, @, my mother didn't say anything weird to you, did she? $0#$e# Oh, what did I think she said? Well... something about us being a couple...? $2",
+			"Sun8": "Hey, @. Want to go grab a bite? Gus's spaghetti is something out of this world! $h",
+			"Wed8": "Would you like to come over for dinner someday? $1#$b# I can make you some truly lovely spaghetti! It could be a date. $u#$e# ...*sigh* Good job, Victor. $0#$b# Ah, @! You didn't hear me, did you? $7",
+			"Thu10": "My mother said that you and I make a cute couple... $0#$b# That's funny, isn't it? $l",
+			"Sat10": "Hey, @, remember when I said I may have another reason for not wanting to leave the valley? $u#$b# Well, I just wanted to clear things out a little. $l#$b# That other reason... is you. I love you and I never want us to be apart. $l#$e# May we cuddle for a while? $l",
+			"Tue10": "Hello there, @. It's so good to see you taking a break from work. $1#$b# Oh? You just wanted to see me? Heh, you're flattering me, love. $l#$b# Would you like to take a stroll to the beach with me later? I'd like to have you all to myself, if only for a moment. $u",
+			"Wed10": "Why am I smiling? $1#$b# Well, it's because of you. You have that effect on me... $l",
+			
+			
+			"Wed7": "Um... @, you're single, right? $0#$e# Just wondering! $l",
+			"Sat8": "Heya @, did you do something different? I can't quite put my finger on it... $l#$e# It's almost like something has changed... And I can't get my eyes off you. $l#e# Either way, you look great right now. $l",
+			"Fri10": "Hey, @, are you free tonight? You should stop by the saloon later. We could play Pumpkin Smasher together, it's my favorite from the saloon's arcade. $h#$b# Plus, I bet others will enjoy seeing you there. $u",
+			"Mon8": "Hey, would you like to hang out with me at the library sometime? I'd love to spend some time with you. $h",
+			"fall_Mon10": "Oh, @, your cheeks are a bit red... $0#$b# Are you perhaps cold? $0#$e# Here, come a little closer... $4",
+			
+			
+			"spring_Mon6": "Hey, @. Would you like to play Legend of Lonk with me someday? $1#$b# Just figured you might like a break every now and then. $u",
+			"fall_Mon6": "Hey, @. Would you like to play Legend of Lonk with me someday? $1#$b# Just figured you might like a break every now and then. $u",
+			"summer_Sat6": "Hello there, @. $1#$b# Come hang out at my place someday. We can watch a movie, or read some books. $0#$b# You've been working pretty hard, you deserve a break. Plus, it would be better than staying in the sun for too long. $1",
+			"summer_Thu6": "Say, @, how long have you been working on that farm? $0#$b# ... $0#$b# ... $2#$b# You seriously need to take a break, @. Or at least drink some water. Here, have my water bottle. $0",
+			"winter_Wed6": "I presume you've finally gotten the time to wind down a little? $0#$b# It's honestly calming my mind when I see you just... relaxing and enjoying yourself, enjoying life. $1#$e# ...More than you know. $2",
+			
+			
+			"spring_2": "Man, I'm beat. Why does Abby always feel the need to overshare her Egg Festival strategies. $2#$b# For the love of Yoba, I'm starting to actually understand Seb. Maybe some spaghetti can cheer me up. $2#$e# ...Oh, hello there, @. I'm sorry, but I I'm not feeling to good. $0#$b# ...Please don't tell me you actually overheard me talking about Abby's Egg Festival plans. $2#$b# ... $2#$b# *Victor is now ignoring you.* ",
+			"spring_9": "Great, the circus known as the Egg Hunt will begin tomorrow. Honestly, it's pretty hilarious how nobody has said anything about Abby winning every single time. $2#$b# And she will talk about her win till summer... Maybe someone should wipe that smirk this time. $2#$e# O-oh, @! You didn't hear what I just said, did you? $0#$b# Was I thinking aloud? ...Great. $2#$b# Look, you better  not tell Abby anything. $0#$b# It's not like I dislike her, okay? She's one of my closest friends, but I admit that her behavior is quite vexing sometimes. $0",
+			"spring_23": "Oh man, Seb and Abby are gonna complain tomorrow again. $2#$b# I don't get it. I know it's old, but there is a certain charm to the Flower Dance. Plus, there's free food from Gus. What's not to love? $0#$e# Oh, hey, @. Are you going to the Flower Dance tomorrow? I suppose it would be a great time to unwind. $0",
+			
+			
+			"spring_Mon8": "Are you busy, @? Perhaps a walk in the Cindersap Forest could alleviate some of the stress. $1#$b# I'd like to go together with you. The scenery at this time of the year is truly remarkable! $l",
+			"summer_Mon8": "Are you doing alright, @? Working on the farm in such weather must be really tiring... $2#$b# How about we go relax at the beach, hmm? $1#$b# Plus, we could get some ice cream on our way there. $u",
+			"fall_Mon8": "Are you busy, @? Perhaps a walk in the Cindersap Forest could alleviate some of the stress. $1#$b# I'd like to go together with you. The scenery at this time of the year is truly remarkable! $l",
+			"winter_Mon8": "Are you not too cold, @? We could come over to my house. $2#$b# We could read some of my books, watch a movie, maybe cuddle under a warm blanket... anything you'd like, really. $u",
+			
+			
+			"winter_Sat8": "Hey there, @. Got any plans for this winter? $1#$b# ...What!? $7#$b# @, my dear. What is this 'Skull Cavern' you're talking about? $7#$e# ...On the other hand, though, you have gotten me quite curious. Do tell more. $u",
+			"winter_Fri8": "So, @, who are you giving a gift for the Feast of the Winter Star this year? $0#$e# ...Honestly, I kind of hope it is me. $1",
+			"winter_Tue8": "Ah, there you are, @! Here's a little something for you! $0#$b# Don't want you catching a cold, now do we? [253] $u",
+			"winter_Mon10": "@, I know it's mining season for you. But... $0#$b# Be careful whenever you go to the mines, okay? It can be really dangerous down there. And I've heard that you like to say there until late in the night. $2#$e# Seb told me everything. You better take good care of yourself, young man. ^ Seb told me everything. You better take good care of yourself, young lady. $2#$b# I sound like Lewis? Well, I don't care when someone I care about gets hurt. $5", 
+			
+			"winter_Sun9": " It's so cold today... Hey, @. Want to unwind back at my place? $0#$b# We could read %book, Elliott's new book together, if you want. $1",
+			
+		}
+	},
+		
+		
+		
+		
+		
+		/////////// POST-MARRIAGE ///////////
+		
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueVictor",
+		"Entries": {
+			
+			// SPECIAL DIALOGUE //
+			
+			"patio_Victor": "It's a beautiful day, isn't it hun? We should definitely go to town together later! $h#$b# Of course, it's perfectly understandable if you can't. But give it some thought, okay @? $0#$b# You've been working tirelessly trying to return %farm Farm to it's old glory. But you should take a break every now and then. $2#$b# I want to still see you smile, after all. $u#$e# Now, honey... a kiss before you start working? $l",
+			"spouseRoom_Victor": "Hi there, honey. I picked up some books from the library. Would you like to read with me later? $1#$b# We could have some hot chocolate or tea, perhaps we could also cuddle under a warm blanket. Pure bliss, won't you say? $u#$b# I also got some books on elvish and dwarfish lore, I thought you'd find them fascinating. Not gonna lie, though... I had a little peek into those myself and almost couldn't stop reading. $1#$b# May I have a kiss for the effort? $u#$b# I love you! $4",
+			"OneKid_0": "Abigail wants to visit soon and hang out, whould that be okay, dear? $0#$b# She also wants to bring some books for our little one, including fairytales on Junimos. $1#$b# Or, as she called them 'little apple critters'. $1#$e# ...That look on your face is hilarious, dear. Care to share what's on your mind? $1",
+			
+			// AFFECTION DIALOGUE //
+			
+			"Good_0": "Oh, hi there, hun. How are you doing? Are you resting from work? $1#$b# Tell you what, honey, how about go finish the remaining farmwork and you take the rest of the day off? $u#$b# We could play Legend of Lonk or Personable 5 together! $1#$b# Or... we could watch a movie and cuddle. You know how much I love feeling you in my arms. $l",
+			"Good_1": "Did you get lost on the way to heaven, dear? You don't usually encounter angels in the valley. $l#$b# ... $4#$b# Pfff. Hahaha, alright, alright, I'll stop. But you gotta say it was hilarious! $h",
+			"Good_8": "Hey, dear, how you're doing? $h#$b# How does a movie night sound? Sophia invited us, as well as Seb, Sam and Abby to watch some movies at her place. $h",
+			
+			// SEASONAL DIALOGUE //
+			
+			"spring_Victor": "Spring is beautiful in Stardew Valley. It's not too hot or too cold. $1#$b# Hmmm... $0#$e# Hey, @, how about we have a picnic once you're done with the farm? $1",
+			"spring_10": "You only get more beautiful every day. $l#$e# Come here...$l",
+			"spring_13": "It's mother's birthday tomorrow. Maybe I should buy a chocolate cake at the Saloon. Though I could also bake one myself. $0#$b# I could also buy some wine from Sophia. $0",
+			"spring_24": "I need to put on my best suit today for the Flower Dance! $1#$b# It's fun seeing everyone dance around the beautiful baskets of flowers. $1#$b# Especially the beauty right in front of me. *smooch* Love you! $l",
+			
+			"summer_1": "Summer is finally here! This nice sunny weather will give me an excuse to go outside more. $1#$b# ...Hey, dearie, why don't we go grab some ice cream later together. It could be a date.$h",
+			"summer_16": "Let's see. Tigerseye for Sam. Done. $0#$b# ...Maybe I should tell Seb to let Sam win at pool. Just once. $h",
+			"summer_22": "Tomorrow is my birthday, dearie. $h#$b# Don't worry, you don't need to get me anything. You being with me is more than enough! $l#$e# Now, a kiss before we go back to work? $l",
+			"summer_23": "Hey, @? How does a dinner date at the Saloon sound? $u#$b# I'd love to have you all for myself, just for a day. $l#$b# *smooch* I love you! $h",
+			"summer_28": "We should hold hands tonight on the dock as we watch the moonlight jellies... $4#$b# Though, to be frank, staying with you at the farmouse and cuddling is also quite a tempting idea. $h",
+			
+			"fall_1": "Ah, fall! My favorite season! I enjoy taking strolls around town in the chilly weather.$1#$e#The colors of the valley seem to grow more beautiful every year. $1#$b# Hey, @, we should totally go for a stroll in the forest later. Then we could cuddle under a blanket and sip some hot chocolate. $h#$e# ...Okay, okay, you got me, dear. I'm looking forward to pretty much any opportunity to cuddle you. But who could blame me? $l",
+			"fall_3": "Perhaps I should organize a meeting tomorrow. $2#$b# Gus should have some orange chicken...  Abby could bring some games... Oh, Seb recently bought a new issue of Sailor Sun...$0#$e# Oh, hey there, honey! How are you doing? $h",
+			"fall_12": "Hmm, there should be a Glam Kitchen blackberry cobbler recipe on the internet... $0",
+			"fall_16": "Good luck today with your grange display at the Stardew Valley fair! $3#$b# You're going to beat Pierre. I can feel it! $1#$e# How about we have a dinner date at the Saloon later. We could celebrate your achievments! And I'll get the chance to have a romantic moment with my wonderful hubby ^ How about we have a dinner date at the Saloon later. We could celebrate your achievments! And I'll get the chance to have a romantic moment with my wonderful wifey. $l",
+			
+			"winter_1": "That snowstorm last night blanketed the entire valley. Stay bundled up, okay? $6#$e# If you catch a cold during the winter, I'll take care of you. $3#$b# Just a heads up, but I won't let you go anywhere but the town if you end up sick. And you won't be taking your fishing rod. $u#$e# Nope, no shortcuts to the mines. No Skull Cavern for you either. $1",
+			"winter_4": "Honey, your hands are cold! $2#$b# Come here, let me warm them with mine. $0",
+			"winter_9": "Alrighty, Sam should be bringing the pizza. Abby will be bringing gems from the Mines. $0#$b# Sophia will be bringing some sashimi... Everything should be fine... $0#$e# Hey there, hun, how are you doing? Don't mind me, I'm just planning a little party for Sebastain's birthday. $h#$b# We'll be just watching some movies and playing Solarion Chronicles. Feel free to visit, though. $u",
+			"winter_26": "Alrighty, cloth has been acquired. Now just to see if Gus has any orange chicken in store. $0#$b# Abby should be bringing her Journey of the Prairie King disc. The guys will be bringing some movies. $0#$b# We shold be all set. $0#$e# Oh, hello there, dear! Having fun listening to my loud thinking? *smooch* $h",
+			
+			"winter_20_2": "Hey, darling? Have you... paid attention to your Grandpa's shrine lately? $0#$b# Abby mentioned it last time we talked. Something about a spirit coming for a visit soon? Should I be worried? $0",
+			
+			// DAY AND NIGHT DIALOGUE //
+			
+			"Rainy_Day_1": "I enjoy rainy days like this. It gives me an excuse to stay inside all day. $3#$b# And it gives me quite an opportunity to get all cozy and cuddle with you. $h",
+			"Indoor_Night_3": "I visited my mother today. She wanted me to tell you she says hello. $1#$e# Oh, she also gave me another bottle of wine for us. We can put this in the cupboard.[348] $1",
+			
+			//// ANNIVERSARY ////
+			
+			"fall1_2": "Happy anniversary, dearest! [220 72 74 221] $l#$b# I can't believe it's been a year already! It's kind of insane how fast time seems to fly, don't you think? It feels like we were getting married just yesterday. $u#$b# Oh, no need to give me anything! Really, you being with me, returning home in one piece is more than enough. Sometimes, you do give me and poor Harvey quite a scare with your ventures to the Skull Cavern. $1#$b# Unless... if you'd like to litter my face with kisses, or do a reenactment of our wedding night later tonight... I'd quite love that. $l",
+			"fall1_3": "Happy anniversary, darling! [797 341 72 74] $1#$b# You know, I don't think I'll ever stop being in awe with you. $l#$b# I don't know what I did to be this lucky, but I'm so happy to have you in my life. I hope you feel the same! $l",
+			"fall1_4": "Happy anniversary, darling! [797 341 72 74 551 801 859 872] $1#$b# You know, I've been thinking... I'm really happy you stuck around for so long, @. $0#$b# I know I'm not the most exciting guy out there. I'm far from being strong or brave like you. $2#$b# But... I feel like I can take on the world when you're around. That anything can be possible and things will turn out okay. $u#$b# I truly hope you feel the same with me. I love you, more than anything, @. $l",
+		
+		}
+	},
+		
+		
+		
+		
+		
+		/////////// FESTIVALS ///////////	
+		
+		// EGG FESTIVAL //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "3, 4, 5"
+			},
+			"Entries": {
+				"Victor": "You go on ahead and have fun, @. $h#$b# I'll be following Sam, he doesn't look too good lately...$2"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8"
+			},
+			"Entries": {
+				"Victor": "I'll be cheering you on! I know you can beat Abby! $h#$e# Please don't tell her I said that, 'kay? $0"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "Beat Abby and I'll give you a very special reward after the festival. $h#$e# How does dinner sound? I can make you some exquisite spaghetti! And then we can cuddle! $l#$b# Why you're looking at me like that...?$3"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "Good luck, hun! I know you'll do your best! $1#$b# And even if you don't... well, I still got a very special reward for you later. *chuckle* $l",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Ah, @, one moment please. $h#$b# Victor puts his hand on your cheek before planting a soft kiss on your lips. $b# There, much better! Good luck beating Abby, dear! I'm hoping you'll win! $u#$e# You're so cute, getting all excited like that...$l"
+			}
+		},
+ 
+ 
+		// FLOWER DANCE //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "4, 5"
+			},
+			"Entries": {
+			"Victor": "Sophia, leave some of that cake for me. Come on, just a slice! $h#$b# Oh, hello there, @! Would you like some cake too? $h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8"
+			},
+			"Entries": {
+				"Victor": "Oh hey there, @! Fancy seeing you here! $l#$b# So... do you have a partner for the dance? Asking for a friend... $l#$b# ...Wait a sec. $7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "Hey. Wanna dance with me? $l#$b# Abby and Seb will be elated to hear they won't have to wear the costumes this year. $1#$b# Besides... I do genuinely think you look quite radiant on this occasion, even more so than you normally are. $l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "My heart still skips a beat whenever I see you at this festival, dear. Smiling, resting from work, stuff like that. $1#$b# ...Hey, you think this counts as prictice for our wedding dance? $l#$b# Heh, seems my thoughts never wander too far away from the wedding! Can't help it, the very thought of you in that tux got my cheeks heating up. ^ Heh, seems my thoughts never wander too far away from the wedding! Can't help it, the very thought of you in that gown got my cheeks heating up. $l",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Will you honor me with a dance, darling? Nothing's more romantic than a dance with the one you love... $h#$b# Unless you're tired of the celebration, dear. Which case, we can go rest at the buffet table. We could have our little dance later, if you'd like. $3"
+			}
+		},
+		
+		
+		// LUAU //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8"
+			},
+			"Entries": {
+				"Victor": "Please don't put in the shorts. Please don't put in the shorts. Please don't put in the shorts. $2#$b# ...O-oh, @! Sorry, I didn't see you there! Seems I was lost in thought... $7#$b# Say, what have you brought to the Luau potluck this year, hmm? $u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "@, sweetheart. My dearest. Love of my life. $1#$b# I love you, but I fear the day you and Sam decide to tamper with the potluck together. $2#$b# At least give me the heads up, so I won't get burned. $u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "Hey, darling. I got a few bottles of wine prepared at home, so you can go ahead and throw in whatever you want. $l#$b# Mother already went ahead and put some of her expensive wine into this year's potluck. I don't know if it'll be edible, but at least we could have a candlelit dinner later. $u",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Oh, hey there, darling! I'm just hanging out with Sophia. $1#$b# She's not feeling very well whenever she has to deal with large gatherings, like today. $2#$b# You go ahead and add whatever you'd like to the potluck, dear. $1#$b# Considering the, ahem, 'secret project' you told me about... You can even add the 'thing'. $u#$b# I will be trying my best to spare my friends from tasting it, if you DO go ahead with this plan, that is... $1"
+			}
+		},
+		
+		
+		// MOONLIGHT JELLIES //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "Is it alright if I hold you? I'd love to take in all sights together with you. $l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "It's getting quite chilly... $0#$b# @, hun, would you mind if we cuddled while watching the moonlight jellies? Heh, you know that I never pass up on the opportunity to be close with you. $l",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "I swear, I think I'll never get tired of those wonderful sights. $l#$b# If you're asking whether I'm talking about the moonlight jellies or you... the answer is 'yes'. $h#$b# Come here, you. $l"
+			}
+		},
+		
+		
+		// STARDEW VALLEY FAIR //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "3, 4, 5"
+			},
+			"Entries": {
+				"Victor": "Good luck with the grange display, @! I hope you beat Pierre! Do your best! $h#$b# In the meantime, I'll be relaxing at the buffet Gus has set up. Those delicious smells... they're calling me. $h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8"
+			},
+			"Entries": {
+				"Victor": "Abby and Sophia have been bugging me to see the fortune teller even before the fair started. $0#$b# Besides, surely it's all made up, right? $l#$e# Then again... why is my heart racing at the thought? $l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "Would you like to go on a walk in the forest later with me, @? It looks quite lovely this time of the year. $h#$b# Don't get me wrong, I find the fair quite enjoyable. But I would love to have a quiet little moment between just me and you, my dear. $l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall6",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "I'm so proud of you, dear. You've been working so hard this year, I hope you'll win! $h#$b# But regardless of the results, I got quite an exquisite idea for how to celebrate your achievements. $l#$b# How about a candlelit dinner with spaghetti? Unless you'd also like to stay the night, which would also be lovely. $h",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Hey, what's up? I was just about to go to the buffet and see if Gus brought some pumpkin pie. $l#$b# I've been craving that stuff ever since the season began. $1#$b# But not even that pie even compares to your sweetness, my love. Sorry if was a bit cheesy, I can't help it. $l"
+			}
+		},
+	
+	
+		// SPIRIT'S EVE //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "3, 4, 5"
+			},
+			"Entries": { 
+				"Victor": "Dammit, I think I'm stuck... I should've stayed with Seb... $2#$b# Oh, @! Please don't startle me like that! $7#$b# *sigh* I tried to brave this maze, but everything seems just so... different since last year. $2#$b# Could you... help me get out, please? $0"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8"
+			},
+			"Entries": {
+				"Victor": "Hey, want some of this cobbler? I had to snatch it from Elliott and Pam's evil clutches. [611] $3#$b# Unfortunately, I could not rescue any of Pierre's delicious, delicious pumpkin ale... $2#b# At least, this time... $u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "AHHH!! $7#$b# Ahahahaha! $1#$b# Got me! Damn you, hun, I probably scared Doctor Harvey with that one... $u#$e# Where's my compensation in kisses, hmm? $u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "Hmmm, doesn't look like they attack... $0#$b# Oh, hey there, darling! Fancy seeing you here! $h#$b# Say, @, would you mind if we kissed in this haunted maze? $u#$b# Ha ha, just kidding. $h#$b# Unless...? $l",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Hey there, hun! Enjoying the festival? $1#$b# You know, I'm so glad to see you taking a rest from work and enjoying the festival! $u#$b# Say, @... What about we hit up the buffet later? And then we can go back home and I can help you warm up. I got a few ideas, actually. $l"
+			}
+		},
+	
+	
+		// ICE FESTIVAL //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "3, 4, 5"
+			},
+			"Entries": {
+				"Victor": "Me and Seb are planning to start a snowball war later. Care to join me, @? $h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8"
+			},
+			"Entries": {
+				"Victor": "It's cold out, @. Are you going to compete in this year's fishing contest? $0#$b# Here, you can have my gloves. I don't want you to be freezing. $l#$e# What's with the blush...? Oh, it's just the cold. $l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "Would you like to come over later tonight, @? $h#$b# We could hang out with a good book and some hot chocolate. Or we could watch a movie and cuddle under a blanket. $3"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "Honey, I've been thinking... I've heard of the tale of the Old Marineer already. $h#$b# He only appears during rain or storm. And yet you've only given me the pendant now. How curious. $u#$b# Heh, don't worry dear, I still appreciate it immensely. Maybe I could later show you just how much? $l",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Do your best, dearie! I know you can do it! $1#$b# Here, I brought an extra coat. We can't have you freezing, now do we? I can also help you warm up later. $1#$e# ...What's with that face, dear? $u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Do your best, dearie! I know you can do it! $1#$b# Here, I brought an extra coat. We can't have you freezing, now do we? I can also help you warm up later. $1#$e# ...What's with that face, dear? $u"
+			}
+		},
+			
+		
+		// FEAST OF THE WINTER STAR //
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"Victor": "I'm so thankful for you, @. I love you so much, even if words sometimes fail to describe how I feel... $l#$b# This is for you, my dear. Happy Feast of the Winter Star! [74] $1"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Engaged"
+			},
+			"Entries": {
+				"Victor": "Happy Feast of the Winter Star, dearest! [74] $h#$b# You don't have to give me anything. The pendant you've given me earlier is more than enough. $l",
+			}	
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Married"
+			},
+			"Entries": {
+				"Victor": "Merry Winter Star, love. I got something for you! I love you! [74 72 551] $1#$b# Hey, @. I, umm... I have another gift for you at home. $4#$b# I'll show you tonight, okay? I promise you'll love it, hun. $4"
+			}
+		},
+			
+		
+		
+		
+		
+		
+		/////////// OTHERS COMMENT ON VICTOR'S RELATIONSHIP ///////////
+		
+		
+		// OLIVIA //
+		
+	{
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Olivia",
+		"When": {
+				"Language": "en",
+				"Hearts:Victor": "6, 7, 8",
+			},	
+		"Entries": {
+			"summer_Fri4": "Hello there, dear. How are you doing? $0#$b# Say, @, what do you think of my son? We could go to the Saloon and you can tell me everything! *chuckle* $1",
+		}
+	},
+	
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Olivia",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"summer_Mon6": "Ah, if it isn't my future in-law. What a sight for sore eyes! $h#$b# You know, I think my boy is a bit smitten with you, dear. He's been buying more and more romance novels lately. $1#$b# I can't complain, though. I do enjoy a good read myself whenever I'm not busy. But here's the odd part... $1#$b# My little Victor had never been interested in this genre before. *chuckle* $3",
+				"fall_Wed6": "Ah, if it isn't my future in-law. What a sight for sore eyes! $h#$b# You know, I think my boy is a bit smitten with you, dear. He's been buying more and more romance novels lately. $1#$b# I can't complain, though. I do enjoy a good read myself whenever I'm not busy. But here's the odd part... $1#$b# My little Victor had never been interested in this genre before. *chuckle* $3",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Olivia",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Sat8_inlaw_Victor": "Hello there, dear. How are you and my son doing? I hope you two are happy! $h#$b# How about you two visit someday for dinner? It sometimes gets rather lonely at home. $0",
+				"fall_Sat8_inlaw_Victor": "Hello there, dear. How are you and my son doing? I hope you two are happy! $h#$b# How about you two visit someday for dinner? It sometimes gets rather lonely at home. $0",
+				"summer_Thu8_inlaw_Victor": "To be fair, I didn't expect Victor to get married so early. It feels like yesterday when he graduated from Pellcar University. $0",
+				"winter_Thu8_inlaw_Victor": "To be fair, I didn't expect Victor to get married so early. It feels like yesterday when he graduated from Pellcar University. $0",
+				"summer22_inlaw_Victor": "Hello there, dear. It's so nice to see you! $1#$b# You and Victor should come by tomorrow! We can celebrate my son's birthday together! $0#$b# Make sure to also invite my son's friends, if that's not too much trouble. $1",
+			}
+		},
+		
+		// ABIGAIL //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"spring23": "Hey, @! My buddy, champ, pal! $h#$b# What would you say about you and Victor dancing at the upcomming Flower Dance together? Come on, you two will look great! $$0#$b# Eh? You think I'm just using you two to get away from dancing in that stupid dress?? $7#$b# Psssh, nah! What gave you the idea? $h",
+				"fall_Tue8": "Say, @. How much do you like that guy Vic? Do you just like like him or is it more serious? $-#$b# Huh, why I'm asking? I AM friends with both of you, aren't I? $1#$b# I see. $2#$b# Well... Make sure he treats you well then, okay? $0",
+				"winter_Tue8": "Say, @. How much do you like that guy Vic? Do you just like like him or is it more serious? $-#$b# Huh, why I'm asking? I AM friends with both of you, aren't I? $1#$b# I see. $2#$b# Well... Make sure he treats you well then, okay? $0",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"fall_Sat8_inlaw_Victor": "Not gonna lie, dude, you two look like you came straight from one of Sophia's otome games. $h#$b# Glad to see you two happy, though! $0",
+				"spring_Sun8_inlaw_Victor": "Not gonna lie, dude, you two look like you came straight from one of Sophia's otome games. $h#$b# Glad to see you two happy, though! $0",
+				"summer_Tue8_inlaw_Victor": "To be honest, I never thought I'd see Vic get a date so soon. Hell, I never thought he'd be the FIRST of us to get married. $0#$b# You see, he never looked like much of a romantic type. Now he rivals that Sailor Sun manga Sophia has at home. $1#$b# Well, the more you know, huh? $0",
+				"spring23": "Hey, @! My buddy, champ, pal! My dearest Egg Festival Archrival! $h#$b# What would you say about you and Victor dancing at the upcomming Flower Dance together? Come on, you two will look great! $$0#$b# Eh? You think I'm just using you two to get away from dancing in that stupid dress?? $7#$b# Psssh, nah! What gave you the idea? $h",
+			}
+		},
+		
+		// SAM //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"summer_Thu6": "Oh hey, @! What's up? $1#$b# How are you and Vic doing? You know, you two look like a pretty good match! $h",
+				"fall_Thu6": "Oh hey, @! What's up? $1#$b# How are you and Vic doing? You know, you two look like a pretty good match! $h",
+				"spring_Sat8": "Hey there, @! How's it going? $0#$b# Would you and Vic like to visit for band practice someday! You two can listen on a new song we're working on! $1",
+				"summer_Sat8": "Hey there, @! How's it going? $0#$b# Would you and Vic like to visit for band practice someday! You two can listen on a new song we're working on! $1",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sam",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"summer_Sun8_inlaw_Victor": "'Sup, @! $h#$b# Glad to see you and Vic happy together! $h",
+				"winter_Sun8_inlaw_Victor": "'Sup, @! $h#$b# Glad to see you and Vic happy together! $0#$b# Thank Yoba this hasn't turned into one of those romcom anime that take 300 episodes for actual progress to happen. My dude was thiiis close, though! $1",
+				"summer10_inlaw_Victor": "Hey, buddy! Ya got any fresh Anchovies? $h#$b# Oh? No reason in particular, really! $8#$e# Say, would Vic have anything against us dumping something into the potluck? $0",
+			}
+		},
+		
+		// SEBASTIAN //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"spring_Wed4": "You're free to join us whenever we're playing Solarion Chronicles. Whatever. $0#$b# Just don't make out with Victor in the middle of the session. $0",
+				"fall_Wed4": "You're free to join us whenever we're playing Solarion Chronicles. Whatever. $0#$b# Just don't make out with Victor in the middle of the session. $0",
+				"summer_Fri6": "Not gonna lie, never thought Vic would get someone the fastest from all of us. $1#$b# He just didn't seem like someone all that much interested in a relationship, you know? $0#$b# Glad my friend is happy, though. $h",
+				"winter_Fri6": "Not gonna lie, never thought Vic would get someone the fastest from all of us. $1#$b# He just didn't seem like someone all that much interested in a relationship, you know? $0#$b# Glad my friend is happy, though. $h",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"winter9_inlaw_Victor": "Hey, @. Would you mind if I stole Victor from you for a bit? $0#$b# Oh, no worries. Just need someone to go with me to Zuzu City and help me pick a new dice set. $1",
+				"fall_Mon8_inlaw_Victor": "So, how are you and Vic doing since you two got hitched? $0#$b# That's great to hear! You go and take care of my friend, 'kay? $1",
+				"spring_Mon8_inlaw_Victor": "So, how are you and Vic doing since you two got hitched? $0#$b# That's great to hear! You go and take care of my friend, 'kay? $1",
+			}
+		},
+		
+		// SOPHIA //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sophia",
+			"When": {
+				"Language": "en",
+				"Relationship:Victor": "Dating"
+			},
+			"Entries": {
+				"spring_Wed8": "Hey, you! $1#$b# You know, @, Victor is one of my closest friends. He's, like, one of the sweetest, gentlest guys one can ever meet. $0#$b# I know we're good friends, you! BUT if you hurt his feelings, say goodbye to your kneecaps, 'kay? $8",
+				"fall_Fri8": "Hey, you! *giggle* $8#$b# Would you and Vic like to visit someday? We could have an anime night together! $h",
+				"winter_Fri8": "Hey, you! *giggle* $8#$b# Would you and Vic like to visit someday? We could have an anime night together! $h",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sophia",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Sun8_inlaw_Victor": "Hey, you! $1#$b# Say, are you and Victor making an anniversary party? Will there be some delicious cake? *giggle* $8",
+				"summer_Tue8_inlaw_Victor": "Hey, you! $1#$b# Say, are you and Victor making an anniversary party? Will there be some delicious cake? *giggle* $8",
+				"fall3_inlaw_Victor": "Hey, @. $2#$b# Would... could you and Victor come by tomorrow, if it's not too much trouble? $12#$b# Thanks. $10",
+			}
+		},
+		
+		
+		///////// OTHER VILLAGERS /////////
+		
+		
+		// GUS //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"fall_Sat_inlaw_Victor": "If you and Victor would like to have a romantic dinner at the Saloon, just say so. I'll take care of all the preparations! $1",
+				"spring_Sat_inlaw_Victor": "If you and Victor would like to have a romantic dinner at the Saloon, just say so. I'll take care of all the preparations! $1",
+			}
+		},
+		
+		// JODI //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Wed_inlaw_Victor": "Olivia is always beaming with happiness whenever she talks about you and Victor. $0#$b# You two looks like such a cute couple! *chuckle* $h",
+				"fall_Wed_inlaw_Victor": "Olivia is always beaming with happiness whenever she talks about you and Victor. $0#$b# You two looks like such a cute couple! *chuckle* $h",
+			}	
+		},
+		
+		// CAROLINE //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"summer_Thu_inlaw_Victor": "I still remember how happy Olivia was when Victor first told her about the wedding. It was right when the three of of had our usual meeting. $0#$b# It was honestly so sweet! $1#$b# *sigh* I wish Abby would find someone one day. $2",
+				"fall_Thu_inlaw_Victor": "I still remember how happy Olivia was when Victor first told her about the wedding. It was right when the three of of had our usual meeting. $0#$b# It was honestly so sweet! $1#$b# *sigh* I wish Abby would find someone one day. $2",
+				"winter_Tue_inlaw_Victor": "I wish you and Victor many happy years together! $h",
+			}	
+		},
+		
+		// LEWIS //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Lewis",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Fri_inlaw_Victor": "Ah, hello there, @. It's nice to see you. $0#$b# How are you and that young lad Victor doing? I hope you two will be happy together for years to come. $1#$e# *sigh* Though I sometimes wish the lad had picked someone less... problematic. $2",
+				"summer_Fri_inlaw_Victor": "Ah, hello there, @. It's nice to see you. $0#$b# How are you and that young lad Victor doing? I hope you two will be happy together for years to come. $1#$e# *sigh* Though I sometimes wish the lad had picked someone less... problematic. $2",
+			}
+		},
+		
+		// MARNIE //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Marnie",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring23_inlaw_Victor": "You know, hun, I sometimes envy you. You have now a husband who's pretty much head over heels for you. $3#$b# *sigh* And the one I like still doesn't want to go public... $2#$e# O-oh! You didn't hear that, did'ya hun? $4",
+				"fall_Sun6_inlaw_Victor": "I wish and and Victor many years of happy marriage! You two looks so cute together! $h",
+				"winter_Sun6_inlaw_Victor": "I wish and and Victor many years of happy marriage! You two looks so cute together! $h",
+			}	
+		},
+		
+		// CLINT //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"summer_Sun6_inlaw_Victor": "Say, @, do you have any tips on how to attract someone? $2#$b# It's just that you got married not even a whole year after moving to the valley! Please tell me your secrets... $0",
+				"winter_Sun6_inlaw_Victor": "Say, @, do you have any tips on how to attract someone? $2#$b# It's just that you got married not even a whole year after moving to the valley! Please tell me how you did it... $0",
+			}	
+		},
+		
+		// JAS //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"summer_Wed6_inlaw_Victor": "Mister @, why can't you and mister Victor have a wedding every week? ^ Miss @, why can't you and mister Victor have a wedding every week? $0#$b# I wanna eat Gus's special Pink Cake again! Honestly, it would be the bestest thing ever!! $1",
+				"winter_Wed6_inlaw_Victor": "Mister @, why can't you and mister Victor have a wedding every week? ^ Miss @, why can't you and mister Victor have a wedding every week? $0#$b# I wanna eat Gus's special Pink Cake again! Honestly, it would be the bestest thing ever!! $1",
+			}	
+		},
+		
+		// VINCENT //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"summer_Tue8_inlaw_Victor": "Mister @, why wont you and Victor have another wedding? ^ Miss @, why won't you and Victor have another wedding? $0#$b# Everyone was having so much fun! And there was lots and lots of cake! $1#$b# Why not repeat it? $0",
+				"winter_Fri8_inlaw_Victor": "Mister @, why wont you and Victor have another wedding? ^ Miss @, why won't you and Victor have another wedding? $0#$b# Everyone was having so much fun! And there was lots and lots of cake! $1#$b# Why not repeat it? $0#$b# ...Huh? What does rain have to do with it? $0",
+			}
+		},
+		
+		// EVELYN //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"winter_Thu4_inlaw_Victor": "Ah, hello there, my dear. $0#$b# I baked some cookies for you and Victor. I hope you two will enjoy them! $1#$b# Feel free to come by for some tea and cookies, you two. [223] [223] $1",
+				"fall_Sun4_inlaw_Victor": "Ah, hello there, my dear. $0#$b# I baked some cookies for you and Victor. I hope you two will enjoy them! $1#$b# Feel free to come by for some tea and cookies, you two. [223] [223] $1",
+			}
+		},		
+		
+		// ELLIOTT //
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"fall_Mon8_inlaw_Victor": "Ah, good to see you, @. How are you and Victor faring? $0#$b# Does he like the books I borrowed him? Well have to meet up at the library someday. $1#$e# ...To be fair, I've heard from Sebastian that the lad wasn't really interested in romance novels before. $2#$b# I wonder what changed. $1",
+				"spring_Thu8_inlaw_Victor": "Ah, good to see you, @. How are you and Victor faring? $0#$b# Does he like the books I borrowed him? Well have to meet up at the library someday. $1#$e# ...To be fair, I've heard from Sebastian that the lad wasn't really interested in romance novels before. $2#$b# I wonder what changed. $1",
+			}
+		},
+		
+		// EMILY //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"summer_Wed_inlaw_Victor": "Hey, @! Feel free to drop by the Saloon with Victor anytime! $1#$b# You guys could have a cute date night! And besides, it would be a good opportunity to wind down, relax with a cocktail and just catch up, you know? $1",
+				"fall15_inlaw_Victor": "Oh, @, are you going to show up at the fair tomorrow? $1#$b# Guess Victor will be happy that you're taking time off! $h",
+			}
+		},
+		
+		// HALEY //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"fall_Mon8_inlaw_Victor": "Thanks for letting me be the wedding photographer, @! It was so sweet of you! $1",
+				"summer_Sat8_inlaw_Victor": "Feel free to drop by anytime, @! $0#$b# Let's hang out and gossip with the other girls. Would be good to catch up! $h#$b# Oh, and I also tried this recipe for pink cake and I want you to be my taste tester! $h",
+				"winter_Sun8_inlaw_Victor": "Feel free to drop by anytime, @! $0#$b# Let's hang out and gossip with the other girls. Would be good to catch up! $h#$b# Oh, and I also tried this recipe for pink cake and I want you to be my taste tester! $h",
+			}
+		},
+		
+		// ALEX //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Tue6_inlaw_Victor": "'Sup, dude. How are you and Victor doing? ^ 'Sup, dudette. How are you and Victor doing? $0#$b# That's great to hear! Good for you! $1",
+				"fall_Tue6_inlaw_Victor": "'Sup, dude. How are you and Victor doing? ^ 'Sup, dudette. How are you and Victor doing? $0#$b# That's great to hear! Good for you! $1",
+			}
+		},
+		
+		// PENNY //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Thu6_inlaw_Victor": "Hello, @. It's nice to see you on this lovely day. $0#$b# How are you doing lately. I hope you and Victor are happy. $1",
+				"fall_Thu6_inlaw_Victor": "Hello, @. It's nice to see you on this lovely day. $0#$b# How are you doing lately. I hope you and Victor are happy. $1",
+			}
+		},
+		
+		// MARU //
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"When": {
+				"Language": "en",
+			},
+			"Entries": {
+				"spring_Sat6_inlaw_Victor": "Oh, hi @! How you're doing? $1#$b# Victor came by yesterday for one of my brother's tabletop gaming sessions. He's been gushing about you. $0#$e# Not gonna lie, it was pretty cute. $4",
+				"fall_Sat6_inlaw_Victor": "Oh, hi @! How you're doing? $1#$b# Victor came by yesterday for one of my brother's tabletop gaming sessions. He's been gushing about you. $0#$e# Not gonna lie, it was pretty cute. $4",
+			}
+		},	
+	
+	]
+}

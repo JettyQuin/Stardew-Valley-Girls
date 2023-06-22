@@ -1,0 +1,17 @@
+{
+  "Name": "Pugpng portraits mod",
+  "Author": "Art by Pugpng code by Pipboup",
+  "Version": "1.0.5",
+  "Description": "Harvey portraits by Pug.png coding by Pipboup",
+  "UniqueID": "ArtbyPugpngcodebyPipboup.Pugpngportaitsmod",
+ "MinimumApiVersion": "2.5",
+   "UpdateKeys": [ "Nexus:13245" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+   "Dependencies": [
+      {
+           "UniqueID": "Platonymous.Toolkit",
+      }
+	],
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "1.27.2",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Portraits/Harvey",
+            "FromFile": "assets/harvey.png"
+        },
+	{
+            "Action": "Load",
+            "Target": "Portraits/Harvey_Beach",
+            "FromFile": "assets/harvey_Beach.png"
+         },
+      ]
+}

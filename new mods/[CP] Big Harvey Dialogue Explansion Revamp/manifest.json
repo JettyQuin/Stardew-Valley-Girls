@@ -1,0 +1,10 @@
+{
+    "Name": "Big Harvey Dialogue Expansion/Revamp",
+    "Author": "romanzz",
+    "Description": "Adds over 500 new sentences of dialogue onto vanilla, and over 175 conversations. Different dialogue every day of the week, every season, every heart level, every day before festivals, and every year. Compatible with alistairweekend’s Doki Doki Harvey dialogue.",
+    "Version": "1.0.0",
+    "UniqueID": "romanzz.dialogue.expansion",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+     },
+    "UpdateKeys": [ "Nexus:8403" ] }

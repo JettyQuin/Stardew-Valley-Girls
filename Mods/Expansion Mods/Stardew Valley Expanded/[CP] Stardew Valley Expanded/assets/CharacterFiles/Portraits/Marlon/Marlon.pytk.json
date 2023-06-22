@@ -3,8 +3,8 @@
 "Scale": 4,
 "Animation": 
 {
-"FrameWidth":256,
-"FrameHeight":256,
+"FrameWidth":512,
+"FrameHeight":1024,
 "FPS":20
 }
 }

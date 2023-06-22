@@ -1,0 +1,13 @@
+{
+    "Name": "[DGA] Retro Furniture",
+    "Author": "Novaphene",
+    "Version": "1.0",
+    "Description": "A retro styled furniture converted to DGA",
+    "UniqueID": "Novaphene.RetroFurnitures",
+    "ContentPackFor": {
+        "UniqueID": "spacechase0.DynamicGameAssets"
+    },
+    "UpdateKeys": ["Nexus:0005"],
+    "DGA.FormatVersion": 2,
+    "DGA.ConditionsFormatVersion": "1.25.0"
+}

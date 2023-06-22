@@ -1,0 +1,10 @@
+[
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "code/lamps.json",
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "shopEntries.json"
+    }
+]

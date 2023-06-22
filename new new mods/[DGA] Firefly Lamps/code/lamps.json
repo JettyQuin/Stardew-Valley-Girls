@@ -1,0 +1,36 @@
+[
+
+{
+    "$ItemType": "Furniture",
+    "ID": "FireflyLampA",
+    "Type": "Lamp",
+    "ShowInCatalogue": true,
+    "Configurations": [
+        {
+            "Texture": "assets/Fireflies_A.png:0..7@10",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "FireflyLampB",
+    "Type": "Lamp",
+    "ShowInCatalogue": true,
+    "Configurations": [
+        {
+            "Texture": "assets/Fireflies_B.png:0..7@10",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+}
+
+]

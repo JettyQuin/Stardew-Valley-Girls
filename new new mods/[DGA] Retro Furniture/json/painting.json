@@ -1,0 +1,259 @@
+[
+//Paint1
+{
+    "$ItemType": "Furniture",
+    "ID": "Paint1-a",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint1.png:0",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Paint1-a"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Paint1-b",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint1.png:1",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Paint1-b"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Paint1-c",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint1.png:2",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Paint1-c"
+    }
+},
+
+
+//Paint2
+{
+    "$ItemType": "Furniture",
+    "ID": "VintageSerenade",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint2.png:0",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "PlayfulPaws",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint2.png:1",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "NostalgicWhispers",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint2.png:2",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "CherryBlossomMelodies",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint2.png:3",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+
+
+
+//Paint3
+{
+    "$ItemType": "Furniture",
+    "ID": "GoldenRadiance",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:0",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "AbstractSymphony",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:1",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "SubtleReflections",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:2",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "ModernPainting",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:3",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "WhimsicalWings",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:4",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "ButterflyDreams",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:5",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "FlutteringFantasia",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/Paint3.png:6",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 2
+        }
+    ]
+}
+
+
+]

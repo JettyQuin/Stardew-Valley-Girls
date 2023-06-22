@@ -1,0 +1,185 @@
+[
+//SingleBed
+{
+    "$ItemType": "Furniture",
+    "ID": "SingleBed-a",
+    "Type": "Bed",
+    "BedType": "Single",
+    "Configurations": [
+        {
+            "Texture": "assets/SingleBed.png:0",
+            "FrontTexture": "assets/SingleBed.png:1",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 600,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/SingleBed-a"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "SingleBed-b",
+    "Type": "Bed",
+    "BedType": "Single",
+    "Configurations": [
+        {
+            "Texture": "assets/SingleBed.png:2",
+            "FrontTexture": "assets/SingleBed.png:3",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 600,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/SingleBed-b"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "SingleBed-c",
+    "Type": "Bed",
+    "BedType": "Single",
+    "Configurations": [
+        {
+            "Texture": "assets/SingleBed.png:4",
+            "FrontTexture": "assets/SingleBed.png:5",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 600,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/SingleBed-c"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "SingleBed-d",
+    "Type": "Bed",
+    "BedType": "Single",
+    "Configurations": [
+        {
+            "Texture": "assets/SingleBed.png:6",
+            "FrontTexture": "assets/SingleBed.png:7",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 600,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/SingleBed-d"
+    }
+},
+
+
+
+//DoubleBed
+{
+    "$ItemType": "Furniture",
+    "ID": "DoubleBed-a",
+    "Type": "Bed",
+    "BedType": "Double",
+    "Configurations": [
+        {
+            "Texture": "assets/DoubleBed.png:0",
+            "FrontTexture": "assets/DoubleBed.png:1",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "DoubleBed-b",
+    "Type": "Bed",
+    "BedType": "Double",
+    "Configurations": [
+        {
+            "Texture": "assets/DoubleBed.png:2",
+            "FrontTexture": "assets/DoubleBed.png:3",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "DoubleBed-c",
+    "Type": "Bed",
+    "BedType": "Double",
+    "Configurations": [
+        {
+            "Texture": "assets/DoubleBed.png:4",
+            "FrontTexture": "assets/DoubleBed.png:5",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "DoubleBed-d",
+    "Type": "Bed",
+    "BedType": "Double",
+    "Configurations": [
+        {
+            "Texture": "assets/DoubleBed.png:6",
+            "FrontTexture": "assets/DoubleBed.png:7",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 4
+            },
+            "CollisionHeight": 3
+        }
+    ]
+}
+
+
+
+]

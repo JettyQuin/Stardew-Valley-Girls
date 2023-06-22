@@ -1,0 +1,9 @@
+[
+    {
+        "ElementType": "ConfigOption",
+        "Name": "Enable Mod",
+        "Description": "Check whether to enable or disable the mod. The default value is true (checked box). Upon un-checking (set to false), all the existing furnitures placed and items in the shop (except the walls and floors) will be removed.",
+        "ValueType": "Boolean",
+        "DefaultValue": true
+    }
+]

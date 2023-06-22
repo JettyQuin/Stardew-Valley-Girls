@@ -1,0 +1,16 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "Window1",
+        "Type": "Window",
+        "Configurations": [
+            {
+                "Texture": "assets/day_window.png",
+                "NightTexture": "assets/night_window",
+                "DisplaySize": { "X": 1, "Y": 2 },
+                "CollisionHeight": 2
+                
+            }
+        ]
+    }
+]

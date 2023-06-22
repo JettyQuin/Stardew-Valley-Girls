@@ -1,0 +1,1600 @@
+[
+//Bookcase
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-a",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:0",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-a"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-b",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:1",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-b"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-c",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:2",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-c"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-d",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:3",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-d"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-e",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:4",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-e"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-f",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:5",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-f"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-g",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:6",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-g"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-h",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:7",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-h"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Bookcase-i",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Bookcase.png:8",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 1200,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Bookcase-i"
+    }
+},
+
+
+//HangingPlants
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Daffodil Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:0",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Daffodil Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Pink Daffodil Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:1",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Pink Daffodil Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Flower Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:2",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Flower Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Cinquefoil Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:3",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Cinquefoil Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Spring Flower Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:4",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Spring Flower Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Foliage Basket #1",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:5",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Foliage Basket #1"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Daisy Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:6",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Daisy Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Nemesia Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:7",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Nemesia Basket"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Hanging Foliage Basket #2",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:8",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Hanging Foliage Basket #2"
+    }
+},
+{
+    "$ItemType": "Furniture",
+    "ID": "Trailing Foliage Basket",
+    "Type": "Painting",
+    "Configurations": [
+        {
+            "Texture": "assets/HangingPlants.png:9",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 100,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/Trailing Foliage Basket"
+    }
+},
+
+
+
+//WallPanel
+{
+    "$ItemType": "Furniture",
+    "ID": "BlackWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:0",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 290,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/BlackWallPanel"
+    }
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "ChineseThemedWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:1",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 290,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/ChineseThemedWallPanel"
+    }
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "OakWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:2",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 290,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/OakWallPanel"
+    }
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "PlainWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:3",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 290,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/PlainWallPanel"
+    }
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "YellowBlossomWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:4",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+{
+    "$ItemType": "ShopEntry",
+    "ShopId": "Carpenter",
+    "Cost": 290,
+    "Item": {
+        "Type": "DGAItem",
+        "Value": "Novaphene.RetroFurnitures/YellowBlossomWallPanel"
+    }
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "SoftBlueWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:5",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+{
+    "$ItemType": "Furniture",
+    "ID": "LightOakWallPanel",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/WallPanel.png:6",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+
+
+//Cabinet
+{
+    "$ItemType": "Furniture",
+    "ID": "Cabinet1",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Cabinet.png:0",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Cabinet2",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Cabinet.png:1",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Cabinet3",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Cabinet.png:2",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Cabinet4",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Cabinet.png:3",
+            "DisplaySize": {
+                "X": 3,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+
+//Deco1
+{
+    "$ItemType": "Furniture",
+    "ID": "D1",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:0",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D2",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:1",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D3",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:2",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D4",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:3",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D5",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:4",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D6",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:5",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D7",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:6",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D8",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:7",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D9",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:8",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D10",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:9",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D11",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:10",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D12",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:11",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D13",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:12",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D14",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:13",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D15",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:14",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D16",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:15",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D17",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:16",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "D18",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco1.png:17",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 1
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+
+//Deco2
+{
+    "$ItemType": "Furniture",
+    "ID": "De1",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:0",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De2",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:1",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De3",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:2",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De4",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:3",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De5",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:4",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De6",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:5",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De7",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:6",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De8",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:7",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De9",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:8",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De10",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:9",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De11",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:10",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De12",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:11",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De13",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:12",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De14",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:13",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De15",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:14",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De16",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:15",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De17",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:16",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "De18",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Deco2.png:17",
+            "DisplaySize": {
+                "X": 2,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+//HousePlant
+{
+    "$ItemType": "Furniture",
+    "ID": "Daisy",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:0",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "SnakePlant",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:1",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "CalatheaCrocata",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:2",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Anthurium",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:3",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "PeaceLily",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:4",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "CageFlower",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:5",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "LightStand",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:6",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "DarkStand",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:7",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Hibiscus",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:8",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Clivia",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:9",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "Lily",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:10",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "DumbCane",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:11",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "UmbrellaTree",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:12",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "RedRose",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:13",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "BlueRose",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:14",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "WhiteRose",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/HousePlant.png:15",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 2
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+
+//Plant
+{
+    "$ItemType": "Furniture",
+    "ID": "JadePlant",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Plant.png:0",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "BirdsofParadise",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Plant.png:1",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "CornPlant",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Plant.png:2",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+{
+    "$ItemType": "Furniture",
+    "ID": "WoodenShelfStand",
+    "Type": "Decoration",
+    "Configurations": [
+        {
+            "Texture": "assets/Plant.png:3",
+            "DisplaySize": {
+                "X": 1,
+                "Y": 3
+            },
+            "CollisionHeight": 1
+        }
+    ]
+},
+
+
+]

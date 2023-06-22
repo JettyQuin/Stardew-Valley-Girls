@@ -1,0 +1,216 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "Dresser1",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "assets/DresserW.png:0",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //down
+            },
+            {
+                "Texture": "assets/DresserH.png:0", //h
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+                //right
+            },
+            {
+                "Texture": "assets/DresserW.png:1",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //up
+            },
+            {
+                "Texture": "assets/DresserH.png:0",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+                //left
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "Dresser2",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "assets/DresserW.png:2",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //down
+            },
+            {
+                "Texture": "assets/DresserH.png:1", //h
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+                //right
+            },
+            {
+                "Texture": "assets/DresserW.png:3",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //up
+            },
+            {
+                "Texture": "assets/DresserH.png:1",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+                //left
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Dresser3",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "assets/DresserW.png:4",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //down
+            },
+            {
+                "Texture": "assets/DresserH.png:2", //h
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+                //right
+            },
+            {
+                "Texture": "assets/DresserW.png:5",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //up
+            },
+            {
+                "Texture": "assets/DresserH.png:2",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+                //left
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "Dresser4",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "assets/DresserW.png:6",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //down
+            },
+            {
+                "Texture": "assets/DresserH.png:3", //h
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+                //right
+            },
+            {
+                "Texture": "assets/DresserW.png:7",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //up
+            },
+            {
+                "Texture": "assets/DresserH.png:3",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+                //left
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "Dresser5",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "assets/DresserW.png:8",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //down
+            },
+            {
+                "Texture": "assets/DresserH.png:4", //h
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+                //right
+            },
+            {
+                "Texture": "assets/DresserW.png:9",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //up
+            },
+            {
+                "Texture": "assets/DresserH.png:4",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+                //left
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "Dresser6",
+        "Type": "Dresser",
+        "Configurations": [
+            {
+                "Texture": "assets/DresserW.png:10",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //down
+            },
+            {
+                "Texture": "assets/DresserH.png:5", //h
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": false
+                //right
+            },
+            {
+                "Texture": "assets/DresserW.png:11",
+                "DisplaySize": { "X": 2, "Y": 2 },
+                "CollisionHeight": 1,
+                "Flipped": false
+                //up
+            },
+            {
+                "Texture": "assets/DresserH.png:5",
+                "DisplaySize": { "X": 1, "Y": 3 },
+                "CollisionHeight": 2,
+                "Flipped": true
+                //left
+            }
+        ]
+    }
+
+]

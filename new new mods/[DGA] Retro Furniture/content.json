@@ -1,0 +1,57 @@
+[
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/armchair.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/bed.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/chair.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/couch.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/decoration.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/dresser.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/painting.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/rug.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/table.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/tv.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true}
+    },
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "json/window.json",
+        "EnableConditions": { "Query: {{Enable Mod}} = true": true} 
+    }
+]

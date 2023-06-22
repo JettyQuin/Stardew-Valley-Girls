@@ -1,0 +1,706 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "GreenChair",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/GreenChair.png:0",
+                "FrontTexture": "assets/GreenChair.png:3",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/GreenChair.png:1",
+                "FrontTexture": "assets/GreenChair.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/GreenChair.png:2",
+                "FrontTexture": "assets/GreenChair.png:5",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/GreenChair.png:1",
+                "FrontTexture": "assets/GreenChair.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "RedChair",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/RedChair.png:0",
+                "FrontTexture": "assets/RedChair.png:3",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/RedChair.png:1",
+                "FrontTexture": "assets/RedChair.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/RedChair.png:2",
+                "FrontTexture": "assets/RedChair.png:5",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/RedChair.png:1",
+                "FrontTexture": "assets/RedChair.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    {
+        "$ItemType": "Furniture",
+        "ID": "AutumnChair",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/AutumnChair.png:0",
+                "FrontTexture": "assets/AutumnChair.png:3",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/AutumnChair.png:1",
+                "FrontTexture": "assets/AutumnChair.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 1,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/AutumnChair.png:2",
+                "FrontTexture": "assets/AutumnChair.png:5",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "Seats": [
+                    {
+                        "X": 0.5,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/AutumnChair.png:1",
+                "FrontTexture": "assets/AutumnChair.png:4",
+                "DisplaySize": {
+                    "X": 2,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "Seats": [
+                    {
+                        "X": 0,
+                        "Y": 0
+                    }
+                ],
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+
+
+
+
+    //chair
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair1",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:1",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:2",
+                "FrontTexture": "assets/Chair.png:26",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:1",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair2",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:3",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:4",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:5",
+                "FrontTexture": "assets/Chair.png:29",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:4",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair3",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:6",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:7",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:8",
+                "FrontTexture": "assets/Chair.png:32",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:7",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair4",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:9",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:10",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:11",
+                "FrontTexture": "assets/Chair.png:35",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:10",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair5",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:12",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:13",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:14",
+                "FrontTexture": "assets/Chair.png:38",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:13",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair6",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:15",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:16",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:17",
+                "FrontTexture": "assets/Chair.png:41",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:16",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair7",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:18",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:19",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:20",
+                "FrontTexture": "assets/Chair.png:44",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:19",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+    
+    {
+        "$ItemType": "Furniture",
+        "ID": "Chair8",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Chair.png:21",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Down"
+            },
+            {
+                "Texture": "assets/Chair.png:22",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Right"
+            },
+            {
+                "Texture": "assets/Chair.png:23",
+                "FrontTexture": "assets/Chair.png:47",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": false,
+                "SittingDirection": "Up"
+            },
+            {
+                "Texture": "assets/Chair.png:22",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 2
+                },
+                "CollisionHeight": 1,
+                "Flipped": true,
+                "SittingDirection": "Left"
+            }
+        ]
+    },
+
+
+
+    //zabuton
+    {
+        "$ItemType": "Furniture",
+        "ID": "LimeZabuton",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Zabuton.png:0",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight":1 
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "RedZabuton",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Zabuton.png:1",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight":1 
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "YellowZabuton",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Zabuton.png:2",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight":1 
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "PurpleZabuton",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Zabuton.png:3",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight":1 
+            }
+        ]
+    },
+
+    {
+        "$ItemType": "Furniture",
+        "ID": "AquaZabuton",
+        "Type": "Chair",
+        "Configurations": [
+            {
+                "Texture": "assets/Zabuton.png:4",
+                "DisplaySize": {
+                    "X": 1,
+                    "Y": 1
+                },
+                "CollisionHeight":1 
+            }
+        ]
+    },
+]

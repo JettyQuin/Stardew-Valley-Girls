@@ -1,0 +1,146 @@
+[
+    {
+        "$ItemType": "Furniture",
+        "ID": "Cooker",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Cooker.png",
+                "DisplaySize": { "X": 1, "Y": 4 },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "kitchen"
+                        },	
+                    },
+                }
+            }
+        ]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Kitchen Cabinets",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+                "Texture": "Assets/Kitchen Cabinets.png:0",
+                "DisplaySize": { "X": 1, "Y": 4 },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "kitchen"
+                        },	
+                    },
+                }
+            },
+			{
+                "Texture": "Assets/Kitchen Cabinets.png:1",
+                "DisplaySize": { "X": 1, "Y": 4 },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "kitchen"
+                        },	
+                    },
+                }
+            },
+			{
+                "Texture": "Assets/Kitchen Cabinets.png:2",
+                "DisplaySize": { "X": 1, "Y": 4 },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "kitchen"
+                        },	
+                    },
+                }
+            },
+			{
+                "Texture": "Assets/Kitchen Cabinets.png:3",
+                "DisplaySize": { "X": 1, "Y": 4 },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "kitchen"
+                        },	
+                    },
+                }
+            },
+		]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Kitchen counter large",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+                "Texture": "Assets/Kitchen counter large.png:0",
+                "DisplaySize": { "X": 1, "Y": 10 },
+                "CollisionHeight": 7,
+            },
+			{
+                "Texture": "Assets/Kitchen counter large.png:1",
+                "DisplaySize": { "X": 1, "Y": 10 },
+                "CollisionHeight": 7,
+            },
+		]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Kitchen counter medium",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+                "Texture": "Assets/Kitchen counter medium.png:0",
+                "DisplaySize": { "X": 1, "Y": 8 },
+                "CollisionHeight": 5,
+            },
+			{
+                "Texture": "Assets/Kitchen counter medium.png:1",
+                "DisplaySize": { "X": 1, "Y": 8 },
+                "CollisionHeight": 5,
+            },
+		]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Kitchen counter small",
+        "Type": "Decoration",
+		"Configurations": [
+            {
+                "Texture": "Assets/Kitchen counter small.png:0",
+                "DisplaySize": { "X": 1, "Y": 6 },
+                "CollisionHeight": 3,
+            },
+			{
+                "Texture": "Assets/Kitchen counter small.png:1",
+                "DisplaySize": { "X": 1, "Y": 6 },
+                "CollisionHeight": 3,
+            },
+		]
+    },
+	{
+        "$ItemType": "Furniture",
+        "ID": "Kitchen Sink",
+        "Type": "Decoration",
+        "Configurations": [
+            {
+                "Texture": "Assets/Kitchen Sink.png",
+                "DisplaySize": { "X": 1, "Y": 4 },
+                "CollisionHeight": 1,
+				"TileProperties": {
+					"0, 0": {
+                        "Buildings": {
+                            "Action": "kitchen"
+                        },	
+                    },
+                }
+            }
+        ]
+    },
+]

@@ -1,0 +1,17 @@
+{
+    "Name": "Medieval Daphne's Ice Cream Truck",
+    "Author": "Shyzie",
+    "Version": "1.0.0",
+    "Description": "A seasonal medieval Daphne's Ice Cream Truck.",
+    "UniqueID": "Shyzie.Medieval.IceCreamTruck",
+    "UpdateKeys": [ "Nexus:16466" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+	"Dependencies": [
+	{
+		"UniqueID": "PeacefulEnd.SolidFoundations",
+		"IsRequired": true
+	}
+	]
+}

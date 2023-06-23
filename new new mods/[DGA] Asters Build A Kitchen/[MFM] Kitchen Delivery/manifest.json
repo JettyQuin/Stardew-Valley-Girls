@@ -1,0 +1,16 @@
+{
+	"Name": "[MFM] Build A Kitchen",
+	"Author": "Asterisk555",
+	"Description": "Build A Kitchen mail",
+	"Version": "1.0",
+	"UniqueID": "Asterisk555.MFM.BuildAKitchen",
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+	},
+	"Dependencies": [
+		{
+      "UniqueID": "Asterisk555.DGA.Kitchen",
+      "IsRequired": true
+   }
+   ]
+}

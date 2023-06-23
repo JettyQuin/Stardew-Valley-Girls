@@ -1,0 +1,39 @@
+[
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk555.DGA.Kitchen/Cooker" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk555.DGA.Kitchen/Kitchen Cabinets" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk555.DGA.Kitchen/Kitchen counter large" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk555.DGA.Kitchen/Kitchen counter medium" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk555.DGA.Kitchen/Kitchen counter small" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  {
+    "$ItemType": "ShopEntry",
+    "Item": { "Value": "Asterisk555.DGA.Kitchen/Kitchen Sink" },
+    "ShopId": "Carpenter",
+    "Cost": 500,
+  },
+  
+]

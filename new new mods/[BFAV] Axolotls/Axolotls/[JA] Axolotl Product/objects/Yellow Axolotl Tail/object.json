@@ -1,0 +1,15 @@
+{
+    "Name": "Yellow Axolotl Tail",
+    "Description": "Don't worry, it grows back.",
+    "Category": "AnimalGoods",
+    "Edibility": 10,
+    "Price": 300,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":  { 
+		"Love": [""], 
+    },
+    "ContextTags": [
+        "color_yellow",
+    ]
+}

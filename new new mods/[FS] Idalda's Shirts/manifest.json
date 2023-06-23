@@ -1,0 +1,10 @@
+{
+   "Name": "[FS] IdaIda's Shirts",
+   "Author": "Idaida",
+   "Version": "1.0.0",
+   "Description": "Adds shirts for Fashion Sense.",
+   "UniqueID": "IdaIda.Shirts.FS",
+   "ContentPackFor":	{
+	 "UniqueID": "PeacefulEnd.FashionSense"
+	}
+}

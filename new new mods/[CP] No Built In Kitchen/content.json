@@ -1,0 +1,61 @@
+{
+	"Format": "1.25.0",
+	
+	"DynamicTokens": [
+		{
+			"Name": "FH2_Vanilla",
+			"Value": "true"
+		},
+		{
+			"Name": "FH2_Vanilla",
+			"Value": "false",
+			"When": {
+				"HasMod": "Asterisk555.CP.AnotherSmallerFarmhouse"
+			}
+		},
+		{
+			"Name": "FH2_Leftcrop_2",
+			"Value": "true",
+			"When": {
+				"HasMod": "Asterisk555.CP.AnotherSmallerFarmhouse"
+			}
+		}
+	],
+	
+	"Changes": [
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1",
+        "FromFile": "Assets/FarmHouse1_NoKitchen.TMX",
+		"FromArea": {"X": 1, "Y": 2, "Width": 6, "Height": 7},
+        "ToArea": {"X": 1, "Y": 2, "Width": 6, "Height": 7}
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage",
+        "FromFile": "Assets/FarmHouse1_NoKitchen.TMX",
+		"FromArea": {"X": 1, "Y": 2, "Width": 6, "Height": 7},
+        "ToArea": {"X": 1, "Y": 2, "Width": 6, "Height": 7}
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "FromFile": "Assets/FarmHouse2_NoKitchen.TMX",
+		"FromArea": {"X": 1, "Y": 11, "Width": 9, "Height": 9},
+        "ToArea": {"X": 1, "Y": 11, "Width": 9, "Height": 9},
+		"When": {
+				"FH2_Vanilla": "true"
+			}
+		},
+		{
+        "Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+        "FromFile": "Assets/FarmHouse2_NoKitchen.TMX",
+		"FromArea": {"X": 3, "Y": 11, "Width": 7, "Height": 9},
+        "ToArea": {"X": 3, "Y": 11, "Width": 7, "Height": 9},
+		"When": {
+				"FH2_Leftcrop_2": "true"
+			}
+		}
+	]
+}

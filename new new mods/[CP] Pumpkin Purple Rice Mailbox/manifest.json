@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] Pumpkin Purple Rice Mailbox",
+   "Author": "luoli",
+   "Description": "南瓜紫米信箱.",
+   "Version": "1.5",
+   "UniqueID": "luoli.PumpkinPurpleRiceMailbox",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+   "UpdateKeys": [ "" ],
+}

@@ -1,0 +1,260 @@
+{
+   
+    //ALE MAIL TEXT
+    
+    "ale-keg.text":"@, ^^ Vous avez peut-être entendu parler de bière blonde, mais ce n'est que la pointe de l'iceberg en matière de bières de qualité. Essayez de fabriquer vous-même l'un de ces fûts : ajoutez des fruits et du houblon et préparez-vous à être émerveillé. Oh et n'oubliez pas de partager, hein ?^^ - Pam",
+    "shane-gift.text":"@, ^^ Alors Pam t'a envoyé ces plans pour un nouveau baril de bière, n'est-ce pas ? Cela semble plutôt cool pour être honnête. Elle a dit que tu aurais besoin de beaucoup de résine de chêne, alors j'ai pensé t'en envoyer que Jas et moi avons saignée dans la forêt l'année dernière comme projet.^^ - Shane",
+    "elliott-gift.text":"@, ^^ Des bières spéciales brassées localement ? Cela semble absolument fabuleux ! Je n'y connais pas grand chose en brassage, mais je sais qu'il te faut du houblon ! Donc voilà pour toi!^^ - Elliott",
+    "kent-gift.text":"@, ^^ Quand j'étais à l'étranger, un de mes compatriotes venait des Gem Sea Isles. Il avait l'habitude de parler indéfiniment des bières infusées à la mangue. Si vous parvenez à le brasser, j'adorerais l'essayer.^^ - Kent",
+    
+    //BEV MAIL TEXT
+    
+    "juice-station.text":"@, ^^ La ferme avance à grands pas, et j'imagine que d'ici peu vous aurez plein de fruits en plus ! Robin a partagé ces plans pour un presse-agrumes avec moi il y a longtemps, mais cela vous sera probablement plus utile qu'à moi !^^ - Jodi",
+    "boba-station.text":"@, ^^ Faire votre propre thé à bulles est comme une expérience scientifique que vous pouvez boire par la suite. Ce n'est pas quelque chose que je recommanderais avec la plupart des expériences scientifiques, mais n'hésitez pas à partager votre thé à bulles avec moi à tout moment !^^ - Maru",
+    "evelyn-gift.text":"@, ^^ Vous savez que j'adore le thé, alors cela ne devrait pas vous surprendre que j'apprécie aussi le thé glacé ! Ces petits citrons font une belle addition au thé, chaud ou froid. J'espère que vous leur trouverez un bon usage !^^ - Evelyn",
+    "emilybev-gift.text":"@, ^^ Maru m'a dit qu'elle avait partagé avec vous des plans pour une station boba ! Ce est tellement cool! Savez-vous que vous pouvez fabriquer des perles boba à partir des racines d'hiver que vous déterrez ici pendant les mois les plus froids ? Partagez du thé à bulles avec moi quand vous en préparez d'accord ??! J'aimerais en partager quelques-unes avec vous.^^ - Emily",
+    "lewis-gift.text":"@, ^^ J'adore un verre de limonade fraîche, mais tu sais que tu peux aussi faire de la limonade ? Je fais pousser un petit tilleul chez moi depuis quelques années maintenant; Pourquoi n'essayez-vous pas d'en utiliser quelques-uns dans vos jus ?^^ - Lewis",
+    
+    
+    //CANDY MAIL TEXT
+
+    "candy-station.text":"@, ^^ Ne vous méprenez pas; Je ne mange pas de bonbons. Cependant, il y a plusieurs junimos qui ont insisté pour que je vous envoie cette recette et qui ne quitteraient pas ma tour tant que je ne l'aurais pas fait. J'espère maintenant que je peux avoir un peu de paix et de tranquillité.^^ - Wizard",
+    "vincentcandy-gift.text":"@, ^^ Allez-vous être un producteur de bonbons maintenant ? ! J'aimerais pouvoir être un producteur de bonbons, ce serait tellement cool. J'ai trouvé ces champignons dans les bois et ils ressemblent à des bonbons alors j'ai pensé les partager avec vous !^^ - Vincent",
+    "abigail-gift.text":"@, ^^ Je n'ai pas l'habitude de partager les choses que je trouve dans les mines avec qui que ce soit, mais j'ai entendu dire que vous aviez des moyens de faire des bonbons maintenant. Disons simplement que j'apprécierais vraiment un bonbon rock si jamais vous aviez envie de partager...^^ - Abigail",
+    "penny-gift.text":"@, ^^ Je dois admettre que j'ai une petite dent sucrée. Je trouve aussi que la plupart des bonbons sont si jolis et colorés. Je pense que vous pouvez transformer ces fleurs en bonbons; tiens moi au courant si tu trouves comment !^^ - Penny",
+    
+    //COFFEE MAIL TEXT
+
+    "coffee-brewer.text":"@, ^^ Je trouve que préparer du café est un passe-temps relaxant et j'ai donc pensé partager avec vous les plans de ma cafetière préférée. N'oubliez pas que trop de caféine peut vous rendre nerveux, alors tout est consommé avec modération !^^ - Harvey",
+    "haley-gift.text":"@, ^^ Ça pue qu'on n'a pas de petit café mignon dans cette ville, mais au moins maintenant je peux te rendre visite pour un bon latte. Peut-être me faire du moka latte lors de ma prochaine visite ?^^ - Haley",
+    "george-gift.text":"@, ^^ Evelyn a ses thés, mais donnez-moi une bonne tasse de café fort tous les jours. Elle m'a fait ce café au lait à la vanille une fois... c'était plutôt bon, je suppose. Quoi qu'il en soit, vous pouvez peut-être en faire un avec ces gousses de vanille.^^ - George",
+    "sebastian-gift.text":"@, ^^ Avez-vous déjà essayé de préparer une infusion froide? Il contient toujours toute la caféine et la saveur sans aucune amertume, donc je le recommanderais sans hésiter. Ici. ceux-ci pourraient vous aider à trouver un mélange d'infusion froide si vous les utilisez correctement.^^ - Sebastian",
+    
+    //FLORAL MAIL TEXT
+
+    "fragrance-station.text":"@, ^^ J'ai découpé ça dans un de mes magazines. Fabriquer ses propres essences et parfums infusés est tellement tendance en ce moment ! Peut-être pouvez-vous l'essayer avec des fleurs de votre ferme ?^^ - Haley",
+    "flower-station.text":"@, ^^ Saviez-vous que vous pouvez transformer des fleurs en pétales séchés, en pot-pourri et même en bougies parfumées ? J'aime le faire avec les fleurs que Jas rapporte à la maison, mais avec vos fleurs, vous pourriez probablement gagner pas mal d'argent en travaillant avec une machine comme celle-ci !^^ - Marnie",
+    "flower-tub.text":"@, ^^ Vous m'avez vu m'occuper des parterres de fleurs en ville, mais j'aime aussi faire des bouquets et des choses à la maison. Avec la recette d'un pot de farines sauvages, vous assemblerez de magnifiques bouquets en un rien de temps.^^ - Evelyn",
+    "jas-gift.text":"@, ^^ Tante Marnie t'a envoyé une lettre sur les fleurs et je voulais donc t'en écrire une aussi ! Nous avons trouvé ensemble ces jolies fleurs odorantes dans la forêt et elle a dit que vous les aimeriez alors c'est parti !^^ - Jas",
+    "sandyfloral-gift.text":"@, ^^ Comment se passe la floriculture ? J'aimerais que le désert puisse supporter plus de fleurs, mais il fait tellement chaud ici. Un de mes amis des Gem Isles m'a envoyé ceux-ci et j'ai pensé que vous pourriez peut-être les garder dans votre serre...^^ - Sandy",
+    "emily-gift.text":"@, ^^ Evelyn a parlé de vos nouveaux projets de fleurs et je voulais donc vous aider ! Je pense que les roses féeriques feraient un superbe bouquet d'automne, pas vous ?^^ - Emily",
+    
+   
+    //FROZEN MAIL TEXT
+    
+    "treat-maker.text":"@, ^^ Dans les temps anciens, les villageois se rendaient dans les montagnes enneigées pour obtenir de la glace, puis la transportaient jusqu'au village pour préparer des mets glacés. Je suis content que nous ayons la science maintenant.^^ - Demetrius",
+    "blast-chiller.text":"@, ^^ Vous amusez-vous avec les plans de machine que Demetrius vous a envoyés ? J'aurais aimé qu'il me fasse savoir qu'il les envoyait car je les aurais inclus pour ma nouvelle cellule de refroidissement rapide ! Assurez-vous simplement d'en partager avec lui, d'accord ? Cet homme adore ses friandises glacées !^^ - Robin",
+    "vincent-gift.text":"@, ^^ JE CRIE POUR DE LA CRÈME GLACÉE ! Ne serait-ce pas cool si tu criais ça et que de la crème glacée apparaissait comme par magie dans ta main ? Je perdrais ma voix, je crierais pour avoir de la glace toute la journée ! Pouvez-vous faire de la crème glacée avec ceux-ci, je les ai trouvés dans les bois, ils sentent bon.^^ - Vincent",
+    "jodifrozen-gift.text":"@, ^^ Vincent a été tellement enthousiasmé par la crème glacée que j'ai peur qu'il en fasse trop. Pouvez-vous essayer de faire du yaourt glacé et voir s'il le mangera à la place ? Au moins, j'aurai l'impression qu'il mange quelque chose de plus sain.^^ - Jodi",
+    "sam-gift.text":"@, ^^ Faire de la glace maison hein ? Y a-t-il quelque chose que vous n'essayerez pas ? Sérieusement, ça a l'air super cool ! Je pense que ces champignons pourraient vous aider, je pense avoir lu qu'ils produisaient du lait quelque part, mais j'espère qu'ils ne sont pas toxiques...^^ - Sam",
+
+
+    //MEAD MAIL TEXT
+
+    "mead-keg.text":"@, ^^ Vous êtes-vous déjà demandé si différents fruits et fleurs pouvaient affecter la saveur de votre hydromel ? Ils peuvent! Essayez de fabriquer l'un de ces fûts d'hydromel spécialisés et vous serez étonné des nouveaux hydromels que vous pouvez distiller.^^ - Gus",
+    "gus-gift.text":"@, ^^ Willy a mentionné que vous envisagez de distiller des hydromels de spécialité ! Vous aurez besoin de quelques-uns d'entre eux pour vous lancer alors, n'est-ce pas?^^ - Gus",
+    "clint-gift.text":"@, ^^ Euh, bonjour. Les lettres, ce n'est pas vraiment mon truc, mais je pense que c'est cool que tu essayes de faire des hydromels différents. J'ai pensé que cela pourrait aider.^^ - Clint",
+    "sandy-gift.text":"@, ^^ Salut ma chérie ! Saviez-vous que le fruit du cactus fait un excellent hydromel ? Vous pouvez l'appeler la spécialité de Sandy si vous le souhaitez !^^ - Sandy",
+
+    //PANTRY MAIL TEXT
+
+    "kitchen-mortar.text":"@, ^^ Si vous fabriquez vous-même l'un de ces mortiers de cuisine, vous pouvez commencer à fabriquer des farines et des sucres spéciaux ! Ils sont parfaits pour cuisiner, mais vous pouvez aussi me les vendre pour un bon profit. Ce serait bien d'élargir l'offre de la boutique !^^ - Pierre",
+    "kitchen-blender.text":"@, ^^ J'ai investi dans l'un de ces mélangeurs une fois que les gens ont commencé à me demander du café avec des laits sans produits laitiers. Ceux-ci sont trop chers à importer, alors maintenant je fais le mien, mais vous devriez aussi l'essayer. Je pense que cela peut faire d'autres choses aussi, alors voyez ce que vous pouvez découvrir !^^ - Gus",
+    "harvey-gift.text":"@, ^^ Un de mes patients était allergique aux cacahuètes et sa mère m'a raconté comment elle était passée aux beurres de noix. J'étais sceptique au début, mais maintenant je suis une grande fan du beurre d'amande ! Je parie que vous pourriez faire du beurre de pistache avec ça.^^ - Harvey",
+    "jodi-gift.text":"@, ^^ Ne le dis à personne, mais j'ai l'impression que Sam pourrait être intolérant au lactose. Je suis secrètement passé au lait sans produits laitiers et il n'a pas remarqué la différence, mais j'ai bien sûr...^^ -Jodi",
+    "marnie-gift.text":"@, ^^ Alors Gus a partagé les plans d'un mixeur de cuisine ? C'est fantastique! Vous pouvez faire beaucoup de produits laitiers de spécialité avec ça. Cette crème fraîche de mes vaches devrait vous aider à démarrer.^^ -Marnie",
+    
+    //TEA TEXT
+    "tea-kettle.text":"@, ^^ Si vous voulez vraiment vous lancer dans la préparation du thé, vous devriez essayer de fabriquer l'une de ces bouilloires. Il a aussi un moyen intégré de faire des sachets de thé ! J'aimerais essayer tous les nouveaux thés que vous créez.^^ - Caroline",
+    "evelyn-sample.text":"@, ^^ J'ai entendu dire que vous en appreniez plus sur la préparation du thé ! Quelle merveilleuse aventure vous vous apprêtez à commencer. Ici : ce sont des graines de camomille de mon jardin. Les fleurs font une tisane apaisante qui aide à dormir.^^ - Evelyn",
+    "leah-sample.text":"@, ^^ Comment se passe la préparation du thé ? Si vous avez du mal à récolter suffisamment de feuilles de thé, je serais heureuse de partager quelques graines avec vous ! Ceux-ci feront des buissons de thé robustes afin que vous puissiez faire tout le thé que vous voulez.^^ - Leah",
+    "maru-sample.text":"@, ^^ Saviez-vous que vous pouvez fermenter le thé en kombucha ? Ce n'est pas la tasse de thé de tout le monde (désolé pour le jeu de mots) mais je trouve que c'est pétillant et délicieux ! Vous voudrez commencer à cultiver certains de ces champignons pour aider à la fermentation.^^ - Maru",
+    
+    
+//SPECIAL ORDERS MAIL TEXT-----------------------------------------------------------------------------------------------------------
+
+// ALE REWARDS MAIL
+ 
+"alereward2.title": "Une surprise pour mon producteur de bière préféré",
+"alereward2.text":"Merci encore d'avoir partagé une partie de cette bière avec moi. Je suppose que cela pourrait vous aider à faire des bières encore plus étranges (mais bonnes), mais n'oubliez pas de partager avec moi, d'accord ?",
+
+"alereward3.title": "Un petit signe de remerciement",
+"alereward3.text": "Quelle sélection ! Cela aidera vraiment à mettre Stardrop Saloon sur la carte. Voici un petit quelque chose pour montrer mes remerciements et mon appréciation.",
+
+"alereward4.title": "Merci ; plus ma recette secrète de poisson-frites à la bière !",
+"alereward4.text": "Cette variété est exactement ce dont nous avions besoin pour la soirée cartes. Ce fut un énorme succès ! Voici une de mes recettes secrètes qui se marie très bien avec une bonne infusion.",
+
+"alereward5.title": "Félicitations !",
+"alereward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Brasseur. Veuillez le prendre comme une récompense.",
+
+//BAKERY REWARDS MAIL
+ 
+"bakeryreward2.title": "Merci !",
+"bakeryreward2.text": "Maintenant, VOICI ce que j'appelle des tartelettes ! Ces enfants ne voudront plus jamais un de ces morceaux de carton préemballés.",
+
+"bakeryreward3.title": "Merci <3",
+"bakeryreward3.text": "Ooo je me sens déjà plus fantaisiste en les regardant. Ma journée de soins personnels va être incroyable maintenant ; merci encore !",
+
+"bakeryreward4.title": "Merci ; ainsi que des instructions pour fabriquer des boîtes de boulangerie !",
+"bakeryreward4.text": "Elles sont parfaites ! Est-ce que ça vous dérangerait si je disais à Evelyn que je les ai faites ? Juste pour cette fois ? Oh merci, ma chérie, j'apprécie vraiment !",
+
+"bakeryreward5.title": "Félicitations !",
+"bakeryreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Pâtissier. Veuillez le prendre comme une récompense.",
+
+//BEVERAGES REWARDS MAIL
+ 
+"drinkreward2.title": "Merci !",
+"drinkreward2.text": "Qui aurait deviné que je tomberais éperdument amoureux du thé à bulles ! Merci de partager cela avec moi, fermier. Voici un petit quelque chose pour votre problème.",
+
+"drinkreward3.title": "Boissons glacées",
+"drinkreward3.text": "Ah maintenant, je me souviens ! Je les aime tous les deux ! À l'époque, nous mélangeions moitié limonade, moitié thé glacé et le buvions en jouant au golf. J'ai joint la recette au cas où vous voudriez Essaie.",
+
+"drinkreward4.title": "Merci ; plus ma super recette secrète de soda",
+"drinkreward4.text": "Merci encore pour les jus de fruits ! Ils étaient délicieux, mais j'ai appris qu'ils ne sont pas vraiment meilleurs pour moi que les sodas, alors c'est un retour à la planche à dessin pour moi. Autant partager ma recette de soda maison avec vous, cependant, comme une façon de dire merci.",
+
+"drinkreward5.title": "Félicitations !",
+"drinkreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le 1er prix du concours Sensational Sips. Veuillez le prendre comme une récompense.",
+
+//CANDY REWARDS MAIL
+ 
+"candyreward2.title": "MERCI !!",
+"candyreward2.text": "Ça a l'air si bon. Si seulement maman me laissait passer du fil dentaire avec ça au lieu de cette grosse ficelle...",
+
+"candyreward3.title": "Merci ; ainsi que des instructions sur la fabrication de cannes de sucre décoratives !",
+"candyreward3.text": "Ce sont exactement comme ceux que maman avait l'habitude de ramener à la maison après de longs voyages en camion. Je vais aimer les partager avec elle.",
+
+"candyreward4.title": "Merci ; ainsi que ma recette secrète de pomme sucrée !",
+"candyreward4.text": "Croquants, sucrés et bons à manger. Je pars partager avec Seb et Sam, mais non sans partager avec vous ma recette top secrète de bonbons.",
+
+"candyreward5.title": "Félicitations !",
+"candyreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Confiseur. Veuillez le prendre comme une récompense.",
+
+//COFFEE REWARDS MAIL
+ 
+"coffeereward2.title": "Merci encore !",
+"coffeereward2.text": "Peut-être que j'ai besoin de plus que JUSTE les lattes pour être à l'heure, mais c'est certainement une bonne façon de commencer ! Voici un petit accessoire qui pourrait vous plaire !",
+
+"coffeereward3.title": "Merci pour les bières.",
+"coffeereward3.text": "Je suis peut-être un oiseau de nuit, mais cela m'aidera peut-être à me réveiller avant midi. Voici quelque chose pour vous si vous cherchez à venir me chercher.",
+
+"coffeereward4.title": "Merci, plus ma recette secrète pour Dirty Chai !",
+"coffeereward4.text": "Je ne comprends pas vraiment pourquoi tout ce remue-ménage, mais si les jeunes sont heureux de passer acheter une tasse à l'automne, ça me suffit ! Maintenant, si vous voulez VRAIMENT bonne boisson, essayez ma recette secrète ici...",
+
+"coffeereward5.title": "Félicitations !",
+"coffeereward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Torréfacteur. Veuillez le prendre comme une récompense.",
+
+//FLORAL REWARDS MAIL
+ 
+"floralreward2.title": "Merci ; ainsi que des instructions sur la fabrication d'un épouvantail floral !",
+"floralreward2.text": "Je ne vous remercierai jamais assez pour le bouquet ! J'ai trouvé ce plan en traînant chez Seb... peut-être que vous pouvez l'utiliser ?",
+
+"floralreward3.title": "Merci beaucoup !",
+"floralreward3.text": "VOUS ÊTES UNE VIE SAUVEUR. Une fille ne devrait jamais se passer de son parfum préféré, vous savez.",
+
+"floralreward4.title": "Merci ; plus quelques entrées de champignons !",
+"floralreward4.text": "Ils sont parfaits pour mes expériences ! Saviez-vous que le terme réel pour faire du savon est saponification ? Non ? Eh bien, je vais les tester par rapport à mes propres concoctions !.",
+
+"floralreward5.title": "Félicitations !",
+"floralreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Fleuriste. Veuillez le prendre comme une récompense.",
+
+//FROZEN REWARDS MAIL
+ 
+"frozenreward2.title": "Merci !",
+"frozenreward2.text": "Des sucettes glacées. Quelle merveilleuse invention. Tu devras m'apprendre à les fabriquer un jour. J'espère que ces trésors de la mine t'aideront à faire beaucoup plus de sucettes glacées.",
+
+"frozenreward3.title": "Merci ; plus une nouvelle recette !",
+"frozenreward3.text": "Le menu est parfait maintenant grâce à vous ! J'avais des restes de glaces et j'ai trouvé une nouvelle recette pour une crème glacée enrobée de chocolat... j'ai pensé que vous devriez être le premier à l'essayer ! ",
+
+"frozenreward4.title": "Merci ; plus ma recette de glaces aux feux d'artifice !",
+"frozenreward4.text": "Ces sandwichs me ramènent vraiment. Merci pour le partage, agriculteur. Voici une recette pour une autre gâterie glacée nostalgique que j'adorais pendant la saison des feux d'artifice d'été.",
+
+"frozenreward5.title": "Félicitations !",
+"frozenreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le 1er prix du concours Frozen Feast. Veuillez le prendre comme une récompense.",
+   
+//JAM REWARDS MAIL
+ 
+"jamreward2.title": "Merci !",
+"jamreward2.text": "Oh Dieu merci ! Peut-être qu'avec ça, je peux lui faire prendre son petit-déjeuner en le mettant sur un bagel.",
+
+"jamreward3.title": "Merci encore !",
+"jamreward3.text": "Wow ! Pancakes vient de recevoir une sérieuse mise à jour grâce à ceux-ci !",
+
+"jamreward4.title": "Merci ; plus ma recette secrète de caillé de Pina Colada !",
+"jamreward4.text": "C'est super ! Maintenant, je n'ai plus jamais à m'inquiéter de choses comme le scorbut.",
+
+"jamreward5.title": "Félicitations !",
+"jamreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Master Canner. Veuillez le prendre comme une récompense.",
+
+//MEAD REWARDS  MAIL
+ 
+"meadreward3.title": "Merci ; ainsi que ma recette secrète pour brasser du vin de pissenlit !",
+"meadreward3.text": "Les hydromels que vous avez livrés sont exactement ce que je cherchais ! Les nuits d'été au Stardrop Saloon vont être un succès retentissant !",
+
+"meadreward4.title": "Merci ; ainsi que des instructions pour fabriquer des peluches Junimo !",
+"meadreward4.text": "Doux et épicés, ces hydromels que vous avez déposés sont parfaits pour notre soirée entre filles.",
+
+"meadreward5.title": "Félicitations !",
+"meadreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître brasseur d'hydromel. Veuillez le prendre comme une récompense.",
+
+//PANTRY REWARDS MAIL
+ 
+"pantryreward2.title": "Merci ; ainsi que ma recette secrète d'horchata !",
+"pantryreward2.text": "Fabriqué à partir de choses comme du riz, des noix et même des noix de coco ? Splendide ! Ce devrait être une excellente alternative pour mes patients.",
+
+"pantryreward3.title": "Merci beaucoup !",
+"pantryreward3.text": "Génial ! Avec ça, je vais certainement pouvoir me muscler encore mieux qu'avant !",
+
+"pantryreward4.title": "Merci encore",
+"pantryreward4.text": "Peut-être qu'avec ça, nous ne manquerons pas de farine en un jour... j'espère.",
+
+"pantryreward5.title": "Félicitations !",
+"pantryreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître Artisan. Veuillez le prendre comme une récompense.",
+
+//PIXIE REWARDS  MAIL
+ 
+"pixiereward2.title": "Merci, plus une recette secrète pour brasser de la bière pâtissière ? !",
+"pixiereward2.text": "D'accord, ces cerises que vous avez déposées sont DÉFINITIVEMENT bizarres. Mais dans le bon sens. En quelque sorte, je pense que cette bière pâtissière est aussi étrangement bonne !",
+
+"pixiereward3.title": "Merci, plus une recette secrète pour brasser de la bière à gâteau ? !",
+"pixiereward3.text": "Ces raisins que vous avez déposés ont l'air presque magiques ! Je parie qu'ils feront du bon jus de raisin ou du vin.",
+
+"pixiereward4.title": "Merci, ami butineur.",
+"pixiereward4.text": "Les couleurs et les parfums de ces fleurs sont d'un autre monde. Je vous remercie vraiment de partager de si belles découvertes avec moi.",
+
+"pixiereward5.title": "Félicitations !",
+"pixiereward5.text": "YAY jolies fleurs et fruits ! Vous êtes maintenant officiellement l'humain préféré de Junimos ! Nous offrons du brillant en récompense !",
+
+//TEA REWARDS MAIL
+ 
+"teareward2.title": "Merci ; plus quelques graines de thé !",
+"teareward2.text": "Eh bien, n'allons-nous pas avoir le thé victorien parfait avec ça !",
+
+"teareward3.title": "Merci, plus quelques entrées de champignons !",
+"teareward3.text": "Oh, c'est plus pétillant que je ne l'imaginais ! Mais étonnamment savoureux.",
+
+"teareward4.title": "Merci encore !",
+"teareward4.text": "Ces odeurs sont si apaisantes que je parie que je m'endormirai avant de toucher l'oreiller ce soir !",
+
+"teareward5.title": "Félicitations !",
+"teareward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de Maître brasseur de thé. Veuillez le prendre comme une récompense.",
+
+ //WILD FOOD REWARDS MAIL
+ 
+"wildfoodreward2.title": "Merci ; ainsi que des instructions pour fabriquer un panier de baies fait maison.",
+  "wildfoodreward2.text": "Ces baies sont parfaites pour ma tarte ! Merci beaucoup de les avoir trouvées pour moi.",
+ 
+  "wildfoodreward3.title": "Une note de remerciement et quelques entrées de champignons !",
+  "wildfoodreward3.text": "Je suis sur le point de trouver la source de protéines végétaliennes parfaite ! Merci pour toute votre aide.",
+ 
+  "wildfoodreward4.title": "Une note de remerciement et quelques autres entrées de champignons !",
+  "wildfoodreward4.text": "C'est exactement ce que j'espérais ! Je vais les mettre dans mon journal tout de suite !",
+ 
+  "wildfoodreward5.title": "Félicitations !!",
+  "wildfoodreward5.text": "Votre dévouement est impressionnant. Nous sommes fiers de vous offrir le titre de maître butineur. Veuillez le prendre comme une récompense.",
+
+  
+
+
+
+    }
+    

@@ -1,0 +1,29 @@
+{
+    "Name": "wf vanilla extract",
+    "Description": "...",
+    "Category": "ArtisanGoods",
+    "TranslationKey": "vanilla-extract",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+        "Love": ["Emily", "Gus", "Harvey", "Leah"],
+        "Like": ["Abigail", "Demetrius", "Dwarf", "Elliott", "Haley", "Krobus", "Maru", "Pierre", "Sandy"],
+        "Neutral": ["Caroline", "Linus", "Penny", "Sam","Sebastian"],
+        "Dislike":["Alex", "Clint", "Jas", "Jodi", "Leo", "Marnie", "Pam", "Robin", "Vincent"],
+        "Hate": ["Evelyn", "George", "Kent", "Lewis","Shane", "Willy", "Wizard"]
+      },
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+
+    "ContextTags":
+      [
+      "gourmet_item",
+      "ingredient_item",
+      "color_dark_brown"
+      ]
+}

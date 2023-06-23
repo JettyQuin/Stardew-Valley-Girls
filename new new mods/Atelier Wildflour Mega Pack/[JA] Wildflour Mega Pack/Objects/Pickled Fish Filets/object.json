@@ -1,0 +1,53 @@
+{
+  "Name": "wf pickled fish",
+  "Description": "...",
+  "TranslationKey": "pickled-fish",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 750,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["Gus", "Jas","Evelyn", "Caroline","Haley","Sandy"],
+	  "Like": ["Abigail", "Clint", "Demetrius", "Elliott", "Emily", "George", "Jodi", "Kent", "Krobus", "Leah","Leo","Vincent", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	  "Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	  "Dislike":[],
+	  "Hate": ["Sebastian"]
+	},
+	"ContextTags":
+	
+		[	"wildflour_pickles",
+			"pickle_item",
+			"color_gray"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": -4,
+	      "Count": 2
+	    },
+		{
+	      "Object": "wf redonion",
+	      "Count": 1
+	    },
+		{
+			"Object": 419,
+			"Count": 1
+		  },
+		{
+	      "Object": 248,
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

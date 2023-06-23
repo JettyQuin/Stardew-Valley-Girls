@@ -1,0 +1,57 @@
+{
+  "Name": "wf berry preserves",
+  "Description": "...",
+  "TranslationKey": "mixed-berry",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 800,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Gus", "Jas","Leo","Vincent"],
+	"Like": ["Abigail", "Clint", "Demetrius","Evelyn", "Caroline", "Elliott", "Emily", "George","Haley","Sandy", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	"Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	"Dislike":[],
+	"Hate": ["Sebastian"]
+  },
+  "ContextTags":
+  
+	  [	"wildflour_jelly",
+		  "jelly_item",
+		  "color_dark_pink"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": 400,
+	      "Count": 2
+	    },
+		{
+	      "Object": 258,
+	      "Count": 2
+	    },
+		{
+	      "Object": 410,
+	      "Count": 2
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

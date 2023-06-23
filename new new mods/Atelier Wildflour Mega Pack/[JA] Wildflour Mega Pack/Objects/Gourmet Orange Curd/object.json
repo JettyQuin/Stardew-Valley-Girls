@@ -1,0 +1,33 @@
+{
+  "Name": "wf orange curd",
+  "Description": "...",
+  "TranslationKey": "orange-curd",
+  "Category": "ArtisanGoods",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 750,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["Demetrius", "Evelyn", "George", "Gus", "Jodi", "Marnie", "Robin"],
+	  "Like": ["Abigail", "Clint", "Emily", "Jas",  "Kent", "Leah", "Leo", "Lewis", "Pam", "Penny", "Pierre", "Sandy", "Vincent"],
+	  "Neutral":["Alex","Caroline", "Elliott", "Haley", "Harvey", "Maru"],
+	  "Dislike":["Dwarf", "Krobus", "Linus", "Sam", "Sebastian"],
+	  "Hate": []
+	},
+    "Recipe":null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+
+    "ContextTags":
+    [
+      "gourmet_item",
+      "gourmet_jam_item",
+      "color_orange"
+      ]
+}
+
+
+

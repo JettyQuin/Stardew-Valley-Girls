@@ -1,0 +1,53 @@
+{
+  "Name": "wf cranberry chutney",
+  "Description": "...",
+  "TranslationKey": "cranberry-chutney",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 665,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["Gus", "Jas","Leo","Vincent"],
+	  "Like": ["Abigail", "Clint", "Demetrius","Evelyn", "Caroline", "Elliott", "Emily", "George","Haley","Sandy", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	  "Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	  "Dislike":[],
+	  "Hate": ["Sebastian"]
+	},
+	"ContextTags":
+	
+		[	"wildflour_jelly",
+			"jelly_item",
+			"color_red"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": 282,
+	      "Count": 3
+	    },
+		{
+	      "Object": 635,
+	      "Count": 1
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

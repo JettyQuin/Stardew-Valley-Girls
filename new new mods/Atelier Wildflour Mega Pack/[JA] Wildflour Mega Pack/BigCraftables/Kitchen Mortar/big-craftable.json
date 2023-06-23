@@ -1,0 +1,31 @@
+{
+  "Name": "wf kitchen mortar",
+  "Description": "...",
+  "TranslationKey": "kitchen-mortar",
+  "Price": 2000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 2
+        },
+        {
+            "Object": 388,
+            "Count": 50
+        },
+        {
+            "Object": 80,
+            "Count": 2
+        }
+        ],
+    },
+    "IsDefault": false,
+    "CanPurchase":true,
+    "PurchaseFrom": "Gus",
+    "PurchaseRequirements":["f Pierre 1250"]
+}

@@ -1,0 +1,32 @@
+{
+  "Name": "wf frozen treat maker",
+  "Description": "...",
+  "TranslationKey":"frozentreat-maker",
+  "Price": 3000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 50
+        },
+        {
+            "Object": 338,
+            "Count": 2
+        },
+        {
+            "Object": 536,
+            "Count": 2
+        },
+        ],
+      },
+      "IsDefault": false,
+      "CanPurchase":true,
+      "PurchaseFrom": "Gus",
+      "PurchaseRequirements":["f Demetrius 1250"]
+
+}

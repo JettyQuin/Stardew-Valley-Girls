@@ -1,0 +1,110 @@
+{
+  "Format": "1.24.0",
+  "ConfigSchema": {
+      
+              "RepeatableConfig": {
+                "Description": "If you want repeatable special orders. Some orders are not repeatable regardless of config.",
+                "AllowValues": "true, false",
+                "Default": "true",
+                "AllowBlank": false,
+                "AllowMultiple": false
+              }
+  },
+       
+  "Changes": [
+
+ //Include Ale Orders
+        {
+        "LogName": "Add in Ale Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_ales.json"
+        },
+
+ //Include Bakery Orders
+        {
+        "LogName": "Add in Bakery Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_bakery.json"
+        },
+
+ //Include Beverage Orders
+ {
+       "LogName": "Add in Beverage Special Orders",
+       "Action": "Include",
+       "FromFile": "assets/specialorders_beverages.json"
+       },
+
+ //Include Candy Orders
+        {
+        "LogName": "Add in Candy Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_candy.json"
+        },
+
+ //Include Coffee Orders
+        {
+        "LogName": "Add in Coffee Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_coffee.json"
+        },
+
+ //Include Floral Orders
+       {
+        "LogName": "Add in Floral Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_floral.json"
+       },
+
+ //Include Frozen Orders
+       {
+       "LogName": "Add in Frozen Special Orders",
+       "Action": "Include",
+       "FromFile": "assets/specialorders_frozen.json"
+       },
+
+ //Include Jam Orders
+        {
+        "LogName": "Add in Jam Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_jams.json"
+        },
+
+ //Include Mead Orders
+        {
+        "LogName": "Add in Mead Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_meads.json"
+        },
+
+ //Include Pantry Orders
+        {
+        "LogName": "Add in Pantry Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_pantry.json"
+        },
+
+ //Include Tea Orders
+        {
+        "LogName": "Add in Tea Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_tea.json"
+        },
+
+ //Include Wild Food Orders
+        {
+        "LogName": "Add in Wild Food Special Orders",
+        "Action": "Include",
+        "FromFile": "assets/specialorders_wildfood.json"
+        },
+
+//Include Drop Boxes
+
+       {
+       "Action": "Include", 
+       "FromFile": "assets/dropboxes.json"
+       }
+
+      ]
+    }
+
+

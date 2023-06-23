@@ -1,0 +1,2712 @@
+{
+
+//ALES i18N BEGIN--------------------------------------------------------------------------------------------------------------------------------
+
+"ale-keg.name": "艾尔啤酒酿造桶",
+"ale-keg.description": "一个让你酿造调味艾尔啤酒的酿造桶。",
+
+
+//BASE GAME ALES
+
+"ancient-ale.name": "远古拉格啤酒",
+"ancient-ale.description": "神秘、神奇，神迹般的美味。",
+
+"apple-ale.name": "苹果皮尔森啤酒",
+"apple-ale.description": "如落叶般清爽新鲜。",
+
+"apricot-ale.name": "杏子艾尔啤酒",
+"apricot-ale.description": "酸中带甜，完美的春日艾尔啤酒。",
+
+"banana-ale.name": "香蕉燕麦司陶特啤酒",
+"banana-ale.description": "又甜又热，就像一片香蕉面包。",
+
+"blackberry-ale.name": "黑莓司陶特啤酒",
+"blackberry-ale.description": "用夏季最棒的黑莓酿造的浓郁司陶特啤酒。",
+
+"blueberry-ale.name": "蓝莓艾尔啤酒",
+"blueberry-ale.description": "一个会让人想到现烤蓝莓馅饼的甜艾尔啤酒。",
+
+"cactus-ale.name": "仙人掌艾尔啤酒",
+"cactus-ale.description": "卡利科沙漠特酿。",
+
+"cherry-ale.name": "樱桃酸艾尔啤酒",
+"cherry-ale.description": "酸与甜在这瓶艾尔啤酒中完美取得平衡。",
+
+"coconut-ale.name": "椰奶司陶特啤酒",
+"coconut-ale.description": "如果你喜欢椰林飘香但不太喝龙舌兰的话，这就是你的完美饮料。",
+
+"cranberry-ale.name": "蔓越莓淡艾尔啤酒",
+"cranberry-ale.description": "节日晚餐的完美酒选。",
+
+"crystal-ale.name": "水晶拉格啤酒",
+"crystal-ale.description": "一瓶就像刚落的雪般提神冰凉的艾尔啤酒。",
+
+"mango-ale.name": "芒果拉格啤酒",
+"mango-ale.description": "格斯姜之岛海滩酒吧的招牌饮品。",
+
+"melon-ale.name": "甜瓜淡艾尔啤酒",
+"melon-ale.description": "最适合在炎热仲夏夜消暑的艾尔啤酒。",
+
+"orange-ale.name": "柳橙皮尔森啤酒",
+"orange-ale.description": "它让你想起柳橙奶油冰棍。",
+
+"peach-ale.name": "桃子司陶特啤酒",
+"peach-ale.description": "就跟蜜桃与鲜奶油一样甜。",
+
+"pineapple-ale.name": "凤梨淡艾尔啤酒",
+"pineapple-ale.description": "最适合夏天午后时在海滩饮用。.",
+
+"pomegranate-ale.name": "石榴艾尔啤酒",
+"pomegranate-ale.description": "酸酸甜甜，传说它是波瑟芬妮最喜欢的艾尔啤酒。",
+
+"pumpkin-ale.name": "南瓜香料艾尔啤酒",
+"pumpkin-ale.description": "南瓜、香料、枫糖与啤酒⋯⋯谁有办法不爱它？",
+
+"salmonberry-ale.name": "野生美洲大树莓艾尔啤酒",
+"salmonberry-ale.description": "一个利用那些美洲大树莓的创新方法。",
+
+"spiced-ale.name": "香味波特啤酒",
+"spiced-ale.description": "尽管这些浆果生产于夏季，不过这暖胃的香味啤酒还是最适合在凉爽的秋日享用。",
+
+"starfruit-ale.name": "杨桃艾尔啤酒",
+"starfruit-ale.description": "最适合在夏威夷宴会喝的金黄艾尔啤酒。",
+
+"strawberry-ale.name": "草莓波特啤酒",
+"strawberry-ale.description": "没人能抵挡这如同草莓鲜奶油蛋糕的风味。",
+
+"gem-ale.name": "宝石拉格啤酒",
+"-gem-ale.description": "老卡诺里大师的最爱。",
+
+"plum-ale.name": "野李司陶特啤酒",
+"plum-ale.description": "不快点喝掉的话它就会变成李干司陶特啤酒了。",
+
+//PPJA ALES
+
+"dragon-ale.name": "火龙果艾尔啤酒",
+"dragon-ale.description": "从卡利科沙漠来的新鲜盛夏艾尔啤酒",
+
+"fig-ale.name": "无花果司陶特啤酒",
+"fig-ale.description": "最适合搭配无花果布丁跟一首佳节颂歌。",
+
+"grapefruit-ale.name": "葡萄柚淡艾尔啤酒",
+"grapefruit-ale.description": "充满柑橘味的酸印度淡艾尔啤酒。",
+
+"lemon-ale.name": "柠檬酵母小麦啤酒",
+"lemon-ale.description": "这让你想到柠檬汁，但再更苦一点！",
+
+"lime-ale.name": "莱姆酵母小麦啤酒",
+"lime-ale.description": "一个金黄的柑橘鲜酿，最适合在夏日啜饮。",
+
+"lychee-ale.name": "荔枝艾尔啤酒",
+"lychee-ale.description": "甜中带有些许花香跟酸味。",
+
+"papaya-ale.name": "木瓜艾尔啤酒",
+"papaya-ale.description": "桑迪特别研发出的一种艾尔啤酒。",
+
+"pear-ale.name": "梨子皮尔森啤酒",
+"pear-ale.description": "清淡清爽的啤酒。",
+
+"persimmon-ale.name": "柿子艾尔啤酒",
+"persimmon-ale.description": "风味轻柔的艾尔啤酒，让你想到蜂蜜和甜瓜。",
+
+"pomelo-ale.name": "柚子艾尔啤酒",
+"pomelo-ale.description": "尝起来就像甜一点的葡萄柚。",
+
+//WILD FOOD ALES
+
+"vanilla-ale.name": "卡利科香草司陶特啤酒",
+"vanilla-ale.description": "在寒冷傍晚时温暖你身，暖胃甜美的艾尔啤酒。",
+
+"petitelemon-ale.name": "甜柠檬司陶特啤酒",
+"petitelemon-ale.description": "不像酵母小麦啤酒，这个艾尔啤酒的柠檬风味更像细腻甜蜜，就像在吃甜点一样。",
+
+"petitelime-ale.name": "甜莱姆司陶特啤酒",
+"petitelime-ale.description": "不像酵母小麦啤酒，这个艾尔啤酒的莱姆风味更像细腻甜蜜，就像在吃甜点一样。",
+
+"wildraspberry-ale.name": "野生覆盆莓艾尔啤酒",
+"wildraspberry-ale.description": "用现采的覆盆莓酿造的艾尔啤酒，真正的夏日佳肴。",
+
+"wildstrawberry-ale.name": "野生草莓艾尔啤酒",
+"wildstrawberry-ale.description": "用现采的草莓酿造的艾尔啤酒，真正的春日佳肴。",
+
+//PIXIE FORAGE ALES
+
+"pixie-apple-ale.name": "仙子苹果艾尔啤酒",
+"pixie-apple-ale.description": "芬吉尔共和国的小仙子们为了庆祝秋分而酿造的一种特别艾尔啤酒。",
+
+"pixie-apricot-ale.name": "仙子杏子艾尔啤酒",
+"pixie-apricot-ale.description": "芬吉尔共和国的小仙子们为了庆祝春分而酿造的一种特别艾尔啤酒。",
+
+"pixie-banana-ale.name": "仙子香蕉艾尔啤酒",
+"pixie-banana-ale.description": "姜之岛的小仙子们为了庆祝夏至而酿造的一种特别艾尔啤酒。",
+
+"pixie-cherry-ale.name": "仙子樱桃艾尔啤酒",
+"pixie-cherry-ale.description": "芬吉尔共和国的小仙子们为了庆祝春分而酿造的一种特别艾尔啤酒。",
+
+"pixie-mango-ale.name": "仙子芒果艾尔啤酒",
+"pixie-mango-ale.description": "姜之岛的小仙子们为了庆祝夏至而酿造的一种特别艾尔啤酒。",
+
+"pixie-orange-ale.name": "仙子柳橙艾尔啤酒",
+"pixie-orange-ale.description": "芬吉尔共和国的小仙子们为了庆祝夏至而酿造的一种特别艾尔啤酒。",
+
+"pixie-peach-ale.name": "仙子蜜桃艾尔啤酒",
+"pixie-peach-ale.description": "芬吉尔共和国的小仙子们为了庆祝夏至而酿造的一种特别艾尔啤酒。",
+
+"pixie-pomegranate-ale.name": "仙子石榴艾尔啤酒",
+"pixie-pomegranate-ale.description": "芬吉尔共和国的小仙子们为了庆祝秋分而酿造的一种特别艾尔啤酒。",
+
+//BAKERY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//CAKES
+
+"carrot-cake.name":"春暖花开胡萝卜蛋糕",
+"carrot-cake.description":"这个胡萝卜蛋糕用了可爱的春日花朵装饰——是今年彩蛋节的完美选择！",
+
+"chocolate-cake.name":"巧克力樱桃千层蛋糕",
+"chocolate-cake.description":"浓郁的巧克力加上现采樱桃，创造了这奢华的千层蛋糕。",
+
+"chocolate-cupcake.name": "巧克力覆盆莓杯子蛋糕",
+"chocolate-cupcake.description": "一个填满了覆盆莓果酱的浓郁巧克力杯子蛋糕。",
+
+"coconut-cake.name":"椰子杏仁千层蛋糕",
+"coconut-cake.description":"用杏仁糖霜装饰的，轻巧蓬松的椰子蛋糕。",
+
+"confetti-cake.name":"缤纷蛋糕",
+"confetti-cake.description":"用了香草糖霜的香草蛋糕，还有许多彩针糖作为馅料跟装饰！",
+
+"gingerbread-cake.name":"姜母蛋糕卷",
+"gingerbread-cake.description":"充满姜香的蛋糕皮铺上香草奶油霜，卷成一个可爱的节庆甜点。",
+
+"lemon-cake.name":"柠檬戚风蛋糕",
+"lemon-cake.description":"小柠檬跟甜蜜的奶油，成为了一个春日派对的完美柔软蛋糕。",
+
+"peach-cake.name":"蜜桃奶油蛋糕",
+"peach-cake.description":"现采的夏季桃子做成了一个轻柔的香草海绵蛋糕。",
+
+"hummingbird-cake.name":"蜂鸟蛋糕",
+"hummingbird-cake.description":"一个塞满了新鲜凤梨和坚果的辛香蛋糕！",
+
+"pumpkin-cake.name":"南瓜香料蛋糕卷",
+"pumpkin-cake.description":"秋季人气王：浓郁的南瓜蛋糕卷，里面包着奶油奶酪！",
+
+"redvelvet-cake.name":"红丝绒蛋糕",
+"redvelvet-cake.description":"不含人工色素；这个经典蛋糕是利用一个老派方法染色的：甜菜！",
+
+"strawberry-cake.name":"草莓奶油蛋糕",
+"strawberry-cake.description":"一个可爱又轻巧的海绵蛋糕，放满了现采的草莓跟打发的奶油。",
+
+"strawberry-cupcake.name":"甜蜜小草莓杯子蛋糕",
+"strawberry-cupcake.description":"一个用草莓糖霜装饰的可爱小草莓蛋糕。",
+
+"vanilla-cupcake.name":"甜蜜小香草杯子蛋糕",
+"vanilla-cupcake.description":"一个用香草糖霜装饰的可爱小香草蛋糕。",
+
+//MUFFINS
+
+"apple-muffin.name":"苹果香料玛芬",
+"apple-muffin.description":"苹果和肉桂蛋糕让这个玛芬成为晴爽秋日的完美早餐。",
+
+"banana-muffin.name":"香蕉坚果玛芬",
+"banana-muffin.description":"这玛芬大部分的甜味都来自成熟香蕉泥。",
+
+"cinnamon-muffin.name":"肉桂香料玛芬",
+"cinnamon-muffin.description":"一个经典的玛芬蛋糕，最适合搭配一杯咖啡享用。",
+
+"cornbread-muffin.name":"玉米面包黄油玛芬",
+"cornbread-muffin.description":"一个浓郁又充满黄油味的丰盛玛芬，最适合搭配汤享用，但其实你要搭什么都很棒！",
+
+"lemonberry-muffin.name":"柠檬莓果玛芬",
+"lemonberry-muffin.description":"小柠檬和蓝莓让这个玛芬充满了新鲜水果的风味！",
+
+"pumpkin-muffin.name":"南瓜香料拿铁玛芬",
+"pumpkin-muffin.description":"一个加了肉桂跟浓缩咖啡粉的南瓜玛芬。",
+
+"rhubarb-muffin.name":"草莓大黄玛芬",
+"rhubarb-muffin.description":"一个使用了大黄和草莓碎的轻巧松软玛芬。",
+
+//SCONES
+
+"blackberry-scone.name":"黑莓莱姆司康",
+"blackberry-scone.description":"小莱姆的皮真的凸显了黑莓的新鲜风味！",
+
+"blueberry-scone.name":"蓝莓奶油司康",
+"blueberry-scone.description":"一个塞满新鲜蓝莓，轻巧酥脆的司康。",
+
+"cinnamon-scone.name":"肉桂葡萄干司康",
+"cinnamon-scone.description":"一个塞满香料跟葡萄干，轻巧酥脆的司康，是早餐的完美选择！",
+
+"peach-scone.name":"蜜桃蜂蜜司康",
+"peach-scone.description":"这个司康吃起来就像蜜桃馅饼，但可以用手拿而且还更好吃！",
+
+"pistachio-scone.name":"开心果司康",
+"pistachio-scone.description":"一个塞满开心果碎，轻巧酥脆的司康。",
+
+"pumpkin-scone.name":"枫糖南瓜司康",
+"pumpkin-scone.description":"充满南瓜跟枫糖风味的司康，是一个可爱的秋日点心。",
+
+"raspberry-scone.name":"覆盆莓香草司康",
+"raspberry-scone.description":"香草籽让人更难以抵抗这个覆盆莓司康了！",
+
+"strawberry-scone.name":"草莓蛋糕司康",
+"strawberry-scone.description":"一个像是奶油蛋糕的司康，剖半并填满了草莓跟奶油！",
+
+//CHEESECAKE
+
+"blueberry-cheesecake.name":"切片蓝莓芝士蛋糕",
+"blueberry-cheesecake.description":"一片用甜美蓝莓果酱装饰的芝士蛋糕。",
+
+"cherry-cheesecake.name":"切片樱桃芝士蛋糕",
+"cherry-cheesecake.description":"一片用甜美樱桃果酱装饰的芝士蛋糕。",
+
+"classic-cheesecake.name":"切片经典巧克力蛋糕",
+"classic-cheesecake.description":"一片经典的巧克力蛋糕，细腻又美味！",
+
+"cookie-cheesecake.name":"切片奶油饼干芝士蛋糕",
+"cookie-cheesecake.description":"一片充满了奶油饼干巧克力碎片的芝士蛋糕。",
+
+"lemon-cheesecake.name":"切片柠檬芝士蛋糕",
+"lemon-cheesecake.description":"一片用甜美柠檬凝乳装饰的芝士蛋糕。",
+
+"mango-cheesecake.name":"切片芒果芝士蛋糕",
+"mango-cheesecake.description":"一片用甜美芒果果酱装饰的芝士蛋糕。",
+
+"mocha-cheesecake.name":"切片摩卡芝士蛋糕",
+"mocha-cheesecake.description":"一片混合了巧克力和浓缩咖啡粉的芝士蛋糕。",
+
+"orange-cheesecake.name":"切片柳橙奶油芝士蛋糕",
+"orange-cheesecake.description":"一片用甜美柳橙凝乳装饰的芝士蛋糕。",
+
+"pumpkin-cheesecake.name":"切片南瓜芝士蛋糕",
+"pumpkin-cheesecake.description":"一片混合了新鲜南瓜和香料的芝士蛋糕。",
+
+"raspberry-cheesecake.name":"切片覆盆莓芝士蛋糕",
+"raspberry-cheesecake.description":"一片用甜美覆盆莓果酱装饰的芝士蛋糕。",
+
+"strawberry-cheesecake.name":"切片草莓芝士蛋糕",
+"strawberry-cheesecake.description":"一片用甜美草莓果酱装饰的芝士蛋糕。",
+
+"white-cheesecake.name":"切片白巧莱姆芝士蛋糕",
+"white-cheesecake.description":"烘焙时加入白巧克力跟新鲜莱姆皮的芝士蛋糕。",
+
+//PETIT FOURS
+
+"almond-petitfour.name":"杏仁花色小蛋糕",
+"almond-petitfour.description":"一种精美的派对蛋糕，使用杏仁调味。",
+
+"chocohazelnut-petitfour.name":"巧克力榛果花色小蛋糕",
+"chocohazelnut-petitfour.description":"一种精美的派对蛋糕，使用巧克力和榛果调味。",
+
+"lemon-petitfour.name":"甜美柠檬花色小蛋糕",
+"lemon-petitfour.description":"一种精美的派对蛋糕，使用柠檬调味。",
+
+"matcha-petitfour.name":"抹茶花色小蛋糕",
+"matcha-petitfour.description":"一种精美的派对蛋糕，使用抹茶调味。",
+
+"peach-petitfour.name":"蜜桃花色小蛋糕",
+"peach-petitfour.description":"一种精美的派对蛋糕，使用现采桃子调味。",
+
+"pistachio-petitfour.name":"开心果花色小蛋糕",
+"pistachio-petitfour.description":"一种精美的派对蛋糕，使用开心果调味。",
+
+"rose-petitfour.name":"玫瑰草莓花色小蛋糕",
+"rose-petitfour.description":"一种精美的派对蛋糕，使用草莓跟玫瑰酱调味。",
+
+"tiramisu-petitfour.name":"提拉米苏花色小蛋糕",
+"tiramisu-petitfour.description":"一种精美的派对蛋糕，使用巧克力和浓缩咖啡粉调味。",
+
+"tresleches-petitfour.name":"特蕾斯花色小蛋糕",
+"tresleches-petitfour.description":"一种精美的派对蛋糕，使用多种牛奶跟肉桂调味。",
+
+"tropical-petitfour.name":"热带风情花色小蛋糕",
+"tropical-petitfour.description":"一种精美的派对蛋糕，使用热带水果调味。",
+
+"raspberry-petitfour.name":"覆盆莓花色小蛋糕",
+"raspberry-petitfour.description":"一种精美的派对蛋糕，使用现采覆盆莓调味。",
+
+//PIES
+
+"apple-pie.name":"老式苹果派",
+"apple-pie.description":"使用来自当地果园的苹果制作而成的派。",
+
+"banana-pie.name":"老式香蕉奶油派",
+"banana-pie.description":"一个铺上香蕉片跟奶油的卡士达派。",
+
+"blueberry-pie.name":"老式蓝莓派",
+"blueberry-pie.description":"使用现采蓝莓制作而成的派。",
+
+"cherry-pie.name":"老式樱桃派",
+"cherry-pie.description":"使用来自当地果园的樱桃制作而成的派。",
+
+"lemon-pie.name":"老式柠檬派",
+"lemon-pie.description":"一个使用柠檬皮跟柠檬凝乳的卡士达派。",
+
+"peach-pie.name":"老式蜜桃派",
+"peach-pie.description":"使用来自当地果园的桃子制作而成的派。",
+
+"lime-pie.name":"老式莱姆派",
+"lime-pie.description":"一个使用莱姆皮跟莱姆凝乳的卡士达派。",
+
+"plum-pie.name":"老式野李派",
+"plum-pie.description":"使用采集而来的李子制成的派。",
+
+"pumpkin-pie.name":"老式南瓜派",
+"pumpkin-pie.description":"使用现采南瓜制作而成的派。",
+
+"sweetpotato-pie.name":"老式番薯派",
+"sweetpotato-pie.description":"把番薯跟肉桂与砂糖一起炖煮，最后烤成了一个可爱的派。",
+
+//TARTS
+
+"blueberry-tart.name":"乡村蓝莓塔",
+"blueberry-tart.description":"酥脆的塔皮上填满了甜蜜的蓝莓馅。",
+
+"chocohazelnut-tart.name":"巧克力榛果塔",
+"chocohazelnut-tart.description":"酥脆的塔皮上填满了绵密的巧克力榛果酱。",
+
+"lemon-tart.name":"小柠檬塔",
+"lemon-tart.description":"酥脆的塔皮上填满了绵密甜美的柠檬馅。",
+
+"mango-tart.name":"小岛芒果塔",
+"mango-tart.description":"酥脆的塔皮上填满了绵密的芒果卡士达馅。",
+
+"mixberry-tart.name":"莓果盛宴塔",
+"mixberry-tart.description":"酥脆的塔皮上填满了综合莓果。",
+
+"mixfruit-tart.name":"什锦水果塔",
+"mixfruit-tart.description":"酥脆的塔皮上填满了你手边的所有水果！",
+
+"mintmocha-tart.name":"摩卡薄荷塔",
+"mintmocha-tart.description":"酥脆的塔皮上填满了绵密的巧克力薄荷馅。",
+
+"colada-tart.name":"椰林飘香塔",
+"colada-tart.description":"酥脆的塔皮上填满了绵密的凤梨椰子卡士达馅。",
+
+"raspberry-tart.name":"野生覆盆莓塔",
+"raspberry-tart.description":"酥脆的塔皮上填满了甜蜜的覆盆莓馅。",
+
+"summer-tart.name":"盛夏恩惠塔",
+"summer-tart.description":"酥脆的塔皮上填满了夏天最棒的水果。",
+
+//ECLAIRS
+
+"chocolate-eclair.name":"巧克力闪电泡芙",
+"chocolate-eclair.description":"一个填满浓郁巧克力卡士达酱的精美糕点。",
+
+"maple-eclair.name":"枫糖闪电泡芙",
+"maple-eclair.description":"一个填满浓郁枫糖卡士达酱的精美糕点。",
+
+"mocha-eclair.name":"摩卡闪电泡芙",
+"mocha-eclair.description":"一个填满浓郁摩卡卡士达酱的精美糕点。",
+
+"pistachio-eclair.name":"巧克力开心果闪电泡芙",
+"pistachio-eclair.description":"一个填满甜蜜开心果卡士达酱的精美糕点。",
+
+"raspberry-eclair.name":"覆盆莓柠檬闪电泡芙",
+"raspberry-eclair.description":"一个填满酸甜覆盆莓柠檬卡士达酱的精美糕点。",
+
+"strawberry-eclair.name":"草莓芝士蛋糕闪电泡芙",
+"strawberry-eclair.description":"一个填满甜蜜草莓跟奶油奶酪的精美糕点。",
+
+"vanilla-eclair.name":"香草闪电泡芙",
+"vanilla-eclair.description":"一个填满浓郁香草卡士达酱的精美糕点。",
+
+//MACARONS
+
+"almond-macaron.name":"华丽杏仁马卡龙",
+"almond-macaron.description":"一个令人难以抵抗的杏仁味蛋白霜夹心饼。",
+
+"chocolatehazelnut-macaron.name":"华丽巧克力榛果马卡龙",
+"chocolatehazelnut-macaron.description":"一个令人难以抵抗的巧克力榛果味蛋白霜夹心饼。",
+
+"lavender-macaron.name":"华丽薰衣草马卡龙",
+"lavender-macaron.description":"一个令人难以抵抗的薰衣草与香草味蛋白霜夹心饼。",
+
+"lemon-macaron.name":"华丽柠檬马卡龙",
+"lemon-macaron.description":"一个令人难以抵抗的新鲜柠檬味蛋白霜夹心饼。",
+
+"lime-macaron.name":"华丽莱姆马卡龙",
+"lime-macaron.description":"一个令人难以抵抗的新鲜莱姆味蛋白霜夹心饼。",
+
+"mint-macaron.name":"华丽薄荷马卡龙",
+"mint-macaron.description":"一个令人难以抵抗的新鲜薄荷味蛋白霜夹心饼。",
+
+"pistachio-macaron.name":"华丽开心果马卡龙",
+"pistachio-macaron.description":"一个令人难以抵抗的开心果味蛋白霜夹心饼。",
+
+"raspberry-macaron.name":"华丽覆盆莓马卡龙",
+"raspberry-macaron.description":"一个令人难以抵抗的新鲜覆盆莓味蛋白霜夹心饼。",
+
+"sakura-macaron.name":"华丽樱花马卡龙",
+"sakura-macaron.description":"一个令人难以抵抗的樱花瓣味蛋白霜夹心饼。",
+
+"strawberry-macaron.name":"华丽草莓马卡龙",
+"strawberry-macaron.description":"一个令人难以抵抗的新鲜草莓味蛋白霜夹心饼。",
+
+//COOKIES
+
+"cherryjam-cookie.name":"樱桃果酱饼干",
+"cherryjam-cookie.description":"一个中间填满樱桃果酱的黄油饼干。",
+
+"chocochip-cookie.name":"老式巧克力脆片饼干",
+"chocochip-cookie.description":"最典型的饼干，适合搭配一杯牛奶。",
+
+"chocosandwich-cookie.name":"经典巧克力夹心饼干",
+"chocosandwich-cookie.description":"巧克力饼干夹着香草奶油馅。",
+
+"orangejam-cookie.name":"柳橙果酱饼干",
+"orangejam-cookie.description":"一个中间填满柳橙果酱的黄油饼干。",
+
+"berryjam-cookie.name":"草莓果酱饼干",
+"berryjam-cookie.description":"一个中间填满草莓果酱的黄油饼干。",
+
+"vanillasandwich-cookie.name":"经典香草夹心饼干",
+"vanillasandwich-cookie.description":"香草饼干夹着香草奶油馅。",
+
+//BROWNIES
+
+"creamcheese-brownie.name":"奶油奶酪夹心布朗尼",
+"creamcheese-brownie.description":"浓郁的布朗尼，里面夹着一层加糖的奶油奶酪。",
+
+"fudgy-brownie.name":"老式软心布朗尼",
+"fudgy-brownie.description":"每个烘焙坊都需要这种浓郁的巧克力饼。",
+
+"mint-brownie.name":"薄荷巧克力夹心布朗尼",
+"mint-brownie.description":"浓郁的布朗尼，里面夹着一层薄荷奶油。",
+
+"nutbutter-brownie.name":"坚果黄油夹心布朗尼",
+"nutbutter-brownie.description":"浓郁的布朗尼，里面夹着一层坚果黄油。",
+
+//BREADS
+
+"cinnamon-roll.name": "乡村肉桂卷",
+"cinnamon-roll.description": "一个用肉桂调味跟香草糖霜装饰的加糖面包卷。",
+
+"cranberry-bread.name": "乡村蔓越莓坚果面包",
+"cranberry-bread.description": "一个充满蔓越莓干跟碎核桃的乡村面包。",
+
+"olive-bread.name": "乡村橄榄面包",
+"olive-bread.description": "一个充满橄榄的乡村面包。",
+
+"potato-bread.name": "乡村土豆面包",
+"potato-bread.description": "一个使用土豆的面包，高热量但是制作香烤芝士三明治的完美选择！",
+
+"pretzel.name": "乡村椒盐脆饼",
+"pretzel.description": "一个经典的椒盐脆饼，上面洒了一层海盐。配上芥末才是真正的美食。",
+
+"pumpernickel-bread.name": "乡村黑麦面包",
+"pumpernickel-bread.description": "一个微甜的乡村黑麦面包。",
+
+"wheat-bread.name": "乡村全麦面包",
+"wheat-bread.description": "一个比传统面包含有更多纤维素的面包。",
+
+"white-bread.name": "乡村小麦面包",
+"white-bread.description": "一个常被用来制作成三明治的经典面包。",
+
+//DOUGHNUTS
+
+"chocolate-doughnut.name": "巧克力甜甜圈",
+"chocolate-doughnut.description": "一个用巧克力甘纳许装饰的现炸甜甜圈。",
+
+"chocolatecream-doughnut.name": "巧克力奶油甜甜圈",
+"chocolatecream-doughnut.description": "一个用巧克力甘纳许装饰并填满香草奶油的现炸甜甜圈。",
+
+"strawberry-doughnut.name": "草莓甜甜圈",
+"strawberry-doughnut.description": "一个用草莓糖霜装饰的现炸甜甜圈。",
+
+"strawberrycream-doughnut.name": "草莓奶油甜甜圈",
+"strawberrycream-doughnut.description": "一个用草莓糖霜装饰并填满香草奶油的现炸甜甜圈。",
+
+"vanilla-doughnut.name": "香草甜甜圈",
+"vanilla-doughnut.description": "一个用香草糖霜装饰的现炸甜甜圈。",
+
+"vanillajelly-doughnut.name": "香草果酱甜甜圈",
+"vanillajelly-doughnut.description": "一个用香草糖霜装饰并填满果酱的现炸甜甜圈。",
+
+//PUDDING
+
+"banana-pudding.name": "香蕉船布丁",
+"banana-pudding.description": "一个使用了香蕉、草莓、巧克力跟樱桃的细腻甜点。",
+
+"chocolate-pudding.name": "巧克力覆盆莓布丁",
+"chocolate-pudding.description": "一个使用了巧克力跟覆盆莓的细腻甜点。",
+
+"cookie-pudding.name": "奶油夹心饼布丁",
+"cookie-pudding.description": "一个使用了巧克力夹心饼的细腻甜点。",
+
+"cremebrulee-pudding.name": "烤布蕾布丁",
+"cremebrulee-pudding.description": "一个使用了焦糖的细腻甜点。",
+
+"lemon-pudding.name": "柠檬蛋白霜布丁",
+"lemon-pudding.description": "一个使用了新鲜柠檬的细腻甜点。",
+
+"peach-pudding.name": "蜜桃芒果布丁",
+"peach-pudding.description": "一个使用了桃子跟芒果的细腻甜点。",
+
+"pumpkin-pudding.name": "南瓜枫糖布丁",
+"pumpkin-pudding.description": "一个使用了南瓜跟枫糖的细腻甜点。",
+
+"sakura-pudding.name": "樱花布丁",
+"sakura-pudding.description": "一个使用了新鲜樱花的细腻甜点。",
+
+"tiramisu-pudding.name": "提拉米苏布丁",
+"tiramisu-pudding.description": "一个使用了咖啡跟奶油的细腻甜点。",
+
+"tropical-pudding.name": "热带风情布丁",
+"tropical-pudding.description": "一个使用了热带水果的细腻甜点。",
+
+//BEVERAGE i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//MACHINES
+
+"juice-station.name":"水果榨汁站",
+"juice-station.description":"可以制作果汁与饮品！",
+
+"boba-station.name":"珍珠加料站",
+"boba-station.description":"可以制作珍珠奶茶！",
+
+//BOBA
+
+"banana-boba.name": "香蕉珍珠奶茶",
+"banana-boba.description": "使用香蕉调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"blacktea-boba.name": "珍珠奶茶",
+"blacktea-boba.description": "一杯可爱又美味的冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"blueberry-boba.name": "蓝莓珍珠奶茶",
+"blueberry-boba.description": "使用蓝莓调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"brownsugar-boba.name": "黑糖珍珠奶茶",
+"brownsugar-boba.description": "使用黑糖调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"caramel-boba.name": "肉桂珍珠奶茶",
+"caramel-boba.description": "使用肉桂调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"coconut-boba.name": "椰香珍珠奶茶",
+"coconut-boba.description": "使用椰子调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"coffee-boba.name": "珍珠鸳鸯",
+"coffee-boba.description": "使用咖啡的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"jasmine-boba.name": "茉莉珍珠奶茶",
+"jasmine-boba.description": "使用茉莉调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"mango-boba.name": "芒果珍珠奶茶",
+"mango-boba.description": "使用芒果调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠",
+
+"matcha-boba.name": "珍珠抹茶牛奶",
+"matcha-boba.description": "一杯可爱又美味的抹茶，还加入了牛奶与弹牙的珍珠！",
+
+"melon-boba.name": "甜瓜珍珠奶茶",
+"melon-boba.description": "使用甜瓜调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"oolong-boba.name": "珍珠乌龙奶茶",
+"oolong-boba.description": "一杯可爱又美味的乌龙茶，还加入了牛奶与弹牙的珍珠！",
+
+"peach-boba.name": "蜜桃珍珠奶茶",
+"peach-boba.description": "使用桃子调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"rose-boba.name": "玫瑰珍珠奶茶",
+"rose-boba.description": "使用玫瑰调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"strawberry-boba.name": "草莓珍珠奶茶",
+"strawberry-boba.description": "使用草莓调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"taro-boba.name": "芋头珍珠奶茶",
+"taro-boba.description": "使用芋头调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+"thai-boba.name": "珍珠泰式奶茶",
+"thai-boba.description": "一杯可爱又美味的冰茶，还加入了椰奶与弹牙的珍珠！",
+
+"vanilla-boba.name": "香草珍珠奶茶",
+"vanilla-boba.description": "使用香草调味的可爱美味冰茶，还加入了牛奶与弹牙的珍珠！",
+
+//FRUIT JUICES
+
+"apple-juice.name": "惊喜苹果汁",
+"apple-juice.description": "使用现采苹果制作的果汁！",
+
+"berry-juice.name": "美味莓果汁",
+"berry-juice.description": "使用农场新鲜莓果制作的果汁！",
+
+"carrot-juice.name": "兔兔最爱胡萝卜汁",
+"carrot-juice.description": "使用农场新鲜胡萝卜制作的果汁！",
+
+"grape-juice.name": "葡萄汁",
+"grape-juice.description": "使用农场新鲜葡萄制作的果汁！",
+
+"mix-juice.name": "综合水果汁",
+"mix-juice.description": "使用农场新鲜水果制作的果汁！",
+
+"orange-juice.name": "早起的鸟儿柳橙汁",
+"orange-juice.description": "使用农场新鲜橙子制作的果汁！",
+
+"pomegranate-juice.name": "石榴汁",
+"pomegranate-juice.description": "使用农场新鲜石榴制作的果汁！",
+
+"tropical-juice.name": "热带水果汁",
+"tropical-juice.description": "使用香甜岛屿水果制作的果汁！",
+
+"fruit-punch.name": "水果潘趣酒",
+"fruit-punch.description": "使用农场新鲜水果制作的果汁！",
+
+// FRUIT JUICES
+
+"amber-juice.name": "琥珀月蜜",
+"amber-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"blush-juice.name": "红晕月蜜",
+"blush-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"jade-juice.name": "翡翠月蜜",
+"jade-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"lapis-juice.name": "琉璃月蜜",
+"lapis-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"melon-juice.name": "甜瓜月蜜",
+"melon-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"pearl-juice.name": "珍珠月蜜",
+"pearl-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"rose-juice.name": "玫瑰月蜜",
+"rose-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"violet-juice.name": "紫罗兰月蜜",
+"violet-juice.description": "使用神奇月泪葡萄制作的果汁。",
+
+"apple-elixir.name": "诱人苹果灵药",
+"apple-elixir.description": "使用神秘苹果制作的果汁。",
+
+"apricot-elixir.name": "芳香杏桃灵药",
+"apricot-elixir.description": "使用神秘杏子制作的果汁。",
+
+"cherry-elixir.name": "欣喜樱桃灵药",
+"cherry-elixir.description": "使用神秘樱桃制作的果汁。",
+
+"mango-elixir.name": "欢快芒果灵药",
+"mango-elixir.description": "使用神秘芒果制作的果汁。",
+
+"orange-elixir.name": "妩媚柳橙灵药",
+"orange-elixir.description": "使用神秘橙子制作的果汁。",
+
+"peach-elixir.name": "嬉戏蜜桃灵药",
+"peach-elixir.description": "使用神秘桃子制作的果汁。",
+
+"pomegranate-elixir.name": "热情石榴灵药",
+"pomegranate-elixir.description": "使用神秘石榴制作的果汁。",
+
+//LEMONADES
+
+"blackberry-lemonade.name": "黑莓柠檬汁",
+"blackberry-lemonade.description": "加入采集黑莓的新鲜柠檬汁。",
+
+"chamomile-lemonade.name": "洋甘菊柠檬汁",
+"chamomile-lemonade.description": "加入洋甘菊花瓣的新鲜柠檬汁。",
+
+"cherry-limeade.name": "樱桃莱姆汁",
+"cherry-limeade.description": "使用了新鲜莱姆和樱桃的有趣柠檬汁变体。",
+
+"classic-lemonade.name": "經典檸檬汁",
+"classic-lemonade.description": "使用現榨檸檬製作的清爽飲品。",
+
+"greentea-lemonade.name": "柠檬绿茶",
+"greentea-lemonade.description": "加入绿茶的新鲜柠檬汁。",
+
+"jasmine-lemonade.name": "茉莉柠檬汁",
+"jasmine-lemonade.description": "加入茉莉花瓣的新鲜柠檬汁。",
+
+"lavender-lemonade.name": "薰衣草柠檬汁",
+"lavender-lemonade.description": "加入薰衣草花瓣的新鲜柠檬汁。",
+
+"lime-lemonade.name": "莱姆柠檬汁",
+"lime-lemonade.description": "加入美味莱姆汁的新鲜柠檬汁。",
+
+"melon-lemonade.name": "甜瓜柠檬汁",
+"melon-lemonade.description": "加入盛夏甜瓜的新鲜柠檬汁。",
+
+"mint-lemonade.name": "薄荷柠檬汁",
+"mint-lemonade.description": "加入薄荷叶的新鲜柠檬汁。",
+
+"pomegranate-lemonade.name": "石榴柠檬汁",
+"pomegranate-lemonade.description": "加入石榴汁的新鲜柠檬汁。",
+
+"pink-lemonade.name": "美丽粉红柠檬汁",
+"pink-lemonade.description": "加入草莓汁的新鲜柠檬汁。",
+
+"rose-lemonade.name": "玫瑰檸檬汁",
+"rose-lemonade.description": "加入玫瑰花瓣的新鮮檸檬汁。",
+
+"raspberry-lemonade.name": "覆盆莓柠檬汁",
+"raspberry-lemonade.description": "加入覆盆莓汁的新鲜柠檬汁。",
+
+//ICED TEA
+
+"iced-tea.name": "冰茶",
+"iced-tea.description": "一大杯冰茶。",
+
+"green-icedtea.name": "冰绿茶",
+"green-icedtea.description": "一大杯冰绿茶。",
+
+"mango-icedtea.name": "芒果冰茶",
+"mango-icedtea.description": "使用芒果调味的一大杯冰茶。",
+
+"peach-icedtea.name": "蜜桃冰茶",
+"peach-icedtea.description": "使用桃子调味的一大杯冰茶。",
+
+"thai-icedtea.name": "泰式冰茶",
+"thai-icedtea.description": "使用椰奶加甜的一大杯冰茶。",
+
+//SMOOTHIES
+
+"ancient-smoothie.name": "远古睿智冰沙",
+"ancient-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"berry-smoothie.name": "莓果突袭冰沙",
+"berry-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"berrybanana-smoothie.name": "草莓香蕉冰沙",
+"berrybanana-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"berrykale-smoothie.name": "蓝莓甘蓝冰沙",
+"berrykale-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"chocoberry-smoothie.name": "巧克力莓果冰沙",
+"chocoberry-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"gemberry-smoothie.name": "宝石甜莓暴风冰沙",
+"gemberry-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"peachmango-smoothie.name": "蜜桃芒果冰沙",
+"peachmango-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"sunshine-smoothie.name": "盛夏阳光冰沙",
+"sunshine-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+"tropical-smoothie.name": "热带绿洲冰沙",
+"tropical-smoothie.description": "最适合忙碌早晨的清爽冰沙！",
+
+
+//CANDY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"confection-station.name": "甜点制造机",
+	"confection-station.description": "制作各种糖果和甜点。",
+
+	// MARSHMALLOWS
+	
+    "ancient-marshmallow.name": "远古棉花软糖",
+	"ancient-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+
+	"vanilla-marshmallow.name": "香草棉花软糖",
+	"vanilla-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+
+	"coconut-marshmallow.name": "椰香棉花软糖",
+	"coconut-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+
+	"confetti-marshmallow.name": "缤纷棉花软糖",
+	"confetti-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+
+	"lavender-marshmallow.name": "薰衣草棉花软糖",
+	"lavender-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+
+	"matcha-marshmallow.name": "抹茶棉花软糖",
+	"matcha-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+
+	"strawberry-marshmallow.name": "草莓棉花软糖",
+	"strawberry-marshmallow.description": "一个柔软又甜蜜到令人难以置信的手工棉花软糖。",
+	
+
+	// MARSHMALLOW POPS
+
+	"chocolate-marshmallowpop.name": "巧克力棉花软糖串",
+	"chocolate-marshmallowpop.description": "把棉花软糖沾上巧克力后卷在一根棍子上！敲口爱！",
+
+	"ancient-marshmallowpop.name": "远古棉花软糖串",
+	"ancient-marshmallowpop.description": "把不同颜色跟口味的棉花软糖卷在一根棍子上！敲口爱！",
+
+	"colada-marshmallowpop.name": "椰林飘香棉花软糖串",
+	"colada-marshmallowpop.description": "把不同颜色跟口味的棉花软糖卷在一根棍子上！敲口爱！",
+
+	"candy-marshmallowpop.name": "棉花糖＆棉花软糖串",
+	"candy-marshmallowpop.description": "把不同颜色跟口味的棉花软糖卷在一根棍子上！敲口爱！",
+
+	"earlgrey-marshmallowpop.name": "仕女伯爵棉花软糖串",
+	"earlgrey-marshmallowpop.description": "把不同颜色跟口味的棉花软糖卷在一根棍子上！敲口爱！",
+
+	"gem-marshmallowpop.name": "甜蜜宝石棉花软糖串",
+	"gem-marshmallowpop.description": "把不同颜色跟口味的棉花软糖卷在一根棍子上！敲口爱！",
+
+	"peach-marshmallowpop.name": "蜜桃奶油棉花软糖串",
+	"peach-marshmallowpop.description": "把不同颜色跟口味的棉花软糖卷在一根棍子上！敲口爱！",
+
+	//LOLLYPOPS
+	"blueberry-lollypop.name": "蓝莓棒棒糖",
+	"blueberry-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"cherry-lollypop.name": "樱桃棒棒糖",
+	"cherry-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"grape-lollypop.name": "葡萄棒棒糖",
+	"grape-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"lemon-lollypop.name": "柠檬棒棒糖",
+	"lemon-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"lime-lollypop.name": "莱姆棒棒糖",
+	"lime-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"mint-lollypop.name": "薄荷棒棒糖",
+	"mint-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"orange-lollypop.name": "柳橙棒棒糖",
+	"orange-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	"raspberry-lollypop.name": "覆盆莓棒棒糖",
+	"raspberry-lollypop.description": "经典的儿童糖果，又甜又好带！",
+
+	//GOURMET LOLLYPOPS
+
+	"blueberry-gourmetpop.name": "蓝莓派美味棒棒糖",
+	"blueberry-gourmetpop.description": "这个棒棒糖超大，准备甜到嗨吧！",
+
+	"lemon-gourmetpop.name": "柠檬蛋白霜美味棒棒糖",
+	"lemon-gourmetpop.description": "这个棒棒糖超大，准备甜到嗨吧！",
+
+	"mint-gourmetpop.name": "香草薄荷美味棒棒糖",
+	"mint-gourmetpop.description": "这个棒棒糖超大，准备甜到嗨吧！",
+
+	"berry-gourmetpop.name": "综合莓果美味棒棒糖",
+	"berry-gourmetpop.description": "这个棒棒糖超大，准备甜到嗨吧！",
+
+	"shortcake-gourmetpop.name": "草莓奶油蛋糕美味棒棒糖",
+	"shortcake-gourmetpop.description": "这个棒棒糖超大，准备甜到嗨吧！",
+
+	//MINTS
+
+	"blue-mint.name": "蓝色薄荷糖",
+	"blue-mint.description": "一个可爱的粉彩薄荷糖。",
+
+	"green-mint.name": "绿色薄荷糖",
+	"green-mint.description": "一个可爱的粉彩薄荷糖。",
+
+	"pink-mint.name": "粉色薄荷糖",
+	"pink-mint.description": "一个可爱的粉彩薄荷糖。",
+
+	"purple-mint.name": "紫色薄荷糖",
+	"purple-mint.description": "一个可爱的粉彩薄荷糖。",
+
+	"red-mint.name": "红色薄荷糖",
+	"red-mint.description": "一个可爱的粉彩薄荷糖。",
+
+	//HARD CANDIES
+
+	"cinnamon-hardcandy.name": "肉桂硬糖",
+	"cinnamon-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"blue-hardcandy.name": "冰蓝硬糖",
+	"blue-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"ginger-hardcandy.name": "姜香硬糖",
+	"ginger-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"lime-hardcandy.name": "莱姆硬糖",
+	"lime-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"orange-hardcandy.name": "柳橙硬糖",
+	"orange-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"grape-hardcandy.name": "葡萄硬糖",
+	"grape-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"strawberry-hardcandy.name": "草莓硬糖",
+	"strawberry-hardcandy.description": "把充满果香的硬糖包在可爱的粉彩包装纸内。",
+
+	"winter-hardcandy.name": "冬日星拐杖糖",
+	"winter-hardcandy.description": "一个可爱的枴杖糖，庆祝佳节的完美选择！",
+
+	//CHOCOLATE BARS
+
+	"artisan-chocobar.name": "匠人巧克力棒",
+	"artisan-chocobar.description": "由巧克力大师制作的巧克力棒，超梦幻！",
+
+	"white-chocobar.name": "匠人白巧克力棒",
+	"white-chocobar.description": "由巧克力大师制作的巧克力棒，超梦幻！",
+
+	"ruby-chocobar.name": "匠人红宝石巧克力棒",
+	"ruby-chocobar.description": "由巧克力大师制作的巧克力棒，超梦幻！",
+
+	"birthday-chocobar.name": "匠人生日蛋糕巧克力棒",
+	"birthday-chocobar.description": "由巧克力大师制作的巧克力棒，超梦幻！",
+
+	"cookie-chocobar.name": "匠人奶油夹心饼干巧克力棒",
+	"cookie-chocobar.description": "由巧克力大师制作的巧克力棒，超梦幻！",
+
+	//FAIRY FLOSS
+
+	"classic-fairyfloss.name": "棉花糖",
+	"classic-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+	"lavender-fairyfloss.name": "薰衣草棉花糖",
+	"lavender-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+	"lemon-fairyfloss.name": "柠檬蛋白霜棉花糖",
+	"lemon-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+	"orange-fairyfloss.name": "柳橙奶油冰棍棉花糖",
+	"orange-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+	"mint-fairyfloss.name": "薄荷棉花糖",
+	"mint-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+	"strawberry-fairyfloss.name": "草莓奶油蛋糕棉花糖",
+	"strawberry-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+	"vanilla-fairyfloss.name": "香草棉花糖",
+	"vanilla-fairyfloss.description": "用了很多糖跟调味料的超甜点心。",
+
+
+	//CRYSTAL CANDY
+
+	"amethyst-crystalcandy.name": "紫水晶糖棒",
+	"amethyst-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"aqua-crystalcandy.name": "海蓝水晶糖棒",
+	"aqua-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"emerald-crystalcandy.name": "绿水晶糖棒",
+	"emerald-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"lemon-crystalcandy.name": "柠檬水晶糖棒",
+	"lemon-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"rainbow-crystalcandy.name": "彩虹水晶糖棒",
+	"rainbow-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"ruby-crystalcandy.name": "红水晶糖棒",
+	"ruby-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"starry-crystalcandy.name": "流星水晶糖棒",
+	"starry-crystalcandy.description": "水晶般的超甜糖果。",
+
+	"topaz-crystalcandy.name": "黄水晶糖棒",
+	"topaz-crystalcandy.description": "水晶般的超甜糖果。",
+
+
+//CHILLY TREATS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"blast-chiller.name":"风暴制冰机",
+"blast-chiller.description":"让你制造美味冰品的迷你冷冻柜！",
+
+"frozentreat-maker.name":"冰品机",
+"frozentreat-maker.description":"一台用来搅拌自制冰淇淋与优格冰淇淋的机器。",
+
+//FROZEN YOGURT
+
+"cake-froyo.name": "生日蛋糕优格优格冰",
+"cake-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"blueberry-froyo.name": "蓝莓芝士蛋糕优格冰",
+"blueberry-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"cheesecake-froyo.name": "芝士蛋糕优格冰",
+"cheesecake-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"cherrychoco-froyo.name": "樱桃巧克力优格冰",
+"cherrychoco-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"fruity-froyo.name": "水果优格冰",
+"fruity-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"choco-froyo.name": "巧克力优格冰",
+"choco-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"lemon-froyo.name": "柠檬雪酪",
+"lemon-froyo.description": "新鲜水果和奶油一起搅拌成轻巧甜蜜的雪酪。",
+
+"mango-froyo.name": "芒果雪酪",
+"mango-froyo.description": "新鲜水果和奶油一起搅拌成轻巧甜蜜的雪酪。",
+
+"melon-froyo.name": "甜瓜雪酪",
+"melon-froyo.description": "新鲜水果和奶油一起搅拌成轻巧甜蜜的雪酪。",
+
+"mintchoco-froyo.name": "薄荷巧克力优格冰",
+"mintchoco-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"orange-froyo.name": "柳橙雪酪",
+"orange-froyo.description": "新鲜水果和奶油一起搅拌成轻巧甜蜜的雪酪。",
+
+"pumpkin-froyo.name": "南瓜香料优格冰",
+"pumpkin-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"starfruit-froyo.name": "杨桃雪酪",
+"starfruit-froyo.description": "新鲜水果和奶油一起搅拌成轻巧甜蜜的雪酪。",
+
+"taro-froyo.name": "芋头优格冰",
+"taro-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+"wildberry-froyo.name": "野梅优格冰",
+"wildberry-froyo.description": "一杯刚搅完的优格冰淇淋——美味无比！",
+
+//ICE CREAM
+
+"ancient-cone.name": "远古冰淇淋",
+"ancient-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"apple-cone.name": "苹果派冰淇淋",
+"apple-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"cherrynut-cone.name": "樱桃杏仁冰淇淋",
+"cherrynut-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"cherryblossom-cone.name": "樱花冰淇淋",
+"cherryblossom-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"chocolate-cone.name": "巧克力冰淇淋",
+"chocolate-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"coconut-cone.name": "椰香冰淇淋",
+"coconut-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"coffee-cone.name": "咖啡冰淇淋",
+"coffee-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"cookiedough-cone.name": "饼干面团冰淇淋",
+"cookiedough-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"cookie-cone.name": "奶油饼干冰淇淋",
+"cookie-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"horchata-cone.name": "欧洽塔冰淇淋",
+"horchata-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"lavender-cone.name": "柠檬薰衣草冰淇淋",
+"lavender-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"maple-cone.name": "枫糖核桃冰淇淋",
+"maple-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"mint-cone.name": "薄荷巧克力冰淇淋",
+"mint-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"pistachio-cone.name": "开心果冰淇淋",
+"pistachio-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"strawberry-cone.name": "草莓奶油冰淇淋",
+"strawberry-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+"vanilla-cone.name": "香草籽冰淇淋",
+"vanilla-cone.description": "自制冰淇淋——完美的盛夏甜品！",
+
+//MILKSHAKES
+
+"choco-milkshake.name": "巧克力奶昔",
+"choco-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"candy-milkshake.name": "棉花软糖奶昔",
+"candy-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"orange-milkshake.name": "柳橙奶油奶昔",
+"orange-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"earlgrey-milkshake.name": "仕女伯爵奶昔",
+"earlgrey-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"lime-milkshake.name": "美式莱姆奶昔",
+"lime-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"colada-milkshake.name": "椰林飘香奶昔",
+"colada-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"pumpkin-milkshake.name": "南瓜香料奶昔",
+"pumpkin-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"strawberry-milkshake.name": "草莓奶昔",
+"strawberry-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+"vanilla-milkshake.name": "香草籽奶昔",
+"vanilla-milkshake.description": "把冰淇淋和牛奶一起搅拌成可以喝的美味冰品！",
+
+//POPSICLES
+
+"ancient-popsicle.name": "远古冰棍",
+"ancient-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"blueberry-popsicle.name": "蓝莓冰棍",
+"blueberry-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"cherry-popsicle.name": "樱桃冰棍",
+"cherry-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"coconut-popsicle.name": "椰香冰棍",
+"coconut-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"fruity-popsicle.name": "水果冰棍",
+"fruity-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"grape-popsicle.name": "葡萄冰棍",
+"grape-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"lemon-popsicle.name": "柠檬冰棍",
+"lemon-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"lime-popsicle.name": "莱姆冰棍",
+"lime-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"gem-popsicle.name": "宝石冰棍",
+"gem-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"mango-popsicle.name": "芒果冰棍",
+"mango-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"melon-popsicle.name": "甜瓜冰棍",
+"melon-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"orange-popsicle.name": "柳橙冰棍",
+"orange-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"peach-popsicle.name": "蜜桃冰棍",
+"peach-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"pineapple-popsicle.name": "凤梨冰棍",
+"pineapple-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"starfruit-popsicle.name": "杨桃冰棍",
+"starfruit-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"strawberry-popsicle.name": "草莓冰棍",
+"strawberry-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"raspberry-popsicle.name": "覆盆莓冰棍",
+"raspberry-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+"wildberry-popsicle.name": "野梅冰棍",
+"wildberry-popsicle.description": "冻结在棍子上的果汁——可爱的盛夏甜品。",
+
+//SUNDAES
+
+"banana-sundae.name": "香蕉船圣代",
+"banana-sundae.description": "用糖浆装饰的一大碗冰淇淋。",
+
+"fudge-sundae.name": "熔岩巧克力圣代",
+"fudge-sundae.description": "用糖浆装饰的一大碗冰淇淋。",
+
+"caramel-sundae.name": "海盐焦糖圣代",
+"caramel-sundae.description": "用糖浆装饰的一大碗冰淇淋。",
+
+"smores-sundae.name": "棉花软糖巧克力夹心饼圣代",
+"smores-sundae.description": "用糖浆装饰的一大碗冰淇淋。",
+
+"soda-float.name": "老式汽水漂浮冰",
+"soda-float.description": "一杯有冰淇淋浮在汽水上的清爽饮品。",
+
+//ICE CREAM SANDWICHES
+
+"cinnamon-icecreamwich.name": "肉桂巧克力三明治冰淇淋",
+"cinnamon-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+"mint-icecreamwich.name": "薄荷巧克力三明治冰淇淋",
+"mint-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+"mochanut-icecreamwich.name": "椰香摩卡三明治冰淇淋",
+"mochanut-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+"mocha-icecreamwich.name": "摩卡三明治冰淇淋",
+"mocha-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+"pistachio-icecreamwich.name": "开心果三明治冰淇淋",
+"pistachio-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+"strawberry-icecreamwich.name": "草莓三明治冰淇淋",
+"strawberry-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+"vanilla-icecreamwich.name": "香草籽三明治冰淇淋",
+"vanilla-icecreamwich.description": "用两块巧克力蛋糕代替饼干制作的三明治冰淇淋，好好吃！",
+
+//COFFEE i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"coffee-brewer.name":"咖啡壶",
+"coffee-brewer.description":"这款别致的咖啡壶中还有内置一个研磨机，非常适合泡特殊的混合咖啡！",
+
+//COFFEE BAGS
+
+"breakfast-blend.name":"早餐混合咖啡粉",
+"breakfast-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"vanilla-blend.name":"卡利科香草咖啡粉",
+"vanilla-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"cold-blend.name":"冷萃咖啡粉",
+"cold-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"donut-blend.name":"甜甜圈专柜咖啡粉",
+"donut-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"hazelnut-blend.name":"榛果咖啡粉",
+"hazelnut-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"holiday-blend.name":"假期混合咖啡粉",
+"holiday-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"mocha-blend.name":"摩卡咖啡粉",
+"mocha-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"pumpkin-blend.name":"南瓜香料咖啡粉",
+"pumpkin-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"sweetheart-blend.name":"甜心混合咖啡粉",
+"sweetheart-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+"coconut-blend.name":"香烤椰子咖啡粉",
+"coconut-blend.description":"包装好的现磨咖啡豆，随时能成为美味咖啡！",
+
+
+//LATTE
+
+"breakfast-latte.name": "早餐拿铁",
+"breakfast-latte.description": "现煮咖啡，轻松惬意！",
+
+"vanilla-latte.name":"卡利科香草拿铁",
+"vanilla-latte.description":"现煮咖啡，轻松惬意！",
+
+"cold-brew.name":"冷萃咖啡",
+"cold-brew.description":"现煮咖啡，轻松惬意！",
+
+"donut-latte.name":"甜甜圈专柜拿铁",
+"donut-latte.description":"现煮咖啡，轻松惬意！",
+
+"hazelnut-latte.name":"榛果拿铁",
+"hazelnut-latte.description":"现煮咖啡，轻松惬意！",
+
+"holiday-latte.name":"假期拿铁",
+"holiday-latte.description":"现煮咖啡，轻松惬意！",
+
+"mocha-latte.name":"摩卡拿铁",
+"mocha-latte.description":"现煮咖啡，轻松惬意！",
+
+"pumpkin-latte.name":"南瓜香料拿铁",
+"pumpkin-latte.description":"现煮咖啡，轻松惬意！",
+
+"sweetheart-latte.name":"甜心拿铁",
+"sweetheart-latte.description":"现煮咖啡，轻松惬意！",
+
+"coconut-latte.name":"香烤椰子拿铁",
+"coconut-latte.description":"现煮咖啡，轻松惬意！",
+
+
+//FLORAL i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"flower-station.name": "花卉工作站",
+"flower-station.description": "可以用鲜花制作许多手工艺品！",
+
+"wildflour-tub.name": "一簇野花",
+"wildflour-tub.description": "就像一簇鲜花，不过它更棒，因为它能制作多种花卉产品！",
+
+"fragrance-station.name":"香氛工作站",
+"fragrance-station.description":"一台可以制作精油、香氛皂以及香水的机器！",
+
+//CUSTOM BOUQUET
+
+"jazz-bouquet.name": "蓝爵花束",
+"jazz-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"vanilla-bouquet.name": "卡利科香草花束",
+"vanilla-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"fairy-bouquet.name": "玫瑰仙子花束",
+"fairy-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"chamomile-bouquet.name": "森林洋甘菊花束",
+"chamomile-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"lavender-bouquet.name": "森林薰衣草花束",
+"lavender-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"jasmine-bouquet.name": "姜岛茉莉花束",
+"jasmine-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"mallow-bouquet.name": "棉花糖花束",
+"mallow-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"poppy-bouquet.name": "虞美人花束",
+"poppy-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"sakura-bouquet.name": "樱花花束",
+"sakura-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"spangle-bouquet.name": "夏季亮片花束",
+"spangle-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"sunflower-bouquet.name": "向日葵花束",
+"sunflower-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+"tulip-bouquet.name": "郁金香花束",
+"tulip-bouquet.description": "一束华丽的鲜花，可以作为一份可爱的礼物！",
+
+//CUSTOM PERFUME
+
+"jazz-perfume.name": "蓝爵淡香水",
+"jazz-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"vanilla-perfume.name": "卡利科香草淡香水",
+"vanilla-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"fairy-perfume.name": "玫瑰仙子淡香水",
+"fairy-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"chamomile-perfume.name": "森林洋甘菊淡香水",
+"chamomile-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"lavender-perfume.name": "森林薰衣草淡香水",
+"lavender-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"jasmine-perfume.name": "姜岛茉莉淡香水",
+"jasmine-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"mallow-perfume.name": "棉花糖淡香水",
+"mallow-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"poppy-perfume.name": "虞美人淡香水",
+"poppy-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"sakura-perfume.name": "樱花淡香水",
+"sakura-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"spangle-perfume.name": "夏季亮片淡香水",
+"spangle-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"sunflower-perfume.name": "向日葵淡香水",
+"sunflower-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+"tulip-perfume.name": "郁金香淡香水",
+"tulip-perfume.description": "一种由蒸馏过的花卉精油制成的清香型香水。",
+
+
+//CUSTOM ESSENCE
+
+"jazz-essence.name": "蓝爵精油",
+"jazz-essence.description": "用鲜花制成，充满芳香的油。",
+
+"vanilla-essence.name": "卡利科香草精油",
+"vanilla-essence.description": "用鲜花制成，充满芳香的油。",
+
+"fairy-essence.name": "玫瑰仙子精油",
+"fairy-essence.description": "用鲜花制成，充满芳香的油。",
+
+"chamomile-essence.name": "森林洋甘菊精油",
+"chamomile-essence.description": "用鲜花制成，充满芳香的油。",
+
+"lavender-essence.name": "森林薰衣草精油",
+"lavender-essence.description": "用鲜花制成，充满芳香的油。",
+
+"jasmine-essence.name": "姜岛茉莉精油",
+"jasmine-essence.description": "用鲜花制成，充满芳香的油。",
+
+"mallow-essence.name": "棉花糖精油",
+"mallow-essence.description": "用鲜花制成，充满芳香的油。",
+
+"poppy-essence.name": "虞美人精油",
+"poppy-essence.description": "用鲜花制成，充满芳香的油。",
+
+"sakura-essence.name": "樱花精油",
+"sakura-essence.description": "用鲜花制成，充满芳香的油。",
+
+"spangle-essence.name": "夏季亮片精油",
+"spangle-essence.description": "用鲜花制成，充满芳香的油。",
+
+"sunflower-essence.name": "向日葵精油",
+"sunflower-essence.description": "用鲜花制成，充满芳香的油。",
+
+"tulip-essence.name": "郁金香精油",
+"tulip-essence.description": "用鲜花制成，充满芳香的油。",
+
+//CUSTOM SOAP
+
+"jazz-soap.name": "蓝爵奢华香氛皂",
+"jazz-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"vanilla-soap.name": "卡利科香草奢华香氛皂",
+"vanilla-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"fairy-soap.name": "玫瑰仙子奢华香氛皂",
+"fairy-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"chamomile-soap.name": "森林洋甘菊奢华香氛皂",
+"chamomile-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"lavender-soap.name": "森林薰衣草奢华香氛皂",
+"lavender-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"jasmine-soap.name": "姜岛茉莉奢华香氛皂",
+"jasmine-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"mallow-soap.name": "棉花糖奢华香氛皂",
+"mallow-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"poppy-soap.name": "虞美人奢华香氛皂",
+"poppy-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"sakura-soap.name": "樱花奢华香氛皂",
+"sakura-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"spangle-soap.name": "夏季亮片奢华香氛皂",
+"spangle-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"sunflower-soap.name": "向日葵奢华香氛皂",
+"sunflower-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+"tulip-soap.name": "郁金香奢华香氛皂",
+"tulip-soap.description": "一块带有花香的奢华香皂，多棒啊！",
+
+//CUSTOM PETALS
+
+"jazz-petals.name": "干燥蓝爵花瓣",
+"jazz-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"vanilla-petals.name": "干燥卡利科香草",
+"vanilla-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"fairy-petals.name": "干燥玫瑰仙子花瓣",
+"fairy-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"chamomile-petals.name": "干燥森林洋甘菊花瓣",
+"chamomile-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"lavender-petals.name": "干燥森林薰衣草",
+"lavender-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"jasmine-petals.name": "干燥姜岛茉莉花瓣",
+"jasmine-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"mallow-petals.name": "干燥棉花糖花瓣",
+"mallow-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"poppy-petals.name": "干燥虞美人花瓣",
+"poppy-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"sakura-petals.name": "干燥樱花花瓣",
+"sakura-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"spangle-petals.name": "干燥夏季亮片花瓣",
+"spangle-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"sunflower-petals.name": "干燥向日葵花瓣",
+"sunflower-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+"tulip-petals.name": "干燥郁金香花瓣",
+"tulip-petals.description": "为了保存其甜美香味而被干燥的花瓣。",
+
+//CUSTOM POTPOURRI
+
+"jazz-potpourri.name": "爵士百花香囊",
+"jazz-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"vanilla-potpourri.name": "香草百花香囊",
+"vanilla-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"fairy-potpourri.name": "玫瑰仙子百花香囊",
+"fairy-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"chamomile-potpourri.name": "洋甘菊百花香囊",
+"chamomile-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"lavender-potpourri.name": "薰衣草百花香囊",
+"lavender-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"jasmine-potpourri.name": "茉莉百花香囊",
+"jasmine-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"mallow-potpourri.name": "棉花糖百花香囊",
+"mallow-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"poppy-potpourri.name": "虞美人百花香囊",
+"poppy-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"sakura-potpourri.name": "樱花百花香囊",
+"sakura-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"spangle-potpourri.name": "夏季亮片百花香囊",
+"spangle-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"sunflower-potpourri.name": "向日葵百花香囊",
+"sunflower-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+"tulip-potpourri.name": "郁金香百花香囊",
+"tulip-potpourri.description": "把干燥花瓣包在棉布袋中，非常适合让您的衣橱或梳妆台抽屉保持宜人芳香。",
+
+//CANDLES
+
+"jazz-candles.name": "爵士香氛蜡烛",
+"jazz-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"vanilla-candles.name": "香草香氛蜡烛",
+"vanilla-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"fairy-candles.name": "玫瑰仙子香氛蜡烛",
+"fairy-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"chamomile-candles.name": "洋甘菊香氛蜡烛",
+"chamomile-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"lavender-candles.name": "薰衣草香氛蜡烛",
+"lavender-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"jasmine-candles.name": "茉莉香氛蜡烛",
+"jasmine-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"mallow-candles.name": "棉花糖香氛蜡烛",
+"mallow-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"poppy-candles.name": "虞美人香氛蜡烛",
+"poppy-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"sakura-candles.name": "樱花香氛蜡烛",
+"sakura-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"spangle-candles.name": "夏季亮片香氛蜡烛",
+"spangle-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"sunflower-candles.name": "向日葵香氛蜡烛",
+"sunflower-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+"tulip-candles.name": "郁金香香氛蜡烛",
+"tulip-candles.description": "一组美丽的香氛蜡烛三件套。",
+
+//GOURMET PANTRY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//Kitchen Blender
+"kitchen-blender.name": "厨房调理机",
+"kitchen-blender.description": "一个厨房用具，可以把坚果搅拌成植物奶，把植物奶搅拌成奶油，以及更多用途！",
+
+　　//Kitchen Mortar
+"kitchen-mortar.name": "厨房研磨器",
+"kitchen-mortar.description": "一个厨房用具，可以把作物研磨成粉类和调味料。",
+
+// Almond Nut Butter
+"almond-butter.name": "杏仁黃油酱",
+"almond-butter.description": "一种由杏仁制成的黃油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+
+//Almondmilk
+"almond-milk.name": "杏仁奶",
+"almond-milk.description": "一种由杏仁制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+//Bittersweet Bakers Chocolate
+"bitter-chocolate.name": "苦甜巧克力",
+"bitter-chocolate.description": "用来制作甜点和零食的黑巧克力棒。",
+
+//Boba Pearls
+"boba-pearls.name": "波霸珍珠",
+"boba-pearls.description": "这些含淀粉的凝胶状球体可以加在冰茶和牛奶中制成珍珠奶茶！",
+
+//Calico Vanilla Extract
+"vanilla-extract.name": "卡利科香草精",
+"vanilla-extract.description": "从采集来的香草荚中提炼的香草精。可以在烘焙甜点时使用！",
+
+//Cashew Nut Butter
+"cashew-butter.name": "腰果黃油酱",
+"cashew-butter.description": "一种由腰果制成的黃油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+
+//Cashewmilk
+"cashew-milk.name": "腰果奶",
+"cashew-milk.description": "一种由腰果制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+//Chocolate Morsels
+"chocolate-chips.name": "巧克力碎片",
+"chocolate-chips.description": "也被称为巧克力豆，对喜欢烤饼干的人来说这无庸置疑是必需品。",
+
+//Coconutmilk
+"coconut-milk.name": "椰奶",
+"coconut-milk.description": "一种由椰子制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+//Confectioners Sugar
+"powder-sugar.name": "糖粉",
+"powder-sugar.description": "这个研磨过的细砂糖粉加了一点玉米淀粉防止结块，常用来撒在烘焙食品的底部。",
+
+//Creamy Coconut Butter
+"coconut-butter.name": "椰子黃油酱",
+"coconut-butter.description": "用椰子脂肪制成的黃油替代品，制作无奶制品点心的完美选择！",
+
+//Espresso Powder
+"espresso-powder.name": "浓缩咖啡粉",
+"espresso-powder.description": "浓郁的咖啡味是巧克力烘焙食品的最佳拍档。",
+
+//Farm Fresh Butter
+"butter.name": "农场新鲜黃油",
+"butter.description": "用手将鲜奶搅成的美味黃油。",
+
+//Farm Fresh Buttermilk
+"buttermilk.name": "农场新鲜酪乳",
+"buttermilk.description": "虽然不是很好闻，但这种食材有助于制作柔软的玉米面包一级蓬松的松饼。",
+
+//Farm Fresh Cream
+"cream.name": "农场新鲜奶油",
+"cream.description": "由当地奶牛的牛奶制成，制作某些糕点和打出柔软蓬松的糖霜需要这种奶油！",
+
+//Farm Fresh Cream Cheese
+"cream-cheese.name": "农场新鲜奶油芝士",
+"cream-cheese.description": "由当地奶牛的牛奶制成，这种奶油芝士非常适合用来制作芝士蛋糕，或只是单纯涂在贝果上也行。",
+
+//Ghee
+"ghee.name":"农场新鲜酥油",
+"ghee.description":"一种澄清的黃油。",
+
+//Farm Fresh Yogurt
+"yogurt.name": "农场新鲜优格",
+"yogurt.description": "由当地奶牛的牛奶制成，这种优格富含益生菌！",
+
+//Farmstead Apple Butter
+"apple-butter.name": "农庄苹果黃油酱",
+"apple-butter.description": "用农民的秘传家庭食谱制成——温暖又甜美，抹在早餐吐司或是玛芬上的完美选择",
+
+//Farmstead Honey Butter
+"honey-butter.name": "农庄蜂蜜黃油酱",
+"honey-butter.description": "用农民的秘传家庭食谱制成，还有一些可爱的大黄蜂帮忙哦",
+
+//Farmstead Maple Butter
+"maple-butter.name": "农庄枫糖黃油酱",
+"maple-butter.description": "用农民的秘传家庭食谱制成，还有加入当地产的枫糖浆",
+
+//Farmstead Pumpkin Butter
+"pumpkin-butter.name": "农庄南瓜黃油酱",
+"pumpkin-butter.description": "用农民的秘传家庭食谱制成——对南瓜香料爱好者，例如我们所有人来说是个绝佳的选择",
+
+//Gourmet Lemon Curd
+"lemon-curd.name": "美味柠檬凝乳",
+"lemon-curd.description": "这香浓的奶油质地都要归功于快乐母鸡们生下的高质量蛋黄",
+
+//Gourmet Lime Curd
+"lime-curd.name": "美味莱姆凝乳",
+"lime-curd.description": "这香浓的奶油质地都要归功于快乐母鸡们生下的高质量蛋黄",
+
+//Gourmet Orange Curd
+"orange-curd.name": "美味柳橙凝乳",
+"orange-curd.description": "这香浓的奶油质地都要归功于快乐母鸡们生下的高质量蛋黄",
+
+//Hazelnut Nut Butter
+"hazelnut-butter.name": "榛果黃油酱",
+"hazelnut-butter.description": "一种由榛果制成的黃油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+
+//Hazelnutmilk
+"hazelnut-milk.name": "榛果奶",
+"hazelnut-milk.description": "一种由榛果制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+//Pectin
+"pectin.name": "果胶",
+"pectin.description": "一种由水果制成的凝胶剂；对保存果酱和果冻来说是必不可少的。",
+
+//Pistachio Nut Butter
+"pistachio-butter.name": "开心果黃油酱",
+"pistachio-butter.description": "一种由开心果制成的黃油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+
+//Pistachiomilk
+"pistachio-milk.name": "开心果奶",
+"pistachio-milk.description": "一种由开心果制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+//Rainbow Sprinkles
+"rainbow-sprinkles.name": "彩针糖",
+"rainbow-sprinkles.description": "就是彩色巧克力米；不管你怎么叫，又甜又缤纷的它们对所有东西来说都是完美的装饰！",
+
+//Ricemilk
+"rice-milk.name": "米浆",
+"rice-milk.description": "一种由米制成的替代奶，在烘焙、做冰沙等等的过程中是绝佳的奶制品替代品！",
+
+//Semisweet Bakers Chocolate
+"semisweet-chocolate.name": "半甜巧克力",
+"semisweet-chocolate.description": "用来制作甜点和零食的微甜巧克力棒",
+
+//Specialty Almond Flour
+"almond-flour.name": "特制杏仁粉",
+"almond-flour.description": "一种把杏仁磨碎制成的手工粉末。是马卡龙的必备原料，但也很适合用在无麸质烘焙！",
+
+//Specialty Bread Flour 
+"bread-flour.name": "特制面包粉",
+"bread-flour.description": "一种用更营养的小麦制成的手工粉末。较高的蛋白质含量使其适合用在大部分的面包面团上。",
+
+//Specialty Brown Sugar
+"brown-sugar.name": "特制黑糖",
+"brown-sugar.description": "在制程中没将所有糖蜜去除的糖，会产生更浓郁、自然的风味，适合用来做玛芬以及某些蛋糕。",
+
+//Specialty Cake Flour
+"cake-flour.name": "特制蛋糕粉",
+"cake-flour.description": "一种用来制作蛋糕的手工粉末。较低的蛋白质含量会让你的蛋糕更松软，还具有令人愉快的柔软蛋糕屑。",
+
+//Specialty Cocoa Powder
+"cocoa-powder.name": "特制可可粉",
+"cocoa-powder.description": "已经被干燥并磨成粉以制作烘焙食品的可可。",
+
+//Specialty Coconut Flour
+"coconut-flour.name": "特制椰子粉",
+"coconut-flour.description": "一种把椰子磨碎制成的手工粉末。用于制作一些特定的饺子，但也很适合用在无麸质烘焙！",
+
+//Specialty Coconut Oil
+"coconut-oil.name":"特制椰子油",
+"coconut-oil.description": "用新鲜椰子做的油。",
+
+//Specialty Corn Flour
+"corn-flour.name": "特制玉米粉",
+"corn-flour.description": "一种把玉米磨碎制成的手工粉末。是墨西哥粽或玉米面包等佳肴的必备原料。",
+
+//Specialty Olive Oil
+"olive-oil.name": "特制橄榄油",
+"olive-oil.description": "冷压代表这是一种用来制作沙拉或是炒新鲜蔬菜用的优质橄榄油！",
+
+//Specialty Pastry Flour
+"pastry-flour.name": "特制糕粉",
+"pastry-flour.description": "一种用来制作糕点的手工粉末。像蛋糕粉一样有着较低的蛋白质含量，是许多派跟糕饼必备的食材。",
+
+//Specialty Rice Flour
+"rice-flour.name": "特制米谷粉",
+"rice-flour.description": "一种把米磨碎制成的手工粉末。是饺子或麻糬的必备原料，但也很适合用在无麸质烘焙！",
+
+//Walnut Nut Butter
+"walnut-butter.name": "核桃黃油酱",
+"walnut-butter.description": "一种由核桃制成的黃油状抹酱，非常适合烘焙或是抹在吐司上等等！",
+
+//White Bakers Chocolate
+"white-chocolate.name": "白巧克力",
+"white-chocolate.description": "用来制作甜点和零食的白巧克力棒。",
+
+
+//JAMS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+	// Banana Maple Jam
+    "banana-maple.name": "枫糖香蕉果酱",
+	"banana-maple.description": "使用成熟香蕉泥和来自当地的枫糖浆制作的果酱。",
+	
+	//Banana Split Jam
+	"banana-split.name": "香蕉船果酱",
+	"banana-split.description": "香蕉、草莓再加上一颗樱桃！",
+	
+	//Blackberry Mint Jelly
+	"blackberry-mint.name": "黑莓薄荷果酱",
+	"blackberry-mint.description": "使用采集来的黑莓和自家栽培薄荷所制作的甜蜜果酱。",
+
+	//Blueberry Lavender Jelly
+	"blueberry-lavender.name": "蓝莓薰衣草果酱",
+	"blueberry-lavender.description": "使用新鲜蓝莓和采集而来的薰衣草所制作的甜蜜果酱。",
+	
+	//Blue Jazz Jelly
+	"blue-jazz-jelly.name": "蓝爵花酱",
+	"blue-jazz-jelly.description": "使用蓝爵花瓣制作的鲜花酱。",
+
+	//Chamomile Jelly
+	"chamomile-jelly.name":"洋甘菊花酱",
+	"chamomile-jelly.description":"使用采集来的洋甘菊花瓣制作的鲜花酱。",
+	
+	//Cherry Vanilla Jam
+	"cherry-vanilla.name": "香草樱桃果酱",
+	"cherry-vanilla.description": "使用现采樱桃和来自香草籽制作的果酱。",
+	
+	//Cinnamon Apple Preserves
+	"cinnamon-apple.name": "肉桂苹果果酱",
+	"cinnamon-apple.description": "鲜甜清脆的苹果加上辛香肉桂——这些果酱很适合加到任何东西里以散发出满满的秋日风味。",
+	
+	//Cranberry Chutney
+	"cranberry-chutney.name": "蔓越莓甜酸酱",
+	"cranberry-chutney.description": "蔓越莓果酱都被高估了——在你说之前有先吃过这种灿烂的柑橘甜酸酱了吗？",
+	
+	//Crocus Jelly
+	"crocus-jelly.name": "番红花酱",
+	"crocus-jelly.description": "使用野生番红花制作的鲜花酱；尝起来有点像香草还带点辣味。",
+	
+	//Dandelion Jelly
+	"dandelion-jelly.name": "蒲公英花酱",
+	"dandelion-jelly.description": "使用采集来的蒲公英制作的鲜花酱；尝起来又甜又柔和。",
+
+	//Honey Apricot Preserves
+	"honey-apricot.name": "蜂蜜杏子果酱",
+	"honey-apricot.description": "使用当地的蜂蜜及现采杏子制作的果酱。",
+	
+	//Honey Peach Preserves
+	"honey-peach.name": "蜂蜜蜜桃果酱",
+	"honey-peach.description": "使用当地的蜂蜜及现采桃子制作的果酱。",
+	
+	//Mango Chutney
+	"mango-chutney.name": "芒果甜酸酱",
+	"mango-chutney.description": "这个充满夏日风情的甜酸酱最适合搭配现捕现烤的鱼。",
+	
+	//Mixed Berry Preserves
+	"mixed-berry.name": "综合莓果果酱",
+	"mixed-berry.description": "使用三种新鲜莓果制作的果酱。",
+
+	//Peach Blossom Jelly
+	"peach-blossom.name":"樱花蜜桃果酱",
+	"peach-blossom.description":"樱花瓣和现采桃子炖煮成这美味又芳香的果酱。",
+	
+	//Peach Ginger Preserves
+	"peach-ginger.name": "蜜桃姜香果酱",
+	"peach-ginger.description": "使用桃子制作的果酱，还有加入一点来自姜之岛的姜来增添风味。",
+	
+	//Rose Petal Jelly
+	"rose-petal-jelly.name":"玫瑰花酱",
+	"rose-petal-jelly.description":"使用玫瑰花瓣制作的鲜花酱。",
+	
+	//Special Edition Flower Dance Jelly
+	"flower-dance.name": "特制花舞酱",
+	"flower-dance.description": "一组为了庆祝鹈鹕镇一年一度的花舞节所制作的鲜花酱！",
+	
+	//Special Edition Luau Jam
+	"luau-jam.name": "特制夏威夷果酱",
+	"luau-jam.description": "一组为了庆祝鹈鹕镇一年一度的夏威夷宴会所制作的果酱！",
+	
+	//Special Edition Spirits Eve Jam
+	"spirit-jam.name": "特制万灵果酱",
+	"spirit-jam.description": "一组为了庆祝鹈鹕镇一年一度的万灵节所制作的果酱！",
+	
+	//Special Edition Winter Star Jelly
+	"winter-star-jelly.name": "特制冬日星果酱",
+	"winter-star-jelly.description": "一组为了庆祝鹈鹕镇一年一度的冬日星盛宴所制作的果酱！",
+	
+	//Spring Lemon Marmalade
+	"lemon-marmalade.name": "春日柠檬柑橘酱",
+	"lemon-marmalade.description": "感谢整颗的柠檬皮，真的带来了明亮又清晰的柠檬风味！",
+	
+	//Strawberry Rhubarb Jam
+	"strawberry-rhubarb.name": "草莓大黄果酱",
+	"strawberry-rhubarb.description": "透过把甜蜜莓果跟酸大黄组合在一起所制作的果酱。",
+
+	//Strawberry Rose Jelly
+	"strawberry-rose.name":"玫瑰草莓果酱",
+	"strawberry-rose.description": "现采的野生草莓和玫瑰花瓣炖煮成这美味又芳香的果酱。",
+	
+	//Summer Spangle Jelly
+	"spangle-jelly.name": "夏季亮片花酱",
+	"spangle-jelly.description": "使用夏日最棒的夏季亮片制作的鲜花酱，尝起来就像罐子里的朝阳。",
+	
+	//Summery Orange Marmalade
+	"orange-marmalade.name": "盛夏柳橙柑橘酱",
+	"orange-marmalade.description": "感谢整颗的柳橙皮，真的带来了明亮又清晰的柳橙风味！",
+	
+	//Sunflower Jelly
+	"sunflower-jelly.name": "向日葵花酱",
+	"sunflower-jelly.description": "使用向日葵花瓣制作的鲜花酱，尝起来有股淡雅的坚果味。",
+	
+	//Sweet Lime Marmalade
+	"lime-marmalade.name": "甜蜜莱姆柑橘酱",
+	"lime-marmalade.description": "感谢整颗的莱姆皮，真的带来了酸甜的莱姆风味！",
+	
+	//Sweet Jasmine Jelly
+    "jasmine-jelly.name": "甜蜜茉莉花酱",
+    "jasmine-jelly.description": "使用现采茉莉花制作的鲜花酱，尝起来新鲜又充满花卉风味。",
+	
+	//Triple Citrus Marmalade
+	"citrus-marmalade.name": "三重奏柑橘酱",
+	"citrus-marmalade.description": "柠檬、莱姆和柳橙组合在一起，造就了满溢的柑橘味。",
+	
+	//Tulip Jelly
+	"tulip-jelly.name": "郁金香花酱",
+	"tulip-jelly.description": "使用现采郁金香制作的鲜花酱，尝起来新鲜又充满花卉风味。",
+	
+	//Vanilla Raspberry Preserves
+	"vanilla-raspberry.name": "香草覆盆莓果酱",
+	"vanilla-raspberry.description": "香草跟覆盆莓是最佳拍档——把这个果酱抹在吐司上或用在蛋糕里来享受这甜到你心底的佳肴！",
+	
+//MEADS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//MEAD KEG
+
+"mead-keg.name": "手工蜂蜜酒酿造桶",
+"mead-keg.description": "一个让你酿造调味蜂蜜酒的酿造桶。",
+
+//BASE GAME-mead
+
+"ancient-mead.name": "远古甜蜂蜜酒",
+"ancient-mead.description": "温暖动人，喝它会让你充满不可思议的神奇感觉。",
+
+"apricot-mead.name": "熙春杏子蜂蜜酒",
+"apricot-mead.description": "一个适合在开花的树下享用的甜蜜春日蜂蜜酒。",
+
+"banana-mead.name": "香蕉天恩蜂蜜酒",
+"banana-mead.description": "如果香蕉面包是由蜜蜂们制作的，那它吃起来就会像这样。",
+
+"blackberry-mead.name": "黑莓盛宴蜂蜜酒",
+"blackberry-mead.description": "受到采集野莓启发的酸甜蜂蜜酒。",
+
+"blueberry-mead.name": "蓝莓馅饼蜂蜜酒",
+"blueberry-mead.description": "你以前都不知道你会享受「喝」蓝莓派，但你现在懂了。",
+
+"cactus-mead.name": "卡利科仙人掌蜂蜜酒",
+"cactus-mead.description": "卡利科沙漠的特调。",
+
+"cherry-mead.name": "甜蜜樱桃蜂蜜酒",
+"cherry-mead.description": "酸酸甜甜，最适合赏樱时喝。",
+
+"coconut-mead.name": "热带椰子蜂蜜酒",
+"coconut-mead.description": "大家都会超爱这个热带～椰子蜂蜜酒！",   
+
+"cranberry-mead.name": "酸味蔓越莓蜂蜜酒",
+"cranberry-mead.description": "清新的酸味秋日蜂蜜酒。", 
+
+"crystal-mead.name": "水晶蜂蜜酒",
+"crystal-mead.description": "冬日星盛宴的完美蜂蜜酒。", 
+
+"mango-mead.name": "岛屿芒果蜂蜜酒",
+"mango-mead.description": "姜之岛的特调蜂蜜酒。", 
+
+"melon-mead.name": "盛夏甜瓜蜂蜜酒",
+"melon-mead.description": "这个令人心旷神怡的粉红蜂蜜酒适合所有夏日晚会。", 
+
+"orange-mead.name": "柳橙奶油蜂蜜酒",
+"orange-mead.description": "让你想起含羞草这种调酒的明亮柑橘蜂蜜酒。", 
+
+"peach-mead.name": "蜜桃奶油蜂蜜酒",
+"peach-mead.description": "甜蜜又充满夏日风情。", 
+
+"pineapple-mead.name": "贝啼的凤梨蜂蜜酒",
+"pineapple-mead.description": "这份秘密食谱受到姜之岛鹦鹉们的严格看守。", 
+
+"pomegranate-mead.name": "甜蜜石榴蜂蜜酒",
+"pomegranate-mead.description": "最适合用在万灵节派对的蜂蜜酒。", 
+
+"salmonberry-mead.name": "野生美洲大树莓蜂蜜酒",
+"salmonberry-mead.description": "用野生美洲大树莓制作的清甜蜂蜜酒。", 
+
+"spiced-mead.name": "香味蜂蜜酒",
+"spiced-mead.description": "最适合在寒冷傍晚喝的暖胃蜂蜜酒。", 
+
+"starfruit-mead.name": "杨桃天穹蜂蜜酒",
+"starfruit-mead.description": "最适合在夏夜观星时享用的金黄蜂蜜酒。", 
+
+"strawberry-mead.name": "草莓地蜂蜜酒",
+"strawberry-mead.description": "它让你想起草莓奶昔，不过要更苦一点。", 
+
+"gem-mead.name": "宝石蜂蜜酒",
+"gem-mead.description": "传说由住在秘密森林中的祝尼魔们酿造的神奇蜂蜜酒。.", 
+
+"plum-mead.name": "秋意野梅蜂蜜酒",
+"plum-mead.description": "一种甜蜜的秋日蜂蜜酒。", 
+
+//PPJA-mead
+
+"crisp-apple-mead.name": "爽脆苹果蜂蜜酒",
+"crisp-apple-mead.description": "清爽的蜂蜜酒，让你在寒冷的秋天保持温暖。.",
+
+"dragon-mead.name": "火龙果蜂蜜酒",
+"dragon-mead.description": "声明：没有任何一条龙在酿造蜂蜜酒时受到伤害。",
+
+"fig-mead.name": "凛冬无花果蜂蜜酒",
+"fig-mead.description": "强烈建议搭配羊奶奶酪！", 
+
+"grapefruit-mead.name": "苦甜葡萄柚蜂蜜酒",
+"grapefruit-mead.description": "有点酸的蜂蜜酒。", 
+
+"lemon-mead.name": "柠檬蛋白霜蜂蜜酒",
+"lemon-mead.description": "这个蜂蜜酒让你想起你妈妈闻名遐迩的柠檬方块酪。", 
+
+"lime-mead.name": "美式莱姆派蜂蜜酒",
+"lime-mead.description": "我们没有要预防坏血病，只是因为它很美味。", 
+
+"lychee-mead.name": "荔枝恋人蜂蜜酒",
+"lychee-mead.description": "甜蜜又带有些微花香的特调蜂蜜酒。", 
+
+"papaya-mead.name": "木瓜岛屿蜂蜜酒",
+"papaya-mead.description": "另一种沙蒂特别研发出的烈酒。",
+
+"pear-mead.name": "爽脆梨子蜂蜜酒",
+"pear-mead.description": "又酸又清爽。", 
+
+"persimmon-mead.name": "切块柿子蜂蜜酒",
+"persimmon-mead.description": "或许帽子老鼠会想要来一罐？", 
+
+"pomelo-mead.name": "酸味柚子蜂蜜酒",
+"pomelo-mead.description": "连最沉闷的凛冬都能照亮的柑橘蜂蜜酒。", 
+
+//WILD FOOD-mead
+
+"vanilla-mead.name": "卡利科香草蜂蜜酒",
+"vanilla-mead.description": "用卡利科香草蜂蜜酿造的蜂蜜酒。", 
+
+"cinnamon-mead.name": "甜蜜肉桂蜂蜜酒",
+"cinnamon-mead.description": "用煤炭肉桂蜂蜜酿造的蜂蜜酒。",
+
+"chamomile-mead.name": "洋甘菊草甸蜂蜜酒",
+"chamomile-mead.description": "用森林洋甘菊蜂蜜酿造的蜂蜜酒。",
+
+"lavender-mead.name": "薰衣草草甸蜂蜜酒",
+"lavender-mead.description": "用森林薰衣草蜂蜜酿造的蜂蜜酒。",
+
+"mallow-mead.name": "棉花糖蜂蜜酒",
+"mallow-mead.description": "用棉花糖花蜂蜜酿造的蜂蜜酒。",
+
+"petitelemon-mead.name": "小柠檬蜂蜜酒",
+"petitelemon-mead.description": "用小柠檬蜂蜜酿造的蜂蜜酒。", 
+
+"petitelime-mead.name": "小莱姆蜂蜜酒",
+"petitelime-mead.description": "用小莱姆蜂蜜酿造的蜂蜜酒。", 
+
+"sakura-mead.name": "樱花蜂蜜酒",
+"sakura-mead.description": "用樱花蜂蜜酿造的蜂蜜酒。",
+
+"wildraspberry-mead.name": "甜蜜覆盆莓蜂蜜酒",
+"wildraspberry-mead.description": "用野生覆盆莓蜂蜜酿造的蜂蜜酒。", 
+
+"wildstrawberry-mead.name": "草莓奶油蜂蜜酒",
+"wildstrawberry-mead.description": "用野生草莓蜂蜜酿造的蜂蜜酒。", 
+
+//PIXIE FORAGE-mead
+
+"pixie-apple-mead.name": "梦幻苹果蜂蜜酒",
+"pixie-apple-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-apricot-mead.name": "梦幻杏子蜂蜜酒",
+"pixie-apricot-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-banana-mead.name": "梦幻香蕉蜂蜜酒",
+"pixie-banana-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-cherry-mead.name": "梦幻樱桃蜂蜜酒",
+"pixie-cherry-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-mango-mead.name": "梦幻芒果蜂蜜酒",
+"pixie-mango-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-orange-mead.name": "梦幻柳橙蜂蜜酒",
+"pixie-orange-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-peach-mead.name": "梦幻蜜桃蜂蜜酒",
+"pixie-peach-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"pixie-pomegranate-mead.name": "梦幻石榴蜂蜜酒",
+"pixie-pomegranate-mead.description": "专门为了小仙子而酿的蜂蜜酒；传说如果人类喝了的话，他就能够跟魔法生物对话。",
+
+"cake-mead.name": "蛋糕蜂蜜酒",
+"cake-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像香草蛋糕。",
+
+"caramel-mead.name": "焦糖蜂蜜酒",
+"caramel-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像焦糖苹果。",
+
+"creamsicle-mead.name": "奶油冰棍蜂蜜酒",
+"creamsicle-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像柳橙冰棍。",
+
+"custard-mead.name": "卡士达蜂蜜酒",
+"custard-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像香草卡士达酱。",
+
+"gumdrop-mead.name": "橡皮水果糖蜂蜜酒",
+"gumdrop-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像橡皮水果糖。",
+
+"macaron-mead.name": "马卡龙蜂蜜酒",
+"macaron-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像杏仁马卡龙。",
+
+"pie-mead.name": "派蜂蜜酒",
+"pie-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像蓝莓派。",
+
+"sprinkle-mead.name": "彩针糖蜂蜜酒",
+"sprinkle-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像缤纷彩针糖。",
+
+"sugar-mead.name": "砂糖蜂蜜酒",
+"sugar-mead.description": "用神奇妖精花酿造的蜂蜜酒；奇怪的是尝起来就像100%砂糖。",
+
+//PICKLES i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//Bruschetta
+"bruschetta.name": "西红柿香芹普切塔",
+"bruschetta.description": "混合了西红柿丁、香芹跟大蒜，明亮又充满盛夏风味，经常放在克洛斯提尼或吐司上享用。",
+
+//Onion Chutney
+"onion-chutney.name": "焦化洋葱酸辣酱",
+"onion-chutney.description": "由炖煮了好几个小时，直到变成可以涂抹的香甜糊状的洋葱组成的酸辣酱。",
+
+//Pineapple Salsa
+"pineapple-salsa.name": "香烤凤梨莎莎酱",
+"pineapple-salsa.description": "先烤过一遍凤梨为这莎莎酱添加了令人愉悦的甜蜜与温暖。",
+
+//Giardiniera
+"giardiniera.name": "义式醋渍时蔬",
+"giardiniera.description": "把泡菜跟香草植物拌在一起，常常当作开胃菜或是成为三明治的一层配料。",
+
+//Horseradish Chips
+"horseradish-pickles.name": "醃辣根脆片",
+"horseradish-pickles.description": "野辣根为这些泡菜增添了许多风味！",
+
+//Kale Pesto
+"kale-pesto.name": "甘蓝香蒜青酱",
+"kale-pesto.description": "谁说青酱只能用香芹了！甘蓝香蒜口味拥有令人雀跃的大地气息。",
+
+//Mushrooms
+"marinated-mushrooms.name": "醃制蘑菇",
+"marinated-mushrooms.description": "这些美味的蘑菇被保存在油跟香料里，而非醋。",
+
+//Mild Salsa
+"tomato-salsa.name": "温和西红柿莎莎酱",
+"tomato-salsa.description": "这个莎莎酱不含辣椒，适合那些吃不了辛香料的人。",
+
+//Tapenade
+"olive-tapenade.name": "酸豆橄榄酱",
+"olive-tapenade.description": "把芬恩岛橄榄磨碎制成的抹酱。搭配吐司、鱼子酱跟香槟就会成为一份优雅的晚餐！",
+
+//Peach Salsa
+"peach-salsa.name": "蜜桃莎莎酱",
+"peach-salsa.description": "现采的桃子为这辛香夏日莎莎酱增添了点甜味。",
+
+//Pepper Relish
+"pepper-relish.name": "辣椒洋葱调味酱",
+"pepper-relish.description": "甜蜜又辛香的调味酱，适合搭配许多三明治。",
+
+//Pickled Artichoke
+"pickled-artichoke.name": "醋渍洋蓟芯",
+"pickled-artichoke.description": "这些洋蓟芯能维持松软柔嫩都要归功于醃制处理，看要加在沙拉里还是单吃都很棒！",
+
+//Pickled Fish
+"pickled-fish.name": "醃鱼",
+"pickled-fish.description": "虽然最常见的是用鲱鱼做，不过醃鱼在许多文化中都会放在吐司上作为一份简单的早餐享用。",
+
+//Pickled Olives
+"pickled-olives.name": "醃制橄榄",
+"pickled-olives.description": "芬恩岛橄榄被醃在盐水里以保存它们的风味。",
+
+//Pickled Red Onions
+"pickled-onion.name": "醋渍紫洋葱",
+"pickled-onion.description": "用糖烹煮紫洋葱薄片后，放在醋里密封冷却。",
+
+//Pickled Carrots
+"pickled-carrot.name": "醋渍野生胡萝卜",
+"pickled-carrot.description": "把现采的野生胡萝卜醃制起来，以保存它们自然的爽脆口感以及清甜风味。",
+
+//Red Peppers
+"roasted-peppers.name": "香烤辣椒",
+"roasted-peppers.description": "在明火中烘烤 ，而后封存在油中的辣椒；可以用在沙拉、三明治与许多烹饪菜肴中。",
+
+//Sauerkraut
+"sauerkraut.name": "德式酸菜",
+"sauerkraut.description": "使用辛香料调味的甘蓝泡菜，通常作为香肠或三明治的配料。",
+
+//Mango Salsa
+"mango-salsa.name": "辛香芒果莎莎酱",
+"mango-salsa.description": "这个甜甜辣辣的莎莎酱适合搭配许多海鲜菜肴！",
+
+//Spicy Salsa
+"spicy-salsa.name": "辛香西红柿莎莎酱",
+"spicy-salsa.description": "为了喜欢夏天香辣辣椒的人特制的莎莎酱。",
+
+//Sundried Tomatoes
+"sundried-tomatoes.name": "油渍西红柿",
+"sundried-tomatoes.description": "在阳光下晒干好几个小时，然后跟香草植物一起密封在油中的西红柿，常用来搭配沙拉或是义式面食。",
+
+//Basil Pesto
+"basil-pesto.name": "清甜香芹青酱",
+"basil-pesto.description": "使用香芹、大蒜、橄榄油及坚果制作的经典青酱。可以当作意大利面酱或三明治抹酱！",
+
+//Tomato Corn Salsa
+"corn-salsa.name": "西红柿玉米莎莎酱",
+"corn-salsa.description": "现采的西红柿与玉米让这莎莎酱成为完美的盛夏佐料！",
+
+//TEA i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"tea-kettle.name":"茶壶",
+"tea-kettle.description":"可以制作茶包，然后再把它们泡成香喷喷的茶！",
+
+//TEA SACHETS
+
+"apple-sachet.name": "秋日苹果茶包",
+"apple-sachet.description": "混合了辛香料和爽脆苹果让这调味茶非常适合搭配悠闲的秋日下午。",
+
+"vanilla-sachet.name": "卡利科香草茶包",
+"vanilla-sachet.description": "这个调味香草茶最适合暖心暖身。",
+
+"matcha-sachet.name": "仪式抹茶包",
+"matcha-sachet.description": "初摘茶叶制成的典礼级调味茶。",
+
+"cinnamon-sachet.name": "肉桂香料茶包",
+"cinnamon-sachet.description": "混合了茶叶和煤炭肉桂粉，非常适合泡茶。",
+
+"chamomile-sachet.name": "温馨洋甘菊茶包",
+"chamomile-sachet.description": "干燥洋甘菊花瓣以及其他宁神的香草植物造就这舒缓的调味茶。",
+
+"breakfast-sachet.name": "英式早餐茶包",
+"breakfast-sachet.description": "醇厚浓郁的调味茶。",
+
+"flower-sachet.name": "花卉茶包",
+"flower-sachet.description": "混合了茶叶和芳香，非常适合泡茶。",
+
+"fruit-sachet.name": "水果茶包",
+"fruit-sachet.description": "混合了茶叶和芳香，非常适合泡茶。",
+
+"jasmine-sachet.name": "芳香茉莉茶包",
+"jasmine-sachet.description": "混合了茶叶和芳香茉莉花瓣，非常适合泡茶。",
+
+"ginger-sachet.name": "蜜桃姜茶包",
+"ginger-sachet.description": "集结桃子甜蜜果味和姜的辛香而成的调味茶。",
+
+"grey-sachet.name": "格雷仕女茶包",
+"grey-sachet.description": "用了一点柠檬和柳橙使这调味茶比格雷伯爵茶还要更柔和、淡雅。",
+
+"lemon-sachet.name": "柠檬姜茶包",
+"lemon-sachet.description": "使用小柠檬皮和干燥的姜制成的提神调味茶。",
+
+"mint-sachet.name": "圣诞薄荷茶包",
+"mint-sachet.description": "常为了舒缓感冒与流感症状而泡的清新调味茶。",
+
+"berry-sachet.name": "综合莓果茶包",
+"berry-sachet.description": "有着新鲜莓果香的醇厚调味茶。",
+
+"peach-sachet.name": "蜜桃芒果茶包",
+"peach-sachet.description": "有着蜜桃芒果风味，令人雀跃的调味茶！",
+
+"pineapple-sachet.name": "凤梨椰香茶包",
+"pineapple-sachet.description": "甜蜜凤梨与清爽椰子的调味茶能立刻把你带到岛屿码头。",
+
+"pomegranate-sachet.name": "石榴绿茶包",
+"pomegranate-sachet.description": "强调了鲜亮石榴，生气蓬勃的草本调味茶。",
+
+"raspberry-sachet.name": "覆盆莓柠檬茶包",
+"raspberry-sachet.description": "平衡覆盆莓的酸及小柠檬芳香的香醇芬吉尔调味茶。",
+
+"rose-sachet.name": "玫瑰花茶包",
+"rose-sachet.description": "使用玫瑰花瓣与花蕾制成的调味茶。",
+
+"sakura-sachet.name": "樱花茶包",
+"sakura-sachet.description": "使用保鲜樱花瓣制成的调味茶。",
+
+"strawberry-sachet.name": "野生草莓茶包",
+"strawberry-sachet.description": "使用夏季野生草莓制成的甜蜜调味茶。",
+
+//TEA
+
+"apple-tea.name": "秋日苹果茶",
+"apple-tea.description": "现泡的苹果茶。",
+
+"vanilla-tea.name": "卡利科香草茶",
+"vanilla-tea.description": "现泡的香草茶。",
+
+"matcha-tea.name": "仪式抹茶",
+"matcha-tea.description": "现泡的抹茶。",
+
+"cinnamon-tea.name": "肉桂香料茶",
+"cinnamon-tea.description": "现泡的肉桂茶。",
+
+"chamomile-tea.name": "温馨洋甘菊茶",
+"chamomile-tea.description": "现泡的洋甘菊茶。",
+
+"breakfast-tea.name": "英式早餐茶",
+"breakfast-tea.description": "现泡的英式早餐茶。",
+
+"flower-tea.name": "花卉茶",
+"flower-tea.description": "现泡的花卉茶。",
+
+"fruit-tea.name": "水果茶",
+"fruit-tea.description": "现泡的水果茶。",
+
+"jasmine-tea.name": "芳香茉莉茶",
+"jasmine-tea.description": "现泡的茉莉茶。",
+
+"ginger-tea.name": "蜜桃姜茶",
+"ginger-tea.description": "现泡的蜜桃姜茶。",
+
+"grey-tea.name": "格雷仕女茶",
+"grey-tea.description": "现泡的格雷仕女茶。",
+
+"lemon-tea.name": "柠檬姜茶",
+"lemon-tea.description": "现泡的柠檬姜茶。",
+
+"mint-tea.name": "圣诞薄荷茶",
+"mint-tea.description": "现泡的薄荷茶。",
+
+"berry-tea.name": "综合莓果茶",
+"berry-tea.description": "现泡的综合莓果茶",
+
+"peach-tea.name": "蜜桃芒果茶",
+"peach-tea.description": "现泡的蜜桃芒果茶。",
+
+"pineapple-tea.name": "凤梨椰香茶",
+"pineapple-tea.description": "现泡的凤梨椰香茶。",
+
+"pomegranate-tea.name": "石榴绿茶",
+"pomegranate-tea.description": "现泡的石榴绿茶。",
+
+"raspberry-tea.name": "覆盆莓柠檬茶",
+"raspberry-tea.description": "现泡的覆盆莓柠檬茶。",
+
+"rose-tea.name": "玫瑰花茶",
+"rose-tea.description": "现泡的玫瑰花茶。",
+
+"sakura-tea.name": "樱花茶",
+"sakura-tea.description": "现泡的樱花茶。",
+
+"strawberry-tea.name": "野生草莓茶",
+"strawberry-tea.description": "现泡的野生草莓茶。",
+
+//KOMBUCHA
+
+"apple-kombucha.name": "秋日苹果康普茶",
+"apple-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"vanilla-kombucha.name": "卡利科香草康普茶",
+"vanilla-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"matcha-kombucha.name": "仪式抹茶康普茶",
+"matcha-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"cinnamon-kombucha.name": "肉桂香料康普茶",
+"cinnamon-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"chamomile-kombucha.name": "温馨洋甘菊康普茶",
+"chamomile-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"breakfast-kombucha.name": "英式早餐康普茶",
+"breakfast-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"flower-kombucha.name": "花卉康普茶",
+"flower-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"fruit-kombucha.name": "水果康普茶",
+"fruit-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"jasmine-kombucha.name": "芳香茉莉康普茶",
+"jasmine-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"ginger-kombucha.name": "蜜桃姜康普茶",
+"ginger-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"grey-kombucha.name": "格雷仕女康普茶",
+"grey-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"lemon-kombucha.name": "柠檬姜康普茶",
+"lemon-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"mint-kombucha.name": "圣诞薄荷康普茶",
+"mint-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"berry-kombucha.name": "综合莓果康普茶",
+"berry-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"peach-kombucha.name": "蜜桃芒果康普茶",
+"peach-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"pineapple-kombucha.name": "凤梨椰香康普茶",
+"pineapple-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"pomegranate-kombucha.name": "石榴绿康普茶",
+"pomegranate-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"raspberry-kombucha.name": "覆盆莓柠檬康普茶",
+"raspberry-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"rose-kombucha.name": "玫瑰花康普茶",
+"rose-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"sakura-kombucha.name": "樱花康普茶",
+"sakura-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+"strawberry-kombucha.name": "野生草莓康普茶",
+"strawberry-kombucha.description": "利用蜂蜜发酵，令人心旷神怡的气泡茶饮。",
+
+//WILD FOOD i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//SEEDS
+
+"vanilla-seeds.name": "卡利科香草种子",
+"vanilla-seeds.description": "夏天种植。14天成熟，之后每五天收获一次。",
+
+"tea-seeds.name": "芬吉尔茶树种子",
+"tea-seeds.description": "春天、夏天和秋天种植。14天成熟，之后每四天收获一次。",
+
+"chamomile-seeds.name": "森林洋甘菊种子",
+"chamomile-seeds.description": "秋天种植，7天成熟。",
+
+"lavender-seeds.name": "森林薰衣草种子",
+"lavender-seeds.description": "春天、夏天和秋天种植。14天成熟，之后每四天收获一次。",
+
+"jasmine-seeds.name": "姜岛茉莉种子",
+"jasmine-seeds.description": "秋天种植，7天成熟。",
+
+"mallow-seeds.name": "棉花糖花种子",
+"mallow-seeds.description": "棉花糖花香甜可口，春天和夏天种植，10天成熟。",
+
+"mint-seeds.name": "鵜鹕镇薄荷种子",
+"mint-seeds.description": "春天、夏天和秋天种植。10天成熟，之后每三天收获一次。",
+
+"carrot-seeds.name": "野生胡萝卜种子",
+"carrot-seeds.description": "春天和秋天种植。7天成熟。",
+
+"onion-seeds.name": "野生紫洋葱种子",
+"onion-seeds.description": "春天和秋天种植。7天成熟。",
+
+"strawberry-seeds.name": "野生草莓丛种子",
+"strawberry-seeds.description": "春天和夏天种植。10天成熟，之后每三天收获一次。",
+
+"raspberry-seeds.name": "野生覆盆莓丛种子",
+"raspberry-seeds.description": "春天和夏天种植。10天成熟，之后每三天收获一次。",
+
+//HERB SEEDS
+
+"basil-seeds.name": "清甜香芹种子",
+"basil-seeds.description": "春天和夏天种植。7天成熟，之后每两天收获一次。",
+
+"cilantro-seeds.name": "煤炭芫荽种子",
+"cilantro-seeds.description": "春天和夏天种植。7天成熟，之后每两天收获一次。",
+
+"rosemary-seeds.name": "耐寒迷迭香种子",
+"rosemary-seeds.description": "春天和秋天种植。7天成熟，之后每两天收获一次。",
+
+"sage-seeds.name": "煤炭鼠尾草种子",
+"sage-seeds.description": "春天和秋天种植。7天成熟，之后每两天收获一次。",
+
+"thyme-seeds.name": "柠檬百里香种子",
+"thyme-seeds.description": "春天、夏天和秋天种植。7天成熟，之后每两天收获一次。",
+
+// MUSHROOM STARTERS
+
+"chick-mushroom.name":"硫磺菌菌种",
+"chick-mushroom.description":"夏天种植。10天成熟，之后每四天收获一次。",
+
+"honey-mushroom.name":"蜜环菌菌种",
+"honey-mushroom.description":"春天和秋天种植。10天成熟，之后每四天收获一次。",
+
+"meringue-mushroom.name":"蛋白霜蘑菇菌种",
+"meringue-mushroom.description":"秋天种植。10天成熟，之后每四天收获一次。",
+
+"milky-mushroom.name":"印度丽蘑菌种",
+"milky-mushroom.description":"夏天和秋天种植。10天成熟，之后每四天收获一次。",
+
+"wheat-mushroom.name":"麦仁菌菌种",
+"wheat-mushroom.description":"春天种植。10天成熟，之后每四天收获一次。",
+
+
+//HERBS
+
+"sweet-basil.name": "清甜香芹",
+"sweet-basil.description": "比一般品种更甜的受欢迎香草植物，因其色彩及香味而常被用在各式传统菜肴。",
+
+"cindersap-cilantro.name": "煤炭芫荽",
+"cindersap-cilantro.description": "一种野生的芫荽（也被称为香菜），常被用在香料料理或是莎莎酱。",
+
+"cindersap-sage.name": "煤炭鼠尾草",
+"cindersap-sage.description": "拥有花香的娇嫩香草植物，常被用来为秋日菜肴快速增添浓郁风味。",
+
+"hardy-rosemary.name": "耐寒迷迭香",
+"hardy-rosemary.description": "几乎在何处都能蓬勃生长的强壮结实香草植物；它看起来就像一棵小松树。",
+
+"lemon-thyme.name": "柠檬百里香",
+"lemon-thyme.description": "在所有花园都能快速生长的受欢迎香草植物；柠檬品种因其药草及柑橘的风味而广受喜爱。",
+
+//TREES NEW
+"lemon-sapling.name":"小柠檬树苗",
+"lemon-sapling.description":"28天后成熟为小柠檬树。春天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"lime-sapling.name":"小莱姆树苗",
+"lime-sapling.description":"28天后成熟为小柠檬树。春天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+//TREES
+
+"pistachio-sapling.name": "卡利科开心果树苗",
+"pistachio-sapling.description": "28天后成熟为卡利科开心果树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"cinnamon-sapling.name": "煤炭肉桂树苗",
+"cinnamon-sapling.description": "28天后成熟为煤炭肉桂树。冬天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"olive-sapling.name": "芬恩岛橄榄树苗",
+"olive-sapling.description": "28天后成熟为芬恩岛橄榄树。夏天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"cashew-sapling.name": "宝石海腰果树苗",
+"cashew-sapling.description": "28天后成熟为宝石海腰果树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"walnut-sapling.name": "格兰普立顿核桃树苗",
+"walnut-sapling.description": "28天后成熟为格兰普立顿核桃树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"almond-sapling.name": "圣卡诺里杏仁树苗",
+"almond-sapling.description": "28天后成熟为圣卡诺里杏仁树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+"cacao-sapling.name": "可可树苗",
+"cacao-sapling.description": "28天后成熟为可可树。秋天结果。只有在邻近的 8 块土地为空时才会成长。",
+
+//OBJECTS
+
+//Calico Pistachio
+"calico-pistachio.name":"卡利科开心果",
+"calico-pistachio.description":"一种独特的开心果，只能透过在卡利科沙漠采集获得。",
+
+//Calico Vanilla
+"calico-vanilla.name": "卡利科香草",
+"calico-vanilla.description": "一种独特的香草，只能透过在卡利科沙漠采集获得。",
+
+//Cherry Blossom Petals
+"cherry-blossom.name": "樱花瓣",
+"cherry-blossom.description": "盛放的樱花树落下的新鲜花瓣。",
+
+//Chicken of the Woods
+"chicken-woods.name": "硫磺菌",
+"chicken-woods.description": "这种蘑菇遍布世界各地，一些人认为它的味道跟鸡肉差不多，而给它「林中鸡」这个奇特的名字！",
+
+//Cindersap Cinnamon
+"cindersap-cinnamon.name": "煤炭肉桂",
+"cindersap-cinnamon.description": "一种稀有的肉桂，只能在冬天的森林找到。",
+
+//Fern Isle Olive
+"fern-olive.name": "芬恩岛橄榄",
+"fern-olive.description": "可以在热带岛屿找到的一种稀有橄榄，被熟练的采集者在芬吉尔共和国的沙滩上找到。",
+
+//Ferngill Tea Leaf
+"tea-leaf.name": "芬吉尔茶叶",
+"tea-leaf.description": "在芬吉尔共和国的森林中采集到的新鲜茶叶",
+
+//Forest Chamomile
+"forest-chamomile.name": "森林洋甘菊",
+"forest-chamomile.description": "森林深处中发现的一种娇嫩花朵，非常适合用来泡茶。",
+
+//Forest Lavender
+"forest-lavender.name": "森林薰衣草",
+"forest-lavender.description": "在森林深处中发现的一种芳香花朵。",
+
+//Gem Isle Jasmine
+"gem-jasmine.name": "姜岛茉莉",
+"gem-jasmine.description": "只有在姜岛采集才能找到的美丽芬芳。",
+
+//Gem Sea Cashew
+"gem-cashew.name": "宝石海腰果",
+"gem-cashew.description": "热带地区中腰果花托上的小坚果，只能在宝石海上的小岛找到。",
+
+//Grampleton Walnut
+"grampleton-walnut.name": "格兰普立顿核桃",
+"grampleton-walnut.description": "一个被发现于生长在格兰普立顿的核桃品种，很显然它现在也生长在鵜鹕镇了！",
+
+//Honey Fungus Mushroom
+"honey-fungus.name": "蜜环菌",
+"honey-fungus.description": "虽然生吃很危险，但这些蘑菇在适当烹调后会有浓郁的坚果味。",
+
+//Marsh Mallow
+"marsh-mallow.name": "棉花糖花",
+"marsh-mallow.description": "棉花糖花，主要用于制作甜点。",
+
+//Meringue Mushroom
+"meringue-shroom.name": "蛋白霜蘑菇",
+"meringue-shroom.description": "一种只有山谷中最好的采集者才能找到的甜美蘑菇，它的颜色和形状几乎跟糖果一样。",
+
+//Milky White Mushrooms
+"white-shroom.name": "印度丽蘑",
+"white-shroom.description": "这些蘑菇呈亮白色，而质地则是奶油状。",
+
+//Pelican Mint
+"pelican-mint.name": "鵜鹕镇薄荷",
+"pelican-mint.description": "一种生长在鵜鹕镇周围，无论镇民们多么努力想除掉也没办法的薄荷。",
+
+//Petite Lemon
+"petite-lemon.name": "小柠檬",
+"petite-lemon.description": "熟练的采集者在野外发现的一种娇小但味道鲜美的柠檬。",
+
+//Petite Lime
+"petite-lime.name": "小莱姆",
+"petite-lime.description": "熟练的采集者在野外发现的一种娇小但味道鲜美的莱姆",
+
+//St Cannoli Almond
+"cannoli-almond.name": "圣卡诺里杏仁",
+"cannoli-almond.description": "一个采集者的美梦成真了！这是最稀有的杏仁，听说是老卡诺里大师亲自栽种的。",
+
+//Wheatberry Mushroom
+"wheat-shroom.name": "麦仁菌",
+"wheat-shroom.description": "一种在业余采集者眼中平凡无奇的蘑菇，但大师们知道这种蘑菇可以成为一种重要的烹饪食材。",
+
+//Wild Cacao Pod
+"wild-cacao.name": "可可豆",
+"wild-cacao.description": "可可树结出的豆荚，用于制作可可和其他充满异国情调的佳肴。",
+
+//Wild Carrot
+"wild-carrot.name": "野生胡萝卜",
+"wild-carrot.description": "这就是个胡萝卜，但它可充满野性，所以你最好注意点！",
+
+//Wild Raspberry
+"wild-raspberry.name": "野生覆盆莓",
+"wild-raspberry.description": "一种又小又甜的莓果，生长在芬吉尔各地的森林中。",
+
+//Wild Red Onion
+"wild-onion.name": "野生紫洋葱",
+"wild-onion.description": "就像野生胡萝卜，最好小心这个洋葱，不然它可会让你哭出来！",
+
+//Wild Strawberry
+"wild-strawberry.name": "野生草莓",
+"wild-strawberry.description": "一种较小的草莓品种，生长在芬吉尔各地的森林中。",
+
+
+//SPECIAL ORDERS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+ //RECIPES
+
+ "beer-fish.name":"啤酒炸鱼薯条",
+ "beer-fish.description":"虽然最正宗是用鳕鱼，不过肯特分享的秘密食谱几乎所有鱼都能用！",
+
+ "candy-apple.name":"苹果糖",
+ "candy-apple.description":"现采的苹果裹着一层甜蜜闪亮的糖。",
+
+ "colada-curd.name":"椰林飘香凝乳",
+ "colada-curd.description":"柠檬凝乳的花俏岛屿表哥，使用姜岛的凤梨跟卡利科沙漠的椰子制作！",
+
+ "dandelion-wine.name":"蒲公英酒",
+ "dandelion-wine.description":"用春天最早的蒲公英酿造的酒。",
+
+ "dirty-chai.name":"鸳鸯印度奶茶",
+ "dirty-chai.description":"一种美味的咖啡饮料，诞生的原因可能是有人不小心把他的印度奶茶倒进朋友的咖啡里…",
+
+ "horchata.name":"欧洽塔",
+ "horchata.description":"用米浆跟肉桂做的清新饮料。",
+
+ "arnold-palmer.name":"柠檬红茶",
+ "arnold-palmer.description":"由柠檬汁与冰茶一比一调配的无酒精饮品。又称阿诺‧帕玛。一位常常在打球时喝这种饮料的高尔夫球明星。",
+ 
+ "chocolate-creampop.name":"巧克力脆皮冰棍",
+ "chocolate-creampop.description":"将香草冰淇淋涂上一层薄薄的巧克力后重新冷冻，并固定在一根棍子上食用！",
+
+ "firework-popsicle.name":"烟火冰棍",
+ "firework-popsicle.description":"一个常见的夏日美食，名字由来是因为颜色像烟火，每个颜色都是不同口味的冷冻水果。",
+
+ "fizzy-soda.name":"啵啵汽水",
+ "fizzy-soda.description":"山姆的秘密汽水食谱…味道有点像黑莓？",
+
+ //CRAFTABLES
+
+ "bakery-box.name":"玛芬盒",
+ "bakery-box.description":"一个装着烘焙点心的小盒子，准备好被带去派对了！",
+
+ "berry-basket.name":"莓果篮",
+ "berry-basket.description":"装满新鲜莓果的手编篮子。",
+
+ "candy-cane.name":"等身拐杖糖",
+ "candy-cane.description":"这个拐杖糖超大…而且不能吃，不过还是个很棒的冬天室外装饰！",
+
+ "floral-scarecrow.name":"鲜花稻草人",
+ "floral-scarecrow.description":"漂亮的鲜花稻草人；可能不是很适合用来吓乌鸦不过还是很好看！",
+
+ //TROPHIES
+
+ "ale-trophy.name":"酿酒大师奖杯",
+ "ale-trophy.description":"只送给芬吉尔共和国最有名的酿酒师的奖杯。",
+
+ "bakery-trophy.name":"糕点大师奖杯",
+ "bakery-trophy.description":"只送给芬吉尔共和国最有名的糕点主厨的奖杯。",
+
+ "candy-trophy.name":"糖果大师奖杯",
+ "candy-trophy.description":"只送给芬吉尔共和国最有名的糖果制造家的奖杯。",
+
+ "coffee-trophy.name":"烘豆大师奖杯",
+ "coffee-trophy.description":"只送给芬吉尔共和国最有名的咖啡烘焙师的奖杯。",
+
+ "drinks-trophy.name":"爆红饮品奖杯",
+ "drinks-trophy.description":"只送给芬吉尔共和国最有名的饮料师的奖杯。",
+
+ "floral-trophy.name":"花艺大师奖杯",
+ "floral-trophy.description":"只送给芬吉尔共和国最有名的花匠的奖杯。",
+ 
+ "frozen-trophy.name":"冰品盛宴奖杯",
+ "frozen-trophy.description":"只送给芬吉尔共和国最有名的冰品制造家的奖杯。",
+
+ "jam-trophy.name":"罐头大师奖杯",
+ "jam-trophy.description":"只送给芬吉尔共和国最有名的罐头制造家的奖杯。",
+
+ "mead-trophy.name":"蜜酒大师奖杯",
+ "mead-trophy.description":"只送给芬吉尔共和国最有名的蜂蜜酒酿造师的奖杯。",
+
+ "pantry-trophy.name":"加工大师奖杯",
+ "pantry-trophy.description":"只送给芬吉尔共和国最有名的工匠的奖杯。",
+
+ "tea-trophy.name":"制茶大师奖杯",
+ "tea-trophy.description":"只送给芬吉尔共和国最有名的茶人的奖杯。",
+
+ "wildfood-trophy.name":"觅食大师奖杯",
+ "wildfood-trophy.description":"只送给芬吉尔共和国最有名的觅食者的奖杯。" 
+
+
+
+
+
+
+
+
+
+}

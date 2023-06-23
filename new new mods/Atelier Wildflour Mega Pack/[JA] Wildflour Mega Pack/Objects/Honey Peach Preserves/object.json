@@ -1,0 +1,49 @@
+{
+  "Name": "wf peach preserves",
+  "Description": "Preserves made with local honey and freshly picked peaches",
+  "TranslationKey": "honey-peach",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1000,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Gus", "Jas","Leo","Vincent"],
+	"Like": ["Abigail", "Clint", "Demetrius","Evelyn", "Caroline", "Elliott", "Emily", "George","Haley","Sandy", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	"Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	"Dislike":[],
+	"Hate": ["Sebastian"]
+  },
+  "ContextTags":
+  
+	  [	"wildflour_jelly",
+		  "jelly_item",
+		  "color_salmon"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": 340,
+	      "Count": 1
+	    },
+		{
+	      "Object": 636,
+	      "Count": 3
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

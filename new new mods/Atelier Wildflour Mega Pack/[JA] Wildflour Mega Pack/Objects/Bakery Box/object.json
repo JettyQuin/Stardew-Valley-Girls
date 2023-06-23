@@ -1,0 +1,33 @@
+{
+    "Name": "wf bakery box",
+    "Description": "...",
+    "TranslationKey": "bakery-box",
+    "Category": "Crafting",
+    "Price": 2550,
+    "IsColored": false,
+    "GiftTastes":
+      {
+        
+      },
+      "ContextTags":
+      
+          [	
+          ],
+  
+      "Recipe":
+      {
+        "ResultCount": 1,
+        "Ingredients": [ 
+          {
+            "Object": "Poppyseed Muffin",
+            "Count": 6
+          } 
+      ],
+    "IsDefault": false
+      }
+  
+  }
+  
+  
+  
+  

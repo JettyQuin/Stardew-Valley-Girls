@@ -1,0 +1,38 @@
+{
+    "Name": "wf berrykale smoothie",
+    "Description": "...",
+    "TranslationKey":"berrykale-smoothie",
+    "Category": "ArtisanGoods",
+    "Edibility": 95,
+    "EdibleIsDrink": true,
+    "Price": 150,
+    "EdibleBuffs": {
+      "Farming": 0,
+      "Fishing": 0,
+      "Mining": 0,
+      "Luck": 0,
+      "Foraging": 0,
+      "MaxStamina": 30,
+      "MagnetRadius": 0,
+      "Speed": 2,
+      "Defense": 0, 
+      "Attack": 0,
+      "Duration": 360
+        },
+    "GiftTastes":
+    {
+		"Love": ["Alex", "Emily", "Harvey"],
+		"Like": ["Haley", "Leah"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,      
+    
+	"ContextTags":
+        [
+		"wildflour_smoothie",
+    "wildflour_beverage_item",
+		"smoothie_item",
+    "drink_item",
+		"color_gold"
+		],
+}

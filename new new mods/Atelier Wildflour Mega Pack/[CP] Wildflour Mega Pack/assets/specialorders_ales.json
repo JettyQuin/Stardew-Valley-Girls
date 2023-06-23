@@ -1,0 +1,487 @@
+{
+  "Changes": [
+
+// Ales Order 1
+    {
+    "LogName": "Ales Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Ales SO 1": {
+        "Name": "{{i18n:wildflourales.quest1.name}}",
+        "Requester": "Pam",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourales.quest1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourales.quest1.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_wf_coconut_ale",
+                "Message": "{{i18n:wildflourales.quest1.accept}}",
+                "TargetName": "Pam"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Pam"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+// Ales Order 2
+    {
+      "LogName": "Ales Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Ales SO 2": {
+          "Name": "{{i18n:wildflourales.quest2.name}}",
+          "Requester": "Shane",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_spring, mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourales.quest2.text}}",
+          "Objectives": [
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:wildflourales.quest2.deliver}}",
+                "RequiredCount": "5",
+                "Data": {
+                  "AcceptedContextTags": "item_wf_cherry_ale",
+                  "Message": "{{i18n:wildflourales.quest2.accept}}",
+                  "TargetName": "Shane"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Shane"
+                  }
+                },
+
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "wildflour_AleOrder2_complete",
+                        "NoLetter": "true"
+                  }
+                }
+            ]
+        }
+      }
+    },
+
+// Ales Order 3
+    {
+      "LogName": "Ales Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Ales SO 3": {
+          "Name": "{{i18n:wildflourales.quest3.name}}",
+          "Requester": "Gus",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "season_summer, mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourales.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourales.quest3a.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wf_orange_ale"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourales.quest3b.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wf_peach_ale"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourales.quest3c.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wf_melon_ale"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourales.quest3d.deliver}}",
+                "RequiredCount": "3",
+                "Data": {
+                  "DropBox": "GusFridge",
+							    "DropBoxGameLocation": "Saloon",
+							    "DropBoxIndicatorLocation": "18 16",
+                  "AcceptedContextTags": "item_wf_blueberry_ale"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "13464"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Gus"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_AleOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Ales Order 4
+{
+  "LogName": "Ales Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Ales SO 4": {
+        "Name": "{{i18n:wildflourales.quest4.name}}",
+        "Requester": "Kent",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourales.quest4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourales.quest4a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "KentKitchen",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "6 4",
+                "AcceptedContextTags": "item_wf_apple_ale"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourales.quest4b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "KentKitchen",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "6 4",
+                "AcceptedContextTags": "item_wf_pumpkin_ale"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourales.quest4c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "KentKitchen",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "6 4",
+                "AcceptedContextTags": "item_wf_strawberry_ale"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourales.quest4d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "KentKitchen",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "6 4",
+                "AcceptedContextTags": "item_wf_apricot_ale"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12720"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Kent"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_AleOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//ALES ORDER 5
+
+{
+  "LogName": "Ales Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Ales SO 5": {
+        "Name": "{{i18n:wildflourales.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_AleOrder2_complete, mail_wildflour_AleOrder3_complete, mail_wildflour_AleOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourales.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourales.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_ale, quality_gold"
+              }
+            },
+
+            
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_AleOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//REPEATABLES 6 7 8 
+
+  {
+    "LogName": "Ales Order 6",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Ales SO 6": {
+        "Name": "{{i18n:wildflourales.quest6.name}}",
+        "Requester": "Elliott",
+        "Duration": "Week",
+        "Repeatable": "{{RepeatableConfig}}",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourales.quest6.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourales.quest6.deliver}}",
+              "RequiredCount": "4",
+              "Data": {
+                "AcceptedContextTags": "wildflour_ale",
+                "Message": "{{i18n:wildflourales.quest6.accept}}",
+                "TargetName": "Elliott"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "6000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+    {
+    "LogName": "Ales Order 7",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Ales SO 7": {
+        "Name": "{{i18n:wildflourales.quest7.name}}",
+        "Requester": "Lewis",
+        "Duration": "Week",
+        "Repeatable": "{{RepeatableConfig}}",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourales.quest7.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourales.quest7.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "wildflour_ale",
+                "Message": "{{i18n:wildflourales.quest7.accept}}",
+                "TargetName": "Lewis"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "8000"
+              }
+            },
+
+          {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  },
+
+    {
+    "LogName": "Ales Order 8",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Ales SO 8": {
+        "Name": "{{i18n:wildflourales.quest8.name}}",
+        "Requester": "Gus",
+        "Duration": "TwoWeeks",
+        "Repeatable": "{{RepeatableConfig}}",
+        "RequiredTags": "mail_georgeGifts, mail_gusGiantOmelet, mail_MSB_Lewis",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourales.quest8.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourales.quest8.deliver}}",
+              "RequiredCount": "8",
+              "Data": {
+                "AcceptedContextTags": "wildflour_ale",
+                "Message": "{{i18n:wildflourales.quest8.accept}}",
+                "TargetName": "Gus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "12000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {}
+              }
+          ]
+      }
+    }
+  }
+
+  ]
+}
+

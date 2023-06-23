@@ -1,0 +1,37 @@
+{
+    "Name": "wf berry basket",
+    "Description": "...",
+    "TranslationKey": "berry-basket",
+    "Category": "Crafting",
+    "Price": 1500,
+    "IsColored": false,
+    "GiftTastes":
+      {
+        
+      },
+      "ContextTags":
+      
+          [	
+          ],
+  
+      "Recipe":
+      {
+        "ResultCount": 1,
+        "Ingredients": [ 
+          {
+            "Object": 396,
+            "Count": 12
+          },
+          {
+            "Object": 771,
+            "Count": 5
+          }
+      ],
+    "IsDefault": false
+      }
+  
+  }
+  
+  
+  
+  

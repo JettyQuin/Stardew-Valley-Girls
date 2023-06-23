@@ -1,0 +1,65 @@
+{
+  "Name": "wf mango cheesecake",
+  "Description": "...",
+  "TranslationKey": "mango-cheesecake",
+  "Category": "Cooking",
+  "Edibility": 115,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+	"Farming": 0,
+	"Fishing": 0,
+	"Mining": 0,
+	"Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+	"MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0, 
+	"Attack": 2,
+	"Duration": 360, // 360 seconds (aka 6 minutes)
+	  },
+  "Price": 1000,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["George"," Gus", "Lewis", "Pierre"],
+	  "Like": [],
+	  "Neutral": [],
+	  "Dislike":[],
+	  "Hate": []
+	},
+	"ContextTags":
+	
+		[	"wildflour_recipe",
+			"cheesecake_item",
+			"color_salmon"
+		],
+	
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+			"Object": "wf pastry flour",
+			"Count": 1
+		  },
+		  {
+			"Object": 245,
+			"Count": 1
+		  },
+		  {
+			"Object": "wf cream cheese",
+			"Count": 1
+		  },
+		  {
+			  "Object": "Mango",
+			  "Count": 1
+		  }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

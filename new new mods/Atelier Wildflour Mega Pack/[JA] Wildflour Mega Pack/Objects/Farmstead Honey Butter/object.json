@@ -1,0 +1,33 @@
+{
+  "Name": "wf honey butter",
+  "Description": "...",
+  "TranslationKey": "honey-butter",
+  "Category": "ArtisanGoods",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 800,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Demetrius", "Evelyn", "George", "Gus", "Jas", "Leo", "Pierre"," Vincent"],
+	"Like": ["Caroline", "Clint", "Leah", "Harvey", "Emily", "Jodi", "Marnie", "Robin", "Kent", "Lewis", "Linus", "Maru", "Pam", "Penny"],
+	"Neutral": ["Abigail", "Dwarf", "Elliott", "Haley", "Krobus", "Sam", "Sandy"],
+	"Dislike":["Alex", "Shane", "Willy", "Wizard"],
+	"Hate": ["Sebastian"]
+  },
+  "Recipe": null,
+  "CanPurchase": true,
+  "PurchaseFrom": "Gus",
+  "PurchasePrice": 500,
+
+  "ContextTags":
+  [
+    "gourmet_item",
+    "gourmet_jam_item",
+    "color_gold"
+    ]
+}
+
+
+

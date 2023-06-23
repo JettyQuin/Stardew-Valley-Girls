@@ -1,0 +1,54 @@
+{
+  "Name": "wf gingerbread cake",
+  "Description": "...",
+  "TranslationKey": "gingerbread-cake",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1675,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": [],
+	  "Like": [],
+	  "Neutral": [],
+	  "Dislike":[],
+	  "Hate": []
+	},
+	"ContextTags":
+	
+		[	"wildflour_recipe",
+			"cake_item",
+			"color_brown"
+		],
+
+	
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf cake flour",
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf brown sugar",
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf butter",
+	      "Count": 1
+	    },
+		{
+			"Object": "Ginger",
+			"Count": 1
+		}
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

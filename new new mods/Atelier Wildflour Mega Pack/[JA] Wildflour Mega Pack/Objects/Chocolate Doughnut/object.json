@@ -1,0 +1,65 @@
+{
+  "Name": "wf chocolate doughnut",
+  "Description": "...",
+  "TranslationKey": "chocolate-doughnut",
+  "Category": "Cooking",
+  "Edibility": 65,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+	"Farming": 0,
+	"Fishing": 0,
+	"Mining": 0,
+	"Luck": 0,
+	"Foraging": 0,
+	"MaxStamina": 0,
+	"MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 2, 
+	"Attack": 0,
+	"Duration": 360, // 360 seconds (aka 6 minutes)
+	  },
+  "Price": 770,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Jas","Leo", "Marnie", "Vincent"],
+	"Like": [],
+	"Neutral": [],
+	"Dislike":[],
+	"Hate": []
+  },
+  "ContextTags":
+  
+	  [	"wildflour_recipe",
+		  "doughnut_item",
+		  "color_brown"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "Wheat Flour",
+	      "Count": 1
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": 247,
+	      "Count": 1
+	    },
+		{
+			"Object": "wf cocoa powder",
+			"Count": 1
+		}
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

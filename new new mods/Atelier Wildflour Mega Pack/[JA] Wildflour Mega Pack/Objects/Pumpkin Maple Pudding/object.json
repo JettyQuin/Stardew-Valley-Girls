@@ -1,0 +1,53 @@
+{
+  "Name": "wf pumpkin pudding",
+  "Description": "...",
+  "TranslationKey": "pumpkin-pudding",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1860,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": [],
+	  "Like": [],
+	  "Neutral": [],
+	  "Dislike":[],
+	  "Hate": []
+	},
+	"ContextTags":
+	
+		[	"wildflour_recipe",
+			"pudding_item",
+			"color_copper"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf cream",
+	      "Count": 2
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "Pumpkin",
+	      "Count": 1
+	    },
+		{
+			"Object": "Maple Syrup",
+			"Count": 1
+		}
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

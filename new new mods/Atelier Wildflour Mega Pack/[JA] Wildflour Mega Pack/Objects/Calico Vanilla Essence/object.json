@@ -1,0 +1,26 @@
+{
+    "Name": "wf vanilla essence",
+    "Description": "...",
+    "TranslationKey": "vanilla-essence",
+    "Category": "ArtisanGoods",
+    "Edibility": -25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+		"Love": ["Caroline","Evelyn","Emily","Haley","Sandy"],
+		"Like": ["Abigail", "Elliott", "Harvey", "Jodi","Leah", "Marnie", "Robin"," Sam", "Wizard"],
+		"Neutral": ["Krobus", "Lewis", "Maru", "Pam", "Wizard" ],
+		"Dislike ": ["Alex","Clint","Dwarf","George","Jas", "Leo", "Vincent"],
+		"Hate": ["Demetrius", "Linus", "Pierre", "Sebastian", "Shane", "Willy"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+	"ContextTags":
+        [
+		"wildflour_floral",
+		"flower_essence_item",
+		"color_sand"
+		]
+}

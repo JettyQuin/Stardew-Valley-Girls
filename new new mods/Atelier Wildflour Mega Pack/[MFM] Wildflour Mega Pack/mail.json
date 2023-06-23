@@ -1,0 +1,1904 @@
+[
+//ALE MAIL BEGIN-----------------------------------------------------------------------------------------
+
+//ale keg -  Recipe
+
+	{
+		"Id": "wildflour_ales_keg_recipe",
+		"Title": null,
+		"Text": "ale-keg.text",
+		"Attachments": [],
+		"Recipe": "wf ale keg",
+		"LetterBG": "WFLetterBG.png", 
+		"TextColor": 0, 
+        "Repeatable": false,
+		"RecipeKnown": ["Keg"], 
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Pam",
+				"FriendshipLevel": 5
+			}
+		]
+    },
+
+	
+
+//friendship gift - various npcs
+
+	{
+		"Id": "wildflour_ales_shane_gift",
+		"GroupId": "wilflourales_gifts",
+		"Text": "shane-gift.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Oak Resin",
+				"Stack": 8
+			}
+		],
+		
+		"LetterBG": "WFLetterBG.png", 
+		"TextColor": 0, 
+        "Repeatable": false,
+		"MailReceived": ["wildflour_ales_keg_recipe"],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Shane",
+				"FriendshipLevel": 5
+			}
+		]
+    },
+
+	{
+		"Id": "wildflour_ales_elliott_gift",
+		"GroupId": "wilflourales_gifts",
+		"Text": "elliott-gift.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Hops Starter",
+				"Stack": 5
+			}
+		],
+		
+		"LetterBG": "WFLetterBG.png", 
+		"TextColor": 0, 
+        "Repeatable": false,
+		"MailReceived": ["wildflour_ales_keg_recipe"],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Elliott",
+				"FriendshipLevel": 5
+			}
+		]
+    },
+
+	
+	{
+		"Id": "wildflour_ales_kent_gift",
+		"GroupId": "wilflourales_gifts",
+		"Text": "kent-gift.text",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Mango",
+				"Stack": 2
+			}
+		],
+		"LetterBG": "WFLetterBG.png", 
+		"TextColor": 0, 
+        "Repeatable": false,
+		"MailReceived": ["wildflour_ales_keg_recipe","Kent"],
+		"FriendshipConditions":
+		[
+			{
+				"NpcName": "Kent",
+				"FriendshipLevel": 5
+			}
+		]
+    },
+
+//BEVERAGE MAIL BEGIN-------------------------------------------------------------------------------
+
+
+
+//JUICE STATION -  Recipe
+
+{
+	"Id": "wildflour_beverages_juicer_recipe",
+	"Title": null,
+	"Text": "juice-station.text",
+	"Attachments": [],
+	"Recipe": "wf juice station",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"RecipeKnown": ["wf kitchen blender","wf kitchen mortar"], 
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Jodi",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+//BOBA STATION -  Recipe
+
+{
+	"Id": "wildflour_beverages_boba_recipe",
+	"Title": null,
+	"Text": "boba-station.text",
+	"Attachments": [],
+	"Recipe": "wf boba station",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"RecipeKnown": ["wf kitchen blender","wf kitchen mortar"], 
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Maru",
+			"FriendshipLevel": 5
+		}
+	]
+},	
+
+
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_beverages_evelyn_gift",
+	"GroupId": "wilflourbeverages_gifts",
+	"Title": null,
+	"Text": "evelyn-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf lemon",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_beverages_juicer_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Evelyn",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+{
+	"Id": "wildflour_beverages_emily_gift",
+	"GroupId": "wilflourbeverages_gifts",
+	"Text": "emilybev-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf boba pearls",
+			"Stack": 5
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_beverages_boba_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Emily",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_beverages_lewis_gift",
+	"GroupId": "wilflourbeverages_gifts",
+	"Text": "lewis-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf lime",
+			"Stack": 3
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_beverages_juicer_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "npc",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+//CANDY MAIL BEGIN--------------------------------------------------------------------------------------
+
+
+
+//CONFECTION STATION -  Recipe
+
+{
+	"Id": "wildflour_candy_station_recipe",
+	"Title": null,
+	"Text": "candy-station.text",
+	"Attachments": [],
+	"Recipe": "wf candy station",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Wizard",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+
+
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_candy_vincent_gift",
+	"GroupId": "wilflourcandy_gifts",
+	"Title": null,
+	"Text": "vincentcandy-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf meringueshroom",
+			"Stack": 5
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_candy_station_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Vincent",
+			"FriendshipLevel": 4
+		}
+	]
+},
+
+{
+	"Id": "wildflour_candy_abigail_gift",
+	"GroupId": "wilflourcandy_gifts",
+	"Text": "abigail-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Amethyst",
+			"Stack": 1
+		},
+		{
+			"Type": "Object",
+			"Name": "Ruby",
+			"Stack": 1
+		},
+		{
+			"Type": "Object",
+			"Name": "Star Shards",
+			"Stack": 1
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_candy_station_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Abigail",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_candy_penny_gift",
+	"GroupId": "wilflourcandy_gifts",
+	"Text": "penny-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf mallow",
+			"Stack": 5
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_candy_station_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Penny",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+//BEGIN COFFEE MAIL---------------------------------------------------------------------------------------------------------
+
+
+
+//coffee brewer -  Recipe
+
+{
+	"Id": "wildflour_coffee_brewer_recipe",
+	"Title": null,
+	"Text": "coffee-brewer.text",
+	"Attachments": [],
+	"Recipe": "wf coffee brewer",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Harvey",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_coffee_haley_gift",
+	"GroupId": "wilflourcoffee_gifts",
+	"Title": null,
+	"Text": "haley-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf cacaopod",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_coffee_brewer_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Haley",
+			"FriendshipLevel": 4
+		}
+	]
+},
+
+{
+	"Id": "wildflour_coffee_george_gift",
+	"GroupId": "wilflourcoffee_gifts",
+	"Text": "george-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf vanilla",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_coffee_brewer_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "George",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_coffee_sebastian_gift",
+	"GroupId": "wilflourcoffee_gifts",
+	"Text": "sebastian-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Frozen Tear",
+			"Stack": 3
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_coffee_brewer_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Sebastian",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+//FLORAL MAIL BEGIN---------------------------------------------------------------------------------------------
+
+
+
+//fragrance station -  Recipe
+
+{
+	"Id": "wildflour_floral_fragrance_recipe",
+	"Title": null,
+	"Text": "fragrance-station.text",
+	"Attachments": [],
+	"Recipe": "wf fragrance station",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Haley",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+//flower station -  Recipe
+
+{
+	"Id": "wildflour_floral_flower_recipe",
+	"Title": null,
+	"Text": "flower-station.text",
+	"Attachments": [],
+	"Recipe": "wf flower station",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Marnie",
+			"FriendshipLevel": 3
+		}
+	]
+},	
+
+//flower tub -  Recipe
+
+{
+	"Id": "wildflour_floral_tub_recipe",
+	"Text": "flower-tub.text",
+	"Attachments": [],
+	"Recipe": "wf flower tub",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Evelyn",
+			"FriendshipLevel": 3
+		}
+	]
+},	
+
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_floral_jas_gift",
+	"GroupId": "wilflourfloral_gifts",
+	"Text": "jas-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf lavender",
+			"Stack": 5
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_floral_fragrance_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Jas",
+			"FriendshipLevel": 4
+		}
+	]
+},
+
+{
+	"Id": "wildflour_floral_sandy_gift",
+	"GroupId": "wilflourfloral_gifts",
+	"Text": "sandyfloral-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf jasmine",
+			"Stack": 5
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_floral_flower_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Sandy",
+			"FriendshipLevel": 4
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_floral_emily_gift",
+	"GroupId": "wilflourfloral_gifts",
+	"Text": "emily-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Fairy Seeds",
+			"Index": 425,
+			"Stack": 5
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_floral_tub_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Emily",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+//FROZEN MAIL BEGIN-------------------------------------------------------------------------------------------------------
+
+
+
+//FROZEN TREAT MAKER -  Recipe
+
+{
+	"Id": "wildflour_frozen_treatmaker_recipe",
+	"Title": null,
+	"Text": "treat-maker.text",
+	"Attachments": [],
+	"Recipe": "wf frozen treat maker",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Demetrius",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+//BLAST CHILLER -  Recipe
+
+{
+	"Id": "wildflour_frozen_chiller_recipe",
+	"Title": null,
+	"Text": "blast-chiller.text",
+	"Attachments": [],
+	"Recipe": "wf blast chiller",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_frozen_treatmaker_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Robin",
+			"FriendshipLevel": 5
+		}
+	]
+},	
+
+
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_frozen_vincent_gift",
+	"GroupId": "wilflourfrozen_gifts",
+	"Title": null,
+	"Text": "vincent-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf cinnamon",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_frozen_treatmaker_recipe", "wildflour_frozen_chiller_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Vincent",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+{
+	"Id": "wildflour_frozen_jodi_gift",
+	"GroupId": "wilflourfrozen_gifts",
+	"Text": "jodifrozen-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf yogurt",
+			"Stack": 5
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_frozen_treatmaker_recipe", "wildflour_frozen_chiller_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Jodi",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_frozen_sam_gift",
+	"GroupId": "wilflourfrozen_gifts",
+	"Text": "sam-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf milkshroom",
+			"Stack": 3
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_frozen_treatmaker_recipe", "wildflour_frozen_chiller_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Sam",
+			"FriendshipLevel": 4
+		}
+	]
+},
+
+//PANTRY MAIL BEGIN--------------------------------------------------------------------------------------------
+
+
+
+
+//kitchen mortar -  Recipe
+
+{
+	"Id": "wildflour_pantry_mortar_recipe",
+	"Title": null,
+	"Text": "kitchen-mortar.text",
+	"Attachments": [],
+	"Recipe": "wf kitchen mortar",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Pierre",
+			"FriendshipLevel": 2
+		}
+	]
+},
+
+//kitchen blender -  Recipe
+
+{
+	"Id": "wildflour_pantry_blender_recipe",
+	"Title": null,
+	"Text": "kitchen-blender.text",
+	"Attachments": [],
+	"Recipe": "wf kitchen blender",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Gus",
+			"FriendshipLevel": 2
+		}
+	]
+},	
+
+
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_pantry_harvey_gift",
+	"GroupId": "wilflourpantry_gifts",
+	"Title": null,
+	"Text": "harvey-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf pistachio",
+			"Stack": 3
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_pantry_mortar_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "harvey",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+{
+	"Id": "wildflour_pantry_jodi_gift",
+	"GroupId": "wilflourpantry_gifts",
+	"Title": "wf.jodi.gift.title",
+	"Text": "jodi-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf almond",
+			"Stack": 3
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_pantry_blender_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Jodi",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_pantry_marnie_gift",
+	"GroupId": "wilflourpantry_gifts",
+	"Title": "wf.marnie.gift.title",
+	"Text": "marnie-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf cream",
+			"Stack": 6
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_pantry_blender_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Marnie",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+//MEAD MAIL BEGIN---------------------------------------------------------------------------------------------------------------
+
+
+
+//mead keg -  Recipe
+
+{
+	"Id": "wildflour_meads_keg_recipe",
+	"Title": null,
+	"Text": "mead-keg.text",
+	"Attachments": [],
+	"Recipe": "wf mead keg",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"RecipeKnown": ["Keg"], 
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Willy",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+
+
+//friendship gift - various npcs
+
+{
+	"Id": "wildflour_meads_gus_gift",
+	"GroupId": "wilflourmeads_gifts",
+	"Title": null,
+	"Text": "gus-gift.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "Bee House",
+			"Index":10,
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_meads_keg_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Gus",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+{
+	"Id": "wildflour_meads_clint_gift",
+	"GroupId": "wilflourmeads_gifts",
+	"Title": "wf.clint.gift.title",
+	"Text": "clint-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Iron Bar",
+			"Index": 335,
+			"Stack": 10
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_meads_keg_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Clint",
+			"FriendshipLevel": 4
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_meads_sandy_gift",
+	"GroupId": "wilflourmeads_gifts",
+	"Title": "wf.sandy.gift.title",
+	"Text": "sandy-gift.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Cactus Seeds",
+			"Index": 802,
+			"Stack": 3
+		}
+	],
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_meads_keg_recipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Sandy",
+			"FriendshipLevel": 5
+		}
+	]
+},
+
+//SPECIAL ORDERS  MAIL BEGIN---------------------------------------------------------------------------------------------------------------
+
+
+
+//ALE REWARDS
+
+{
+	"Id": "wildflour_aleOrder2_Reward",
+	"Title": "alereward2.title",
+	"Text": "alereward2.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Quality Sprinkler",
+			"Index": 621,
+			"Stack": 3 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_aleOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_aleOrder3_Reward",
+	"Title": "alereward3.title",
+	"Text": "alereward3.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "Soda Machine",
+			"Index": 117
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_aleOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_aleOrder4_Reward",
+	"Title": "alereward4.title",
+	"Text": "alereward4.text",
+	"Attachments": [
+	],
+	"Recipe": "wf beer fish",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_aleOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_aleOrder5_Reward",
+	"Title": "alereward5.title",
+	"Text": "alereward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf ale trophy"	
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_aleOrder5_complete"]
+},
+
+//BAKERY REWARDS
+
+{
+	"Id": "wildflour_bakeryOrder2_Reward",
+	"Title": "bakeryreward2.title",
+	"Text": "bakeryreward2.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf cashew sapling",
+			"Index": 78,
+			"Stack": 1 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_bakeryOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_bakeryOrder3_Reward",
+	"Title": "bakeryreward3.title",
+	"Text": "bakeryreward3.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf almond sapling",
+			"Stack": 1
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_bakeryOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_bakeryOrder4_Reward",
+	"Title": "bakeryreward4.title",
+	"Text": "bakeryreward4.text",
+	"Attachments": [
+	],
+	"Recipe": "wf bakery box",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_bakeryOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_bakeryOrder5_Reward",
+	"Title": "bakeryreward5.title",
+	"Text": "bakeryreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf bakery trophy"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_bakeryOrder5_complete"]
+},
+
+//BEVERAGE REWARDS
+
+{
+"Id": "wildflour_DrinkOrder2_Reward",
+"Title": "drinkreward2.title",
+"Text": "drinkreward2.text",
+"Attachments": [
+	{
+		"Type": "Object",
+		"Name": "Honey",
+		"Index": 340,
+		"Stack": 25 
+	}
+],
+
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_DrinkOrder2_complete"]
+},
+
+{
+"Id": "wildflour_DrinkOrder3_Reward",
+"Title": "drinkreward3.title",
+"Text": "drinkreward3.text",
+"Attachments": [ ],
+"Recipe": "wf arnold.palmer",
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_DrinkOrder3_complete"]
+},
+
+{
+"Id": "wildflour_DrinkOrder4_Reward",
+"Title": "drinkreward4.title",
+"Text": "drinkreward4.text",
+"Attachments": [ ],
+"Recipe": "wf fizzy soda",
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_DrinkOrder4_complete"]
+},
+
+{
+"Id": "wildflour_DrinkOrder5_Reward",
+"Title": "drinkreward5.title",
+"Text": "drinkreward5.text",
+"Attachments": [
+	{
+		"Type": "BigCraftable",
+		"Name": "wf drink trophy"	
+	}
+],
+
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_DrinkOrder5_complete"]
+},
+
+//CANDY REWARDS
+
+{
+	"Id": "wildflour_candyOrder2_Reward",
+	"Title": "candyreward2.title",
+	"Text": "candyreward2.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Magic Rock Candy",
+			"Index": 279,
+			"Stack": 3 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_candyOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_candyOrder3_Reward",
+	"Title": "candyreward3.title",
+	"Text": "candyreward3.text",
+	"Attachments": [
+	],
+	"Recipe": "wf candy cane",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_candyOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_candyOrder4_Reward",
+	"Title": "candyreward4.title",
+	"Text": "candyreward4.text",
+	"Attachments": [
+	],
+	"Recipe": "wf candy apple",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_candyOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_candyOrder5_Reward",
+	"Title": "candyreward5.title",
+	"Text": "candyreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf candy trophy"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_candyOrder5_complete"]
+},
+
+//COFFEE REWARDS
+
+{
+	"Id": "wildflour_coffeeOrder2_Reward",
+	"Title": "coffeereward2.title",
+	"Text": "coffeereward2.text",
+	"Attachments": [
+		{
+			"Type": "Ring",
+			"Name": "Hot Java Ring",
+			"Index": 860
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_coffeeOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_coffeeOrder3_Reward",
+	"Title": "coffeereward3.title",
+	"Text": "coffeereward3.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Triple Shot Espresso",
+			"Index": 253,
+			"Stack": 5
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_coffeeOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_coffeeOrder4_Reward",
+	"Title": "coffeereward4.title",
+	"Text": "coffeereward4.text",
+	"Attachments": [
+	],
+	"Recipe": "wf dirty chai",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_coffeeOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_coffeeOrder5_Reward",
+	"Title": "coffeereward5.title",
+	"Text": "coffeereward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf coffee trophy"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_coffeeOrder5_complete"]
+},
+
+//FLORAL REWARDS
+
+{
+	"Id": "wildflour_floralOrder2_Reward",
+	"Title": "floralreward2.title",
+	"Text": "floralreward2.text",
+	"Attachments": [
+	],
+	"Recipe": "wf floral scarecrow",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_floralOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_floralOrder3_Reward",
+	"Title": "floralreward3.title",
+	"Text": "floralreward3.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf jasmine seeds",
+			"Stack": 5 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_floralOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_floralOrder4_Reward",
+	"Title": "floralreward4.title",
+	"Text": "floralreward4.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf milkshroom seeds",
+			"Stack": 5
+		}
+	],
+	"LetterBG": "WFLetterBG.png",
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_floralOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_floralOrder5_Reward",
+	"Title": "floralreward5.title",
+	"Text": "floralreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf floral trophy",
+			"Index": 78,
+			"Stack": 1 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_floralOrder5_complete"]
+},
+
+//FROZEN REWARDS
+
+{
+"Id": "wildflour_frozenReward2_Reward",
+"Title": "frozenreward2.title",
+"Text": "frozenreward2.text",
+"Attachments": [
+	{
+		"Type": "Object",
+		"Name": "Frozen Tear",
+		"Index": 84,
+		"Stack": 25 
+	}
+],
+
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_frozenReward2_complete"]
+},
+
+{
+"Id": "wildflour_frozenReward3_Reward",
+"Title": "frozenreward3.title",
+"Text": "frozenreward3.text",
+"Attachments": [
+],
+"Recipe": "wf chocolate creampop",
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_frozenReward3_complete"]
+},
+
+{
+"Id": "wildflour_frozenReward4_Reward",
+"Title": "frozenreward4.title",
+"Text": "frozenreward4.text",
+"Attachments": [
+],
+"Recipe": "wf firework popsicle",
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_frozenReward4_complete"]
+},
+
+{
+"Id": "wildflour_frozenReward5_Reward",
+"Title": "frozenreward5.title",
+"Text": "frozenreward5.text",
+"Attachments": [
+	{
+		"Type": "BigCraftable",
+		"Name": "wf frozen trophy"	
+	}
+],
+
+"LetterBG": "WFLetterBG.png", 
+"TextColor": 0, 
+"Repeatable": false,
+
+"MailReceived": ["wildflour_frozenReward5_complete"]
+},
+
+//JAMS REWARDS
+
+{
+	"Id": "wildflour_jamOrder2_Reward",
+	"Title": "jamreward2.title",
+	"Text": "jamreward2.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf pectin",
+			"Stack": 25
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_jamOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_jamOrder3_Reward",
+	"Title": "jamreward3.title",
+	"Text": "jamreward3.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf kitchen blender"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_jamOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_jamOrder4_Reward",
+	"GroupId": null, 
+	"Title": "jamreward4.title",
+	"Text": "jamreward4.text",
+	"Attachments": [],
+	"Recipe": "wf colada curd",
+	"LetterBG": null, 
+	"WhichBG": 1,
+	"TextColor": 0,
+	"UpperRightCloseButton": null,
+	"Repeatable": false,
+
+	"MailReceived": ["wildflour_jamOrder4_complete"]
+	
+},
+
+{
+	"Id": "wildflour_jamOrder5_Reward",
+	"Title": "jamreward5.title",
+	"Text": "jamreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf jam trophy",
+			"Index": 78,
+			"Stack": 1 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_jamOrder5_complete"]
+},
+
+
+//MEADS REWARDS
+
+{
+	"Id": "wildflour_meadOrder3_Reward",
+	"Title": "meadreward3.title",
+	"Text": "meadreward3.text",
+	"Attachments": [
+	],
+	"Recipe": "wf dandelion.wine",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_meadOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_meadOrder4_Reward",
+	"Title": "meadreward4.title",
+	"Text": "meadreward4.text",
+	"Attachments": [
+	],
+	"Recipe": "wf junimo mini",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_meadOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_meadOrder5_Reward",
+	"Title": "meadreward5.title",
+	"Text": "meadreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf mead trophy"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_meadOrder5_complete"]
+},
+
+//PANTRY REWARDS
+
+{
+	"Id": "wildflour_pantryOrder2_Reward",
+	"Title": "pantryreward2.title",
+	"Text": "pantryreward2.text",
+	"Attachments": [
+	],
+	"Recipe": "wf horchata",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_pantryOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_pantryOrder3_Reward",
+	"Title": "pantryreward3.title",
+	"Text": "pantryreward3.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf kitchen mortar"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_pantryOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_pantryOrder4_Reward",
+	"Title": "pantryreward4.title",
+	"Text": "pantryreward4.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf olive sapling"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_pantryOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_pantryOrder5_Reward",
+	"Title": "pantryreward5.title",
+	"Text": "pantryreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf pantry trophy"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_pantryOrder5_complete"]
+},
+
+//TEA REWARDS
+
+{
+	"Id": "wildflour_teaOrder2_Reward",
+	"Title": "teareward2.title",
+	"Text": "teareward2.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf tealeaf seeds",
+			"Index": 78,
+			"Stack": 5 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_teaOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_teaOrder3_Reward",
+	"Title": "teareward3.title",
+	"Text": "teareward3.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf honeyfungus seeds",
+			"Index": 78,
+			"Stack": 5 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_teaOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_teaOrder4_Reward",
+	"Title": "teareward4.title",
+	"Text": "teareward4.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "Mango Sapling",
+			"Index": 835,
+			"Stack": 1 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_teaOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_teaOrder5_Reward",
+	"Title": "teareward5.title",
+	"Text": "teareward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf tea trophy"
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_teaOrder5_complete"]
+},
+
+//WILDFOOD REWARDS
+
+{
+	"Id": "wildflour_wildfoodOrder2_Reward",
+	"Title": "wildfoodreward2.title",
+	"Text": "wildfoodreward2.text",
+	"Attachments": [
+	],
+	"Recipe": "wf berry basket",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_wildfoodOrder2_complete"]
+},
+
+{
+	"Id": "wildflour_wildfoodOrder3_Reward",
+	"Title": "wildfoodreward3.title",
+	"Text": "wildfoodreward3.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf chickenwoods seeds",
+			"Index": 78,
+			"Stack": 5 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_wildfoodOrder3_complete"]
+},
+
+{
+	"Id": "wildflour_wildfoodOrder4_Reward",
+	"Title": "wildfoodreward4.title",
+	"Text": "wildfoodreward4.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf meringueshroom seeds",
+			"Index": 78,
+			"Stack": 5 
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_wildfoodOrder4_complete"]
+},
+
+{
+	"Id": "wildflour_wildfoodOrder5_Reward",
+	"Title": "wildfoodreward5.title",
+	"Text": "wildfoodreward5.text",
+	"Attachments": [
+		{
+			"Type": "BigCraftable",
+			"Name": "wf wildfood trophy"
+
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+   
+	"MailReceived": ["wildflour_wildfoodOrder5_complete"]
+},	
+
+
+//TEA MAIL BEGIN---------------------------------------------------------------------------------------------------------------
+
+
+//Tea Kettle - Machine and Recipe
+
+{
+	"Id": "wildflour_teas_kettlerecipe",
+	"Text": "tea-kettle.text",
+	"Attachments": [],
+	"Recipe": "wf tea kettle",
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived":["CarolineTea"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Caroline",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+
+
+//free samples - Tea Lovers Magazine
+
+{
+	"Id": "wildflour_teas_evelyn_samples",
+	"GroupId": "wilflourteas.samples",
+	"Text": "evelyn-sample.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf chamomile seeds",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_teas_kettlerecipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Evelyn",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+{
+	"Id": "wildflour_teas_leah_samples",
+	"GroupId": "wilflourteas.samples",
+	"Text": "evelyn-sample.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf tealeaf seeds",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_teas_kettlerecipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Leah",
+			"FriendshipLevel": 3
+		}
+	]
+},
+
+
+{
+	"Id": "wildflour_teas_maru_samples",
+	"GroupId": "wilflourteas.samples",
+	"Text": "maru-sample.text",
+	"Attachments": [
+		{
+			"Type": "Object",
+			"Name": "wf honeyfungus seeds",
+			"Stack": 3
+		}
+	],
+	
+	"LetterBG": "WFLetterBG.png", 
+	"TextColor": 0, 
+	"Repeatable": false,
+	"MailReceived": ["wildflour_teas_kettlerecipe"],
+	"FriendshipConditions":
+	[
+		{
+			"NpcName": "Maru",
+			"FriendshipLevel": 3
+		}
+	]
+}
+
+
+]

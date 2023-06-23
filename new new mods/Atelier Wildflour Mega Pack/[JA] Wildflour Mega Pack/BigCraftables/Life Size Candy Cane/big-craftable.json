@@ -1,0 +1,35 @@
+{
+    "Name": "wf candy cane",
+    "Description": "...",
+    "TranslationKey": "candy-cane",
+      "Price": 10000,
+      "ProvidesLight": false,
+      "ReserveNextIndex": false,
+      
+      "Recipe":
+      {
+        "ResultCount": 1,
+            "Ingredients": [
+            {
+                "Object": 245,
+                "Count": 10
+            },
+            {
+                "Object": "wf mint",
+                "Count": 10
+            },
+            {
+                "Object": 84,
+                "Count": 1
+            }
+            ],
+      "IsDefault": false
+     }
+         
+    }
+  
+  
+  
+  
+  
+  

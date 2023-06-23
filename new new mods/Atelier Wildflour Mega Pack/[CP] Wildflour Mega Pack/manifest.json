@@ -1,0 +1,23 @@
+{
+  "Name": "Special Orders for Atelier Wildflour Mega Pack",
+  "Author": "wildflourmods",
+  "Version": "1.0",
+  "Description": "Adds custom special orders",
+  "UniqueID": "wildflour.megapackorders",
+  "UpdateKeys": [ "Nexus:" ],
+  "Dependencies":
+  
+  [
+
+  {"UniqueID":"spacechase0.JsonAssets",
+  "IsRequired": true},
+
+	{"UniqueID": "wildflour.megapack", 
+  "IsRequired": true}
+
+  ],
+
+  "ContentPackFor":{
+  "UniqueID": "Pathoschild.ContentPatcher"
+ }
+}

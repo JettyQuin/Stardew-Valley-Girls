@@ -1,0 +1,57 @@
+{
+  "Name": "wf pumpkin scone",
+  "Description": "...",
+  "TranslationKey": "pumpkin-scone",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1430,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": [],
+	  "Like": [],
+	  "Neutral": [],
+	  "Dislike":[],
+	  "Hate": []
+	},
+	"ContextTags":
+	
+		[	"wildflour_recipe",
+			"scone_item",
+			"color_sand"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf bread flour",
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf cream",
+	      "Count": 1
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "Pumpkin",
+	      "Count": 1
+	    },
+		{
+			"Object": "wf cinnamon",
+			"Count": 1
+		  }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

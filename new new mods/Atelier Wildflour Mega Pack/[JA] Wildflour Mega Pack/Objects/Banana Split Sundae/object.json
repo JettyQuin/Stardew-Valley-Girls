@@ -1,0 +1,24 @@
+{
+    "Name": "wf banana sundae",
+    "Description": "...",
+    "TranslationKey": "banana-sundae",
+    "Category": "ArtisanGoods",
+    "Edibility": 175,
+    "EdibleIsDrink": false,
+    "Price": 350,
+    "EdibleBuffs": {
+        "Defense": 2,
+        "Duration": 360
+    },
+    "GiftTastes": {
+        "Love": ["Jas", "Maru", "Vincent"],
+        "Like": ["Dwarf", "Robin"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,
+    "ContextTags": [
+        "wildflour_frozen",
+        "sundae_item",
+        "color_yellow"
+    ]
+}

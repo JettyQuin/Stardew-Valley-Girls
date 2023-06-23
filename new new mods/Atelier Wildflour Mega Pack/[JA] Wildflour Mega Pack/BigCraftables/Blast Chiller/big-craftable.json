@@ -1,0 +1,32 @@
+{
+  "Name": "wf blast chiller",
+  "Description": "...",
+  "TranslationKey":"blast-chiller",
+  "Price": 3000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 50
+        },
+        {
+            "Object": 335,
+            "Count": 2
+        },
+        {
+            "Object": 84,
+            "Count": 2
+        },
+        ],
+      },
+      "IsDefault": false,
+      "CanPurchase":true,
+      "PurchaseFrom": "Gus",
+      "PurchaseRequirements":["f Robin 1250"]
+
+}

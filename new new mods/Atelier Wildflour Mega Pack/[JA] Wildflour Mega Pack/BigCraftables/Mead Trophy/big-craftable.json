@@ -1,0 +1,10 @@
+{
+    "Name": "wf mead trophy",
+    "Description": "...",
+    "TranslationKey":"mead-trophy",
+    "Price": 10000,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":null
+       
+  }

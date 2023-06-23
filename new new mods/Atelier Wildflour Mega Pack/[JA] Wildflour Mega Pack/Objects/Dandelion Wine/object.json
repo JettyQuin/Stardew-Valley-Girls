@@ -1,0 +1,41 @@
+{
+	"Name": "wf dandelion.wine",
+	"Description": "...",
+	"TranslationKey": "dandelion-wine",
+	"Category": "Cooking",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	  "EdibleBuffs": {
+		  },
+	"Price": 450,
+	"IsColored": false,
+	"GiftTastes":
+	  {
+		
+	  },
+	  "ContextTags":
+	  
+		  [	
+		  ],
+  
+	  "Recipe":
+	  {
+		"ResultCount": 1,
+		"Ingredients": [ 
+		  {
+			"Object": 22,
+			"Count": 3
+		  },
+		  {
+			"Object": 245,
+			"Count": 1
+		  },
+	  ],
+	"IsDefault": false
+	  }
+  
+  }
+  
+  
+  
+  

@@ -1,0 +1,10 @@
+{
+    "Name": "wf tea trophy",
+    "Description": "...",
+    "TranslationKey":"tea-trophy",
+    "Price": 10000,
+    "ProvidesLight": false,
+    "ReserveNextIndex": false,
+    "Recipe":null
+       
+  }

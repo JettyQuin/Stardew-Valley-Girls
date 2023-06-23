@@ -1,0 +1,53 @@
+{
+  "Name": "wf chocolate pudding",
+  "Description": "...",
+  "TranslationKey": "chocolate-pudding",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1395,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": [],
+	  "Like": [],
+	  "Neutral": [],
+	  "Dislike":[],
+	  "Hate": []
+	},
+	"ContextTags":
+	
+		[	"wildflour_recipe",
+			"pudding_item",
+			"color_brown"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf cream",
+	      "Count": 2
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf cacaopod",
+	      "Count": 1
+	    },
+		{
+			"Object": "wf raspberry",
+			"Count": 1
+		  }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

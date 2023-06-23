@@ -1,0 +1,53 @@
+{
+  "Name": "wf raspberry preserves",
+  "Description": "...",
+  "TranslationKey": "vanilla-raspberry",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 900,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Gus", "Jas","Leo","Vincent"],
+	"Like": ["Abigail", "Clint", "Demetrius","Evelyn", "Caroline", "Elliott", "Emily", "George","Haley","Sandy", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	"Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	"Dislike":[],
+	"Hate": ["Sebastian"]
+  },
+  "ContextTags":
+  
+	  [	"wildflour_jelly",
+		  "jelly_item",
+		  "color_purple"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf vanilla",
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf raspberry",
+	      "Count": 3
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+    "IsDefault": true
+	}
+
+}
+
+
+

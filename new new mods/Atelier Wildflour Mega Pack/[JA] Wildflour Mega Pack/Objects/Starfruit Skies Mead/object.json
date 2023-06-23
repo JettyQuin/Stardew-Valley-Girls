@@ -1,0 +1,26 @@
+{
+  "Name": "wf starfruit mead",
+  "TranslationKey":"starfruit-mead",
+  "Description": "...",
+  "Category": "ArtisanGoods",
+  "Edibility": 160,
+  "EdibleIsDrink": true,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+
+    "Love": ["Dwarf","Elliott","Gus","Leah","Pam","Shane", "Willy"],
+    "Like": ["Abigail","Caroline", "Emily","Evelyn","Haley","Harvey","Jodi", "Kent","Marnie","Maru","Robin","Sandy","Wizard"],
+    "Neutral": ["Clint","Demetrius","George", "Lewis","Pierre","Sam"],
+    "Dislike": ["Alex", "Linus"],
+    "Hate": ["Jas", "Vincent", "Leo","Penny", "Sebastian"]
+    
+  },
+  
+  "ContextTags": [
+    "wildflour_mead",
+    "mead_item",
+    "color_gold"
+  ]
+}

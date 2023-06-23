@@ -1,0 +1,34 @@
+{
+  "Name": "wf ale keg",
+  "Description": "...",
+  "TranslationKey": "ale-keg",
+  "Price": 4000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 1,
+        },
+        {
+            "Object": 725,
+            "Count": 2,
+        },
+		{
+            "Object": 709,
+            "Count": 30,
+        },
+        ],
+    },
+    
+    "IsDefault": false,
+    "CanPurchase":true,
+    "PurchaseFrom": "Gus",
+    "PurchaseRequirements":["f Pam 1250"]
+        
+  
+ 
+}

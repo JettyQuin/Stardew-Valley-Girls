@@ -1,0 +1,87 @@
+[
+	{
+		"ProducerName": "wf ale keg",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf blast chiller",
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf boba station",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf candy station",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf coffee brewer",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf flower station",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf fragrance station",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf frozen treat maker",
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf juice station",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf kitchen blender",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf kitchen mortar",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf mead keg",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf tea kettle",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+	{
+		"ProducerName": "wf flower tub",
+		"AlternateFrameProducing": false,
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": false
+	},
+
+]

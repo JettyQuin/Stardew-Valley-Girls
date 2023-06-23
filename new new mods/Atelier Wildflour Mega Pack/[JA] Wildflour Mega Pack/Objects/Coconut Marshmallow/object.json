@@ -1,0 +1,43 @@
+{
+    "Name": "wf coconut marshmallow",
+    "Description": "...",
+    "TranslationKey":"coconut-marshmallow",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 510,
+    "GiftTastes":
+    {
+         "Love": ["Gus","Haley","Maru","Jas","Leo","Penny","Vincent"],
+		 "Like": ["Abigail", "Caroline","Demetrius","Dwarf","Evelyn","Emily","Krobus", "Lewis", "Marnie", "Robin", "Sam", "Sandy"],
+		 "Neutral": ["Clint","Elliott","Jodi","Kent","Pam","Pierre","Sebastian","Shane","Wizard"],
+		 "Dislike": ["Alex", "George","Leah", "Willy"],
+		 "Hate": ["Harvey"]
+    },
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf mallow",
+	      "Count": 2
+	    },
+		{
+	      "Object": "Coconut",
+	      "Count": 1
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    }
+	],
+    "IsDefault": true
+	},
+	"ContextTags":
+        [
+		"wildflour_candy",
+		"marshmallow_item",
+		"color_sand"
+		],
+}

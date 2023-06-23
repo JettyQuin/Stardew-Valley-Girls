@@ -1,0 +1,24 @@
+{
+    "Name": "wf vanilla cone",
+    "Description": "...",
+    "TranslationKey": "vanilla-cone",
+    "Category": "ArtisanGoods",
+    "Edibility": 35,
+    "EdibleIsDrink": false,
+    "Price": 350,
+    "EdibleBuffs": {
+        "Luck": 1,
+        "Duration": 360
+    },
+    "GiftTastes": {
+        "Love": ["Demetrius", "Jas", "Vincent"],
+        "Like": ["Caroline", "Sam", "Wizard"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,
+    "ContextTags": [
+        "wildflour_frozen",
+        "ice_cream_item",
+        "color_sand"
+    ]
+}

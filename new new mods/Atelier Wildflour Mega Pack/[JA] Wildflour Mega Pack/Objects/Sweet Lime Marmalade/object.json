@@ -1,0 +1,46 @@
+{
+  "Name": "wf lime marmalade",
+  "Description": "...",
+  "TranslationKey": "lime-marmalade",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 565,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Gus", "Jas","Leo","Vincent"],
+	"Like": ["Abigail", "Clint", "Demetrius","Evelyn", "Caroline", "Elliott", "Emily", "George","Haley","Sandy", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	"Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	"Dislike":[],
+	"Hate": ["Sebastian"]
+  },
+  "ContextTags":
+  
+	  [	"wildflour_jelly",
+		  "jelly_item",
+		  "color_lime"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf lime",
+	      "Count": 5
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    }
+	],
+    "IsDefault": true
+	}
+
+
+}
+
+
+

@@ -1,0 +1,20 @@
+﻿{
+	"Name": "[MFM] Atelier Wildflour Mega Pack",
+	"Author": "wildflourmods",
+	"Version": "1.0",
+	"Description": "Adds custom mails for my mod.",
+	"UniqueID": "wildflour.megapackMFM",
+	"MinimumApiVersion": "3.8.0",
+	"UpdateKeys": [],
+
+	"Dependencies": 
+	[
+ 	{"UniqueID":"wildflour.megapack",
+  	"IsRequired": true}
+	],
+
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.MailFrameworkMod",
+        "MinimumVersion": "1.10.1"
+	}
+}

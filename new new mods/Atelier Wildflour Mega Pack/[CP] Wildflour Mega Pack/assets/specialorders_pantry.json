@@ -1,0 +1,481 @@
+{
+  "Changes": [
+
+// Pantry Order 1
+    {
+    "LogName": "Pantry Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Pantry SO 1": {
+        "Name": "{{i18n:wildflourpantry.quest1.name}}",
+        "Requester": "Pierre",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourpantry.quest1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourpantry.quest1a.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wf_lemon_curd",
+                "TargetName": "Pierre"
+              }
+            },        
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourpantry.quest1b.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wf_pumpkin_butter",
+                "TargetName": "Pierre"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourpantry.quest1c.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wf_honey_butter",
+                "TargetName": "Pierre"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourpantry.quest1d.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "AcceptedContextTags": "item_wf_lime_curd",
+                "Message": "{{i18n:wildflourpantry.quest1.accept}}",
+                "TargetName": "Pierre"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3360"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Pierre"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+// Pantry Order 2
+    {
+      "LogName": "Pantry Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Pantry SO 2": {
+          "Name": "{{i18n:wildflourpantry.quest2.name}}",
+          "Requester": "Harvey",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourpantry.quest2.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourpantry.quest2a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HarveyClinic",
+                  "DropBoxGameLocation": "Hospital",
+                  "DropBoxIndicatorLocation": "2 4",
+                  "AcceptedContextTags": "item_wf_almond_milk"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourpantry.quest2b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HarveyClinic",
+                  "DropBoxGameLocation": "Hospital",
+                  "DropBoxIndicatorLocation": "2 4",
+                  "AcceptedContextTags": "item_wf_rice_milk"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourpantry.quest2c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HarveyClinic",
+                  "DropBoxGameLocation": "Hospital",
+                  "DropBoxIndicatorLocation": "2 4",
+                  "AcceptedContextTags": "item_wf_coconut_milk"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourpantry.quest2d.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HarveyClinic",
+                  "DropBoxGameLocation": "Hospital",
+                  "DropBoxIndicatorLocation": "2 4",
+                  "AcceptedContextTags": "item_wf_hazelnut_milk"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "4700"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Harvey"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_pantryOrder2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+// Pantry Order 3
+    {
+      "LogName": "Pantry Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Pantry SO 3": {
+          "Name": "{{i18n:wildflourpantry.quest3.name}}",
+          "Requester": "Alex",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourpantry.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourpantry.quest3.deliver}}",
+                "RequiredCount": "10",
+                "Data": {
+                  "DropBox": "MullnerHouse",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "19 22",
+                  "AcceptedContextTags": "nut_butter_item"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Alex"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_pantryOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Pantry Order 4
+{
+  "LogName": "Pantry Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Pantry SO 4": {
+        "Name": "{{i18n:wildflourpantry.quest4.name}}",
+        "Requester": "George",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourpantry.quest4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourpantry.quest4.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "MullnerHouse",
+							  "DropBoxGameLocation": "JoshHouse",
+							  "DropBoxIndicatorLocation": "19 21",
+                "AcceptedContextTags": "flour_item, gourmet_item",
+                "Message": "{{i18n:wildflourpantry.quest4.accept}}"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "George"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_pantryOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//Pantry ORDER 5
+
+{
+  "LogName": "Pantry Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Pantry SO 5": {
+        "Name": "{{i18n:wildflourpantry.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_pantryOrder2_complete, mail_wildflour_pantryOrder3_complete, mail_wildflour_pantryOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourpantry.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourpantry.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "gourmet_item, quality_gold",
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_pantryOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//REPEATABLES 6 7 8 
+
+{
+  "LogName": "Pantry Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Pantry SO 6": {
+      "Name": "{{i18n:wildflourpantry.quest6.name}}",
+      "Requester": "Evelyn",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourpantry.quest6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourpantry.quest6.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "AcceptedContextTags": "item_wf_vanilla_extract",
+              "Message": "{{i18n:wildflourpantry.quest6.accept}}",
+              "TargetName": "Evelyn"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Pantry Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Pantry SO 7": {
+      "Name": "{{i18n:wildflourpantry.quest7.name}}",
+      "Requester": "Abigail",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourpantry.quest7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourpantry.quest7.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "item_wf_olive_oil",
+              "Message": "{{i18n:wildflourpantry.quest7.accept}}",
+              "TargetName": "Abigail"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Pantry Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Pantry SO 8": {
+      "Name": "{{i18n:wildflourpantry.quest8.name}}",
+      "Requester": "Gus",
+      "Duration": "TwoWeeks",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_gusGiantOmelet, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourpantry.quest8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourpantry.quest8.deliver}}",
+            "RequiredCount": "9",
+            "Data": {
+              "AcceptedContextTags": "baking_chocolate",
+              "Message": "{{i18n:wildflourpantry.quest8.accept}}",
+              "TargetName": "Gus"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12500"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+
+  ]
+}
+

@@ -1,0 +1,245 @@
+{
+   
+    //ALE MAIL TEXT
+    
+    "ale-keg.text":"@, ^^ Du hast vielleicht schon von hellem Bier gehört, aber das ist nur die Spitze des Eisbergs, wenn es um Qualitätsbiere geht. Versuch mal eines dieser Fässer selbst zu brauen: Füge Früchte und Hopfen hinzu und lass dich sich überraschen. Oh, und vergiss nicht, mir was abzugeben, ja?^^ - Pam",
+    "shane-gift.text":"@, ^^ am hat dir also diese Baupläne für ein neues Bierfass geschickt, richtig? Klingt ziemlich cool, um ehrlich zu sein. Sie sagte, dass du eine Menge Eichenharz brauchst, also dachte ich, ich schicke dir etwas. Jas und ich haben es letztes Jahr im Wald gesammelt.^^ - Shane",
+    "elliott-gift.text":"@, ^^ Lokal gebraute Bierspezialitäten? Klingt absolut fabelhaft! Ich weiß nicht viel über das Bierbrauen, außer dass man Hopfen braucht! Prost!^^ - Elliott",
+    "kent-gift.text":"@, ^^ Als ich in Übersee war, stammte einer meiner Kameraden von den Inseln der Edelsteinsee. Er schwärmte immer von Mangobier. Wenn du es schaffst, welches zu brauen, würde ich es gerne probieren.^^ - Kent",
+    
+    //BEV MAIL TEXT
+
+    "juice-station.text":"@, ^^ Deine Farm macht wirklich Fortschritte und ich kann mir vorstellen, dass du in Kürze sehr viel Obst ernten wirst! Robin hat mir schon vor Ewigkeiten diese Baupläne für eine Saftpresse gegeben, aber wahrscheinlich brauchst du sie eher als ich!^^ - Jodi",
+    "boba-station.text":"@, ^^ Eigenen Bubble Tea zu machen, ist wie ein wissenschaftliches Experiment, das man anschließend trinken kann. Es ist nichts, das ich bei den meisten wissenschaftlichen Experimenten empfehlen würde, aber du kannst deinen Bubble Tea jederzeit mit mir teilen!^^ - Maru",
+    "evelyn-gift.text":"@, ^^ Wie du weißt, liebe ich Tee. Daher sollte es dich nicht überraschen, dass ich auch Eistee mag! Diese kleinen Zitronen sind eine schöne Ergänzung zum Tee, egal ob heiß oder kalt. Ich hoffe, du finden eine gute Verwendung für sie!^^ - Evelyn",
+    "emilybev-gift.text":"@, ^^ Maru hat mir erzählt, dass sie dir die Pläne für eine Boba-Station geschickt hat! Das ist so cool! Wusstest du, dass man Boba-Perlen aus den Winterwurzeln herstellen kann, die du im Winter ausgräbst? Erzähl mir von deinem Bubble Tea, wenn du ihn zubereitest, okay? Ich würde gerne welchen mit dir teilen^^ - Emily",
+    "lewis-gift.text":"@, ^^ Ich liebe ein Glas frische Limonade, aber weißt du, dass man Limonade auch selber herstellen kann? Seit ein paar Jahren habe ich einen kleinen Limettenbaum bei mir zu Hause; warum versuchst du nicht, ein paar Limetten für deine Säfte zu verwenden?^^ - Lewis",
+    
+
+    //CANDY MAIL TEXT
+
+    "candy-station.text":"@, ^^ Nicht falsch verstehen, ich mag keine Süßigkeiten. Aber die Junimos wollen meinen Turm nicht verlassen, bis ich dir dieses Rezept geschickt habe. Hoffentlich habe ich jetzt etwas Ruhe und Frieden.^^ - Wizard",
+    "vincentcandy-gift.text":"@, ^^ Wirst du jetzt ein Süßigkeiten-Bauer sein?! Ich wünschte, ich könnte auch ein Süßigkeiten-Bauer sein, das wäre so cool. Ich habe diese Pilze im Wald gefunden und sie sehen aus wie Süßigkeiten, also dachte ich, ich schicke dir ein paar!^^ - Vincent",
+    "abigail-gift.text":"@, ^^ Ich habe nicht die Angewohnheit Dinge die ich in den Minen finde, mit irgendjemandem zu teilen. Aber ich habe gehört, dass du jetzt Süßigkeiten herstellen kannst. Sagen wir einfach, ich würde mich sehr über ein paar Bonbons freuen ...^^ - Abigail",
+    "penny-gift.text":"@, ^^ Ich muss zugeben, dass ich eine klitzekleine Naschkatze bin. Außerdem finde ich die meisten Süßigkeiten einfach so hübsch und bunt. Ich glaube, du kannst diese Blumen in Süßigkeiten verwandeln; lass mich wissen, wenn du herausfindest, wie!^^ - Penny",
+
+    //COFFEE MAIL TEXT
+
+    "coffee-brewer.text":"@, ^^ Ich finde, dass das Zubereiten von Kaffee ein entspannendes Hobby ist. Daher möchte ich die Baupläne für meine Lieblingskaffeemaschine mit dir teilen. Denk nur daran, dass zu viel Koffein nervös machen kann, also alles in Maßen!^^ - Harvey",
+    "haley-gift.text":"@, ^^ Es ist schade, dass wir in dieser Stadt keinen Coffee Shop haben, aber wenigstens kann ich jetzt auf einen guten Milchkaffee zu dir kommen. Vielleicht machst du mir bei meinem nächsten Besuch einen Mokka-Latte?^^ - Haley",
+    "george-gift.text":"@, ^^ Evelyn hat ihre Tees, aber eine gute, starke Tasse Kaffee ist mir allemal lieber. Sie hat mir allerdings mal einen Vanille-Latte gemacht... der war ziemlich gut. Wie auch immer, vielleicht kannst du einen mit diesen Vanilleschoten machen.^^ - George",
+    "sebastian-gift.text":"@, ^^ Hast du schon versucht, kalten Kaffee zu machen? Es enthält das ganze Koffein und den Geschmack des Kaffees aber ohne die Bitterstoffe, also würde ich es definitiv empfehlen. Hier. Das hier könnte dir helfen, die richtige Mischung zu entwickeln.^^ - Sebastian",
+    
+    //FLORAL MAIL TEXT
+
+    "fragrance-station.text":"@, ^^ Das habe ich aus einer meiner Zeitschriften ausgeschnitten. Die Herstellung eigener Essenzen und Parfüms ist gerade sehr angesagt! Vielleicht kannst du es mit Blumen von deinem Hof ausprobieren?^^ - Haley",
+    "flower-station.text":"@, ^^ Wusstest du, dass du Blumen zu getrockneten Blütenblättern, Duftsäckchen und sogar Duftkerzen verarbeiten kannst? Ich mache das gerne mit den Blumen, die Jas mit nach Hause bringt. Mit den Blumen von deiner Farm könntest du bestimmt ein bisschen was verdienen, wenn du diese Maschine benutzt!^^ - Marnie",
+    "flower-tub.text":"@, ^^ Du hast schon gesehen, wie ich mich um die Blumenbeete in der Stadt kümmere, aber ich bastle auch gernezu Hause Blumensträuße. Mit dem Rezept für ein Blumenfass kannst du im Handumdrehen wunderschöne Blumensträuße zusammenstellen.^^ - Evelyn",
+    "jas-gift.text":"@, ^^ Tante Marnie hat dir einen Brief über Blumen geschickt, und deshalb wollte ich dir auch einen schreiben! Wir haben diese hübschen, duftenden Blumen im Wald gefunden, und sie sagte, sie würden dir gefallen, also bitte schön!^^ - Jas",
+    "sandyfloral-gift.text":"@, ^^ Wie läuft es mit der Blumenzucht? Ich wünschte hier in der Wüste könnten mehr Blumen wachsen, aber es ist einfach zu heiß. Einer meiner Freunde hat mir diese hier geschickt, und ich dachte, du könntest sie vielleicht in deinem Gewächshaus halten...^^ - Sandy",
+    "emily-gift.text":"@, ^^ Evelyn hat über Ihre neuen Blumenprojekte gesprochen, und da wollte ich helfen! Ich denke, dass Feenrosen einen ziemlich beeindruckenden Herbststrauß abgeben würden, oder?^^ - Emily",
+    
+    //FROZEN MAIL TEXT
+
+    "treat-maker.text":"@, ^^ Früher reisten die Dorfbewohner in die schneebedeckten Berge um Eis zu holen. Sie trugen es den ganzen Weg ins Dorf, um Eis herzustellen. Ich bin froh, dass wir heutzutage einen Kühlschrank haben.^^ - Demetrius",
+    "blast-chiller.text":"@, ^^ Hast du Spaß an den Bauplänen, die dir Demetrius geschickt hat? Ich wünschte, er hätte mir davon erzählt, denn ich hätte sie für meinen neuen Gefrierschrank verwendet! Gib ihm aber auf jeden Fall ein paar davon mit, okay? Dieser Mann liebt gEis!^^ - Robin",
+    "vincent-gift.text":"@, ^^ ICH SCHREIE NACH EISCREME! Wäre es nicht cool, wenn du das schreien würdest und dann auf magische Weise ein Eis in deiner Hand erscheinen würde? Ich würde den ganzen Tag nach Eiscreme schreien und meine Stimme verlieren! Kannst du damit ein Eis machen? Ich habe sie im Wald gefunden und sie riechen gut..^^ - Vincent",
+    "jodifrozen-gift.text":"@, ^^ Vincent ist so begeistert von Eiscreme, dass ich mir Sorgen mache, dass er es übertreibt. Kannst du gefrorenen Joghurt herstellen und sehen, ob er ihn lieber mag? Dann habe ich wenigstens das Gefühl, dass er etwas Gesünderes isst.^^ - Jodi",
+    "sam-gift.text":"@, ^^ Selbstgemachtes Eis? Gibt es irgendetwas, das du nicht kannst? Aber im Ernst: Das klingt supercool! Ich glaube, diese Pilze könnten dir helfen. Ich glaube, ich habe irgendwo gelesen, dass sie Milch produzieren, aber ich hoffe, sie sind nicht giftig...^^ - Sam",
+
+    //MEAD MAIL TEXT
+
+    "mead-keg.text":"@, ^^ Hast du dich jemals gefragt, ob verschiedene Früchte und Blumen den Geschmack deines Met beeinflussen können? Das können sie! Versuch mal eines dieser speziellen Met-Fässer herzustellen und du wirst erstaunt sein, welche neuen Mets du brauen kannst.^^ - Gus",
+    "gus-gift.text":"@, ^^ Willy erwähnte, dass du darüber nachdenkst, Met zu brauen! Du brauchst ein paar davon, um damit anzufangen, stimmt's?^^ - Gus",
+    "clint-gift.text":"@, ^^ Äh, hallo zusammen. Briefe schreiben ist nicht wirklich mein Ding, aber ich finde es cool, dass du versuchst, verschiedene Mets mischen. Dachte, die könnten helfen.^^ - Clint",
+    "sandy-gift.text":"@, ^^ Hiya Sweetie! Wusstest du, dass man aus Kaktusfrüchten einen ausgezeichneten Met machen kann? Du kannst ihn Sandy's Spezialität nennen, wenn du willst!^^ - Sandy",
+    
+
+    //PANTRY MAIL TEXT
+
+    "kitchen-mortar.text":"@, ^^ Wenn du dir einen dieser Küchenmörser bastelst, kannst du Spezialmehle und -zucker herstellen! Sie eignen sich hervorragend zum Backen, aber du kannst sie auch gewinnbringend an mich verkaufen. Es wäre schön, das Ladensortiment zu erweitern!^^ - Pierre",
+    "kitchen-blender.text":"@, ^^ Ich habe in einen dieser Mixer investiert, als die Leute anfingen, mich nach Kaffee mit veganer Milch zu fragen. Die sind zu teuer, um sie zu importieren, also mache ich jetzt meinen eigenen. Versuchs auch mal. Ich glaube, man kann damit auch andere Sachen machen, also schau mal, was du herausfindest!^^ - Gus",
+    "harvey-gift.text":"@, ^^ Einer meiner Patienten war allergisch gegen Erdnüsse und seine Mutter erzählte mir, das sie auf Nussbutter umgestiegen ist. Ich war zuerst skeptisch, aber jetzt bin ich ein großer Fan von Mandelbutter! Ich wette, man kann daraus auch Pistazienbutter machen.^^ - Harvey",
+    "jodi-gift.text":"@, ^^ Erzähl es niemandem, aber ich habe das Gefühl, dass Sam laktoseintolerant sein könnte. Ich habe heimlich auf laktosefreie Milch umgestellt und er hat den Unterschied nicht bemerkt. Ich schon...^^ -Jodi",
+    "marnie-gift.text":"@, ^^ Gus hat dir die Baupläne für einen Küchenmixer geschickt? Fantastisch! Damit kann man eine Menge besonderer Milchprodukte herstellen. Diese frische Sahne von meinen Kühen sollte dir den Einstieg erleichtern.^^ -Marnie",
+    
+    //TEA TEXT
+    "tea-kettle.text":"@, ^^ Wenn du wirklich in die Teezubereitung einsteigen willst, solltest du einen dieser Kessel ausprobieren. Er hat eine eingebaute Funktion mit der man auch Teebeutel herstellen kann! Ich würde gerne alle neuen Tees ausprobieren, die du kreierst.^^ - Caroline",
+    "evelyn-sample.text":"@, ^^ Ich habe gehört, dass du mehr über die Teezubereitung lernst! Was für ein wundervolles Abenteuer, das du gerade beginnst. Hier: das sind einige Kamillensamen aus meinem Garten. Die Blüten ergeben einen beruhigenden Kräutertee, der dir beim Einschlafen hilft.^^ - Evelyn",
+    "leah-sample.text":"@, ^^ Falls du nicht genügend Teeblätter sammeln konntest, würde ich gerne einige Samen mit dir teilen! Sie werden zu kräftigen Teesträuchern heran wachsen, so dass du so viel Tee machen kannst, wie du willst.^^ - Leah",
+    "maru-sample.text":"@, ^^ Wusstest du, dass man Tee zu Kombucha fermentieren kann? Das ist nicht jedermanns Sache, aber ich finde es prickelnd und lecker! Du solltest allerdings einige dieser Pilze anbauen, um die Fermentierung zu unterstützen.^^ - Maru",
+
+    
+//SPECIAL ORDERS MAIL TEXT-----------------------------------------------------------------------------------------------------------
+
+    // ALE REWARDS MAIL
+ 
+"alereward2.title": "Eine Überraschung für meinen Lieblingsbierbraumeister",
+"alereward2.text": "Nochmals vielen Dank, dass du etwas von deinem Bier mit mir geteilt hast. Ich denke, das könnte dir helfen, noch mehr seltsame (aber gute) aromatisierte Biere zu brauen, aber vergiss nicht, es mit mir zu teilen, ok?",
+
+"alereward3.title": "Ein kleines Dankeschön",
+"alereward3.text": "Was für eine Auswahl! Das wird dem Saloon wirklich helfen bekannt zu werden. Hier ist eine Kleinigkeit, um meinen Dank und meine Wertschätzung zu zeigen.",
+
+"alereward4.title": "Danke; Plus mein Geheimrezept für Fish and Chips im Biermantel!",
+"alereward4.text": "Diese Vielfalt ist genau das, was wir für den Kartenabend brauchten. Es war ein Riesenerfolg! Hier ist eines meiner Geheimrezepte, das hervorragend zu einem guten Bier passt.",
+
+"alereward5.title": "Herzlichen Glückwunsch!",
+"alereward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel des Braumeisters zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //BAKERY REWARDS MAIL
+ 
+"bakeryreward2.title": "Danke!",
+"bakeryreward2.text": "Das nenne ich mal Pop-Tarts! Diese Kinder werden nie wieder eines dieser abgepackten Pappstücke haben wollen.",
+
+"bakeryreward3.title": "Dankeschön <3",
+"bakeryreward3.text": "Ooo, ich fühle mich schon beim Anblick von denen schicker. Mein Selbstfürsorgetag wird jetzt fantastisch werden; danke nochmal!",
+
+"bakeryreward4.title": "Danke; Plus Anleitung zum Basteln von Bäckereischachteln!",
+"bakeryreward4.text": "Die sind perfekt! Macht es dir etwas aus, wenn ich Evelyn erzähle, dass ich sie gemacht habe? Nur dieses eine Mal? Oh danke, Süße, ich weiß das wirklich zu schätzen!",
+
+"bakeryreward5.title": "Herzlichen Glückwunsch!",
+"bakeryreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel eines Konditormeisters zu verleihen. Bitte betrachte dies als eine Belohnung.",
+
+    //BEVERAGES REWARDS MAIL
+ 
+"drinkreward2.title": "Danke!",
+"drinkreward2.text": "Wer hätte gedacht, dass ich mich einmal Hals über Kopf in Bubble Tea verlieben würde! Danke, dass du das mit mir geteilt hast, Bauer. Hier ist eine Kleinigkeit für deine Mühe.",
+
+"drinkreward3.title": "Eiskalte Getränke",
+"drinkreward3.text": "Ah, jetzt erinnere ich mich! Ich mag sie beide! Früher haben wir halb Limonade, halb Eistee gemischt und beim Golfen getrunken. Ich habe das Rezept beigefügt, falls du es mal ausprobieren willst.",
+
+"drinkreward4.title": "Danke; plus mein super geheimes Limonadenrezept",
+"drinkreward4.text": "Nochmals vielen Dank für die Fruchtsäfte! Sie waren köstlich, aber ich habe gelernt, dass sie nicht wirklich besser für mich sind als Limonade, also muss ich wieder zurück ans Reißbrett. Als Dankeschön kann ich aber auch mein selbstgemachtes Limonadenrezept mit dir teilen.",
+
+"drinkreward5.title": "Herzlichen Glückwunsch!",
+"drinkreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den 1. Preis der Getränke-Challenge zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //CANDY REWARDS MAIL
+ 
+"candyreward2.title": "DANKESCHÖN!!",
+"candyreward2.text": "Die sehen so gut aus. Wenn Mama mich nur das statt dieser ekligen Zahnseide benutzen lassen würde...",
+
+"candyreward3.title": "Danke; Plus Anleitung zum Basteln von dekorativen Zuckerstangen!",
+"candyreward3.text": "Diese sind genau wie die, die Mama nach langen Lastwagenfahrten mit nach Hause brachte. Ich werde sie gerne mit ihr teilen.",
+
+"candyreward4.title": "Danke; Plus Mein geheimes Zuckerapfel-Rezept!",
+"candyreward4.text": "Knusprig, süß und gut zu essen. Ich mache mich auf den Weg, um mit Seb und Sam zu teilen, aber nicht, ohne mein streng geheimes Süßigkeitenrezept mit dir zu teilen.",
+
+"candyreward5.title": "Herzlichen Glückwunsch!",
+"candyreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel eines Konditormeisters zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //COFFEE REWARDS MAIL
+ 
+"coffeereward2.title": "Nochmals vielen Dank!",
+"coffeereward2.text": "Vielleicht brauche ich mehr als nur die Lattes, um pünktlich zu sein, aber es ist sicherlich ein guter Anfang! Hier ist ein kleines Zubehör, von dem ich dachte, dass es dir gefallen könnte!",
+
+"coffeereward3.title": "Danke für die Kaffees.",
+"coffeereward3.text": "Ich bin zwar eine Nachteule, aber vielleicht hilft mir das, vor dem Mittag aufzuwachen. Hier ist etwas für dich, wenn du nach einem Muntermacher suchst.",
+
+"coffeereward4.title": "Danke, plus mein Geheimrezept für Dirty Chai!",
+"coffeereward4.text": "Ich verstehe zwar nicht wirklich was der ganze Wirbel soll, aber wenn es die jungen Leute glücklich macht, im Herbst vorbeizukommen und eine Tasse zu kaufen, dann reicht mir das! Wenn du ein WIRKLICH gutes Getränk willst, probiere mein Geheimrezept hier aus...",
+
+"coffeereward5.title": "Herzlichen Glückwunsch!",
+"coffeereward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel des Röstmeisters zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //FLORAL REWARDS MAIL
+ 
+"floralreward2.title": "Danke; Plus Anleitung zum Basteln einer blumigen Vogelscheuche!",
+"floralreward2.text": "Ich kann Ihnen gar nicht genug für den Blumenstrauß danken! Ich habe diese Vorlage bei Seb gefunden... vielleicht kannst du sie verwenden?",
+
+"floralreward3.title": "Vielen Dank!",
+"floralreward3.text": "DU BIST EIN LEBENSRETTER. Eine Frau sollte nie ohne ihr Lieblingsparfüm sein, weißt du.",
+
+"floralreward4.title": "Danke; Plus einige Pilzvorspeisen!",
+"floralreward4.text": "Die sind perfekt für meine Experimente! Wusstest du, dass der eigentliche Begriff für die Herstellung von Seife Verseifung lautet? Nein? Na gut, dann werde ich sie mal mit meinen eigenen Rezepturen testen!",
+
+"floralreward5.title": "Herzlichen Glückwunsch!",
+"floralreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel eines Meisterfloristen zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //FROZEN REWARDS MAIL
+ 
+"frozenreward2.title": "Danke!",
+"frozenreward2.text": "Eis am Stiel. Was für eine wunderbare Erfindung. Du musst mir eines Tages beibringen, wie man sie macht. Ich hoffe, diese Schätze aus der Mine helfen dir, noch viel Eis herzustellen.",
+
+"frozenreward3.title": "Danke; und ein neues Rezept!",
+"frozenreward3.text": "Das Menü ist jetzt perfekt, dank dir! Ich hatte noch ein paar Eisreste und habe mir ein neues Rezept für ein Eis mit Schokoladenüberzug ausgedacht... ich dachte mir, das du es als Erster probieren solltest!",
+
+"frozenreward4.title": "Danke; Plus Mein Rezept für Feuerwerk-Eis am Stiel!",
+"frozenreward4.text": "Diese Sandwiches erinnern mich wirklich an früher. Danke fürs Teilen, Bauer. Hier ist ein Rezept für eine andere nostalgische gefrorene Leckerei, die ich während der Sommer-Feuerwerkssaison geliebt habe.",
+
+"frozenreward5.title": "Herzlichen Glückwunsch!",
+"frozenreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den 1. Preis im Frozen Feast Contest zu verleihen. Bitte nimm dies als Belohnung.",
+   
+    //JAM REWARDS MAIL
+ 
+"jamreward2.title": "Dankeschön!",
+"jamreward2.text": "Oh, Gott sei Dank! Vielleicht kann ich sie zum frühstücken bringen, wenn ich es auf einen Bagel lege.",
+
+"jamreward3.title": "Nochmals vielen Dank!",
+"jamreward3.text": "Wow! Pfannkuchen haben gerade ein ernsthaftes Upgrade dank dieser!",
+
+"jamreward4.title": "Danke; Plus Mein Geheimrezept für Pina Colada Curd!",
+"jamreward4.text": "Die sind toll! Jetzt muss ich mir nie wieder Sorgen um Dinge wie Skorbut machen.",
+
+"jamreward5.title": "Glückwunsch!",
+"jamreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel eines Meisterkochs zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //MEAD REWARDS  MAIL
+ 
+"meadreward3.title": "Danke; Plus Mein Geheimrezept für das Brauen von Löwenzahnwein!",
+"meadreward3.text": "Die von dir gelieferten Mets sind genau das, wonach ich gesucht habe! Die Sommernächte im Saloon werden jetzt ein Riesenhit!",
+
+"meadreward4.title": "Danke; Plus Anleitung zum Basteln von Junimo-Plüschtieren!",
+"meadreward4.text": "Dieser Met ist süß und würzig. Perfekt für unseren Mädelsabend.",
+
+"meadreward5.title": "Herzlichen Glückwunsch!",
+"meadreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel Metbraumeister zu verleihen. Bitte nimm dies als Belohnung an.",
+
+    //PANTRY REWARDS MAIL
+ 
+"pantryreward2.title": "Danke; Plus Mein Geheimrezept für Horchata!",
+"pantryreward2.text": "Hergestellt aus Dingen wie Reis, Nüssen und sogar Kokosnüssen? Hervorragend! Das sollten tolle Alternativen für meine Patienten sein.",
+
+"pantryreward3.title": "Vielen Dank!",
+"pantryreward3.text": "Fantastisch! Damit kann ich auf jeden Fall noch besser zunehmen als bisher!",
+
+"pantryreward4.title": "Nochmals vielen Dank",
+"pantryreward4.text": "Vielleicht geht uns damit nicht an einem Tag das Mehl aus...hoffe ich.",
+
+"pantryreward5.title": "Herzlichen Glückwunsch!",
+"pantryreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel eines Handwerksmeisters zu verleihen. Bitte nimm dies als Belohnung.",
+
+    //TEA REWARDS MAIL
+ 
+"teareward2.title": "Dankeschön; Plus einige Teesamen!",
+"teareward2.text": "Na, wenn das nicht die perfekte viktorianische Teeparty ist!",
+
+"teareward3.title": "Danke, plus einige Pilzvorspeisen!",
+"teareward3.text": "Oh, es ist sprudelnder, als ich es mir vorgestellt habe! Aber erstaunlich lecker.",
+
+"teareward4.title": "Nochmals vielen Dank!",
+"teareward4.text": "Die riechen so beruhigend, ich wette, ich schlafe heute Nacht ein bevor ich ins Bett gehe!",
+
+"teareward5.title": "Herzlichen Glückwunsch!",
+"teareward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel des Teebraumeisters zu verleihen. Bitte nimm dies als Belohnung.",
+
+     //WILD FOOD REWARDS MAIL
+ 
+ "wildfoodreward2.title": "Dankeschön; Plus Anleitung zum Basteln eines selbstgemachten Beerenkorbs.",
+ "wildfoodreward2.text": "Diese Beeren sind perfekt für meine Torte!  Vielen Dank, dass du sie für mich gesammelt hast.",
+ 
+ "wildfoodreward3.title": "Ein Dankesschreiben und einige Pilzvorspeisen!",
+ "wildfoodreward3.text": "Ich bin der Suche nach der perfekten veganen Proteinquelle einen Schritt näher gekommen! Danke für all deine Hilfe.",
+ 
+ "wildfoodreward4.title": "Ein Dankesschreiben und noch mehr Pilzvorspeisen!",
+ "wildfoodreward4.text": "Das ist genau das, was ich mir erhofft habe! Ich werde sie gleich in mein Tagebuch pressen!",
+ 
+ "wildfoodreward5.title": "Herzlichen Glückwunsch!!",
+ "wildfoodreward5.text": "Dein Engagement ist beeindruckend. Wir sind stolz darauf, dir den Titel des Meistersammlers zu verleihen. Bitte nimm dies als Belohnung an."
+
+
+
+
+
+    }
+    

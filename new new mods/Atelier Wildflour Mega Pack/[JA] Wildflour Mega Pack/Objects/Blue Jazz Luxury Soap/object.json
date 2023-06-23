@@ -1,0 +1,26 @@
+{
+    "Name": "wf jazz soap",
+    "Description": "...",
+    "TranslationKey":"jazz-soap",
+    "Category": "ArtisanGoods",
+    "Edibility": -25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+    "Love": ["Caroline", "Emily", "Elliott", "Evelyn", "Sandy", "Haley", "Jodi",  "Marnie", "Robin"],
+    "Like": ["Abigail", "Harvey", "Leah", "Lewis", "Pam", "Wizard"],
+    "Neutral": ["Dwarf", "Krobus", "Maru", "Sam"],
+    "Dislike ": ["Alex", "Clint", "George", "Jas", "Leo", "Vincent"],
+    "Hate": ["Demetrius", "Linus", "Pierre", "Sebastian", "Shane"," Willy"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+  "ContextTags":
+        [
+    "wildflour_floral",
+    "flower_soap_item",
+    "color_blue"
+    ]
+  }

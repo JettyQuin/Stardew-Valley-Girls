@@ -1,0 +1,245 @@
+{
+   
+    //ALE MAIL TEXT
+    
+    "ale-keg.text":"@, ^^ You may have heard pale ale, but that's just the tip of the iceberg when it comes to quality brews. Try making yourself one of these kegs: add in fruit and some hops and prepare to be amazed. Oh and don't forget to share, eh?^^ - Pam",
+    "shane-gift.text":"@, ^^ So Pam sent you those blueprints for a new ale keg right? Sounds pretty cool to be honest. She said you'd need a lot of oak resin, so I thought I'd send you some that Jas and I tapped in the forest last year as a project.^^ - Shane",
+    "elliott-gift.text":"@, ^^ Locally brewed specialty ales? Sounds absolutely fabulous! I don't know much about brewing, but I know you need hops! Cheers!^^ - Elliott",
+    "kent-gift.text":"@, ^^ When I was overseas, one of my compatriots was from the Gem Sea Isles. He used to go on and on about Mango infused ales. If you manage to brew it, I'd love to try it.^^ - Kent",
+    
+    //BEV MAIL TEXT
+
+    "juice-station.text":"@, ^^ The farm is really coming along, and I imagine before long you'll be up to your ears in extra fruit! Robin shared these blueprints for a juicer with me ages ago, but it'll probably be more helpful to you than me!^^ - Jodi",
+    "boba-station.text":"@, ^^ Making your own bubble tea is like a science experiment you get to drink afterwards. Not something I'd recommend with most science experiments, but feel free to share your bubble tea with me anytime!^^ - Maru",
+    "evelyn-gift.text":"@, ^^ You know I love tea, so it should not come as a great surprise to you that I also enjoy iced tea! These little lemons make for a lovely addition to tea, hot or cold. I hope you find a good use for them!^^ - Evelyn",
+    "emilybev-gift.text":"@, ^^ Maru mentioned to me that she shared blueprints with you for a boba station! That's so cool! Do you know you can make boba pearls from the winter roots you dig up around here in the cooler months? Share some bubble tea with me when you brew some okay??! I'd love to share some with you.^^ - Emily",
+    "lewis-gift.text":"@, ^^ I do love a glass of fresh lemonade, but you know you can make limeade as well? I've been growing a little lime tree in my home for a few years now; why don't you try using a few in your juices?^^ - Lewis",
+    
+
+    //CANDY MAIL TEXT
+
+    "candy-station.text":"@, ^^ Do not misunderstand; I do not partake in candy. However, there are several junimos who insisted I send this recipe to you and would not leave my tower until I did. Hopefully now I can get some peace and quiet.^^ - Wizard",
+    "vincentcandy-gift.text":"@, ^^ Are you going to be a candy farmer now?! I wish I could be a candy farmer that would be so cool. I found these mushrooms in the woods and they look like candy so I thought I would share them with you!^^ - Vincent",
+    "abigail-gift.text":"@, ^^ I'm not in the habit of sharing the things I find in the mines with anyone, but I hear you have ways to make candy now. Let's just say I would really appreciate some rock candy if you ever felt like sharing...^^ - Abigail",
+    "penny-gift.text":"@, ^^ I must admit I do have a teensy weensy sweet tooth. I also just find most candy to be so pretty and colorful. I think you can turn these flowers into candies; let me know if you figure out how!^^ - Penny",
+
+    //COFFEE MAIL TEXT
+
+    "coffee-brewer.text":"@, ^^ I find brewing coffee to be a relaxing hobby and so I thought I'd share the blueprints for my favorite coffee brewer with you. Just remember, too much caffeine can make you jittery so everything in moderation!^^ - Harvey",
+    "haley-gift.text":"@, ^^ It stinks we don't have a cute little coffee shop in this town, but at least now I can visit you for a good latte. Maybe make me mocha latte the next time I visit?^^ - Haley",
+    "george-gift.text":"@, ^^ Evelyn has her teas but give me a good strong cup of joe any day. She did make me this vanilla latte once though...that was pretty good I guess. Anyway maybe you can make one with these vanilla beans.^^ - George",
+    "sebastian-gift.text":"@, ^^ Have you tried making cold brew yet? It's still got all the caffeine and flavor without any of the bitterness so I would definitely recommend it. Here. these might help you come up with a cold brew blend if you use them right.^^ - Sebastian",
+    
+    //FLORAL MAIL TEXT
+
+    "fragrance-station.text":"@, ^^ I clipped this out of one of my magazines. Making your own infused essences and perfumes is so trendy right now! Maybe you can try it out with flowers from your farm?^^ - Haley",
+    "flower-station.text":"@, ^^ Did you know you can process flowers into dried petals, potpourri and even scented candles? I like to do it with the flowers Jas brings home, but with your flowers you could probably earn quite a bit from working with a machine like this!^^ - Marnie",
+    "flower-tub.text":"@, ^^ You've seen me taking care of the flower beds in town, but I like to dabble in making bouquets and things at home as well. With the recipe for a Tub of Wildflours you will be assembling gorgeous bouquets in no time.^^ - Evelyn",
+    "jas-gift.text":"@, ^^ Aunt Marnie sent you a letter about flowers and so I wanted to write you one too! We found these pretty smelling flowers in the forest together and she said you'd like them so here you go!^^ - Jas",
+    "sandyfloral-gift.text":"@, ^^ How's the flower farming going? I wish the desert could support more flowers but it just gets so hot here. One of my friends from the Gem Isles sent me these though and I thought maybe you could keep them in your greenhouse...^^ - Sandy",
+    "emily-gift.text":"@, ^^ Evelyn has been talking about your new flower projects and so I wanted to help! I think fairy roses would make for quite the stunning autumn bouquet, don't you?^^ - Emily",
+    
+    //FROZEN MAIL TEXT
+
+    "treat-maker.text":"@, ^^ In ancient times, villagers would travel up to snow-capped mountains to get ice, then carry it all the way down to the village to make frozen delicacies. I'm glad we have science now.^^ - Demetrius",
+    "blast-chiller.text":"@, ^^ Are you having fun with the machine blueprints Demetrius sent you? I wish he had let me know he was sending them as I would have included these for my new blast chiller! Just be sure to share some with him, ok? That man sure loves his frozen treats!^^ - Robin",
+    "vincent-gift.text":"@, ^^ I SCREAM FOR ICE CREAM! Wouldn't it be cool if you screamed that and then ice cream just magically appeared in your hand? I would lose my voice I'd be shouting for ice cream all day long! Can you make some ice cream with these I found them in the woods they smell nice.^^ - Vincent",
+    "jodifrozen-gift.text":"@, ^^ Vincent has been so excited about ice cream I'm concerned he will go overboard. Can you try making frozen yogurt and see if he'll eat it instead? At least then I'll feel like he's eating something healthier.^^ - Jodi",
+    "sam-gift.text":"@, ^^ Making homemade ice cream huh? Is there anything you won't try? Seriously though that sounds super cool! I think these mushrooms might help you I think I read about them producing milk somewhere but I hope they aren't poisonous...^^ - Sam",
+
+    //MEAD MAIL TEXT
+
+    "mead-keg.text":"@, ^^ Ever wonder if different fruits and flowers could affect the flavor of your mead? They can! Try crafting one of these specialty mead kegs and you'll be amazed at the new meads you can distill.^^ - Gus",
+    "gus-gift.text":"@, ^^ Willy mentioned you are thinking about distilling specialty meads! You'll need a few of these to get you started then, right?^^ - Gus",
+    "clint-gift.text":"@, ^^ Uh, hi there. Letters are not really my thing but, I think it's cool you are trying to make different meads. Thought these might help.^^ - Clint",
+    "sandy-gift.text":"@, ^^ Hiya Sweetie! Did you know cactus fruit makes an excellent mead? You can call it Sandy's Specialty if you like!^^ - Sandy",
+    
+
+    //PANTRY MAIL TEXT
+
+    "kitchen-mortar.text":"@, ^^ If you craft yourself one of these kitchen mortars, you can start making specialty flours and sugars! They are great for baking with, but you can also sell them to me for a nice profit. It'd be nice to expand the shop's offerings!^^ - Pierre",
+    "kitchen-blender.text":"@, ^^ I invested in one of these blenders once people started asking me for coffee with dairy free milks. Those are too expensive to import, so now I make my own, but you should try it too. I think it can make other things too, so see what you can find out!^^ - Gus",
+    "harvey-gift.text":"@, ^^ One of my patients was allergic to peanuts and his mother told me how she swapped to tree nut butters. I was skeptical at first, but now I am a huge fan of almond butter! I bet you could make pistachio butter with these.^^ - Harvey",
+    "jodi-gift.text":"@, ^^ Don't tell anyone, but I have a feeling Sam might be lactose intolerant. I secretly switched to dairy free milk and he hasn't noticed the difference but I sure have...^^ -Jodi",
+    "marnie-gift.text":"@, ^^ So Gus shared the blueprints for a kitchen blender? That's fantastic! You can make a lot of specialty dairy products with that. This fresh cream from my cows should help you get started.^^ -Marnie",
+    
+    //TEA TEXT
+    "tea-kettle.text":"@, ^^ If you really want to get into tea brewing, you should try making one of these kettles. It has a built in way to make tea sachets too! I would love to try any new teas you create.^^ - Caroline",
+    "evelyn-sample.text":"@, ^^ I heard you are learning more about brewing tea! What a wonderful adventure you are about to begin. Here: these are some chamomile seeds from my garden. The flowers make a soothing herbal tea that helps you sleep.^^ - Evelyn",
+    "leah-sample.text":"@, ^^ How is the tea brewing going? If you are having trouble foraging enough tea leaves, I would be happy to share some seeds with you! These will make for some sturdy tea bushes so you can make all the tea you want.^^ - Leah",
+    "maru-sample.text":"@, ^^ Did you know you can ferment tea into kombucha? It's not everybody's cup of tea (sorry for the pun) but I find it to be fizzy and delicious! You will want to start growing some of these mushrooms though to help with the fermentation.^^ - Maru",
+
+    
+//SPECIAL ORDERS MAIL TEXT-----------------------------------------------------------------------------------------------------------
+
+    // ALE REWARDS MAIL
+ 
+"alereward2.title": "A Surprise for My Favorite Ale Farmer",
+"alereward2.text":"Thanks again for sharing some of that ale with me. Figure this might help you make even more weird (but good) flavored brews, just don't forget to share with me ok?",
+
+"alereward3.title": "A Small Token of Thanks",
+"alereward3.text": "What a selection! This will really help put Stardrop Saloon on the map. Here's a little something to show my thanks and appreciation.",
+
+"alereward4.title": "Thanks; Plus My Secret Recipe for Beer Battered Fish and Chips!",
+"alereward4.text": "That variety is just what we needed for card night. It was a huge success! Here's one of my secret recipes that goes great with a good brew.",
+
+"alereward5.title": "Congratulations!",
+"alereward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Brewer. Please take this as a reward.",
+
+    //BAKERY REWARDS MAIL
+ 
+"bakeryreward2.title": "Thanks!",
+"bakeryreward2.text": "Now THESE are what I call pop tarts! Those kids will never want one of those prepackaged pieces of cardboard ever again.",
+
+"bakeryreward3.title": "Thank you <3",
+"bakeryreward3.text": "Ooo I feel fancier already looking at these. My self care day is going to be amazing now; thanks again!",
+
+"bakeryreward4.title": "Thank you; Plus Instructions to Craft Bakery Boxes!",
+"bakeryreward4.text": "These are perfect! Would you mind terribly if I told Evelyn I made them? Just this once? Oh thank you, sweetie, I really appreciate it!",
+
+"bakeryreward5.title": "Congratulations!",
+"bakeryreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Pastry Chef. Please take this as a reward.",
+
+    //BEVERAGES REWARDS MAIL
+ 
+"drinkreward2.title": "Thanks!",
+"drinkreward2.text": "Who would have guessed I'd fall head over heels in love with bubble tea! Thanks for sharing this with me, farmer. Here's a little something for your trouble.",
+
+"drinkreward3.title": "Ice Cold Drinks",
+"drinkreward3.text": "Ah now I remember! I like 'em both! Back in the day, we'd mix half lemonade, half iced tea and drink it while golfing. I've attached the recipe in case you want to give it a try.",
+
+"drinkreward4.title": "Thank you; Plus My Super Secret Soda Recipe",
+"drinkreward4.text": "Thanks again for the fruit juices! They were delicious, but I learned they aren't really better for me than soda, so it's back to the drawing board for me. Might as well share my homemade soda recipe with you, though, as a way of saying thanks.",
+
+"drinkreward5.title": "Congratulations!",
+"drinkreward5.text": "Your dedication is impressive. We are proud to offer you 1st prize in the Sensational Sips Contest. Please take this as a reward.",
+
+    //CANDY REWARDS MAIL
+ 
+"candyreward2.title": "THANK YOU!!",
+"candyreward2.text": "These look so good. If only Mom would let me floss with this instead of that gross string...",
+
+"candyreward3.title": "Thank you; Plus Instructions on How to Craft Decorative Candy Canes!",
+"candyreward3.text": "These are just like the ones Mom used to bring home after long truck trips. I'm going to enjoy sharing these with her.",
+
+"candyreward4.title": "Thank you; Plus My Secret Candy Apple Recipe!",
+"candyreward4.text": "Crunchy, sweet and good to eat. I'm off to share with Seb and Sam, but not without sharing with you my top secret candy recipe.",
+
+"candyreward5.title": "Congratulations!",
+"candyreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Confectioner. Please take this as a reward.",
+
+    //COFFEE REWARDS MAIL
+ 
+"coffeereward2.title": "Thanks Again!",
+"coffeereward2.text": "Maybe I need more than JUST the lattes to be on time, but it's certainly a good way to start! Here's a little accessory I thought you might like!.",
+
+"coffeereward3.title": "Thanks for the brews.",
+"coffeereward3.text": "I may be a night owl, but perhaps this will help me wake up before noon. Here's something for you if you're looking for a pick me up.",
+
+"coffeereward4.title": "Thank you, Plus My Secret Recipe for Dirty Chai!",
+"coffeereward4.text": "I don't really understand what all the fuss is about, but if makes the young'uns happy to stop by and buy a cup in the fall, that's enough for me! Now if you want a REALLY good drink, try out my secret recipe here...",
+
+"coffeereward5.title": "Congratulations!",
+"coffeereward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Roaster. Please take this as a reward.",
+
+    //FLORAL REWARDS MAIL
+ 
+"floralreward2.title": "Thank you; Plus Instructions on Crafting a Floral Scarecrow!",
+"floralreward2.text": "I really can't thank you enough for the bouquet! I found this blueprint when hanging out at Seb's...maybe you can use it?",
+
+"floralreward3.title": "Thanks so much!",
+"floralreward3.text": "YOU ARE A LIFESAVER. A girl should never be without her favorite perfume, you know.",
+
+"floralreward4.title": "Thank you; Plus Some Mushroom Starters!",
+"floralreward4.text": "These are perfect for my experiments! Did you know the actual term for making soap is soaponification? No? Oh well, off I go to test these against my own concoctions!.",
+
+"floralreward5.title": "Congratulations!",
+"floralreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Florist. Please take this as a reward.",
+
+    //FROZEN REWARDS MAIL
+ 
+"frozenreward2.title": "Thanks!",
+"frozenreward2.text": "Popsicles. What a wonderful invention. You'll have to teach me how to make them one day. I hope these treasures from the mine help you make many more popsicles.",
+
+"frozenreward3.title": "Thank you; Plus a New Recipe!",
+"frozenreward3.text": "The menu is perfect now thanks to you! I had some leftover ice creams and came up with a new recipe for a chocolate coated ice cream pop...figured you should be the first one to try it!",
+
+"frozenreward4.title": "Thank you; Plus My Recipe for Fireworks Popsicles!",
+"frozenreward4.text": "These sandwiches really take me back. Thanks for sharing, farmer. Here's a recipe for another nostalgic frozen treat I used to love during summer fireworks season.",
+
+"frozenreward5.title": "Congratulations!",
+"frozenreward5.text": "Your dedication is impressive. We are proud to offer you 1st prize in the Frozen Feast Contest. Please take this as a reward.",
+   
+    //JAM REWARDS MAIL
+ 
+"jamreward2.title": "Thank you!",
+"jamreward2.text": "Oh thank goodness! Maybe with this I can get her to eat breakfast by putting it on a bagel.",
+
+"jamreward3.title": "Thanks again!",
+"jamreward3.text": "Wow! Pancakes just got a serious upgrade thanks to these !",
+
+"jamreward4.title": "Thank you; Plus My Secret Recipe for Pina Colada Curd!",
+"jamreward4.text": "These are great! Now I don't have to worry about things like scurvy ever again.",
+
+"jamreward5.title": "Congratulations!",
+"jamreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Canner. Please take this as a reward.",
+
+    //MEAD REWARDS  MAIL
+ 
+"meadreward3.title": "Thank you; Plus My Secret Recipe for Brewing Dandelion Wine!",
+"meadreward3.text": "The meads you delivered are exactly what I was looking for! Summer Nights at the Stardrop Saloon will be a smash hit now!",
+
+"meadreward4.title": "Thank you; Plus Instructions for Crafting Junimo Plushies!",
+"meadreward4.text": "Sweet and spicy, these meads you dropped off are perfect for our girls' night in.",
+
+"meadreward5.title": "Congratulations!",
+"meadreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Mead Brewer. Please take this as a reward.",
+
+    //PANTRY REWARDS MAIL
+ 
+"pantryreward2.title": "Thank you; Plus My Secret Recipe for Horchata!",
+"pantryreward2.text": "Made from things like rice, nuts and even coconuts? Splendid! These should be great alternatives for my patients.",
+
+"pantryreward3.title": "Thanks so much!",
+"pantryreward3.text": "Awesome! With these I'll definitely be able to bulk up even better than before!",
+
+"pantryreward4.title": "Thanks again",
+"pantryreward4.text": "Maybe with these we won't run out of flour in a day...I hope.",
+
+"pantryreward5.title": "Congratulations!",
+"pantryreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Artisan. Please take this as a reward.",
+
+    //TEA REWARDS MAIL
+ 
+"teareward2.title": "Thank you; Plus Some Tea Seeds!",
+"teareward2.text": "Well won't we just have the perfect Victorian Tea Party with these!",
+
+"teareward3.title": "Thank you, Plus Some Mushroom Starters!",
+"teareward3.text": "Oh it's fizzier than I imagined! But surprisingly tasty.",
+
+"teareward4.title": "Thanks again!",
+"teareward4.text": "These smell so soothing I bet I'll be asleep before I hit the pillow tonight!",
+
+"teareward5.title": "Congratulations!",
+"teareward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Tea Brewer. Please take this as a reward.",
+
+     //WILD FOOD REWARDS MAIL
+ 
+ "wildfoodreward2.title": "Thank you; Plus Instructions to Craft A Homemade Berry Basket.",
+ "wildfoodreward2.text": "These berries are perfect for my tart!  Thank you so much for finding them for me.",
+ 
+ "wildfoodreward3.title": "A Thank You Note and Some Mushroom Starters!",
+ "wildfoodreward3.text": "I am one step closer to finding the perfect vegan protein source! Thanks for all your help.",
+ 
+ "wildfoodreward4.title": "A Thank You Note and Some MORE Mushroom Starters!",
+ "wildfoodreward4.text": "These are just what I was hoping for! I'm going to press them into my journal right away!",
+ 
+ "wildfoodreward5.title": "Congratulations!!",
+ "wildfoodreward5.text": "Your dedication is impressive. We are proud to offer you the title of Master Forager. Please take this as a reward."
+
+
+
+
+
+    }
+    

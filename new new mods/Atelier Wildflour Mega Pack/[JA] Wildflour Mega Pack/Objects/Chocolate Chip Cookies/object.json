@@ -1,0 +1,47 @@
+{
+  "Name": "wf chocochip cookie",
+  "Description": "...",
+  "TranslationKey": "chocochip-cookie",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 800,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	},
+	"ContextTags":
+	
+	[	"wildflour_recipe",
+	"cookie_item",
+	"color_gold"
+],
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+			"Object": "Wheat Flour",
+			"Count": 1
+		  },
+		  {
+			  "Object": 245,
+			  "Count": 1
+		  },
+		  {
+			"Object": "wf butter",
+			"Count": 1
+		  },
+		  {
+			"Object": "wf chocolate chips",
+			"Count": 1
+		  }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

@@ -1,0 +1,26 @@
+{
+    "Name": "wf matcha sachet",
+    "Description": "...",
+    "TranslationKey":"matcha-sachet",
+    "Category": "ArtisanGoods",
+    "Edibility": 10,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 350,
+    "GiftTastes":
+    {
+		"Love": ["Caroline","Evelyn"],
+		"Like": ["Abigail","Emily", "Elliott", "Harvey", "Jodi", "Leah", "Lewis", "Marnie", "Robin", "Sandy",],
+		"Neutral": ["Alex","Dwarf","George","Gus","Haley","Kent","Krobus","Linus","Maru","Penny","Pierre","Wizard"],
+		"Dislike ": ["Clint","Jas","Leo","Pam","Sam","Sebastian","Shane","Vincent","Willy"],
+		"Hate": [],
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+	"ContextTags":
+        [
+		"wildflour_tea",
+		"tea_sachet_item",
+		"color_jade"
+		],
+}

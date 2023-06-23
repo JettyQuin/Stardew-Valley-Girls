@@ -1,0 +1,33 @@
+{
+  "Name": "wf candy station",
+  "Description": "...",
+  "TranslationKey":"confection-station",
+  "Price": 3500,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 245,
+            "Count": 15
+        },
+        {
+            "Object": 330,
+            "Count": 15
+        },
+        {
+            "Object": 388,
+            "Count": 40
+        }
+        ],
+    },
+    "IsDefault": false,
+    "CanPurchase":true,
+    "PurchaseFrom": "Gus",
+    "PurchaseRequirements":["f Wizard 1250"]
+
+     
+}

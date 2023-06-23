@@ -1,0 +1,33 @@
+{
+  "Name": "wf mead keg",
+  "Description": "...",
+  "TranslationKey":"mead-keg",
+  "price": 4000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 335,
+            "Count": 1
+        },
+        {
+            "Object": 709,
+            "Count": 30
+        },
+		{
+            "Object": 340,
+            "Count": 2
+        }
+                        ]
+    },    
+    "IsDefault": false,
+    "CanPurchase":true,
+    "PurchaseFrom": "Gus",
+    "PurchaseRequirements":["f Willy 1250"]
+        
+  
+ 
+}

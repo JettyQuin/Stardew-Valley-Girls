@@ -1,0 +1,570 @@
+{
+
+//ALES
+
+"wildflourales.quest1.name":"Share A Pint",
+"wildflourales.quest1.text":"I want to surprise everyone at the saloon with some specially crafted ales! Gus thinks its a great idea but I don't know where to get them.  ",
+"wildflourales.quest1.deliver":"Deliver 5 Coconut Milk Stouts to Pam.",
+"wildflourales.quest1.accept":"This is perfect! Everyone always shares a pint with me, so I'm excited to share a pint with them too!",
+
+"wildflourales.quest2.name":"Hop To It",
+"wildflourales.quest2.text":"What's the deal with sour ales? That sounds so weird, but I also am very curious to try it for myself...",
+"wildflourales.quest2.deliver":"Deliver 5 Cherry Sour Ales to Shane.",
+"wildflourales.quest2.accept":"Huh, the sourness of the cherry really bites through the sweetness of the ale. Impressive. Thanks for sharing with me.",
+
+"wildflourales.quest3.name":"More Ales for the Saloon",
+"wildflourales.quest3.text":"It turns out people are really interested in more specialty ales besides beer and pale ale. Can you help me improve the variety we have at the saloon?",
+"wildflourales.quest3a.deliver":"Deliver 3 Orange Pilsners to Gus's fridge.",
+"wildflourales.quest3b.deliver":"Deliver 3 Peach Stouts to Gus's fridge.",
+"wildflourales.quest3c.deliver":"Deliver 3 Blueberry Ales to Gus's fridge.",
+"wildflourales.quest3d.deliver":"Deliver 3 Melon Pale Ales to Gus's fridge.",
+
+"wildflourales.quest4.name":"In Pursuit of Hoppiness",
+"wildflourales.quest4.text":"I'm having some of the guys over for cards and drinks. I should probably stock up on some nice ales...",
+"wildflourales.quest4a.deliver":"Deliver 3 Apple Pilsners to Kent's fridge.",
+"wildflourales.quest4b.deliver":"Deliver 3 Pumpkin Spice Ales to Kent's fridge.",
+"wildflourales.quest4c.deliver":"Deliver 3 Strawberry Porters to Kent's fridge.",
+"wildflourales.quest4d.deliver":"Deliver 3 Apricot Ales to Kent's fridge.",
+
+"wildflourales.quest5.name":"Master Brewer Challenge",
+"wildflourales.quest5.text":"It's that time of year again - annual applications for the role of Master Brewer are open! Send us your best ales to see if you can earn the grand prize!",
+"wildflourales.quest5.ship":"Ship 100 gold quality ales.",
+
+//ALES REPEATABLE NEW
+
+"wildflourales.quest6.name":"Ales for Elliott",
+"wildflourales.quest6.text":"Everyone's talking about these fancy fruit ales. Can someone deliver a few for me and my friends to try?",
+"wildflourales.quest6.deliver":"Deliver 4 ales to Elliott.",
+"wildflourales.quest6.accept":"Splendid! Thanks so much for delivering these.",
+
+"wildflourales.quest7.name":"Ales for Lewis",
+"wildflourales.quest7.text":"In need of some fine ales for a nice dinner I'm throwing at the end of the week.",
+"wildflourales.quest7.deliver":"Deliver 6 ales to Lewis.",
+"wildflourales.quest7.accept":"My dinner will be the talk of the town with these ales! Thanks again.",
+
+"wildflourales.quest8.name":"Ales for Gus",
+"wildflourales.quest8.text":"I need more specialty ales! Turns out demand is higher than ever!",
+"wildflourales.quest8.deliver":"Deliver 8 ales to Gus.",
+"wildflourales.quest8.accept":"Thanks friend! Feel free to come by with any extra ales you may be brewing; I'll always have room on the menu for them.",
+
+//BAKERY
+
+"wildflourbakery.quest1.name":"Let Them Eat Cupcakes!",
+"wildflourbakery.quest1.text":"Jas needs cupcakes for a school bake sale and I'm too busy to bake them from scratch. HELP!",
+"wildflourbakery.quest1a.deliver":"Deliver 2 vanilla cupcakes to Marnie.",
+"wildflourbakery.quest1b.deliver":"Deliver 2 strawberry cupcakes to Marnie.",
+"wildflourbakery.quest1c.deliver":"Deliver 2 chocolate cupcakes to Marnie.",
+"wildflourbakery.quest1.accept":"How cute! These are perfect I'm sure they will be a smash hit at the bake sale!",
+
+"wildflourbakery.quest2.name":"Pop Tarts",
+"wildflourbakery.quest2.text":"The kids in town don't know what truly good desserts are. I saw them eating Pop Tarts! I want to show them how good real fruit tarts are instead.",
+"wildflourbakery.quest2a.deliver":"Deliver 1 Tooti Frooti Tart to Gus's Fridge.",
+"wildflourbakery.quest2b.deliver":"Deliver 1 Berry Bushel Tart to Gus's Fridge.",
+"wildflourbakery.quest2c.deliver":"Deliver 1 Chocolate Hazelnut Tart to Gus's Fridge.",
+
+"wildflourbakery.quest3.name":"Patisserie Vibes",
+"wildflourbakery.quest3.text":"I would love to relax with a good book, a cup of tea, and some adorable macarons. Can someone help?",
+"wildflourbakery.quest3a.deliver":"Deliver 3 lemon macarons to the drop box in Haley's kitchen.",
+"wildflourbakery.quest3b.deliver":"Deliver 3 lavender macarons to the drop box in Haley's kitchen.",
+"wildflourbakery.quest3c.deliver":"Deliver 3 strawberry macarons to the drop box in Haley's kitchen.",
+"wildflourbakery.quest3d.deliver":"Deliver 3 chocolate macarons to the drop box in Haley's kitchen.",
+
+"wildflourbakery.quest4.name":"Tea Time Sweets",
+"wildflourbakery.quest4.text":"Evelyn is having me over for tea time and I don't want to show up empty-handed. Can someone bring me some scones to bring with me?",
+"wildflourbakery.quest4a.deliver":"Deliver 3 pistachio scones to the dropbox in Caroline's kitchen.",
+"wildflourbakery.quest4b.deliver":"Deliver 3 raspberry scones to the dropbox in Caroline's kitchen.",
+"wildflourbakery.quest4c.deliver":"Deliver 3 blackberry scones to the dropbox in Caroline's kitchen.",
+"wildflourbakery.quest4d.deliver":"Deliver 3 pumpkin scones to the dropbox in Caroline's kitchen.",
+
+"wildflourbakery.quest5.name":"Master Pastry Chef Challenge",
+"wildflourbakery.quest5.text":"It's that time of year again - annual applications for the role of Master Pastry Chef are open! Send us your best baked goods to see if you can earn the grand prize!",
+"wildflourbakery.quest5.ship":"Ship 100 baked goods.",
+
+//BAKERY REPEATABLE NEW
+
+"wildflourbakery.quest6.name":"Cheesecake for Jodi",
+"wildflourbakery.quest6.text":"In need of cheesecake for a party I'm throwing at the end of the week",
+"wildflourbakery.quest6.deliver":"Deliver 4 cheesecake to Jodi.",
+"wildflourbakery.quest6.accept":"Perfect! This saves me so much time, and they look gorgeous. Thanks!",
+
+"wildflourbakery.quest7.name":"Pies for the Wizard",
+"wildflourbakery.quest7.text":"I am in need of pies, but not for me They are for the continued study of magic, and they happen to be a favorite amongst the junimo spirits...",
+"wildflourbakery.quest7.deliver":"Deliver 6 pies to the Wizard.",
+"wildflourbakery.quest7.accept":"Maybe now the junimos will let me rest. I just hope this is enough. Thank you.",
+
+"wildflourbakery.quest8.name":"Muffins for Penny",
+"wildflourbakery.quest8.text":"The kids have been so good in their studies; I'd like to surprise them with a special treat!",
+"wildflourbakery.quest8.deliver":"Deliver 12 muffins to Penny.",
+"wildflourbakery.quest8.accept":"These will be the perfect treat after class tomorrow! Thanks so much.",
+
+//BEVERAGES NEW
+
+"wildflourdrinks.quest1.name":"Breakfast Bulk Up.",
+"wildflourdrinks.quest1.text":"I'm busy trying to bulk up and improve my gridball game; I don't have time to make breakfast every day! Can someone help?",
+"wildflourdrinks.quest1.deliver":"Deliver 5 Green Kale Smoothies to Alex.",
+"wildflourdrinks.quest1.accept":"So these smoothies have protein AND fiber? Awesome! I'll totally build up some muscle thanks to these.",
+
+"wildflourdrinks.quest2.name":"A New Kind of Bubbly.",
+"wildflourdrinks.quest2.text":"Abigail was talking about bubble tea...what is it ? Is it good? I would love it if someone brought me some to try for myself.",
+"wildflourdrinks.quest2a.deliver":"Deliver 2 Oolong Bubble Teas to Caroline's kitchen.",
+"wildflourdrinks.quest2b.deliver":"Deliver 2 Brown Sugar Bubble Teas to Caroline's kitchen.",
+"wildflourdrinks.quest2c.deliver":"Deliver 2 Strawberry Bubble Teas to Caroline's kitchen.",
+
+"wildflourdrinks.quest3.name":"Lemonade Vs Iced Tea",
+"wildflourdrinks.quest3.text":"Nothing beats an ice cold lemonade on a hot day...or was it iced tea? Hmm now I can't seem to recall which one I like better. Someone bring me both so I can decide!",
+"wildflourdrinks.quest3a.deliver":"Deliver 2 Green Tea Lemonades to the drop box in George's kitchen.",
+"wildflourdrinks.quest3b.deliver":"Deliver 2 Classic Lemonades to the drop box in George's kitchen.",
+"wildflourdrinks.quest3c.deliver":"Deliver 2 Iced Teas to the drop box in George's kitchen.",
+"wildflourdrinks.quest3d.deliver":"Deliver 2 Peach Iced Teas to the drop box in George's kitchen.",
+
+"wildflourdrinks.quest4.name":"Freshly Squeezed",
+"wildflourdrinks.quest4.text":"I'm trying to cut back on soda but I still need something sweet to sip on. Anyone have any ideas?",
+"wildflourdrinks.quest4a.deliver":"Deliver 2 Grape Juices the dropbox in Sam's room.",
+"wildflourdrinks.quest4b.deliver":"Deliver 2 Apple Juices the dropbox in Sam's room.",
+"wildflourdrinks.quest4c.deliver":"Deliver 2 Berry Juices the dropbox in Sam's room.",
+"wildflourdrinks.quest4d.deliver":"Deliver 2 Orange Juices the dropbox in Sam's room.",
+
+"wildflourdrinks.quest5.name":"Sensational Sips Challenge",
+"wildflourdrinks.quest5.text":"It's that time of year again - annual applications for the Sensational Sips Challenge are officially open! Send us your best beverages to see if you can earn the grand prize!",
+"wildflourdrinks.quest5.ship":"Ship 100 gold quality beverages.",
+
+//BEVERAGES REPEATABLE NEW
+
+"wildflourdrinks.quest6.name":"Bubble Tea for Emily",
+"wildflourdrinks.quest6.text":"I ran out of bubble tea! HELP send some new ones my way please!",
+"wildflourdrinks.quest6.deliver":"Deliver 4 bubble teas to Emily.",
+"wildflourdrinks.quest6.accept":"What a relief! I don't feel like myself without a nice bubble tea. Thanks!",
+
+"wildflourdrinks.quest7.name":"Smoothies for Haley",
+"wildflourdrinks.quest7.text":"I was so busy last week I didn't meal prep my next set of smoothies! What will I do about my breakfasts now?",
+"wildflourdrinks.quest7.deliver":"Deliver 4 smoothies to Haley.",
+"wildflourdrinks.quest7.accept":"Thank goodness! My morning just wouldn't be the same without a smoothie. Thanks again.",
+
+"wildflourdrinks.quest8.name":"Juices for Shane",
+"wildflourdrinks.quest8.text":"I, might have forgotten that it was my turn to pick up juice for Jas and her friends. Again. Can someone help me please??",
+"wildflourdrinks.quest8.deliver":"Deliver 8 juices to Shane.",
+"wildflourdrinks.quest8.accept":"Oh thank Yoba. You really saved my behind; thanks.",
+
+//CANDY
+
+"wildflourcandy.quest1.name":"Chubby Bunny",
+"wildflourcandy.quest1.text":"I wanna play the Chubby Bunny game but regular marshmallows are boring! Can someone bring me some flavored ones instead?",
+"wildflourcandy.quest1a.deliver":"Deliver 3 strawberry marshmallows to Jas.",
+"wildflourcandy.quest1b.deliver":"Deliver 3 lavender marshmallows to Jas.",
+"wildflourcandy.quest1c.deliver":"Deliver 3 matcha marshmallows to Jas.",
+"wildflourcandy.quest1d.deliver":"Deliver 3 coconut marshmallows to Jas.",
+"wildflourcandy.quest1.accept":"Yay! So many pretty colors. Now me and my friends can all be chubby bunnies together!",
+
+"wildflourcandy.quest2.name":"Don't Forget to Floss!",
+"wildflourcandy.quest2.text":"Cotton candy is so cool! It's so light and soft but also delicious - I wish I could try EVERY flavor in the world!",
+"wildflourcandy.quest2a.deliver":"Deliver 1 Fairy Floss to the Drop Box in Vincent's home.",
+"wildflourcandy.quest2b.deliver":"Deliver 1 Lavender Fairy Floss to the Drop Box in Vincent's home.",
+"wildflourcandy.quest2c.deliver":"Deliver 1 Lemon Meringue Fairy Floss to the Drop Box in Vincent's home.",
+"wildflourcandy.quest2d.deliver":"Deliver 1 Orange Creamsicle Fairy Floss to the Drop Box in Vincent's home.",
+"wildflourcandy.quest2e.deliver":"Deliver 1 Peppermint Fairy Floss to the Drop Box in Vincent's home.",
+"wildflourcandy.quest2f.deliver":"Deliver 1 Strawberry Fairy Floss to the Drop Box in Vincent's home.",
+"wildflourcandy.quest2g.deliver":"Deliver 1 Vanilla Fairy Floss to the Drop Box in Vincent's home.",
+
+"wildflourcandy.quest3.name":"Taste of Nostalgia",
+"wildflourcandy.quest3.text":"My mom used to surprise me with these fancy lollipops when I was little. I would love to get them for both of us now, but I don't know where to find them!",
+"wildflourcandy.quest3a.deliver":"Deliver 1 Lemon Meringue Gourmet LollyPop to Penny's Kitchen.",
+"wildflourcandy.quest3b.deliver":"Deliver 1 Vanilla Peppermint Gourmet LollyPop to Penny's Kitchen.",
+"wildflourcandy.quest3c.deliver":"Deliver 1 Mixed Berry Gourmet LollyPop to Penny's Kitchen.",
+"wildflourcandy.quest3d.deliver":"Deliver 1 Blueberry Pie Gourmet LollyPop to Penny's Kitchen.",
+
+"wildflourcandy.quest4.name":"Tasty Rocks",
+"wildflourcandy.quest4.text":"I knew you could eat rocks! Now I can share my favorite treat with everyone but where will I find enough to share?",
+"wildflourcandy.quest4.deliver":"Deliver 5 crystal candies to the Drop Box in Abigail's room.",
+
+"wildflourcandy.quest5.name":"Master Confectioner Challenge",
+"wildflourcandy.quest5.text":"It's that time of year again - annual applications for the role of Master Confectioner are open! Send us your best candies to see if you can earn the grand prize!",
+"wildflourcandy.quest5.ship":"Ship 100 Gold Quality Candies.",
+
+//CANDY REPEATABLE NEW
+
+"wildflourcandy.quest6.name":"Fairy Floss for Emily",
+"wildflourcandy.quest6.text":"Fairy floss is just so magical, don't you think? I'd love it if someone delivered a few to me ",
+"wildflourcandy.quest6.deliver":"Deliver any 3 fairy floss to Emily.",
+"wildflourcandy.quest6.accept":"It's almost too pretty to eat! Thanks for these, friend.",
+
+"wildflourcandy.quest7.name":"Marshmallows for Robin",
+"wildflourcandy.quest7.text":"In need of marshmallows for my hot cocoa.",
+"wildflourcandy.quest7.deliver":"Deliver 5 marshmallows to Robin.",
+"wildflourcandy.quest7.accept":"After a hard day in the shop, I love a good cup of cocoa to unwind. These are perfect thanks for bringing them!",
+
+"wildflourcandy.quest8.name":"Candy for Lewis",
+"wildflourcandy.quest8.text":"I miss old fashioned hard candies. I can't seem to find them anywhere! Can someone help me ?",
+"wildflourcandy.quest8.deliver":"Deliver 12 hard candies to Lewis.",
+"wildflourcandy.quest8.accept":"I've been looking all over for these! It's so hard to find good candies these days. Thanks, friend.",
+
+//COFFEE
+
+"wildflourcoffee.quest1.name":"Coffee Break",
+"wildflourcoffee.quest1.text":"I'm running low on ground coffee! Can someone bring me some bags so I can stock up?",
+"wildflourcoffee.quest1a.deliver":"Deliver 2 Hazelnut Ground Coffees to Harvey.",
+"wildflourcoffee.quest1b.deliver":"Deliver 2 Cold Brew Blends to Harvey.",
+"wildflourcoffee.quest1c.deliver":"Deliver 2 Calico Vanilla Ground Coffees to Harvey.",
+"wildflourcoffee.quest1.accept":"Ah, just in time! Trust me, no one wants a sleepy doctor!",
+
+"wildflourcoffee.quest2.name":"Sorry I'm Latte...",
+"wildflourcoffee.quest2.text":"I'm always hitting snooze on my alarm and I end up late to everything! Can someone bring me some coffee so I can get moving faster and stop being late?",
+"wildflourcoffee.quest2.deliver":"Deliver 5 Sweetheart Lattes to Haley.",
+"wildflourcoffee.quest2.accept":"Maybe I can finally be on time to things now!",
+
+"wildflourcoffee.quest3.name":"Rise and Grind",
+"wildflourcoffee.quest3.text":"I've never been a morning person but I want to try. If I'm going to succeed I'm going to need a LOT of coffee though...",
+"wildflourcoffee.quest3a.deliver":"Deliver 3 Breakfast Blend Ground Coffees to the Drop Box in Sebastian's Room.",
+"wildflourcoffee.quest3b.deliver":"Deliver 3 Mocha Ground Coffees to the Drop Box in Sebastian's Room.",
+"wildflourcoffee.quest3c.deliver":"Deliver 3 Toasted Coconut Ground Coffees to the Drop Box in Sebastian's Room.",
+"wildflourcoffee.quest3d.deliver":"Deliver 3 Donut Shop Ground Coffees to the Drop Box in Sebastian's Room.",
+
+"wildflourcoffee.quest4.name":"PSL Season",
+"wildflourcoffee.quest4.text":"Everyone is asking me to serve Pumpkin Spice Lattes at the saloon during autumn! I don't know what this is, but can someone help me get in on this craze?",
+"wildflourcoffee.quest4.deliver":"Deliver 12 Pumpkin Spice Lattes to Gus's Fridge in the Saloon.",
+
+"wildflourcoffee.quest5.name":"Master Roaster Challenge",
+"wildflourcoffee.quest5.text":"It's that time of year again - annual applications for the role of Master Roaster are open! Send us your best coffees to see if you can earn the grand prize!",
+"wildflourcoffee.quest5.ship":"Ship 100 Gold Quality Coffee Products.",
+
+//COFFEE REPEATABLE NEW
+
+"wildflourcoffee.quest6.name":"Cold Brew for Sandy",
+"wildflourcoffee.quest6.text":"It's SO hot here. Can someone drop off some cold brew??",
+"wildflourcoffee.quest6.deliver":"Deliver 3 cold brews to Sandy.",
+"wildflourcoffee.quest6.accept":"So cold and refreshing, this cold brew is perfect! Thanks so much, sweetie.",
+
+"wildflourcoffee.quest7.name":"Lattes for Marnie",
+"wildflourcoffee.quest7.text":"The animals have kept me up at all hours of the night and I'm so tired. Can someone drop off some lattes?",
+"wildflourcoffee.quest7.deliver":"Deliver 4 lattes to Marnie.",
+"wildflourcoffee.quest7.accept":"I love my animals, but I do not love the lack of sleep. At least now I have these lovely lattes to perk me up! Thanks again.",
+
+"wildflourcoffee.quest8.name":"Coffee for Pierre",
+"wildflourcoffee.quest8.text":"Need helping restocking my coffee blends at the shop.",
+"wildflourcoffee.quest8.deliver":"Deliver 8 coffee blends to Pierre.",
+"wildflourcoffee.quest8.accept":"The shop will look even better thanks to these! Thanks, friend.",
+
+//FLORAL
+
+"wildflourfloral.quest1.name":"Spring Cleaning",
+"wildflourfloral.quest1.text":"I'm busy with spring cleaning and I want to refresh all the closets with some potpourri; can anyone bring me some sachets?",
+"wildflourfloral.quest1.deliver":"Deliver 6 potpourri sachets to Evelyn.",
+"wildflourfloral.quest1.accept":"These smell lovely. The whole house will be fresh and clean in no time now!",
+
+"wildflourfloral.quest2.name":"Stop and Smell the Roses",
+"wildflourfloral.quest2.text":"I really do love fresh flowers, even if they make me sneeze sometimes. A bouquet of fairy roses would sure look nice in my room...",
+"wildflourfloral.quest2.deliver":"Deliver 1 Fairy Rose Bouquet to Sam.",
+"wildflourfloral.quest2.accept":"Wow that bouquet is so colorful and it smells GREAT! Maybe I'll put it on the far side of my room so I sneeze less...",
+
+"wildflourfloral.quest3.name":"Scents-ational",
+"wildflourfloral.quest3.text":"I'm all out of my favorite perfume! WHAT WILL I DO WITHOUT IT??",
+"wildflourfloral.quest3a.deliver":"Deliver 2 Sunflower Eau de Toilette to Haley's house.",
+"wildflourfloral.quest3b.deliver":"Deliver 2 Forest Lavender Eau de Toilette to Haley's house.",
+"wildflourfloral.quest3c.deliver":"Deliver 2 Fairy Rose Eau de Toilette to Haley's house.",
+"wildflourfloral.quest3d.deliver":"Deliver 2 Tulip Eau de Toilette to Haley's house.",
+
+"wildflourfloral.quest4.name":"Soap Opera",
+"wildflourfloral.quest4.text":"I'm doing scientific experiments on the lye in soap and I need some samples to compare with my test subjects!",
+"wildflourfloral.quest4.deliver":"Deliver 10 soaps to the Drop Box in Maru's Lab.",
+
+"wildflourfloral.quest5.name":"Master Florist",
+"wildflourfloral.quest5.text":"It's that time of year again - annual applications for the role of Master Florist are open! Send us your highest quality floral wares to see if you can earn the grand prize!",
+"wildflourfloral.quest5.ship":"Ship 100 Gold Quality Floral Goods.",
+
+//FLORAL REPEATABLE NEW
+
+"wildflourfloral.quest6.name":"Bouquets for Shane",
+"wildflourfloral.quest6.text":"Jas and Marnie are so patient with me and I'd like to get them something nice...",
+"wildflourfloral.quest6.deliver":"Deliver 2 bouquets to Shane.",
+"wildflourfloral.quest6.accept":"These are so beautiful. They are perfect for Jas and Marnie. Thanks, friend.",
+
+"wildflourfloral.quest7.name":"Soap for Willy",
+"wildflourfloral.quest7.text":"Fishing is hard work and it's really dried out my skin! Would love some high quality soaps to help me feel back to normal.",
+"wildflourfloral.quest7.deliver":"Deliver 4 soaps to Willy.",
+"wildflourfloral.quest7.accept":"You may have heard of dish pan hands, but I may as well have FISH pan hands they are so dry. Thanks for the soaps; I'm sure they'll help quite bit.",
+
+"wildflourfloral.quest8.name":"Candles for Krobus",
+"wildflourfloral.quest8.text":"Humans seem interested not only in flowers, but also in their smells. I want to make the sewers smell like flowers, can you help?",
+"wildflourfloral.quest8.deliver":"Deliver 8 candles to Krobus.",
+"wildflourfloral.quest8.accept":"Fascinating, the candles smell fragrant and also add a soothing glow to the area. Humans are truly intriguing creatures. Thank you for bringing these to me.",
+
+//FROZEN
+
+"wildflourfrozen.quest1.name":"Milkshake Brings Dwarves to the Yard",
+"wildflourfrozen.quest1.text":"You're saying milk...can also be turned into other drinks? That sounds intriguing. I'd be willing to pay good gold to sample some of these strange concoctions.",
+"wildflourfrozen.quest1a.deliver":"Deliver 1 Vanilla Milkshake to the Dwarf.",
+"wildflourfrozen.quest1b.deliver":"Deliver 1 Strawberry Milkshake to the Dwarf.",
+"wildflourfrozen.quest1c.deliver":"Deliver 1 Chocolate Milkshake to the Dwarf.",
+"wildflourfrozen.quest1.accept":"So it's called a...milkshake? Fascinating. Cold and sweet...you humans are truly an intriguing people.",
+
+"wildflourfrozen.quest2.name":"Pensive about Popsicles",
+"wildflourfrozen.quest2.text":"I've seen the little ones in town holding sticks with colorful ice cubes attached...I would very much like to try them!",
+"wildflourfrozen.quest2.deliver":"Deliver 6 popsicles to Krobus.",
+"wildflourfrozen.quest2.accept":"Thank you! I am most eager to try these.",
+
+"wildflourfrozen.quest3.name":"Ice Cream Party",
+"wildflourfrozen.quest3.text":"I'm throwing a fancy ice cream party and I need help picking out which flavors I should include on the menu!",
+"wildflourfrozen.quest3a.deliver":"Deliver 3 lemon sherbets to the drop box in Jodi's kitchen.",
+"wildflourfrozen.quest3b.deliver":"Deliver 3 mint chocolate froyos to the drop box in Jodi's kitchen.",
+"wildflourfrozen.quest3c.deliver":"Deliver 3 lemon lavender ice creams to the drop box in Jodi's kitchen.",
+"wildflourfrozen.quest3d.deliver":"Deliver 3 horchata ice creams to the drop box in Jodi's kitchen.",
+
+"wildflourfrozen.quest4.name":"Sweet Sandwiches",
+"wildflourfrozen.quest4.text":"I've been feeling nostalgic for my favorite childhood treat: the ice cream sandwich. Maru says they come in tons of different flavors now. Can someone bring me a few to try?",
+"wildflourfrozen.quest4a.deliver":"Deliver 2 mocha ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"wildflourfrozen.quest4b.deliver":"Deliver 2 pistachio ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"wildflourfrozen.quest4c.deliver":"Deliver 2 strawberry ice cream sandwiches to the dropbox in Demetrius's Lab.",
+"wildflourfrozen.quest4d.deliver":"Deliver 2 mocha coconut ice cream sandwiches to the dropbox in Demetrius's Lab.",
+
+"wildflourfrozen.quest5.name":"Frozen Feast Challenge",
+"wildflourfrozen.quest5.text":"It's that time of year again - annual applications for the Frozen Feast Challenge are officially open! Send us your frozen treats to see if you can earn the grand prize!",
+"wildflourfrozen.quest5.ship":"Ship 100 gold quality frozen treats.",
+
+//FROZEN REPEATABLE NEW
+
+"wildflourfrozen.quest6.name":"Milkshakes for Kent",
+"wildflourfrozen.quest6.text":"I'd like to surprise the family with a special treat. Maybe milkshakes would do the trick?",
+"wildflourfrozen.quest6.deliver":"Deliver 4 milkshakes to Kent.",
+"wildflourfrozen.quest6.accept":"The family is going to love these! Thanks a bunch, friend.",
+
+"wildflourfrozen.quest7.name":"Popsicles for Elliott",
+"wildflourfrozen.quest7.text":"I am in need of popsicles for literary inspiration! Why you ask? I cannot possibly explain but I simply MUST have some popsicles!",
+"wildflourfrozen.quest7.deliver":"Deliver 4 popsicles to Elliott.",
+"wildflourfrozen.quest7.accept":"Popsicle perfection! Thank you, now I must ponder the popsicles in silence.",
+
+"wildflourfrozen.quest8.name":"Ice Cream for Gus",
+"wildflourfrozen.quest8.text":"I want to start serving frozen desserts at the saloon. Can anyone help me set up my menu?",
+"wildflourfrozen.quest8.deliver":"Deliver 12 ice creams to Gus.",
+"wildflourfrozen.quest8.accept":"These are going to go over well with everybody at the saloon! Thanks so much!",
+
+//JAMS
+
+"wildflourjams.quest1.name":"Springtime Treat for Evelyn",
+"wildflourjams.quest1.text":"Evelyn does so much for me; I want to give her something to show her how much I appreciate her. Tulips are her favorite, so maybe some tulip jelly for her scones would do the trick?",
+"wildflourjams.quest1.deliver":"Deliver 5 Tulip Jelly to George.",
+"wildflourjams.quest1.accept":"She's going to love this - I owe you one.",
+
+"wildflourjams.quest2.name":"Pretty in Pink",
+"wildflourjams.quest2.text":"Jas is in a phase where she wants everything to be pink, even her food! Can someone help??",
+"wildflourjams.quest2.deliver":"Deliver 5 Strawberry Rose Jelly to Marnie.",
+"wildflourjams.quest2.accept":"Oh thank goodness! Maybe with this I can get her to eat breakfast by putting it on a bagel...!                                ",
+
+"wildflourjams.quest3.name":"The Perfect Pancake Topper",
+"wildflourjams.quest3.text":"Pancakes are a Sunday treat in our house, and I want something to top them with instead of plain old maple syrup. Anyone have any ideas?",
+"wildflourjams.quest3a.deliver":"Deliver 3 Cherry Vanilla Jams to the Drop Box in Jodi's kitchen.",
+"wildflourjams.quest3b.deliver":"Deliver 3 Honey Peach Preserves to the Drop Box in Jodi's kitchen.",
+"wildflourjams.quest3c.deliver":"Deliver 3 Strawberry Rhubarb Jellies to the Drop Box in Jodi's kitchen.",
+
+"wildflourjams.quest4.name":"Gotta Have My Vitamin C",
+"wildflourjams.quest4.text":"Vitamins are important to a healthy diet! I'm sure the vitamin c in some marmalade would work the same way. right? Right.",
+"wildflourjams.quest4a.deliver":"Deliver 2 Triple Citrus Marmalades to the Drop Box in Lewis's kitchen.",
+"wildflourjams.quest4b.deliver":"Deliver 2 Sweet Lime Marmalades to the Drop Box in Lewis's kitchen.",
+"wildflourjams.quest4c.deliver":"Deliver 2 Summery Orange Marmalades to the Drop Box in Lewis's kitchen.",
+"wildflourjams.quest4d.deliver":"Deliver 2 Spring Lemon Marmalades to the Drop Box in Lewis's kitchen.",
+
+"wildflourjams.quest5.name":"Master Canner Challenge",
+"wildflourjams.quest5.text":"It's that time of year again - annual applications for the role of Master Canner are open! Send us your best  jams and jellies to see if you can earn the grand prize!",
+"wildflourjams.quest5.ship":"Ship 100 specialty jams.",
+
+//JAMS REPEATABLE NEW
+
+"wildflourjams.quest6.name":"Jams for Linus",
+"wildflourjams.quest6.text":"I would love to have some preserved fruit to enjoy nature's bounty once winter arrives...",
+"wildflourjams.quest6.deliver":"Deliver 3 jams to Linus.",
+"wildflourjams.quest6.accept":"How lovely. Now I'll be able to enjoy nature's gifts even in the depths of winter. Thank you, friend.",
+
+"wildflourjams.quest7.name":"Jams for Penny",
+"wildflourjams.quest7.text":"Mom and I love a good jam to have with our breakfast. Can someone deliver a few interesting flavors to us?",
+"wildflourjams.quest7.deliver":"Deliver 5 jams to Penny.",
+"wildflourjams.quest7.accept":"These will go perfect with our Sunday pancakes! Thanks a bunch!",
+
+"wildflourjams.quest8.name":"Jams for Clint",
+"wildflourjams.quest8.text":"I'd like to stock up my pantry with more gourmet ingredients. I like jelly, maybe that's a good place to start?",
+"wildflourjams.quest8.deliver":"Deliver 10 jams to Clint.",
+"wildflourjams.quest8.accept":"What am I going to do with all this jam? I don't know yet, but it sure looks nice in my kitchen. Thanks.",
+
+//MEADS
+
+"wildflourmeads.quest1.name":"In Need of Mead",
+"wildflourmeads.quest1.text":"I want to try something different than my usual beer at the saloon. Heard mead is pretty good...can someone bring me some to try?",
+"wildflourmeads.quest1.deliver":"Deliver 3 Apricot Meads to Shane.",
+"wildflourmeads.quest1.accept":"Made from fermenting honey, huh? Wild. Well, it certainly looks nicer than my boring old pint of beer.",
+
+"wildflourmeads.quest2.name":"Mead to Warm the Bones",
+"wildflourmeads.quest2.text":"I would love some mead to enjoy while quietly fishing in the cool autumn afternoon. ",
+"wildflourmeads.quest2.deliver":"Deliver 3 Pomegranate Meads to Willy.",
+"wildflourmeads.quest2.accept":"I do love me some mead; bonus points for one with a bit of fresh fruit flavor like this one!",
+
+"wildflourmeads.quest3.name":"Summertime Soiree",
+"wildflourmeads.quest3.text":"I've convinced Gus we should have summer specials at the Saloon! Some locally-sourced mead would be perfect for our new seasonal menu.",
+"wildflourmeads.quest3a.deliver":"Deliver 3 Summer Melon Meads to Gus's Fridge in the Saloon.",
+"wildflourmeads.quest3b.deliver":"Deliver 3 Starfruit Skies Meads to Gus's Fridge in the Saloon.",
+"wildflourmeads.quest3c.deliver":"Deliver 3 Blueberry Cobbler Meads to Gus's Fridge in the Saloon.",
+"wildflourmeads.quest3d.deliver":"Deliver 3 Tropical Coconut Meads to Gus's Fridge in the Saloon.",
+
+"wildflourmeads.quest4.name":"Spice Girls",
+"wildflourmeads.quest4.text":"In need of mead for a girls' night in with my friends!",
+"wildflourmeads.quest4a.deliver":"Deliver 3 Spiced Meads to the Drop Box in Leah's House.",
+"wildflourmeads.quest4b.deliver":"Deliver 3 Tart Cranberry Meads to the Drop Box in Leah's House.",
+"wildflourmeads.quest4c.deliver":"Deliver 3 Blackberry Bushel Meads to the Drop Box in Leah's House.",
+"wildflourmeads.quest4d.deliver":"Deliver 3 Crisp Apple Meads to the Drop Box in Leah's House.",
+
+"wildflourmeads.quest5.name":"Master Mead Brewer Challenge",
+"wildflourmeads.quest5.text":"It's that time of year again - annual applications for the role of Master Mead Brewer are open! Send us your best meads to see if you can earn the grand prize!",
+"wildflourmeads.quest5.ship":"Ship 100 Gold Quality Meads.",
+
+//MEADS REPEATABLE NEW
+
+"wildflourmeads.quest6.name":"Mead for Pam",
+"wildflourmeads.quest6.text":"Looking for some mead to enjoy instead of my usual pale ale.",
+"wildflourmeads.quest6.deliver":"Deliver 2 meads to Pam.",
+"wildflourmeads.quest6.accept":"Nothing like adding a little variety to spice things up, right? Thanks a lot, friend.",
+
+"wildflourmeads.quest7.name":"Mead for Robin",
+"wildflourmeads.quest7.text":"Would like some mead to enjoy with the family over a nice dinner.",
+"wildflourmeads.quest7.deliver":"Deliver 4 meads to Robin.",
+"wildflourmeads.quest7.accept":"Sometimes you just want to make family dinner a little more special, and this should do the trick. Thanks a lot!",
+
+"wildflourmeads.quest8.name":"Mead for Gus",
+"wildflourmeads.quest8.text":"The meads are a great success! But I don't have a supplier yet...can anyone help?",
+"wildflourmeads.quest8.deliver":"Deliver 8 meads to Gus.",
+"wildflourmeads.quest8.accept":"Maybe you should just be my supplier, eh? Thanks again!",
+
+//PANTRY
+
+"wildflourpantry.quest1.name":"In a Jam",
+"wildflourpantry.quest1.text":"Caroline has started baking all the time and I want to get her something to go with her treats.",
+"wildflourpantry.quest1a.deliver":"Deliver Gourmet Lemon Curd to Pierre.",
+"wildflourpantry.quest1b.deliver":"Deliver Farmstead Pumpkin Butter to Pierre.",
+"wildflourpantry.quest1c.deliver":"Deliver Farmstead Honey Butter to Pierre.",
+"wildflourpantry.quest1d.deliver":"Deliver Gourmet Lime Curd to Pierre.",
+"wildflourpantry.quest1.accept":"These will complement her cakes and biscuits perfectly! I can't wait to surprise her with them.",
+
+"wildflourpantry.quest2.name":"Got Milk?",
+"wildflourpantry.quest2.text":"Many patients I see are lactose intolerant but I don't know much about alternative milks. Can someone bring me a few different kinds so I can taste test them myself?",
+"wildflourpantry.quest2a.deliver":"Deliver 2 Almondmilk to the Drop Box in Harvey's Clinic.",
+"wildflourpantry.quest2b.deliver":"Deliver 2 Ricemilk to the Drop Box in Harvey's Clinic.",
+"wildflourpantry.quest2c.deliver":"Deliver 2 Coconutmilk to the Drop Box in Harvey's Clinic.",
+"wildflourpantry.quest2d.deliver":"Deliver 2 Hazelnutmilk to the Drop Box in Harvey's Clinic.",
+
+"wildflourpantry.quest3.name":"New Proteins Needed!",
+"wildflourpantry.quest3.text":"I've heard nuts are a good source of protein, especially in smoothies! I want to try out a few different kinds in my morning protein shakes.",
+"wildflourpantry.quest3.deliver": "Deliver 10 artisanal nut butters to the Drop Box in Alex's home.",
+
+"wildflourpantry.quest4.name":"Baking Up a Storm",
+"wildflourpantry.quest4.text":"Evelyn is baking so much we are constantly running out of flour! Maybe she would enjoy baking with new kinds of flours?",
+"wildflourpantry.quest4.deliver":"Deliver 10 specialty flours to the Drop Box in George's home.",
+
+"wildflourpantry.quest5.name":"Master Artisan Challenge",
+"wildflourpantry.quest5.text":"It's that time of year again - annual applications for the role of Master Artisan are open! Send us your most high quality ingredients to see if you can earn the grand prize!",
+"wildflourpantry.quest5.ship":"Ship 100 Gold Quality Pantry Goods.",
+
+//PANTRY REPEATABLE NEW
+
+"wildflourpantry.quest6.name":"Extract for Evelyn",
+"wildflourpantry.quest6.text":"I'm all out of vanilla extract! I can't bake without it ...",
+"wildflourpantry.quest6.deliver":"Deliver 3 vanilla extracts to Evelyn.",
+"wildflourpantry.quest6.accept":"Could you imagine making cookies without vanilla? Absolutely out of the question. Thanks for bringing these over, sweetie.",
+
+"wildflourpantry.quest7.name":"Olive oil for Abigail",
+"wildflourpantry.quest7.text":"I want to try out some new cooking recipes, but I need olive oil to do so. Can someone help?",
+"wildflourpantry.quest7.deliver":"Deliver 5 specialty olive oils to Abigail.",
+"wildflourpantry.quest7.accept":"Thanks! I read that I need a lot of olive oil to make focaccia, so this saves me so much time and effort.",
+
+"wildflourpantry.quest8.name":"Chocolate for Gus",
+"wildflourpantry.quest8.text":"My chocolate supplier cancelled on me last minute! Can someone deliver me what I need ?",
+"wildflourpantry.quest8.deliver":"Deliver 9 baking chocolate to Gus.",
+"wildflourpantry.quest8.accept":"The saloon menu just wouldn't be the same without Gus's Special Chocolate Cake! You really came through for me; thank you.",
+
+//TEA
+
+"wildflourtea.quest1.name":"Sachet Stock Up",
+"wildflourtea.quest1.text":"I'm all out of my homemade tea blend! Can someone drop off some sachets to get me through the week?",
+"wildflourtea.quest1a.deliver":"Deliver 2 Cinnamon Spice Tea Sachets to Caroline.",
+"wildflourtea.quest1b.deliver":"Deliver 2 Merry Mint Tea Sachets to Caroline.",
+"wildflourtea.quest1c.deliver":"Deliver 2 Lady Grey Tea Sachets to Caroline.",
+"wildflourtea.quest1.accept":"What a lovely variety of flavors you brought! This will certainly spice up tea time for me.",
+
+"wildflourtea.quest2.name":"Tea Party",
+"wildflourtea.quest2.text":"I'm having some of the ladies over for tea and scones, but I want to have a variety of flavors to choose from! Can anyone help me?",
+"wildflourtea.quest2a.deliver":"Deliver 2 Sakura Teas to the Drop Box in Evelyn's kitchen.",
+"wildflourtea.quest2b.deliver":"Deliver 2 Rose Petal Teas to the Drop Box in Evelyn's kitchen.",
+"wildflourtea.quest2c.deliver":"Deliver 2 English Breakfast Teas to the Drop Box in Evelyn's kitchen.",
+
+"wildflourtea.quest3.name":"Bring on the Booch",
+"wildflourtea.quest3.text":"I heard Abigail and Sebby talking about how good kombucha is for you...can someone bring me some so I can see for myself?",
+"wildflourtea.quest3a.deliver":"Deliver 2 Autumn Apple Kombuchas to the Drop Box in Robin's workshop.",
+"wildflourtea.quest3b.deliver":"Deliver 2 Raspberry Lemon Kombuchas to the Drop Box in Robin's workshop.",
+"wildflourtea.quest3c.deliver":"Deliver 2 Wild Strawberry Kombuchas to the Drop Box in Robin's workshop.",
+"wildflourtea.quest3d.deliver":"Deliver 2 Pomegranate Green Kombuchas to the Drop Box in Robin's workshop.",
+
+"wildflourtea.quest4.name":"Sleepytime Tea",
+"wildflourtea.quest4.text":"I'm exhausted and would love to get a good night's sleep. Can anyone bring me some soothing herbal teas to help?",
+"wildflourtea.quest4a.deliver":"Deliver 3 Cozy Chamomile Tea Sachets to the Drop Box in Jodi's kitchen.",
+"wildflourtea.quest4b.deliver":"Deliver 3 Merry Mint Tea Sachets to the Drop Box in Jodi's kitchen.",
+"wildflourtea.quest4c.deliver":"Deliver 3 Calico Vanilla Tea Sachets to the Drop Box in Jodi's kitchen.",
+"wildflourtea.quest4d.deliver":"Deliver 3 Lemon Ginger Tea Sachets to the Drop Box in Jodi's kitchen.",
+
+"wildflourtea.quest5.name":"Master Tea Brewer Challenge",
+"wildflourtea.quest5.text":"It's that time of year again - annual applications for the role of Master Tea Brewer are open! Send us your best teas to see if you can earn the grand prize!",
+"wildflourtea.quest5.ship":"Ship 100 Gold Quality Tea Products.",
+
+//TEA REPEATABLE NEW
+
+"wildflourtea.quest6.name":"Kombucha for Alex",
+"wildflourtea.quest6.text":"Pierre won't carry kombucha no matter how much I ask him. How will I get it now?",
+"wildflourtea.quest6.deliver":"Deliver 4 kombucha to Alex.",
+"wildflourtea.quest6.accept":"YOU BROUGHT THE BOOCH! You rock thanks for dropping these off.",
+
+"wildflourtea.quest7.name":"Tea for Haley",
+"wildflourtea.quest7.text":"It's so tiring to order my tea online; how do I know its high quality if I can't even see it? Maybe someone in town would be able to sell me teas instead...",
+"wildflourtea.quest7.deliver":"Deliver 6 teas to Haley.",
+"wildflourtea.quest7.accept":"These teas look absolutely lovely. I'm going to enjoy these - thanks again!",
+
+"wildflourtea.quest8.name":"Sachets for Sandy",
+"wildflourtea.quest8.text":"I want to make a big pitcher of iced tea to keep cool out here in the desert. Can someone deliver me some sachets?",
+"wildflourtea.quest8.deliver":"Deliver 8 sachets to Sandy.",
+"wildflourtea.quest8.accept":"Now I won't feel like I'm melting away in the desert heat! Thanks, friend.",
+
+//WILD FOOD
+
+"wildflourwildfood.quest1.name":"Calico Dreams",
+"wildflourwildfood.quest1.text":"I've heard of an orchid that only blooms in Calico Desert during certain seasons. Can anyone bring me a few so I can dry them and keep them in my tent?",
+"wildflourwildfood.quest1.deliver":"Deliver 3 calico vanilla to Linus.",
+"wildflourwildfood.quest1.accept":"Oh how I do adore the Calico Desert. After drying these orchids, I'll always be able to enjoy a little bit of the desert right here at home.",
+
+"wildflourwildfood.quest2.name":"A Bushel and A Peck",
+"wildflourwildfood.quest2.text":"I'm all out of berries and I desperately want to make a chocolate berry tart. Can anyone help me out?",
+"wildflourwildfood.quest2a.deliver":"Deliver 4 wild strawberries to the Drop Box in Leah's home.",
+"wildflourwildfood.quest2b.deliver":"Deliver 4 wild raspberries to the Drop Box in Leah's home.",
+
+"wildflourwildfood.quest3.name":"Tastes Like Chicken",
+"wildflourwildfood.quest3.text":"Scientist in need of various mushrooms to figure out the best meat-replacement options in the Valley.",
+"wildflourwildfood.quest3.deliver":"Deliver 15 mushrooms to the Drop Box in Demetrius's Lab.",
+
+"wildflourwildfood.quest4.name":"Desert Blooms",
+"wildflourwildfood.quest4.text":"The desert is pretty in its own way, but I miss some of those forest wildflowers that only bloom in the Valley! Can someone bring me some?",
+"wildflourwildfood.quest4a.deliver":"Deliver 5 Forest Lavender to the Drop Box in Sandy's Shop.",
+"wildflourwildfood.quest4b.deliver":"Deliver 5 Forest Chamomile to the Drop Box in Sandy's Shop.",
+
+"wildflourwildfood.quest5.name":"Master Forager Challenge",
+"wildflourwildfood.quest5.text":"It's that time of year again - annual applications for the role of Master Forager are open! Send us your best forage to see if you can earn the grand prize!",
+"wildflourwildfood.quest5.ship":"Ship 100 Gold Quality Forage items.",
+
+//WILD FOOD REPEATABLE NEW
+
+"wildflourwildfood.quest6.name":"Mushrooms for Maru",
+"wildflourwildfood.quest6.text":"I need fresh mushrooms for an experiment but I'm so busy at the Clinic. Any chance someone has extra they can share?",
+"wildflourwildfood.quest6.deliver":"Deliver 5 wild mushrooms to Maru.",
+"wildflourwildfood.quest6.accept":"These look perfect! Thank you so much you saved me so much work looking for these.",
+
+"wildflourwildfood.quest7.name":"Fruit for Gus",
+"wildflourwildfood.quest7.text":"My shipment of fresh fruits never arrived and I need to make cocktails for the saloon! What will I do now?",
+"wildflourwildfood.quest7.deliver":"Deliver 6 wild fruit to Gus.",
+"wildflourwildfood.quest7.accept":"My cocktails will be out of this world with these lovely fruits! Thanks again.",
+
+"wildflourwildfood.quest8.name":"Herbs for Evelyn",
+"wildflourwildfood.quest8.text":"I'm all out of herbs and I need them for my cooking! Can someone help?",
+"wildflourwildfood.quest8.deliver":"Deliver 8 wild herbs to Evelyn.",
+"wildflourwildfood.quest8.accept":"Cooking with herbs is essential! Thank you for dropping these off."
+
+}

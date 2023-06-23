@@ -1,0 +1,12 @@
+{
+    "Name": "Atelier Wildflour Mega Bundle AT Pack",
+    "Author": "wildflourmods",
+    "Version": "1.0",
+    "MinimumApiVersion": "1.0.0",
+    "Description": "AT versions of the machines in the wildflour mega pack",
+    "UniqueID": "wildflour.megapackAT",
+    "UpdateKeys":[],
+	"ContentPackFor": {
+        "UniqueID": "PeacefulEnd.AlternativeTextures"
+    }
+}

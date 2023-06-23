@@ -1,0 +1,446 @@
+{
+  "Changes": [
+
+// Wild Food Order 1
+    {
+    "LogName": "Wild Food Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Wild Food SO 1": {
+        "Name": "{{i18n:wildflourwildfood.quest1.name}}",
+        "Requester": "Linus",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourwildfood.quest1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourwildfood.quest1.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wf_vanilla",
+                "Message": "{{i18n:wildflourwildfood.quest1.accept}}",
+                "TargetName": "Linus"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "900"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Linus"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+// Wild Food Order 2
+    {
+      "LogName": "Wild Food Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Wild Food SO 2": {
+          "Name": "{{i18n:wildflourwildfood.quest2.name}}",
+          "Requester": "",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourwildfood.quest2.text}}",
+          "Objectives": [ 
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourwildfood.quest2a.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "10 4",
+                  "AcceptedContextTags": "item_wf_strawberry"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourwildfood.quest2b.deliver}}",
+                "RequiredCount": "4",
+                "Data": {
+                  "DropBox": "LeahRoom",
+                  "DropBoxGameLocation": "LeahHouse",
+                  "DropBoxIndicatorLocation": "10 4",
+                  "AcceptedContextTags": "item_wf_raspberry"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "1360"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Leah"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_wildfoodOrder2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+// Wild Food Order 3
+    {
+      "LogName": "Wild Food Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Wild Food SO 3": {
+          "Name": "{{i18n:wildflourwildfood.quest3.name}}",
+          "Requester": "Demetrius",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourwildfood.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourwildfood.quest3.deliver}}",
+                "RequiredCount": "15",
+                "Data": {
+                  "DropBox": "DemetriusLab",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "20 17",
+                  "AcceptedContextTags": "item_wf_meringueshroom/item_wf_honeyfungus/item_wf_milkshroom/item_wf_wheatshroom/item_wf_chickeofthewoods"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5250"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Demetrius"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_wildfoodOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Wild Food Order 4
+{
+  "LogName": "Wild Food Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Wild Food SO 4": {
+        "Name": "{{i18n:wildflourwildfood.quest4.name}}",
+        "Requester": "Sandy",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourwildfood.quest4.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourwildfood.quest4a.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "SandyRoom",
+                "DropBoxGameLocation": "SandyHouse",
+                "DropBoxIndicatorLocation": "6 7",
+                "AcceptedContextTags": "item_wf_lavender"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourwildfood.quest4b.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "SandyRoom",
+                "DropBoxGameLocation": "SandyHouse",
+                "DropBoxIndicatorLocation": "6 7",
+                "AcceptedContextTags": "item_wf_chamomile"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "1600"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Sandy"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_wildfoodOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//Wild Food ORDER 5
+
+{
+  "LogName": "Wild Food Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Wild Food SO 5": {
+        "Name": "{{i18n:wildflourwildfood.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_wildfoodOrder2_complete, mail_wildflour_wildfoodOrder3_complete, mail_wildflour_wildfoodOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourwildfood.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourwildfood.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_forage, quality_gold"
+              }
+            }
+
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_wildfoodOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+
+//REPEATABLES 6 7 8 
+
+{
+  "LogName": "Wild Food Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Wild Food SO 6": {
+      "Name": "{{i18n:wildflourwildfood.quest6.name}}",
+      "Requester": "Maru",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourwildfood.quest6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourwildfood.quest6.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "mushroom_item",
+              "Message": "{{i18n:wildflourwildfood.quest6.accept}}",
+              "TargetName": "Maru"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "1250"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Wild Food Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Wild Food SO 7": {
+      "Name": "{{i18n:wildflourwildfood.quest7.name}}",
+      "Requester": "Gus",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourwildfood.quest7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourwildfood.quest7.deliver}}",
+            "RequiredCount": "6",
+            "Data": {
+              "AcceptedContextTags": "wildflour_forage, fruit_item",
+              "Message": "{{i18n:wildflourwildfood.quest7.accept}}",
+              "TargetName": "Gus"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "1250"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Wild Food Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Wild Food SO 8": {
+      "Name": "{{i18n:wildflourwildfood.quest8.name}}",
+      "Requester": "Evelyn",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_DemetriusReward, mail_linusTrashCleanup",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourwildfood.quest8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourwildfood.quest8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "wildflour_forage, herb_item",
+              "Message": "{{i18n:wildflourwildfood.quest8.accept}}",
+              "TargetName": "Evelyn"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "2000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+
+  ]
+}
+

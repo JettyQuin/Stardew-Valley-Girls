@@ -1,0 +1,24 @@
+{
+    "Name": "wf pumpkin milkshake",
+    "Description": "...",
+    "TranslationKey": "pumpkin-milkshake",
+    "Category": "ArtisanGoods",
+    "Edibility": 125,
+    "EdibleIsDrink": true,
+    "Price": 350,
+    "EdibleBuffs": {
+        "Foraging": 1,
+        "Duration": 360
+    },
+    "GiftTastes": {
+        "Love": ["George"," Gus", "Lewis"],
+        "Like": ["Shane", "Pam", "Pierre"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,
+    "ContextTags": [
+        "wildflour_frozen",
+        "milkshake_item",
+        "color_copper"
+    ]
+}

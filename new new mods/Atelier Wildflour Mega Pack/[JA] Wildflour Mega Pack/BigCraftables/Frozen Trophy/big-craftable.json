@@ -1,0 +1,10 @@
+{
+  "Name": "wf frozen trophy",
+  "Description": "...",
+  "TranslationKey":"frozen-trophy",
+  "Price": 10000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  "Recipe":null
+     
+}

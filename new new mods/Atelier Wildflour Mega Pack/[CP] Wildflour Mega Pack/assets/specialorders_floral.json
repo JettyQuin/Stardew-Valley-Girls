@@ -1,0 +1,453 @@
+{
+  "Changes": [
+
+// Floral Order 1
+    {
+    "LogName": "Floral Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Floral SO 1": {
+        "Name": "{{i18n:wildflourfloral.quest1.name}}",
+        "Requester": "Evelyn",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourfloral.quest1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourfloral.quest1.deliver}}",
+              "RequiredCount": "6",
+              "Data": {
+                "AcceptedContextTags": "flower_potpourri_item",
+                "Message": "{{i18n:wildflourfloral.quest1.accept}}",
+                "TargetName": "Evelyn"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "17000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Evelyn"
+                }
+              }
+          ]
+          
+      }
+    }
+  },
+
+// Floral Order 2
+    {
+      "LogName": "Floral Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Floral SO 2": {
+          "Name": "{{i18n:wildflourfloral.quest2.name}}",
+          "Requester": "Sam",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "season_fall, mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourfloral.quest2.text}}",
+          "Objectives": [
+
+              {
+                "Type": "Deliver",
+                "Text": "{{i18n:wildflourfloral.quest2.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "AcceptedContextTags": "item_wf_rose_bouquet",
+                  "Message": "{{i18n:wildflourfloral.quest2.accept}}",
+                  "TargetName": "Sam"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "5100"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Sam"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_floralOrder2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+// Floral Order 3
+    {
+      "LogName": "Floral Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Floral SO 3": {
+          "Name": "{{i18n:wildflourfloral.quest3.name}}",
+          "Requester": "Haley",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_georgeGifts,mail_emilyStones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourfloral.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourfloral.quest3a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wf_sunflower_perfume"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourfloral.quest3b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wf_lavender_perfume"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourfloral.quest3c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wf_rose_perfume"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourfloral.quest3d.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "HaleyRoom",
+                  "DropBoxGameLocation": "HaleyHouse",
+                  "DropBoxIndicatorLocation": "7 15",
+                  "AcceptedContextTags": "item_wf_tulip_perfume"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "20320"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Haley"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_floralOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Floral Order 4
+{
+  "LogName": "Floral Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Floral SO 4": {
+        "Name": "{{i18n:wildflourfloral.quest4.name}}",
+        "Requester": "Maru",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_georgeGifts,mail_emilyStones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourfloral.quest4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourfloral.quest4.deliver}}",
+              "RequiredCount": "10",
+              "Data": {
+                "DropBox": "MaruLab",
+                "DropBoxGameLocation": "ScienceHouse",
+                "DropBoxIndicatorLocation": "16 17",
+                "AcceptedContextTags": "flower_soap_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Maru"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_floralOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//Floral ORDER 5
+
+{
+  "LogName": "Floral Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Floral SO 5": {
+        "Name": "{{i18n:wildflourfloral.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_floralOrder2_complete, mail_wildflour_floralOrder3_complete, mail_wildflour_floralOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourfloral.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourfloral.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_floral, quality_gold"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_floralOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//REPEATABLES 6 7 8 
+
+{
+  "LogName": "Floral Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Floral SO 6": {
+      "Name": "{{i18n:wildflourfloral.quest6.name}}",
+      "Requester": "Shane",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourfloral.quest6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourfloral.quest6.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "flower_bouquet_item",
+              "Message": "{{i18n:wildflourfloral.quest6.accept}}",
+              "TargetName": "Shane"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Floral Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Floral SO 7": {
+      "Name": "{{i18n:wildflourfloral.quest7.name}}",
+      "Requester": "Willy",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourfloral.quest7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourfloral.quest7.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "flower_soap_item",
+              "Message": "{{i18n:wildflourfloral.quest7.accept}}",
+              "TargetName": "Willy"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "6500"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Floral Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Floral SO 8": {
+      "Name": "{{i18n:wildflourfloral.quest8.name}}",
+      "Requester": "Krobus",
+      "Duration": "TwoWeeks",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_CarolineTea, mail_georgeGifts, mail_emilyStones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourfloral.quest8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourfloral.quest8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "flower_candle_item",
+              "Message": "{{i18n:wildflourfloral.quest8.accept}}",
+              "TargetName": "Krobus"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

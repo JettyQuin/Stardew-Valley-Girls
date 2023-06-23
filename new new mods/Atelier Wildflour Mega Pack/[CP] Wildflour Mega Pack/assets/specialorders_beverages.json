@@ -1,0 +1,511 @@
+{
+  "Changes": [
+
+// Drinks Order 1
+    {
+    "LogName": "Drinks Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Drinks SO 1": {
+        "Name": "{{i18n:wildflourdrinks.quest1.name}}",
+        "Requester": "Alex",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourdrinks.quest1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourdrinks.quest1.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "AcceptedContextTags": "item_wf_berrykale_smoothie",
+                "Message": "{{i18n:wildflourdrinks.quest1.accept}}",
+                "TargetName": "Alex"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "5000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Alex"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+// Drinks Order 2
+    {
+      "LogName": "Drinks Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Drinks SO 2": {
+          "Name": "{{i18n:wildflourdrinks.quest2.name}}",
+          "Requester": "Caroline",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourdrinks.quest2.text}}",
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest2a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "CarolineDrinks",
+                "DropBoxGameLocation": "SeedShop",
+                "DropBoxIndicatorLocation": "34 4",
+                "AcceptedContextTags": "item_wf_oolong_boba"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest2b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "CarolineDrinks",
+                "DropBoxGameLocation": "SeedShop",
+                "DropBoxIndicatorLocation": "34 4",
+                "AcceptedContextTags": "item_wf_brownsugar_boba"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest2c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "CarolineDrinks",
+                "DropBoxGameLocation": "SeedShop",
+                "DropBoxIndicatorLocation": "34 4",
+                "AcceptedContextTags": "item_wf_strawberry_boba"
+              }
+            }
+          ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Caroline"
+                  }
+                },
+
+                {
+                  "Type": "Mail",
+                  "Data": {
+                        "MailReceived": "wildflour_DrinkOrder2_complete",
+                        "NoLetter": "true"
+                  }
+                }
+            ]
+        }
+      }
+    },
+
+// Drinks Order 3
+    {
+      "LogName": "Drinks Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Drinks SO 3": {
+          "Name": "{{i18n:wildflourdrinks.quest3.name}}",
+          "Requester": "George",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourdrinks.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourdrinks.quest3a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "GeorgeDrinks",
+							    "DropBoxGameLocation": "JoshHouse",
+							    "DropBoxIndicatorLocation": "4 16",
+                  "AcceptedContextTags": "item_wf_greentea_lemonade"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourdrinks.quest3b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "GeorgeDrinks",
+							    "DropBoxGameLocation": "JoshHouse",
+							    "DropBoxIndicatorLocation": "4 16",
+                  "AcceptedContextTags": "item_wf_classic_lemonade"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourdrinks.quest3c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "GeorgeDrinks",
+							    "DropBoxGameLocation": "JoshHouse",
+							    "DropBoxIndicatorLocation": "4 16",
+                  "AcceptedContextTags": "item_wf_icedtea"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourdrinks.quest3d.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "GeorgeDrinks",
+							    "DropBoxGameLocation": "JoshHouse",
+							    "DropBoxIndicatorLocation": "4 16",
+                  "AcceptedContextTags": "item_wf_peach_icedtea"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "13464"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "George"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_DrinkOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Drinks Order 4
+{
+  "LogName": "Drinks Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Drinks SO 4": {
+        "Name": "{{i18n:wildflourdrinks.quest4.name}}",
+        "Requester": "Sam",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourdrinks.quest4.text}}",
+        "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest4a.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wf_grapejuice"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest4b.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wf_applejuice"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest4c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wf_berryjuice"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourdrinks.quest4d.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "DropBox": "SamDrinks",
+							  "DropBoxGameLocation": "SamHouse",
+							  "DropBoxIndicatorLocation": "14 12",
+                "AcceptedContextTags": "item_wf_orangejuice"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12720"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Sam"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_DrinkOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//Drinks ORDER 5
+
+{
+  "LogName": "Drinks Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Drinks SO 5": {
+        "Name": "{{i18n:wildflourdrinks.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_DrinkOrder2_complete, mail_wildflour_DrinkOrder3_complete, mail_wildflour_DrinkOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourdrinks.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourdrinks.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_beverage_item, quality_gold"
+              }
+            },
+
+            
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_DrinkOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//REPEATABLES 6 7 8 
+
+{
+  "LogName": "Drinks Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Drinks SO 6": {
+      "Name": "{{i18n:wildflourdrinks.quest6.name}}",
+      "Requester": "Emily",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourdrinks.quest6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourdrinks.quest6.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "wildflour_bobatea",
+              "Message": "{{i18n:wildflourdrinks.quest6.accept}}",
+              "TargetName": "Emily"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "6000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Drinks Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Drinks SO 7": {
+      "Name": "{{i18n:wildflourdrinks.quest7.name}}",
+      "Requester": "Haley",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourdrinks.quest7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourdrinks.quest7.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "smoothie_item",
+              "Message": "{{i18n:wildflourdrinks.quest7.accept}}",
+              "TargetName": "Haley"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "7000"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Drinks Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Drinks SO 8": {
+      "Name": "{{i18n:wildflourdrinks.quest8.name}}",
+      "Requester": "Shane",
+      "Duration": "TwoWeeks",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_MSB_Lewis, mail_georgeGifts, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourdrinks.quest8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourdrinks.quest8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "juice_item",
+              "Message": "{{i18n:wildflourdrinks.quest8.accept}}",
+              "TargetName": "Shane"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "10000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+
+  ]
+}
+

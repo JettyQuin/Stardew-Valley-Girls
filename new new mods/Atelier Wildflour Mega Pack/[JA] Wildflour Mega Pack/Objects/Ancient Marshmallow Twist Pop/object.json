@@ -1,0 +1,26 @@
+{
+    "Name": "wf ancient marshmallowpop",
+    "Description": "...",
+    "TranslationKey":"ancient-marshmallowpop",
+    "Category": "ArtisanGoods",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+         "Love": ["Gus","Haley","Maru","Jas","Leo","Penny","Vincent"],
+		 "Like": ["Abigail", "Caroline","Demetrius","Dwarf","Evelyn","Emily","Krobus", "Lewis", "Marnie", "Robin", "Sam", "Sandy"],
+		 "Neutral": ["Clint","Elliott","Jodi","Kent","Pam","Pierre","Sebastian","Shane","Wizard"],
+		 "Dislike": ["Alex", "George","Leah", "Willy"],
+		 "Hate": ["Harvey"],
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+	"ContextTags":
+        [
+		"wildflour_candy",
+		"marshmallow_item",
+		"color_cyan"
+		],
+}

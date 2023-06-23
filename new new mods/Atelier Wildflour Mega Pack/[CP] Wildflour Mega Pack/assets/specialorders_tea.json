@@ -1,0 +1,528 @@
+{
+  "Changes": [
+
+// Teas Order 1
+    {
+    "LogName": "Teas Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Teas SO 1": {
+        "Name": "{{i18n:wildflourtea.quest1.name}}",
+        "Requester": "Caroline",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourtea.quest1.text}}",
+        "Objectives": [
+
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourtea.quest1a.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wf_cinnamon_sachet",
+              "TargetName": "Caroline"
+            }
+          },
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourtea.quest1b.deliver}}",
+            "RequiredCount": "2",
+            "Data": {
+              "AcceptedContextTags": "item_wf_mint_sachet",
+              "TargetName": "Caroline"
+            }
+          },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourtea.quest1c.deliver}}",
+              "RequiredCount": "2",
+              "Data": {
+                "AcceptedContextTags": "item_wf_grey_sachet",
+                "Message": "{{i18n:wildflourtea.quest1.accept}}",
+                "TargetName": "Caroline"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "3340"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Caroline"
+                }
+              }
+          ]
+      }
+    }
+  },
+
+// Teas Order 2
+    {
+      "LogName": "Teas Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Teas SO 2": {
+          "Name": "{{i18n:wildflourtea.quest2.name}}",
+          "Requester": "Evelyn",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourtea.quest2.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest2a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "EvelynKitchen",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "2 16",
+                  "AcceptedContextTags": "item_wf_sakura_tea",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest2b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "EvelynKitchen",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "2 16",
+                  "AcceptedContextTags": "item_wf_rose_tea",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest2c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "EvelynKitchen",
+                  "DropBoxGameLocation": "JoshHouse",
+                  "DropBoxIndicatorLocation": "2 16",
+                  "AcceptedContextTags": "item_wf_breakfast_tea",
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "6675"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Evelyn"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_teaOrder2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+// Teas Order 3
+    {
+      "LogName": "Teas Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Teas SO 3": {
+          "Name": "{{i18n:wildflourtea.quest3.name}}",
+          "Requester": "Robin",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourtea.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest3a.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wf_apple_kombucha",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest3b.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wf_raspberry_kombucha",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest3c.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wf_strawberry_kombucha",
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourtea.quest3d.deliver}}",
+                "RequiredCount": "2",
+                "Data": {
+                  "DropBox": "RobinKombucha",
+                  "DropBoxGameLocation": "ScienceHouse",
+                  "DropBoxIndicatorLocation": "6 19",
+                  "AcceptedContextTags": "item_wf_pomegranate_kombucha",
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "15000"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Robin"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_teaOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Teas Order 4
+{
+  "LogName": "Teas Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Teas SO 4": {
+        "Name": "{{i18n:wildflourtea.quest4.name}}",
+        "Requester": "Jodi",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourtea.quest4.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourtea.quest4a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wf_chamomile_sachet",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourtea.quest4b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wf_mint_sachet",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourtea.quest4c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wf_vanilla_sachet",
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourtea.quest4d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "DropBox": "JodiCounter",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "item_wf_lemon_sachet",
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "6730"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Jodi"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_teaOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//Teas ORDER 5
+
+{
+  "LogName": "Teas Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Teas SO 5": {
+        "Name": "{{i18n:wildflourtea.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_teaOrder2_complete, mail_wildflour_teaOrder3_complete, mail_wildflour_teaOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourtea.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourtea.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_tea/wildflour_kombucha, quality_gold",
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_teaOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//REPEATABLES 6 7 8 
+
+{
+  "LogName": "Teas Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Teas SO 6": {
+      "Name": "{{i18n:wildflourtea.quest6.name}}",
+      "Requester": "Alex",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourtea.quest6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourtea.quest6.deliver}}",
+            "RequiredCount": "4",
+            "Data": {
+              "AcceptedContextTags": "wildflour_kombucha",
+              "Message": "{{i18n:wildflourtea.quest6.accept}}",
+              "TargetName": "Alex"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "5000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Teas Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Teas SO 7": {
+      "Name": "{{i18n:wildflourtea.quest7.name}}",
+      "Requester": "Haley",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourtea.quest7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourtea.quest7.deliver}}",
+            "RequiredCount": "6",
+            "Data": {
+              "AcceptedContextTags": "tea_item",
+              "Message": "{{i18n:wildflourtea.quest7.accept}}",
+              "TargetName": "Haley"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "7500"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Teas Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Teas SO 8": {
+      "Name": "{{i18n:wildflourtea.quest8.name}}",
+      "Requester": "Sandy",
+      "Duration": "TwoWeeks",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_CarolineTea, mail_gusGiantOmelet",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourtea.quest8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourtea.quest8.deliver}}",
+            "RequiredCount": "8",
+            "Data": {
+              "AcceptedContextTags": "tea_sachet_item",
+              "Message": "{{i18n:wildflourtea.quest8.accept}}",
+              "TargetName": "Sandy"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "8000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

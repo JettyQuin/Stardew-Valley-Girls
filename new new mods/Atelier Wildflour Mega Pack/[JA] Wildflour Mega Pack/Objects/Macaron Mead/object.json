@@ -1,0 +1,27 @@
+{
+  "Name": "wf macaron mead",
+  "Description": "...",
+  "TranslationKey":"macaron-mead",
+  "EnableWithMod":"wildflour.pixieforage",
+  "Category": "ArtisanGoods",
+  "Edibility": 160,
+  "EdibleIsDrink": true,
+  "Price": 500,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+
+  "Love": ["Dwarf","Elliott","Gus","Leah","Pam","Shane", "Willy"],
+  "Like": ["Abigail","Caroline", "Emily","Evelyn","Haley","Harvey","Jodi", "Kent","Marnie","Maru","Robin","Sandy","Wizard"],
+  "Neutral": ["Clint","Demetrius","George", "Lewis","Pierre","Sam"],
+  "Dislike": ["Alex", "Linus"],
+  "Hate": ["Jas", "Vincent", "Leo","Penny", "Sebastian"]
+  
+},
+
+"ContextTags": [
+  "wildfour mead",
+  "mead_item",
+  "color_pink"
+]
+}

@@ -1,0 +1,53 @@
+{
+  "Name": "wf ginger preserves",
+  "Description": "...",
+  "TranslationKey": "peach-ginger",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1140,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Gus", "Jas","Leo","Vincent"],
+	"Like": ["Abigail", "Clint", "Demetrius","Evelyn", "Caroline", "Elliott", "Emily", "George","Haley","Sandy", "Jodi", "Kent", "Krobus", "Leah", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	"Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	"Dislike":[],
+	"Hate": ["Sebastian"]
+  },
+  "ContextTags":
+  
+	  [	"wildflour_jelly",
+		  "jelly_item",
+		  "color_pink"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": 636,
+	      "Count": 3
+	    },
+		{
+	      "Object": 829,
+	      "Count": 1
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

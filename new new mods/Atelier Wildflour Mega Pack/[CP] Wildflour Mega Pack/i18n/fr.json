@@ -1,0 +1,570 @@
+{
+
+//ALES
+
+"wildflourales.quest1.name":"Partagez une pinte",
+"wildflourales.quest1.text":"Je veux surprendre tout le monde au saloon avec des bières spécialement conçues ! Gus pense que c'est une bonne idée mais je ne sais pas où les trouver. ",
+"wildflourales.quest1.deliver":"Livrez 5 Bières au lait de coco à Pam.",
+"wildflourales.quest1.accept":"C'est parfait ! Tout le monde partage toujours une pinte avec moi, alors je suis ravi de partager une pinte avec eux aussi !",
+
+"wildflourales.quest2.name":"Allez-y",
+"wildflourales.quest2.text":"Quel est le problème avec les bières aigres ? Cela semble si bizarre, mais je suis aussi très curieux de l'essayer par moi-même...",
+"wildflourales.quest2.deliver":"Livrez 5 bière aux Cerise aigre à Shane.",
+"wildflourales.quest2.accept":"Hein, l'acidité de la cerise mord vraiment à travers la douceur de la bière. Impressionnant. Merci de partager avec moi.",
+
+"wildflourales.quest3.name":"Plus d'Ales pour le Saloon",
+"wildflourales.quest3.text":"Il s'avère que les gens sont vraiment intéressés par plus de bières spéciales que la bière et la bière blonde. Pouvez-vous m'aider à améliorer la variété que nous avons au saloon ?",
+"wildflourales.quest3a.deliver":"Livrez 3 Bières à l'orange au frigo de Gus.",
+"wildflourales.quest3b.deliver":"Livrez 3 Bières à la pêche au frigo de Gus.",
+"wildflourales.quest3c.deliver":"Livrez 3 Bières aux myrtilles au frigo de Gus.",
+"wildflourales.quest3d.deliver":"Livrez 3 Bières au melon au frigo de Gus.",
+
+"wildflourales.quest4.name":"À la poursuite du houblon",
+"wildflourales.quest4.text":"J'invite quelques-uns des gars à jouer aux cartes et à boire. Je devrais probablement faire le plein de bonnes bières...",
+"wildflourales.quest4a.deliver":"Livrez 3 Bières aux pommes au frigo de Kent.",
+"wildflourales.quest4b.deliver":"Livrez 3 Bière à l'épices de citrouille au frigo de Kent.",
+"wildflourales.quest4c.deliver":"Livrez 3 Bière à la fraise au frigo de Kent.",
+"wildflourales.quest4d.deliver":"Livrez 3 Bière à l'abricot au frigo de Kent.",
+
+"wildflourales.quest5.name":"Défi Maître Brasseur",
+"wildflourales.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le rôle de maître brasseur sont ouvertes ! Envoyez-nous vos meilleures bières pour voir si vous pouvez gagner le grand prix !",
+"wildflourales.quest5.ship":"Expédier 100 bières de qualité or.",
+
+//ALES REPEATABLE NEW
+
+"wildflourales.quest6.name":"Alès pour Elliott",
+"wildflourales.quest6.text":"Tout le monde parle de ces bières aux fruits raffinées. Quelqu'un peut-il en livrer quelques-unes pour que mes amis et moi essayions ?",
+"wildflourales.quest6.deliver":"Livrez 4 bières à Elliott.",
+"wildflourales.quest6.accept":"Splendide ! Merci beaucoup de les avoir livrés.",
+
+"wildflourales.quest7.name":"Alès pour Lewis",
+"wildflourales.quest7.text":"J'ai besoin de bonnes bières pour un bon dîner que je prépare à la fin de la semaine.",
+"wildflourales.quest7.deliver":"Livrez 6 bières à Lewis.",
+"wildflourales.quest7.accept":"Mon dîner sera le sujet de conversation de la ville avec ces bières ! Merci encore.",
+
+"wildflourales.quest8.name":"Alès pour Gus",
+"wildflourales.quest8.text":"J'ai besoin de plus de bières spéciales ! Il s'avère que la demande est plus élevée que jamais !",
+"wildflourales.quest8.deliver":"Livrez 8 bières à Gus.",
+"wildflourales.quest8.accept":"Merci mon ami ! N'hésitez pas à venir avec des bières supplémentaires que vous préparez ; j'aurai toujours de la place pour elles dans le menu.",
+
+//BAKERY
+
+"wildflourbakery.quest1.name":"Laissez-les manger des cupcakes !",
+"wildflourbakery.quest1.text":"Jas a besoin de cupcakes pour une vente de pâtisseries à l'école et je suis trop occupé pour les préparer à partir de zéro. HELP !",
+"wildflourbakery.quest1a.deliver":"Livrez 2 cupcakes à la vanille à Marnie.",
+"wildflourbakery.quest1b.deliver":"Livrez 2 cupcakes aux fraises à Marnie.",
+"wildflourbakery.quest1c.deliver":"Livrez 2 cupcakes au chocolat à Marnie.",
+"wildflourbakery.quest1.accept":"Comme c'est mignon ! Ils sont parfaits, je suis sûr qu'ils seront un succès retentissant à la vente de pâtisseries !",
+
+"wildflourbakery.quest2.name":"Pop tartes",
+"wildflourbakery.quest2.text":"Les enfants de la ville ne savent pas ce que sont les vrais bons desserts. Je les ai vus manger des Pop Tarts ! Je veux leur montrer à quel point les vraies tartes aux fruits sont bonnes.",
+"wildflourbakery.quest2a.deliver":"Livrez 1 tarte Tooti Frooti au réfrigérateur de Gus.",
+"wildflourbakery.quest2b.deliver":"Livrez 1 tartelette au boisseau de baies au réfrigérateur de Gus.",
+"wildflourbakery.quest2c.deliver":"Livrez 1 tarte au chocolat et aux noisettes au réfrigérateur de Gus.",
+
+"wildflourbakery.quest3.name":"Pâtisserie Vibes",
+"wildflourbakery.quest3.text":"J'aimerais me détendre avec un bon livre, une tasse de thé et d'adorables macarons. Quelqu'un peut-il m'aider ?",
+"wildflourbakery.quest3a.deliver":"Livrez 3 macarons au citron dans la boîte de dépôt dans la cuisine de Haley.",
+"wildflourbakery.quest3b.deliver":"Livrez 3 macarons à la lavande dans la boîte de dépôt dans la cuisine de Haley.",
+"wildflourbakery.quest3c.deliver":"Livrez 3 macarons aux fraises dans la boîte de dépôt dans la cuisine de Haley.",
+"wildflourbakery.quest3d.deliver":"Livrez 3 macarons au chocolat dans la boîte de dépôt dans la cuisine de Haley.",
+
+"wildflourbakery.quest4.name":"Bonbons à l'heure du thé",
+"wildflourbakery.quest4.text":"Evelyn m'invite à l'heure du thé et je ne veux pas arriver les mains vides. Quelqu'un peut-il m'apporter des scones ?",
+"wildflourbakery.quest4a.deliver":"Livrez 3 scones à la pistache dans la boîte de dépôt de la cuisine de Caroline.",
+"wildflourbakery.quest4b.deliver":"Livrez 3 scones aux framboises dans la boîte de dépôt de la cuisine de Caroline.",
+"wildflourbakery.quest4c.deliver":"Livrez 3 scones aux mûres dans la boîte de dépôt de la cuisine de Caroline.",
+"wildflourbakery.quest4d.deliver":"Livrez 3 scones à la citrouille dans la boîte de dépôt de la cuisine de Caroline.",
+
+"wildflourbakery.quest5.name":"Défi du maître pâtissier",
+"wildflourbakery.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le poste de Maître Pâtissier sont ouvertes ! Envoyez-nous vos meilleurs produits de boulangerie pour voir si vous pouvez gagner le grand prix !",
+"wildflourbakery.quest5.ship":"Expédiez 100 produits de boulangerie.",
+
+//BAKERY REPEATABLE NEW
+
+"wildflourbakery.quest6.name":"Gâteau au fromage pour Jodi",
+"wildflourbakery.quest6.text":"Besoin d'un cheesecake pour une fête que j'organise en fin de semaine",
+"wildflourbakery.quest6.deliver":"Livrez 4 cheesecakes à Jodi.",
+"wildflourbakery.quest6.accept":"Parfait ! Cela me fait gagner beaucoup de temps et ils sont magnifiques. Merci !",
+
+"wildflourbakery.quest7.name":"Tartes pour le sorcier",
+"wildflourbakery.quest7.text":"J'ai besoin de tartes, mais pas pour moi. Elles sont destinées à l'étude continue de la magie, et il se trouve qu'elles sont les préférées des esprits junimo...",
+"wildflourbakery.quest7.deliver":"Livrez 6 tartes au magicien.",
+"wildflourbakery.quest7.accept":"Peut-être que maintenant les junimos vont me laisser me reposer. J'espère juste que ça suffit. Merci.",
+
+"wildflourbakery.quest8.name":"Muffins pour Penny",
+"wildflourbakery.quest8.text":"Les enfants ont été si bons dans leurs études ; j'aimerais les surprendre avec une gâterie spéciale !",
+"wildflourbakery.quest8.deliver":"Livrez 12 muffins à Penny.",
+"wildflourbakery.quest8.accept":"Ce sera la gâterie parfaite après les cours, demain ! Merci beaucoup.",
+
+//BEVERAGES NEW
+
+"wildflourdrinks.quest1.name":"Petit-déjeuner en vrac.",
+"wildflourdrinks.quest1.text":"Je suis occupé à essayer de grossir et d'améliorer mon jeu de grille ; je n'ai pas le temps de préparer le petit-déjeuner tous les jours ! Quelqu'un peut-il m'aider ?",
+"wildflourdrinks.quest1.deliver":"Livrez 5 smoothies au chou frisé vert à Alex.",
+"wildflourdrinks.quest1.accept":"Donc ces smoothies contiennent des protéines ET des fibres ? Génial ! Je vais totalement me muscler grâce à eux.",
+
+"wildflourdrinks.quest2.name":"Un nouveau type de pétillant.",
+"wildflourdrinks.quest2.text":"Abigail parlait de bubble tea... qu'est-ce que c'est ? C'est bon ? J'adorerais que quelqu'un m'en apporte pour que j'essaie par moi-même.",
+"wildflourdrinks.quest2a.deliver":"Livrez 2 Bubble Teas Oolong à la cuisine de Caroline.",
+"wildflourdrinks.quest2b.deliver":"Livrez 2 thés aux bulles de cassonade dans la cuisine de Caroline.",
+"wildflourdrinks.quest2c.deliver":"Livrez 2 Bubble Teas à la fraise dans la cuisine de Caroline.",
+
+"wildflourdrinks.quest3.name":"Limonade contre thé glacé",
+"wildflourdrinks.quest3.text":"Rien ne vaut une limonade glacée par une chaude journée... ou était-ce du thé glacé ? Hmm maintenant je n'arrive pas à me rappeler lequel je préfère. Quelqu'un m'apporte les deux pour que je puisse décider!",
+"wildflourdrinks.quest3a.deliver":"Livrez 2 limonades au thé vert dans la boîte de dépôt dans la cuisine de George.",
+"wildflourdrinks.quest3b.deliver":"Livrez 2 limonades classiques dans la boîte de dépôt de la cuisine de George.",
+"wildflourdrinks.quest3c.deliver":"Livrez 2 thés glacés dans la boîte de dépôt dans la cuisine de George.",
+"wildflourdrinks.quest3d.deliver":"Livrez 2 thés glacés à la pêche dans la boîte de dépôt dans la cuisine de George.",
+
+"wildflourdrinks.quest4.name":"Fraîchement pressé",
+"wildflourdrinks.quest4.text":"J'essaie de réduire les sodas mais j'ai encore besoin de quelque chose de sucré à siroter. Quelqu'un a une idée ?",
+"wildflourdrinks.quest4a.deliver":"Livrez 2 jus de raisin dans la boîte de dépôt dans la chambre de Sam.",
+"wildflourdrinks.quest4b.deliver":"Livrez 2 jus de pomme dans la boîte de dépôt dans la chambre de Sam.",
+"wildflourdrinks.quest4c.deliver":"Livrez 2 Berry Juices dans la boîte de dépôt dans la chambre de Sam.",
+"wildflourdrinks.quest4d.deliver":"Livrez 2 jus d'orange dans la boîte de dépôt dans la chambre de Sam.",
+
+"wildflourdrinks.quest5.name":"Défi de gorgées sensationnelles",
+"wildflourdrinks.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le Sensational Sips Challenge sont officiellement ouvertes ! Envoyez-nous vos meilleures boissons pour voir si vous pouvez gagner le grand prix !",
+"wildflourdrinks.quest5.ship":"Expédiez 100 boissons de qualité or.",
+
+//BEVERAGES REPEATABLE NEW
+
+"wildflourdrinks.quest6.name": "Thé aux bulles pour Emily",
+"wildflourdrinks.quest6.text":"Je n'ai plus de bubble tea! AIDE-MOI, j'ai besoin de nouveaux s'il vous plaît !",
+"wildflourdrinks.quest6.deliver":"Livrez 4 thés aux bulles à Emily.",
+"wildflourdrinks.quest6.accept":"Quel soulagement ! Je ne me sens pas moi-même sans un bon bubble tea. Merci !",
+
+"wildflourdrinks.quest7.name":"Des smoothies pour Haley",
+"wildflourdrinks.quest7.text":"J'étais tellement occupé la semaine dernière que je n'ai pas préparé mes prochains smoothies ! Que vais-je faire de mes petits déjeuners maintenant ?",
+"wildflourdrinks.quest7.deliver":"Livrez 4 smoothies à Haley.",
+"wildflourdrinks.quest7.accept":"Dieu merci ! Ma matinée ne serait tout simplement pas la même sans un smoothie. Merci encore.",
+
+"wildflourdrinks.quest8.name":"Des jus pour Shane",
+"wildflourdrinks.quest8.text":"J'aurais peut-être oublié que c'était à mon tour de ramasser du jus pour Jas et ses amis. Encore une fois. Est-ce que quelqu'un peut m'aider s'il vous plaît ?",
+"wildflourdrinks.quest8.deliver":"Livrez 8 jus à Shane.",
+"wildflourdrinks.quest8.accept":"Oh merci Yoba. Tu m'as vraiment sauvé les fesses ; merci.",
+
+//CANDY
+
+"wildflourcandy.quest1.name":"Lapin joufflu",
+"wildflourcandy.quest1.text":"Je veux jouer au jeu Chubby Bunny mais les guimauves ordinaires sont ennuyeuses ! Quelqu'un peut-il m'en apporter des aromatisées à la place ?",
+"wildflourcandy.quest1a.deliver":"Livrez 3 guimauves aux fraises à Jas.",
+"wildflourcandy.quest1b.deliver":"Livrez 3 guimauves à la lavande à Jas.",
+"wildflourcandy.quest1c.deliver":"Livrez 3 guimauves matcha à Jas.",
+"wildflourcandy.quest1d.deliver":"Livrez 3 guimauves à la noix de coco à Jas.",
+"wildflourcandy.quest1.accept":"Yay ! Tellement de jolies couleurs. Maintenant, mes amis et moi pouvons tous être des lapins potelés ensemble !",
+
+"wildflourcandy.quest2.name":"N'oubliez pas le fil dentaire !",
+"wildflourcandy.quest2.text":"La barbe à papa est tellement cool ! Elle est si légère et douce mais aussi délicieuse - j'aimerais pouvoir essayer TOUTES les saveurs du monde !",
+"wildflourcandy.quest2a.deliver":"Livrez 1 fil de fée dans la boîte de dépôt de la maison de Vincent.",
+"wildflourcandy.quest2b.deliver":"Livrez 1 fil de fée à la lavande dans la boîte de dépôt de la maison de Vincent.",
+"wildflourcandy.quest2c.deliver":"Livrez 1 fil de fée au citron meringué dans la boîte de dépôt de la maison de Vincent.",
+"wildflourcandy.quest2d.deliver":"Livrez 1 Fee Floss Orange Creamsicle dans la boîte de dépôt de la maison de Vincent.",
+"wildflourcandy.quest2e.deliver":"Livrez 1 fil dentaire à la menthe poivrée dans la boîte de dépôt de la maison de Vincent.",
+"wildflourcandy.quest2f.deliver":"Livrez 1 fil dentaire à la fraise dans la boîte de dépôt de la maison de Vincent.",
+"wildflourcandy.quest2g.deliver":"Livrez 1 fil à la vanille dans la boîte de dépôt de la maison de Vincent.",
+
+"wildflourcandy.quest3.name":"Le goût de la nostalgie",
+"wildflourcandy.quest3.text":"Ma mère me surprenait avec ces sucettes fantaisie quand j'étais petite. J'adorerais les avoir pour nous deux maintenant, mais je ne sais pas où les trouver !",
+"wildflourcandy.quest3a.deliver":"Livrez 1 sucette gourmande citron meringuée à la cuisine de Penny",
+"wildflourcandy.quest3b.deliver":"Livrez 1 Sucette Gourmande Menthe Poivrée Vanille à la cuisine de Penny",
+"wildflourcandy.quest3c.deliver":"Livrez 1 sucette gourmande aux baies mélangées à la cuisine de Penny",
+"wildflourcandy.quest3d.deliver":"Livrez 1 sucette gourmande tarte aux myrtilles à la cuisine de Penny",
+
+"wildflourcandy.quest4.name":"Rochers savoureux",
+"wildflourcandy.quest4.text":"Je savais que tu pouvais manger des cailloux ! Maintenant, je peux partager ma friandise préférée avec tout le monde, mais où trouverai-je assez à partager ?",
+"wildflourcandy.quest4.deliver":"Livrez 5 bonbons de cristal dans la Drop Box dans la chambre d'Abigail.",
+
+"wildflourcandy.quest5.name":"Défi du maître confiseur",
+"wildflourcandy.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le poste de Maître Confiseur sont ouvertes ! Envoyez-nous vos meilleurs bonbons pour voir si vous pouvez gagner le grand prix !",
+"wildflourcandy.quest5.ship":"Expédiez 100 bonbons de qualité or.",
+
+//CANDY REPEATABLE NEW
+
+"wildflourcandy.quest6.name":"De la soie de fée pour Emily",
+"wildflourcandy.quest6.text":"Fairy floss est tellement magique, tu ne trouves pas ? J'adorerais que quelqu'un m'en livre quelques-uns",
+"wildflourcandy.quest6.deliver":"Livrez 3 filaments féeriques à Emily.",
+"wildflourcandy.quest6.accept":"C'est presque trop beau pour être mangé ! Merci pour ça, mon ami.",
+
+"wildflourcandy.quest7.name":"Des guimauves pour Robin",
+"wildflourcandy.quest7.text":"J'ai besoin de guimauves pour mon chocolat chaud.",
+"wildflourcandy.quest7.deliver":"Livrez 5 guimauves à Robin.",
+"wildflourcandy.quest7.accept":"Après une dure journée au magasin, j'adore une bonne tasse de cacao pour me détendre. Ce sont des remerciements parfaits pour les avoir apportés !",
+
+"wildflourcandy.quest8.name":"Des bonbons pour Lewis",
+"wildflourcandy.quest8.text":"Les bonbons durs à l'ancienne me manquent. Je n'arrive pas à les trouver ! Quelqu'un peut-il m'aider ?",
+"wildflourcandy.quest8.deliver":"Livrez 12 bonbons durs à Lewis.",
+"wildflourcandy.quest8.accept":"Je les cherchais partout ! C'est tellement difficile de trouver de bons bonbons ces jours-ci. Merci, mon ami.",
+
+//COFFEE
+
+"wildflourcoffee.quest1.name":"Pause café",
+"wildflourcoffee.quest1.text":"Je n'ai plus de café moulu ! Quelqu'un peut-il m'apporter des sacs pour que je puisse faire le plein ?",
+"wildflourcoffee.quest1a.deliver":"Livrez 2 cafés moulus aux noisettes à Harvey.",
+"wildflourcoffee.quest1b.deliver":"Livrez 2 mélanges Cold Brew à Harvey.",
+"wildflourcoffee.quest1c.deliver":"Livrez 2 cafés moulus Calico Vanille à Harvey.",
+"wildflourcoffee.quest1.accept":"Ah, juste à temps ! Croyez-moi, personne ne veut d'un médecin endormi !",
+
+"wildflourcoffee.quest2.name":"Désolé, je suis Latte...",
+"wildflourcoffee.quest2.text":"J'appuie toujours sur mon réveil et je finis en retard pour tout ! Est-ce que quelqu'un peut m'apporter du café pour que je puisse bouger plus vite et ne plus être en retard ?",
+"wildflourcoffee.quest2.deliver":"Livrez 5 lattes chérie à Haley.",
+"wildflourcoffee.quest2.accept":"Peut-être que je peux enfin être à l'heure maintenant !",
+
+"wildflourcoffee.quest3.name":"Se lever et moudre",
+"wildflourcoffee.quest3.text":"Je n'ai jamais été du matin mais je veux essayer. Si je veux réussir, je vais avoir besoin de BEAUCOUP de café...",
+"wildflourcoffee.quest3a.deliver":"Livrez 3 cafés moulus pour le petit-déjeuner dans la boîte de dépôt dans la chambre de Sebastian.",
+"wildflourcoffee.quest3b.deliver":"Livrez 3 cafés moka moulus dans la boîte de dépôt dans la chambre de Sebastian.",
+"wildflourcoffee.quest3c.deliver":"Livrez 3 cafés moulus à la noix de coco grillés dans la boîte de dépôt dans la chambre de Sebastian.",
+"wildflourcoffee.quest3d.deliver":"Livrez 3 cafés moulus Donut Shop dans la boîte de dépôt dans la chambre de Sebastian.",
+
+"wildflourcoffee.quest4.name":"Saison PSL",
+"wildflourcoffee.quest4.text":"Tout le monde me demande de servir du Pumpkin Spice Lattes au saloon pendant l'automne ! Je ne sais pas ce que c'est, mais quelqu'un peut-il m'aider à participer à cet engouement ?",
+"wildflourcoffee.quest4.deliver":"Livrez 12 lattes à la citrouille et aux épices au réfrigérateur de Gus dans le saloon.",
+
+"wildflourcoffee.quest5.name":"Défi du maître torréfacteur",
+"wildflourcoffee.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le rôle de maître torréfacteur sont ouvertes ! Envoyez-nous vos meilleurs cafés pour voir si vous pouvez gagner le grand prix !",
+"wildflourcoffee.quest5.ship":"Expédier 100 produits de café de qualité Or.",
+
+//COFFEE REPEATABLE NEW
+
+"wildflourcoffee.quest6.name": "Infusion froide pour Sandy",
+"wildflourcoffee.quest6.text":"Il fait TELLEMENT chaud ici. Quelqu'un peut-il déposer une infusion froide ??",
+"wildflourcoffee.quest6.deliver":"Livrez 3 bières froides à Sandy.",
+"wildflourcoffee.quest6.accept":"Si froide et rafraîchissante, cette infusion froide est parfaite ! Merci beaucoup, ma chérie.",
+
+"wildflourcoffee.quest7.name":"Lattes pour Marnie",
+"wildflourcoffee.quest7.text":"Les animaux m'ont tenu éveillé à toute heure de la nuit et je suis tellement fatigué. Est-ce que quelqu'un peut déposer des lattes ?",
+"wildflourcoffee.quest7.deliver":"Livrez 4 lattes à Marnie.",
+"wildflourcoffee.quest7.accept":"J'aime mes animaux, mais je n'aime pas le manque de sommeil. Au moins maintenant, j'ai ces délicieux lattes pour me remonter le moral ! Merci encore.",
+
+"wildflourcoffee.quest8.name":"Café pour Pierre",
+"wildflourcoffee.quest8.text":"J'ai besoin d'aide pour réapprovisionner mes mélanges de café au magasin.",
+"wildflourcoffee.quest8.deliver":"Livrez 8 mélanges de café à Pierre.",
+"wildflourcoffee.quest8.accept":"La boutique sera encore plus belle grâce à ça ! Merci, mon ami.",
+
+//FLORAL
+
+"wildflourfloral.quest1.name":"Nettoyage de printemps",
+"wildflourfloral.quest1.text":"Je suis occupé par le ménage de printemps et je veux rafraîchir tous les placards avec du pot-pourri ; quelqu'un peut-il m'apporter des sachets ?",
+"wildflourfloral.quest1.deliver":"Livrez 6 sachets de pot-pourri à Evelyn.",
+"wildflourfloral.quest1.accept":"Ça sent bon. Toute la maison sera fraîche et propre en un rien de temps !",
+
+"wildflourfloral.quest2.name":"Arrêtez et sentez les roses",
+"wildflourfloral.quest2.text":"J'aime vraiment les fleurs fraîches, même si elles me font éternuer parfois. Un bouquet de roses féeriques serait certainement joli dans ma chambre...",
+"wildflourfloral.quest2.deliver":"Livrez 1 bouquet de roses féeriques à Sam.",
+"wildflourfloral.quest2.accept":"Wow ce bouquet est tellement coloré et il sent BEAUCOUP ! Je vais peut-être le mettre de l'autre côté de ma chambre pour éternuer moins...",
+
+"wildflourfloral.quest3.name":"Parfums-nationaux",
+"wildflourfloral.quest3.text":"Je n'ai plus mon parfum préféré ! QUE VAIS-JE FAIRE SANS ÇA ??",
+"wildflourfloral.quest3a.deliver":"Livrez 2 eaux de toilette de tournesol à la maison de Haley.",
+"wildflourfloral.quest3b.deliver":"Livrez 2 eau de toilette aux odeurs lavande forestière à la maison de Haley.",
+"wildflourfloral.quest3c.deliver":"Livrez 2 Eau de toilette aux odeurs Fairy Rose à la maison de Haley.",
+"wildflourfloral.quest3d.deliver":"Livrez 2 Eau de Toilette aux odeurs Tulipe à la maison de Haley.",
+
+"wildflourfloral.quest4.name":"Soap Opera",
+"wildflourfloral.quest4.text":"Je fais des expériences scientifiques sur la lessive du savon et j'ai besoin d'échantillons pour comparer avec mes sujets de test !",
+"wildflourfloral.quest4.deliver":"Livrez 10 savons dans la boîte de dépôt du laboratoire de Maru.",
+
+"wildflourfloral.quest5.name":"Maître fleuriste",
+"wildflourfloral.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le poste de maître fleuriste sont ouvertes ! Envoyez-nous vos produits floraux de la plus haute qualité pour voir si vous pouvez gagner le grand prix !",
+"wildflourfloral.quest5.ship":"Expédier 100 produits floraux de qualité or.",
+
+//FLORAL REPEATABLE NEW
+
+"wildflourfloral.quest6.name":"Bouquets pour Shane",
+"wildflourfloral.quest6.text":"Jas et Marnie sont si patients avec moi et j'aimerais leur offrir quelque chose de sympa...",
+"wildflourfloral.quest6.deliver":"Livrez 2 bouquets à Shane.",
+"wildflourfloral.quest6.accept":"Elles sont si belles. Elles sont parfaites pour Jas et Marnie. Merci, mon ami.",
+
+"wildflourfloral.quest7.name":"Savon pour Willy",
+"wildflourfloral.quest7.text":"La pêche est un travail difficile et ma peau est vraiment desséchée ! J'adorerais des savons de haute qualité pour m'aider à me sentir de nouveau à la normale.",
+"wildflourfloral.quest7.deliver":"Livrez 4 savons à Willy.",
+"wildflourfloral.quest7.accept":"Vous avez peut-être entendu parler des mains de casserole, mais je peux aussi bien avoir des mains de casserole FISH, elles sont si sèches. Merci pour les savons ; je suis sûr qu'ils aideront un peu.",
+
+"wildflourfloral.quest8.name":"Des bougies pour Krobus",
+"wildflourfloral.quest8.text":"Les humains semblent s'intéresser non seulement aux fleurs, mais aussi à leurs odeurs. Je veux que les égouts sentent les fleurs, pouvez-vous m'aider ?",
+"wildflourfloral.quest8.deliver":"Livrez 8 bougies à Krobus.",
+"wildflourfloral.quest8.accept":"Fascinantes, les bougies ont une odeur parfumée et ajoutent également une lueur apaisante à la région. Les humains sont des créatures vraiment intrigantes. Merci de me les avoir apportées.",
+
+//FROZEN
+
+"wildflourfrozen.quest1.name":"Milkshake amène les nains dans la cour",
+"wildflourfrozen.quest1.text":"Vous dites que le lait... peut aussi être transformé en d'autres boissons ? Cela semble intrigant. Je serais prêt à payer beaucoup d'or pour goûter à certaines de ces concoctions étranges.",
+"wildflourfrozen.quest1a.deliver":"Livrez 1 Milkshake à la vanille au nain.",
+"wildflourfrozen.quest1b.deliver":"Livrez 1 milk-shake aux fraises au nain.",
+"wildflourfrozen.quest1c.deliver":"Livrez 1 milk-shake au chocolat au nain.",
+"wildflourfrozen.quest1.accept":"Alors ça s'appelle un... milkshake ? Fascinant. Froid et sucré... vous les humains êtes vraiment un peuple intrigant.",
+
+"wildflourfrozen.quest2.name":"Pensive à propos des Popsicles",
+"wildflourfrozen.quest2.text":"J'ai vu les petits en ville tenir des bâtons avec des glaçons colorés attachés... J'aimerais beaucoup les essayer !",
+"wildflourfrozen.quest2.deliver":"Livrez 6 sucettes glacées à Krobus.",
+"wildflourfrozen.quest2.accept":"Merci ! J'ai hâte de les essayer.",
+
+"wildflourfrozen.quest3.name":"Fête de la crème glacée",
+"wildflourfrozen.quest3.text":"J'organise une fête de la crème glacée chic et j'ai besoin d'aide pour choisir les saveurs que je devrais inclure dans le menu !",
+"wildflourfrozen.quest3a.deliver":"Livrez 3 sorbets au citron dans la boîte de dépôt dans la cuisine de Jodi.",
+"wildflourfrozen.quest3b.deliver":"Livrez 3 froyos au chocolat à la menthe dans la boîte de dépôt dans la cuisine de Jodi.",
+"wildflourfrozen.quest3c.deliver":"Livrez 3 glaces au citron et à la lavande dans la boîte de dépôt de la cuisine de Jodi.",
+"wildflourfrozen.quest3d.deliver":"Livrez 3 glaces à l'horchata dans la boîte de dépôt de la cuisine de Jodi.",
+
+"wildflourfrozen.quest4.name":"Sandwichs sucrés",
+"wildflourfrozen.quest4.text":"J'ai la nostalgie de ma gâterie d'enfance préférée : le sandwich à la crème glacée. Maru dit qu'il y en a maintenant des tonnes de saveurs différentes. Est-ce que quelqu'un peut m'en apporter quelques-unes pour essayer ?",
+"wildflourfrozen.quest4a.deliver":"Livrez 2 sandwichs à la crème glacée au moka dans la boîte de dépôt du laboratoire de Demetrius.",
+"wildflourfrozen.quest4b.deliver":"Livrez 2 sandwichs à la crème glacée à la pistache dans la boîte de dépôt du laboratoire de Demetrius.",
+"wildflourfrozen.quest4c.deliver":"Livrez 2 sandwichs à la crème glacée à la fraise dans la boîte de dépôt du laboratoire de Demetrius.",
+"wildflourfrozen.quest4d.deliver":"Livrez 2 sandwichs à la crème glacée au moka et à la noix de coco dans la boîte de dépôt du laboratoire de Demetrius.",
+
+"wildflourfrozen.quest5.name":"Défi du festin glacé",
+"wildflourfrozen.quest5.text":"C'est à nouveau cette période de l'année - les candidatures annuelles pour le Frozen Feast Challenge sont officiellement ouvertes ! Envoyez-nous vos friandises glacées pour voir si vous pouvez gagner le grand prix !",
+"wildflourfrozen.quest5.ship":"Expédiez 100 friandises glacées de qualité or.",
+
+//FROZEN REPEATABLE NEW
+
+"wildflourfrozen.quest6.name":"Milkshakes pour le Kent",
+"wildflourfrozen.quest6.text":"J'aimerais surprendre la famille avec une gâterie spéciale. Peut-être que des milkshakes feraient l'affaire ?",
+"wildflourfrozen.quest6.deliver":"Livrez 4 milkshakes à Kent.",
+"wildflourfrozen.quest6.accept":"La famille va adorer ça ! Merci beaucoup, mon ami.",
+
+"wildflourfrozen.quest7.name":"Des sucettes glacées pour Elliott",
+"wildflourfrozen.quest7.text":"J'ai besoin de sucettes glacées pour l'inspiration littéraire ! Pourquoi demandez-vous ? Je ne peux pas expliquer, mais je DOIS simplement avoir des sucettes glacées !",
+"wildflourfrozen.quest7.deliver":"Livrez 4 sucettes glacées à Elliott.",
+"wildflourfrozen.quest7.accept":"La perfection des sucettes glacées ! Merci, maintenant je dois réfléchir aux sucettes glacées en silence.",
+
+"wildflourfrozen.quest8.name":"Crème glacée pour Gus",
+"wildflourfrozen.quest8.text":"Je veux commencer à servir des desserts glacés au saloon. Quelqu'un peut-il m'aider à configurer mon menu ?",
+"wildflourfrozen.quest8.deliver":"Livrez 12 glaces à Gus.",
+"wildflourfrozen.quest8.accept":"Ça va plaire à tout le monde au saloon ! Merci beaucoup !",
+
+//JAMS
+
+"wildflourjams.quest1.name":"Gâterie printanière pour Evelyn",
+"wildflourjams.quest1.text":"Evelyn fait tellement pour moi ; je veux lui donner quelque chose pour lui montrer à quel point je l'apprécie. Les tulipes sont ses préférées, alors peut-être que de la gelée de tulipes pour ses scones ferait l'affaire ?" ,
+"wildflourjams.quest1.deliver":"Livrez 5 gelées de tulipes à George.",
+"wildflourjams.quest1.accept":"Elle va adorer ça - je t'en dois une.",
+
+"wildflourjams.quest2.name":"Jolie en rose",
+"wildflourjams.quest2.text":"Jas est dans une phase où elle veut que tout soit rose, même sa nourriture ! Quelqu'un peut-il l'aider ??",
+"wildflourjams.quest2.deliver":"Livrez 5 gelées de fraise et de rose à Marnie.",
+"wildflourjams.quest2.accept":"Oh Dieu merci ! Peut-être qu'avec ça, je peux lui faire prendre son petit-déjeuner en le mettant sur un bagel...!                                ",
+
+"wildflourjams.quest3.name":"La garniture de crêpes parfaite",
+"wildflourjams.quest3.text":"Les pancakes sont un régal du dimanche dans notre maison, et je veux quelque chose pour les garnir au lieu du vieux sirop d'érable ordinaire. Quelqu'un a des idées ?",
+"wildflourjams.quest3a.deliver":"Livrez 3 confitures cerise-vanille dans la boîte de dépôt de la cuisine de Jodi.",
+"wildflourjams.quest3b.deliver":"Livrez 3 conserves de pêches au miel dans la boîte de dépôt de la cuisine de Jodi.",
+"wildflourjams.quest3c.deliver":"Livrez 3 gelées de fraise et de rhubarbe dans la boîte de dépôt de la cuisine de Jodi.",
+
+"wildflourjams.quest4.name":"Je dois avoir ma vitamine C",
+"wildflourjams.quest4.text":"Les vitamines sont importantes pour une alimentation saine ! Je suis sûr que la vitamine C contenue dans certaines marmelade fonctionnerait de la même manière. n'est-ce pas ? D'accord.",
+"wildflourjams.quest4a.deliver":"Livrez 2 marmelades aux trois agrumes dans la boîte de dépôt de la cuisine de Lewis.",
+"wildflourjams.quest4b.deliver":"Livrez 2 marmelades au citron vert dans la boîte de dépôt de la cuisine de Lewis.",
+"wildflourjams.quest4c.deliver":"Livrez 2 marmelades d'orange estivales dans la boîte de dépôt de la cuisine de Lewis.",
+"wildflourjams.quest4d.deliver": "Livrez 2 marmelades printanières au citron dans la boîte de dépôt de la cuisine de Lewis.",
+
+"wildflourjams.quest5.name":"Défi du maître conserveur",
+"wildflourjams.quest5.text":"C'est à nouveau cette période de l'année - les candidatures annuelles pour le rôle de Master Canner sont ouvertes ! Envoyez-nous vos meilleures confitures et gelées pour voir si vous pouvez gagner le grand prix !",
+"wildflourjams.quest5.ship":"Expédiez 100 confitures spéciales.",
+
+//JAMS REPEATABLE NEW
+
+"wildflourjams.quest6.name":"Confitures pour Linus",
+"wildflourjams.quest6.text":"J'adorerais avoir des fruits en conserve pour profiter de la générosité de la nature une fois l'hiver arrivé...",
+"wildflourjams.quest6.deliver":"Livrez 3 confitures à Linus.",
+"wildflourjams.quest6.accept":"Comme c'est beau. Maintenant, je vais pouvoir profiter des cadeaux de la nature même au plus profond de l'hiver. Merci, mon ami.",
+
+"wildflourjams.quest7.name":"Des confitures pour Penny",
+"wildflourjams.quest7.text":"Maman et moi adorons manger une bonne confiture avec notre petit-déjeuner. Quelqu'un peut-il nous livrer quelques saveurs intéressantes ?",
+"wildflourjams.quest7.deliver":"Livrez 5 confitures à Penny.",
+"wildflourjams.quest7.accept":"Elles iront parfaitement avec nos pancakes du dimanche ! Merci beaucoup !",
+
+"wildflourjams.quest8.name":"Confitures pour Clint",
+"wildflourjams.quest8.text":"J'aimerais approvisionner mon garde-manger avec des ingrédients plus gourmands. J'aime la gelée, c'est peut-être un bon point de départ ?",
+"wildflourjams.quest8.deliver":"Livrez 10 confitures à Clint.",
+"wildflourjams.quest8.accept":"Qu'est-ce que je vais faire de toute cette confiture ? Je ne sais pas encore, mais c'est sûr que ça a l'air bien dans ma cuisine. Merci.",
+
+//MEADS
+
+"wildflourmeads.quest1.name":"En besoin d'hydromel",
+"wildflourmeads.quest1.text":"Je veux essayer quelque chose de différent de ma bière habituelle au saloon. J'ai entendu dire que l'hydromel est plutôt bon... quelqu'un peut-il m'en apporter pour essayer ?",
+"wildflourmeads.quest1.deliver":"Livrez 3 hydromels à l'abricot à Shane.",
+"wildflourmeads.quest1.accept":"Fabriqué à partir de miel fermenté, hein ? Sauvage. Eh bien, il est certainement plus beau que ma vieille pinte de bière ennuyeuse.",
+
+"wildflourmeads.quest2.name":"Hydromel pour réchauffer les os",
+"wildflourmeads.quest2.text":"J'adorerais profiter de l'hydromel en pêchant tranquillement dans la fraîcheur de l'après-midi d'automne. ",
+"wildflourmeads.quest2.deliver":"Livrez 3 hydromels à la grenade à Willy.",
+"wildflourmeads.quest2.accept":"J'aime bien l'hydromel ; des points bonus pour celui qui a un peu de saveur de fruits frais comme celui-ci !",
+
+"wildflourmeads.quest3.name":"Soirée d'été",
+"wildflourmeads.quest3.text":"J'ai convaincu Gus que nous devrions avoir des spéciaux d'été au Saloon ! De l'hydromel local serait parfait pour notre nouveau menu de saison.",
+"wildflourmeads.quest3a.deliver":"Livrez 3 hydromels de melon d'été au réfrigérateur de Gus dans le saloon.",
+"wildflourmeads.quest3b.deliver":"Livrez 3 hydromels Starfruit Skies au réfrigérateur de Gus dans le Saloon.",
+"wildflourmeads.quest3c.deliver":"Livrez 3 hydromels de cordonnier aux myrtilles au réfrigérateur de Gus dans le saloon.",
+"wildflourmeads.quest3d.deliver":"Livrez 3 hydromels tropicaux à la noix de coco au réfrigérateur de Gus dans le saloon.",
+
+"wildflourmeads.quest4.name":"Spice Girls",
+"wildflourmeads.quest4.text":"Besoin d'hydromel pour une soirée entre filles avec mes amis !",
+"wildflourmeads.quest4a.deliver":"Livrez 3 hydromels épicés dans la boîte de dépôt de la maison de Leah.",
+"wildflourmeads.quest4b.deliver":"Livrez 3 hydromels aux canneberges acidulées dans la boîte de dépôt de la maison de Leah.",
+"wildflourmeads.quest4c.deliver":"Livrez 3 hydromels de boisseau de mûres dans la boîte de dépôt de la maison de Leah.",
+"wildflourmeads.quest4d.deliver":"Livrez 3 hydromels croquants aux pommes dans la boîte de dépôt de la maison de Leah.",
+
+"wildflourmeads.quest5.name":"Défi Maître brasseur d'hydromel",
+"wildflourmeads.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le rôle de Master Mead Brewer sont ouvertes ! Envoyez-nous vos meilleurs hydromels pour voir si vous pouvez gagner le grand prix !",
+"wildflourmeads.quest5.ship":"Expédier 100 hydromels de qualité or.",
+
+//MEADS REPEATABLE NEW
+
+"wildflourmeads.quest6.name":"Hydromel pour Pam",
+"wildflourmeads.quest6.text":"Vous cherchez de l'hydromel à la place de ma bière blonde habituelle.",
+"wildflourmeads.quest6.deliver":"Livrez 2 hydromels à Pam.",
+"wildflourmeads.quest6.accept":"Rien de tel que d'ajouter un peu de variété pour pimenter les choses, n'est-ce pas ? Merci beaucoup, mon ami.",
+
+"wildflourmeads.quest7.name":"Hydromel pour Robin",
+"wildflourmeads.quest7.text":"Je voudrais de l'hydromel à déguster en famille autour d'un bon dîner.",
+"wildflourmeads.quest7.deliver":"Livrez 4 hydromels à Robin.",
+"wildflourmeads.quest7.accept":"Parfois, vous voulez juste rendre le dîner familial un peu plus spécial, et cela devrait faire l'affaire. Merci beaucoup !",
+
+"wildflourmeads.quest8.name":"Hydromel pour Gus",
+"wildflourmeads.quest8.text":"Les hydromels sont un grand succès ! Mais je n'ai pas encore de fournisseur... quelqu'un peut-il m'aider ?",
+"wildflourmeads.quest8.deliver":"Livrez 8 hydromels à Gus.",
+"wildflourmeads.quest8.accept":"Tu devrais peut-être juste être mon fournisseur, hein ? Merci encore !",
+
+//PANTRY
+
+"wildflourpantry.quest1.name":"Dans une confiture",
+"wildflourpantry.quest1.text":"Caroline a commencé à cuisiner tout le temps et je veux lui offrir quelque chose pour accompagner ses friandises.",
+"wildflourpantry.quest1a.deliver":"Livrez du Lemon Curd Gourmet à Pierre.",
+"wildflourpantry.quest1b.deliver":"Livrez le beurre de potiron fermier à Pierre.",
+"wildflourpantry.quest1c.deliver":"Livrez du beurre de miel fermier à Pierre.",
+"wildflourpantry.quest1d.deliver":"Livrez du caillé de citron vert gastronomique à Pierre.",
+"wildflourpantry.quest1.accept":"Ceux-ci complèteront parfaitement ses gâteaux et biscuits ! J'ai hâte de la surprendre avec.",
+
+"wildflourpantry.quest2.name":"Vous avez du lait ?",
+"wildflourpantry.quest2.text":"Beaucoup de patients que je vois sont intolérants au lactose mais je ne connais pas grand-chose aux laits alternatifs. Quelqu'un peut-il m'en apporter quelques sortes différentes pour que je puisse les tester moi-même ?",
+"wildflourpantry.quest2a.deliver":"Livrez 2 laits d'amande dans la boîte de dépôt de la clinique Harvey.",
+"wildflourpantry.quest2b.deliver":"Livrez 2 laits de riz à la boîte de dépôt de la clinique Harvey.",
+"wildflourpantry.quest2c.deliver":"Livrez 2 laits de coco dans la boîte de dépôt de la clinique Harvey.",
+"wildflourpantry.quest2d.deliver":"Livrez 2 laits de noisette à la boîte de dépôt de la clinique Harvey.",
+
+"wildflourpantry.quest3.name":"Nouvelles protéines nécessaires !",
+"wildflourpantry.quest3.text":"J'ai entendu dire que les noix sont une bonne source de protéines, en particulier dans les smoothies ! Je veux en essayer plusieurs sortes dans mes shakes protéinés du matin.",
+"wildflourpantry.quest3.deliver": "Livrez 10 beurres de noix artisanaux dans la Drop Box de la maison d'Alex.",
+
+"wildflourpantry.quest4.name":"Créer une tempête",
+"wildflourpantry.quest4.text":"Evelyn cuisine tellement que nous manquons constamment de farine ! Peut-être qu'elle aimerait cuisiner avec de nouvelles sortes de farines ?",
+"wildflourpantry.quest4.deliver":"Livrez 10 farines spéciales dans la boîte de dépôt de la maison de George.",
+
+"wildflourpantry.quest5.name":"Défi Maître Artisan",
+"wildflourpantry.quest5.text":"C'est à nouveau cette période de l'année - les candidatures annuelles pour le rôle de maître artisan sont ouvertes ! Envoyez-nous vos ingrédients les plus de haute qualité pour voir si vous pouvez gagner le grand prix !",
+"wildflourpantry.quest5.ship":"Expédier 100 marchandises de garde-manger de qualité or.",
+
+//PANTRY REPEATABLE NEW
+
+"wildflourpantry.quest6.name":"Extrait pour Evelyn",
+"wildflourpantry.quest6.text":"Je n'ai plus d'extrait de vanille ! Je ne peux pas cuisiner sans ça...",
+"wildflourpantry.quest6.deliver":"Livrez 3 extraits de vanille à Evelyn.",
+"wildflourpantry.quest6.accept":"Pouvez-vous imaginer faire des cookies sans vanille ? Absolument hors de question. Merci de les avoir apportés, ma chérie.",
+
+"wildflourpantry.quest7.name":"Huile d'olive pour Abigail",
+"wildflourpantry.quest7.text":"Je veux essayer de nouvelles recettes de cuisine, mais j'ai besoin d'huile d'olive pour le faire. Quelqu'un peut-il m'aider ?",
+"wildflourpantry.quest7.deliver":"Livrez 5 huiles d'olive spéciales à Abigail.",
+"wildflourpantry.quest7.accept":"Merci ! J'ai lu que j'avais besoin de beaucoup d'huile d'olive pour faire de la focaccia, donc cela me fait gagner beaucoup de temps et d'efforts.",
+
+"wildflourpantry.quest8.name":"Du chocolat pour Gus",
+"wildflourpantry.quest8.text":"Mon fournisseur de chocolat m'a annulé à la dernière minute ! Quelqu'un peut-il me livrer ce dont j'ai besoin ?",
+"wildflourpantry.quest8.deliver":"Livrez 9 chocolats à Gus.",
+"wildflourpantry.quest8.accept":"Le menu du saloon ne serait tout simplement pas le même sans le gâteau au chocolat spécial de Gus ! Vous m'avez vraiment aidé ; merci.",
+
+//TEA
+
+"wildflourtea.quest1.name":"Stock de sachets",
+"wildflourtea.quest1.text":"Je n'ai plus mon mélange de thé fait maison ! Quelqu'un peut-il me déposer des sachets pour passer la semaine ?",
+"wildflourtea.quest1a.deliver":"Livrez 2 sachets de thé épicé à la cannelle à Caroline.",
+"wildflourtea.quest1b.deliver":"Livrez 2 sachets de thé Merry Mint à Caroline.",
+"wildflourtea.quest1c.deliver":"Livrez 2 sachets de thé Lady Grey à Caroline.",
+"wildflourtea.quest1.accept":"Quelle belle variété de saveurs vous avez apportée ! Cela va certainement pimenter l'heure du thé pour moi.",
+
+"wildflourtea.quest2.name":"Tea Party",
+"wildflourtea.quest2.text":"Je reçois des dames pour du thé et des scones, mais je veux avoir une variété de saveurs parmi lesquelles choisir ! Quelqu'un peut-il m'aider ?",
+"wildflourtea.quest2a.deliver":"Livrez 2 thés Sakura dans la boîte de dépôt dans la cuisine d'Evelyn.",
+"wildflourtea.quest2b.deliver":"Livrez 2 thés aux pétales de rose dans la boîte de dépôt dans la cuisine d'Evelyn.",
+"wildflourtea.quest2c.deliver":"Livrez 2 thés anglais pour le petit-déjeuner dans la boîte de dépôt de la cuisine d'Evelyn.",
+
+"wildflourtea.quest3.name":"Apportez le Booch",
+"wildflourtea.quest3.text":"J'ai entendu Abigail et Sebby parler de la qualité du kombucha pour vous... quelqu'un peut-il m'en apporter pour que je puisse voir par moi-même ?",
+"wildflourtea.quest3a.deliver":"Livrez 2 kombuchas aux pommes d'automne dans la boîte de dépôt de l'atelier de Robin.",
+"wildflourtea.quest3b.deliver":"Livrez 2 kombuchas framboise-citron dans la boîte de dépôt de l'atelier de Robin.",
+"wildflourtea.quest3c.deliver":"Livrez 2 kombuchas à la fraise des bois dans la boîte de dépôt de l'atelier de Robin.",
+"wildflourtea.quest3d.deliver":"Livrez 2 kombuchas vert grenade dans la boîte de dépôt de l'atelier de Robin.",
+
+"wildflourtea.quest4.name": "Thé pour dormir",
+"wildflourtea.quest4.text":"Je suis épuisé et j'aimerais bien dormir. Quelqu'un peut-il m'apporter des tisanes apaisantes pour m'aider ?",
+"wildflourtea.quest4a.deliver":"Livrez 3 sachets de thé à la camomille dans la boîte de dépôt de la cuisine de Jodi.",
+"wildflourtea.quest4b.deliver":"Livrez 3 sachets de thé à la menthe joyeuse dans la boîte de dépôt dans la cuisine de Jodi.",
+"wildflourtea.quest4c.deliver":"Livrez 3 sachets de thé à la vanille Calico dans la boîte de dépôt dans la cuisine de Jodi.",
+"wildflourtea.quest4d.deliver":"Livrez 3 sachets de thé au citron et au gingembre dans la boîte de dépôt de la cuisine de Jodi.",
+
+"wildflourtea.quest5.name":"Défi du maître brasseur de thé",
+"wildflourtea.quest5.text":"C'est encore cette période de l'année - les candidatures annuelles pour le rôle de maître brasseur de thé sont ouvertes ! Envoyez-nous vos meilleurs thés pour voir si vous pouvez gagner le grand prix !",
+"wildflourtea.quest5.ship":"Expédier 100 produits de thé de qualité Or.",
+
+//TEA REPEATABLE NEW
+
+"wildflourtea.quest6.name":"Kombucha pour Alex",
+"wildflourtea.quest6.text":"Pierre ne portera pas de kombucha peu importe ce que je lui demande. Comment vais-je l'obtenir maintenant ?",
+"wildflourtea.quest6.deliver":"Livrez 4 kombucha à Alex.",
+"wildflourtea.quest6.accept":"VOUS AVEZ APPORTÉ LE BOOCH ! Merci de les avoir déposés.",
+
+"wildflourtea.quest7.name":"Thé pour Haley",
+"wildflourtea.quest7.text":"C'est tellement fatigant de commander mon thé en ligne ; comment puis-je savoir qu'il est de haute qualité si je ne peux même pas le voir ? Peut-être que quelqu'un en ville pourrait me vendre des thés à la place..." ,
+"wildflourtea.quest7.deliver":"Livrez 6 thés à Haley.",
+"wildflourtea.quest7.accept":"Ces thés sont absolument ravissants. Je vais en profiter - merci encore !",
+
+"wildflourtea.quest8.name":"Sachets pour Sandy",
+"wildflourtea.quest8.text":"Je veux faire un grand pichet de thé glacé pour me rafraîchir ici dans le désert. Quelqu'un peut-il me livrer des sachets ?",
+"wildflourtea.quest8.deliver":"Livrez 8 sachets à Sandy.",
+"wildflourtea.quest8.accept":"Maintenant, je n'aurai plus l'impression de fondre dans la chaleur du désert ! Merci, mon ami.",
+
+//WILD FOOD
+
+"wildflourwildfood.quest1.name":"Rêves de calicot",
+"wildflourwildfood.quest1.text":"J'ai entendu parler d'une orchidée qui ne fleurit dans le désert de Calico qu'à certaines saisons. Quelqu'un peut-il m'en apporter quelques-unes pour que je puisse les sécher et les garder dans ma tente ?",
+"wildflourwildfood.quest1.deliver":"Livrez 3 calicot vanille à Linus.",
+"wildflourwildfood.quest1.accept":"Oh comme j'adore le désert de Calico. Après avoir séché ces orchidées, je pourrai toujours profiter d'un peu du désert ici, à la maison.",
+
+"wildflourwildfood.quest2.name":"Un boisseau et un bisou",
+"wildflourwildfood.quest2.text":"Je n'ai plus de baies et je veux désespérément faire une tarte au chocolat et aux baies. Quelqu'un peut-il m'aider ?",
+"wildflourwildfood.quest2a.deliver":"Livrez 4 fraises des bois à la Drop Box dans la maison de Leah.",
+"wildflourwildfood.quest2b.deliver":"Livrez 4 framboises sauvages dans la Drop Box de la maison de Leah.",
+
+"wildflourwildfood.quest3.name":"A le goût du poulet",
+"wildflourwildfood.quest3.text":"Scientifique à la recherche de divers champignons pour trouver les meilleures options de remplacement de la viande dans la vallée.",
+"wildflourwildfood.quest3.deliver":"Livrez 15 champignons dans la boîte de dépôt du laboratoire de Demetrius.",
+
+"wildflourwildfood.quest4.name":"Fleurs du désert",
+"wildflourwildfood.quest4.text":"Le désert est joli à sa manière, mais certaines de ces fleurs sauvages de la forêt qui ne fleurissent que dans la vallée me manquent ! Quelqu'un peut-il m'en apporter ?",
+"wildflourwildfood.quest4a.deliver":"Livrez 5 lavandes forestières dans la boîte de dépôt de la boutique de Sandy.",
+"wildflourwildfood.quest4b.deliver":"Livrez 5 camomilles des forêts dans la boîte de dépôt de la boutique de Sandy.",
+
+"wildflourwildfood.quest5.name":"Défi du maître-cueilleur",
+"wildflourwildfood.quest5.text":"C'est à nouveau cette période de l'année - les candidatures annuelles pour le rôle de maître butineur sont ouvertes ! Envoyez-nous votre meilleur fourrage pour voir si vous pouvez gagner le grand prix !",
+"wildflourwildfood.quest5.ship":"Expédier 100 fourrages de qualité Or.",
+
+//WILD FOOD REPEATABLE NEW
+
+"wildflourwildfood.quest6.name":"Champignons pour Maru",
+"wildflourwildfood.quest6.text":"J'ai besoin de champignons frais pour une expérience mais je suis tellement occupé à la clinique. Y a-t-il une chance que quelqu'un ait un supplément à partager ?",
+"wildflourwildfood.quest6.deliver":"Livrez 5 champignons sauvages à Maru.",
+"wildflourwildfood.quest6.accept":"Ceux-ci ont l'air parfaits ! Merci beaucoup, vous m'avez épargné beaucoup de travail.",
+
+"wildflourwildfood.quest7.name":"Fruit pour Gus",
+"wildflourwildfood.quest7.text":"Ma cargaison de fruits frais n'est jamais arrivée et je dois faire des cocktails pour le saloon ! Que vais-je faire maintenant ?",
+"wildflourwildfood.quest7.deliver":"Livrez 6 fruits sauvages à Gus.",
+"wildflourwildfood.quest7.accept":"Mes cocktails seront extraordinaires avec ces jolis fruits ! Merci encore.",
+
+"wildflourwildfood.quest8.name":"Herbes pour Evelyn",
+"wildflourwildfood.quest8.text":"Je n'ai plus d'herbes et j'en ai besoin pour ma cuisine ! Quelqu'un peut-il m'aider ?",
+"wildflourwildfood.quest8.deliver":"Livrez 8 herbes sauvages à Evelyn.",
+"wildflourwildfood.quest8.accept":"Cuisiner avec des herbes est essentiel ! Merci de les avoir apportées."
+
+}

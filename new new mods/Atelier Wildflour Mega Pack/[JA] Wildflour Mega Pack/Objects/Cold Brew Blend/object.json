@@ -1,0 +1,25 @@
+{
+    "Name": "wf cold blend",
+    "Description": "...",
+    "TranslationKey":"cold-blend",
+    "Category": "ArtisanGoods",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+         "Love": ["Harvey"],
+		 "Like": ["Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Jodi", "Kent", "Leah", "Lewis", "Marnie", "Maru", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Willy"],
+		 "Dislike": ["Alex", "Dwarf", "Krobus", "Linus", "Pam", "Wizard"],
+		 "Hate": ["Jas", "Vincent","Leo"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+	"ContextTags":
+        [
+		"wildflour_coffee",
+		"ground_coffee_item",
+		"color_brown"
+		],
+}

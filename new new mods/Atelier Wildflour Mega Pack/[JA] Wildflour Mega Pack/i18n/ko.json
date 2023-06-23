@@ -1,0 +1,2646 @@
+{
+
+//ALES i18N BEGIN--------------------------------------------------------------------------------------------------------------------------------
+"ale-keg.name": "맥주용 양조통",
+"ale-keg.description": "다양한 향의 맥주를 제조하기 위한 맥주 전용 술통",
+
+
+//BASE GAME ALES
+
+
+"ancient-ale.name": "고대열매 라거",
+"ancient-ale.description": "신비하고, 마법 같으며 맛있습니다.",
+
+"apple-ale.name": "사과 필스너",
+"apple-ale.description": "낙엽처럼 바삭하면서도 신선합니다.",
+
+"apricot-ale.name": "살구 에일",
+"apricot-ale.description": "산뜻하면서도 옅은 단맛이 도는, 봄을 위한 완벽한 에일.",
+
+"banana-ale.name": "바나나 오트밀 스타우트",
+"banana-ale.description": "바나나를 넣은 빵 한 조각처럼, 달콤하고 따뜻합니다.",
+
+"blackberry-ale.name": "블랙베리 스타우트",
+"blackberry-ale.description": "여름 최고의 블랙베리가 듬뿍 들어간 묵직한 맛의 맥주.",
+
+"blueberry-ale.name": "블루베리 에일",
+"blueberry-ale.description": "갓 구운 블루베리 코블러를 연상시키는 달콤한 맥주.",
+
+"cactus-ale.name": "선인장 에일",
+"cactus-ale.description": "칼리코 사막의 특별한 제조법으로 만들었습니다.",
+
+"cherry-ale.name": "체리 레드 에일",
+"cherry-ale.description": "산미와 달콤한 맛이 완벽하게 균형을 이루는 에일.",
+
+"coconut-ale.name": "코코넛 밀크 스타우트",
+"coconut-ale.description": "피냐 콜라다를 좋아하지만, 데킬라를 마시기 힘들다면 이 술이 당신에게 적절할 겁니다.",   
+
+"cranberry-ale.name": "크랜베리 페일에일",
+"cranberry-ale.description": "휴일 저녁 식사에 반주로 곁들이기 좋습니다.", 
+
+"crystal-ale.name": "수정과일 라거",
+"crystal-ale.description": "갓 내린 눈처럼 시원하고 상쾌한 에일.", 
+
+"mango-ale.name": "망고 라거",
+"mango-ale.description": "거스가 진저 섬 리조트에서 판매하는 공식 맥주입니다.", 
+
+"melon-ale.name": "멜론 페일에일",
+"melon-ale.description": "뜨거운 여름, 더위를 식히기엔 이 에일이 최고입니다!", 
+
+"orange-ale.name": "오렌지 필스너",
+"orange-ale.description": "어쩐지 오렌지 하드 아이스크림을 떠올리게 하네요.", 
+
+"peach-ale.name": "복숭아 스타우트",
+"peach-ale.description": "복숭아와 크림이 어우러진 듯한 달콤한 맛을 자랑합니다.", 
+
+"pineapple-ale.name": "파인애플 페일에일",
+"pineapple-ale.description": "여름 오후의 해변에서 마시기 좋습니다.", 
+
+"pomegranate-ale.name": "석류 에일",
+"pomegranate-ale.description": "달콤하면서도 산미가 돌고, 전설에 따르면 페르세포네가 가장 좋아한 술이라고 합니다.", 
+
+"pumpkin-ale.name": "호박 사워 에일",
+"pumpkin-ale.description": "호박, 향신료, 메이플 시럽에 맥주... 누가 사랑하지 않겠어요?", 
+
+"salmonberry-ale.name": "새먼베리 에일",
+"salmonberry-ale.description": "남아도는 새먼베리를 전부 쓸 수 있는 새로운 방법입니다.", 
+
+"spiced-ale.name": "스파이스드 포터",
+"spiced-ale.description": "베리류는 보통 여름에 수확되지만, 이 따뜻하고 향신료를 더한 맥주는 선선해지는 가을에 선물하는 게 제일 좋겠습니다.", 
+
+"starfruit-ale.name": "스타후르츠 에일",
+"starfruit-ale.description": "여름의 루아우에 완벽하게 어울릴 황금빛 에일입니다.", 
+
+"strawberry-ale.name": "딸기 포터",
+"strawberry-ale.description": "딸기 쇼트케이크 같은 맛을 거부할 수 있는 사람은 없죠.", 
+
+"gem-ale.name": "보석베리 에일",
+"gem-ale.description": "늙은 마스터 카놀리가 제일 좋아하는 음료입니다.", 
+
+"plum-ale.name": "야생자두 스타우트",
+"plum-ale.description": "빨리 마시지 않으면 말라버릴 겁니다!", 
+
+//PPJA ALES
+
+"dragon-ale.name": "용과 에일",
+"dragon-ale.description": "칼리코 사막에서 막 만들어낸 여름철 에일.",
+
+"fig-ale.name": "무화과 스타우트",
+"fig-ale.description": "무화과 푸딩, 그리고 겨울 별 축제 음악과 잘 어울립니다.", 
+
+"grapefruit-ale.name": "자몽 페일에일",
+"grapefruit-ale.description": "상큼하고, 시트러스한 풍피의 페일에일.", 
+
+"lemon-ale.name": "레몬 바이스비어",
+"lemon-ale.description": "레몬에이드를 떠올리지만, 더 맛있습니다!", 
+
+"lime-ale.name": "라임 바이스비어",
+"lime-ale.description": "여름에 마시기 좋은, 완벽하게 대담한 시트러스 풍미의 맥주.", 
+
+"lychee-ale.name": "리치 에일",
+"lychee-ale.description": "달콤하고, 약간의 꽃 향기와 산미가 납니다.", 
+
+"papaya-ale.name": "파파야 에일",
+"papaya-ale.description": "샌디가 직접 개발한 특별한 에일 종류 중 하나입니다.",
+
+"pear-ale.name": "서양배 필스너",
+"pear-ale.description": "가볍고 산뜻한 산미의 맥주.", 
+
+"persimmon-ale.name": "감 에일",
+"persimmon-ale.description": "꿀과 멜론을 연상시키는 섬세한 맛의 에일.", 
+
+"pomelo-ale.name": "포멜로 에일",
+"pomelo-ale.description": "자몽과 비슷하지만, 좀 더 달콤합니다.", 
+
+//WILD FOOD ALES
+
+"vanilla-ale.name": "바닐라 스타우트",
+"vanilla-ale.description": "선선한 저녁, 몸을 따뜻하게 데워주는 달콤하고 따끈한 에일.", 
+
+"petitelemon-ale.name": "레몬 스타우트",
+"petitelemon-ale.description": "바이스비어와 달리, 이 에일의 레몬 풍미는 크림처럼 달콤해서 디저트 같습니다.", 
+
+"petitelime-ale.name": "라임 스타우트",
+"petitelime-ale.description": "바이스비어와 달리, 이 에일의 라임 풍미는 크림처럼 달콤해서 디저트 같습니다.", 
+
+"wildraspberry-ale.name": "야생 라즈베리 에일",
+"wildraspberry-ale.description": "갓 수확한 라즈베리로 만든 에일; 진정한 여름 간식.", 
+
+"wildstrawberry-ale.name": "야생 딸기 에일",
+"wildstrawberry-ale.description": "갓 수확한 딸기로 만든 에일; 진정한 봄의 간식", 
+
+//PIXIE FORAGE ALES
+
+"pixie-apple-ale.name": "요정의 사과 에일",
+"pixie-apple-ale.description": "추분을 기념하여 펀길 공화국의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-apricot-ale.name": "요정의 살구 에일",
+"pixie-apricot-ale.description": "춘분을 기념하여 펀길 공화국의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-banana-ale.name": "요정의 바나나 에일",
+"pixie-banana-ale.description": "하지를 기념하여 진저 섬의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-cherry-ale.name": "요정의 체리 에일",
+"pixie-cherry-ale.description": "춘분을 기념하여 진저 섬의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-mango-ale.name": "요정의 망고 에일",
+"pixie-mango-ale.description": "하지를 기념하여 진저 섬의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-orange-ale.name": "요정의 오렌지 에일",
+"pixie-orange-ale.description": "하지를 기념하여 진저 섬의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-peach-ale.name": "요정의 복숭아 에일",
+"pixie-peach-ale.description": "하지를 기념하여 진저 섬의 요정족이 양조한 특별한 에일입니다.",
+
+"pixie-pomegranate-ale.name": "요정의 석류 에일",
+"pixie-pomegranate-ale.description": "추분을 기념하여 진저 섬의 요정족이 양조한 특별한 에일입니다.",
+
+
+//BAKERY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+
+	//CAKES
+
+	"carrot-cake.name":"봄꽃 당근 케이크",
+	"carrot-cake.description":"이 당근 케이크는 사랑스럽고 신선한 봄꽃으로 장식되어 있습니다-때문에 올해의 달걀 축제와 완벽하게 어울리죠!",
+
+	"chocolate-cake.name":"초콜릿 체리 레이어 케이크",
+	"chocolate-cake.description":"풍부한 초콜릿과 갓 딴 체리로 만든 달콤한 레이어 케이크.",
+
+	"chocolate-cupcake.name": "초콜릿 라즈베리 컵케이크",
+	"chocolate-cupcake.description": "라즈베리 잼으로 채운 풍부한 초콜릿 맛의 컵케이크.",
+
+	"coconut-cake.name":"코코넛 아몬드 레이어 케이크",
+	"coconut-cake.description":"아몬드 프로스팅이 들어간 가볍고 폭신폭신한 코코넛 케이크.",
+
+	"confetti-cake.name":"컨페티 케이크",
+	"confetti-cake.description":"바닐라 프로스팅이 들어간 바닐라 케이크에 레인보우 스프링클을 듬뿍 얹었습니다!",
+
+	"gingerbread-cake.name":"진저 브레드 롤케이크",
+	"gingerbread-cake.description":"멋진 연휴 디저트로 제격인 크림 바닐라 프로스팅과 함께 둥글게 만 풍부한 맛의 진저 케이크.",
+
+	"lemon-cake.name":"레몬 쉬폰 케이크",
+	"lemon-cake.description":"작은 레몬과 달콤한 크림이 봄의 파티에 완벽히 어울리는 부드러운 케이크로 탄생합니다.",
+
+	"peach-cake.name":"피치 앤 크림 케이크",
+	"peach-cake.description":"갓 딴 여름 복숭아가 섬세한 바닐라 스펀지 케이크로 만들졌습니다.",
+
+	"hummingbird-cake.name":"허밍버드 케이크",
+	"hummingbird-cake.description":"신선한 파인애플과 견과류로 채워진 따뜻하고 향긋한 케이크!",
+
+	"pumpkin-cake.name":"펌킨 스파이스 롤케이크",
+	"pumpkin-cake.description":"계절 인기 메뉴: 크림 치즈 프로스팅과 둥글게 말아서 만든 풍부한 맛의 호박 케이크.",
+
+	"redvelvet-cake.name":"레드벨벳 롤케이크",
+	"redvelvet-cake.description":"식용 색소 함량 0%: 이 고전적인 케이크는 옛날 방식대로 사탕무로 색을 냈습니다!",
+
+	"strawberry-cake.name":"딸기 생크림 케이크",
+	"strawberry-cake.description":"신선한 딸기와 생크림이 듬뿍 들어간 가벼운 바닐라 스펀지 케이크.",
+
+	"strawberry-cupcake.name":"작고 달콤한 딸기 컴케이크",
+	"strawberry-cupcake.description":"딸기 프로스팅을 얹은 사랑스럽고 자그만 딸기 케이크.",
+
+	"vanilla-cupcake.name":"작고 달콤한 바닐라 컵케이크",
+	"vanilla-cupcake.description":"바닐라 프로스팅을 얹은 사랑스럽고 자그만 바닐라 케이크.",
+
+	//MUFFINS
+
+	"apple-muffin.name":"애플 시나몬 머핀",
+	"apple-muffin.description":"사과와 시나몬은 이 머핀을 바삭바삭하고 완벽한 가을 아침 식사로 만듭니다.",
+
+	"banana-muffin.name":"바나나 넛츠 머핀",
+	"banana-muffin.description":"이 머핀은 잘 익은 바나나를 으깨 넣어 매우 달콤합니다.",
+
+	"cinnamon-muffin.name":"시나몬 머핀",
+	"cinnamon-muffin.description":"신선한 커피 한 잔과 함께 즐기는 최고의 클래식 머핀.",
+
+	"cornbread-muffin.name":"버터 콘브레드 머핀",
+	"cornbread-muffin.description":"버터가 듬뿍 들어간 진한 맛의 머핀은 스프나 거의 대부분의 것들과 잘 어울립니다!",
+
+	"lemonberry-muffin.name":"레몬베리 머핀",
+	"lemonberry-muffin.description":"작은 레몬과 블루베리. 이 머핀이 신선한 과일 맛으로 가득 차 있다는 뜻이죠!",
+
+	"pumpkin-muffin.name":"펌킨 스파이스 라떼 머핀",
+	"pumpkin-muffin.description":"시나몬과 에스프레소 파우더를 첨가한 호박 머핀.",
+
+	"rhubarb-muffin.name":"딸기 루바브 머핀",
+	"rhubarb-muffin.description":"대황과 딸기로 채운 가볍고 부드러운 머핀.",
+
+	//SCONES
+
+	"blackberry-scone.name":"블랙베리 라임 스콘",
+	"blackberry-scone.description":"작은 라임의 향이 블랙베리의 신선한 맛을 정말 돋보이게 하네요!",
+
+	"blueberry-scone.name":"블루베리 크림 스콘",
+	"blueberry-scone.description":"신선한 블루베리로 가득한 부드럽고 잘 부스러지는 스콘.",
+
+	"cinnamon-scone.name":"시나몬 건포도 스콘",
+	"cinnamon-scone.description":"시나몬과 건포도로 채운 부드럽고 잘 부스러지는 아침 식사로 안성맞춤인 스콘!",
+
+	"peach-scone.name":"피치 허니 스콘",
+	"peach-scone.description":"이 스콘은 복숭아 코블러 맛이 나지만, 손에 들고 먹을 수 있다는 점이 훨씬 좋습니다!",
+
+	"pistachio-scone.name":"피스타치오 스콘",
+	"pistachio-scone.description":"으깬 피스타치오를 채워넣은 부드럽고 잘 부스러지는 스콘입니다.",
+
+	"pumpkin-scone.name":"메이플 호박 스콘",
+	"pumpkin-scone.description":"호박과 메이플 시럽으로 맛을 낸 스콘. 가을의 매력적인 간식입니다.",
+
+	"raspberry-scone.name":"라즈베리 바닐라 스콘",
+	"raspberry-scone.description":"바닐라빈이 이 라즈베리 스콘을 더욱 거부할 수 없게 만들어요!",
+
+	"strawberry-scone.name":"딸기 쇼트케이크 스콘",
+	"strawberry-scone.description":"반으로 갈라 딸기와 크림으로 채운 쇼트케이크 스타일의 스콘!",
+
+	//CHEESECAKE
+
+	"blueberry-cheesecake.name":"블루베리 조각 치즈케이크",
+	"blueberry-cheesecake.description":"달콤한 블루베리 잼을 얹은 치즈 케이크 한 조각.",
+
+	"cherry-cheesecake.name":"체리 조각 치즈케이크",
+	"cherry-cheesecake.description":"달콤한 체리 잼을 얹은 치즈 케이크 한 조각.",
+
+	"classic-cheesecake.name":"클래식 조각 치즈케이크",
+	"classic-cheesecake.description":"클래식 조각 치즈케이크, 크리미하고 맛있습니다!",
+
+	"cookie-cheesecake.name":"쿠앤크 조각 치즈케이크",
+	"cookie-cheesecake.description":"초콜릿 크림 쿠키를 곁들인 치즈 케이크.",
+
+	"lemon-cheesecake.name":"레몬 조각 치즈케이크",
+	"lemon-cheesecake.description":"달콤한 레몬 커드를 얹은 치즈 케이크 한 조각.",
+
+	"mango-cheesecake.name":"망고 조각 치즈케이크",
+	"mango-cheesecake.description":"달콤한 망고 잼을 얹은 치즈 케이크 한 조각.",
+
+	"mocha-cheesecake.name":"모카 조각 치즈케이크",
+	"mocha-cheesecake.description":"초콜릿과 에스프레소 파우더를 섞은 치즈 케이크 한 조각.",
+
+	"orange-cheesecake.name":"오렌지 커드 조각 치즈케이크",
+	"orange-cheesecake.description":"달콤한 오렌지 커드를 얹은 치즈 케이크 한 조각.",
+
+	"pumpkin-cheesecake.name":"펌킨 조각 치즈케이크",
+	"pumpkin-cheesecake.description":"신선한 호박과 향신료를 섞은 치즈 케이크 한 조각.",
+
+	"raspberry-cheesecake.name":"라즈베리 조각 치즈케이크",
+	"raspberry-cheesecake.description":"달콤한 라즈베리 잼을 얹은 치즈 케이크 한 조각.",
+
+	"strawberry-cheesecake.name":"스트로베리 조각 치즈케이크",
+	"strawberry-cheesecake.description":"달콤한 딸기 잼을 얹은 치즈 케이크 한 조각.",
+
+	"white-cheesecake.name":"화이트 초콜릿 라임 조각 치즈케이크",
+	"white-cheesecake.description":"화이트 초콜릿과 싱싱한 라임 껍질을 사용해 구운 치즈 케이크.",
+
+	//PETIT FOURS
+
+	"almond-petitfour.name":"아몬드 쁘띠 푸르",
+	"almond-petitfour.description":"아몬드로 맛을 낸 섬세한 파티 케이크.",
+
+	"chocohazelnut-petitfour.name":"초콜릿 헤이즐넛 쁘띠 푸르",
+	"chocohazelnut-petitfour.description":"초콜릿과 헤이즐넛으로 맛을 낸 섬세한 파티 케이크.",
+
+	"lemon-petitfour.name":"달콤한 레몬 쁘띠 푸르",
+	"lemon-petitfour.description":"신선한 레몬으로 맛을 낸 섬세한 파티 케이크.",
+
+	"matcha-petitfour.name":"말차 쁘띠 푸르",
+	"matcha-petitfour.description":"말차로 맛을 낸 섬세한 파티 케이크.",
+
+	"peach-petitfour.name":"복숭아 쁘띠 푸르",
+	"peach-petitfour.description":"갓 수확한 복숭아로 맛을 낸 섬세한 파티 케이크.",
+
+	"pistachio-petitfour.name":"피스타치오 쁘띠 푸르",
+	"pistachio-petitfour.description":"피스타치오로 맛을 낸 섬세한 파티 케이크.",
+
+	"rose-petitfour.name":"스트로베리 로즈 쁘띠 푸르",
+	"rose-petitfour.description":"딸기와 장미 젤리로 맛을 낸 섬세한 파티 케이크.",
+
+	"tiramisu-petitfour.name":"티라미수 쁘띠 푸르",
+	"tiramisu-petitfour.description":"에스프레소 파우더와 초콜릿으로 맛을 낸 섬세한 파티 케이크.",
+
+	"tresleches-petitfour.name":"트레스 레체스 쁘띠 푸르",
+	"tresleches-petitfour.description":"서로 다른 우유와 시나몬으로 맛을 낸 섬세한 파티 케이크.",
+
+	"tropical-petitfour.name":"트로피컬 쁘띠 푸르",
+	"tropical-petitfour.description":"열대 과일로 맛을 낸 섬세한 파티 케이크.",
+
+	"raspberry-petitfour.name":"라즈베리 쁘띠 푸르",
+	"raspberry-petitfour.description":"갓 딴 라즈베리로 맛을 낸 섬세한 파티 케이크.",
+
+	//PIES
+
+	"apple-pie.name":"옛날풍 사과 파이",
+	"apple-pie.description":"역 과수원에서 딴 사과로 만든 파이.",
+
+	"banana-pie.name":"옛날풍 바나나 크림 파이",
+	"banana-pie.description":"얇게 썬 바나나와 크림을 얹은 커스터드 파이.",
+
+	"blueberry-pie.name":"옛날풍 블루베리 파이",
+	"blueberry-pie.description":"갓 딴 블루베리로 만든 파이.",
+
+	"cherry-pie.name":"옛날풍 체리 파이",
+	"cherry-pie.description":"지역 과수원에서 딴 체리로 만든 파이.",
+
+	"lemon-pie.name":"옛날풍 레몬 파이",
+	"lemon-pie.description":"레몬 껍질과 레몬 커드로 만든 커스터드 파이",
+
+	"peach-pie.name":"옛날풍 복숭아 파이",
+	"peach-pie.description":"지역 과수원에서 딴 복숭아로 만든 파이.",
+
+	"lime-pie.name":"옛날풍 라임 파이",
+	"lime-pie.description":"라임 껍질과 라임 커드로 만든 커스터드 파이.",
+
+	"plum-pie.name":"옛날풍 자두 파이",
+	"plum-pie.description":"야생 자두로 만든 파이.",
+
+	"pumpkin-pie.name":"옛날풍 호박 파이",
+	"pumpkin-pie.description":"갓 수확한 호박으로 만든 파이.",
+
+	"sweetpotato-pie.name":"옛날풍 고구마 파이",
+	"sweetpotato-pie.description":"시나몬과 설탕을 넣고 졸인 고구마를 넣은 맛있는 파이.",
+
+	//TARTS
+
+	"blueberry-tart.name":"소박한 블루베리 타르트",
+	"blueberry-tart.description":"달콤한 블루베리 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"chocohazelnut-tart.name":"초콜릿 헤이즐넛 타르트",
+	"chocohazelnut-tart.description":"부드러운 초콜릿 헤이즐넛 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"lemon-tart.name":"작은 레몬 타르트",
+	"lemon-tart.description":"달콤하고 부드러운 레몬 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"mango-tart.name":"아일랜드 망고 타르트",
+	"mango-tart.description":"부드러운 망고 커스터드로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"mixberry-tart.name":"베리 몽땅 타르트",
+	"mixberry-tart.description":"다른 종류의 베리들로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"mixfruit-tart.name":"투티 프루티 타르트",
+	"mixfruit-tart.description":"무엇이든 당신이 가지고 있는 과일들로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지!",
+
+	"mintmocha-tart.name":"민트 초코 타르트",
+	"mintmocha-tart.description":"부드러운 민트 초코로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"colada-tart.name":"피냐 콜라다 타르트",
+	"colada-tart.description":"부드러운 파인애플 코코넛 커스터드로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"raspberry-tart.name":"야생 라즈베리 타르트",
+	"raspberry-tart.description":"달콤한 라즈베리 필링으로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	"summer-tart.name":"여름의 선물 타르트",
+	"summer-tart.description":"여름 최고의 과일들로 채운 바삭바삭하고 얇게 벗겨지는 타르트 생지.",
+
+	//ECLAIRS
+
+	"chocolate-eclair.name":"초콜릿 에클레어",
+	"chocolate-eclair.description":"풍부한 초콜릿 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"maple-eclair.name":"메이플 에클레어",
+	"maple-eclair.description":"풍부한 메이플 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"mocha-eclair.name":"모카 에클레어",
+	"mocha-eclair.description":"풍부한 모카 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"pistachio-eclair.name":"초콜릿 피스타치오 에클레어",
+	"pistachio-eclair.description":"달콤한 피스타치오 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"raspberry-eclair.name":"라즈베리 레몬 에클레어",
+	"raspberry-eclair.description":"새콤달콤한 라즈베리 레몬 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"strawberry-eclair.name":"딸기 치즈케이크 에클레어",
+	"strawberry-eclair.description":"달콤한 딸기와 크림치즈 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	"vanilla-eclair.name":"바닐라 에클레어",
+	"vanilla-eclair.description":"풍부한 바닐라 커스터드로 가득 채운 섬세한 페이스트리.",
+
+	//MACARONS
+
+	"almond-macaron.name":"팬시 아몬드 마카롱",
+	"almond-macaron.description":"아몬드로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"chocolatehazelnut-macaron.name":"팬시 초콜릿 헤이즐넛 마카롱",
+	"chocolatehazelnut-macaron.description":"초콜릿과 헤이즐넛으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"lavender-macaron.name":"팬시 라벤더 마카롱",
+	"lavender-macaron.description":"라벤더와 바닐라로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"lemon-macaron.name":"팬시 레몬 마카롱",
+	"lemon-macaron.description":"신선한 레몬으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"lime-macaron.name":"팬시 라임 마카롱",
+	"lime-macaron.description":"신선한 라임으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"mint-macaron.name":"팬시 민트 마카롱",
+	"mint-macaron.description":"신선한 민트로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+
+	"pistachio-macaron.name":"팬시 피스타치오 마카롱",
+	"pistachio-macaron.description":"피스타치오로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	"raspberry-macaron.name":"팬시 라즈베리 마카롱",
+	"raspberry-macaron.description":"신선한 라즈베리로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	"sakura-macaron.name":"팬시 벚꽃 마카롱",
+	"sakura-macaron.description":"벚꽃 꽃잎으로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	"strawberry-macaron.name":"팬시 딸기 마카롱",
+	"strawberry-macaron.description":"신선한 딸기로 맛을 낸 거부할 수 없는 머랭 쿠키 샌드.",
+	
+	//COOKIES
+
+	"cherryjam-cookie.name":"체리 잼 썸프린트 쿠키",
+	"cherryjam-cookie.description":"체리 잼을 가운데 얹은 버터 쿠키.",
+
+	"chocochip-cookie.name":"옛날풍 초콜릿 칩 쿠키",
+	"chocochip-cookie.description":"대표적인 쿠키 종류; 우유 한 잔과 잘 어울립니다.",
+
+	"chocosandwich-cookie.name":"클래식 초콜릿 샌드 쿠키",
+	"chocosandwich-cookie.description":"바닐라 크림을 사이에 끼워넣은 초콜릿 쿠키.",
+
+	"orangejam-cookie.name":"오렌지 잼 썸프린트 쿠키",
+	"orangejam-cookie.description":"오렌지 잼을 가운데 얹은 버터 쿠키.",
+
+	"berryjam-cookie.name":"딸기 잼 썸프린트 쿠키",
+	"berryjam-cookie.description":"딸기 잼을 가운데 얹은 버터 쿠키.",
+
+	"vanillasandwich-cookie.name":"클래식 바닐라 샌드 쿠키",
+	"vanillasandwich-cookie.description":"바닐라 크림을 사이에 끼워넣은 바닐라 쿠키.",
+
+	//BROWNIES
+
+	"creamcheese-brownie.name":"크림치즈 레이어드 브라우니",
+	"creamcheese-brownie.description":"속에 달콤한 크림 치즈 층이 있는 진한 브라우니.",
+
+	"fudgy-brownie.name":"전통적인 퍼지 브라우니",
+	"fudgy-brownie.description":"어떤 빵집에서든 필수적인 진한 풍미의 초콜릿 바 쿠키.",
+
+	"mint-brownie.name":"민트 초콜릿 레이어드 브라우니",
+	"mint-brownie.description":"속에 민트 크림을 바른 진한 브라우니.",
+
+	"nutbutter-brownie.name":"넛츠 버터 레이어드 브라우니",
+	"nutbutter-brownie.description":"속에 견과류 버터 필링을 바른 진한 브라우니.",
+
+	//BREADS
+	
+	"cinnamon-roll.name": "소박한 시나몬 롤",
+	"cinnamon-roll.description": "시나몬으로 맛을 내고 바닐라 아이싱을 얹은 달콤한 롤 빵.",
+	
+	"cranberry-bread.name": "소박한 크랜베리 호두빵",
+	"cranberry-bread.description": "말린 크랜베리와 잘게 썬 호두로 가득 채운 소박한 빵.",
+
+	"olive-bread.name": "소박한 올리브빵",
+	"olive-bread.description": "올리브를 잔뜩 넣은 소박한 빵.",
+
+	"potato-bread.name": "소박한 감자빵",
+	"potato-bread.description": "감자로 만든 빵; 구운 치즈 샌드위치를 만들기에 풍족하고 완벽한 선택!",
+
+	"pretzel.name": "소박한 프레첼",
+	"pretzel.description": "위에 가는 소금을 뿌린 대표적인 프레첼. 머스타드와 함께 먹으면 진정한 맛을 느낄 수 있습니다.",
+
+	"pumpernickel-bread.name": "소박한 호밀빵",
+	"pumpernickel-bread.description": "소박하고 살짝 달콤한 호밀빵.",
+
+	"wheat-bread.name": "소박한 통밀빵",
+	"wheat-bread.description": "전통적인 빵보다 섬유질이 많은 빵.",
+	
+	"white-bread.name": "소박한 밀빵",
+	"white-bread.description": "샌드위치를 만드는데 사용되는 대표적인 빵.",
+
+	//DOUGHNUTS
+	
+	"chocolate-doughnut.name": "초콜릿 도넛",
+	"chocolate-doughnut.description": "초콜릿 가나슈를 얹은 갓 튀긴 도넛.",
+	
+	"chocolatecream-doughnut.name": "초콜릿 크림 도넛",
+	"chocolatecream-doughnut.description": "바닐라 크림을 채우고 초콜릿 가나슈를 얹은 갓 튀긴 도넛.",
+
+	"strawberry-doughnut.name": "딸기 도넛",
+	"strawberry-doughnut.description": "딸기 프로스팅을 얹은 갓 튀긴 도넛.",
+
+	"strawberrycream-doughnut.name": "딸기 크림 도넛",
+	"strawberrycream-doughnut.description": "바닐라 크림을 채우고 딸기 프로스팅을 얹은 갓 튀긴 도넛.",
+
+	"vanilla-doughnut.name": "바닐라 도넛",
+	"vanilla-doughnut.description": "바닐라 프로스팅을 얹은 갓 튀긴 도넛.",
+
+	"vanillajelly-doughnut.name": "바닐라 젤리 도넛",
+	"vanillajelly-doughnut.description": "바닐라 프로스팅을 얹고 과일 젤리를 채운 얹은 갓 튀긴 도넛.",
+
+	//PUDDING
+	
+	"banana-pudding.name": "바나나 스플릿 푸딩",
+	"banana-pudding.description": "바나나, 딸기, 초콜릿, 그리고 체리맛이 나는 크리미한 디저트.",
+
+	"chocolate-pudding.name": "초콜릿 라즈베리 푸딩",
+	"chocolate-pudding.description": "초콜릿과 라즈베리 맛이 나는 크리미한 디저트.",
+
+	"cookie-pudding.name": "쿠앤크 푸딩",
+	"cookie-pudding.description": "초콜릿 샌드 쿠키 맛이 나는 크리미한 디저트.",
+
+	"cremebrulee-pudding.name": "크렘 브륄레 푸딩",
+	"cremebrulee-pudding.description": "캐러멜화된 설탕을 얹은 크리미한 디저트.",
+
+	"lemon-pudding.name": "레몬 머랭 푸딩",
+	"lemon-pudding.description": "신선한 레몬 맛이 나는 크리미한 디저트.",
+
+	"peach-pudding.name": "복숭아 망고 푸딩",
+	"peach-pudding.description": "복숭아와 망고 맛이 나는 크리미한 디저트.",
+
+	"pumpkin-pudding.name": "펌킨 메이플 푸딩",
+	"pumpkin-pudding.description": "호박과 메이플 시럽 맛이 나는 크리미한 디저트.",
+
+	"sakura-pudding.name": "벚꽃잎 푸딩",
+	"sakura-pudding.description": "상큼한 벚꽃 향이 나는 크리미한 디저트.",
+
+	"tiramisu-pudding.name": "티라미수 푸딩",
+	"tiramisu-pudding.description": "커피와 크림 맛이 나는 크리미한 디저트.",
+
+	"tropical-pudding.name": "트로피컬 푸딩",
+	"tropical-pudding.description": "열대 과일 맛이 나는 크리미한 디저트.",
+
+
+//BEVERAGE i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"juice-station.name":"주스 생성기",
+"juice-station.description":"주스와 음료수를 만들 수 있습니다!",
+
+"boba-station.name":"버블티 생성기",
+"boba-station.description":"버블 밀크티를 만들 수 있습니다!",
+
+//BOBA
+
+"boba-pearls.name": "타피오카 펄",
+"boba-pearls.description": "버블티를 만들기 위해 차가운 차와 우유에 첨가되는 녹말 같은 구슬 모양 젤라틴.",
+
+"banana-boba.name": "바나나 버블티",
+"banana-boba.description": "바나나로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"blacktea-boba.name": "버블티",
+"blacktea-boba.description": "시원한 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"blueberry-boba.name": "블루베리 버블티",
+"blueberry-boba.description": "블루베리로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"brownsugar-boba.name": "브라운 슈거 버블티",
+"brownsugar-boba.description": "갈색 설탕으로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"caramel-boba.name": "카라멜 버블티",
+"caramel-boba.description": "카라멜로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"coconut-boba.name": "코코넛 버블티",
+"coconut-boba.description": "코코넛로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"coffee-boba.name": "커피 버블티",
+"coffee-boba.description": "원두로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"jasmine-boba.name": "자스민 버블티",
+"jasmine-boba.description": "자스민을 차게 우린 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"mango-boba.name": "망고 버블티",
+"mango-boba.description": "망고로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!!",
+
+"matcha-boba.name": "말차 버블티",
+"matcha-boba.description": "차가운 녹차에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"melon-boba.name": "멜론 버블티",
+"melon-boba.description": "멜론으로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"oolong-boba.name": "우롱 버블티",
+"oolong-boba.description": "차가운 우롱차에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"peach-boba.name": "복숭아 버블티",
+"peach-boba.description": "복숭아로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"rose-boba.name": "로즈 버블티",
+"rose-boba.description": "장미로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!!",
+
+"strawberry-boba.name": "딸기 버블티",
+"strawberry-boba.description": "딸기로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"taro-boba.name": "타로 버블티",
+"taro-boba.description": "타로 토란으로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"thai-boba.name": "차이 버블티",
+"thai-boba.description": "코코넛 밀크로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+"vanilla-boba.name": "바닐라 버블티",
+"vanilla-boba.description": "바닐라로 맛을 낸 아이스티에 우유와 쫄깃한 보바 펄로 마무리한 맛있고 귀여운 음료!",
+
+//FRUIT JUICES
+
+"apple-juice.name": "놀라운 사과주스",
+"apple-juice.description": "갓 수확한 사과로 만든 주스!",
+
+"berry-juice.name": "믹스베리 주스",
+"berry-juice.description": "갓 수확한 베리로 만든 주스",
+
+"carrot-juice.name": "토끼사랑 당근주스",
+"carrot-juice.description": "갓 수확한 당근으로 만든 주스!",
+
+"grape-juice.name": "포도주스",
+"grape-juice.description": "갓 수확한 포도로 만든 주스!",
+
+"mix-juice.name": "과일 믹스주스",
+"mix-juice.description": "갓 수확한 과일로 만든 주스!",
+
+"orange-juice.name": "부지런한 새 오렌지 주스",
+"orange-juice.description": "갓 수확한 오렌지로 만든 주스!",
+
+"pomegranate-juice.name": "석류 과즙 주스",
+"pomegranate-juice.description": "갓 수확한 석류로 만든 주스!",
+
+"tropical-juice.name": "트로피컬 주스",
+"tropical-juice.description": "달콤한 섬 과일로 만든 주스!",
+
+"fruit-punch.name": "과일 펀치",
+"fruit-punch.description": "갓 수확한 과일로 만들었습니다!",
+
+// FRUIT JUICES
+
+"amber-juice.name": "호박빛 달 넥타르",
+"amber-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"blush-juice.name": "선홍빛 달 넥타르",
+"blush-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"jade-juice.name": "비취빛 달 넥타르",
+"jade-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"lapis-juice.name": "청금빛 달 넥타르",
+"lapis-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"melon-juice.name": "멜론빛 달 넥타르",
+"melon-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"pearl-juice.name": "진줏빛 달 넥타르",
+"pearl-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"rose-juice.name": "장밋빛 달 넥타르",
+"rose-juice.description": "마법의 달방울 포도로 만든 주스..",
+
+"violet-juice.name": "보랏빛 달 넥타르",
+"violet-juice.description": "마법의 달방울 포도로 만든 주스.",
+
+"apple-elixir.name": "고혹적인 사과 엘릭서",
+"apple-elixir.description": "신비로운 사과로 만든 주스.",
+
+"apricot-elixir.name": "향기로운 살구 엘릭서",
+"apricot-elixir.description": "신비로운 살구로 만든 주스.",
+
+"cherry-elixir.name": "마음을 밝히는 체리 엘릭서",
+"cherry-elixir.description": "신비로운 체리로 만든 주스.",
+
+"mango-elixir.name": "명랑한 망고 엘릭서",
+"mango-elixir.description": "신비로운 망고로 만든 주스.",
+
+"orange-elixir.name": "황홀한 오렌지 엘릭서",
+"orange-elixir.description": "신비로운 오렌지로 만든 주스.",
+
+"peach-elixir.name": "쾌활한 복숭아 엘릭서",
+"peach-elixir.description": "신비로운 복숭아로 만든 주스.",
+
+"pomegranate-elixir.name": "열정적인 석류 엘릭서",
+"pomegranate-elixir.description": "신비로운 석류로 만든 주스.",
+
+//LEMONADES
+
+"blackberry-lemonade.name": "블랙베리 레몬에이드",
+"blackberry-lemonade.description": "블랙베리를 더해서 만든 신선한 레몬에이드",
+
+"chamomile-lemonade.name": "캐모마일 레몬에이드",
+"chamomile-lemonade.description": "캐모마일 꽃잎을 더해서 만든 신선한 레몬에이드.",
+
+"cherry-limeade.name": "체리 라임에이드",
+"cherry-limeade.description": "신선한 라임과 체리로 만든, 유쾌한 반전의 맛을 가진 레몬에이드.",
+
+"classic-lemonade.name": "정통 레몬에이드",
+"classic-lemonade.description": "갓 짜낸 레몬즙을 더해 만든 레몬에이드.",
+
+"greentea-lemonade.name": "녹차 레몬에이드",
+"greentea-lemonade.description": "녹차를 더해서 만든 레몬에이드.",
+
+"jasmine-lemonade.name": "자스민 레몬에이드",
+"jasmine-lemonade.description": "자스민 꽃잎을 더해서 만든 신선한 레몬에이드.",
+
+"lavender-lemonade.name": "라벤더 레몬에이드",
+"lavender-lemonade.description": "라벤더를 더해서 만든 신선한 레몬에이드.",
+
+"lime-lemonade.name": "라임 레몬에이드",
+"lime-lemonade.description": "라임 주스를 더해서 만든 신선한 레몬에이드.",
+
+"melon-lemonade.name": "멜론에이드",
+"melon-lemonade.description": "여름 멜론을 더해서 만든 신선한 레몬에이드.",
+
+"mint-lemonade.name": "민트 레몬에이드",
+"mint-lemonade.description": "박하잎을 더해서 만든 신선한 레몬에이드.",
+
+"pomegranate-lemonade.name": "석류 레몬에이드",
+"pomegranate-lemonade.description": "석류 주스를 더해서 만든 신선한 레몬에이드",
+
+"pink-lemonade.name": "사랑스러운 핑크 레몬에이드",
+"pink-lemonade.description": "딸기 주스를 더해서 만든 신선한 레몬에이드",
+
+"rose-lemonade.name": "로즈 레몬에이드",
+"rose-lemonade.description": "장미 꽃잎을 더해서 만든 신선한 레몬에이드",
+
+"raspberry-lemonade.name": "라즈베리 레몬에이드",
+"raspberry-lemonade.description": "라즈베리 주스를 더해서 만든 신선한 레몬에이드.",
+
+//ICED TEA
+
+"iced-tea.name": "아이스티",
+"iced-tea.description": "시원한 아이스티 한 잔.",
+
+"green-icedtea.name": "냉녹차",
+"green-icedtea.description": "시원한 녹차 한 잔.",
+
+"mango-icedtea.name": "망고 아이스티",
+"mango-icedtea.description": "망고를 더해 만든 시원한 아이스티 한 잔.",
+
+"peach-icedtea.name": "복숭아 아이스티",
+"peach-icedtea.description": "복숭아를 더해 만든 시원한 아이스티 한 잔.",
+
+"thai-icedtea.name": "아이스 차이",
+"thai-icedtea.description": "달콤한 코코넛 밀크를 더해 만든 시원한 아이스티 한 잔.",
+
+//SMOOTHIES
+
+"ancient-smoothie.name": "고대 지혜 스무디",
+"ancient-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"berry-smoothie.name": "베리 블리츠 스무디",
+"berry-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"berrybanana-smoothie.name": "딸기 바나나 스무디",
+"berrybanana-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"berrykale-smoothie.name": "블루베리 케일 스무디",
+"berrykale-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"chocoberry-smoothie.name": "초콜릿 베리 스무디",
+"chocoberry-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"gemberry-smoothie.name": "보석베리 블러스트 스무디",
+"gemberry-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"peachmango-smoothie.name": "복숭아 망고 스무디",
+"peachmango-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"sunshine-smoothie.name": "여름 햇살 스무디",
+"sunshine-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+"tropical-smoothie.name": "트로피컬 오아시스 스무디",
+"tropical-smoothie.description": "상쾌한 스무디, 이동 중 아침 식사에 완벽합니다!",
+
+
+//CANDY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"confection-station.name": "사탕 제조기",
+	"confection-station.description": "다양한 종류의 사탕과 과자를 만들 수 있습니다.",
+
+	// MARSHMALLOWS
+	
+    "ancient-marshmallow.name": "고대 열매 마시멜로",
+	"ancient-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+
+	"vanilla-marshmallow.name": "바닐라 마시멜로",
+	"vanilla-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+
+	"coconut-marshmallow.name": "코코넛 마시멜로",
+	"coconut-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+
+	"confetti-marshmallow.name": "콘페티 마시멜로",
+	"confetti-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+
+	"lavender-marshmallow.name": "라벤더 마시멜로",
+	"lavender-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+
+	"matcha-marshmallow.name": "말차 마시멜로",
+	"matcha-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+
+	"strawberry-marshmallow.name": "딸기 마시멜로",
+	"strawberry-marshmallow.description": "믿을 수 없을 정도로 부드럽고 달콤한 수제 마시멜로.",
+	
+
+	// MARSHMALLOW POPS
+
+	"chocolate-marshmallowpop.name": "초콜릿 마시멜로 팝",
+	"chocolate-marshmallowpop.description": "막대에 끼운 마시멜로에 초콜릿을 입혔군요! 귀여워요!",
+
+	"ancient-marshmallowpop.name": "고대 열매 마시멜로 팝",
+	"ancient-marshmallowpop.description": "서로 다른 색과 맛의 마시멜로를 꼬아 막대에 끼웠습니다! 귀여워요!",
+
+	"colada-marshmallowpop.name": "피냐 콜라다 마시멜로 팝",
+	"colada-marshmallowpop.description": "서로 다른 색과 맛의 마시멜로를 꼬아 막대에 끼웠습니다! 귀여워요!",
+
+	"candy-marshmallowpop.name": "솜사탕 마시멜로 팝",
+	"candy-marshmallowpop.description": "서로 다른 색과 맛의 마시멜로를 꼬아 막대에 끼웠습니다! 귀여워요!!",
+
+	"earlgrey-marshmallowpop.name": "얼 그레이 마시멜로 팝",
+	"earlgrey-marshmallowpop.description": "서로 다른 색과 맛의 마시멜로를 꼬아 막대에 끼웠습니다! 귀여워요!",
+
+	"gem-marshmallowpop.name": "달콤보석 마시멜로 팝",
+	"gem-marshmallowpop.description": "서로 다른 색과 맛의 마시멜로를 꼬아 막대에 끼웠습니다! 귀여워요!!",
+
+	"peach-marshmallowpop.name": "복숭아 크림 마시멜로 팝",
+	"peach-marshmallowpop.description": "서로 다른 색과 맛의 마시멜로를 꼬아 막대에 끼웠습니다! 귀여워요!",
+
+	//LOLLYPOPS
+	"blueberry-lollypop.name": "블루베리 롤리팝",
+	"blueberry-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"cherry-lollypop.name": "체리 롤리팝",
+	"cherry-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"grape-lollypop.name": "포도 롤리팝",
+	"grape-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"lemon-lollypop.name": "레몬 롤리팝",
+	"lemon-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"lime-lollypop.name": "라임 롤리팝",
+	"lime-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"mint-lollypop.name": "민트 롤리팝",
+	"mint-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"orange-lollypop.name": "오렌지 롤리팝",
+	"orange-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	"raspberry-lollypop.name": "라즈베리 롤리팝",
+	"raspberry-lollypop.description": "전형적인 아이들의 간식. 설탕이 들어가서 달콤하고 휴대성도 좋습니다!",
+
+	//GOURMET LOLLYPOPS
+
+	"blueberry-gourmetpop.name": "미식가의 블루베리 파이 롤리팝",
+	"blueberry-gourmetpop.description": "이 막대사탕은 엄청 커다랗군요. 당분이 밀려와요!",
+
+	"lemon-gourmetpop.name": "미식가의 레몬 머랭 롤리팝",
+	"lemon-gourmetpop.description": "이 막대사탕은 엄청 커다랗군요. 당분이 밀려와요!",
+
+	"mint-gourmetpop.name": "미식가의 바닐라 민트 롤리팝",
+	"mint-gourmetpop.description": "이 막대사탕은 엄청 커다랗군요. 당분이 밀려와요!",
+
+	"berry-gourmetpop.name": "미식가의 믹스베리 롤리팝",
+	"berry-gourmetpop.description": "이 막대사탕은 엄청 커다랗군요. 당분이 밀려와요!",
+
+	"shortcake-gourmetpop.name": "미식가의 딸기 쇼트케이크 롤리팝",
+	"shortcake-gourmetpop.description": "이 막대사탕은 엄청 커다랗군요. 당분이 밀려와요!",
+
+	//MINTS
+
+	"blue-mint.name": "푸른 페퍼민트 캔디",
+	"blue-mint.description": "사랑스러운 파스텔 민트 캔디.",
+
+	"green-mint.name": "초록 페퍼민트 캔디",
+	"green-mint.description": "사랑스러운 파스텔 민트 캔디.",
+
+	"pink-mint.name": "분홍 페퍼민트 캔디",
+	"pink-mint.description": "사랑스러운 파스텔 민트 캔디.",
+
+	"purple-mint.name": "보라 페퍼민트 캔디",
+	"purple-mint.description": "사랑스러운 파스텔 민트 캔디.",
+
+	"red-mint.name": "붉은 페퍼민트 캔디",
+	"red-mint.description": "사랑스러운 파스텔 민트 캔디.",
+
+	//HARD CANDIES
+
+	"cinnamon-hardcandy.name": "시나몬 하드 캔디",
+	"cinnamon-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"blue-hardcandy.name": "아이스 블루 하드 캔디",
+	"blue-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"ginger-hardcandy.name": "생강 하드 캔디",
+	"ginger-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"lime-hardcandy.name": "라임 하드 캔디",
+	"lime-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"orange-hardcandy.name": "오렌지 하드 캔디",
+	"orange-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"grape-hardcandy.name": "포도 하드 캔디",
+	"grape-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"strawberry-hardcandy.name": "딸기 하드 캔디",
+	"strawberry-hardcandy.description": "예쁜 파스텔 포장지에 포장된 과일 사탕.",
+
+	"winter-hardcandy.name": "겨울 별 캔디 케인",
+	"winter-hardcandy.description": "휴일을 축하하기에 완벽한 사랑스러운 사탕 지팡이입니다!",
+
+	//CHOCOLATE BARS
+
+	"artisan-chocobar.name": "장인의 초콜릿 바",
+	"artisan-chocobar.description": "초콜릿 장인이 직접 만든 초콜릿 바. 매우 화려하군요!",
+
+	"white-chocobar.name": "장인의 화이트 초콜릿 바",
+	"white-chocobar.description": "초콜릿 장인이 직접 만든 초콜릿 바. 매우 화려하군요!",
+
+	"ruby-chocobar.name": "장인의 루비 초콜릿 바",
+	"ruby-chocobar.description": "초콜릿 장인이 직접 만든 초콜릿 바. 매우 화려하군요!",
+
+	"birthday-chocobar.name": "장인의 생일 케이크 초콜릿 바",
+	"birthday-chocobar.description": "초콜릿 장인이 직접 만든 초콜릿 바. 매우 화려하군요!",
+
+	"cookie-chocobar.name": "장인의 쿠키 앤 크림 초콜릿 바",
+	"cookie-chocobar.description": "초콜릿 장인이 직접 만든 초콜릿 바. 매우 화려하군요!",
+
+	//FAIRY FLOSS
+
+	"classic-fairyfloss.name": "요정의 치실",
+	"classic-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+	"lavender-fairyfloss.name": "요정의 라벤더 치실",
+	"lavender-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+	"lemon-fairyfloss.name": "요정의 레몬 머랭 치실",
+	"lemon-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+	"orange-fairyfloss.name": "요정의 오렌지 치실",
+	"orange-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+	"mint-fairyfloss.name": "요정의 페퍼민트 치실",
+	"mint-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+	"strawberry-fairyfloss.name": "요정의 딸기 쇼트케이크 치실",
+	"strawberry-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+	"vanilla-fairyfloss.name": "요정의 바닐라 치실",
+	"vanilla-fairyfloss.description": "솜사탕으로 많이 알려졌습니다; 설탕과 조미료를 섞어 만든 달콤한 간식입니다.",
+
+
+	//CRYSTAL CANDY
+
+	"amethyst-crystalcandy.name": "자수정 결정 사탕",
+	"amethyst-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"aqua-crystalcandy.name": "아쿠아마린 결정 사탕",
+	"aqua-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"emerald-crystalcandy.name": "에메랄드 결정 사탕",
+	"emerald-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"lemon-crystalcandy.name": "레몬 결정 사탕",
+	"lemon-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"rainbow-crystalcandy.name": "무지갯빛 결정 사탕",
+	"rainbow-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"ruby-crystalcandy.name": "루비 결정 사탕",
+	"ruby-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"starry-crystalcandy.name": "별조각 결정 사탕",
+	"starry-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+	"topaz-crystalcandy.name": "토파즈 결정 사탕",
+	"topaz-crystalcandy.description": "수정 결정처럼 투명하고 달콤한 간식",
+
+
+//CHILLY TREATS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"blast-chiller.name":"블러스트 냉각기",
+"blast-chiller.description":"차가운 디저트를 만드는 데 쓸 수 있는 작은 냉동고입니다!",
+
+"frozentreat-maker.name":"냉동 처리기",
+"frozentreat-maker.description":"수제 아이스크림과 얼린 요구르트를 위한 기계입니다.",
+
+//FROZEN YOGURT
+
+"cake-froyo.name": "얼린 생일케이크 아이스요거",
+"cake-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요!",
+
+"blueberry-froyo.name": "블루베리 치즈케이크 아이스요거",
+"blueberry-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"cheesecake-froyo.name": "치즈케이크 아이스요거",
+"cheesecake-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"cherrychoco-froyo.name": "체리 초콜릿 아이스요거",
+"cherrychoco-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"fruity-froyo.name": "과일 아이스요거",
+"fruity-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"choco-froyo.name": "초콜릿 아이스요거",
+"choco-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"lemon-froyo.name": "레몬 셔벗",
+"lemon-froyo.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"mango-froyo.name": "망고 셔벗",
+"mango-froyo.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"melon-froyo.name": "멜론 셔벗",
+"melon-froyo.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"mintchoco-froyo.name": "민트 초콜릿 아이스요거",
+"mintchoco-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"orange-froyo.name": "오렌지 셔벗",
+"orange-froyo.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗.",
+
+"pumpkin-froyo.name": "호박 스파이시 아이스요거",
+"pumpkin-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"starfruit-froyo.name": "스타후르츠 셔벗",
+"starfruit-froyo.description": "크림과 신선한 과일을 섞어 만든 가볍고 달콤한 셔벗..",
+
+"taro-froyo.name": "타로 아이스요거",
+"taro-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요",
+
+"wildberry-froyo.name": "야생 딸기 아이스요거",
+"wildberry-froyo.description": "갓 만든 얼린 요구르트 한 잔 - 맛있어요!",
+
+//ICE CREAM
+
+"ancient-cone.name": "고대열매 아이스크림",
+"ancient-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"apple-cone.name": "사과파이 아이스크림",
+"apple-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"cherrynut-cone.name": "체리 아몬드 아이스크림",
+"cherrynut-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"cherryblossom-cone.name": "벚꽃 아이스크림",
+"cherryblossom-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"chocolate-cone.name": "초콜릿 아이스크림",
+"chocolate-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"coconut-cone.name": "코코넛 아이스크림",
+"coconut-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"coffee-cone.name": "커피 아이스크림",
+"coffee-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"cookiedough-cone.name": "쿠키 도우 아이스크림",
+"cookiedough-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"cookie-cone.name": "쿠키 앤 크림 아이스크림",
+"cookie-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"horchata-cone.name": "오르차타 아이스크림",
+"horchata-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"lavender-cone.name": "라벤더 레몬 아이스크림",
+"lavender-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"maple-cone.name": "메이플 호두 아이스크림",
+"maple-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!!",
+
+"mint-cone.name": "민트 초콜릿 아이스크림",
+"mint-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"pistachio-cone.name": "피스타치오 아이스크림",
+"pistachio-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"strawberry-cone.name": "딸기 앤 크림 아이스크림",
+"strawberry-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+"vanilla-cone.name": "바닐라 아이스크림",
+"vanilla-cone.description": "집에서 만든 아이스크림 - 완벽한 여름의 달콤한 간식입니다!",
+
+//MILKSHAKES
+
+"choco-milkshake.name": "초콜릿 밀크셰이크",
+"choco-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"candy-milkshake.name": "솜사탕 밀크셰이크",
+"candy-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"orange-milkshake.name": "오렌지 크림시클 밀크셰이크",
+"orange-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"earlgrey-milkshake.name": "얼그레이 밀크셰이크",
+"earlgrey-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"lime-milkshake.name": "키라임 파이 밀크셰이크",
+"lime-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"colada-milkshake.name": "피냐 콜라다 밀크셰이크",
+"colada-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"pumpkin-milkshake.name": "호박 스파이스 밀크셰이크",
+"pumpkin-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"strawberry-milkshake.name": "딸기 밀크셰이크",
+"strawberry-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+"vanilla-milkshake.name": "바닐라 밀크셰이크",
+"vanilla-milkshake.description": "아이스크림과 우유를 섞어 만든 차가운 음료!",
+
+//POPSICLES
+
+"ancient-popsicle.name": "고대과일 하드",
+"ancient-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"blueberry-popsicle.name": "블루베리 하드",
+"blueberry-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"cherry-popsicle.name": "체리 하드",
+"cherry-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"coconut-popsicle.name": "코코넛 하드",
+"coconut-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"fruity-popsicle.name": "과일 하드",
+"fruity-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"grape-popsicle.name": "포도 하드",
+"grape-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"lemon-popsicle.name": "레몬 하드",
+"lemon-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"lime-popsicle.name": "라임 하드",
+"lime-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"gem-popsicle.name": "보석베리 하드",
+"gem-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"mango-popsicle.name": "망고 하드",
+"mango-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"melon-popsicle.name": "멜론 하드",
+"melon-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"orange-popsicle.name": "오렌지 하드",
+"orange-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"peach-popsicle.name": "복숭아 하드",
+"peach-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"pineapple-popsicle.name": "파인애플 하드",
+"pineapple-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"starfruit-popsicle.name": "스타후르츠 하드",
+"starfruit-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"strawberry-popsicle.name": "딸기 하드",
+"strawberry-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"raspberry-popsicle.name": "라즈베리 하드",
+"raspberry-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+"wildberry-popsicle.name": "야생딸기 하드",
+"wildberry-popsicle.description": "막대를 꽂아 얼린 과일 주스 - 사랑스러운 여름 간식입니다.",
+
+//SUNDAES
+
+"banana-sundae.name": "바나나 스플릿 선데 아이스",
+"banana-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"fudge-sundae.name": "핫 퍼지 선데 아이스",
+"fudge-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"caramel-sundae.name": "솔티 카라멜 선데 아이스",
+"caramel-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"smores-sundae.name": "스모어 선데 아이스",
+"smores-sundae.description": "시럽을 얹은 아이스크림 한 그릇.",
+
+"soda-float.name": "올드 패션 소다플로트",
+"soda-float.description": "청량감 있는 탄산음료 위에 아이스크림 한 스쿱.",
+
+//ICE CREAM SANDWICHES
+
+"cinnamon-icecreamwich.name": "시나몬 초코 아이스샌드",
+"cinnamon-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"mint-icecreamwich.name": "민트초코 아이스샌드",
+"mint-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"mochanut-icecreamwich.name": "모카 코코넛 아이스샌드",
+"mochanut-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"mocha-icecreamwich.name": "모카 아이스샌드",
+"mocha-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"pistachio-icecreamwich.name": "피스타치오 아이스샌드",
+"pistachio-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"strawberry-icecreamwich.name": "딸기 아이스샌드",
+"strawberry-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+"vanilla-icecreamwich.name": "바닐라 아이스샌드",
+"vanilla-icecreamwich.description": "폭신한 초코케이크 같은 쿠키 사이에 아이스크림을 넣었군요. 맛있어요!",
+
+
+//COFFEE i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//COFFEE BREWER
+
+"coffee-brewer.name":"커피 브루어",
+"coffee-brewer.description":"이 멋진 커피 기계에는 완벽한 커피 블렌드를 위한 그라인더가 장착되어 있습니다!",
+
+//COFFEE BAGS
+
+"breakfast-blend.name":"브렉퍼스트 블렌드 커피",
+"breakfast-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"vanilla-blend.name":"칼리코 바닐라 블렌드 커피",
+"vanilla-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"cold-blend.name":"콜드 브루 블렌드 커피",
+"cold-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"donut-blend.name":"도넛 쇼프 블렌드 커피",
+"donut-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"hazelnut-blend.name":"헤이즐넛 블렌드 커피",
+"hazelnut-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"holiday-blend.name":"홀리데이 블렌드 커피",
+"holiday-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"mocha-blend.name":"모카 블렌드 커피",
+"mocha-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"pumpkin-blend.name":"호박 향신료 블렌드 커피",
+"pumpkin-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"sweetheart-blend.name":"스윗하트 블렌드 커피",
+"sweetheart-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+"coconut-blend.name":"구운 코코넛 블렌드 커피",
+"coconut-blend.description":"갓 갈아낸 원두를 포장하여 맛있는 커피로 변신할 준비가 되어 있습니다!",
+
+
+//LATTE
+
+"breakfast-latte.name": "브렉퍼스트 라떼",
+"breakfast-latte.description": "갓 우려낸 커피. 아늑하네요!",
+
+"vanilla-latte.name":"칼리코 바닐라 라떼",
+"vanilla-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"cold-brew.name":"콜드브루 라떼",
+"cold-brew.description":"갓 우려낸 커피. 아늑하네요!",
+
+"donut-latte.name":"도넛 쇼프 라떼",
+"donut-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"hazelnut-latte.name":"헤이즐넛 라떼",
+"hazelnut-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"holiday-latte.name":"홀리데이 블렌드 라떼",
+"holiday-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"mocha-latte.name":"리치 모카 라떼",
+"mocha-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"pumpkin-latte.name":"아늑한 호박 향신료 라떼",
+"pumpkin-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"sweetheart-latte.name":"스윗하트 라떼",
+"sweetheart-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+"coconut-latte.name":"구운 코코넛 라떼",
+"coconut-latte.description":"갓 우려낸 커피. 아늑하네요!",
+
+//FLORAL i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"flower-station.name": "꽃 작업대",
+"flower-station.description": "꽃을 이용해 많은 장인 제작품을 만들 수 있습니다!",
+
+"wildflour-tub.name": "야생화 작업대",
+"wildflour-tub.description": "꽃 작업대처럼 다양한 꽃 제작품을 만들 수 있습니다.!",
+
+//CUSTOM BOUQUET
+
+"jazz-bouquet.name": "푸른 재즈 꽃다발",
+"jazz-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"vanilla-bouquet.name": "칼리코 바닐라 꽃다발",
+"vanilla-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"fairy-bouquet.name": "요정장미 꽃다발",
+"fairy-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"chamomile-bouquet.name": "숲 카모마일 꽃다발",
+"chamomile-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"lavender-bouquet.name": "숲 라벤더 꽃다발",
+"lavender-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"jasmine-bouquet.name": "보석 섬 자스민 꽃다발",
+"jasmine-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"mallow-bouquet.name": "마시멜로 꽃다발",
+"mallow-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"poppy-bouquet.name": "양귀비 꽃다발",
+"poppy-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"sakura-bouquet.name": "벚꽃 꽃다발",
+"sakura-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"spangle-bouquet.name": "여름별꽃 꽃다발",
+"spangle-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"sunflower-bouquet.name": "해바라기 꽃다발",
+"sunflower-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+"tulip-bouquet.name": "튤립 꽃다발",
+"tulip-bouquet.description": "좋은 선물이 될 수 있는 아주 멋진 꽃다발!",
+
+//CUSTOM PERFUME
+
+"jazz-perfume.name": "푸른 재즈 오드 뚜왈렛",
+"jazz-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"vanilla-perfume.name": "칼리코 바닐라 오드 뚜왈렛",
+"vanilla-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"fairy-perfume.name": "요정장미 오드 뚜왈렛",
+"fairy-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"chamomile-perfume.name": "숲 카모마일 오드 뚜왈렛",
+"chamomile-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"lavender-perfume.name": "숲 라벤더 오드 뚜왈렛",
+"lavender-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"jasmine-perfume.name": "보석 섬 자스민 오드 뚜왈렛",
+"jasmine-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"mallow-perfume.name": "마시멜로 오드 뚜왈렛",
+"mallow-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"poppy-perfume.name": "양귀비 오드 뚜왈렛",
+"poppy-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"sakura-perfume.name": "벚꽃 오드 뚜왈렛",
+"sakura-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"spangle-perfume.name": "여름별꽃 오드 뚜왈렛",
+"spangle-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"sunflower-perfume.name": "해바라기 오드 뚜왈렛",
+"sunflower-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+"tulip-perfume.name": "튤립 오드 뚜왈렛",
+"tulip-perfume.description": "증류 플라워 에센스로 만든 섬세한 향의 향수.",
+
+
+//CUSTOM ESSENCE
+
+"jazz-essence.name": "푸른 재즈 에센스",
+"jazz-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"vanilla-essence.name": "칼리코 바닐라 에센스",
+"vanilla-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"fairy-essence.name": "요정장미 에센스",
+"fairy-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"chamomile-essence.name": "숲 카모마일 에센스",
+"chamomile-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"lavender-essence.name": "숲 라벤더 에센스",
+"lavender-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"jasmine-essence.name": "보석 섬 자스민 에센스",
+"jasmine-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"mallow-essence.name": "마시멜로 에센스",
+"mallow-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"poppy-essence.name": "양귀비 에센스",
+"poppy-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"sakura-essence.name": "벚꽃 에센스",
+"sakura-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"spangle-essence.name": "여름별꽃 에센스",
+"spangle-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"sunflower-essence.name": "해바라기 에센스",
+"sunflower-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+"tulip-essence.name": "튤립 에센스",
+"tulip-essence.description": "신선한 꽃으로 만든 향기로운 오일.",
+
+//CUSTOM SOAP
+
+"jazz-soap.name": "푸른 재즈 고급 비누",
+"jazz-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"vanilla-soap.name": "칼리코 바닐라 고급 비누",
+"vanilla-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"fairy-soap.name": "요정장미 고급 비누",
+"fairy-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"chamomile-soap.name": "숲 카모마일 고급 비누",
+"chamomile-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"lavender-soap.name": "숲 라벤더 고급 비누",
+"lavender-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"jasmine-soap.name": "보석 섬 자스민 고급 비누",
+"jasmine-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"mallow-soap.name": "마시멜로 고급 비누",
+"mallow-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"poppy-soap.name": "양귀비 고급 비누",
+"poppy-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"sakura-soap.name": "벚꽃 고급 비누",
+"sakura-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"spangle-soap.name": "여름별꽃 고급 비누",
+"spangle-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"sunflower-soap.name": "해바라기 고급 비누",
+"sunflower-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+"tulip-soap.name": "튤립 고급 비누",
+"tulip-soap.description": "향기로운 고급 비누 한 개 - 얼마나 멋진지요!",
+
+//CUSTOM PETALS
+
+"jazz-petals.name": "말린 푸른 재즈 꽃잎",
+"jazz-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"vanilla-petals.name": "말린 칼리코 바닐라",
+"vanilla-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"fairy-petals.name": "말린 요정장미 꽃잎",
+"fairy-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"chamomile-petals.name": "말린 숲 카모마일 꽃잎",
+"chamomile-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"lavender-petals.name": "말린 숲 라벤더",
+"lavender-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"jasmine-petals.name": "말린 보석 섬 자스민 꽃잎",
+"jasmine-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"mallow-petals.name": "말린 마시멜로 꽃잎",
+"mallow-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"poppy-petals.name": "말린 양귀비 꽃잎",
+"poppy-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"sakura-petals.name": "말린 벚꽃 꽃잎",
+"sakura-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"spangle-petals.name": "말린 여름별꽃 꽃잎",
+"spangle-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"sunflower-petals.name": "말린 해바라기 꽃잎",
+"sunflower-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+"tulip-petals.name": "말린 튤립 꽃잎",
+"tulip-petals.description": "꽃의 매력적인 향기를 보존하기 위해 말린 꽃잎.",
+
+//CUSTOM POTPOURRI
+
+"jazz-potpourri.name": "푸른 재즈 포푸리 주머니",
+"jazz-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"vanilla-potpourri.name": "칼리코 바닐라 포푸리 주머니",
+"vanilla-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"fairy-potpourri.name": "요정장미 포푸리 주머니",
+"fairy-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"chamomile-potpourri.name": "숲 카모마일 포푸리 주머니",
+"chamomile-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"lavender-potpourri.name": "숲 라벤더 포푸리 주머니",
+"lavender-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"jasmine-potpourri.name": "보석 섬 자스민 포푸리 주머니",
+"jasmine-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"mallow-potpourri.name": "마시멜로 포푸리 주머니",
+"mallow-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"poppy-potpourri.name": "양귀비 포푸리 주머니",
+"poppy-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"sakura-potpourri.name": "벚꽃 포푸리 주머니",
+"sakura-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"spangle-potpourri.name": "여름별꽃 포푸리 주머니",
+"spangle-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"sunflower-potpourri.name": "해바라기 포푸리 주머니",
+"sunflower-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+"tulip-potpourri.name": "튤립 포푸리 주머니",
+"tulip-potpourri.description": "모슬린 주머니에 담은 말린 꽃잎 - 옷장이나 서랍에서 좋은 향기가 나게 하는데 탁월.",
+
+//CANDLES
+
+"jazz-candles.name": "푸른 재즈 향초",
+"jazz-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"vanilla-candles.name": "칼리코 바닐라 향초",
+"vanilla-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"fairy-candles.name": "요정장미 향초",
+"fairy-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"chamomile-candles.name": "숲 카모마일 향초",
+"chamomile-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"lavender-candles.name": "숲 라벤더 향초",
+"lavender-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"jasmine-candles.name": "보석 섬 자스민 향초",
+"jasmine-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"mallow-candles.name": "마시멜로 향초",
+"mallow-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"poppy-candles.name": "양귀비 향초",
+"poppy-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"sakura-candles.name": "벚꽃 향초",
+"sakura-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"spangle-candles.name": "여름별꽃 향초",
+"spangle-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"sunflower-candles.name": "해바라기 향초",
+"sunflower-candles.description": "좋은 향이 나는 양초 세 개.",
+
+"tulip-candles.name": "튤립 향초",
+"tulip-candles.description": "좋은 향이 나는 양초 세 개.",
+
+//GOURMET PANTRY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+
+	//Kitchen Blender
+	"kitchen-blender.name": "키친 블렌더",
+	"kitchen-blender.description": "견과류로 우유 대체품을 만들거나 우유를 크림 등의 유제품으로 만들 수 있습니다!",
+
+	//Kitchen Mortar
+	"kitchen-mortar.name": "키친 모터",
+	"kitchen-mortar.description": "농작물을 가루로 만들거나, 향신료를 배합할 수 있게 해주는 주방 기구입니다.",
+
+	// Almond Nut Butter
+    "almond-butter.name": "아몬드 버터",
+	"almond-butter.description": "아몬드로 만든 크리미한 버터같은 스프레드. 베이킹, 토스트 등에 펴바르기에 완벽합니다!",
+	
+	//Almondmilk
+	"almond-milk.name": "아몬드 우유",
+	"almond-milk.description": "아몬드로 만든 우유 대체품입니다. 베이킹, 스무디 등에 훌륭한 대체 유제품이 됩니다!",
+	
+	//Bittersweet Bakers Chocolate
+	"bitter-chocolate.name": "다크 커버춰 초콜릿",
+	"bitter-chocolate.description": "과자나 간식을 만들 때 사용되는 다크 초콜릿 바입니다.",
+	
+	//Boba Pearls
+	"boba-pearls.name": "보바 펄즈",
+	"boba-pearls.description": "버블티를 만들 때 차가운 차나 우유에 더하는 구슬 형태의 녹말, 젤라틴 덩어리.",
+	
+	//Calico Vanilla Extract
+	"vanilla-extract.name": "칼리코 바닐라 엑스트랙",
+	"vanilla-extract.description": "바닐라 열매에서 증류된 바닐라 에센스. 달콤한 간식을 만들 때 사용된다!",
+	
+	//Cashew Nut Butter
+	"cashew-butter.name": "캐슈넛 버터",
+	"cashew-butter.description": "캐슈넛으로 만든 크리미한 버터같은 스프레드. 베이킹, 토스트 등에 펴바르기에 완벽합니다!",
+	
+	//Cashewmilk
+	"cashew-milk.name": "캐슈-밀크",
+	"cashew-milk.description": "캐슈넛으로 만든 우유 대체품으로, 베이킹이나 스무디 등에 유제품 대신 넣기에 좋습니다!",
+	
+	//Chocolate Morsels
+	"chocolate-chips.name": "초콜릿 모셀",
+	"chocolate-chip.description": "초콜릿 칩으로도 알려진, 베이킹의 필수품 중 하나.",
+	
+	//Coconutmilk
+	"coconut-milk.name": "코코넛 밀크",
+	"coconut-milk.description": "코코넛에서 추출한 우유 대체품. 베이킹, 스무디 등에 유제품 대신 쓰기 좋습니다!",
+	
+	//Confectioners Sugar
+	"powder-sugar.name": "제과용 설탕",
+	"powder-sugar.description": "슈거 파우더라는 이름으로도 알려집니다. 이 곱고 부드러운 설탕엔 옥수수 녹말이 소량 첨가되어 뭉치지 않고, 종종 구운 제과 위에 장식으로 뿌려지기도 합니다.",
+
+    //Creamy Coconut Butter
+	"coconut-butter.name": "코코넛 버터",
+	"coconut-butter.description": "코코넛 기름을 이용해서 만든 버터 대용품. 유제품이 없는 간식을 굽기에 완벽합니다!",
+
+    //Espresso Powder
+	"espresso-powder.name": "에스프레소 파우더",
+	"espresso-powder.description": "커피의 씁쓸한 맛은 초콜릿 같은 디저트의 맛을 보완하기 좋습니다.",
+
+    //Farm Fresh Butter
+	"butter.name": "농장의 신선한 버터",
+	"butter.description": "농장의 소에게서 얻은 신선한 우유를 손으로 직접 저어가며 만든 훌륭한 버터.",
+
+    //Farm Fresh Buttermilk
+	"buttermilk.name": "농장의 신선한 버터밀크",
+	"buttermilk.description": "살짝 시큼한 냄새가 나지만, 이 액체는 부드러운 옥수수빵과 폭신한 팬케이크를 만드는 데에 큰 도움을 줍니다.",
+
+    //Farm Fresh Cream
+	"cream.name": "농장의 신선한 생크림",
+	"cream.description": "농장 소의 우유로 만든 이 크림은 특정한 패스츄리를 굽거나 반죽을 만들 때에는 필수적입니다!",
+
+    //Farm Fresh Cream Cheese
+	"cream-cheese.name": "농장의 신선한 크림치즈",
+	"cream-cheese.description": "농장의 신선한 우유로 만든 이 크림 치즈는 치즈 케이크 제작이나 베이글에 바르기에 좋습니다.",
+
+	//Ghee
+	"ghee.name":"농장의 신선한 기버터",
+	"ghee.description":"순수한 버터의 지방만 모아놓은 것입니다.",
+
+    //Farm Fresh Yogurt
+	"yogurt.name": "농장의 신선한 요거트",
+	"yogurt.description": "농장의 신선한 우유로 만든 이 요구르트는 프로바이오틱스 유산균이 풍부합니다!",
+
+	//Farmstead Apple Butter
+	"apple-butter.name": "농가의 사과 버터",
+	"apple-butter.description": "농부의 집안 전통 레시피로 만들었다. 따뜻하고, 달콤하며 아침 토스트에 곁들이거나 머핀의 옆에 발라서 먹는다.",
+	
+	//Farmstead Honey Butter
+	"honey-butter.name": "농가의 허니 버터",
+	"honey-butter.description": "농부의 집안 전통 레시피와 사랑스러운 꿀벌의 도움으로 만들어졌다.",
+	
+	//Farmstead Maple Butter
+	"maple-butter.name": "농가의 단풍시럽 버터",
+	"maple-butter.description": "농부의 집안 전통 레시피와 펠리컨 마을의 달콤한 메이플 시럽으로 만들었다.",
+	
+	//Farmstead Pumpkin Butter
+	"pumpkin-butter.name": "농가의 호박 버터",
+	"pumpkin-butter.description": "농부의 집안 전통 레시피로 만들었습니다. 호박의 향을 사랑하는 사람들에게 완벽한 물건입니다.",
+	
+	//Gourmet Lemon Curd
+	"lemon-curd.name": "미식가 레몬 커드",
+	"lemon-curd.description": "달콤하고 크리미한 질감은 행복한 닭의 고품질 계란 노른자의 힘입니다.",
+	
+	//Gourmet Lime Curd
+	"lime-curd.name": "미식가 라임 커드",
+	"lime-curd.description": "달콤하고 크리미한 질감은 행복한 닭의 고품질 계란 노른자의 힘입니다.",
+
+	//Gourmet Orange Curd
+	"orange-curd.name": "미식가 오렌지 커드",
+	"orange-curd.description": "달콤하고 크리미한 질감은 행복한 닭의 고품질 계란 노른자의 힘입니다.",
+	
+	//Hazelnut Nut Butter
+	"hazelnut-butter.name": "헤이즐넛 버터",
+	"hazelnut-butter.description": "헤이즐넛으로 만든 크리미한 버터같은 스프레드. 베이킹, 토스트 등에 펴바르기에 완벽합니다!",
+	
+	//Hazelnutmilk
+	"hazelnut-milk.name": "헤이즐넛 우유",
+	"hazelnut-milk.description": "헤이즐넛으로 만든 우유 대체품. 베이킹, 스무디 등에 우유 대신 사용하기 좋습니다!",
+
+    //Pectin
+	"pectin.name": "펙틴",
+	"pectin.description": "과일로 만든 끈적끈적한 물질. 잼과 젤리는 보존하는 데에 필수적입니다.",
+	
+	//Pistachio Nut Butter
+	"pistachio-butter.name": "피스타치오 버터",
+	"pistachio-butter.description": "피스타치오를 사용한 만든 크리미한 버터같은 스프레드. 베이킹, 토스트 등에 펴바르기에 완벽합니다!",
+	
+	//Pistachiomilk
+	"pistachio-milk.name": "피스타치오 우유",
+	"pistachio-milk.description": "피스타치오로 만든 우유 대체지. 베이킹, 스무디 등에 우유 대신 넣기 좋습니다!",
+	
+	//Rainbow Sprinkles
+	"rainbow-sprinkles.name": "레인보우 스프링클",
+	"rainbow-sprinkles.description": "지미라고도 부릅니다. 당신이 다른 이름으로 부르더라도, 달콤하고 완벽하며 다채로운 토핑입니다!",
+	
+	//Ricemilk
+	"rice-milk.name": "미유",
+	"rice-milk.description": "쌀로 만든 우유 대체품. 베이킹, 스무디 등에도 다양하게 쓸 수 있습니다!",
+	
+	//Semisweet Bakers Chocolate
+    "semisweet-chocolate.name": "밀크 커버춰 초콜릿",
+	"semisweet-chocolate.description": "제과나 간식을 만들 때 사용하는 약간 달콤한 초콜릿 바.",
+	
+	//Specialty Almond Flour
+	"almond-flour.name": "특별 아몬드 가루",
+	"almond-flour.description": "아몬드를 갈아 만든 장인용 가루입니다. 마카롱에 필수적이지만, 글루텐이 없는 베이킹에도 좋습니다!",
+	
+	//Specialty Bread Flour 
+	"bread-flour.name": "특별 강력분 ",
+	"bread-flour.description": "특별한 종류의 밀로 만든 장인용 밀가루입니다. 단백질 함량이 높아 대부분의 빵 반죽에 좋습니다.",
+	
+	//Specialty Brown Sugar
+	"brown-sugar.name": "특별 갈색 설탕",
+	"brown-sugar.description": "가공 과정에서 당밀을 약간 남긴 설탕으로, 머핀과 특정 케이크에 잘 어울리는 풍부한 맛의 식재료입니다.",
+	
+	//Specialty Cake Flour
+	"cake-flour.name": "특별 박력분",
+	"cake-flour.description": "케이크를 굽는 데에 주로 쓰이는 장인용 밀가루입니다. 단백질 함량이 낮다는 건, 케이크가 부드러워진다는 걸 의미합니다.",
+	
+	//Specialty Cocoa Powder
+	"cocoa-powder.name": "특별 코코아 가루",
+	"cocoa-powder.description": "건조되어서 제과제빵에 사용되는 코코아 분말.",
+	
+	//Specialty Coconut Flour
+	"coconut-flour.name": "특별 코코넛 가루",
+	"coconut-flourr.description": "코코넛을 갈아 만든 장인용 가루입니다. 만두 같은 요리에 어울리고, 글루텐이 필요하지 않은 제과에도 적절합니다!",
+	
+	//Specialty Coconut Oil
+	"coconut-oil.name":"특별 코코넛 오일",
+	"coconut-oil.description": "신선한 코코넛으로 만든 기름.",
+
+	//Specialty Corn Flour
+	"corn-flour.name": "특별 옥수수 가루",
+	"corn-flour.description": "옥수수를 갈아서 만든 장인용 식재료. 타말레나 옥수수 빵 같은 요리에 필수적이다.",
+	
+	//Specialty Olive Oil
+	"olive-oil.name": "특별 올리브유",
+	"olive-oil.description": "엑스트라 버진 올리브유는 샐러드에 넣거나, 신선한 야채를 볶을 때 넣는 높은 품질의 올리브 오일을 의미합니다!",
+	
+	//Specialty Pastry Flour
+	"pastry-flour.name": "특별 페스트리 가루",
+	"pastry-flour.description": "박력분과 마찬가지로 다양한 제과에 사용되는 장인용 밀가루의 일종입니다.",
+	
+	//Specialty Rice Flour
+	"rice-flour.name": "특별 쌀가루",
+	"rice-flour.description": "쌀을 갈아서 만든 장인용 가루. 만두와 모찌에 필수적이지만, 글루텐이 필요치 않는 베이킹에도 좋습니다!",
+	
+	//Walnut Nut Butter
+	"walnut-butter.name": "호두 버터",
+	"walnut-butter.description": "호두로 만든 크리미한 질감의 버터 같은 스프레드. 토스트 등에 발라 굽기에 좋다!",
+	
+	//White Bakers Chocolate
+	"white-chocolate.name": "화이트 커버춰 초콜릿",
+	"white-chocolate.description": "제과제빵에 사용되는 달콤한 화이트 초콜릿 바.",
+	
+
+
+//JAMS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+// Banana Maple Jam
+"banana-maple.name": "바나나 메이플 잼",
+"banana-maple.description": "바나나를 으깨어 익혀 메이플을 첨가하여 두 배로 달콤하다.",
+
+//Banana Split Jam
+"banana-split.name": "바나나 스플릿 잼",
+"banana-split.description": "바나나, 딸기와 체리의 환상적인 궁합!",
+
+//Blackberry Mint Jelly
+"blackberry-mint.name": "블랙베리 민트 젤리",
+"blackberry-mint.description": "채집한 블랙베리와 국내산 박하로 만든 달콤하며 시원한 젤리.",
+
+//Blueberry Lavender Jelly
+"bluebery-lavender.name": "블루베리 라벤더 젤리",
+"blueberry-lavender.description": "블루베리와 라벤더를 넣어 만든 달콤한 젤리.",
+
+//Blue Jazz Jelly
+"blue-jazz-jelly.name": "블루재즈 젤리",
+"blue-jazz-jelly.description": "블루재즈 꽃잎으로 만든 로얄 젤리.",
+
+//Cherry Vanilla Jam
+"cherry-vanilla.name": "체리 바닐라 잼",
+"cherry-vanilla.description": "갓 딴 체리와 바닐라빈으로 만든 잼.",
+
+//Chamomile Jelly
+"chamomile-jelly.name":"캐모마일 젤리",
+"chamomile-jelly.description":"캐모마일 꽃잎을 넣어 만든 로얄 젤리.",
+
+//Cinnamon Apple Preserves
+"cinnamon-apple.name": "시나몬 애플 절임",
+"cinnamon-apple.description": "신선하고 바삭바삭한 사과와 매운 계피 - 가을의 맛을 즐기기 위해 이 잼들을 거의 모든 음식과 곁들이세요.",
+
+//Cranberry Chutney
+"cranberry-chutney.name": "크랜베리 처트니",
+"cranberry-chutney.description": "크랜베리 소스는 너무 과대평가됐다. 그것 대신 이 밝고 상큼한 맛이 나는 처트니를 먹어 봤어?",
+
+//Crocus Jelly
+"crocus-jelly.name": "크로커스 젤리",
+"crocus-jelly.description": "야생의 크로커스 꽃으로 만든 젤리. 맛은 약간의 바닐라와 향신료가 섞인 듯하다.",
+
+//Dandelion Jelly
+"dandelion-jelly.name": "민들레 젤리",
+"dandelion-jelly.description": "민들레로 만든 젤리. 맛이 우아하며 달콤하다.",
+
+//Honey Apricot Preserves
+"honey-apricot.name": "꿀 살구 잼",
+"honey-apricot.description": "현지 꿀과 갓 딴 살구로 만든 보존 식품.",
+
+//Honey Peach Preserves
+"honey-peach.name": "꿀 복숭아 절임",
+"honey-peach.description": "현지 꿀과 갓 딴 복숭아로 만든 보존 식품.",
+
+//Mango Chutney
+"mango-chutney.name": "망고 처트니",
+"mango-chutney.description": "이 여름다운 처트니는 갓 잡은 생선으로 만든 구이 위가 제격이다.",
+
+//Mixed Berry Preserves
+"mixed-berry.name": "믹스 베리 절임",
+"mixed-berry.description": "세 종류의 신선한 베리로 만든 보존 식품.",
+
+//Peach Blossom Jelly
+"peach-blossom.name":"복숭아꽃 젤리",
+"peach-blossom.description":"갓 딴 복숭아와 체리꽃을 넣어 만든 젤리.",
+
+//Peach Ginger Preserves
+"peach-ginger.name": "복숭아 생강 절임",
+"peach-ginger.description": "풍미를 더하기 위해 복숭아와 진저 섬 생강을 조금 넣어 만든 보존 식품.",
+
+//Rose Petal Jelly
+"rose-petal.name":"장미꽃 젤리",
+"rose-petal.description":"식용 장미꽃잎을 넣어 만든 로열 젤리.",
+
+//Special Edition Flower Dance Jelly
+"flower-dance.name": "스페셜 에디션 봄꽃 무도회 젤리",
+"flower-dance.description": "펠리컨 마을의 연례 봄꽃 무도회 축제를 기념하여 만든 작은 젤리!",
+
+//Special Edition Luau Jam
+"luau-jam.name": "스페셜 에디션 루아우 잼",
+"luau-jam.description": "펠리컨 마을의 연례 루아우를 기념하기 위해 만든 작은 잼!",
+
+//Special Edition Spirits Eve Jam
+"spirit-jam.name": "스페셜 에디션 영령의 전야제 잼",
+"spirit-jam.description": "영령의 젼야제를 기념하기 위해 만든 작은 잼!",
+
+//Special Edition Winter Star Jelly
+"winter-star-jelly.name": "스페셜 에디션 겨울 별의 만찬 젤리",
+"winter-star-jelly.description": "겨울 별 축제를 기념하여 만든 작은 덩어리 젤리!",
+
+//Spring Lemon Marmalade
+"lemon-marmalade.name": "봄 레몬 마멀레이드",
+"lemon-marmalade.description": "레몬 제스트 덕분에, 레몬의 밝고 과감한 신맛이 강하게 전해집니다!",
+
+//Strawberry Rhubarb Jam
+"strawberry-rhubarb.name": "딸기 대황 잼",
+"strawberry-rhubarb.description": "달달한 딸기에 대황을 넣어 만든 잼.",
+
+//Strawberry Rose Jelly
+"strawberry-rose.name":"장미딸기 젤리.",
+"strawberry-rose.description": "야생딸기와 장미꽃잎을 넣어 만든 달콤한 젤리.",
+
+//Summer Spangle Jelly
+"spangle-jelly.name": "여름별꽃 젤리",
+"spangle-jelly.description": "여름 최고의 여름별꽃으로 만든 젤리. 햇살과도 같은 맛이 난다.",
+
+//Summery Orange Marmalade
+"orange-marmalade.name": "여름 오렌지 마멀레이드",
+"orange-marmalade.description": "오렌지 제스트 덕분에, 오렌지의 밝고 대담한 맛이 강하게 전해집니다!",
+
+//Sunflower Jelly
+"sunflower-jelly.name": "해바라기 젤리",
+"sunflower-jelly.description": "해바라기 꽃잎으로 만든 젤리는 견과류 맛이 살짝 난다.",
+
+//Sweet Lime Marmalade
+"lime-marmalade.name": "스위트 라임 마멀레이드",
+"lime-marmalade.description": "라임 제스트 덕분에, 라임의 시큼하면서도 달콤한 맛이 강하게 전해집니다!",
+
+//Sweet Jasmine Jelly
+"jasmine-jelly.name": "달콤한 자스민 젤리",
+"jasmine-jelly.description": "신선한 자스민 꽃을 사용해서 만든 젤리. 신선한 꽃 향기가 납니다.",
+
+//Triple Citrus Marmalade
+"citrus-marmalade.name": "트리플 시트러스 마멀레이드",
+"citrus-marmalade.description": "레몬, 라임, 오렌지가 함께 어우러져 감귤류의 맛을 더한다.",
+
+//Tulip Jelly
+"tulip-jelly.name": "튤립 젤리",
+"tulip-jelly.description": "갓 딴 튤립으로 만든 젤리는 신선하고 꽃맛이 난다.",
+
+//Vanilla Raspberry Preserves
+"vanilla-raspberry.name": "바닐라 라즈베리 절임",
+"vanilla-raspberry.description": "바닐라와 라즈베리의 완벽한 조합으로, 빵에 발라먹거나 케이크 등에 넣어 먹을 수 있는 달콤한 절임입니다!",
+
+	
+//MEADS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"mead-keg.name": "장인의 꿀술통",
+"mead-keg.description": "다양한 벌꿀술을 만들기 위한 술통",
+
+//BASE GAME-mead
+
+"ancient-mead.name": "고대열매 꿀술",
+"ancient-mead.description": "따스하고 편안한-이걸 맛보면 이상하고 마법 같은 느낌이 가득 차오릅니다.",
+
+"apricot-mead.name": "봄살구 꿀술",
+"apricot-mead.description": "꽃이 만개한 나무 아래에서 즐길 수 있는 달콤한 봄의 술.",
+
+"banana-mead.name": "행복 바나나 꿀술",
+"banana-mead.description": "만약 바나나 빵이 벌에 의해 만들어졌다면, 이런 맛이 날겁니다.",
+
+"blackberry-mead.name": "풍부한 블랙베리 꿀술",
+"blackberry-mead.description": "자연에서 블랙베리 채집을 계기로 만든 달콤하고 상큼한 벌꿀술.",
+
+"blueberry-mead.name": "블루베리 코블러 꿀술",
+"blueberry-mead.description": "당신은 지금까지 액체로 된 블루베리 파이를 즐겨 마시게 되리란 걸 몰랐습니다.",
+
+"cactus-mead.name": "선인장 꿀술",
+"cactus-mead.description": "칼리코 사막의 명물.",
+
+"cherry-mead.name": "달콤한 체리 꿀술",
+"cherry-mead.description": "달콤하고 상큼하며, 체리꽃이 저무는 걸 보며 즐기기에 제일 좋습니다.",
+
+"coconut-mead.name": "열대 코코넛 꿀술",
+"coconut-mead.description": "모두가 이 술에 미쳤습니다-코코넛 꿀술에요!",   
+
+"cranberry-mead.name": "상큼한 크랜베리 꿀술",
+"cranberry-mead.description": "상큼하고 상쾌한 가을 꿀술입니다.", 
+
+"crystal-mead.name": "수정과일 꿀술",
+"crystal-mead.description": "겨울 별 연회를 위한 완벽한 꿀술입니다.", 
+
+"mango-mead.name": "섬 망고 꿀술",
+"mango-mead.description": "진저 섬의 명물인 꿀술입니다.", 
+
+"melon-mead.name": "여름멜론 꿀술",
+"melon-mead.description": "이 기분 좋은 분홍빛 꿀술은 여름의 어떤 날에도 즐길 수 있습니다.", 
+
+"orange-mead.name": "오렌지 크림시클 꿀술",
+"orange-mead.description": "미모사를 연상시키는, 밝고 산뜻한 감귤향의 벌꿀입니다.", 
+
+"peach-mead.name": "복숭아 크림 꿀술",
+"peach-mead.description": "달콤한 여름의 별미.", 
+
+"pineapple-mead.name": "앵무새의 파인애플 꿀술",
+"pineapple-mead.description": "이 술의 제조법은 진저 섬의 앵무새들에 의해 철저하게 보호되고 있습니다.", 
+
+"pomegranate-mead.name": "달콤한 석류 꿀술",
+"pomegranate-mead.description": "영령의 전야제에 차려주기 좋은 완벽한 꿀술.", 
+
+"salmonberry-mead.name": "새먼베리 꿀술",
+"salmonberry-mead.description": "새먼베리로 만든 가벼운 단맛의 꿀술.", 
+
+"spiced-mead.name": "스파이스드 미드",
+"spiced-mead.description": "선선한 저녁에 딱 맞는 따뜻한 꿀술.", 
+
+"starfruit-mead.name": "하늘 스타후르츠 꿀술",
+"starfruit-mead.description": "여름의 밤하늘을 보며 즐기기 좋은 황금빛의 벌꿀술.", 
+
+"strawberry-mead.name": "딸기밭 꿀술",
+"strawberry-mead.description": "마치 딸기 밀크셰이크 같습니다만, 더 맛있어요!", 
+
+"gem-mead.name": "보석베리 꿀술",
+"gem-mead.description": "비밀의 숲에 사는 주니모들에 의해 만들어졌다는 소문이 있는, 마법의 꿀술.", 
+
+"plum-mead.name": "가을의 자두 꿀술",
+"plum-mead.description": "달콤한 가을의 벌꿀주.", 
+
+//PPJA-mead
+
+"crisp-apple-mead.name": "상큼한 사과 꿀술",
+"crisp-apple-mead.description": "크리스피한 산도의 따뜻한 벌꿀술. 가을에 잘 어울립니다.",
+
+"dragon-mead.name": "용의 꿀술",
+"dragon-mead.description": "이 꿀술을 만드는 동안 그 어떤 드래곤도 다치지 않았습니다.",
+
+"fig-mead.name": "겨울 무화과 꿀술",
+"fig-mead.description": "염소 치즈와 찰떡궁합입니다!", 
+
+"grapefruit-mead.name": "달콤쌉쌀 자몽 꿀술",
+"grapefruit-mead.description": "약간 산미가 있는 꿀술.", 
+
+"lemon-mead.name": "레몬 머랭 꿀술",
+"lemon-mead.description": "이 꿀술을 맛보면 어머니가 해주시던 레몬 과자가 생각난다.", 
+
+"lime-mead.name": "키라임 파이 꿀술",
+"lime-mead.description": "괴혈병을 예방할 순 없지만, 맛있습니다.", 
+
+"lychee-mead.name": "리치 애호가의 꿀술",
+"lychee-mead.description": "달콤한 맛 뒤로 희미한 꽃 향기가 나는 특별한 꿀술.", 
+
+"papaya-mead.name": "섬 파파야 꿀술",
+"papaya-mead.description": "샌디가 특별하게 개발해낸 또 다른 종류의 꿀술.",
+
+"pear-mead.name": "산뜻한 서양배 꿀술",
+"pear-mead.description": "크리스피한 산도를 느낄 수 있습니다.", 
+
+"persimmon-mead.name": "둥근 감 꿀술",
+"persimmon-mead.description": "아마, 모자를 파는 생쥐가 원할까요?", 
+
+"pomelo-mead.name": "상큼한 포멜로 꿀술",
+"pomelo-mead.description": "가장 칙칙한 겨울철에도 화사하게 해줄 수 있는, 감귤류 풍미의 꿀술.", 
+
+//WILD FOOD-mead
+
+"vanilla-mead.name": "칼리코 바닐라 꿀술",
+"vanilla-mead.description": "이 꿀술은 꿀은 칼리코 바닐라 꽃에서 얻었습니다.", 
+
+"cinnamon-mead.name": "달콤한 시나몬 꿀술",
+"cinnamon-mead.description": "이 꿀술의 꿀은 잉걸불 수액 계피나무에서 얻었습니다.",
+
+"chamomile-mead.name": "숲 캐모마일 꿀술",
+"chamomile-mead.description": "이 꿀술의 꿀은 숲 캐모마일에서 얻었습니다.",
+
+"lavender-mead.name": "숲 라벤더 꿀술",
+"lavender-mead.description": "이 꿀술의 꿀은 숲 라벤더에서 얻었습니다.",
+
+"mallow-mead.name": "마시멜로 꿀술",
+"mallow-mead.description": "이 꿀술의 꿀은 마시멜로 꽃에서 얻었습니다",
+
+"petitelemon-mead.name": "작은 레몬 꿀술",
+"petitelemon-mead.description": "이 꿀술의 꿀은 레몬나무 꽃에서 얻었습니다", 
+
+"petitelime-mead.name": "작은 라임 꿀술",
+"petitelime-mead.description": "이 꿀술의 꿀은 숲 라임나무 꽃에서 얻었습니다", 
+
+"sakura-mead.name": "벚꽃꿀술",
+"sakura-mead.description": "이 꿀술의 꿀은 벚꽃에서 얻었습니다",
+
+"wildraspberry-mead.name": "달콤한 라즈베리 꿀술",
+"wildraspberry-mead.description": "이 꿀술의 꿀은 야생 라즈베리 꽃에서 얻었습니다", 
+
+"wildstrawberry-mead.name": "딸기 크림 꿀술",
+"wildstrawberry-mead.description": "이 꿀술의 꿀은 야생 딸기꽃 얻었습니다", 
+
+//PIXIE FORAGE-mead
+
+"pixie-apple-mead.name": "꿈꾸는 사과 꿀술",
+"pixie-apple-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-apricot-mead.name": "꿈꾸는 살구 꿀술",
+"pixie-apricot-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-banana-mead.name": "꿈꾸는 바나나 꿀술",
+"pixie-banana-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-cherry-mead.name": "꿈꾸는 체리 꿀술",
+"pixie-cherry-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-mango-mead.name": "꿈꾸는 망고 꿀술",
+"pixie-mango-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-orange-mead.name": "꿈꾸는 오렌지 꿀술",
+"pixie-orange-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-peach-mead.name": "꿈꾸는 복숭아 꿀술",
+"pixie-peach-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"pixie-pomegranate-mead.name": "꿈꾸는 석류 꿀술",
+"pixie-pomegranate-mead.description": "요정족을 위해 특별히 만들어진 꿀술. 전설에 따르면 인간이 이걸 마시게 될 경우, 마법적인 존재와 대화할 수 있게 된다고 한다.",
+
+"cake-mead.name": "케이크 꿀술",
+"cake-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 바닐라 케이크 맛이 난다.",
+
+"caramel-mead.name": "카라멜 꿀술",
+"caramel-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 사과 카라멜 맛이 난다.",
+
+"creamsicle-mead.name": "크림시클 꿀술",
+"creamsicle-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 오렌지 아이스바 맛이 난다.",
+
+"custard-mead.name": "커스터드 꿀술",
+"custard-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 바닐라 커스터드 맛이 난다.",
+
+"gumdrop-mead.name": "구미젤리 꿀술",
+"gumdrop-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 과일구미 맛이 난다.",
+
+"macaron-mead.name": "마카롱 꿀술",
+"macaron-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 아몬드 마카롱 맛이 난다.",
+
+"pie-mead.name": "파이 꿀술",
+"pie-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 블루베리 파이 맛이 난다.",
+
+"sprinkle-mead.name": "스프링클 꿀술",
+"sprinkle-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 레인보우 스프링클 맛이 난다.",
+
+"sugar-mead.name": "설탕 꿀술",
+"sugar-mead.description": "요정들의 신비한 꽃으로 만든 꿀술; 맛을 보면 이상하게도 순수한 설탕 맛이 난다.",
+
+
+//PICKLES i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+	//Bruschetta
+    "bruschetta.name": "토마토 바질 브루쉐타",
+	"bruschetta.description": "크로스티니, 혹은 토스트 위에 잘게 썬 토마토와 바질, 마늘을 더해 만들었습니다. 밝은 여름의 향이 납니다!",
+	
+	//Onion Chutney
+    "onion-chutney.name": "양파 처트니",
+	"onion-chutney.description": "양파로 만든 이 처트니는 잼처럼 달콤하고 부드럽게 으스러질 때까지 몇 시간이고 조리해서 만들었습니다.",
+
+	//Pineapple Salsa
+    "pineapple-salsa.name": "구운 파인애플 살사",
+	"pineapple-salsa.description": "파인애플을 먼저 구워서 이 살사에 달콤하고 기분 좋은 풍미를 더했습니다.",
+
+	//Giardiniera
+    "giardiniera.name": "자르디니에라",
+	"giardiniera.description": "절인 야채와 허브의 혼합물-즉 피클과 비슷한 종류입니다. 전채 요리나 샌드위치 재료로 사용되곤 합니다.",
+
+	//Horseradish Chips
+    "horseradish-pickles.name": "고추냉이 피클 칩",
+	"horseradish-pickles.description": "야생 고추냉이는 이 피클의 맛의 주요 포인트가 됩니다.",
+
+	//Kale Pesto
+    "kale-pesto.name": "케일 마늘 페스토",
+	"kale-pesto.description": "바질 페스토 이상의 품질을 낼 수 있습니다! 이 케일과 마늘로 만든 페스토는 기분 좋은 갈색입니다.",
+
+	//Mushrooms
+    "marinated-mushrooms.name": "버섯 마리네이드",
+	"marinated-mushrooms.description": "이 맛있는 버섯들은 식초 대신 기름과 향신료에 재워졌습니다.",
+
+	//Mild Salsa
+    "tomato-salsa.name": "순한 토마토 살사",
+	"tomato-salsa.description": "이 살사는 매운 고추를 포함하지 않습니다. 매운 맛을 먹지 못하는 사람들에게 완벽하군요!",
+
+	//Tapenade
+    "olive-tapenade.name": "올리브 타프나드",
+	"olive-tapenade.description": "페른 제도의 올리브를 으깨어 만든 스프레드입니다. 토스트, 캐비어, 샴페인과 함께 우아한 저녁식사를 즐겨보세요!",
+
+	//Peach Salsa
+    "peach-salsa.name": "복숭아 살사",
+	"peach-salsa.description": "갓 딴 복숭아가 이 매콤한 살사에 달콤한 맛을 더해줍니다.",
+
+	//Pepper Relish
+    "pepper-relish.name": "고추 양파 렐리시",
+	"pepper-relish.description": "많은 샌드위치에 잘 어울리는 달콤하고 매운 맛입니다.",
+
+	//Pickled Artichoke
+    "pickled-artichoke.name": "아티초크 절임",
+	"pickled-artichoke.description": "이 아티초크는 절이는 과정을 통해 부드럽고 연한 맛을 유지했습니다. 덕분에 샐러드에, 혹은 그냥 즐길 수 있게 되었어요!",
+
+	//Pickled Fish
+    "pickled-fish.name": "생선 절임",
+	"pickled-fish.description": "보통 청어로 만듭니다만, 기름에 절인 생선은 많은 문화권에서 가벼운 아침 식사로 토스트와 곁들여 먹습니다.",
+
+	//Pickled Olives
+    "pickled-olives.name": "올리브 절임",
+	"pickled-olives.description": "페른 제도의 올리브는 특유의 맛을 위해 소금물에 절입니다.",
+
+	//Pickled Red Onions
+	"pickled-onion.name": "적양파 절임",
+	"pickled-onion.description": "얇게 채선 적양파에 설탕을 살짝 넣어 가볍게 익히고 식혀낸 뒤, 식초에 절였습니다.",
+
+	//Pickled Carrots
+    "pickled-carrot.name": "야생 당근 절임",
+	"pickled-carrot.description": "재료 본연의 아삭함과 달콤한 맛을 위해 절여낸 신선한 야생 당근입니다.",
+
+	//Red Peppers
+    "roasted-peppers.name": "매운 고추 구이",
+	"roasted-peppers.description": "매운 고추는 불에 구운 뒤, 기름에 넣어 절입니다; 샐러드, 샌드위치, 그 외에도 많은 요리에도 다양하게 쓸 수 있습니다.",
+
+	//Sauerkraut
+    "sauerkraut.name": "사우어크라우트",
+	"sauerkraut.description": "향신료를 더한 절인 양배추는 소세지에 곁들여 먹거나, 샌드위치 재료로 자주 사용됩니다.",
+
+	//Mango Salsa
+    "mango-salsa.name": "매콤한 망고 살사",
+	"mango-salsa.description": "이 맵고 달콤한 살사는 많은 해산물 요리와 잘 어울립니다!",
+
+	//Spicy Salsa
+    "spicy-salsa.name": "매콤한 토마토 살사",
+	"spicy-salsa.description": "여름의 매운 고추를 좋아하는 사람들을 위해 특별하게 만들어진 살사입니다.",
+
+	//Sundried Tomatoes
+    "sundried-tomatoes.name": "선드라이 토마토",
+	"sundried-tomatoes.description": "토마토를 몇 시간 동안 햇볕에 말린 다음, 허브와 함께 기름에 절였습니다. 샐러드 토핑, 파스타 재료로 사용되곤 합니다.",
+
+	//Basil Pesto
+    "basil-pesto.name": "바질 페스토",
+	"basil-pesto.description": "바질, 마늘, 올리브 오일, 견과류를 넣어 만든 전형적인 페스토입니다. 파스타 소스로, 혹은 샌드위치 소스로 사용해보세요!",
+
+	//Tomato Corn Salsa
+    "corn-salsa.name": "옥수수 살사",
+	"corn-salsa.description": "갓 딴 토마토와 옥수수는 이 살사를 완벽한 여름 소스로 만들었습니다!",
+
+
+//TEA i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//KETTLE
+
+"tea-kettle.name":"차 주전자",
+"tea-kettle.description":"포장된 티백을 만들고 맛있는 차를 끓일 수 있습니다!",
+
+//TEA SACHETS
+
+"apple-sachet.name": "사과 시나몬 차 티백",
+"apple-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"vanilla-sachet.name": "카모마일 허니 바닐라 차 티백",
+"vanilla-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"matcha-sachet.name": "말차 티백",
+"matcha-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"cinnamon-sachet.name": "시나몬 차 티백",
+"cinnamon-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"chamomile-sachet.name": "포근한 카모마일 차 티백",
+"chamomile-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"breakfast-sachet.name": "아침 차 티백",
+"breakfast-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"flower-sachet.name": "플라워 인퓨전",
+"flower-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"fruit-sachet.name": "과일 주입",
+"fruit-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"jasmine-sachet.name": "향기로운 자스민 차 티백",
+"jasmine-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"ginger-sachet.name": "생강 복숭아 차 티백",
+"ginger-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"grey-sachet.name": "그레이 레이드 차 티백",
+"grey-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"lemon-sachet.name": "레몬 생강 차 티백",
+"lemon-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"mint-sachet.name": "메리 민트 차 티백",
+"mint-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"berry-sachet.name": "혼합 베리 차 티백",
+"berry-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"peach-sachet.name": "복숭아 망고 차 티백",
+"peach-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"pineapple-sachet.name": "파인애플 코코넛 차 티백",
+"pineapple-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"pomegranate-sachet.name": "석류 녹차 티백",
+"pomegranate-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"raspberry-sachet.name": "라즈베리 레몬 차 티백",
+"raspberry-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"rose-sachet.name": "장미 꽃잎 차 티백",
+"rose-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"sakura-sachet.name": "벚꽃 차 티백",
+"sakura-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+"strawberry-sachet.name": "야생 딸기 차 티백",
+"strawberry-sachet.description": "향긋한 향의 찻잎은 차를 끓이기에 완벽합니다.",
+
+//TEA
+
+"apple-tea.name": "사과 시나몬 차",
+"apple-tea.description": "갓 우려낸 장인의 차.",
+
+"vanilla-tea.name": "카모마일 허니 바닐라 차",
+"vanilla-tea.description": "갓 우려낸 장인의 차.",
+
+"matcha-tea.name": "말차",
+"matcha-tea.description": "갓 우려낸 장인의 차.",
+
+"cinnamon-tea.name": "시나몬 차",
+"cinnamon-tea.description": "갓 우려낸 장인의 차.",
+
+"chamomile-tea.name": "포근한 카모마일 차",
+"chamomile-tea.description": "갓 우려낸 장인의 차.",
+
+"breakfast-tea.name": "아침 차",
+"breakfast-tea.description": "갓 우려낸 장인의 차.",
+
+"flower-tea.name": "꽃 차",
+"flower-tea.description": "갓 우려낸 장인의 차.",
+
+"fruit-tea.name": "과일 차",
+"fruit-tea.description": "갓 우려낸 장인의 차.",
+
+"jasmine-tea.name": "향기로운 자스민 차",
+"jasmine-tea.description": "갓 우려낸 장인의 차.",
+
+"ginger-tea.name": "생강 복숭아 차",
+"ginger-tea.description": "갓 우려낸 장인의 차.",
+
+"grey-tea.name": "그레이 레이드 차",
+"grey-tea.description": "갓 우려낸 장인의 차..",
+
+"lemon-tea.name": "레몬 생강 차",
+"lemon-tea.description": "갓 우려낸 장인의 차.",
+
+"mint-tea.name": "메리 민트 차",
+"mint-tea.description": "갓 우려낸 장인의 차.",
+
+"berry-tea.name": "혼합 베리 차",
+"berry-tea.description": "갓 우려낸 장인의 차.",
+
+"peach-tea.name": "복숭아 망고 차",
+"peach-tea.description": "갓 우려낸 장인의 차.",
+
+"pineapple-tea.name": "파인애플 코코넛 차",
+"pineapple-tea.description": "갓 우려낸 장인의 차.",
+
+"pomegranate-tea.name": "석류 녹차",
+"pomegranate-tea.description": "갓 우려낸 장인의 차.",
+
+"raspberry-tea.name": "라즈베리 레몬 차",
+"raspberry-tea.description": "갓 우려낸 장인의 차.",
+
+"rose-tea.name": "장미 꽃잎 차",
+"rose-tea.description": "갓 우려낸 장인의 차.",
+
+"sakura-tea.name": "벚꽃 차",
+"sakura-tea.description": "갓 우려낸 장인의 차.",
+
+"strawberry-tea.name": "야생 딸기 차",
+"strawberry-tea.description": "갓 우려낸 장인의 차.",
+
+//KOMBUCHA
+
+"apple-kombucha.name": "가을 사과 콤부차",
+"apple-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"vanilla-kombucha.name": "칼리코 바닐라 콤부차",
+"vanilla-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"matcha-kombucha.name": "의식용 말차 콤부차",
+"matcha-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"cinnamon-kombucha.name": "시나몬 스파이스 콤부차",
+"cinnamon-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"chamomile-kombucha.name": "포근한 카모마일 콤부차",
+"chamomile-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"breakfast-kombucha.name": "잉글리시 브랙퍼스트 콤부차",
+"breakfast-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"flower-kombucha.name": "꽃 콤부차",
+"flower-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"fruit-kombucha.name": "과일 콤부차",
+"fruit-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"jasmine-kombucha.name": "향기로운 자스민 콤부차",
+"jasmine-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"ginger-kombucha.name": "생강 복숭아 콤부차",
+"ginger-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"grey-kombucha.name": "레이디 그레이 콤부차",
+"grey-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"lemon-kombucha.name": "레몬 생강 콤부차",
+"lemon-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"mint-kombucha.name": "메리 민트 콤부차",
+"mint-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"berry-kombucha.name": "믹스베리 콤부차",
+"berry-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"peach-kombucha.name": "복숭아 망고 콤부차",
+"peach-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"pineapple-kombucha.name": "파인애플 코코넛 콤부차",
+"pineapple-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"pomegranate-kombucha.name": "석류 그린 콤부차",
+"pomegranate-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"raspberry-kombucha.name": "라즈베리 레몬 콤부차",
+"raspberry-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"rose-kombucha.name": "장미 꽃잎 콤부차",
+"rose-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"sakura-kombucha.name": "사쿠라 콤부차",
+"sakura-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+"strawberry-kombucha.name": "산딸기 콤부차",
+"strawberry-kombucha.description": "꿀과 함께 발효시켜 상쾌한 탄산 음료로 만든 차.",
+
+//WILD FOOD i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//SEEDS
+
+"vanilla-seeds.name": "칼리코 바닐라 씨앗",
+"vanilla-seeds.description": "여름에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"tea-seeds.name": "펀길 차 덤불 씨앗",
+"tea-seeds.description": "봄, 여름 또는 가을에 심으세요. 성장하려면 14일이 소요되고, 4일마다 수확 할 수 있습니다.",
+
+"chamomile-seeds.name": "숲 카모마일 씨앗",
+"chamomile-seeds.description": "가을에 심으세요. 성장하려면 7일이 소요됩니다.",
+
+"lavender-seeds.name": "숲 라벤더 씨앗",
+"lavender-seeds.description": "봄, 여름 또는 가을에 심으세요. 성장하려면 14일이 소요되고, 4일마다 꽃을 수확 할 수 있습니다.",
+
+"jasmine-seeds.name": "보석 섬 자스민 씨앗",
+"jasmine-seeds.description": "여름에 심으세요. 성장하려면 7일이 소요됩니다.",
+
+"mallow-seeds.name": "마시멜로 씨앗",
+"mallow-seeds.description": "봄 또는 여름에 심으세요. 성장하려면 10일이 소요됩니다.",
+
+"mint-seeds.name": "펠리칸 민트 씨앗",
+"mint-seeds.description": "봄, 여름 또는 가을에 심으세요. 성장하려면 10일이 소요되고, 3일마다 수확 할 수 있습니다.",
+
+"lemon-seeds.name": "작은 레몬 나무 씨앗",
+"lemon-seeds.description": "봄 또는 여름에 심으세요. 성장하려면 14일이 소요되고, 4일마다 수확 할 수 있습니다.",
+
+"lime-seeds.name": "작은 라임 나무 씨앗",
+"lime-seeds.description": "봄 또는 여름에 심으세요. 성장하려면 14일이 소요되고, 4일마다 수확 할 수 있습니다",
+
+"carrot-seeds.name": "야생 당근 씨앗",
+"carrot-seeds.description": "봄이나 가을에 심습니다. 자라는데 7일이 걸린다.",
+
+"onion-seeds.name": "야생 붉은 양파 씨앗",
+"onion-seeds.description": "봄이나 가을에 심습니다. 자라는데 7일이 걸린다.",
+
+"strawberry-seeds.name": "야생 딸기 덤불",
+"strawberry-seeds.description": "봄 또는 여름에 심으세요. 성장하려면 10일이 소요되고, 3일마다 수확 할 수 있습니다.",
+
+"raspberry-seeds.name": "야생 라즈베리 덤불",
+"raspberry-seeds.description": "봄 또는 여름에 심으세요. 성장하려면 10일이 소요되고, 3일마다 수확 할 수 있습니다.",
+
+//HERB SEEDS
+
+"basil-seeds.name": "스위트 바질 씨앗",
+"basil-seeds.description": "봄 또는 여름에 심습니다. 자라는 데 7일이 걸리며 이후 2일마다 수확할 수 있습니다.",
+
+"cilantro-seeds.name": "잉걸불 수액 실란트로 씨앗",
+"cilantro-seeds.description": "봄 또는 여름에 심습니다. 자라는 데 7일이 걸리며 이후 2일마다 수확할 수 있습니다.",
+
+"rosemary-seeds.name": "강한 로즈마리 씨앗",
+"rosemary-seeds.description": "봄이나 가을에 심습니다. 자라는 데 7일이 걸리며 이후 2일마다 수확할 수 있습니다.",
+
+"sage-seeds.name": "잉걸불 수액 세이지 씨앗",
+"sage-seeds.description": "봄이나 가을에 심습니다. 자라는 데 7일이 걸리며 이후 2일마다 수확할 수 있습니다.",
+
+"thyme-seeds.name": "레몬 백리향 씨앗",
+"thyme-seeds.description": "봄, 여름 또는 가을에 심습니다. 자라는 데 7일이 걸리며 이후 2일마다 수확할 수 있습니다.",
+
+
+// MUSHROOM STARTERS
+
+"chick-mushroom.name":"포레스트 치킨 버섯 스타터",
+"chick-mushroom.description":"여름에 심습니다. 자라는데 10일이 걸리고, 이후 4일마다 수확할 수 있습니다.",
+
+"honey-mushroom.name":"꿀곰팡이 버섯 스타터",
+"honey-mushroom.description":"봄, 혹은 가을에 심습니다. 자라는데 10일이 걸리고, 이후 4일마다 수확할 수 있습니다.",
+
+"meringue-mushroom.name":"머랭 버섯 스타터",
+"meringue-mushroom.description":"가을에 심습니다. 자라는데 10일이 걸리고, 이후 4일마다 수확할 수 있습니다.",
+
+"milky-mushroom.name":"밀키 버섯 스타터",
+"milky-mushroom.description":"여름, 혹은 가을에 심습니다. 자라는데 10일이 걸리고, 이후 4일마다 수확할 수 있습니다.",
+
+"wheat-mushroom.name":"밀베리 버섯 스타터",
+"wheat-mushroom.description":"봄에 심습니다. 자라는데 10일이 걸리고, 이후 4일마다 수확할 수 있습니다.",
+
+//HERBS NEW
+
+"sweet-basil.name": "스위트 바질",
+"sweet-basil.description": "색과 풍미를 위해 다양한 요리 전통에 사용되는 더 달콤한 다양한 인기 허브.",
+
+"cindersap-cilantro.name": "잉걸불 수액 실란트로",
+"cindersap-cilantro.description": "매운 요리나 살사에 자주 사용되는 야생 고수(코리앤더라고도 합니다!).",
+
+"cindersap-sage.name": "잉걸불 수액 세이지",
+"cindersap-sage.description": "꽃 향이 나는 섬세한 허브로, 많은 가을 요리의 풍부한 풍미를 베어내기 위해 사용됩니다.",
+
+"hardy-rosemary.name": "강한 로즈마리",
+"hardy-rosemary.description": "거의 모든 곳에서 번성하는 강하고 튼튼한 허브; 그것은 거의 작은 소나무와 비슷합니다.",
+
+"lemon-thyme.name": "레몬 백리향",
+"lemon-thyme.description": "모든 정원에서 빠르게 자라는 인기 있는 허브; 레몬 품종은 허브, 감귤 향으로 높이 평가됩니다.",
+
+//TREES NEW
+
+"lemon-sapling.name":"작은 레몬 묘목",
+"lemon-sapling.description":"성목이 되기까지 28일이 걸립니다. 봄에 열매를 맺습니다.",
+
+"lime-sapling.name":"작은 라임 묘목",
+"lime-sapling.description":"성목이 되기까지 28일이 걸립니다. 봄에 열매를 맺습니다.",
+
+
+//TREES
+
+"pistachio-sapling.name": "칼리코 피스타치오 묘목",
+"pistachio-sapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+"cinnamon-sapling.name": "잉걸불 수액 계피 묘목",
+"cinnamon-sapling.description": "성목이 되기까지 28일이 걸립니다. 겨울에 껍질을 수확하다",
+
+"olive-sapling.name": "페른 섬 올리브 묘목",
+"olive-sapling.description": "성목이 되기까지 28일이 걸립니다. 여름에 열매를 맺습니다.",
+
+"cashew-sapling.name": "보석 해 캐슈넛 묘목",
+"cashew-sapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+"walnut-sapling.name": "그램플턴 호두 묘목",
+"walnut-sapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+"almond-sapling.name": "성 카놀리 아몬드 묘목",
+"almond-sapling.description": "성목이 되기까지 28일이 걸립니다. 가을에 열매를 맺습니다.",
+
+"cacao-sapling.name": "야생 카카오 묘목",
+"cacao-sapling.description": "28일 후 성목이 됩니다. 가을에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+//OBJECTS
+
+//Calico Pistachio
+"calico-pistachio.name":"칼리코 피스타치오",
+"calico-pistachio.description":"칼리코 사막에서 채집을 통해서만 발견되는 독특한 견과류입니다.",
+
+//Calico Vanilla
+"calico-vanilla.name": "칼리코 바닐라",
+"calico-vanilla.description": "칼리코 사막에서 채집을 통해서만 발견되는 독특한 바닐라.",
+
+//Cherry Blossom Petals
+"cherry-blossom.name": "벚꽃 꽃잎",
+"cherry-blossom.description": "활짝 핀 벚꽃의 신선한 꽃잎.",
+
+//Chicken of the Woods
+"chicken-woods.name": "포레스트 치킨",
+"chicken-woods.description": "이 이상한 이름의 버섯은 전 세계에서 발견되며 어떤 사람들은 이것이 정말로 닭고기와 맛이 똑같다고 주장합니다!",
+
+//Cindersap Cinnamon
+"cindersap-cinnamon.name": "잉걸불 수액 시나몬",
+"cindersap-cinnamon.description": "겨울에 잉걸불 수액 숲에서만 볼 수 있는 희귀한 계피나무 껍질.",
+
+//Fern Isle Olive
+"fern-olive.name": "페른 섬 올리브",
+"fern-olive.description": "해변에서 발견되는 희귀한 올리브",
+
+//Ferngill Tea Leaf
+"tea-leaf.name": "펀길 차 덤불 잎",
+"tea-leaf.description": "펀길 숲에서 채집한 신선한 찻잎.",
+
+//Forest Chamomile
+"forest-chamomile.name": "숲 카모마일",
+"forest-chamomile.description": "숲 깊은 곳에서 발견되는 차로 만들기에 딱 좋은 섬세한 꽃.",
+
+//Forest Lavender
+"forest-lavender.name": "숲 라벤더",
+"forest-lavender.description": "숲 깊은 곳에서 발견되는 짙은 향기의 꽃.",
+
+//Gem Isle Jasmine
+"gem-jasmine.name": "보석 섬 자스민",
+"gem-jasmine.description": "진저 섬에서만 발견할 수 있는 아름다운 향.",
+
+//Gem Sea Cashew
+"gem-cashew.name": "보석 해 캐슈",
+"gem-cashew.description": "보석 해의 섬에서만 발견되는 열대 캐슈애플 나무의 씨앗.",
+
+//Grampleton Walnut
+"grampleton-walnut.name": "그램플턴 호두",
+"grampleton-walnut.description": "그램플턴에서 발견되었으나 현재는 펠리컨 마을에서도 쉽게 찾아볼 수 있는 호두입니다!",
+
+//Honey Fungus Mushroom
+"honey-fungus.name": "꿀 곰팡이 버섯",
+"honey-fungus.description": "생으로 먹는 것은 위험하지만, 이 버섯은 적절하게 요리하면 풍부하고 고소한 맛이 납니다.",
+
+//Marsh Mallow
+"marsh-mallow.name": "마시멜로",
+"marsh-mallow.description": "주로 디저트를 만드는 데 사용되는 마시멜로 꽃",
+
+//Meringue Mushroom
+"meringue-shroom.name": "머랭 버섯",
+"meringue-shroom.description": "계곡 최고의 채집가들만이 찾아볼 수 있는 이상하게 달콤한 버섯으로 색깔과 모양이 마치 사탕처럼 생겼습니다.",
+
+//Milky White Mushrooms
+"white-shroom.name": "밀키 버섯",
+"white-shroom.description": "이 버섯은 밝은 흰색이며 크림 같은 질감을 가지고 있습니다.",
+
+//Pelican Mint
+"pelican-mint.name": "펠리칸 민트",
+"pelican-mint.description": "마을 사람들이 아무리 제거하려 노력해도 펠리컨 마을 주변에서 자라는 박하.",
+
+//Petite Lemon
+"petite-lemon.name": "작은 레몬",
+"petite-lemon.description": "숙련된 채집가가 야생에서 발견한 작지만 향긋한 레몬.",
+
+//Petite Lime
+"petite-lime.name": "작은 라임",
+"petite-lime.description": "숙련된 채집가가 야생에서 발견한 작지만 향긋한 라임.",
+
+//St Cannoli Almond
+"cannoli-almond.name": "성 카놀리 아몬드",
+"cannoli-almond.description": "숙련된 채집가의 꿈이 이루어졌습니다! 노장 카놀리가 직접 재배한 것으로 알려진 가장 희귀한 아몬드입니다.",
+
+//Wheatberry Mushroom
+"wheat-shroom.name": "밀베리 버섯",
+"wheat-shroom.description": "아마추어 채집가에게 있어 매우 흔한 버섯이지만 숙련된 채집가들은 이 곰팡이가 중요한 요리 재료로 전환될 수 있다는 것을 알고 있습니다.",
+
+//Wild Cacao Pod
+"wild-cacao.name": "야생 카카오",
+"wild-cacao.description": "코코아 및 이국적인 음식을 만드는 데 사용되는 카카오 나무의 꼬투리.",
+
+//Wild Carrot
+"wild-carrot.name": "야생 당근",
+"wild-carrot.description": "당근입니다! 다만, 야생의 것이니 조심하는게 좋을거에요!",
+
+//Wild Raspberry
+"wild-raspberry.name": "야생 라즈베리",
+"wild-raspberry.description": "펀길 전역의 숲에서 자생하는 작고 달콤한 베리.",
+
+//Wild Red Onion
+"wild-onion.name": "야생 붉은 양파",
+"wild-onion.description": "야생 당근과 마찬가지로 이 양파도 주의하세요. 그렇지 않으면 울게 될겁니다!",
+
+//Wild Strawberry
+"wild-strawberry.name": "야생 딸기",
+"wild-strawberry.description": "펀길 전역의 숲에서 자생하는 작은 종류의 딸기.",
+
+
+//SPECIAL ORDERS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+ 
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,548 @@
+{
+  "Changes": [
+
+
+// Candy Order 1
+    {
+    "LogName": "Candy Order 1",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+      "Wildflour Candy SO 1": {
+        "Name": "{{i18n:wildflourcandy.quest1.name}}",
+        "Requester": "Jas",
+        "Duration": "Week",
+        "Repeatable": "False",
+        "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourcandy.quest1.text}}",
+        "Objectives": [
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourcandy.quest1a.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wf_strawberry_marshmallow",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourcandy.quest1b.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wf_lavender_marshmallow",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourcandy.quest1c.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wf_coconut_marshmallow",
+                "TargetName": "Jas"
+              }
+            },
+            {
+              "Type": "Deliver",
+              "Text": "{{i18n:wildflourcandy.quest1d.deliver}}",
+              "RequiredCount": "3",
+              "Data": {
+                "AcceptedContextTags": "item_wf_matcha_marshmallow",
+                "Message": "{{i18n:wildflourcandy.quest1.accept}}",
+                "TargetName": "Jas"
+              }
+            }
+          ],
+          "Rewards": [
+            {
+              "Type": "Money",
+              "Data": {
+                "Amount": "10000"
+              }
+            },
+
+            {
+              "Type": "Friendship",
+              "Data": {
+                    "Amount": "250",
+                    "TargetName": "Jas"
+                }
+              }    
+          ]
+      }
+    }
+  },
+
+// Candy Order 2
+    {
+      "LogName": "Candy Order 2",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Candy SO 2": {
+          "Name": "{{i18n:wildflourcandy.quest2.name}}",
+          "Requester": "Vincent",
+          "Duration": "Week",
+          "Repeatable": "False",
+          "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourcandy.quest2.text}}",
+          "Objectives": [
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourcandy.quest2a.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wf_fairyfloss"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourcandy.quest2b.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wf_lavender_fairyfloss"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourcandy.quest2c.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wf_lemon_fairyfloss"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourcandy.quest2d.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wf_orange_fairyfloss"
+              }
+            },
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourcandy.quest2e.deliver}}",
+              "RequiredCount": "1",
+              "Data": {
+                "DropBox": "VincentStuff",
+                "DropBoxGameLocation": "SamHouse",
+                "DropBoxIndicatorLocation": "9 13",
+                "AcceptedContextTags": "item_wf_mint_fairyfloss"
+              }
+            }, 
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourcandy.quest2f.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "VincentStuff",
+                  "DropBoxGameLocation": "SamHouse",
+                  "DropBoxIndicatorLocation": "9 13",
+                  "AcceptedContextTags": "item_wf_strawberry_fairyfloss"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourcandy.quest2g.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "VincentStuff",
+                  "DropBoxGameLocation": "SamHouse",
+                  "DropBoxIndicatorLocation": "9 13",
+                  "AcceptedContextTags": "item_wf_vanilla_fairyfloss"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "4900"
+                }
+              },
+  
+              {
+                "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Vincent"
+                  }
+                },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_candyOrder2_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+// Candy Order 3
+    {
+      "LogName": "Candy Order 3",
+      "Action": "EditData",
+      "Target": "Data/SpecialOrders",
+      "Entries": {
+        "Wildflour Candy SO 3": {
+          "Name": "{{i18n:wildflourcandy.quest3.name}}",
+          "Requester": "Penny",
+          "Duration": "TwoWeeks",
+          "Repeatable": "False",
+          "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+          "OrderType": "",
+          "SpecialRule": "",
+          "ItemToRemoveOnEnd": null,
+          "MailToRemoveOnEnd": null,
+          "RandomizedElements": null,
+          "Text": "{{i18n:wildflourcandy.quest3.text}}",
+          "Objectives": [
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourcandy.quest3a.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wf_lemon_gourmetpop"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourcandy.quest3b.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wf_mint_gourmetpop"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourcandy.quest3c.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wf_berry_gourmetpop"
+                }
+              },
+              {
+                "Type": "Donate",
+                "Text": "{{i18n:wildflourcandy.quest3d.deliver}}",
+                "RequiredCount": "1",
+                "Data": {
+                  "DropBox": "PennyKitchen",
+                  "DropBoxGameLocation": "Trailer",
+                  "DropBoxIndicatorLocation": "11 6",
+                  "AcceptedContextTags": "item_wf_blueberry_gourmetpop"
+                }
+              }
+            ],
+            "Rewards": [
+              {
+                "Type": "Money",
+                "Data": {
+                  "Amount": "10000"
+                }
+              },
+  
+              {
+               "Type": "Friendship",
+                "Data": {
+                      "Amount": "250",
+                      "TargetName": "Penny"
+                  }
+              },
+              {
+                "Type": "Mail",
+                "Data": {
+                      "MailReceived": "wildflour_candyOrder3_complete",
+                      "NoLetter": "true"
+                }
+              }
+            ]
+        }
+      }
+    },
+
+
+// Candy Order 4
+{
+  "LogName": "Candy Order 4",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Candy SO 4": {
+        "Name": "{{i18n:wildflourcandy.quest4.name}}",
+        "Requester": "Abigail",
+        "Duration": "TwoWeeks",
+        "Repeatable": "False",
+        "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourcandy.quest4.text}}",
+        "Objectives": [
+
+            {
+              "Type": "Donate",
+              "Text": "{{i18n:wildflourcandy.quest4.deliver}}",
+              "RequiredCount": "5",
+              "Data": {
+                "DropBox": "AbigailRoom",
+                "DropBoxGameLocation": "SeedShop",
+                "DropBoxIndicatorLocation": "4 4",
+                "AcceptedContextTags": "crystal_candy_item"
+              }
+            }
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "4750"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {
+                  "Amount": "250",
+                  "TargetName": "Abigail"
+              }
+            },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_candyOrder4_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//Candy ORDER 5
+
+{
+  "LogName": "Candy Order 5",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+      "Wildflour Candy SO 5": {
+        "Name": "{{i18n:wildflourcandy.quest5.name}}",
+        "Requester": "Lewis",
+        "Duration": "Month",
+        "Repeatable": "False",
+        "RequiredTags": "mail_wildflour_candyOrder2_complete, mail_wildflour_candyOrder3_complete, mail_wildflour_candyOrder4_complete",
+        "OrderType": "",
+        "SpecialRule": "",
+        "ItemToRemoveOnEnd": null,
+        "MailToRemoveOnEnd": null,
+        "RandomizedElements": null,
+        "Text": "{{i18n:wildflourcandy.quest5.text}}",
+        "Objectives": [
+            {
+              "Type": "Ship",
+              "Text": "{{i18n:wildflourcandy.quest5.ship}}",
+              "RequiredCount": "100",
+              "Data": {
+                "AcceptedContextTags": "wildflour_candy"
+              }
+            }
+            
+          ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "100000"
+            }
+          },
+          {
+            "Type": "Mail",
+            "Data": {
+                  "MailReceived": "wildflour_candyOrder5_complete",
+                  "NoLetter": "true"
+            }
+          }
+        ]
+    }
+  }
+},
+
+//REPEATABLES 6 7 8 
+
+{
+  "LogName": "Candy Order 6",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Candy SO 6": {
+      "Name": "{{i18n:wildflourcandy.quest6.name}}",
+      "Requester": "Emily",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourcandy.quest6.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourcandy.quest6.deliver}}",
+            "RequiredCount": "3",
+            "Data": {
+              "AcceptedContextTags": "fairy_floss_item",
+              "Message": "{{i18n:wildflourcandy.quest6.accept}}",
+              "TargetName": "Emily"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "3500"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Candy Order 7",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Candy SO 7": {
+      "Name": "{{i18n:wildflourcandy.quest7.name}}",
+      "Requester": "Robin",
+      "Duration": "Week",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourcandy.quest7.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourcandy.quest7.deliver}}",
+            "RequiredCount": "5",
+            "Data": {
+              "AcceptedContextTags": "marshmallow_item",
+              "Message": "{{i18n:wildflourcandy.quest7.accept}}",
+              "TargetName": "Robin"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "7500"
+            }
+          },
+
+        {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+},
+
+  {
+  "LogName": "Candy Order 8",
+  "Action": "EditData",
+  "Target": "Data/SpecialOrders",
+  "Entries": {
+    "Wildflour Candy SO 8": {
+      "Name": "{{i18n:wildflourcandy.quest8.name}}",
+      "Requester": "Lewis",
+      "Duration": "TwoWeeks",
+      "Repeatable": "{{RepeatableConfig}}",
+      "RequiredTags": "mail_emilyStones, mail_ClintReward, mail_guntherBones",
+      "OrderType": "",
+      "SpecialRule": "",
+      "ItemToRemoveOnEnd": null,
+      "MailToRemoveOnEnd": null,
+      "RandomizedElements": null,
+      "Text": "{{i18n:wildflourcandy.quest8.text}}",
+      "Objectives": [
+          {
+            "Type": "Deliver",
+            "Text": "{{i18n:wildflourcandy.quest8.deliver}}",
+            "RequiredCount": "12",
+            "Data": {
+              "AcceptedContextTags": "hard_candy_item",
+              "Message": "{{i18n:wildflourcandy.quest8.accept}}",
+              "TargetName": "Lewis"
+            }
+          }
+        ],
+        "Rewards": [
+          {
+            "Type": "Money",
+            "Data": {
+              "Amount": "12000"
+            }
+          },
+
+          {
+            "Type": "Friendship",
+            "Data": {}
+            }
+        ]
+    }
+  }
+}
+
+  ]
+}
+

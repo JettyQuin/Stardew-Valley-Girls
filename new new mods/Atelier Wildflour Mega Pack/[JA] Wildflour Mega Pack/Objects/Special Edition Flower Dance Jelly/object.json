@@ -1,0 +1,57 @@
+{
+  "Name": "wf flower dance jelly",
+  "Description": "...",
+  "TranslationKey": "flower-dance",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 800,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["Gus", "Jas","Evelyn", "Caroline","Haley","Sandy"],
+	  "Like": ["Abigail", "Clint", "Demetrius", "Elliott", "Emily", "George", "Jodi", "Kent", "Krobus", "Leah","Leo","Vincent", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	  "Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	  "Dislike":[],
+	  "Hate": ["Sebastian"]
+	},
+	"ContextTags":
+	
+		[	"wildflour_jelly",
+			"jelly_item",
+			"color_purple"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": 22,
+	      "Count": 2
+	    },
+		{
+	      "Object": 591,
+	      "Count": 2
+	    },
+		{
+	      "Object": 597,
+	      "Count": 2
+	    },
+		{
+	      "Object": 340,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

@@ -1,0 +1,29 @@
+{
+    "Name": "wf yogurt",
+    "Description": "...",
+    "Category": "ArtisanGoods",
+    "TranslationKey": "yogurt",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+        "Love": ["Evelyn", "George"," Gus", "Jodi", "Marnie", "Robin", "Shane"],
+        "Like": ["Alex", "Caroline", "Dwarf", "Emily",  "Kent", "Krobus", "Lewis", "Pam", "Pierre", "Sam"],
+        "Neutral": ["Abigail", "Clint", "Demetrius", "Jas", "Leo", "Maru", "Penny", "Sandy", "Sebastian", "Vincent"],
+        "Dislike":["Elliott", "Haley", "Harvey", "Leah", "Willy", "Wizard"],
+        "Hate": ["Linus"]
+      },
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+
+    "ContextTags":
+    [
+      "gourmet_item",
+      "dairy_item",
+      "color_white"
+      ]
+}

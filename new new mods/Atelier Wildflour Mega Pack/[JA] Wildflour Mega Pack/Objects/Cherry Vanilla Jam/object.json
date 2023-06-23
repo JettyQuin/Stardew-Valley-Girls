@@ -1,0 +1,52 @@
+{
+  "Name": "wf cherry vanilla jam",
+  "Description": "...",
+  "TranslationKey": "cherry-vanilla",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 1000,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["Gus", "Jas", "Leo","Vincent"],
+	  "Like": ["Abigail", "Caroline", "Clint", "Demetrius", "Elliott", "Emily", "Evelyn", "George", "Haley",  "Jodi", "Kent", "Krobus", "Leah",  "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Wizard"],
+	  "Neutral": ["Alex", "Dwarf","Harvey","Shane", "Willy"],
+	  "Dislike":[],
+	  "Hate": ["Sebastian"]
+	},
+	"ContextTags":
+	
+		[	"wildflour_jelly",
+			"jelly_item",
+			"color_gold"
+		],
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "Cherry",
+	      "Count": 2
+	    },
+		{
+			"Object": "wf vanilla",
+			"Count": 2
+		},
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

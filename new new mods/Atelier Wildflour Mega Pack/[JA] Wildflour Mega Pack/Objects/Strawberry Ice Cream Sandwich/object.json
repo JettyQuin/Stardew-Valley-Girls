@@ -1,0 +1,24 @@
+{
+    "Name": "wf strawberry icecreamwich",
+    "Description": "...",
+    "TranslationKey": "strawberry-icecreamwich",
+    "Category": "ArtisanGoods",
+    "Edibility": 90,
+    "EdibleIsDrink": false,
+    "Price": 350,
+    "EdibleBuffs": {
+        "Attack": 2,
+        "Duration": 360
+    },
+    "GiftTastes": {
+        "Love": ["Sam","Shane"],
+        "Like": ["Sebastian"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,
+    "ContextTags": [
+        "wildflour_frozen",
+        "ice_cream_sandwich",
+        "color_brown"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+	"Name": "wf dirty chai",
+	"Description": "...",
+	"TranslationKey": "dirty-chai",
+	"Category": "Cooking",
+	"Edibility": 50,
+	"EdibleIsDrink": false,
+	  "EdibleBuffs": {
+		  },
+	"Price": 1055,
+	"IsColored": false,
+	"GiftTastes":
+	  {
+		
+	  },
+	  "ContextTags":
+	  
+		  [	
+		  ],
+  
+	  "Recipe":
+	  {
+		"ResultCount": 1,
+		"Ingredients": [ 
+		  {
+			"Object": 395,
+			"Count": 1
+		  },
+		  {
+			"Object": "wf cinnamon tea",
+			"Count": 1
+		  },
+		  {
+			"Object": -6,
+			"Count": 1
+		  },
+		  {
+			"Object": 245,
+			"Count": 1
+		  }
+	  ],
+	"IsDefault": false
+	  }
+  
+  }
+  
+  
+  
+  

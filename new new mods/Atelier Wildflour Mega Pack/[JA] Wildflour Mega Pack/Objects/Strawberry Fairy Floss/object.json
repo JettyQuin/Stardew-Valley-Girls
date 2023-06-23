@@ -1,0 +1,26 @@
+{
+    "Name": "wf strawberry fairyfloss",
+    "Description": "...",
+    "TranslationKey":"strawberry-fairyfloss",
+    "Category": "ArtisanGoods",
+    "Edibility": 0,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+         "Love": ["Dwarf","Krobus","Leo","Jas","Vincent","Wizard"],
+		 "Like": ["Abigail", "Caroline", "Emily","Evelyn","George","Gus","Haley","Marnie","Penny","Robin","Sam","Sandy"],
+		 "Neutral": ["Demetrius","Elliott","Jodi","Kent","Lewis","Pam","Pierre","Shane"],
+		 "Dislike": ["Alex", "Clint","Leah","Linus", "Maru","Sebastian","Willy"],
+		 "Hate": ["Harvey"],
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+    "ContextTags":
+        [
+		"wildflour_candy",
+		"fairy_floss_item",
+		"color_pink"
+		]
+}

@@ -1,0 +1,2716 @@
+{
+
+//ALES i18N BEGIN--------------------------------------------------------------------------------------------------------------------------------
+
+"ale-keg.name": "Ale Keg",
+"ale-keg.description": "A keg for brewing flavored ales.",
+
+//BASE GAME ALES
+
+"ancient-ale.name": "Ancient Lager",
+"ancient-ale.description": "Mystical, magical, and delicious.",
+
+"apple-ale.name": "Apple Pilsner",
+"apple-ale.description": "Crisp and fresh, just like fallen leaves.",
+
+"apricot-ale.name": "Apricot Ale",
+"apricot-ale.description": "Tart and slightly sweet, the perfect ale for spring.",
+
+"banana-ale.name": "Banana Oatmeal Stout",
+"banana-ale.description": "Sweet and warm like a slice of banana bread.",
+
+"blackberry-ale.name": "Blackberry Stout",
+"blackberry-ale.description": "a rich stout beer infused with summer's best blackberries.",
+
+"blueberry-ale.name": "Blueberry Ale",
+"blueberry-ale.description": "A sweet ale reminiscent of freshly baked blueberry cobbler.",
+
+"cactus-ale.name": "Cactus Ale",
+"cactus-ale.description": "A Calico Desert Specialty Brew",
+
+"cherry-ale.name": "Cherry Sour Ale",
+"cherry-ale.description": "Tart and sweet perfectly balanced in one ale",
+
+"coconut-ale.name": "Coconut Milk Stout",
+"coconut-ale.description": "The perfect drink if you like Pina Coladas, but have a difficult relationship with tequila.",   
+
+"cranberry-ale.name": "Cranberry Pale Ale",
+"cranberry-ale.description": "The perfect accompaniment to a holiday dinner.", 
+
+"crystal-ale.name": "Crystal Lager",
+"crystal-ale.description": "An ale as cool and refreshing as freshly fallen snow.", 
+
+"mango-ale.name": "Mango Lager",
+"mango-ale.description": "The official beer of Gus's Ginger Island Seaside Bar.", 
+
+"melon-ale.name": "Melon Pale Ale",
+"melon-ale.description": "The perfect ale to cool down with on a warm summer might.", 
+
+"orange-ale.name": "Orange Pilsner",
+"orange-ale.description": "It reminds you of an orange creamsicle.", 
+
+"peach-ale.name": "Peach Stout",
+"peach-ale.description": "Sweet like Peaches and Cream.", 
+
+"pineapple-ale.name": "Pineapple Pale Ale",
+"pineapple-ale.description": "Perfect for a summer afternoon on the beach.", 
+
+"pomegranate-ale.name": "Pomegranate Ale",
+"pomegranate-ale.description": "Sweet and tart, legend says it was Persephone's favorite ale.", 
+
+"pumpkin-ale.name": "Pumpkin Spice Ale",
+"pumpkin-ale.description": "Pumpkin, spices, maple, beer...what's not to love?", 
+
+"salmonberry-ale.name": "Wild Salmonberry Ale",
+"salmonberry-ale.description": "A refreshing way to use up all those salmonberries.", 
+
+"spiced-ale.name": "Spiced Porter",
+"spiced-ale.description": "Though the berries are harvested in summer, this warm, spiced beer is best served in the cooler autumn months", 
+
+"starfruit-ale.name": "Starfruit Ale",
+"starfruit-ale.description": "A golden ale perfect for summer luau parties.", 
+
+"strawberry-ale.name": "Strawberry Porter",
+"strawberry-ale.description": "No one can resist its strawberry shortcake-like flavor.", 
+
+"gem-ale.name": "Gem Lager",
+"gem-ale.description": "Old Master Cannoli's favorite.", 
+
+"plum-ale.name": "Plum Stout",
+"plum-ale.description": "Drink it fast or it will become prune stout.", 
+
+//PPJA ALES
+
+"dragon-ale.name": "Dragonfruit Ale",
+"dragon-ale.description": "A summery ale fresh from the Calico Desert.",
+
+"fig-ale.name": "Fig Stout",
+"fig-ale.description": "Best paired with figgy pudding and a good holiday carol.", 
+
+"grapefruit-ale.name": "Grapefruit Pale Ale",
+"grapefruit-ale.description": "A tart, citrusy IPA.", 
+
+"lemon-ale.name": "Lemon Hefeweizen",
+"lemon-ale.description": "It reminds you of lemonade, but better!", 
+
+"lime-ale.name": "Lime Hefeweizen",
+"lime-ale.description": "A bold, citrusy brew, perfect for summertime sipping.", 
+
+"lychee-ale.name": "Lychee Ale",
+"lychee-ale.description": "Sweet, slightly floral and acidic.", 
+
+"papaya-ale.name": "Papaya Ale",
+"papaya-ale.description": "One of Sandy's specially developed ale varieties.",
+
+"pear-ale.name": "Pear Pilsner",
+"pear-ale.description": "A light and crisp beer.", 
+
+"persimmon-ale.name": "Persimmon Ale",
+"persimmon-ale.description": "A delicately flavored ale, reminiscent of honey and melon.", 
+
+"pomelo-ale.name": "Pomelo Ale",
+"pomelo-ale.description": "It tastes like grapefruit but sweeter.", 
+
+//WILD FOOD ALES
+
+"vanilla-ale.name": "Calico Vanilla Stout",
+"vanilla-ale.description": "A sweet, warm ale to warm you on a cool evening.", 
+
+"petitelemon-ale.name": "Sweet Lemon Stout",
+"petitelemon-ale.description": "Unlike the hefeweizen, the lemon flavor in this ale is creamy and sweet, almost like dessert.", 
+
+"petitelime-ale.name": "Sweet Lime Stout",
+"petitelime-ale.description": "Unlike the hefeweizen, the lime flavor in this ale is creamy and sweet, almost like dessert.", 
+
+"wildraspberry-ale.name": "Wild Raspberry Ale",
+"wildraspberry-ale.description": "Ale made with freshly-foraged raspberries; a true summertime treat.", 
+
+"wildstrawberry-ale.name": "Wild Strawberry Ale",
+"wildstrawberry-ale.description": "Ale made with freshly-foraged strawberries; a true springtime treat.", 
+
+//PIXIE FORAGE ALES
+
+"pixie-apple-ale.name": "Fae Folk Apple Ale",
+"pixie-apple-ale.description": "A special ale brewed by the Ferngill Fae Folk to celebrate the autumnal equinox.",
+
+"pixie-apricot-ale.name": "Fae Folk Apricot Ale",
+"pixie-apricot-ale.description": "A special ale brewed by the Ferngill Fae Folk to celebrate the vernal equinox.",
+
+"pixie-banana-ale.name": "Fae Folk Banana Ale",
+"pixie-banana-ale.description": "A special ale brewed by the Ginger Isle Fae Folk to celebrate the summer solstice.",
+
+"pixie-cherry-ale.name": "Fae Folk Cherry Ale",
+"pixie-cherry-ale.description": "A special ale brewed by the Ferngill Fae Folk to celebrate the vernal equinox.",
+
+"pixie-mango-ale.name": "Fae Folk Mango Ale",
+"pixie-mango-ale.description": "A special ale brewed by the Ginger Isle Fae Folk to celebrate the summer solstice.",
+
+"pixie-orange-ale.name": "Fae Folk Orange Ale",
+"pixie-orange-ale.description": "A special ale brewed by the Ferngill Fae Folk to celebrate the summer solstice.",
+
+"pixie-peach-ale.name": "Fae Folk Peach Ale",
+"pixie-peach-ale.description": "A special ale brewed by the Ferngill Fae Folk to celebrate the summer solstice.",
+
+"pixie-pomegranate-ale.name": "Fae Folk Pomegranate Ale",
+"pixie-pomegranate-ale.description": "A special ale brewed by the Ferngill Fae Folk to celebrate the autumnal equinox.",
+
+//BAKERY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//CAKES
+
+"carrot-cake.name":"Spring Blooms Carrot Cake",
+"carrot-cake.description":"This carrot cake is decorated with lovely fresh spring flowers - perfect for this year's Egg Hunt Festival!",
+
+"chocolate-cake.name":"Chocolate Cherry Layer Cake",
+"chocolate-cake.description":"Rich chocolate plus freshly picked cherries makes for a luscious layer cake.",
+
+"chocolate-cupcake.name": "Chocolate Raspberry Cupcake",
+"chocolate-cupcake.description": "A rich, chocolatey cupcake filled with raspberry jam.",
+
+"coconut-cake.name":"Coconut Almond Layer Cake",
+"coconut-cake.description":"A light and fluffy coconut cake with almond frosting.",
+
+"confetti-cake.name":"Confetti Cake",
+"confetti-cake.description":"Vanilla cake with vanilla frosting, filled and topped with plenty of rainbow sprinkles!",
+
+"gingerbread-cake.name":"Gingerbread Cake Roll",
+"gingerbread-cake.description":"Rich gingery cake, rolled with creamy vanilla frosting into a lovely holiday dessert.",
+
+"lemon-cake.name":"Lemon Chiffon Cake",
+"lemon-cake.description":"Petite lemons and sweet cream result in a tender cake perfect for spring parties.",
+
+"peach-cake.name":"Peaches 'n Cream Cake",
+"peach-cake.description":"Freshly picked summer peaches baked into a delicate vanilla sponge cake.",
+
+"hummingbird-cake.name":"Hummingbird Cake",
+"hummingbird-cake.description":"A warm spice cake filled with bits of fresh pineapple and nuts!",
+
+"pumpkin-cake.name":"Pumpkin Spice Cake Roll",
+"pumpkin-cake.description":"A seasonal favorite: rich pumpkin cake rolled with cream cheese frosting.",
+
+"redvelvet-cake.name":"Red Velvet Cake Roll",
+"redvelvet-cake.description":"No food coloring here; this classic cake gets it color the old-fashioned way, from beets!",
+
+"strawberry-cake.name":"Strawberries 'n Cream Cake",
+"strawberry-cake.description":"A lovely light vanilla sponge filled with freshly picked strawberries and whipped cream",
+
+"strawberry-cupcake.name":"Sweet Lil Strawberry Cupcake",
+"strawberry-cupcake.description":"A lovely little strawberry cake topped with strawberry frosting",
+
+"vanilla-cupcake.name":"Sweet Lil Vanilla Cupcake",
+"vanilla-cupcake.description":"A lovely little vanilla cake topped with vanilla frosting.",
+
+//MUFFINS
+
+"apple-muffin.name":"Apple Spice Muffin",
+"apple-muffin.description":"Apples and cinnamon make this muffin the perfect breakfast on a crisp, Autumn morning.",
+
+"banana-muffin.name":"Banana Nut Muffin",
+"banana-muffin.description":"This muffin gets most of its sweetness from mashed ripe bananas.",
+
+"cinnamon-muffin.name":"Cinnamon Spice Muffin",
+"cinnamon-muffin.description":"A classic muffin best enjoyed with a cup of fresh coffee.",
+
+"cornbread-muffin.name":"Buttery Cornbread Muffin",
+"cornbread-muffin.description":"A hearty muffin that is rich and buttery, goes well with soup or pretty much anything!",
+
+"lemonberry-muffin.name":"Lemonberry Muffin",
+"lemonberry-muffin.description":"Petite lemons and blueberries means this muffin is bursting with fresh fruit flavor!",
+
+"pumpkin-muffin.name":"Pumpkin Spice Latte Muffin",
+"pumpkin-muffin.description":"A pumpkin muffin with the addition of cinnamon and espresso powder.",
+
+"rhubarb-muffin.name":"Strawberry Rhubarb Muffin",
+"rhubarb-muffin.description":"A light and tender muffin filled with rhubarb and strawberry bits",
+
+//SCONES
+
+"blackberry-scone.name":"Blackberry Lime Scone",
+"blackberry-scone.description":"The zest from the petite limes really accentuates the blackberries fresh flavor!",
+
+"blueberry-scone.name":"Blueberry Cream Scone",
+"blueberry-scone.description":"A tender, crumbly scone filled with fresh blueberries.",
+
+"cinnamon-scone.name":"Cinnamon Raisin Scone",
+"cinnamon-scone.description":"A tender, crumbly scone filled with spices and raisins, perfect for breakfast!",
+
+"peach-scone.name":"Peach Honey Scone",
+"peach-scone.description":"This scone tastes like peach cobbler, but handheld and so even better!",
+
+"pistachio-scone.name":"Pistachio Scone",
+"pistachio-scone.description":"A tender, crumbly scone filled with crushed pistachios.",
+
+"pumpkin-scone.name":"Maple Pumpkin Scone",
+"pumpkin-scone.description":"Scones flavored with pumpkin and maple, a lovely treat on an Autumn day.",
+
+"raspberry-scone.name":"Raspberry Vanilla Scone",
+"raspberry-scone.description":"Vanilla beans make this raspberry scone even more irresistible!",
+
+"strawberry-scone.name":"Strawberry Shortcake Scone",
+"strawberry-scone.description":"A scone prepared in the style of a shortcake, cut in half and filled with strawberries and cream!",
+
+//CHEESECAKE
+
+"blueberry-cheesecake.name":"Blueberry Cheesecake Slice",
+"blueberry-cheesecake.description":"A slice of cheesecake topped with luscious blueberry jam.",
+
+"cherry-cheesecake.name":"Cherry Cheesecake Slice",
+"cherry-cheesecake.description":"A slice of cheesecake topped with luscious cherry jam.",
+
+"classic-cheesecake.name":"Classic Cheesecake Slice",
+"classic-cheesecake.description":"The classic cheesecake slice, creamy and delicious!",
+
+"cookie-cheesecake.name":"Cookies n' Cream Cheesecake Slice",
+"cookie-cheesecake.description":"Cheesecake with bits of chocolate cream cookies throughout.",
+
+"lemon-cheesecake.name":"Lemon Cheesecake Slice",
+"lemon-cheesecake.description":"A slice of cheesecake topped with luscious lemon curd.",
+
+"mango-cheesecake.name":"Mango Cheesecake Slice",
+"mango-cheesecake.description":"A slice of cheesecake topped with luscious mango jam.",
+
+"mocha-cheesecake.name":"Mocha Cheesecake Slice",
+"mocha-cheesecake.description":"A slice of cheesecake blended with chocolate and espresso powder.",
+
+"orange-cheesecake.name":"Orange Creamsicle Cheesecake Slice",
+"orange-cheesecake.description":"A slice of cheesecake topped with luscious orange curd.",
+
+"pumpkin-cheesecake.name":"Pumpkin Cheesecake Slice",
+"pumpkin-cheesecake.description":"A slice of cheesecake blended with fresh pumpkin and spices.",
+
+"raspberry-cheesecake.name":"Raspberry Cheesecake Slice",
+"raspberry-cheesecake.description":"A slice of cheesecake topped with luscious raspberry jam.",
+
+"strawberry-cheesecake.name":"Strawberry Cheesecake Slice",
+"strawberry-cheesecake.description":"A slice of cheesecake topped with luscious strawberry jam.",
+
+"white-cheesecake.name":"White Chocolate Lime Cheesecake Slice",
+"white-cheesecake.description":"Cheesecake baked using white chocolate and fresh lime zest.",
+
+//PETIT FOURS
+
+"almond-petitfour.name":"Almond Petit Four",
+"almond-petitfour.description":"A delicate party cake, flavored with almonds.",
+
+"chocohazelnut-petitfour.name":"Chocolate Hazelnut Petit Four",
+"chocohazelnut-petitfour.description":"A delicate party cake, flavored with chocolate and hazelnuts",
+
+"lemon-petitfour.name":"Luscious Lemon Petit Four",
+"lemon-petitfour.description":"A delicate party cake, flavored with fresh lemon.",
+
+"matcha-petitfour.name":"Matcha Petit Four",
+"matcha-petitfour.description":"A delicate party cake, flavored with matcha tea.",
+
+"peach-petitfour.name":"Peach Petit Four",
+"peach-petitfour.description":"A delicate party cake, flavored with freshly-picked peaches.",
+
+"pistachio-petitfour.name":"Pistachio Petit Four",
+"pistachio-petitfour.description":"A delicate party cake, flavored with pistachios.",
+
+"rose-petitfour.name":"Strawberry Rose Petit Four",
+"rose-petitfour.description":"A delicate party cake, flavored with strawberries and rose jelly.",
+
+"tiramisu-petitfour.name":"Tiramisu Petit Four",
+"tiramisu-petitfour.description":"A delicate party cake, flavored with espresso powder and chocolate.",
+
+"tresleches-petitfour.name":"Tres Leches Petit Four",
+"tresleches-petitfour.description":"A delicate party cake, flavored with different milks and cinnamon.",
+
+"tropical-petitfour.name":"Tropical Petit Four",
+"tropical-petitfour.description":"A delicate party cake, flavored with tropical fruit.",
+
+"raspberry-petitfour.name":"Raspberry Petit Four",
+"raspberry-petitfour.description":"A delicate party cake, flavored with freshly-picked raspberries.",
+
+//PIES
+
+"apple-pie.name":"Old-Fashioned Apple Pie",
+"apple-pie.description":"Pie made with apples picked from local orchards",
+
+"banana-pie.name":"Old-Fashioned Banana Cream Pie",
+"banana-pie.description":"A custard pie layered with sliced bananas and cream.",
+
+"blueberry-pie.name":"Old-Fashioned Blueberry Pie",
+"blueberry-pie.description":"Pie made with freshly-picked blueberries",
+
+"cherry-pie.name":"Old-Fashioned Cherry Pie",
+"cherry-pie.description":"Pie made with cherries picked from local orchards",
+
+"lemon-pie.name":"Old-Fashioned Lemon Pie",
+"lemon-pie.description":"A custard pie made with lemon zest and lemon curd.",
+
+"peach-pie.name":"Old-Fashioned Peach Pie",
+"peach-pie.description":"Pie made with peaches picked from local orchards",
+
+"lime-pie.name":"Old-Fashioned Lime Pie",
+"lime-pie.description":"A custard pie made with lime zest and lime curd.",
+
+"plum-pie.name":"Old-Fashioned Plum Pie",
+"plum-pie.description":"Pie made with foraged plums.",
+
+"pumpkin-pie.name":"Old-Fashioned Pumpkin Pie",
+"pumpkin-pie.description":"Pie made with freshly-picked pumpkins.",
+
+"sweetpotato-pie.name":"Old-Fashioned Sweet Potato Pie",
+"sweetpotato-pie.description":"Sweet potatoes cooked down with cinnamon and sugar into a lovely pie.",
+
+//TARTS
+
+"blueberry-tart.name":"Rustic Blueberry Tart",
+"blueberry-tart.description":"A crisp, flaky tart shell filled with a sweet blueberry filling.",
+
+"chocohazelnut-tart.name":"Chocolate Hazelnut Tart",
+"chocohazelnut-tart.description":"A crisp, flaky tart shell filled with a smooth chocolate-hazelnut filling.",
+
+"lemon-tart.name":"Petite Lemon Tart",
+"lemon-tart.description":"A crisp, flaky tart shell filled with a smooth and luscious lemon filling.",
+
+"mango-tart.name":"Island Mango Tart",
+"mango-tart.description":"A crisp, flaky tart shell filled with a smooth mango custard filling.",
+
+"mixberry-tart.name":"Berry Bushel Tart",
+"mixberry-tart.description":"A crisp, flaky tart shell filled with a mix of different berries.",
+
+"mixfruit-tart.name":"Tooti Frooti Tart",
+"mixfruit-tart.description":"A crisp, flaky tart shell filled with whatever fruits you have on hand!",
+
+"mintmocha-tart.name":"Mocha Mint Tart",
+"mintmocha-tart.description":"A crisp, flaky tart shell filled with a smooth chocolate-mint filling.",
+
+"colada-tart.name":"Piña Colada Tart",
+"colada-tart.description":"A crisp, flaky tart shell filled with a smooth pineapple-coconut custard filling.",
+
+"raspberry-tart.name":"Wild Raspberry Tart",
+"raspberry-tart.description":"A crisp, flaky tart shell filled with a sweet raspberry filling.",
+
+"summer-tart.name":"Summer's Bounty Tart",
+"summer-tart.description":"A crisp, flaky tart shell filled with summer's finest fruits.",
+
+//ECLAIRS
+
+"chocolate-eclair.name":"Chocolate Eclair",
+"chocolate-eclair.description":"A delicate pastry filled with a rich, chocolate custard.",
+
+"maple-eclair.name":"Maple Eclair",
+"maple-eclair.description":"A delicate pastry filled with a rich, maple custard.",
+
+"mocha-eclair.name":"Mocha Eclair",
+"mocha-eclair.description":"A delicate pastry filled with a rich, mocha custard.",
+
+"pistachio-eclair.name":"Chocolate Pistachio Eclair",
+"pistachio-eclair.description":"A delicate pastry filled with a sweet pistachio custard.",
+
+"raspberry-eclair.name":"Raspberry Lemon Eclair",
+"raspberry-eclair.description":"A delicate pastry filled with a sweet and tart raspberry-lemon custard.",
+
+"strawberry-eclair.name":"Strawberry Cheesecake Eclair",
+"strawberry-eclair.description":"A delicate pastry filled with a sweet strawberry and cream cheese custard.",
+
+"vanilla-eclair.name":"Vanilla Eclair",
+"vanilla-eclair.description":"A delicate pastry filled with a rich vanilla custard.",
+
+//MACARONS
+
+"almond-macaron.name":"Fancy Almond Macaron",
+"almond-macaron.description":"An irresistible meringue cookie sandwich flavored with almonds.",
+
+"chocolatehazelnut-macaron.name":"Fancy Chocolate Hazelnut Macaron",
+"chocolatehazelnut-macaron.description":"An irresistible meringue cookie sandwich flavored with chocolate and hazelnuts.",
+
+"lavender-macaron.name":"Fancy Lavender Macaron",
+"lavender-macaron.description":"An irresistible meringue cookie sandwich flavored with lavender and vanilla.",
+
+"lemon-macaron.name":"Fancy Lemon Macaron",
+"lemon-macaron.description":"An irresistible meringue cookie sandwich flavored with fresh lemon.",
+
+"lime-macaron.name":"Fancy Lime Macaron",
+"lime-macaron.description":"An irresistible meringue cookie sandwich flavored with fresh lime.",
+
+"mint-macaron.name":"Fancy Mint Macaron",
+"mint-macaron.description":"An irresistible meringue cookie sandwich flavored with fresh mint.",
+
+"pistachio-macaron.name":"Fancy Pistachio Macaron",
+"pistachio-macaron.description":"An irresistible meringue cookie sandwich flavored with pistachios.",
+
+"raspberry-macaron.name":"Fancy Raspberry Macaron",
+"raspberry-macaron.description":"An irresistible meringue cookie sandwich flavored with fresh raspberries",
+
+"sakura-macaron.name":"Fancy Sakura Macaron",
+"sakura-macaron.description":"An irresistible meringue cookie sandwich flavored with cherry blossom petals.",
+
+"strawberry-macaron.name":"Fancy Strawberry Macaron",
+"strawberry-macaron.description":"An irresistible meringue cookie sandwich flavored with fresh strawberries.",
+
+//COOKIES
+
+"cherryjam-cookie.name":"Cherry Jam Thumbprint Cookie",
+"cherryjam-cookie.description":"A buttery cookie with a cherry jam center.",
+
+"chocochip-cookie.name":"Old-Fashioned Chocolate Chip Cookies",
+"chocochip-cookie.description":"The quintessential cookies; goes well with a tall glass of milk.",
+
+"chocosandwich-cookie.name":"Classic Chocolate Sandwich Cookies",
+"chocosandwich-cookie.description":"Chocolate cookies sandwiched together with vanilla cream.",
+
+"orangejam-cookie.name":"Orange Jam Thumbprint Cookie",
+"orangejam-cookie.description":"A buttery cookie with an orange jam center.",
+
+"berryjam-cookie.name":"Strawberry Jam Thumbprint Cookie",
+"berryjam-cookie.description":"A buttery cookie with a strawberry jam center.",
+
+"vanillasandwich-cookie.name":"Classic Vanilla Sandwich Cookies",
+"vanillasandwich-cookie.description":"Vanilla cookies sandwiched together with vanilla cream.",
+
+//BROWNIES
+
+"creamcheese-brownie.name":"Cream Cheese Layered Brownies",
+"creamcheese-brownie.description":"Rich brownies with a layer of sweetened cream cheese inside.",
+
+"fudgy-brownie.name":"Old-Fashioned Fudgy Brownies",
+"fudgy-brownie.description":"Rich, chocolatey bar cookies that are essential at any bake sale.",
+
+"mint-brownie.name":"Mint Chocolate Layered Brownies",
+"mint-brownie.description":"Rich brownies with a layer of mint cream filling inside.",
+
+"nutbutter-brownie.name":"Nut Butter Layered Brownies",
+"nutbutter-brownie.description":"Rich brownies with a layer of nut butter filling inside.",
+
+//BREADS
+
+"cinnamon-roll.name": "Rustic Cinnamon Roll",
+"cinnamon-roll.description": "A sweetened bread roll flavored with cinnamon and topped with vanilla icing.",
+
+"cranberry-bread.name": "Rustic Cranberry Nut Bread",
+"cranberry-bread.description": "A rustic bread loaf filled with dried cranberries and chopped walnuts.",
+
+"olive-bread.name": "Rustic Olive Bread",
+"olive-bread.description": "A rustic bread loaf filled with olives.",
+
+"potato-bread.name": "Rustic Potato Bread",
+"potato-bread.description": "A loaf of bread made with potatoes; rich and perfect for making grilled cheese sandwiches!",
+
+"pretzel.name": "Rustic Pretzel",
+"pretzel.description": "A classic pretzel topped with flakey sea salt. Pair with mustard for a real treat.",
+
+"pumpernickel-bread.name": "Rustic Pumpernickel Bread",
+"pumpernickel-bread.description": "A rustic, slightly sweet loaf of rye bread.",
+
+"wheat-bread.name": "Rustic Whole Wheat Bread",
+"wheat-bread.description": "A loaf of bread with more fiber than traditional bread.",
+
+"white-bread.name": "Rustic Wheat Bread",
+"white-bread.description": "A classic loaf of bread used for making sandwiches.",
+
+//DOUGHNUTS
+
+"chocolate-doughnut.name": "Chocolate Doughnut",
+"chocolate-doughnut.description": "A freshly-fried doughnut topped with chocolate ganache.",
+
+"chocolatecream-doughnut.name": "chocolate Cream Doughnut",
+"chocolatecream-doughnut.description": "A freshly-fried doughnut topped with chocolate ganache and filled with vanilla cream.",
+
+"strawberry-doughnut.name": "Strawberry Doughnut",
+"strawberry-doughnut.description": "A freshly-fried doughnut topped with strawberry frosting.",
+
+"strawberrycream-doughnut.name": "Strawberry Cream Doughnut",
+"strawberrycream-doughnut.description": "A freshly-fried doughnut topped with strawberry frosting and filled with vanilla cream.",
+
+"vanilla-doughnut.name": "Vanilla Doughnut",
+"vanilla-doughnut.description": "A freshly-fried doughnut topped with vanilla frosting.",
+
+"vanillajelly-doughnut.name": "Vanilla Jelly Doughnut",
+"vanillajelly-doughnut.description": "A freshly-fried doughnut topped with vanilla frosting and filled with fruit jelly.",
+
+//PUDDING
+
+"banana-pudding.name": "Banana Split Pudding",
+"banana-pudding.description": "A creamy dessert with the flavors of banana, strawberry, chocolate and cherry.",
+
+"chocolate-pudding.name": "Chocolate Raspberry Pudding",
+"chocolate-pudding.description": "A creamy dessert with the flavors of chocolate and raspberry.",
+
+"cookie-pudding.name": "Cookies and Cream Pudding",
+"cookie-pudding.description": "A creamy dessert with the flavor of chocolate sandwich cookies.",
+
+"cremebrulee-pudding.name": "Creme Brulee Pudding",
+"cremebrulee-pudding.description": "A creamy dessert topped with caramelized sugar.",
+
+"lemon-pudding.name": "Lemon Meringue Pudding",
+"lemon-pudding.description": "A creamy dessert with the flavor of fresh lemon.",
+
+"peach-pudding.name": "Peach Mango Pudding",
+"peach-pudding.description": "A creamy dessert with the flavors of peach and mango.",
+
+"pumpkin-pudding.name": "Pumpkin Maple Pudding",
+"pumpkin-pudding.description": "A creamy dessert with the flavors of pumpkin and maple.",
+
+"sakura-pudding.name": "Sakura Pudding",
+"sakura-pudding.description": "A creamy dessert with the flavor of fresh cherry blossoms.",
+
+"tiramisu-pudding.name": "Tiramisu Pudding",
+"tiramisu-pudding.description": "A creamy dessert with the flavors of coffee and cream.",
+
+"tropical-pudding.name": "Tropical Pudding",
+"tropical-pudding.description": "A creamy dessert with the flavors of tropical fruits.",
+
+//BEVERAGE i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+
+"juice-station.name":"Juice Station",
+"juice-station.description":"Can create Juices and beverages!",
+
+"boba-station.name":"Boba Station",
+"boba-station.description":"Can create boba milk teas!",
+
+//BOBA
+
+"boba-pearls.name": "Boba Pearls",
+"boba-pearls.description": "Starchy, gelatinous spheres that are added to cold tea and milk to make bubble tea.",
+
+"banana-boba.name": "Banana Bubble Tea",
+"banana-boba.description": "A tasty and cute drink consisting of iced tea flavored with bananas, finished with milk and chewy boba pearls!",
+
+"blacktea-boba.name": "Bubble Tea",
+"blacktea-boba.description": "A tasty and cute drink consisting of iced tea finished with milk and chewy boba pearls!",
+
+"blueberry-boba.name": "Blueberry Bubble Tea",
+"blueberry-boba.description": "A tasty and cute drink consisting of iced tea flavored with blueberries, finished with milk and chewy boba pearls!",
+
+"brownsugar-boba.name": "Brown Sugar Bubble Tea",
+"brownsugar-boba.description": "A tasty and cute drink consisting of iced tea flavored with brown sugar, finished with milk and chewy boba pearls!",
+
+"caramel-boba.name": "Caramel Bubble Tea",
+"caramel-boba.description": "A tasty and cute drink consisting of iced tea flavored with caramel, finished with milk and chewy boba pearls!",
+
+"coconut-boba.name": "Coconut Bubble Tea",
+"coconut-boba.description": "A tasty and cute drink consisting of iced tea flavored with coconut, finished with milk and chewy boba pearls!",
+
+"coffee-boba.name": "Coffee Bubble Tea",
+"coffee-boba.description": "A tasty and cute drink consisting of iced tea flavored with coffee, finished with milk and chewy boba pearls!",
+
+"jasmine-boba.name": "Jasmine Bubble Tea",
+"jasmine-boba.description": "A tasty and cute drink consisting of iced tea flavored with jasmine, finished with milk and chewy boba pearls!",
+
+"mango-boba.name": "Mango Bubble Tea",
+"mango-boba.description": "A tasty and cute drink consisting of iced tea flavored with mango, finished with milk and chewy boba pearls!",
+
+"matcha-boba.name": "Matcha Bubble Tea",
+"matcha-boba.description": "A tasty and cute drink consisting of iced matcha tea finished with milk and chewy boba pearls!",
+
+"melon-boba.name": "Melon Bubble Tea",
+"melon-boba.description": "A tasty and cute drink consisting of iced tea flavored with melon, finished with milk and chewy boba pearls!",
+
+"oolong-boba.name": "Oolong Bubble Tea",
+"oolong-boba.description": "A tasty and cute drink consisting of iced oolong tea, finished with milk and chewy boba pearls!",
+
+"peach-boba.name": "Peach Bubble Tea",
+"peach-boba.description": "A tasty and cute drink consisting of iced tea flavored with peaches, finished with milk and chewy boba pearls!",
+
+"rose-boba.name": "Rose Bubble Tea",
+"rose-boba.description": "A tasty and cute drink consisting of iced tea flavored with rose, finished with milk and chewy boba pearls!",
+
+"strawberry-boba.name": "Strawberry Bubble Tea",
+"strawberry-boba.description": "A tasty and cute drink consisting of iced tea flavored with strawberries, finished with milk and chewy boba pearls!",
+
+"taro-boba.name": "Taro Bubble Tea",
+"taro-boba.description": "A tasty and cute drink consisting of iced tea flavored with taro, finished with milk and chewy boba pearls!",
+
+"thai-boba.name": "Thai Bubble Tea",
+"thai-boba.description": "A tasty and cute drink consisting of iced tea flavored with coconut milk and chewy boba pearls!",
+
+"vanilla-boba.name": "Vanilla Bubble Tea",
+"vanilla-boba.description": "A tasty and cute drink consisting of iced tea flavored with vanilla, finished with milk and chewy boba pearls!",
+
+//FRUIT JUICES
+
+"apple-juice.name": "Amazing Apple Juice",
+"apple-juice.description": "Juice made with freshly picked apples!",
+
+"berry-juice.name": "Berry Tasty Juice",
+"berry-juice.description": "Juice made with farm fresh berries!",
+
+"carrot-juice.name": "Bunny Lovin' Carrot Juice",
+"carrot-juice.description": "Juice made with farm fresh carrots!",
+
+"grape-juice.name": "Grape Juice",
+"grape-juice.description": "Juice made with farm fresh grapes!",
+
+"mix-juice.name": "Mixed Fruit Juice",
+"mix-juice.description": "Juice made with farm fresh fruit!",
+
+"orange-juice.name": "Early Bird Orange Juice",
+"orange-juice.description": "Juice made with farm fresh oranges!",
+
+"pomegranate-juice.name": "Pomegranate Fruit Juice",
+"pomegranate-juice.description": "Juice made with farm fresh pomegranates!",
+
+"tropical-juice.name": "Tropical Fruit Juice",
+"tropical-juice.description": "Juice made with sweet island fruits!",
+
+"fruit-punch.name": "Fruit Punch",
+"fruit-punch.description": "Juice made with farm fresh fruit!",
+
+// FRUIT JUICES
+
+"amber-juice.name": "Amber Moon Nectar",
+"amber-juice.description": "Juice made from magical moondrop grapes.",
+
+"blush-juice.name": "Blush Moon Nectar",
+"blush-juice.description": "Juice made from magical moondrop grapes.",
+
+"jade-juice.name": "Jade Moon Nectar",
+"jade-juice.description": "Juice made from magical moondrop grapes.",
+
+"lapis-juice.name": "Lapis Moon Nectar",
+"lapis-juice.description": "Juice made from magical moondrop grapes.",
+
+"melon-juice.name": "Melon Moon Nectar",
+"melon-juice.description": "Juice made from magical moondrop grapes.",
+
+"pearl-juice.name": "Pearl Moon Nectar",
+"pearl-juice.description": "Juice made from magical moondrop grapes.",
+
+"rose-juice.name": "Rose Moon Nectar",
+"rose-juice.description": "Juice made from magical moondrop grapes.",
+
+"violet-juice.name": "Violet Moon Nectar",
+"violet-juice.description": "Juice made from magical moondrop grapes.",
+
+"apple-elixir.name": "Alluring Apple Elixir",
+"apple-elixir.description": "Juice made from mystical apples.",
+
+"apricot-elixir.name": "Aromatic Apricot Elixir",
+"apricot-elixir.description": "Juice made from mystical apricots.",
+
+"cherry-elixir.name": "Cheerful Cherry Elixir",
+"cherry-elixir.description": "Juice made from mystical cherries.",
+
+"mango-elixir.name": "Merry Mango Elixir",
+"mango-elixir.description": "Juice made from mystical mangos.",
+
+"orange-elixir.name": "Enchanting Orange Elixir",
+"orange-elixir.description": "Juice made from mystical oranges.",
+
+"peach-elixir.name": "Playful Peach Elixir",
+"peach-elixir.description": "Juice made from mystical peaches.",
+
+"pomegranate-elixir.name": "Passionate Pomegranate Elixir",
+"pomegranate-elixir.description": "Juice made from mystical pomegranates.",
+
+//LEMONADES
+
+"blackberry-lemonade.name": "Blackberry Lemonade",
+"blackberry-lemonade.description": "Fresh lemonade made with foraged blackberries.",
+
+"chamomile-lemonade.name": "Chamomile Lemonade",
+"chamomile-lemonade.description": "Fresh lemonade made with chamomile petals",
+
+"cherry-limeade.name": "Cherry Limeade",
+"cherry-limeade.description": "A fun twist on lemonade, made with fresh limes and cherries.",
+
+"classic-lemonade.name": "Classic Lemonade",
+"classic-lemonade.description": "A refreshing beverage made with freshly squeeze lemons.",
+
+"greentea-lemonade.name": "Green Tea Lemonade",
+"greentea-lemonade.description": "Fresh lemonade made with green tea.",
+
+"jasmine-lemonade.name": "Jasmine Lemonade",
+"jasmine-lemonade.description": "Fresh lemonade made with jasmine petals.",
+
+"lavender-lemonade.name": "Lavender Lemonade",
+"lavender-lemonade.description": "Fresh lemonade made with lavender.",
+
+"lime-lemonade.name": "Lime Lemonade",
+"lime-lemonade.description": "Fresh lemonade made with zesty lime juice.",
+
+"melon-lemonade.name": "Melonade",
+"melon-lemonade.description": "Fresh lemonade made with summer melon.",
+
+"mint-lemonade.name": "Mint Lemonade",
+"mint-lemonade.description": "Fresh lemonade made with mint leaves.",
+
+"pomegranate-lemonade.name": "Pomegranate Lemonade",
+"pomegranate-lemonade.description": "Fresh lemonade made with pomegranate juice.",
+
+"pink-lemonade.name": "Pretty Pink Lemonade",
+"pink-lemonade.description": "Fresh lemonade made with strawberry juice.",
+
+"rose-lemonade.name": "Rose Lemonade",
+"rose-lemonade.description": "Fresh lemonade made with rose petals.",
+
+"raspberry-lemonade.name": "Raspberry Lemonade",
+"raspberry-lemonade.description": "Fresh lemonade made with raspberry juice.",
+
+//ICED TEA
+
+"iced-tea.name": "Iced Sweet Tea",
+"iced-tea.description": "A tall glass of iced tea.",
+
+"green-icedtea.name": "Iced Green Tea",
+"green-icedtea.description": "A tall glass of iced green tea.",
+
+"mango-icedtea.name": "Mango Iced Tea",
+"mango-icedtea.description": "A tall glass of iced tea flavored with mangoes.",
+
+"peach-icedtea.name": "Peach Iced Tea",
+"peach-icedtea.description": "A tall glass of iced tea flavored with peaches.",
+
+"thai-icedtea.name": "Thai Iced Tea",
+"thai-icedtea.description": "A tall glass of iced tea sweetened with coconut milk.",
+
+//SMOOTHIES
+
+"ancient-smoothie.name": "Ancient Wisdom Smoothie",
+"ancient-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"berry-smoothie.name": "Berry Blitz Smoothie",
+"berry-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"berrybanana-smoothie.name": "Strawberry Banana Smoothie",
+"berrybanana-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"berrykale-smoothie.name": "Blueberry Kale Smoothie",
+"berrykale-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"chocoberry-smoothie.name": "Chocolate Berry Smoothie",
+"chocoberry-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"gemberry-smoothie.name": "Gem Berry Blast Smoothie",
+"gemberry-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"peachmango-smoothie.name": "Peach Mango Smoothie",
+"peachmango-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"sunshine-smoothie.name": "Summer Sunshine Smoothie",
+"sunshine-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+"tropical-smoothie.name": "Tropical Oasis Smoothie",
+"tropical-smoothie.description": "A refreshing smoothie, perfect for breakfast on the go!",
+
+//CANDY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"confection-station.name": "Confection Station",
+	"confection-station.description": "Makes various candies and confections.",
+
+	// MARSHMALLOWS
+	
+    "ancient-marshmallow.name": "Ancient Marshmallow",
+	"ancient-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+
+	"vanilla-marshmallow.name": "Vanilla Marshmallow",
+	"vanilla-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+
+	"coconut-marshmallow.name": "Coconut Marshmallow",
+	"coconut-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+
+	"confetti-marshmallow.name": "Confetti Marshmallow",
+	"confetti-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+
+	"lavender-marshmallow.name": "Lavender Marshmallow",
+	"lavender-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+
+	"matcha-marshmallow.name": "Matcha Marshmallow",
+	"matcha-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+
+	"strawberry-marshmallow.name": "Strawberry Marshmallow",
+	"strawberry-marshmallow.description": "An incredibly soft and sweet homemade marshmallow.",
+	
+
+	// MARSHMALLOW POPS
+
+	"chocolate-marshmallowpop.name": "Chocolate Covered Marshmallow Pop",
+	"chocolate-marshmallowpop.description": "Marshmallow dipped in chocolate and served on a stick! So kawaii!",
+
+	"ancient-marshmallowpop.name": "Ancient Marshmallow Twist Pop",
+	"ancient-marshmallowpop.description": "Marshmallow twisted with different colors and flavors and served on a stick! So kawaii!",
+
+	"colada-marshmallowpop.name": "Pina Colada Marshmallow Twist Pop",
+	"colada-marshmallowpop.description": "Marshmallow twisted with different colors and flavors and served on a stick! So kawaii!",
+
+	"candy-marshmallowpop.name": "Cotton Candy Marshmallow Twist Pop",
+	"candy-marshmallowpop.description": "Marshmallow twisted with different colors and flavors and served on a stick! So kawaii!",
+
+	"earlgrey-marshmallowpop.name": "Earl Grey Marshmallow Twist Pop",
+	"earlgrey-marshmallowpop.description": "Marshmallow twisted with different colors and flavors and served on a stick! So kawaii!",
+
+	"gem-marshmallowpop.name": "Sweet Gem Marshmallow Twist Pop",
+	"gem-marshmallowpop.description": "Marshmallow twisted with different colors and flavors and served on a stick! So kawaii!",
+
+	"peach-marshmallowpop.name": "Peaches n Cream Marshmallow Twist Pop",
+	"peach-marshmallowpop.description": "Marshmallow twisted with different colors and flavors and served on a stick! So kawaii!",
+
+	//LOLLYPOPS
+	"blueberry-lollypop.name": "Blueberry Lollypop",
+	"blueberry-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"cherry-lollypop.name": "Cherry Lollypop",
+	"cherry-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"grape-lollypop.name": "Grape Lollypop",
+	"grape-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"lemon-lollypop.name": "Lemon Lollypop",
+	"lemon-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"lime-lollypop.name": "Lime Lollypop",
+	"lime-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"mint-lollypop.name": "Mint Lollypop",
+	"mint-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"orange-lollypop.name": "Orange Lollypop",
+	"orange-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	"raspberry-lollypop.name": "Raspberry Lollypop",
+	"raspberry-lollypop.description": "The classic kid's treat. Sugary sweet and portable too!",
+
+	//GOURMET LOLLYPOPS
+
+	"blueberry-gourmetpop.name": "Blueberry Pie Gourmet LollyPop",
+	"blueberry-gourmetpop.description": "This lollipop is HUGE. Sugar rush incoming!",
+
+	"lemon-gourmetpop.name": "Lemon Meringue Gourmet LollyPop",
+	"lemon-gourmetpop.description": "This lollipop is HUGE. Sugar rush incoming!",
+
+	"mint-gourmetpop.name": "Vanilla Peppermint Gourmet LollyPop",
+	"mint-gourmetpop.description": "This lollipop is HUGE. Sugar rush incoming!",
+
+	"berry-gourmetpop.name": "Mixed Berry Gourmet LollyPop",
+	"berry-gourmetpop.description": "This lollipop is HUGE. Sugar rush incoming!",
+
+	"shortcake-gourmetpop.name": "Strawberry Shortcake Gourmet LollyPop",
+	"shortcake-gourmetpop.description": "This lollipop is HUGE. Sugar rush incoming!",
+
+	//MINTS
+
+	"blue-mint.name": "Blue Peppermint Swirl",
+	"blue-mint.description": "An adorable pastel mint candy.",
+
+	"green-mint.name": "Green Peppermint Swirl",
+	"green-mint.description": "An adorable pastel mint candy.",
+
+	"pink-mint.name": "Pink Peppermint Swirl",
+	"pink-mint.description": "An adorable pastel mint candy.",
+
+	"purple-mint.name": "Purple Peppermint Swirl",
+	"purple-mint.description": "An adorable pastel mint candy.",
+
+	"red-mint.name": "Red Peppermint Swirl",
+	"red-mint.description": "An adorable pastel mint candy.",
+
+	//HARD CANDIES
+
+	"cinnamon-hardcandy.name": "Cinnamon Hard Candy",
+	"cinnamon-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"blue-hardcandy.name": "Icy Blue Hard Candy",
+	"blue-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"ginger-hardcandy.name": "Ginger Hard Candy",
+	"ginger-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"lime-hardcandy.name": "Lime Hard Candy",
+	"lime-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"orange-hardcandy.name": "Orange Hard Candy",
+	"orange-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"grape-hardcandy.name": "Grape Hard Candy",
+	"grape-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"strawberry-hardcandy.name": "Strawberry Hard Candy",
+	"strawberry-hardcandy.description": "Fruity candy wrapped in a pretty pastel wrapper.",
+
+	"winter-hardcandy.name": "Winter Star Candy Cane",
+	"winter-hardcandy.description": "An adorable candy cane perfect for celebrating the holidays!",
+
+	//CHOCOLATE BARS
+
+	"artisan-chocobar.name": "Artisan Chocolate Bar",
+	"artisan-chocobar.description": "A chocolate bar crafted by a master chocolatier. Very fancy!",
+
+	"white-chocobar.name": "Artisan White Chocolate Bar",
+	"white-chocobar.description": "A chocolate bar crafted by a master chocolatier. Very fancy!",
+
+	"ruby-chocobar.name": "Artisan Ruby Chocolate Bar",
+	"ruby-chocobar.description": "A chocolate bar crafted by a master chocolatier. Very fancy!",
+
+	"birthday-chocobar.name": "Artisan Birthday Cake Chocolate Bar",
+	"birthday-chocobar.description": "A chocolate bar crafted by a master chocolatier. Very fancy!",
+
+	"cookie-chocobar.name": "Artisan Cookies and Cream Chocolate Bar",
+	"cookie-chocobar.description": "A chocolate bar crafted by a master chocolatier. Very fancy!",
+
+	//FAIRY FLOSS
+
+	"classic-fairyfloss.name": "Fairy Floss",
+	"classic-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+	"lavender-fairyfloss.name": "Lavender Fairy Floss",
+	"lavender-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+	"lemon-fairyfloss.name": "Lemon Meringue Fairy Floss",
+	"lemon-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+	"orange-fairyfloss.name": "Orange Creamsicle Fairy Floss",
+	"orange-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+	"mint-fairyfloss.name": "Peppermint Fairy Floss",
+	"mint-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+	"strawberry-fairyfloss.name": "Strawberry Shortcake Fairy Floss",
+	"strawberry-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+	"vanilla-fairyfloss.name": "Vanilla Fairy Floss",
+	"vanilla-fairyfloss.description": "Otherwise known as cotton candy; a very sweet treat of spun sugar and flavorings.",
+
+
+	//CRYSTAL CANDY
+
+	"amethyst-crystalcandy.name": "Amethyst Crystal Candy",
+	"amethyst-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"aqua-crystalcandy.name": "Aqua Crystal Candy",
+	"aqua-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"emerald-crystalcandy.name": "Emerald Crystal Candy",
+	"emerald-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"lemon-crystalcandy.name": "Lemon Crystal Candy",
+	"lemon-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"rainbow-crystalcandy.name": "Rainbow Crystal Candy",
+	"rainbow-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"ruby-crystalcandy.name": "Ruby Crystal Candy",
+	"ruby-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"starry-crystalcandy.name": "Starry Crystal Candy",
+	"starry-crystalcandy.description": "Crystallized sugary sweet treat",
+
+	"topaz-crystalcandy.name": "Topaz Crystal Candy",
+	"topaz-crystalcandy.description": "Crystallized sugary sweet treat",
+
+//CHILLY TREATS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+"blast-chiller.name":"Blast Chiller",
+"blast-chiller.description":"A mini freezer that you can use to create frozen treats!",
+
+"frozentreat-maker.name":"Frozen Treat Machine",
+"frozentreat-maker.description":"A machine for churning homemade ice creams and frozen yogurts.",
+
+//FROZEN YOGURT
+
+"cake-froyo.name": "Birthday Cake Froyo",
+"cake-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"blueberry-froyo.name": "Blueberry Cheesecake Froyo",
+"blueberry-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"cheesecake-froyo.name": "Cheesecake Froyo",
+"cheesecake-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"cherrychoco-froyo.name": "Cherry Chocolate Froyo",
+"cherrychoco-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"fruity-froyo.name": "Fruity Froyo",
+"fruity-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"choco-froyo.name": "Chocolate Froyo",
+"choco-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"lemon-froyo.name": "Lemon Sherbet",
+"lemon-froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"mango-froyo.name": "Mango Sherbet",
+"mango-froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"melon-froyo.name": "Melon Sherbet",
+"melon-froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"mintchoco-froyo.name": "Mint Chocolate Froyo",
+"mintchoco-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"orange-froyo.name": "Orange Sherbet",
+"orange-froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"pumpkin-froyo.name": "Pumpkin Spice Froyo",
+"pumpkin-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"starfruit-froyo.name": "Starfruit Sherbet",
+"starfruit-froyo.description": "Fresh fruit blended with cream into a light and sweet sherbet.",
+
+"taro-froyo.name": "Taro Froyo",
+"taro-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+"wildberry-froyo.name": "Wild Berry Froyo",
+"wildberry-froyo.description": "A cup of freshly churned frozen yogurt - delicious!",
+
+//ICE CREAM
+
+"ancient-cone.name": "Ancient Ice Cream",
+"ancient-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"apple-cone.name": "Apple Pie Ice Cream",
+"apple-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"cherrynut-cone.name": "Cherry Almond Ice Cream",
+"cherrynut-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"cherryblossom-cone.name": "Sakura Ice Cream",
+"cherryblossom-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"chocolate-cone.name": "Chocolate Ice Cream",
+"chocolate-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"coconut-cone.name": "Coconut Ice Cream",
+"coconut-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"coffee-cone.name": "Coffee Ice Cream",
+"coffee-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"cookiedough-cone.name": "Cookie Dough Ice Cream",
+"cookiedough-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"cookie-cone.name": "Cookies n Creme Ice Cream",
+"cookie-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"horchata-cone.name": "Horchata Ice Cream",
+"horchata-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"lavender-cone.name": "Lavender Lemon Ice Cream",
+"lavender-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"maple-cone.name": "Maple Walnut Ice Cream",
+"maple-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"mint-cone.name": "Mint Chocolate Ice Cream",
+"mint-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"pistachio-cone.name": "Pistachio Ice Cream",
+"pistachio-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"strawberry-cone.name": "Strawberries n Cream Ice Cream",
+"strawberry-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+"vanilla-cone.name": "Vanilla Bean Ice Cream",
+"vanilla-cone.description": "Homemade ice cream - the perfect summer sweet treat!",
+
+//MILKSHAKES
+
+"choco-milkshake.name": "Chocolate Milkshake",
+"choco-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"candy-milkshake.name": "Cotton Candy Milkshake",
+"candy-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"orange-milkshake.name": "Orange Creamsicle Milkshake",
+"orange-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"earlgrey-milkshake.name": "Earl Grey Milkshake",
+"earlgrey-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"lime-milkshake.name": "Key Lime Pie Milkshake",
+"lime-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"colada-milkshake.name": "Pina Colada Milkshake",
+"colada-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"pumpkin-milkshake.name": "Pumpkin Spice Milkshake",
+"pumpkin-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"strawberry-milkshake.name": "Strawberry Milkshake",
+"strawberry-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+"vanilla-milkshake.name": "Vanilla Bean Milkshake",
+"vanilla-milkshake.description": "Ice cream blended with milk into a drinkable frozen treat!",
+
+//POPSICLES
+
+"ancient-popsicle.name": "Ancient Popsicle",
+"ancient-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"blueberry-popsicle.name": "Blueberry Popsicle",
+"blueberry-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"cherry-popsicle.name": "Cherry Popsicle",
+"cherry-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"coconut-popsicle.name": "Coconut Popsicle",
+"coconut-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"fruity-popsicle.name": "Fruity Popsicle",
+"fruity-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"grape-popsicle.name": "Grape Popsicle",
+"grape-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"lemon-popsicle.name": "Lemon Popsicle",
+"lemon-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"lime-popsicle.name": "Lime Popsicle",
+"lime-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"gem-popsicle.name": "Gem Popsicle",
+"gem-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"mango-popsicle.name": "Mango Popsicle",
+"mango-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"melon-popsicle.name": "Melon Popsicle",
+"melon-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"orange-popsicle.name": "Orange Popsicle",
+"orange-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"peach-popsicle.name": "Peach Popsicle",
+"peach-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"pineapple-popsicle.name": "Pineapple Popsicle",
+"pineapple-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"starfruit-popsicle.name": "Starfuit Popsicle",
+"starfruit-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"strawberry-popsicle.name": "Strawberry Popsicle",
+"strawberry-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"raspberry-popsicle.name": "Raspberry Popsicle",
+"raspberry-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+"wildberry-popsicle.name": "Wild Berry Popsicle",
+"wildberry-popsicle.description": "Frozen fruit juice on a stick - an adorable summer treat.",
+
+//SUNDAES
+
+"banana-sundae.name": "Banana Split Sundae",
+"banana-sundae.description": "A bowl of ice cream topped with syrup.",
+
+"fudge-sundae.name": "Hot Fudge Sundae",
+"fudge-sundae.description": "A bowl of ice cream topped with syrup.",
+
+"caramel-sundae.name": "Salted Caramel Sundae",
+"caramel-sundae.description": "A bowl of ice cream topped with syrup.",
+
+"smores-sundae.name": "S'mores Sundae",
+"smores-sundae.description": "A bowl of ice cream topped with syrup.",
+
+"soda-float.name": "Old Fashioned Soda Float",
+"soda-float.description": "Ice cream that floats on top of soda for a refreshing drinkable beverage.",
+
+//ICE CREAM SANDWICHES
+
+"cinnamon-icecreamwich.name": "Cinnamon Chocolate Ice Cream Sandwich",
+"cinnamon-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"mint-icecreamwich.name": "Mint Chocolate Ice Cream Sandwich",
+"mint-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"mochanut-icecreamwich.name": "Mocha Coconut Ice Cream Sandwich",
+"mochanut-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"mocha-icecreamwich.name": "Mocha Ice Cream Sandwich",
+"mocha-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"pistachio-icecreamwich.name": "Pistachio Ice Cream Sandwich",
+"pistachio-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"strawberry-icecreamwich.name": "Strawberry Ice Cream Sandwich",
+"strawberry-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+"vanilla-icecreamwich.name": "Vanilla Bean Ice Cream Sandwich",
+"vanilla-icecreamwich.description": "Ice cream sandwiched between two chocolate cake-like cookies. Yum!",
+
+//COFFEE i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"coffee-brewer.name":"Coffee Brewer",
+"coffee-brewer.description":"This fancy coffee pot also has a built in grinder, perfect for making special coffee blends!",
+
+//COFFEE BAGS
+
+"breakfast-blend.name":"Breakfast Blend Ground Coffee",
+"breakfast-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"vanilla-blend.name":"Calico Vanilla Ground Coffee",
+"vanilla-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"cold-blend.name":"Cold Brew Blend",
+"cold-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"donut-blend.name":"Donut Shoppe Ground Coffee",
+"donut-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"hazelnut-blend.name":"Hazelnut Ground Coffee",
+"hazelnut-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"holiday-blend.name":"Holiday Blend Ground Coffee",
+"holiday-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"mocha-blend.name":"Mocha Ground Coffee",
+"mocha-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"pumpkin-blend.name":"Pumpkin Spice Ground Coffee",
+"pumpkin-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"sweetheart-blend.name":"Sweetheart Blend Ground Coffee",
+"sweetheart-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+"coconut-blend.name":"Toasted Coconut Ground Coffee",
+"coconut-blend.description":"Freshly ground coffee beans, packaged and ready to be transformed into delicious coffee!",
+
+
+//LATTE
+
+"breakfast-latte.name": "Breakfast Latte",
+"breakfast-latte.description": "Freshly brewed coffee. So cozy!",
+
+"vanilla-latte.name":"Calico Vanilla Latte",
+"vanilla-latte.description":"Freshly brewed coffee. So cozy!",
+
+"cold-brew.name":"Classic Cold Brew",
+"cold-brew.description":"Freshly brewed coffee. So cozy!",
+
+"donut-latte.name":"Donut Shoppe Latte",
+"donut-latte.description":"Freshly brewed coffee. So cozy!",
+
+"hazelnut-latte.name":"Hazelnut Latte",
+"hazelnut-latte.description":"Freshly brewed coffee. So cozy!",
+
+"holiday-latte.name":"Holiday Blend Latte",
+"holiday-latte.description":"Freshly brewed coffee. So cozy!",
+
+"mocha-latte.name":"Rich Mocha Latte",
+"mocha-latte.description":"Freshly brewed coffee. So cozy!",
+
+"pumpkin-latte.name":"Cozy Pumpkin Spice Latte",
+"pumpkin-latte.description":"Freshly brewed coffee. So cozy!",
+
+"sweetheart-latte.name":"Sweetheart Latte",
+"sweetheart-latte.description":"Freshly brewed coffee. So cozy!",
+
+"coconut-latte.name":"Toasted Coconut Latte",
+"coconut-latte.description":"Freshly brewed coffee. So cozy!",
+
+//FLORAL i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//MACHINES
+
+"flower-station.name": "Flower Station",
+"flower-station.description": "Can create many artisan goods using flowers!",
+
+"wildflour-tub.name": "Tub o' Wildflours",
+"wildflour-tub.description": "Like a Tub o' Flowers, but better, since it lets you craft various floral goods!",
+
+"fragrance-station.name":"Fragrance Station",
+"fragrance-station.description":"A machine to make essences, soaps and perfumes!",
+
+//GENERIC ITEMS 
+
+//bouquet
+"bouquet.name": "Flower Bouquet",
+"bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+//perfume
+"perfume.name": "Fragrant Perfume",
+"perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+//essence
+"essence.name": "Flower Essence",
+"essence.description": "A fragrant oil made with fresh flowers.",
+
+//soap
+"soap.name": "Luxury Soap",
+"soap.description": "A bar of scented luxury soap - how fancy!",
+
+//petals
+"petals.name": "Dried Flower Petals",
+"petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+//potpourri
+"potpourri.name": "Fragrant Potpourri",
+"potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+//candles
+"candles.name": "Scented Candles",
+"candles.description":"A trio of pretty scented candles.",
+
+//CUSTOM BOUQUET
+
+"jazz-bouquet.name": "Blue Jazz Bouquet",
+"jazz-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"vanilla-bouquet.name": "Calico Vanilla Bouquet",
+"vanilla-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"fairy-bouquet.name": "Fairy Rose Bouquet",
+"fairy-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"chamomile-bouquet.name": "Forest Chamomile Bouquet",
+"chamomile-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"lavender-bouquet.name": "Forest Lavender Bouquet",
+"lavender-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"jasmine-bouquet.name": "Gem Isle Jasmine Bouquet",
+"jasmine-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"mallow-bouquet.name": "Marsh Mallow Bouquet",
+"mallow-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"poppy-bouquet.name": "Poppy Bouquet",
+"poppy-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"sakura-bouquet.name": "Sakura Bouquet",
+"sakura-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"spangle-bouquet.name": "Spangle Bouquet",
+"spangle-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"sunflower-bouquet.name": "Sunflower Bouquet",
+"sunflower-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+"tulip-bouquet.name": "Tulip Bouquet",
+"tulip-bouquet.description": "A gorgeous bouquet of flowers that makes for a lovely gift!",
+
+//CUSTOM PERFUME
+
+"jazz-perfume.name": "Blue Jazz Eau de Toilette",
+"jazz-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"vanilla-perfume.name": "Calico Vanilla Eau de Toilette",
+"vanilla-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"fairy-perfume.name": "Fairy Rose Eau de Toilette",
+"fairy-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"chamomile-perfume.name": "Forest Chamomile Eau de Toilette",
+"chamomile-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"lavender-perfume.name": "Forest Lavender Eau de Toilette",
+"lavender-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"jasmine-perfume.name": "Gem Isle Jasmine Eau de Toilette",
+"jasmine-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"mallow-perfume.name": "Marsh Mallow Eau de Toilette",
+"mallow-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"poppy-perfume.name": "Poppy Eau de Toilette",
+"poppy-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"sakura-perfume.name": "Sakura Eau de Toilette",
+"sakura-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"spangle-perfume.name": "Spangle Eau de Toilette",
+"spangle-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"sunflower-perfume.name": "Sunflower Eau de Toilette",
+"sunflower-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+"tulip-perfume.name": "Tulip Eau de Toilette",
+"tulip-perfume.description": "A delicately scented type of perfume made from distilled flower essence.",
+
+
+//CUSTOM ESSENCE
+
+"jazz-essence.name": "Blue Jazz Essence",
+"jazz-essence.description": "A fragrant oil made with fresh flowers.",
+
+"vanilla-essence.name": "Calico Vanilla Essence",
+"vanilla-essence.description": "A fragrant oil made with fresh flowers.",
+
+"fairy-essence.name": "Fairy Rose Essence",
+"fairy-essence.description": "A fragrant oil made with fresh flowers.",
+
+"chamomile-essence.name": "Forest Chamomile Essence",
+"chamomile-essence.description": "A fragrant oil made with fresh flowers.",
+
+"lavender-essence.name": "Forest Lavender Essence",
+"lavender-essence.description": "A fragrant oil made with fresh flowers.",
+
+"jasmine-essence.name": "Gem Isle Jasmine Essence",
+"jasmine-essence.description": "A fragrant oil made with fresh flowers.",
+
+"mallow-essence.name": "Marsh Mallow Essence",
+"mallow-essence.description": "A fragrant oil made with fresh flowers.",
+
+"poppy-essence.name": "Poppy Essence",
+"poppy-essence.description": "A fragrant oil made with fresh flowers.",
+
+"sakura-essence.name": "Sakura Essence",
+"sakura-essence.description": "A fragrant oil made with fresh flowers.",
+
+"spangle-essence.name": "Spangle Essence",
+"spangle-essence.description": "A fragrant oil made with fresh flowers.",
+
+"sunflower-essence.name": "Sunflower Essence",
+"sunflower-essence.description": "A fragrant oil made with fresh flowers.",
+
+"tulip-essence.name": "Tulip Essence",
+"tulip-essence.description": "A fragrant oil made with fresh flowers.",
+
+//CUSTOM SOAP
+
+"jazz-soap.name": "Blue Jazz Luxury Soap",
+"jazz-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"vanilla-soap.name": "Calico Vanilla Luxury Soap",
+"vanilla-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"fairy-soap.name": "Fairy Rose Luxury Soap",
+"fairy-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"chamomile-soap.name": "Forest Chamomile Luxury Soap",
+"chamomile-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"lavender-soap.name": "Forest Lavender Luxury Soap",
+"lavender-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"jasmine-soap.name": "Gem Isle Jasmine Luxury Soap",
+"jasmine-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"mallow-soap.name": "Marsh Mallow Luxury Soap",
+"mallow-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"poppy-soap.name": "Poppy Luxury Soap",
+"poppy-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"sakura-soap.name": "Sakura Luxury Soap",
+"sakura-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"spangle-soap.name": "Spangle Luxury Soap",
+"spangle-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"sunflower-soap.name": "Sunflower Luxury Soap",
+"sunflower-soap.description": "A bar of scented luxury soap - how fancy!",
+
+"tulip-soap.name": "Tulip Luxury Soap",
+"tulip-soap.description": "A bar of scented luxury soap - how fancy!",
+
+//CUSTOM PETALS
+
+"jazz-petals.name": "Dried Blue Jazz Petals",
+"jazz-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"vanilla-petals.name": "Dried Calico Vanilla",
+"vanilla-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"fairy-petals.name": "Dried Fairy Rose Petals",
+"fairy-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"chamomile-petals.name": "Dried Forest Chamomile Petals",
+"chamomile-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"lavender-petals.name": "Dried Forest Lavender",
+"lavender-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"jasmine-petals.name": "Dried Gem Isle Jasmine Petals",
+"jasmine-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"mallow-petals.name": "Dried Marsh Mallow Petals",
+"mallow-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"poppy-petals.name": "Dried Poppy Petals",
+"poppy-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"sakura-petals.name": "Dried Sakura Petals",
+"sakura-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"spangle-petals.name": "Dried Spangle Petals",
+"spangle-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"sunflower-petals.name": "Dried Sunflower Petals",
+"sunflower-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+"tulip-petals.name": "Dried Tulip Petals",
+"tulip-petals.description": "Flower petals that have been dried to preserve their lovely scent.",
+
+//CUSTOM POTPOURRI
+
+"jazz-potpourri.name": "Jazz Potpourri Sachet",
+"jazz-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"vanilla-potpourri.name": "Vanilla Potpourri Sachet",
+"vanilla-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"fairy-potpourri.name": "Fairy Rose Potpourri Sachet",
+"fairy-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"chamomile-potpourri.name": "Chamomile Potpourri Sachet",
+"chamomile-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"lavender-potpourri.name": "Lavender Potpourri Sachet",
+"lavender-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"jasmine-potpourri.name": "Jasmine Potpourri Sachet",
+"jasmine-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"mallow-potpourri.name": "Marshmallow Potpourri Sachet",
+"mallow-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"poppy-potpourri.name": "Poppy Potpourri Sachet",
+"poppy-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"sakura-potpourri.name": "Sakura Potpourri Sachet",
+"sakura-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"spangle-potpourri.name": "Spangle Potpourri Sachet",
+"spangle-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"sunflower-potpourri.name": "Sunflower Potpourri Sachet",
+"sunflower-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+"tulip-potpourri.name": "Tulip Potpourri Sachet",
+"tulip-potpourri.description": "Dried flower petals in a muslin bag - perfect for keeping your closet or dresser drawers smelling nice.",
+
+//CANDLES
+
+"jazz-candles.name": "Jazz Scented Candles",
+"jazz-candles.description": "A trio of pretty scented candles.",
+
+"vanilla-candles.name": "Vanilla Scented Candles",
+"vanilla-candles.description": "A trio of pretty scented candles.",
+
+"fairy-candles.name": "Fairy Rose Scented Candles",
+"fairy-candles.description": "A trio of pretty scented candles.",
+
+"chamomile-candles.name": "Chamomile Scented Candles",
+"chamomile-candles.description": "A trio of pretty scented candles.",
+
+"lavender-candles.name": "Lavender Scented Candles",
+"lavender-candles.description": "A trio of pretty scented candles.",
+
+"jasmine-candles.name": "Jasmine Scented Candles",
+"jasmine-candles.description": "A trio of pretty scented candles.",
+
+"mallow-candles.name": "Marshmallow Scented Candles",
+"mallow-candles.description": "A trio of pretty scented candles.",
+
+"poppy-candles.name": "Poppy Scented Candles",
+"poppy-candles.description": "A trio of pretty scented candles.",
+
+"sakura-candles.name": "Sakura Scented Candles",
+"sakura-candles.description": "A trio of pretty scented candles.",
+
+"spangle-candles.name": "Spangle Scented Candles",
+"spangle-candles.description": "A trio of pretty scented candles.",
+
+"sunflower-candles.name": "Sunflower Scented Candles",
+"sunflower-candles.description": "A trio of pretty scented candles.",
+
+"tulip-candles.name": "Tulip Scented Candles",
+"tulip-candles.description": "A trio of pretty scented candles.",
+
+//GOURMET PANTRY i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//Kitchen Blender
+"kitchen-blender.name": "Kitchen Blender",
+"kitchen-blender.description": "A kitchen appliance that can blend nuts into milks, milks into cream, and more!",
+
+//Kitchen Mortar
+"kitchen-mortar.name": "Kitchen Mortar",
+"kitchen-mortar.description": "A kitchen appliance that can grind crops into flours and spice blends.",
+
+// Almond Nut Butter
+"almond-butter.name": "Almond Nut Butter",
+"almond-butter.description": "A creamy, butter-like spread made from almonds. Perfect for baking, spreading on toast and more!",
+
+//Almondmilk
+"almond-milk.name": "Almondmilk",
+"almond-milk.description": "An alterative milk made from almonds. A great substitute for dairy in baking, smoothies and more!",
+
+//Bittersweet Bakers Chocolate
+"bitter-chocolate.name": "Bittersweet Bakers Chocolate",
+"bitter-chocolate.description": "Dark chocolate bar used in making sweets and treats.",
+
+//Calico Vanilla Extract
+"vanilla-extract.name": "Calico Vanilla Extract",
+"vanilla-extract.description": "Vanilla essence distilled from foraged vanilla beans. Used in baking sweet treats!",
+
+//Cashew Nut Butter
+"cashew-butter.name": "Cashew Nut Butter",
+"cashew-butter.description": "A creamy, butter-like spread made from cashews. Perfect for baking, spreading on toast and more!",
+
+//Cashewmilk
+"cashew-milk.name": "Cashewmilk",
+"cashew-milk.description": "An alterative milk made from cashews. A great substitute for dairy in baking, smoothies and more!",
+
+//Chocolate Morsels
+"chocolate-chips.name": "Chocolate Morsels",
+"chocolate-chips.description": "Also known as chocolate chips, an absolute MUST for anyone who loves to make cookies.",
+
+//Coconutmilk
+"coconut-milk.name": "Coconutmilk",
+"coconut-milk.description": "An alterative milk made from coconuts. A great substitute for dairy in baking, smoothies and more!",
+
+//Confectioners Sugar
+"powder-sugar.name": "Confectioners Sugar",
+"powder-sugar.description": "Also knows as powdered sugar; this finely ground sugar has a bit of cornstarch added to keep it from clumping and it is often used to top baked goods",
+
+//Creamy Coconut Butter
+"coconut-butter.name": "Creamy Coconut Butter",
+"coconut-butter.description": "A butter substitute made from the fat of the coconut. Perfect for baking dairy-free treats!",
+
+//Espresso Powder
+"espresso-powder.name": "Espresso Powder",
+"espresso-powder.description": "The kick of coffee flavor complements chocolatey baked goods nicely.",
+
+//Farm Fresh Butter
+"butter.name": "Farm Fresh Butter",
+"butter.description": "Fresh cow's milk churned by hand into glorious butter.",
+
+//Farm Fresh Buttermilk
+"buttermilk.name": "Farm Fresh Buttermilk",
+"buttermilk.description": "Although it smells a bit unpleasant, this ingredient helps create tender cornbread and fluffy pancakes.",
+
+//Farm Fresh Cream
+"cream.name": "Farm Fresh Cream",
+"cream.description": "Made from milk of local cows, this cream is essential to baking certain pastries and whipping up soft, fluffy frostings!",
+
+//Farm Fresh Cream Cheese
+"cream-cheese.name": "Farm Fresh Cream Cheese",
+"cream-cheese.description": "Made with milk from local cows, this cream cheese is perfect for cheesecake or just smearing on a bagel.",
+
+//Ghee
+"ghee.name":"Farm Fresh Ghee",
+"ghee.description":"A type of clarified butter.",
+
+//Farm Fresh Yogurt
+"yogurt.name": "Farm Fresh Yogurt",
+"yogurt.description": "Made with milk from local cows, this yogurt is full of probiotics!",
+
+//Farmstead Apple Butter
+"apple-butter.name": "Farmstead Apple Butter",
+"apple-butter.description": "Made with the farmer's secret family recipe - warm and sweet and perfect for morning toast or slathered on the side of a muffin",
+
+//Farmstead Honey Butter
+"honey-butter.name": "Farmstead Honey Butter",
+"honey-butter.description": "Made with the farmer's secret family recipe and the help of some lovely bumblebees",
+
+//Farmstead Maple Butter
+"maple-butter.name": "Farmstead Maple Butter",
+"maple-butter.description": "Made with the farmer's secret family recipe and locally sourced maple syrup",
+
+//Farmstead Pumpkin Butter
+"pumpkin-butter.name": "Farmstead Pumpkin Butter",
+"pumpkin-butter.description": "Made with the farmer's secret family recipe - perfect for the pumpkin spice lover in all of us",
+
+//Gourmet Lemon Curd
+"lemon-curd.name": "Gourmet Lemon Curd",
+"lemon-curd.description": "Its luscious, creamy texture is due to high quality egg yolks from very happy chickens",
+
+//Gourmet Lime Curd
+"lime-curd.name": "Gourmet Lime Curd",
+"lime-curd.description": "Its luscious, creamy texture is due to high quality egg yolks from very happy chickens",
+
+//Gourmet Orange Curd
+"orange-curd.name": "Gourmet Orange Curd",
+"orange-curd.description": "Its luscious, creamy texture is due to high quality egg yolks from very happy chickens",
+
+//Hazelnut Nut Butter
+"hazelnut-butter.name": "Hazelnut Nut Butter",
+"hazelnut-butter.description": "A creamy, butter-like spread made from hazelnuts. Perfect for baking, spreading on toast and more!",
+
+//Hazelnutmilk
+"hazelnut-milk.name": "Hazelnutmilk",
+"hazelnut-milk.description": "An alterative milk made from hazelnuts. A great substitute for dairy in baking, smoothies and more!",
+
+//Pectin
+"pectin.name": "Pectin",
+"pectin.description": "a jelling agent made from fruits; essential to preserving jams and jellies.",
+
+//Pistachio Nut Butter
+"pistachio-butter.name": "Pistachio Nut Butter",
+"pistachio-butter.description": "A creamy, butter-like spread made from Pistachio. Perfect for baking, spreading on toast and more",
+
+//Pistachiomilk
+"pistachio-milk.name": "Pistachiomilk",
+"pistachio-milk.description": "An alterative milk made from pistachios. A great substitute for dairy in baking, smoothies and more!",
+
+//Rainbow Sprinkles
+"rainbow-sprinkles.name": "Rainbow Sprinkles",
+"rainbow-sprinkles.description": "Also knows as jimmies; whatever you call them, they are sweet and coloful and a perfect topping for almost anything!",
+
+//Ricemilk
+"rice-milk.name": "Ricemilk",
+"rice-milk.description": "An alterative milk made from rice. A great substitute for dairy in baking, smoothies and more!",
+
+//Semisweet Bakers Chocolate
+"semisweet-chocolate.name": "Semisweet Bakers Chocolate",
+"semisweet-chocolate.description": "Slightly sweet chocolate bar used in making sweets and treats",
+
+//Specialty Almond Flour
+"almond-flour.name": "Specialty Almond Flour",
+"almond-flour.description": "An artisanal flour made from ground almonds. Essential for macarons, but also great for gluten-free baking!",
+
+//Specialty Bread Flour 
+"bread-flour.name": "Specialty Bread Flour ",
+"bread-flour.description": "An artisanal flour made from a heartier type of wheat. Its higher protein content lends itself well to most bread doughs.",
+
+//Specialty Brown Sugar
+"brown-sugar.name": "Specialty Brown Sugar",
+"brown-sugar.description": "Sugar that has not had all of the molasses removed from it in processing, resulting in a richer, earthier flavor that does well in muffins and certain cakes.",
+
+//Specialty Cake Flour
+"cake-flour.name": "Specialty Cake Flour",
+"cake-flour.description": "An artisanal flour made especially for baking cakes. Its lower protein content means your cakes come out softer with a pleasant, tender crumb.",
+
+//Specialty Cocoa Powder
+"cocoa-powder.name": "Specialty Cocoa Powder",
+"cocoa-powder.description": "Cocoa that has been dried and transformed into a powder to be used in baked goods.",
+
+//Specialty Coconut Flour
+"coconut-flour.name": "Specialty Coconut Flour",
+"coconut-flour.description": "An artisanal flour made from ground coconut. Used in making certain dumplings, it is also great for gluten-free baking!",
+
+//Specialty Coconut Oil
+"coconut-oil.name":"Specialty Coconut Oil",
+"coconut-oil.description": "Oil made from fresh coconuts.",
+
+//Specialty Corn Flour
+"corn-flour.name": "Specialty Corn Flour",
+"corn-flour.description": "An artisanal flour made from ground corn. Essential for dishes like tamales or corn bread.",
+
+//Specialty Olive Oil
+"olive-oil.name": "Specialty Olive Oil",
+"olive-oil.description": "Cold-pressed olives means a superior olive oil for using on salads or sauteeing fresh veggies!",
+
+//Specialty Pastry Flour
+"pastry-flour.name": "Specialty Pastry Flour",
+"pastry-flour.description": "An artisanal flour for making pastries. Lower in protein like cake flour, this ingredient is an essential for many pies and pastries.",
+
+//Specialty Rice Flour
+"rice-flour.name": "Specialty Rice Flour",
+"rice-flour.description": "An artisanal flour made from ground rice. Essential for dumplings and mochi, but also great for gluten-free baking!",
+
+//Walnut Nut Butter
+"walnut-butter.name": "Walnut Nut Butter",
+"walnut-butter.description": "A creamy, butter-like spread made from walnuts. Perfect for baking, spreading on toast and more!",
+
+//White Bakers Chocolate
+"white-chocolate.name": "White Bakers Chocolate",
+"white-chocolate.description": "White chocolate bar used in making sweets and treats",
+
+//JAMS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+	// Banana Maple Jam
+    "banana-maple.name": "Banana Maple Jam",
+	"banana-maple.description": "Jam made from mashed ripe bananas and locally sourced maple syrup.",
+	
+	//Banana Split Jam
+	"banana-split.name": "Banana Split Jam",
+	"banana-split.description": "Bananas, strawberries and a cherry on top!",
+	
+	//Blackberry Mint Jelly
+	"blackberry-mint.name": "Blackberry Mint Jelly",
+	"blackberry-mint.description": "a sweet jelly made from foraged blackberries and homegrown mint.",
+
+	//Blueberry Lavender Jelly
+	"blueberry-lavender.name": "Blueberry Lavender Jelly",
+	"blueberry-lavender.description": "a sweet jelly made with fresh blueberries and foraged lavender.",
+	
+	//Blue Jazz Jelly
+	"blue-jazz-jelly.name": "Blue Jazz Jelly",
+	"blue-jazz-jelly.description": "floral jelly made from the petals of blue jazz flowers.",
+
+	//Chamomile Jelly
+	"chamomile-jelly.name":"Chamomile Jelly",
+	"chamomile-jelly.description":"floral jelly made from the petals of foraged chamomile flowers.",
+	
+	//Cherry Vanilla Jam
+	"cherry-vanilla.name": "Cherry Vanilla Jam",
+	"cherry-vanilla.description": "Jam made with freshly picked cherries and floral vanilla bean.",
+	
+	//Cinnamon Apple Preserves
+	"cinnamon-apple.name": "Cinnamon Apple Preserves",
+	"cinnamon-apple.description": "Fresh, crisp apples and spicy cinnamon - add these preserves to pretty much anything for a blast of Autumn flavor.",
+	
+	//Cranberry Chutney
+	"cranberry-chutney.name": "Cranberry Chutney",
+	"cranberry-chutney.description": "Cranberry sauce is so overrated - have you tried this bright and citrusy chutney instead?",
+	
+	//Crocus Jelly
+	"crocus-jelly.name": "Crocus Jelly",
+	"crocus-jelly.description": "Jelly made from wild crocus blossoms; its flavor is a bit like vanilla and spice.",
+	
+	//Dandelion Jelly
+	"dandelion-jelly.name": "Dandelion Jelly",
+	"dandelion-jelly.description": "Jelly made from foraged dandelions; it tastes delicate and sweet.",
+
+	//Honey Apricot Preserves
+	"honey-apricot.name": "Honey Apricot Preserves",
+	"honey-apricot.description": "Preserves made with local honey and freshly picked apricots",
+	
+	//Honey Peach Preserves
+	"honey-peach.name": "Honey Peach Preserves",
+	"honey-peach.description": "Preserves made with local honey and freshly-picked peaches.",
+	
+	//Mango Chutney
+	"mango-chutney.name": "Mango Chutney",
+	"mango-chutney.description": "This summery chutney is perfect over a freshly caught and roasted fish.",
+	
+	//Mixed Berry Preserves
+	"mixed-berry.name": "Mixed Berry Preserves",
+	"mixed-berry.description": "Preserves made with three kinds of fresh berries.",
+
+	//Peach Blossom Jelly
+	"peach-blossom.name":"Peach Blossom Jelly",
+	"peach-blossom.description":"Cherry blossom petals and freshly-picked peaches cooked down into a deliciously fragrant jelly.",
+	
+	//Peach Ginger Preserves
+	"peach-ginger.name": "Peach Ginger Preserves",
+	"peach-ginger.description": "Preserves made with peaches and a bit of Ginger Island ginger for an added kick of flavor.",
+	
+	//Rose Petal Jelly
+	"rose-petal-jelly.name":"Rose Petal Jelly",
+	"rose-petal-jelly.description":"Floral jelly made from rose petals.",
+	
+	//Special Edition Flower Dance Jelly
+	"flower-dance.name": "Special Edition Flower Dance Jelly",
+	"flower-dance.description": "Small batch jelly made in celebration of Pelican Town's Annual Flower Dance!",
+	
+	//Special Edition Luau Jam
+	"luau-jam.name": "Special Edition Luau Jam",
+	"luau-jam.description": "Small batch jam made to celebratte Pelican Town's Annual Luau!",
+	
+	//Special Edition Spirits Eve Jam
+	"spirit-jam.name": "Special Edition Spirits Eve Jam",
+	"spirit-jam.description": "Small batch jam made to celebrate Spirits' Eve!",
+	
+	//Special Edition Winter Star Jelly
+	"winter-star-jelly.name": "Special Edition Winter Star Jelly",
+	"winter-star-jelly.description": "Small batch jelly made in celebration of the Feast of the Winter Star!",
+	
+	//Spring Lemon Marmalade
+	"lemon-marmalade.name": "Spring Lemon Marmalade",
+	"lemon-marmalade.description": "Thanks to the bits of whole lemon zest, the bright, bold flavor of the lemons really comes through!",
+	
+	//Strawberry Rhubarb Jam
+	"strawberry-rhubarb.name": "Strawberry Rhubarb Jam",
+	"strawberry-rhubarb.description": "Jam made by combining sweet strawberries with tart rhubarb.",
+
+	//Strawberry Rose Jelly
+	"strawberry-rose.name":"Strawberry Rose Jelly",
+	"strawberry-rose.description": "Freshly foraged wild strawberries and rose petals cooked together to make a fragrant, sweet jelly.",
+	
+	//Summer Spangle Jelly
+	"spangle-jelly.name": "Summer Spangle Jelly",
+	"spangle-jelly.description": "Jelly made from summer's best spangle blossoms, it tastes like sunshine in a jar.",
+	
+	//Summery Orange Marmalade
+	"orange-marmalade.name": "Summery Orange Marmalade",
+	"orange-marmalade.description": "Thanks to the bits of whole orange zest, the bright, bold flavor of the oranges really comes through!",
+	
+	//Sunflower Jelly
+	"sunflower-jelly.name": "Sunflower Jelly",
+	"sunflower-jelly.description": "Jelly made from sunflower petals, it tastes faintly nutty.",
+	
+	//Sweet Lime Marmalade
+	"lime-marmalade.name": "Sweet Lime Marmalade",
+	"lime-marmalade.description": "Thanks to the bits of whole lime zest, the tart yet sweet flavor of the lime really comes through!",
+	
+	//Sweet Jasmine Jelly
+	"jasmine-jelly.name": "Sweet Jasmine Jelly",
+	"jasmine-jelly.description": "Jelly made from freshly picked jasmine, it tastes fresh and floral.",
+	
+	//Triple Citrus Marmalade
+	"citrus-marmalade.name": "Triple Citrus Marmalade",
+	"citrus-marmalade.description": "Lemons, limes and oranges come together for a burst of citrusy flavor.",
+	
+	//Tulip Jelly
+	"tulip-jelly.name": "Tulip Jelly",
+	"tulip-jelly.description": "Jelly made from freshly picked tulips, it tastes fresh and floral.",
+	
+	//Vanilla Raspberry Preserves
+	"vanilla-raspberry.name": "Vanilla Raspberry Preserves",
+	"vanilla-raspberry.description": "Vanilla and Raspberry are the perfect pairing - spread these preserves on toast or use as a filling in cake for a truly sweet treat!",
+
+
+//MEADS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"mead-keg.name": "Artisan Mead Keg",
+"mead-keg.description": "A keg for brewing flavored meads.",
+
+//BASE GAME-mead
+
+"ancient-mead.name": "Ancient Sweet Mead",
+"ancient-mead.description": "Warm and comforting - tasting it fills you with a strange, magical feeling.",
+
+"apricot-mead.name": "Spring Apricot Mead",
+"apricot-mead.description": "A sweet spring mead to enjoy under a newly blossomed tree.",
+
+"banana-mead.name": "Banana Bliss Mead",
+"banana-mead.description": "If banana bread were made by bees, it would taste like this.",
+
+"blackberry-mead.name": "Blackberry Bushel Mead",
+"blackberry-mead.description": "A sweet, tart mead inspired by wild berry foraging.",
+
+"blueberry-mead.name": "Blueberry Cobbler Mead",
+"blueberry-mead.description": "You didn't know you would enjoy drinking liquid blueberry pie, until now.",
+
+"cactus-mead.name": "Calico Cactus Mead",
+"cactus-mead.description": "A Calico Desert Specialty",
+
+"cherry-mead.name": "Sweet Cherry Mead",
+"cherry-mead.description": "Sweet and tart, best enjoyed while watching cherry blossoms fall.",
+
+"coconut-mead.name": "Tropical Coconut Mead",
+"coconut-mead.description": "Everyone goes Loco for this Coco - nut Mead!",   
+
+"cranberry-mead.name": "Tart Cranberry Mead",
+"cranberry-mead.description": "A tart and refreshing autumn mead.", 
+
+"crystal-mead.name": "Crystal Mead",
+"crystal-mead.description": "The perfect mead for the Feast of the Winter Star.", 
+
+"mango-mead.name": "Island Mango Mead",
+"mango-mead.description": "A specialty mead from Ginger Island", 
+
+"melon-mead.name": "Summer Melon Mead",
+"melon-mead.description": "This pleasantly pink mead is perfect for any summer soiree.", 
+
+"orange-mead.name": "Orange Creamsicle Mead",
+"orange-mead.description": "A bright, citrusy mead reminiscent of a mimosa.", 
+
+"peach-mead.name": "Peaches N Cream Mead",
+"peach-mead.description": "Sweet and summery.", 
+
+"pineapple-mead.name": "Birdie's Pineapple Mead",
+"pineapple-mead.description": "The secret recipe is closely guarded by the Ginger Island Parrots.", 
+
+"pomegranate-mead.name": "Sweet Pomegranate Mead",
+"pomegranate-mead.description": "The perfect mead to serve at your Spirit's Eve party.", 
+
+"salmonberry-mead.name": "Wild Salmonberry Mead",
+"salmonberry-mead.description": "A lightly sweet mead made with wild salmonberries.", 
+
+"spiced-mead.name": "Spiced Mead",
+"spiced-mead.description": "A warming mead perfect for a cool evening.", 
+
+"starfruit-mead.name": "Starfruit Skies Mead",
+"starfruit-mead.description": "A golden-hued mead best enjoyed during summer stargazing.", 
+
+"strawberry-mead.name": "Strawberry Fields Mead",
+"strawberry-mead.description": "It reminds you of a strawberry milkshake, but better.", 
+
+"gem-mead.name": "Gem Mead",
+"gem-mead.description": "A magical mead rumored to have been created by the junimos living in the secret woods.", 
+
+"plum-mead.name": "Autumnal Plum Mead",
+"plum-mead.description": "A sweet, autumnal mead variety", 
+
+//PPJA-mead
+
+"crisp-apple-mead.name": "Crisp Apple Mead",
+"crisp-apple-mead.description": "Crisp and warming on a cool fall day.",
+
+"dragon-mead.name": "Dragon Mead",
+"dragon-mead.description": "No dragons were harmed in the creation of this mead.",
+
+"fig-mead.name": "Winter Fig Mead",
+"fig-mead.description": "Goes well with goat's cheese!", 
+
+"grapefruit-mead.name": "Bittersweet Grapefruit Mead",
+"grapefruit-mead.description": "A somewhat tart mead.", 
+
+"lemon-mead.name": "Lemon Meringue Mead",
+"lemon-mead.description": "Tasting this mead reminds you of your mom's famous lemon bars.", 
+
+"lime-mead.name": "Key Lime Pie Mead",
+"lime-mead.description": "Will not prevent scurvy, but does taste delicious.", 
+
+"lychee-mead.name": "Lychee Lovers Mead",
+"lychee-mead.description": "A sweet and slightly floral specialty mead", 
+
+"papaya-mead.name": "Papaya Isle Mead",
+"papaya-mead.description": "Another of Sandy's specially developed liquor varieties.",
+
+"pear-mead.name": "Crisp Pear Mead",
+"pear-mead.description": "Crisp and tart.", 
+
+"persimmon-mead.name": "Okay Poke Persimmon Mead",
+"persimmon-mead.description": "Perhaps the Hat Mouse would like a bottle?", 
+
+"pomelo-mead.name": "Tart Pomelo Mead",
+"pomelo-mead.description": "A citrusy mead that can brighten even the dreariest of winter days.", 
+
+//WILD FOOD-mead
+
+"vanilla-mead.name": "Calico Vanilla Mead",
+"vanilla-mead.description": "Mead made from honey pollinated with calico vanilla blossoms.", 
+
+"cinnamon-mead.name": "Sweet Cinnamon Mead",
+"cinnamon-mead.description": "Mead made from honey pollinated with Cindersap cinnamon bark.",
+
+"chamomile-mead.name": "Chamomile Meadows Mead",
+"chamomile-mead.description": "Mead made from honey pollinated with chamomile blossoms.",
+
+"lavender-mead.name": "Lavender Meadows Mead",
+"lavender-mead.description": "Mead made from honey pollinated with forest lavender.",
+
+"mallow-mead.name": "Marshmallow Mead",
+"mallow-mead.description": "Mead made from honey pollinated with marsh mallow blossoms.",
+
+"petitelemon-mead.name": "Petite Lemon Mead",
+"petitelemon-mead.description": "Mead made from honey pollinated with lemon blossoms.", 
+
+"petitelime-mead.name": "Petite Lime Mead",
+"petitelime-mead.description": "Mead made from honey pollinated with lime blossoms.", 
+
+"sakura-mead.name": "Sakura Mead",
+"sakura-mead.description": "Mead made from honey pollinated with cherry blossoms.",
+
+"wildraspberry-mead.name": "Sweet Raspberry Mead",
+"wildraspberry-mead.description": "Mead made from honey pollinated with wild raspberry blossoms.", 
+
+"wildstrawberry-mead.name": "Strawberries 'n Cream Mead",
+"wildstrawberry-mead.description": "Mead made from honey pollinated with wild strawberry blossoms.", 
+
+//PIXIE FORAGE 
+
+"pixie-apple-mead.name": "Dreamy Apple Mead",
+"pixie-apple-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-apricot-mead.name": "Dreamy Apricot Mead",
+"pixie-apricot-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-banana-mead.name": "Dreamy Banana Mead",
+"pixie-banana-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-cherry-mead.name": "Dreamy Cherry Mead",
+"pixie-cherry-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-mango-mead.name": "Dreamy Mango Mead",
+"pixie-mango-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-orange-mead.name": "Dreamy Orange Mead",
+"pixie-orange-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-peach-mead.name": "Dreamy Peach Mead",
+"pixie-peach-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"pixie-pomegranate-mead.name": "Dreamy Pomegranate Mead",
+"pixie-pomegranate-mead.description": "A mead made especially for the fae folk; legend has it if a human drinks it, they can speak to magical creatures.",
+
+"cake-mead.name": "Cake Mead",
+"cake-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like vanilla cake.",
+
+"caramel-mead.name": "Caramel Mead",
+"caramel-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like a caramel apple.",
+
+"creamsicle-mead.name": "Creamsicle Mead",
+"creamsicle-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like an orange popsicle.",
+
+"custard-mead.name": "Custard Mead",
+"custard-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like vanilla custard.",
+
+"gumdrop-mead.name": "Gumdrop Mead",
+"gumdrop-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like fruity gumdrops.",
+
+"macaron-mead.name": "Macaron Mead",
+"macaron-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like an almond macaron.",
+
+"pie-mead.name": "Pie Mead",
+"pie-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like blueberry pie.",
+
+"sprinkle-mead.name": "Sprinkle Mead",
+"sprinkle-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like rainbow sprinkles.",
+
+"sugar-mead.name": "Sugar Mead",
+"sugar-mead.description": "A mead made from magical faerie blossoms; it tastes strangely like pure sugar.",
+
+//PICKLES i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//Bruschetta
+"bruschetta.name": "Tomato Basil Bruschetta",
+"bruschetta.description": "A bright and summery mix of diced tomatoes, basil, and garlic that is often served on top of crostini or toast.",
+
+//Onion Chutney
+"onion-chutney.name": "Caramelized Onion Chutney",
+"onion-chutney.description": "A chutney consisting of onions cooked down for hours until they have become jammy and sweet and almost spreadable.",
+
+//Pineapple Salsa
+"pineapple-salsa.name": "Charred Pineapple Salsa",
+"pineapple-salsa.description": "Roasting the pineapple first adds a pleasant sweet heat to this salsa.",
+
+//Giardiniera
+"giardiniera.name": "Giardiniera",
+"giardiniera.description": "A mix of pickled vegetables and herbs often served as an appetizer or as part of a sandwich.",
+
+//Horseradish Chips
+"horseradish-pickles.name": "Horseradish Pickle Chips",
+"horseradish-pickles.description": "Wild horseradish gives these pickles a punch of flavor!",
+
+//Kale Pesto
+"kale-pesto.name": "Kale Garlic Pesto",
+"kale-pesto.description": "Pesto can be made with more than just basil! This kale garlic variant is pleasantly earthy.",
+
+//Mushrooms
+"marinated-mushrooms.name": "Marinated Mushrooms",
+"marinated-mushrooms.description": "These delicious mushrooms are preserved in oil and spices instead of vinegar.",
+
+//Mild Salsa
+"tomato-salsa.name": "Mild Tomato Salsa",
+"tomato-salsa.description": "This salsa does not contain peppers and is perfect for those who cannot handle the heat of spicier varieties.",
+
+//Tapenade
+"olive-tapenade.name": "Olive Tapenade",
+"olive-tapenade.description": "A spread made from crushed Fern Isle olives. Pair with toast, caviar and champagne for an elegant dinner!",
+
+//Peach Salsa
+"peach-salsa.name": "Peach Salsa",
+"peach-salsa.description": "Freshly picked peaches add a touch of sweetness to this spicy summer salsa.",
+
+//Pepper Relish
+"pepper-relish.name": "Pepper Onion Relish",
+"pepper-relish.description": "A sweet and spicy relish that goes well on many sandwiches.",
+
+//Pickled Artichoke
+"pickled-artichoke.name": "Pickled Artichoke Hearts",
+"pickled-artichoke.description": "These artichoke hearts are kept soft and tender thanks to the pickling process and can be enjoyed in salads or on their own!",
+
+//Pickled Fish
+"pickled-fish.name": "Pickled Fish",
+"pickled-fish.description": "Though most commonly made with herring, pickled fish is enjoyed in many cultures as a topping to to toast for a light breakfast.",
+
+//Pickled Olives
+"pickled-olives.name": "Pickled Olives",
+"pickled-olives.description": "Fern Isle olives pickled in brine to preserve their flavor.",
+
+//Pickled Red Onions
+"pickled-onion.name": "Pickled Red Onions",
+"pickled-onion.description": "Thinly sliced red onions cooked for a small amount of time with a bit of sugar, then cooled and pickled in vinegar.",
+
+//Pickled Carrots
+"pickled-carrot.name": "Pickled Wild Carrots",
+"pickled-carrot.description": "Freshly foraged wild carrots, pickled to preserve their natural crispness and sweet flavor.",
+
+//Red Peppers
+"roasted-peppers.name": "Roasted Red Peppers",
+"roasted-peppers.description": "Peppers roasted over an open flame then preserved in oil; can be used in salads, sandwiches, and many cooked dishes.",
+
+//Sauerkraut
+"sauerkraut.name": "Sauerkraut",
+"sauerkraut.description": "Pickled cabbage seasoned with spices and often used a topping to sausages or sandwiches.",
+
+//Mango Salsa
+"mango-salsa.name": "Spicy Mango Salsa",
+"mango-salsa.description": "This spicy sweet salsa goes well with many seafood dishes!",
+
+//Spicy Salsa
+"spicy-salsa.name": "Spicy Tomato Salsa",
+"spicy-salsa.description": "A salsa made especially for those who love the spicy hot peppers of summer.",
+
+//Sundried Tomatoes
+"sundried-tomatoes.name": "Sundried Tomatoes",
+"sundried-tomatoes.description": "Tomatoes dried out in the sun for hours, then stored in oil with herbs and often used as a topping for salads or pasta dishes.",
+
+//Basil Pesto
+"basil-pesto.name": "Sweet Basil Pesto",
+"basil-pesto.description": "A classic pesto made with basil, garlic, olive oil and nuts. Use as a pasta sauce, or as a condiment on sandwiches!",
+
+//Tomato Corn Salsa
+"corn-salsa.name": "Tomato Corn Salsa",
+"corn-salsa.description": "Freshly-picked tomatoes and corn make this salsa the perfect summer condiment!",
+
+//TEA i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+"tea-kettle.name":"Tea Kettle",
+"tea-kettle.description":"Can create packaged tea sachets and then brew flavorful teas!",
+
+//TEA SACHETS
+
+"apple-sachet.name": "Autumn Apple Tea Sachet",
+"apple-sachet.description": "Warm spices mix with crisp apple, making this tea blend perfect for a chilly Autumn afternoon.",
+
+"vanilla-sachet.name": "Calico Vanilla Tea Sachet",
+"vanilla-sachet.description": "This vanilla tea blend is perfect for calming the mind and body.",
+
+"matcha-sachet.name": "Ceremonial Matcha Tea Sachet",
+"matcha-sachet.description": "A ceremonial grade tea blend made from first harvest leaves.",
+
+"cinnamon-sachet.name": "Cinnamon Spice Tea Sachet",
+"cinnamon-sachet.description": "A mix of tea leaves and ground Cindersap Cinnamon, perfect for brewing tea.",
+
+"chamomile-sachet.name": "Cozy Chamomile Tea Sachet",
+"chamomile-sachet.description": "Dried chamomile flowers mixed with other calming herbs to produce a soothing tea blend.",
+
+"breakfast-sachet.name": "English Breakfast Tea Sachet",
+"breakfast-sachet.description": "A full-bodied, robust tea blend.",
+
+"jasmine-sachet.name": "Fragrant Jasmine Tea Sachet",
+"jasmine-sachet.description": "A mix of tea leaves and fragrant jasmine petals, perfect for brewing tea.",
+
+"ginger-sachet.name": "Ginger Peach Tea Sachet",
+"ginger-sachet.description": "A tea blend that marries the sweet fruitiness of peaches with the warm spice of ginger.",
+
+"grey-sachet.name": "Lady Grey Tea Sachet",
+"grey-sachet.description": "A softer, more subtle blend than Earl Grey, with hints of lemon and orange.",
+
+"lemon-sachet.name": "Lemon Ginger Tea Sachet",
+"lemon-sachet.description": "An invigorating tea blend made with the zest of petite lemons and dried ginger.",
+
+"mint-sachet.name": "Merry Mint Tea Sachet",
+"mint-sachet.description": "A refreshing tea blend often brewed for relief from cold and flu symptoms.",
+
+"berry-sachet.name": "Mixed Berry Tea Sachet",
+"berry-sachet.description": "A full-bodied tea blend with the aroma of fresh berries.",
+
+"peach-sachet.name": "Peach Mango Tea Sachet",
+"peach-sachet.description": "A delightful blend of peach and mango flavor!",
+
+"pineapple-sachet.name": "Pineapple Coconut Tea Sachet",
+"pineapple-sachet.description": "Sweet pineapple and refreshing coconut blend to instantly take you on an island getaway.",
+
+"pomegranate-sachet.name": "Pomegranate Green Tea Sachet",
+"pomegranate-sachet.description": "An herbaceous and lively tea blend accented with bright pomegranate.",
+
+"raspberry-sachet.name": "Raspberry Lemon Tea Sachet",
+"raspberry-sachet.description": "A smooth Ferngill Tea blend that balances the flavors of tart raspberries and fragrant Petite Lemon.",
+
+"rose-sachet.name": "Rose Petal Tea Sachet",
+"rose-sachet.description": "A tea blend made from the petals and buds of the rose bush.",
+
+"sakura-sachet.name": "Sakura Tea Sachet",
+"sakura-sachet.description": "A tea blend made with preserved cherry blossoms.",
+
+"strawberry-sachet.name": "Wild Strawberry Tea Sachet",
+"strawberry-sachet.description": "A sweet tea blend made with wild summer strawberries.",
+
+//TEA
+
+"apple-tea.name": "Autumn Apple Tea",
+"apple-tea.description": "Freshly brewed apple tea.",
+
+"vanilla-tea.name": "Calico Vanilla Tea",
+"vanilla-tea.description": "Freshly brewed vanilla tea.",
+
+"matcha-tea.name": "Ceremonial Matcha Tea",
+"matcha-tea.description": "Freshly brewed matcha tea.",
+
+"cinnamon-tea.name": "Cinnamon Spice Tea",
+"cinnamon-tea.description": "Freshly brewed cinnamon tea.",
+
+"chamomile-tea.name": "Cozy Chamomile Tea",
+"chamomile-tea.description": "Freshly brewed chamomile tea.",
+
+"breakfast-tea.name": "English Breakfast Tea",
+"breakfast-tea.description": "Freshly brewed English Breakfast tea.",
+
+"jasmine-tea.name": "Fragrant Jasmine Tea",
+"jasmine-tea.description": "Freshly brewed jasmine tea.",
+
+"ginger-tea.name": "Ginger Peach Tea",
+"ginger-tea.description": "Freshly brewed ginger peach tea.",
+
+"grey-tea.name": "Lady Grey Tea",
+"grey-tea.description": "Freshly brewed Lady Grey tea.",
+
+"lemon-tea.name": "Lemon Ginger Tea",
+"lemon-tea.description": "Freshly brewed lemon ginger tea.",
+
+"mint-tea.name": "Merry Mint Tea",
+"mint-tea.description": "Freshly brewed mint tea.",
+
+"berry-tea.name": "Mixed Berry Tea",
+"berry-tea.description": "Freshly brewed mixed berry tea.",
+
+"peach-tea.name": "Peach Mango Tea",
+"peach-tea.description": "Freshly brewed peach mango tea.",
+
+"pineapple-tea.name": "Pineapple Coconut Tea",
+"pineapple-tea.description": "Freshly brewed pineapple coconut tea.",
+
+"pomegranate-tea.name": "Pomegranate Green Tea",
+"pomegranate-tea.description": "Freshly brewed pomegranate green tea.",
+
+"raspberry-tea.name": "Raspberry Lemon Tea",
+"raspberry-tea.description": "Freshly brewed raspberry lemon tea.",
+
+"rose-tea.name": "Rose Petal Tea",
+"rose-tea.description": "Freshly brewed rose petal tea.",
+
+"sakura-tea.name": "Sakura Tea",
+"sakura-tea.description": "Freshly brewed sakura tea.",
+
+"strawberry-tea.name": "Wild Strawberry Tea",
+"strawberry-tea.description": "Freshly brewed wild strawberry tea.",
+
+//KOMBUCHA
+
+"apple-kombucha.name": "Autumn Apple Kombucha",
+"apple-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"vanilla-kombucha.name": "Calico Vanilla Kombucha",
+"vanilla-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"matcha-kombucha.name": "Ceremonial Matcha Kombucha",
+"matcha-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"cinnamon-kombucha.name": "Cinnamon Spice Kombucha",
+"cinnamon-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"chamomile-kombucha.name": "Cozy Chamomile Kombucha",
+"chamomile-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"breakfast-kombucha.name": "English Breakfast Kombucha",
+"breakfast-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"jasmine-kombucha.name": "Fragrant Jasmine Kombucha",
+"jasmine-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"ginger-kombucha.name": "Ginger Peach Kombucha",
+"ginger-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"grey-kombucha.name": "Lady Grey Kombucha",
+"grey-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"lemon-kombucha.name": "Lemon Ginger Kombucha",
+"lemon-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"mint-kombucha.name": "Merry Mint Kombucha",
+"mint-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"berry-kombucha.name": "Mixed Berry Kombucha",
+"berry-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"peach-kombucha.name": "Peach Mango Kombucha",
+"peach-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"pineapple-kombucha.name": "Pineapple Coconut Kombucha",
+"pineapple-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"pomegranate-kombucha.name": "Pomegranate Green Kombucha",
+"pomegranate-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"raspberry-kombucha.name": "Raspberry Lemon Kombucha",
+"raspberry-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"rose-kombucha.name": "Rose Petal Kombucha",
+"rose-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"sakura-kombucha.name": "Sakura Kombucha",
+"sakura-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+"strawberry-kombucha.name": "Wild Strawberry Kombucha",
+"strawberry-kombucha.description": "Tea that has been fermented with honey into a delightful fizzy beverage.",
+
+//WILD FOOD i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+//SEEDS
+
+"vanilla-seeds.name": "Calico Vanilla Starter",
+"vanilla-seeds.description": "Plant in summer. Takes 14 days to grow, then can be harvested every 5 days",
+
+"tea-seeds.name": "Ferngill Tea Bush Starter",
+"tea-seeds.description": "Plant in spring, summer, or fall. Takes 14 days to grow and can be harvested every 4 days after.",
+
+"chamomile-seeds.name": "Forest Chamomile Seeds",
+"chamomile-seeds.description": "Plant in fall. Takes 7 days to grow.",
+
+"lavender-seeds.name": "Forest Lavender Seeds",
+"lavender-seeds.description": "Plant in spring, summer, or fall. Takes 14 days to grow and can be harvested every 4 days after.",
+
+"jasmine-seeds.name": "Gem Isle Jasmine Seeds",
+"jasmine-seeds.description": "Plant in summer or fall. Takes 7 days to grow.",
+
+"mallow-seeds.name": "Marsh Mallow Seeds",
+"mallow-seeds.description": "Fragrant and flavourful flowers, marsh mallows can be grown in Spring or Summer. Takes 10 days to mature.",
+
+"mint-seeds.name": "Pelican Mint Seeds",
+"mint-seeds.description": "Plant in spring, summer, or fall. Takes 10 days to grow and can be harvested every 3 days after.",
+
+"carrot-seeds.name": "Wild Carrot Seeds",
+"carrot-seeds.description": "Plant in spring or fall. Takes 7 days to grow.",
+
+"onion-seeds.name": "Wild Red Onion Seeds",
+"onion-seeds.description": "Plant in spring or fall. Takes 7 days to grow.",
+
+"strawberry-seeds.name": "Wild Strawberry Bush",
+"strawberry-seeds.description": "Plant in spring or summer. Takes 10 days to grow and can be harvested every 3 days after",
+
+"raspberry-seeds.name": "Wild Raspberry Bush",
+"raspberry-seeds.description": "Plant in spring or summer. Takes 10 days to grow and can be harvested every 3 days after",
+
+//HERB SEEDS
+
+"basil-seeds.name": "Sweet Basil Seeds",
+"basil-seeds.description": "Plant in spring or summer. Takes 7 days to grow and can be harvested every 2 days after.",
+
+"cilantro-seeds.name": "Cindersap Cilantro Seeds",
+"cilantro-seeds.description": "Plant in spring or summer. Takes 7 days to grow and can be harvested every 2 days after.",
+
+"rosemary-seeds.name": "Hardy Rosemary Seeds",
+"rosemary-seeds.description": "Plant in spring or fall. Takes 7 days to grow and can be harvested every 2 days after.",
+
+"sage-seeds.name": "Cindersap Sage Seeds",
+"sage-seeds.description": "Plant in spring or fall. Takes 7 days to grow and can be harvested every 2 days after.",
+
+"thyme-seeds.name": "Lemon Thyme Seeds",
+"thyme-seeds.description": "Plant in spring, summer or fall. Takes 7 days to grow and can be harvested every 2 days after.",
+
+// MUSHROOM STARTERS
+
+"chick-mushroom.name":"Chicken of the Woods Starter",
+"chick-mushroom.description":"Plant in Summer. Takes 10 days to reach maturity and then can be harvested every 4 days after.",
+
+"honey-mushroom.name":"Honey Fungus Mushroom Starter",
+"honey-mushroom.description":"Plant in Spring or Fall. Takes 10 days to reach maturity and then can be harvested every 4 days after.",
+
+"meringue-mushroom.name":"Meringue Mushroom Starter",
+"meringue-mushroom.description":"Plant in Fall. Takes 10 days to reach maturity and then can be harvested every 4 days after.",
+
+"milky-mushroom.name":"Milky White Mushroom Starter",
+"milky-mushroom.description":"Plant in Summer or Fall. Takes 10 days to reach maturity and then can be harvested every 4 days after.",
+
+"wheat-mushroom.name":"Wheatberry Mushroom Starter",
+"wheat-mushroom.description":"Plant in Spring. Takes 10 days to reach maturity and then can be harvested every 4 days after.",
+
+//HERBS
+
+"sweet-basil.name": "Sweet Basil",
+"sweet-basil.description": "A sweeter variety of the popular herb, used in various culinary traditions for both its color and flavor.",
+
+"cindersap-cilantro.name": "Cindersap Cilantro",
+"cindersap-cilantro.description": "A wild variety of cilantro (also known as coriander) that is often used in spicy dishes or salsas.",
+
+"cindersap-sage.name": "Cindersap Sage",
+"cindersap-sage.description": "A delicate herb with floral notes, used to cut through the rich flavor of many autumn dishes.",
+
+"hardy-rosemary.name": "Hardy Rosemary",
+"hardy-rosemary.description": "A strong and sturdy herb that thrives almost anywhere; it almost resembles a small pine tree.",
+
+"lemon-thyme.name": "Lemon Thyme",
+"lemon-thyme.description": "A popular herb that grows quickly in any garden; the lemon variety is prized for its herby, citrus flavor.",
+
+//TREES NEW
+
+"lemon-sapling.name":"Petite Lemon Sapling",
+"lemon-sapling.description":"Takes 28 days to produce a mature Petite Lemon tree. Bears fruit in the Spring.",
+
+"lime-sapling.name":"Petite Lime Sapling",
+"lime-sapling.description":"Takes 28 days to produce a mature Petite Lime tree. Bears fruit in the Spring.",
+
+//TREES
+
+"pistachio-sapling.name": "Calico Pistachio Sapling",
+"pistachio-sapling.description": "Takes 28 days to produce a mature Calico Pistachio tree. Bears fruit in the Fall.",
+
+"cinnamon-sapling.name": "Cindersap Cinnamon Sapling",
+"cinnamon-sapling.description": "Takes 28 days to produce a mature Cindersap Cinnamon Tree. Harvest bark in the winter",
+
+"olive-sapling.name": "Fern Isle Olive Sapling",
+"olive-sapling.description": "Takes 28 days to produce a mature Fern Isle Olive Tree. Bears fruit in the summer.",
+
+"cashew-sapling.name": "Gem Sea Cashew Sapling",
+"cashew-sapling.description": "Takes 28 days to produce a mature Gem Sea Cashew Tree. Bears fruit in the fall.",
+
+"walnut-sapling.name": "Grampleton Walnut Sapling",
+"walnut-sapling.description": "Takes 28 days to produce a mature Grampleton Walnut Tree. Bears fruit in the Fall.",
+
+"almond-sapling.name": "St Cannoli Almond Sapling",
+"almond-sapling.description": "Takes 28 days to produce a mature St Cannoli Almond tree. Bears fruit in the Fall.",
+
+"cacao-sapling.name": "Wild Cacao Sapling",
+"cacao-sapling.description": "Takes 28 days to produce a mature Cacao tree. Bears fruit in the Fall.",
+
+//OBJECTS
+
+//Calico Pistachio
+"calico-pistachio.name":"Calico Pistachio",
+"calico-pistachio.description":"A unique pistachio nut found only by foraging in the Calico Desert.",
+
+//Calico Vanilla
+"calico-vanilla.name": "Calico Vanilla",
+"calico-vanilla.description": "A unique vanilla found only by foraging in the Calico Desert.",
+
+//Cherry Blossom Petals
+"cherry-blossom.name": "Cherry Blossom Petals",
+"cherry-blossom.description": "Fresh petals from blooming cherry trees",
+
+//Chicken of the Woods
+"chicken-woods.name": "Chicken of the Woods",
+"chicken-woods.description": "This strangely named mushroom is found all over the world and some argue it does indeed taste just like chicken!",
+
+//Cindersap Cinnamon
+"cindersap-cinnamon.name": "Cindersap Cinnamon",
+"cindersap-cinnamon.description": "A rare cinnamon bark that can only be found in Cindersap Forest in the winter.",
+
+//Fern Isle Olive
+"fern-olive.name": "Fern Isle Olive",
+"fern-olive.description": "A rare type of olive found on tropical islands, found by skilled foragers on beaches in the Ferngill Republic.",
+
+//Ferngill Tea Leaf
+"tea-leaf.name": "Ferngill Tea Leaf",
+"tea-leaf.description": "Fresh tea leaves found by foraging in forests in the Ferngill Republic.",
+
+//Forest Chamomile
+"forest-chamomile.name": "Forest Chamomile",
+"forest-chamomile.description": "A delicate flower found deep in the forest; perfect for making into tea.",
+
+//Forest Lavender
+"forest-lavender.name": "Forest Lavender",
+"forest-lavender.description": "A fragrant, bushy flower found deep in the forest.",
+
+//Gem Isle Jasmine
+"gem-jasmine.name": "Gem Isle Jasmine",
+"gem-jasmine.description": "A beautifully fragrant found only by foraging on Ginger Island.",
+
+//Gem Sea Cashew
+"gem-cashew.name": "Gem Sea Cashew",
+"gem-cashew.description": "The nut from the tropical Cashew Apple fruit, found only on islands in the Gem Sea",
+
+//Grampleton Walnut
+"grampleton-walnut.name": "Grampleton Walnut",
+"grampleton-walnut.description": "A cultivar of walnut found to grow locally in Grampleton, and apparently now in Pelican Town!",
+
+//Honey Fungus Mushroom
+"honey-fungus.name": "Honey Fungus Mushroom",
+"honey-fungus.description": "Though dangerous to consume raw, these mushrooms have a rich, nutty taste when cooked properly.",
+
+//Marsh Mallow
+"marsh-mallow.name": "Marsh Mallow",
+"marsh-mallow.description": "Marsh Mallow flowers. Primarily used in sweet making.",
+
+//Meringue Mushroom
+"meringue-shroom.name": "Meringue Mushroom",
+"meringue-shroom.description": "A strangely sweet mushroom found only by the best foragers in the valley, its color and shape seem almost candy-like.",
+
+//Milky White Mushrooms
+"white-shroom.name": "Milky White Mushrooms",
+"white-shroom.description": "These mushrooms are bright white and have a creamy texture.",
+
+//Pelican Mint
+"pelican-mint.name": "Pelican Mint",
+"pelican-mint.description": "A type of mint that grows all around Pelican Town, no matter how much the villagers try to get rid of it.",
+
+//Petite Lemon
+"petite-lemon.name": "Petite Lemon",
+"petite-lemon.description": "A tiny, but flavorful lemon found out in the wild by skilled foragers.",
+
+//Petite Lime
+"petite-lime.name": "Petite Lime",
+"petite-lime.description": "A tiny, but flavorful lime found out in the wild by skilled foragers.",
+
+//St Cannoli Almond
+"cannoli-almond.name": "St Cannoli Almond",
+"cannoli-almond.description": "A forager's dream come true! The rarest of almonds, said to be grown by Old Master Cannoli himself.",
+
+//Wheatberry Mushroom
+"wheat-shroom.name": "Wheatberry Mushroom",
+"wheat-shroom.description": "An ordinary-looking mushroom to the amateur forager, masters know this fungus can be transformed into a key culinary ingredient.",
+
+//Wild Cacao Pod
+"wild-cacao.name": "Wild Cacao Pod",
+"wild-cacao.description": "Fruity, fleshy pod of the cacao tree. Used in making cocoa and exotic foods.",
+
+//Wild Carrot
+"wild-carrot.name": "Wild Carrot",
+"wild-carrot.description": "It's a carrot, but it's wild, so you better watch out!",
+
+//Wild Raspberry
+"wild-raspberry.name": "Wild Raspberry",
+"wild-raspberry.description": "A small, sweet berry that grows wild in forests all over Ferngill.",
+
+//Wild Red Onion
+"wild-onion.name": "Wild Red Onion",
+"wild-onion.description": "Much like the wild carrot, be wary of this onion or it will make you cry!",
+
+//Wild Strawberry
+"wild-strawberry.name": "Wild Strawberry",
+"wild-strawberry.description": "A smaller variety of strawberry that grows wild in forests all over Ferngill.",
+
+//SPECIAL ORDERS i18N BEGIN-------------------------------------------------------------------------------------------------------------------------------
+
+ //RECIPES
+
+ "beer-fish.name":"Beer Battered Fish and Chips",
+ "beer-fish.description":"Though typically prepared with cod, this secret recipe Kent shared can be made with almost any fish!",
+
+ "candy-apple.name":"Candy Apple",
+ "candy-apple.description":"A freshly-picked apple dipper in a sweet and sparkly candy coating.",
+
+ "colada-curd.name":"Pina Colada Curd",
+ "colada-curd.description":"Lemon curd's fancy island cousin, made from Ginger Island pineapples and Calico Coconuts!",
+
+ "dandelion-wine.name":"Dandelion Wine",
+ "dandelion-wine.description":"Wine brewed from spring's first dandelions.",
+
+ "dirty-chai.name":"Dirty Chai",
+ "dirty-chai.description":"A delicious coffee beverage that most likely came into existence when someone accidentally dropped their chai tea into their friend's coffee...",
+
+ "horchata.name":"Horchata",
+ "horchata.description":"A refreshing beverage made with rice milk and cinnamon.",
+
+ "arnold-palmer.name":"Arnold Palmer",
+ "arnold-palmer.description":"A soft drink comprised of 1 part lemonade to 1 part iced tea. Named after a famous golfer who drank it often while playing.",
+ 
+ "chocolate-creampop.name":"Chocolate Covered Ice Cream Pop",
+ "chocolate-creampop.description":"Vanilla ice cream coated in a thin layer of chocolate, refrozen, and served on a stick!",
+
+ "firework-popsicle.name":"Firecracker Popsicle",
+ "firework-popsicle.description":"A common summer treat resembling the colors of fireworks, each color is a different flavor of frozen fruit.",
+
+ "fizzy-soda.name":"Fizzy Soda",
+ "fizzy-soda.description":"Sam's secret soda recipe...it sort of just tastes like blackberries?",
+
+ //CRAFTABLES
+
+ "bakery-box.name":"Box of Muffins",
+ "bakery-box.description":"A little box of baked goods all ready to be brought to a party!",
+
+ "berry-basket.name":"Berry Basket",
+ "berry-basket.description":"A handwoven basket filled with the freshest berries.",
+
+ "candy-cane.name":"Life Size Candy Cane",
+ "candy-cane.description":"This candy cane is HUGE...and inedible, but it makes for a great outdoor decoration in winter!",
+
+ "floral-scarecrow.name":"Floral Scarecrow",
+ "floral-scarecrow.description":"A beautiful floral scarecrow; may not be that good at scaring crows but it sure looks nice!",
+
+ //TROPHIES
+
+ "ale-trophy.name":"Master Brewer Trophy",
+ "ale-trophy.description":"Only given to the most celebrated brewers in the Ferngill Republic.",
+
+ "bakery-trophy.name":"Master Pastry Chef Trophy",
+ "bakery-trophy.description":"Only given to the most celebrated pastry chefs in the Ferngill Republic.",
+
+ "candy-trophy.name":"Master Confectioner Trophy",
+ "candy-trophy.description":"Only given to the most celebrated confectioners in the Ferngill Republic.",
+
+ "coffee-trophy.name":"Master Roaster Trophy",
+ "coffee-trophy.description":"Only given to the most celebrated coffee roasters in the Ferngill Republic.",
+
+ "drinks-trophy.name":"Sensational Sips Trophy",
+ "drinks-trophy.description":"Only given to the most celebrated beverage artisans in the Ferngill Republic.",
+
+ "floral-trophy.name":"Master Florist Trophy",
+ "floral-trophy.description":"Only given to the most celebrated florist in the Ferngill Republic.",
+
+ "frozen-trophy.name":"Chilly Treats Trophy",
+ "frozen-trophy.description":"Only given to the most celebrated frozen treat artisans in the Ferngill Republic.",
+
+ "jam-trophy.name":"Master Canner Trophy",
+ "jam-trophy.description":"Only given to the most celebrated canners in the Ferngill Republic.",
+
+ "mead-trophy.name":"Master Mead Brewer Trophy",
+ "mead-trophy.description":"Only given to the most celebrated mead brewers in the Ferngill Republic.",
+
+ "pantry-trophy.name":"Master Artisan Trophy",
+ "pantry-trophy.description":"Only given to the most celebrated artisans in the Ferngill Republic.",
+
+ "tea-trophy.name":"Master Tea Brewer Trophy",
+ "tea-trophy.description":"Only given to the most celebrated tea brewers in the Ferngill Republic.",
+
+ "wildfood-trophy.name":"Master Forager Trophy",
+ "wildfood-trophy.description":"Only given to the most celebrated foragers in the Ferngill Republic."
+
+
+
+
+
+
+
+
+
+}

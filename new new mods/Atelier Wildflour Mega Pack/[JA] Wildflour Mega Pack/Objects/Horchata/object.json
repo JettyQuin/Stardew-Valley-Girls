@@ -1,0 +1,45 @@
+{
+	"Name": "wf horchata",
+	"Description": "...",
+	"TranslationKey": "horchata",
+	"Category": "Cooking",
+	"Edibility": 50,
+	"EdibleIsDrink": true,
+	  "EdibleBuffs": {
+		  },
+	"Price": 1055,
+	"IsColored": false,
+	"GiftTastes":
+	  {
+		
+	  },
+	  "ContextTags":
+	  
+		  [	
+		  ],
+  
+	  "Recipe":
+	  {
+		"ResultCount": 1,
+		"Ingredients": [ 
+		  {
+			"Object": "wf rice milk",
+			"Count": 1
+		  },
+		  {
+			"Object": "wf cinnamon",
+			"Count": 1
+		  },
+		  {
+			"Object": 245,
+			"Count": 1
+		  }
+	  ],
+	"IsDefault": false
+	  }
+  
+  }
+  
+  
+  
+  

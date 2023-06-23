@@ -1,0 +1,32 @@
+{
+  "Name": "wf boba station",
+  "Description": "...",
+  "TranslationKey":"boba-station",
+  "Price": 3000,
+  "ProvidesLight": false,
+  "ReserveNextIndex": false,
+  
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 388,
+            "Count": 50,
+        },
+        {
+            "Object": 335,
+            "Count": 2,
+        },
+        {
+            "Object": 330,
+            "Count": 5,
+        },
+        ],
+    },
+	"IsDefault": false,
+  "CanPurchase":true,
+  "PurchaseFrom": "Gus",
+  "PurchaseRequirements":["f Maru 1250"]
+ 
+}

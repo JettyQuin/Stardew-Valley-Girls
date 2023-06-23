@@ -1,0 +1,49 @@
+{
+  "Name": "wf tulip jelly",
+  "Description": "...",
+  "TranslationKey": "tulip-jelly",
+  "Category": "Cooking",
+  "Edibility": 15,
+  "EdibleIsDrink": false,
+    "EdibleBuffs": {},
+  "Price": 210,
+  "IsColored": false,
+  "GiftTastes":
+	{
+	  "Love": ["Gus", "Jas","Evelyn", "Caroline","Haley","Sandy"],
+	  "Like": ["Abigail", "Clint", "Demetrius", "Elliott", "Emily", "George", "Jodi", "Kent", "Krobus", "Leah","Leo","Vincent", "Linus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Wizard"],
+	  "Neutral": ["Alex","Dwarf","Harvey","Shane", "Willy"],
+	  "Dislike":[],
+	  "Hate": ["Sebastian"]
+	},
+	"ContextTags":
+	
+		[	"wildflour_jelly",
+			"jelly_item",
+			"color_pink"
+		],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": 591,
+	      "Count": 2
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf pectin",
+	      "Count": 1
+	    }
+	],
+    "IsDefault": true
+	}
+
+}
+
+
+

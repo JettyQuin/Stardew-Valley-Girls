@@ -1,0 +1,69 @@
+{
+  "Name": "wf sweetpotato pie",
+  "Description": "...",
+  "TranslationKey": "sweetpotato-pie",
+  "Category": "Cooking",
+  "Edibility": 110,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+	  "Farming": 0,
+	  "Fishing": 0,
+	  "Mining": 0,
+	  "Luck": 2,
+	  "Foraging": 0,
+	  "MaxStamina": 0,
+	  "MagnetRadius": 0,
+	  "Speed": 0,
+	  "Defense": 0, 
+	  "Attack": 0,
+	  "Duration": 360, // 360 seconds (aka 6 minutes)
+		},
+  "Price": 1305,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["George","Gus", "Lewis", "Pierre"],
+	"Like": [],
+	"Neutral": [],
+	"Dislike":[],
+	"Hate": []
+  },
+  "ContextTags":
+  
+	  [	"wildflour_recipe",
+		  "pie_item",
+		  "color_orange"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf pastry flour",
+	      "Count": 1
+	    },
+	    {
+	      "Object": "wf butter",
+	      "Count": 1
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": -5,
+	      "Count": 1
+	    },
+		{
+	      "Object": "Yam",
+	      "Count": 2
+	    }
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

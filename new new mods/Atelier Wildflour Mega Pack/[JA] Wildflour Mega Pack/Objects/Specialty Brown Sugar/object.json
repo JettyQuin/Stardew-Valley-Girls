@@ -1,0 +1,30 @@
+{
+    "Name": "wf brown sugar",
+    "Description": "...",
+    "Category": "ArtisanGoods",
+    "TranslationKey": "brown-sugar",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+        "Love": ["Evelyn", "Gus", "Jas", "Leo", "Vincent"],
+        "Like": ["Caroline", "Elliott", "Emily",  "Haley", "Jodi", "Marnie",  "Penny", "Robin", "Sandy"],
+        "Neutral": ["Abigail", "Alex", "Dwarf", "Demetrius", "Krobus", "Maru", "Pam", "Pierre"],
+        "Dislike":["Clint", "George", "Kent", "Leah", "Lewis", "Linus"],
+        "Hate": ["Harvey", "Shane", "Willy", "Wizard", "Sam", "Sebastian"]
+      },
+    "Recipe": null,
+    "CanPurchase": true,
+    "PurchaseFrom": "Gus",
+    "PurchasePrice": 500,
+
+    "ContextTags":
+    [
+      "gourmet_item",
+      "ingredient_item",
+      "sugar-item",
+      "color_brown"
+      ]
+}

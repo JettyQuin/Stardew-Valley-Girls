@@ -1,0 +1,65 @@
+{
+  "Name": "wf vanilla eclair",
+  "Description": "...",
+  "TranslationKey": "vanilla-eclair",
+  "Category": "Cooking",
+  "Edibility": 35,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": {
+	"Farming": 0,
+	"Fishing": 0,
+	"Mining": 0,
+	"Luck": 1,
+	"Foraging": 0,
+	"MaxStamina": 0,
+	"MagnetRadius": 0,
+	"Speed": 0,
+	"Defense": 0, 
+	"Attack": 0,
+	"Duration": 360, // 360 seconds (aka 6 minutes)
+	  },
+  "Price": 1000,
+  "IsColored": false,
+  "GiftTastes":
+  {
+	"Love": ["Elliott","Emily", "Gus", "Kent"],
+	"Like": [],
+	"Neutral": [],
+	"Dislike":[],
+	"Hate": []
+  },
+  "ContextTags":
+  
+	  [	"wildflour_recipe",
+		  "eclair_item",
+		  "color_white"
+	  ],
+
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "wf pastry flour",
+	      "Count": 1
+	    },
+		{
+	      "Object": "wf butter",
+	      "Count": 1
+	    },
+		{
+	      "Object": -5,
+	      "Count": 1
+	    },
+		{
+			"Object": "wf vanilla",
+			"Count": 1
+		}
+	],
+  "IsDefault": true
+	}
+
+}
+
+
+

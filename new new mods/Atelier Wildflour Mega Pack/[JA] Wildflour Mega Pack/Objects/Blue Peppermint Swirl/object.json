@@ -1,0 +1,27 @@
+{
+    "Name": "wf blue mint",
+    "Description": "...",
+    "TranslationKey":"blue-mint",
+    "Category": "ArtisanGoods",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+         "Love": ["Evelyn","George","Jas","Leo","Vincent"],
+		 "Like": ["Caroline","Emily","Gus","Jodi","Kent","Krobus","Lewis","Marnie","Pierre"],
+		 "Neutral": ["Abigail","Clint","Demetrius","Dwarf","Elliott","Pam","Penny","Robin","Sam","Sandy","Shane","Wizard"],
+		 "Dislike": ["Alex","Haley","Maru","Leah", "Linus","Sebastian","Willy"],
+		 "Hate": ["Harvey"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+
+	"ContextTags":
+        [
+		"wildflour_candy",
+		"peppermint_swirl_item",
+		"color_blue"
+		]
+}

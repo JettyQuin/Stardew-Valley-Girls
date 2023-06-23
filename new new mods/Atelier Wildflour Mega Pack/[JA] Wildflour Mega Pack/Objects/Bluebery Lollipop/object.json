@@ -1,0 +1,43 @@
+{
+    "Name": "wf blueberry lollypop",
+    "Description": "...",
+    "TranslationKey":"blueberry-lollypop",
+    "Category": "Cooking",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 300,
+    "GiftTastes":
+    {
+        "Love": ["Jas","Leo","Vincent"],
+		"Like": ["Abigail","Caroline","Dwarf","Emily","Gus","Haley","Krobus","Maru","Pam","Penny","Robin", "Sam", "Sandy", "Shane"],
+		"Neutral":["Clint","Demetrius","Elliott","Evelyn","George","Lewis","Marnie","Jodi","Kent","Pierre","Wizard",],
+		"Dislike": ["Alex","Leah","Linus","Sebastian","Willy"],
+		"Hate": ["Harvey"]
+    },
+    "Recipe":
+	{
+	  "ResultCount": 1,
+	  "Ingredients": [ 
+	    {
+	      "Object": "Blueberry",
+	      "Count": 2
+	    },
+		{
+	      "Object": 245,
+	      "Count": 1
+	    },
+		{
+	      "Object": 388,
+	      "Count": 1
+	    }
+	],
+    "IsDefault": true
+	},     
+	"ContextTags":
+        [
+		"wildflour_candy",
+		"lollypop_item",
+		"color_blue"
+		],
+}

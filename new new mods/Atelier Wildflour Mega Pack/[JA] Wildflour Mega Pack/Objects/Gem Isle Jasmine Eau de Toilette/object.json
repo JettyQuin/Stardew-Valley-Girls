@@ -1,0 +1,26 @@
+{
+    "Name": "wf jasmine perfume",
+    "Description": "...",
+    "TranslationKey": "jasmine-perfume",
+    "Category": "ArtisanGoods",
+    "Edibility": -25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+    "Love": ["Caroline", "Emily", "Evelyn", "Haley", "Sandy"],
+    "Like": ["Elliott", "Harvey", "Marnie", "Robin","Jodi", "Wizard"],
+    "Neutral": ["Abigail", "Jas", "Leah", "Maru", "Pam","Sam" ],
+    "Dislike ": ["Alex", "Clint","Dwarf", "George", "Krobus", "Leo","Lewis", "Vincent"],
+    "Hate": [ "Demetrius","Linus", "Pierre", "Sebastian", "Shane", "Willy"]
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+  "ContextTags":
+        [
+    "wildflour_floral",
+    "flower_perfume_item",
+    "color_sand"
+    ]
+  }

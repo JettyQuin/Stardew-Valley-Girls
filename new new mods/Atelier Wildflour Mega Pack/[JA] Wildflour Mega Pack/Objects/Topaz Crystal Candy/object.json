@@ -1,0 +1,26 @@
+{
+    "Name": "wf topaz crystalcandy",
+    "Description": "...",
+    "TranslationKey":"topaz-crystalcandy",
+    "Category": "ArtisanGoods",
+    "Edibility": 25,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": null,
+    "Price": 250,
+    "GiftTastes":
+    {
+         "Love": ["Jas", "Vincent","Leo","Abigail","Dwarf","Emily","Krobus","Wizard"],
+		 "Like": ["Clint","Gus","Kent", "Leah", "Caroline","Haley","Penny","Sam", "Sandy", "Sebastian"],
+		 "Neutral": ["Alex","Demetrius","Elliott","Lewis","Jodi","Marnie","Pierre", "Robin","Shane"],
+		 "Dislike": ["George","Linus","Pam","Evelyn","Maru","Willy",],
+		 "Hate": ["Harvey"],
+    },
+    "Recipe": null,
+    "CanPurchase": false,       
+	"ContextTags":
+        [
+		"wildflour_candy",
+		"crystal_candy_item",
+		"color_gold"
+		],
+}

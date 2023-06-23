@@ -1,0 +1,11 @@
+{
+    "Name": "wf pixie banana tree",
+    "Product": "wf pixie banana",
+    "SaplingTranslationKey":"pixiebanana-sapling",
+    "SaplingName": "wf pixie banana sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 12000,
+    "SaplingPurchaseRequirements": [ "f Leo 500" ],
+	"SaplingPurchaseFrom": "Krobus"
+}

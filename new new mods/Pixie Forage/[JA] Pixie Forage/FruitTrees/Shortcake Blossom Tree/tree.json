@@ -1,0 +1,11 @@
+{
+    "Name": "wf shortcake blossom tree",
+    "Product": "wf shortcake blossom",
+    "SaplingName": "wf shortcake blossom sapling",
+    "SaplingTranslationKey":"shortcake-sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 9000,
+    "SaplingPurchaseFrom": "Krobus",
+    "SaplingPurchaseRequirements": [ "f Krobus 2000" ]
+}

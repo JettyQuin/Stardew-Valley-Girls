@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Chinese Costumes",
+  "Author": "kaku",
+  "Version": "1.0.0",
+  "Description": "Some chinese costumes.",
+  "UniqueID": "kaku.cc",
+  "UpdateKeys": ["Nexus:"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "4.6.1"
+  }
+}

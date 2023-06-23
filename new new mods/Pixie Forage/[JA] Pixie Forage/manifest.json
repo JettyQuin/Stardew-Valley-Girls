@@ -1,0 +1,13 @@
+{
+    "Name": "Pixie Forage - Magical Fruit and Flowers",
+    "Author": "wildflourmods",
+    "Description": "Magical Pixie Fruits and Flowers!",
+    "Version": "4.0.1",
+    "MinimumApiVersion": "3.7.0",
+    "UniqueID": "wildflour.pixieforage",
+    "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+	"UpdateKeys": ["Nexus:13889"]
+}

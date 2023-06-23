@@ -1,0 +1,8 @@
+{
+	"Name": "[FTM] Pixie Forage",
+	"Author": "wildflourmods",
+	"Description": "makes it so the flowers and fruits from Pixie Forage can be found as forage in the game",
+	"Version": "4.0.1",
+	"UniqueID": "PixieForage.FTM",
+	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"}
+}

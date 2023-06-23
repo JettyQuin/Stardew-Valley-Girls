@@ -1,0 +1,18 @@
+﻿{
+	"Name": "wf lapis seeds",
+	"Product": "wf lapis moondrop",
+	"SeedName": "wf lapis seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "lapis-moondrop-seeds",
+	"Type": "Fruit",
+	"Seasons":["summer","fall"],
+	"Phases": [3, 3, 3, 4, 4],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 250,
+	"SeedPurchaseFrom": "Dwarf",
+	"SeedPurchaseRequirements": ["f Wizard 2000"]
+}

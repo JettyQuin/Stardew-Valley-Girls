@@ -1,0 +1,37 @@
+{
+    "Name": "wf shortcake blossom",
+    "Description": "...",
+    "Category": "Flower",
+    "TranslationKey": "shortcake-blossom",
+    "Edibility": 80,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 2,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 360, // 360 seconds (aka 6 min)
+                      },
+  "Price": 300,
+  "IsColored": false,
+  "GiftTastes":
+  {
+      "Love": ["Abigail", "Caroline", "Dwarf", "Evelyn", "Krobus","Sandy", "Wizard"],
+      "Like":["Haley","Jas","Leo", "Linus", "Penny", "Sam", "Vincent"],
+      "Neutral":[ ],
+      "Dislike":["Alex", "Shane"],
+      "Hate":["Pierre"]
+  },
+    "ContextTags": [
+        "season_summer",
+        "flower_item",
+        "pixie_blossom",
+        "color_pink"
+    ]
+}

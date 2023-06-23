@@ -1,0 +1,47 @@
+{
+
+//PIXIE
+
+"wildflourpixie.quest1.name":"Fruit pour Perséphone",
+"wildflourpixie.quest1.text":"Je cherche la mythique grenade pixie pour la tester dans diverses concoctions magiques. Quiconque m'en rapportera 5 recevra une ample récompense.",
+"wildflourpixie.quest1.deliver":"Livrez 5 grenades pixie au sorcier.",
+"wildflourpixie.quest1.accept":"Les esprits sont satisfaits de votre travail acharné. Merci.",
+
+"wildflourpixie.quest2.name": "Tarte aux cerises magiquement bonne",
+"wildflourpixie.quest2.text":"Je veux faire la MEILLEURE tarte aux cerises, et j'ai entendu parler d'une cerise bien plus sucrée que les cerises ordinaires. Quelqu'un peut-il m'apporter 5 pour ma tarte ??",
+"wildflourpixie.quest2.deliver":"Livrez 5 cerises Pixie à Abigail.",
+"wildflourpixie.quest2.accept":"Est-ce que ces cerises te paraissent... bizarres ? Non, je ne me plains pas ! Elles sont tellement plus rouges que les cerises ordinaires. Je parie qu'elles feront la meilleure tarte ! ",
+
+"wildflourpixie.quest3.name":"Attentes de raisin",
+"wildflourpixie.quest3.text":"Les raisins ordinaires n'ont tout simplement pas bon goût ces derniers temps ; quelqu'un connaît-il une meilleure variété que je puisse apprécier ?",
+"wildflourpixie.quest3.deliver":"Livrez 10 MoonDrops dans la boîte de dépôt de la boutique de Sandy.",
+
+"wildflourpixie.quest4.name":"Gâteaux de fées",
+"wildflourpixie.quest4.text":"Les fleurs comestibles sont un vrai régal pour nous les butineuses. J'adorerais que quelqu'un puisse me présenter de nouvelles variétés !",
+"wildflourpixie.quest4a.deliver":"Livrez 2 fleurs de gâteau dans la boîte de dépôt de la tente de Linus.",
+"wildflourpixie.quest4b.deliver":"Livrez 2 fleurs de Creamsicle dans la boîte de dépôt de la tente de Linus.",
+"wildflourpixie.quest4c.deliver":"Livrez 2 fleurs de macaron dans la boîte de dépôt de la tente de Linus.",
+"wildflourpixie.quest4d.deliver":"Livrez 2 fleurs de tarte dans la boîte de dépôt de la tente de Linus.",
+
+"wildflourpixie.quest5.name":"Défi Titania",
+"wildflourpixie.quest5.text":"Les Junimos adorent les jolies choses de lutin. Vous nous apportez de jolies fleurs et fruits de lutin ?",
+"wildflourpixie.quest5.ship":"Donnez 100 fruits ou fleurs pixie aux Junimos dans la boîte de dépôt de la maison du sorcier.",
+
+//PIXIE REPEATABLE NEW
+
+"wildflourpixie.quest6.name":"Des fleurs pour Krobus",
+"wildflourpixie.quest6.text":"Je souhaite étudier davantage les fleurs, car les humains semblent tellement intéressés par elles. Pouvez-vous m'en apporter quelques-unes intéressantes à inspecter ?",
+"wildflourpixie.quest6.deliver":"Livrez 4 fleurs à Krobus.",
+"wildflourpixie.quest6.accept":"Si parfumé et si coloré. Merci d'avoir apporté ces beaux spécimens.",
+
+"wildflourpixie.quest7.name":"Raisins pour nain",
+"wildflourpixie.quest7.text":"Les carottes des cavernes sont super, mais j'ai aussi besoin de fruits dans ma vie. Quelqu'un a des idées ?",
+"wildflourpixie.quest7.deliver":"Livrez 6 MoonDrops au nain.",
+"wildflourpixie.quest7.accept":"Pas de scorbut pour ce nain ! Merci, mon ami.",
+
+"wildflourpixie.quest8.name":"Fruit Pixie pour Emily",
+"wildflourpixie.quest8.text":"J'adorerais acheter des fruits frais et exotiques que je n'ai jamais goûtés !",
+"wildflourpixie.quest8.deliver":"Livrez 12 fruits pixie à Emily.",
+"wildflourpixie.quest8.accept":"Wow, je n'en ai jamais vu auparavant, où les avez-vous trouvés ? Peu importe ; ils sont magnifiques ! Merci beaucoup.",
+
+}

@@ -1,0 +1,27 @@
+{
+    
+    //RECIPES
+
+
+    "cake-beer.name":"Gâteau Bière",
+    "cake-beer.description":"Bière brassée à partir de blé à gâteau rare ; oui, c'est aussi doux que ça en a l'air.",
+    
+    "pastry-beer.name": "Bière de pâtisserie",
+    "pastry-beer.description":"Bière brassée à partir de blé pâtissier rare ; oui, c'est aussi doux que ça en a l'air.",
+
+ 
+    //CRAFTABLES
+
+
+    "junimo-mini.name":"Mini peluche Junimo",
+    "junimo-mini.description":"Une adorable version en peluche d'un esprit junimo !",
+
+
+    //TROPHIES
+
+	
+    "pixie-trophy.name":"Trophée Junimo",
+    "pixie-trophy.description":"Donné uniquement aux humains les plus FAVORIS de Junimos...",
+
+   
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "wf pixie pomegranate tree",
+    "Product": "wf pixie pomegranate",
+    "SaplingTranslationKey":"pixiepomegranate-sapling",
+    "SaplingName": "wf pixie pomegranate sapling",
+    "SaplingDescription": "...",
+    "Season": "fall",
+    "SaplingPurchasePrice": 9000,
+	"SaplingPurchaseFrom": "Krobus",
+    "SaplingPurchaseRequirements": [ "f Dwarf 2000" ]
+}

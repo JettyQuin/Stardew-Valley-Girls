@@ -1,0 +1,33 @@
+{
+    "Name": "wf pixie peach",
+    "Description": "...",
+    "TranslationKey": "pixie-peach",
+    "Category": "Fruit",
+    "Edibility": 45,
+    "Price": 240,
+    "IsColored": false,
+    "EdibleIsDrink": false,
+    "EdibleBuffs": {
+                    "Farming": 0,
+                    "Fishing": 0,
+                    "Mining": 0,
+                    "Luck": 1,
+                    "Foraging": 0,
+                    "MaxStamina": 0,
+                    "MagnetRadius": 0,
+                    "Speed": 0,
+                    "Defense": 0, 
+                    "Attack": 0,
+                    "Duration": 360, // 360 seconds (aka 6 min)
+                      },
+    "GiftTastes":
+    {
+        "Love": ["Dwarf", "Robin", "Krobus", "Wizard"],
+    },
+    "ContextTags": [
+        "season_summer",
+        "fruit_tree_item",
+        "pixie_fruit",
+        "color_pink"
+    ]
+}

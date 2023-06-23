@@ -1,0 +1,11 @@
+{
+    "Name": "wf custard blossom tree",
+    "Product": "wf custard blossom",
+    "SaplingName": "wf custard blossom sapling",
+    "SaplingTranslationKey":"custard-sapling",
+    "SaplingDescription": "...",
+    "Season": "summer",
+    "SaplingPurchasePrice": 5250,
+	"SaplingPurchaseFrom": "Krobus",
+    "SaplingPurchaseRequirements": [ "f Krobus 1000" ]
+}

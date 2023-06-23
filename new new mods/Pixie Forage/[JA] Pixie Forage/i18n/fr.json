@@ -1,0 +1,183 @@
+{
+
+//Blossom Flowers
+
+    "cake-blossom.name": "Fleur de gâteau",
+	"cake-blossom.description": "Une belle fleur comestible qui sent bizarrement une tranche de gâteau à la vanille.",
+
+	"caramel-blossom.name": "Fleur de caramel",
+	"caramel-blossom.description": "Une belle fleur comestible qui sent bon le sucre caramélisé.",
+
+	"creamsicle-blossom.name": "Fleur de crémeux",
+	"creamsicle-blossom.description": "Une belle fleur comestible qui sent étrangement une crème glacée à l'orange fondue.",
+
+	"custard-blossom.name": "Fleur de crème pâtissière",
+	"custard-blossom.description": "Une belle fleur comestible qui sent étrangement semblable à la crème à la vanille.",
+
+	"gumdrop-blossom.name": "Fleur de boule de gomme",
+	"gumdrop-blossom.description": "Une belle fleur comestible qui fleurit en hiver, sentant bon les boules de gomme.",
+
+	"macaron-blossom.name": "Fleur de macaron",
+	"macaron-blossom.description": "Une belle fleur comestible qui sent étrangement semblable aux macarons.",
+
+	"pie-blossom.name": "Fleur de tarte",
+	"pie-blossom.description": "Une belle fleur comestible qui sent la tarte aux myrtilles fraîchement cuite.",
+
+	"shortcake-blossom.name": "Fleur de sablé",
+	"shortcake-blossom.description": "Une belle fleur comestible qui sent bon la fraise.",
+
+	"sprinkle-blossom.name": "Saupoudrer de fleurs",
+	"sprinkle-blossom.description": "Une belle fleur comestible dont les couleurs rappellent un pot de pépites.",
+
+	"sugar-blossom.name": "Fleur de sucre",
+	"sugar-blossom.description": "Une belle fleur comestible qui sent bizarrement le sucre ?",
+
+//Pixie Fruits
+
+"pixie-apple.name": "Pomme Pixie",
+"pixie-apple.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-apricot.name": "Pixie Abricot",
+"pixie-apricot.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-banana.name": "Pixie Banane",
+"pixie-banana.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-cherry.name": "Pixie Cerise",
+"pixie-cherry.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-mango.name": "Pixie Mangue",
+"pixie-mango.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-orange.name": "Pixie Orange",
+"pixie-orange.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-peach.name": "Pixie Pèche",
+"pixie-peach.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+"pixie-pomegranate.name": "Pixie Grenade",
+"pixie-pomegranate.description": "Étrange - cela ressemble à une pomme, mais étrangement non. Son goût est bien plus sucré que n'importe quelle pomme que vous ayez jamais eue.",
+
+//Pixie Moondrop Grapes
+
+"blush-moondrop.name": "Blush MoonDrop",
+"blush-moondrop.description": "Un beau et rare cépage rose, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"lapis-moondrop.name": "Lapis MoonDrop",
+"lapis-moondrop.description": "Un beau et rare cépage bleu, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"amber-moondrop.name": "Amber MoonDrop",
+"amber-moondrop.description": "Un beau et rare cépage doré, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"jade-moondrop.name": "Jade MoonDrop",
+"jade-moondrop.description": "Un beau et rare cépage vert, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"violet-moondrop.name": "Violet MoonDrop",
+"violet-moondrop.description": "Un beau et rare cépage violet, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"rose-moondrop.name": "Rose MoonDrop",
+"rose-moondrop.description": "Un beau et rare cépage rose, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"melon-moondrop.name": "Melon MoonDrop",
+"melon-moondrop.description": "Un beau et rare cépage rose, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+"pearl-moondrop.name": "Pearl MoonDrop",
+"pearl-moondrop.description": "Un beau et rare cépage blanc, qui aurait été cultivé à l'origine par les fae de la République de Ferngill.",
+
+//Magic Wheat
+
+"cake-wheat.name":"Gâteau Blé",
+"cake-wheat.description":"Un cultivar de blé magnifiquement rose. Je me demande quelle sorte de farine je pourrais en faire ?",
+
+"pastry-wheat.name":"Pâtisserie Blé",
+"pastry-wheat.description":"Un cultivar de blé magnifiquement violet. Je me demande quelle sorte de farine je pourrais en faire ?",
+
+//Trees
+
+"cake-sapling.name": "gâteau, fleur, jeune arbre",
+"cake-sapling.description": "Il faut 28 jours pour produire un arbre à gâteaux mature. Prêt à récolter au printemps. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"caramel-sapling.name": "Jeune arbre de fleur de caramel",
+"caramel-sapling.description": "Il faut 28 jours pour produire un arbre de fleur de caramel mature. Prêt à récolter à l'automne. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"creamsicle-sapling.name": "Jeune pousse de fleur de crème",
+"creamsicle-sapling.description": "Il faut 28 jours pour produire un arbre Creamsicle Blossom mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"custard-sapling.name": "Jeune pousse de fleur de crème pâtissière",
+"custard-sapling.description": "Il faut 28 jours pour produire un arbre à fleurs mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"gumdrop-sapling.name": "Jeune pousse de fleur de gomme",
+"gumdrop-sapling.description": "Il faut 28 jours pour produire un arbre de fleur de gomme mature. Prêt à récolter en hiver. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"macaron-sapling.name": "Jeune pousse de fleur de macaron",
+"macaron-sapling.description": "Il faut 28 jours pour produire un arbre de fleur de macaron mature. Prêt à récolter au printemps. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pie-sapling.name": "Jeune arbre de fleur de tarte",
+"pie-sapling.description": "Il faut 28 jours pour produire un arbre de fleur de tarte mature. Prêt à récolter à l'automne. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixieapple-sapling.name": "Pomme pixie jeune arbre",
+"pixieapple-sapling.description": "Il faut 28 jours pour produire un pommier Pixie mature. Prêt à récolter à l'automne. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixieapricot-sapling.name": "Arbrisseau Pixie Abricot",
+"pixieapricot-sapling.description": "Il faut 28 jours pour produire un abricotier Pixie mature. Prêt à récolter au printemps. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixiebanana-sapling.name": "Jeune pousse de banane Pixie",
+"pixiebanana-sapling.description": "Il faut 28 jours pour produire un bananier Pixie mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixiecherry-sapling.name": "Pixie Cerisier",
+"pixiecherry-sapling.description": "Il faut 28 jours pour produire un cerisier Pixie mature. Prêt à récolter au printemps. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixiemango-sapling.name": "Jeune pousse de mangue Pixie",
+"pixiemango-sapling.description": "Il faut 28 jours pour produire un manguier Pixie mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixieorange-sapling.name": "Jeune Pixie Orange",
+"pixieorange-sapling.description": "Il faut 28 jours pour produire un arbre Pixie Orange mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixiepeach-sapling.name": "Jeune arbre Pixie Pèche",
+"pixiepeach-sapling.description": "Il faut 28 jours pour produire un arbre Pixie Peach mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"pixiepomegranate-sapling.name": "Jeune pousse de grenade Pixie",
+"pixiepomegranate-sapling.description": "Il faut 28 jours pour produire un arbre de grenade Pixie mature. Prêt à récolter à l'automne. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"shortcake-sapling.name": "Jeune pousse de fleur de shortcake",
+"shortcake-sapling.description": "Il faut 28 jours pour produire un arbre à fleurs Shortcake mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"sprinkle-sapling.name": "Saupoudrer de jeunes pousses de fleurs",
+"sprinkle-sapling.description": "Il faut 28 jours pour produire un arbre à fleurs saupoudré mature. Prêt à récolter en été. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+"sugar-sapling.name": "Jeune arbre de fleur de sucre",
+"sugar-sapling.description": "Il faut 28 jours pour produire un arbre à fleurs de sucre mature. Prêt à récolter au printemps. Ne grandit que si les 8 tuiles environnantes sont vides.",
+
+//Seeds
+
+"blush-moondrop-seeds.name": "Graine de Blush MoonDrop",
+"blush-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"lapis-moondrop-seeds.name": "Graine de Lapis MoonDrop",
+"lapis-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"amber-moondrop-seeds.name": "Graine de Amber MoonDrop",
+"amber-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"jade-moondrop-seeds.name": "Graine de Jade MoonDrop",
+"jade-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"violet-moondrop-seeds.name": "Graine de Violet MoonDrop",
+"violet-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"rose-moondrop-seeds.name": "Graine de Rose MoonDrop",
+"rose-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"melon-moondrop-seeds.name": "Graine de Melon MoonDrop",
+"melon-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"pearl-moondrop-seeds.name": "Graine de Pearl MoonDrop",
+"pearl-moondrop-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 14 jours pour pousser, puis peut être récolté tous les 5 jours.",
+
+"cake-wheat-seeds.name": "Gâteau Graines De Blé",
+"cake-wheat-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 4 jours pour pousser et doit être récolté avec une faux.",
+
+"pastry-wheat-seeds.name": "Pâtisserie Graines De Blé",
+"pastry-wheat-seeds.description": "Plantez en toute saison sauf l'hiver. Il faut 4 jours pour pousser et doit être récolté avec une faux."
+	
+}

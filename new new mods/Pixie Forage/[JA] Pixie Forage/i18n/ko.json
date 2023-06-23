@@ -1,0 +1,183 @@
+{
+
+//Blossom Flowers
+
+    "cake-blossom.name": "케이크 꽃",
+	"cake-blossom.description": "바닐라 케이크의 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"caramel-blossom.name": "카라멜 꽃",
+	"caramel-blossom.description": "카라멜 소스의 달콤한 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"creamsicle-blossom.name": "크림시클 꽃",
+	"creamsicle-blossom.description": "녹은 오렌지 팝시클 아이스크림 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"custard-blossom.name": "커스터드 꽃",
+	"custard-blossom.description": "바닐라 커스타드 크림의 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"gumdrop-blossom.name": "구미젤리 꽃",
+	"gumdrop-blossom.description": "구미젤리의 달콤함을 느낄 수 있는, 겨울에 피는 아름다운 식용 꽃.",
+
+	"macaron-blossom.name": "마카롱 꽃",
+	"macaron-blossom.description": "마카롱의 달콤한 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"pie-blossom.name": "파이 꽃",
+	"pie-blossom.description": "갓 구운 블루베리 파이의 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"shortcake-blossom.name": "쇼트케이크 꽃",
+	"shortcake-blossom.description": "달콤한 딸기 생크림 케이크의 풍미를 느낄 수 있는 아름다운 식용 꽃.",
+
+	"sprinkle-blossom.name": "스프링클 꽃",
+	"sprinkle-blossom.description": "색채가 마치 스프링클을 떠올리게 하는, 아름다운 식용 꽃.",
+
+	"sugar-blossom.name": "설탕 꽃",
+	"sugar-blossom.description": "이 아름다운 식용 꽃의 맛은 꼭, 설탕 같지 않나요?",
+
+//Pixie Fruits
+
+"pixie-apple.name": "요정 사과",
+"pixie-apple.description": "사과처럼 보이지만, 사과 같지 않다. 지금까지 맛본 어떤 사과보다 달콤합니다.",
+
+"pixie-apricot.name": "요정 살구",
+"pixie-apricot.description": "살구처럼 보이지만, 살구 같지 않다. 지금까지 맛본 어떤 살구보다 달콤합니다.",
+
+"pixie-banana.name": "요정 바나나",
+"pixie-banana.description": "바나나처럼 보이지만, 바나나 같지 않다. 지금까지 맛본 어떤 바나나보다 달콤합니다.",
+
+"pixie-cherry.name": "요정 체리",
+"pixie-cherry.description": "체리처럼 보이지만, 체리 같지 않다. 지금까지 맛본 어떤 체리보다 달콤합니다.",
+
+"pixie-mango.name": "요정 망고",
+"pixie-mango.description": "망고처럼 보이지만, 망고 같지 않다. 지금까지 맛본 어떤 망고보다 달콤합니다.",
+
+"pixie-orange.name": "요정 오렌지",
+"pixie-orange.description": "오렌지처럼 보이지만, 오렌지 같지 않다. 지금까지 맛본 어떤 오렌지보다 달콤합니다.",
+
+"pixie-peach.name": "요정 복숭아",
+"pixie-peach.description": "복숭아처럼 보이지만, 복숭아 같지 않다. 지금까지 맛본 어떤 복숭아보다 달콤합니다.",
+
+"pixie-pomegranate.name": "요정 석류",
+"pixie-pomegranate.description": "석류처럼 보이지만, 석류 같지 않다. 지금까지 맛본 어떤 석류보다 달콤합니다.",
+
+//Pixie Moondrop Grapes
+
+"blush-moondrop.name": "블러쉬 달방울",
+"blush-moondrop.description": "아름답고 희귀한 분홍빛 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"lapis-moondrop.name": "라피스 달방울",
+"lapis-moondrop.description": "아름답고 희귀한 푸른색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"amber-moondrop.name": "호박 달방울",
+"amber-moondrop.description": "아름답고 희귀한 금빛 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"jade-moondrop.name": "비취 달방울",
+"jade-moondrop.description": "아름답고 희귀한 청포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"violet-moondrop.name": "제비꽃 달방울",
+"violet-moondrop.description": "아름답고 희귀한 보랏빛 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"rose-moondrop.name": "장미 달방울",
+"rose-moondrop.description": "아름답고 희귀한 장미색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+"melon-moondrop.name": "멜론 달방울",
+"melon-moondrop.description": "아름답고 희귀한 연분홍빛 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다..",
+
+"pearl-moondrop.name": "진주 달방울",
+"pearl-moondrop.description": "아름답고 희귀한 흰색 포도 품종으로, 원래는 펀길 공화국의 요정족에 의해 재배되었다고 한다.",
+
+//Magic Wheat
+
+"cake-wheat.name":"케이크 밀",
+"cake-wheat.description":"아름다운 분홍색으로 자라는 밀의 한 종류입니다. 이걸로 어떤 종류의 밀가루를 만들 수 있을까요?",
+
+"pastry-wheat.name":"페스트리 밀",
+"pastry-wheat.description":"아름다운 보라색으로 자라는 밀의 한 종류입니다. 이걸로 어떤 종류의 밀가루를 만들 수 있을까요?",
+
+//Trees
+
+"cake-sapling.name": "케이크 꽃 묘목",
+"cake-sapling.description": "28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다..",
+
+"caramel-sapling.name": "카라멜 꽃 묘목",
+"caramel-sapling.description": "28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"creamsicle-sapling.name": "크림시클 꽃 묘목",
+"creamsicle-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"custard-sapling.name": "커스터드 꽃 묘목",
+"custard-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"gumdrop-sapling.name": "구미젤리 꽃 묘목",
+"gumdrop-sapling.description": "28일 후 성목이 됩니다. 겨울에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"macaron-sapling.name": "마카롱 꽃 묘목",
+"macaron-sapling.description": "28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pie-sapling.name": "파이 꽃 묘목",
+"pie-sapling.description": "28일 후 성목이 됩니다. 가을에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixieapple-sapling.name": "요정 사과 묘목",
+"pixieapple-sapling.description": "28일 후 성목이 됩니다. 가을에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixieapricot-sapling.name": "요정 살구 묘목",
+"pixieapricot-sapling.description": "28일 후 성목이 됩니다. 봄에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixiebanana-sapling.name": "요정 바나나 묘목",
+"pixiebanana-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixiecherry-sapling.name": "요정 체리 묘목",
+"pixiecherry-sapling.description": "28일 후 성목이 됩니다. 봄에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixiemango-sapling.name": "요정 망고 묘목",
+"pixiemango-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixieorange-sapling.name": "요정 오렌지 묘목",
+"pixieorange-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixiepeach-sapling.name": "요정 복숭아 묘목",
+"pixiepeach-sapling.description": "28일 후 성목이 됩니다. 여름에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"pixiepomegranate-sapling.name": "요정 석류 묘목",
+"pixiepomegranate-sapling.description": "28일 후 성목이 됩니다. 가을에 열매가 맺힙니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"shortcake-sapling.name": "쇼트케이크 꽃 묘목",
+"shortcake-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"sprinkle-sapling.name": "스프링클 꽃 묘목",
+"sprinkle-sapling.description": "28일 후 성목이 됩니다. 여름에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+"sugar-sapling.name": "설탕 꽃 묘목",
+"sugar-sapling.description": "28일 후 성목이 됩니다. 봄에 꽃이 핍니다. 주변 8칸이 비어있어야 자랍니다.",
+
+//Seeds
+
+"blush-moondrop-seeds.name": "블러쉬 달방울 종자",
+"blush-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"lapis-moondrop-seeds.name": "라피스 달방울 종자",
+"lapis-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"amber-moondrop-seeds.name": "호박 달방울 종자",
+"amber-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"jade-moondrop-seeds.name": "비취 달방울 종자",
+"jade-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"violet-moondrop-seeds.name": "제비꽃 달방울 종자",
+"violet-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"rose-moondrop-seeds.name": "장미 달방울 종자",
+"rose-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"melon-moondrop-seeds.name": "멜론 달방울 종자",
+"melon-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"pearl-moondrop-seeds.name": "진주 달방울 종자",
+"pearl-moondrop-seeds.description": "겨울에 심으세요. 성장하려면 14일이 소요되고, 5일마다 수확 할 수 있습니다.",
+
+"cake-wheat-seeds.name": "케이크 밀 씨앗",
+"cake-wheat-seeds.description": "겨울에 심으세요. 성장하려면 4일이 소요되고, 낫으로 수확할 수 있습니다.",
+
+"pastry-wheat-seeds.name": "페스트리 밀 씨앗",
+"pastry-wheat-seeds.description": "겨울에 심으세요. 성장하려면 4일이 소요되고, 낫으로 수확할 수 있습니다."
+	
+}

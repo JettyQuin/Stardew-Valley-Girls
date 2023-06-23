@@ -1,0 +1,22 @@
+[
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Furniture/chairs.json"
+		},
+	{
+        "$ItemType": "ContentIndex",
+        "FilePath": "Furniture/tables.json"
+		},
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Furniture/wall.json"
+		},
+	{
+        "$ItemType": "ContentIndex",
+        "FilePath": "Furniture/decor.json"
+		},
+    {
+        "$ItemType": "ContentIndex",
+        "FilePath": "Furniture/instruments.json"
+		}
+]

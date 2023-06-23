@@ -1,0 +1,18 @@
+﻿{
+	"Name": "wf rose seeds",
+	"Product": "wf rose moondrop",
+	"SeedName": "wf rose seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "rose-moondrop-seeds",
+	"Type": "Fruit",
+	"Seasons": ["spring","winter"],
+	"Phases": [3, 3, 3, 4, 4],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 160,
+	"SeedPurchaseFrom": "Dwarf",
+	"SeedPurchaseRequirements": ["f Wizard 1000"]
+}

@@ -1,0 +1,183 @@
+{
+
+//Blossom Flowers
+
+    "cake-blossom.name": "Cake Blossom",
+	"cake-blossom.description": "A beautiful, edible flower that smells, oddly, like a slice of vanilla cake.",
+
+	"caramel-blossom.name": "Caramel Blossom",
+	"caramel-blossom.description": "A beautiful, edible flower that smells sweetly of caramelized sugar.",
+
+	"creamsicle-blossom.name": "Creamsicle Blossom",
+	"creamsicle-blossom.description": "A beautiful, edible flower that smells strangely of a melted orange creamsicle pop.",
+
+	"custard-blossom.name": "Custard Blossom",
+	"custard-blossom.description": "A beautiful, edible flower that smells oddly similar to vanilla custard.",
+
+	"gumdrop-blossom.name": "Gumdrop Blossom",
+	"gumdrop-blossom.description": "A beautiful, edible flower that blooms in winter, smelling sweetly of gumdrops.",
+
+	"macaron-blossom.name": "Macaron Blossom",
+	"macaron-blossom.description": "A beautiful, edible flower that smells strangely similar to macarons.",
+
+	"pie-blossom.name": "Pie Blossom",
+	"pie-blossom.description": "A beautiful, edible flower that smells of freshly-baked blueberry pie.",
+
+	"shortcake-blossom.name": "Shortcake Blossom",
+	"shortcake-blossom.description": "A beautiful, edible flower that smells sweetly of strawberries.",
+
+	"sprinkle-blossom.name": "Sprinkle Blossom",
+	"sprinkle-blossom.description": "A beautiful, edible flower thats colors remind you of a jar of sprinkles.",
+
+	"sugar-blossom.name": "Sugar Blossom",
+	"sugar-blossom.description": "A beautiful, edible flower that smells, oddly, just like sugar?",
+
+//Pixie Fruits
+
+"pixie-apple.name": "Pixie Apple",
+"pixie-apple.description": "Strange - it seems like an apple, but somehow strangely not. Its taste is far sweeter than any apple you have ever had.",
+
+"pixie-apricot.name": "Pixie Apricot",
+"pixie-apricot.description": "Strange - it seems like an apricot, but somehow strangely not. Its taste is far sweeter than any apricot you have ever had.",
+
+"pixie-banana.name": "Pixie Banana",
+"pixie-banana.description": "Strange - it seems like a banana, but somehow strangely not. Its taste is far sweeter than any banana you have ever had.",
+
+"pixie-cherry.name": "Pixie Cherry",
+"pixie-cherry.description": "Strange - it seems like a cherry, but somehow strangely not. Its taste is far sweeter than any cherry you have ever had.",
+
+"pixie-mango.name": "Pixie Mango",
+"pixie-mango.description": "Strange - it seems like a mango, but somehow strangely not. Its taste is far sweeter than any mango you have ever had.",
+
+"pixie-orange.name": "Pixie Orange",
+"pixie-orange.description": "Strange - it seems like an orange, but somehow strangely not. Its taste is far sweeter than any orange you have ever had.",
+
+"pixie-peach.name": "Pixie Peach",
+"pixie-peach.description": "Strange - it seems like a peach, but somehow strangely not. Its taste is far sweeter than any peach you have ever had",
+
+"pixie-pomegranate.name": "Pixie Pomegranate",
+"pixie-pomegranate.description": "Strange - it seems like a pomegranate, but somehow strangely not. Its taste is far sweeter than any pomegranate you have ever had.",
+
+//Pixie Moondrop Grapes
+
+"blush-moondrop.name": "Blush MoonDrop",
+"blush-moondrop.description": "A beautiful and rare pink grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"lapis-moondrop.name": "Lapis MoonDrop",
+"lapis-moondrop.description": "A beautiful and rare blue grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"amber-moondrop.name": "Amber MoonDrop",
+"amber-moondrop.description": "A beautiful and rare golden grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"jade-moondrop.name": "Jade MoonDrop",
+"jade-moondrop.description": "A beautiful and rare green grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"violet-moondrop.name": "Violet MoonDrop",
+"violet-moondrop.description": "A beautiful and rare purple grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"rose-moondrop.name": "Rose MoonDrop",
+"rose-moondrop.description": "A beautiful and rare rose grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"melon-moondrop.name": "Melon MoonDrop",
+"melon-moondrop.description": "A beautiful and rare pink grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+"pearl-moondrop.name": "Pearl MoonDrop",
+"pearl-moondrop.description": "A beautiful and rare white grape variety, said to be originally cultivated by the fae folk of the Ferngill Republic.",
+
+//Magic Wheat
+
+"cake-wheat.name":"Cake Wheat",
+"cake-wheat.description":"A beautifully pink-colored cultivar of wheat. I wonder what kind of flour I could make out of this?",
+
+"pastry-wheat.name":"Pastry Wheat",
+"pastry-wheat.description":"A beautifully violet-colored cultivar of wheat. I wonder what kind of flour I could make out of this?",
+
+//Trees
+
+"cake-sapling.name": "Cake Blossom Sapling",
+"cake-sapling.description": "Takes 28 days to produce a mature Cake Blossom Tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"caramel-sapling.name": "Caramel Blossom Sapling",
+"caramel-sapling.description": "Takes 28 days to produce a mature Caramel Blossom tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"creamsicle-sapling.name": "Creamsicle Blossom Sapling",
+"creamsicle-sapling.description": "Takes 28 days to produce a mature Creamsicle Blossom tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"custard-sapling.name": "Custard Blossom Sapling",
+"custard-sapling.description": "Takes 28 days to produce a mature Custard Blossom Tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"gumdrop-sapling.name": "Gumdrop Blossom Sapling",
+"gumdrop-sapling.description": "Takes 28 days to produce a mature Gumdrop Blossom Tree. Ready to harvest in the winter. Only grows if the 8 surrounding tiles are empty.",
+
+"macaron-sapling.name": "Macaron Blossom Sapling",
+"macaron-sapling.description": "Takes 28 days to produce a mature Macaron Blossom Tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"pie-sapling.name": "Pie Blossom Sapling",
+"pie-sapling.description": "Takes 28 days to produce a mature Pie Blossom Tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"pixieapple-sapling.name": "Pixie Apple Sapling",
+"pixieapple-sapling.description": "Takes 28 days to produce a mature Pixie Apple tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"pixieapricot-sapling.name": "Pixie Apricot Sapling",
+"pixieapricot-sapling.description": "Takes 28 days to produce a mature Pixie Apricot tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"pixiebanana-sapling.name": "Pixie Banana Sapling",
+"pixiebanana-sapling.description": "Takes 28 days to produce a mature Pixie Banana tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"pixiecherry-sapling.name": "Pixie Cherry Sapling",
+"pixiecherry-sapling.description": "Takes 28 days to produce a mature Pixie Cherry tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+"pixiemango-sapling.name": "Pixie Mango Sapling",
+"pixiemango-sapling.description": "Takes 28 days to produce a mature Pixie Mango tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"pixieorange-sapling.name": "Pixie Orange Sapling",
+"pixieorange-sapling.description": "Takes 28 days to produce a mature Pixie Orange tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"pixiepeach-sapling.name": "Pixie Peach Sapling",
+"pixiepeach-sapling.description": "Takes 28 days to produce a mature Pixie Peach tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"pixiepomegranate-sapling.name": "Pixie Pomegranate Sapling",
+"pixiepomegranate-sapling.description": "Takes 28 days to produce a mature Pixie Pomegranate tree. Ready to harvest in the fall. Only grows if the 8 surrounding tiles are empty.",
+
+"shortcake-sapling.name": "Shortcake Blossom Sapling",
+"shortcake-sapling.description": "Takes 28 days to produce a mature Shortcake Blossom Tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"sprinkle-sapling.name": "Sprinkle Blossom Sapling",
+"sprinkle-sapling.description": "Takes 28 days to produce a mature Sprinkle Blossom Tree. Ready to harvest in the summer. Only grows if the 8 surrounding tiles are empty.",
+
+"sugar-sapling.name": "Sugar Blossom Sapling",
+"sugar-sapling.description": "Takes 28 days to produce a mature Sugar Blossom Tree. Ready to harvest in the spring. Only grows if the 8 surrounding tiles are empty.",
+
+//Seeds
+
+"blush-moondrop-seeds.name": "Blush MoonDrop Starter",
+"blush-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"lapis-moondrop-seeds.name": "Lapis MoonDrop Starter",
+"lapis-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"amber-moondrop-seeds.name": "Amber MoonDrop Starter",
+"amber-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"jade-moondrop-seeds.name": "Jade MoonDrop Starter",
+"jade-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"violet-moondrop-seeds.name": "Violet MoonDrop Starter",
+"violet-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"rose-moondrop-seeds.name": "Rose MoonDrop Starter",
+"rose-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"melon-moondrop-seeds.name": "Melon MoonDrop Starter",
+"melon-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"pearl-moondrop-seeds.name": "Pearl MoonDrop Starter",
+"pearl-moondrop-seeds.description": "Plant in any season except winter. Takes 14 days to grow, then can be harvested every 5 days.",
+
+"cake-wheat-seeds.name": "Cake Wheat Seeds",
+"cake-wheat-seeds.description": "Plant in any season except winter. Takes 4 days to grow and must be harvested with a scythe.",
+
+"pastry-wheat-seeds.name": "Pastry Wheat Seeds",
+"pastry-wheat-seeds.description": "Plant in any season except winter. Takes 4 days to grow and must be harvested with a scythe."
+	
+}

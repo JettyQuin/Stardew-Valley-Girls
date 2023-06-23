@@ -1,0 +1,18 @@
+﻿{
+	"Name": "wf melon seeds",
+	"Product": "wf melon moondrop",
+	"SeedName": "wf melon seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "melon-moondrop-seeds",
+	"Type": "Fruit",
+	"Seasons": ["spring","summer"],
+	"Phases": [3, 3, 3, 4, 4],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 130,
+	"SeedPurchaseFrom": "Dwarf",
+	"SeedPurchaseRequirements": ["f Wizard 500"]
+}

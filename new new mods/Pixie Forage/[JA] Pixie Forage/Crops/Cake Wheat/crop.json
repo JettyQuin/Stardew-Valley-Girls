@@ -1,0 +1,18 @@
+﻿{
+	"Name": "wf cake seeds",
+	"Product": "wf cake wheat",
+	"SeedName": "wf cake seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "cake-wheat-seeds",
+	"Type": "Vegetable",
+	"Seasons": ["spring","summer","fall"],
+	"Phases": [1, 1, 1, 1],
+    "RegrowthPhase": -1,
+	"HarvestWithScythe": true,
+	"TrellisCrop": false,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 25,
+	"SeedPurchaseFrom": "Dwarf",
+	"SeedPurchaseRequirements": ["f Dwarf 500"]
+}

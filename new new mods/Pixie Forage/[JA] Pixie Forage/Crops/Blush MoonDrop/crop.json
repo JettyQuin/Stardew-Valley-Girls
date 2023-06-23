@@ -1,0 +1,18 @@
+﻿{
+	"Name": "wf blush seeds",
+	"Product": "wf blush moondrop",
+	"SeedName": "wf blush seeds",
+	"SeedDescription": "...",	
+	"SeedTranslationKey": "blush-moondrop-seeds",
+	"Type": "Fruit",
+	"Seasons": ["spring","summer"],
+	"Phases": [3, 3, 3, 4, 4],
+    "RegrowthPhase": 3,
+	"HarvestWithScythe": false,
+	"TrellisCrop": true,
+	"Colors": null,
+	"CanPurchase": true,
+	"SeedPurchasePrice": 250,
+	"SeedPurchaseFrom": "Dwarf",
+	"SeedPurchaseRequirements": ["f Wizard 2000"]
+}

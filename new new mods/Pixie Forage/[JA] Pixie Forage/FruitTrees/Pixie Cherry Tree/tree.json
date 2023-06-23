@@ -1,0 +1,11 @@
+{
+    "Name": "wf pixie cherry tree",
+    "Product": "wf pixie cherry",
+    "SaplingTranslationKey":"pixiecherry-sapling",
+    "SaplingName": "wf pixie cherry sapling",
+    "SaplingDescription": "...",
+    "Season": "spring",
+    "SaplingPurchasePrice": 7200,
+	"SaplingPurchaseFrom": "Krobus",
+    "SaplingPurchaseRequirements": [ "f Dwarf 1500" ]
+}

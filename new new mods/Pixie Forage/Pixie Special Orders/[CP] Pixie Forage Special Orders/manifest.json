@@ -1,0 +1,20 @@
+{
+  "Name": "Pixie Forage Special Orders",
+  "Author": "wildflourmods",
+  "Version": "1.2",
+  "Description": "Adds custom special orders for various wildflour mods",
+  "UniqueID": "wildflour.pixieorders",
+  "UpdateKeys": [ "" ],
+  "Dependencies":[
+
+  {"UniqueID":"spacechase0.JsonAssets",
+  "IsRequired": true},
+
+  {"UniqueID":"wildflour.pixieforage",
+  "IsRequired": true}
+
+  ],
+  "ContentPackFor":{
+  "UniqueID": "Pathoschild.ContentPatcher"
+ }
+}

@@ -1,0 +1,11 @@
+{
+    "Name": "wf gumdrop blossom tree",
+    "Product": "wf gumdrop blossom",
+    "SaplingName": "wf gumdrop blossom sapling",
+    "SaplingTranslationKey":"gumdrop-sapling",
+    "SaplingDescription": "...",
+    "Season": "winter",
+    "SaplingPurchasePrice": 3300,
+    "SaplingPurchaseFrom": "Krobus",
+    "SaplingPurchaseRequirements": [ "f Krobus 500" ]
+}

@@ -1,0 +1,51 @@
+{
+
+    "Changes": [
+
+
+
+
+        //Sandy and Linus and Junimos Pixie
+
+        {
+        "Action": "EditMap",
+        "Target": "Maps/SandyHouse",
+        "MapTiles": [
+        {
+         "Position": { "X": 5, "Y": 7},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox SandyShop"}
+        }		
+        ]
+        },
+
+        {
+        "Action": "EditMap",
+        "Target": "Maps/Tent",
+        "MapTiles": [
+        {
+         "Position": { "X": 1, "Y": 4},
+         "Layer": "Buildings",
+         "SetProperties": { "Action": "DropBox LinusTent"}
+        }		
+        ]
+        },
+    
+        {
+            "Action": "EditMap",
+            "Target": "Maps/WizardHouse",
+            "MapTiles": [
+            {
+             "Position": { "X": 9, "Y": 12},
+             "Layer": "Buildings",
+             "SetProperties": { "Action": "DropBox PixieOrder"}
+            }		
+            ]
+            },
+
+
+
+
+        ]
+
+}

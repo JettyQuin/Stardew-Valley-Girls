@@ -1,0 +1,100 @@
+{
+    
+    //RECIPES
+
+    "beer-fish.name":"啤酒炸鱼薯条",
+    "beer-fish.description":"虽然最正宗是用鳕鱼，不过肯特分享的秘密食谱几乎所有鱼都能用！",
+
+    "cake-beer.name":"蛋糕啤酒",
+    "cake-beer.description":"使用稀有的蛋糕小麦酿的；没错就跟它的名字一样甜。",
+    
+    "candy-apple.name":"苹果糖",
+    "candy-apple.description":"现采的苹果裹着一层甜蜜闪亮的糖。",
+
+    "colada-curd.name":"椰林飘香凝乳",
+    "colada-curd.description":"柠檬凝乳的花俏岛屿表哥，使用姜岛的凤梨跟卡利科沙漠的椰子制作！",
+
+    "dandelion-wine.name":"蒲公英酒",
+    "dandelion-wine.description":"用春天最早的蒲公英酿造的酒。",
+
+    "dirty-chai.name":"鸳鸯印度奶茶",
+    "dirty-chai.description":"一种美味的咖啡饮料，诞生的原因可能是有人不小心把他的印度奶茶倒进朋友的咖啡里…",
+
+    "horchata.name":"欧洽塔",
+    "horchata.description":"用米浆跟肉桂做的清新饮料。",
+
+    "pastry-beer.name":"糕饼啤酒",
+    "pastry-beer.description":"使用稀有的糕饼小麦酿的；没错就跟它的名字一样甜。",
+	
+	"arnold-palmer.name":"柠檬红茶",
+    "arnold-palmer.description":"由柠檬汁与冰茶一比一调配的无酒精饮品。又称阿诺‧帕玛。一位常常在打球时喝这种饮料的高尔夫球明星。",
+    
+    "chocolate-creampop.name":"巧克力脆皮冰棍",
+    "chocolate-creampop.description":"将香草冰淇淋涂上一层薄薄的巧克力后重新冷冻，并固定在一根棍子上食用！",
+
+    "firework-popsicle.name":"烟火冰棍",
+    "firework-popsicle.description":"一个常见的夏日美食，名字由来是因为颜色像烟火，每个颜色都是不同口味的冷冻水果。",
+
+    "fizzy-soda.name":"啵啵汽水",
+    "fizzy-soda.description":"山姆的秘密汽水食谱…味道有点像黑莓？",
+
+    //CRAFTABLES
+
+    "bakery-box.name":"玛芬盒",
+    "bakery-box.description":"一个装着烘焙点心的小盒子，准备好被带去派对了！",
+
+    "berry-basket.name":"莓果篮",
+    "berry-basket.description":"装满新鲜莓果的手编篮子。",
+
+    "candy-cane.name":"等身拐杖糖",
+    "candy-cane.description":"这个拐杖糖超大…而且不能吃，不过还是个很棒的冬天室外装饰！",
+
+    "floral-scarecrow.name":"鲜花稻草人",
+    "floral-scarecrow.description":"漂亮的鲜花稻草人；可能不是很适合用来吓乌鸦不过还是很好看！",
+
+    "junimo-mini.name":"迷你祝尼魔绒毛娃娃",
+    "junimo-mini.description":"可爱的绒毛娃娃版祝尼魔！",
+
+
+    //TROPHIES
+
+	"ale-trophy.name":"酿酒大师奖杯",
+    "ale-trophy.description":"只送给芬吉尔共和国最有名的酿酒师的奖杯。",
+
+    "bakery-trophy.name":"糕点大师奖杯",
+    "bakery-trophy.description":"只送给芬吉尔共和国最有名的糕点主厨的奖杯。",
+
+    "candy-trophy.name":"糖果大师奖杯",
+    "candy-trophy.description":"只送给芬吉尔共和国最有名的糖果制造家的奖杯。",
+
+    "coffee-trophy.name":"烘豆大师奖杯",
+    "coffee-trophy.description":"只送给芬吉尔共和国最有名的咖啡烘焙师的奖杯。",
+
+	"drinks-trophy.name":"爆红饮品奖杯",
+    "drinks-trophy.description":"只送给芬吉尔共和国最有名的饮料师的奖杯。",
+
+    "floral-trophy.name":"花艺大师奖杯",
+    "floral-trophy.description":"只送给芬吉尔共和国最有名的花匠的奖杯。",
+	
+    "frozen-trophy.name":"冰品盛宴奖杯",
+    "frozen-trophy.description":"只送给芬吉尔共和国最有名的冰品制造家的奖杯。",
+
+    "jam-trophy.name":"罐头大师奖杯",
+    "jam-trophy.description":"只送给芬吉尔共和国最有名的罐头制造家的奖杯。",
+
+    "mead-trophy.name":"蜜酒大师奖杯",
+    "mead-trophy.description":"只送给芬吉尔共和国最有名的蜂蜜酒酿造师的奖杯。",
+
+    "pantry-trophy.name":"加工大师奖杯",
+    "pantry-trophy.description":"只送给芬吉尔共和国最有名的工匠的奖杯。",
+
+    "pixie-trophy.name":"祝尼魔奖杯",
+    "pixie-trophy.description":"只送给祝尼魔们最爱的人类…",
+
+    "tea-trophy.name":"制茶大师奖杯",
+    "tea-trophy.description":"只送给芬吉尔共和国最有名的茶人的奖杯。",
+
+    "wildfood-trophy.name":"觅食大师奖杯",
+    "wildfood-trophy.description":"只送给芬吉尔共和国最有名的觅食者的奖杯。"
+
+}

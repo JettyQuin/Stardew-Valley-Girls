@@ -1,0 +1,13 @@
+THIS MOD IS POSTED AND UPDATED ONLY TO NEXUS AND NO OTHER SITE!!
+
+This mod requires:
+-Latest version of Json assets
+-Latest version of SMAPI
+-Latest version of SpaceCore
+-Latest version of Mail Framework
+
+How to install manually:
+make sure you have the latest versions of Json assets, spacecore, MFM and smapi
+move the 'neo's succulent farm' folder into the mods folder (...\Stardew Valley\Mods)
+
+please enjoy!

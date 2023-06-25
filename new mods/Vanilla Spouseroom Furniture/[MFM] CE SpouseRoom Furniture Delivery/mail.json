@@ -1,0 +1,884 @@
+[
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Abigail",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Abigail U-Haul Delivery", 
+        "Text": "Hi @,^^We're going to have so many adventures together! I've sent some of my stuff over for when we move in together.^^Abigail",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Floor TV",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Game Station",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Hamster Cage",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Leaning Sword",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Ouija Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Purple Cottage Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Red Bar Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Small Flower Painting",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Teal Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Wall Bookshelf",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 1378,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Abigail",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Penny",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Penny U-Haul Delivery", 
+        "Text": "My dearest @,^^I'm so happy we're building a home together. Sorry I have so many books, I couldn't figure out which to leave behind!^^Penny",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Big Oak Bookcase",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Long Bookcase",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Large Oak Tea Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/little house Framed",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plum Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plum Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plum Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Post-it notes",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Round Portrait",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 1377,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Penny",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Alex",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Alex U-Haul Delivery", 
+        "Text": "Dear @,^^I got new excercise equipment for my room. Clint said he made it with ore you mined yourself, that's so cool!^^Alex",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Barbell",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Buff Poster",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Dumbbell",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Dumbbell",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Excercise Bench",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Football",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Gridball",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Small Yellow Dresser",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Weightlifting Poster",
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Alex",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Elliott",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Elliott U-Haul Delivery", 
+        "Text": "My Darling @,^^If I have not said it already today, I love you. My heart is aflutter with notions of how we will spend our days together. I hope my personal effects have arrived in good conditions, please remind me there was a particular book I wished to read with you by the fire.^^Thinking of you always, Elliott",
+        "Attachments": [
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Big Barrel",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Longer Bookcase",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak Barrel",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak End Table",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak Stool",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pendant Frame",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pile of Logs",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pile of Logs",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pile of Logs",
+                "Stack" : 1,
+            },
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Small Red Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 1367,
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 2736,
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 2736,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Elliott",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Emily",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Emily U-Haul Delivery", 
+        "Text": "Hi @,^^I have a good feeling about us moving in together, I had a dream of smooth sailing over oceans of blue cloth.^^Emily",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Small Potted Plant",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Desert Painting",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Indoor Planter",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Indoor Planter",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Large Oak Tea Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Parrot Stand",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Smiley Heart",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 1378,
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 1294,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Emily",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Haley",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Haley U-Haul Delivery", 
+        "Text": "OMG @,^^You will not believe how hard it was deciding what to pack. In the end I decided to keep using the dark room back home, I don't really need two of those afterall. Oh, I guess that's just my parents place now isn't it? Now my home is our home. I don't hate it.^^Haley",
+        "Attachments": [
+		{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Camera",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Dressing Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Lilac Cottage Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Photo Board",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pink Country Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/White Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Yellow Dresser",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Yellow Endtable",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+                "Index": 1365,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Haley",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Harvey",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Harvey U-Haul Delivery", 
+        "Text": "@ my love,^^Thank you for letting me into your life.^^Yours always, Harvey",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Another Book Stack",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Book stack",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Flaxen Cottage Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Large Oak Tea Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Open Book",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Open Book",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plane Diagrams",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plane Shelf",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Radio Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Small Potted Plant",
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Harvey",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Leah",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Leah U-Haul Delivery", 
+        "Text": "Hi @,^^Just a few of my things, we can find a place for them later^^Leah",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Dye Pots",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Red Bar Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Landscape Paintings",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Large Red Funky Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Leah Easel",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Oak Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Potted Money Tree",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Red Bar Stool",
+                "Stack" : 1,
+            },
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Leah",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Maru",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Maru U-Haul Delivery", 
+        "Text": "Dear @,^^I wish you two all the best. You should find in this delivery several of Maru's personal belongings. Please treat them with care.^^Demetrius",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Computer",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Computer",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Earth Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Faded Green Cottage Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Hammer",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Kettlebot",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Mini MarILDA",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Monitor",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Open Book",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Sine Wave Chart",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Telescope",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 1376,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Maru",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Sam",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Sam U-Haul Delivery", 
+        "Text": "Hello @,^^I'm just helping Sam organise his things to send to you. It's so nice to see the two of you growing together.^^Jodi",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Band Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Computer Desk",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Guitar",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Keyboard",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Lightning Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Music Notes",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pine Chair",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plum Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Summer Balloon Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Small Potted Plant",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Yellow Bookcase",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Plum Floor Cushion",
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Sam",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Sebastian",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Sebastian U-Haul Delivery", 
+        "Text": "Hi @,^^Please be careful with the computer. See you later.^^Sebastian",
+        "Attachments": [
+			{
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Black End Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Blue Stool",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Computer Desk",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Dark Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Grey Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Large Oak Table",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Light In The Darkness",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Open Book",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Purple Cottage Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Steel Keg",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Teal Floor Cushion",
+                "Stack" : 1,
+            },,
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Teal Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Upturned Book",
+                "Stack" : 1,
+            },
+            {
+                "Type": "Furniture",
+				"Index": 2734,
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Sebastian",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    },
+	{
+		"Id": "Asterisk555.CESpouseRoomletter.Shane",
+        "GroupID": "Asterisk555.mfmletters",
+		"Title": "Shane U-Haul Delivery", 
+        "Text": "Dear @,^^I still can't believe you want me and my mess, but here it is.^^Love, Shane",
+        "Attachments": [
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Another Book Stack",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Blue Floor Cushion",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Canned Drink",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Cardboard Box",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Chicken Painting",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Dumbbell",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Ficus",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Floor TV",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Football",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Game Station",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Faded Green Cottage Rug",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Indoor Planter",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Mini Fridge",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Pizza Box",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Spilled Beer",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Steel Keg",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Strange Doll Poster",
+                "Stack" : 1,
+            },
+            {
+                "Type": "DGA",
+                "Name": "Asterisk.DGA.CEFurniture/Stranger Poster",
+                "Stack" : 1,
+            }
+        ],
+        "Repeatable": false, 
+        "AutoOpen":  false, 
+        "FriendshipConditions": [
+        {
+          "NpcName": "Shane",
+          "FriendshipStatus": ["Married"]
+        }
+		] 
+    }
+]

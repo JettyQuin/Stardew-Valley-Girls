@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Yri's Project Yellog Modular Tree Recolor Revamped",
+  "Author": "YriKururu",
+  "Version": "1.0",
+  "Description": "YPY Modular Tree Recolor",
+  "UniqueID": "yri.TreesAlternativeTexture",
+  "UpdateKeys": [ "Nexus:14649" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.3"
+  }
+}

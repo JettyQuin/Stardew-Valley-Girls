@@ -1,0 +1,133 @@
+{
+  "ItemName": "Palm_1",
+  "Type": "Tree",
+  "Seasons": ["Spring", "Summer", "Fall", "Winter"],
+  "TextureWidth": 48,
+  "TextureHeight": 160,
+  "Keywords": [ "Project Yellog Tree Overhaul", "Project Yellog", "YPY", "Tree Overhaul", "Yellog", "Yri" ],
+  "ManualVariations": [
+    {
+      "Id": -1
+    },
+    {
+      "Id": 0,
+      "Name": "Beige Palm_1",
+      "Keywords": [ "beige", "brown" ]
+    },
+    {
+      "Id": 1,
+      "Name": "Black Palm_1",
+      "Keywords": [ "black", "dark" ]
+    },
+    {
+      "Id": 2,
+      "Name": "Blue_Alt Palm_1",
+      "Keywords": [ "blue", "dark blue", "blue_alt", "bluealt" ]
+    },
+    {
+      "Id": 3,
+      "Name": "Cherry Palm_1",
+      "Keywords": [ "cherry blossom", "pink", "cherry" ]
+    },
+    {
+      "Id": 4,
+      "Name": "Dark Blue",
+      "Keywords": [ "dark blue", "blue" ]
+    },
+    {
+      "Id": 5,
+      "Name": "Dark Green Palm_1",
+      "Keywords": [ "dark green", "green" ]
+    },
+    {
+      "Id": 6,
+      "Name": "Lavender Palm_1",
+      "Keywords": [ "lavender", "purple" ]
+    },
+    {
+      "Id": 7,
+      "Name": "Light Blue Palm_1",
+      "Keywords": [ "light blue", "blue", "light", "lightblue" ]
+    },
+    {
+      "Id": 8,
+      "Name": "Light Green Palm_1",
+      "Keywords": [ "light green", "light", "green" ]
+    },
+    {
+      "Id": 9,
+      "Name": "Orange Palm_1",
+      "Keywords": [ "orange" ]
+    },
+    {
+      "Id": 10,
+      "Name": "Pastel Green Palm_1",
+      "Keywords": [ "pastel green", "pastel", "green", "light green" ]
+    },
+    {
+      "Id": 11,
+      "Name": "Pastel Rose Palm_1",
+      "Keywords": [ "pastel rose", "rose", "pink" ]
+    },
+    {
+      "Id": 12,
+      "Name": "Purple Palm_1",
+      "Keywords": [ "purple", "dark purple" ]
+    },
+    {
+      "Id": 13,
+      "Name": "Purple_Alt Palm_1",
+      "Keywords": [ "purple_alt", "purple", "dark" ]
+    },
+    {
+      "Id": 14,
+      "Name": "Red Palm_1",
+      "Keywords": [ "red"]
+    },
+    {
+      "Id": 15,
+      "Name": "Red_Alt Palm_1",
+      "Keywords": [ "red", "red_alt" ]
+    },
+    {
+      "Id": 16,
+      "Name": "Turquoise Palm_1",
+      "Keywords": [ "turquoise", "green", "blue" ]
+    },
+    {
+      "Id": 17,
+      "Name": "Vanilla Fall Palm_1",
+      "Keywords": [ "vanilla", "red", "fall" ]
+    },
+    {
+      "Id": 18,
+      "Name": "Vanilla Spring Palm_1",
+      "Keywords": [ "vanilla", "green", "spring" ]
+    },
+    {
+      "Id": 19,
+      "Name": "Vanilla Summer Palm_1",
+      "Keywords": [ "vanilla", "green", "summer" ]
+    },
+    {
+      "Id": 20,
+      "Name": "Vanilla Winter Palm_1",
+      "Keywords": [ "vanilla", "white", "winter" ]
+    },
+    {
+      "Id": 21,
+      "Name": "White Palm_1",
+      "Keywords": [ "white", "winter" ]
+    },
+    {
+      "Id": 22,
+      "Name": "Winter Palm_1",
+      "Keywords": [ "white", "winter" ]
+    },
+    {
+      "Id": 23,
+      "Name": "Yellow Palm_1",
+      "Keywords": [ "yellow" ]
+    },
+  ]
+}

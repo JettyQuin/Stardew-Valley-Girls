@@ -1,0 +1,29 @@
+{
+    "Name": "Wrought Iron Fence with Wood Gate ",
+    "Description": "Iron fence with a stone base and decorative wood gate.",
+    "MaxHealth": 500,
+    "RepairMaterial": 390,
+    "BreakTool": "Pickaxe",
+    "PlacementSound": "stoneCrack",
+    "RepairSound": "stoneCrack",
+    "Recipe": {
+        "IsDefault": false,
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 100,
+        "PurchaseRequirements": null,
+        "SkillUnlockName": "Mining",
+        "SkillUnlockLevel": 10,
+        "ResultCount": 10,
+        "Ingredients": [
+            {
+                "Object": 390, // stone
+                "Count": 2
+            },
+            {
+                "Object": 335, // iron bar
+                "Count": 1
+            }
+        ]
+    }
+}

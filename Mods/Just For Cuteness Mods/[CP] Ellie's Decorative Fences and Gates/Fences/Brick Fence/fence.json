@@ -1,0 +1,29 @@
+{
+    "Name": "Brick Fence",
+    "Description": "A brick fence.",
+    "MaxHealth": 500,
+    "RepairMaterial": 390,
+    "BreakTool": "Pickaxe",
+    "PlacementSound": "clank",
+    "RepairSound": "clank",
+    "Recipe": {
+        "IsDefault": false,
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 100,
+        "PurchaseRequirements": null,
+        "SkillUnlockName": "Mining",
+        "SkillUnlockLevel": 6,
+        "ResultCount": 10,
+        "Ingredients": [
+            {
+                "Object": 390, // stone
+                "Count": 1
+            },
+            {
+                "Object": 330, // clay
+                "Count": 1
+            }
+        ]
+    }
+}

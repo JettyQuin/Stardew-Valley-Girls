@@ -1,0 +1,25 @@
+{
+    "Name": "Dark Iron Fence",
+    "Description": "A polished iron fence.",
+    "MaxHealth": 500,
+    "RepairMaterial": 390,
+    "BreakTool": "Pickaxe",
+    "PlacementSound": "clank",
+    "RepairSound": "clank",
+    "Recipe": {
+        "IsDefault": false,
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 100,
+        "PurchaseRequirements": null,
+        "SkillUnlockName": "Mining",
+        "SkillUnlockLevel": 4,
+        "ResultCount": 10,
+        "Ingredients": [
+            {
+                "Object": 335, // iron bar
+                "Count": 1
+            }
+        ]
+    }
+}

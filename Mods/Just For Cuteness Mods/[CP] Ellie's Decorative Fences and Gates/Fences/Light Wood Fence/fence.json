@@ -1,0 +1,23 @@
+{
+    "Name": "Light Wood Fence",
+    "Description": "Light wood fence with a decorative wooden gate.",
+    "MaxHealth": 500,
+    "RepairMaterial": 388,
+    "BreakTool": "Axe",
+    "PlacementSound": "axe",
+    "RepairSound": "axe",
+    "Recipe": {
+        "IsDefault": true,
+        "CanPurchase": true,
+        "PurchaseFrom": "Robin",
+        "PurchasePrice": 100,
+        "PurchaseRequirements": null,
+        "ResultCount": 10,
+        "Ingredients": [
+            {
+                "Object": 388, // wood
+                "Count": 2
+            }
+        ]
+    }
+}

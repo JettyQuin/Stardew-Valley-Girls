@@ -1,0 +1,133 @@
+{
+  "ItemName": "Oak",
+  "Type": "Tree",
+  "Seasons": ["Spring", "Summer", "Fall", "Winter"],
+  "TextureWidth": 48,
+  "TextureHeight": 160,
+  "Keywords": [ "Project Yellog Tree Overhaul", "Project Yellog", "YPY", "Tree Overhaul", "Yellog", "Yri" ],
+  "ManualVariations": [
+    {
+      "Id": -1
+    },
+    {
+      "Id": 0,
+      "Name": "Beige Oak",
+      "Keywords": [ "beige", "brown" ]
+    },
+    {
+      "Id": 1,
+      "Name": "Black Oak",
+      "Keywords": [ "black", "dark" ]
+    },
+    {
+      "Id": 2,
+      "Name": "Blue_Alt Oak",
+      "Keywords": [ "blue", "dark blue", "blue_alt", "bluealt" ]
+    },
+    {
+      "Id": 3,
+      "Name": "Cherry Oak",
+      "Keywords": [ "cherry blossom", "pink", "cherry" ]
+    },
+    {
+      "Id": 4,
+      "Name": "Dark Blue",
+      "Keywords": [ "dark blue", "blue" ]
+    },
+    {
+      "Id": 5,
+      "Name": "Dark Green Oak",
+      "Keywords": [ "dark green", "green" ]
+    },
+    {
+      "Id": 6,
+      "Name": "Lavender Oak",
+      "Keywords": [ "lavender", "purple" ]
+    },
+    {
+      "Id": 7,
+      "Name": "Light Blue Oak",
+      "Keywords": [ "light blue", "blue", "light", "lightblue" ]
+    },
+    {
+      "Id": 8,
+      "Name": "Light Green Oak",
+      "Keywords": [ "light green", "light", "green" ]
+    },
+    {
+      "Id": 9,
+      "Name": "Orange Oak",
+      "Keywords": [ "orange" ]
+    },
+    {
+      "Id": 10,
+      "Name": "Pastel Green Oak",
+      "Keywords": [ "pastel green", "pastel", "green", "light green" ]
+    },
+    {
+      "Id": 11,
+      "Name": "Pastel Rose Oak",
+      "Keywords": [ "pastel rose", "rose", "pink" ]
+    },
+    {
+      "Id": 12,
+      "Name": "Purple Oak",
+      "Keywords": [ "purple", "dark purple" ]
+    },
+    {
+      "Id": 13,
+      "Name": "Purple_Alt Oak",
+      "Keywords": [ "purple_alt", "purple", "dark" ]
+    },
+    {
+      "Id": 14,
+      "Name": "Red Oak",
+      "Keywords": [ "red"]
+    },
+    {
+      "Id": 15,
+      "Name": "Red_Alt Oak",
+      "Keywords": [ "red", "red_alt" ]
+    },
+    {
+      "Id": 16,
+      "Name": "Turquoise Oak",
+      "Keywords": [ "turquoise", "green", "blue" ]
+    },
+    {
+      "Id": 17,
+      "Name": "Vanilla Fall Oak",
+      "Keywords": [ "vanilla", "red", "fall" ]
+    },
+    {
+      "Id": 18,
+      "Name": "Vanilla Spring Oak",
+      "Keywords": [ "vanilla", "green", "spring" ]
+    },
+    {
+      "Id": 19,
+      "Name": "Vanilla Summer Oak",
+      "Keywords": [ "vanilla", "green", "summer" ]
+    },
+    {
+      "Id": 20,
+      "Name": "Vanilla Winter Oak",
+      "Keywords": [ "vanilla", "white", "winter" ]
+    },
+    {
+      "Id": 21,
+      "Name": "White Oak",
+      "Keywords": [ "white", "winter" ]
+    },
+    {
+      "Id": 22,
+      "Name": "Winter Oak",
+      "Keywords": [ "white", "winter" ]
+    },
+    {
+      "Id": 23,
+      "Name": "Yellow Oak",
+      "Keywords": [ "yellow" ]
+    },
+  ]
+}

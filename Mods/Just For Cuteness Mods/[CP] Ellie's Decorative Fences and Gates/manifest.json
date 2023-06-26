@@ -1,0 +1,12 @@
+{
+   "Name": "Ellie's Decorative Fences and Gates",
+   "Author": "EllieBellaLuna",
+   "Version": "1.0.0",
+   "Description": "Adds new fences that give your farm more flair.",
+   "UniqueID": "EllieBellaLuna.DecorativeFences",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "spacechase0.JsonAssets"
+   }
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "wf mermaid polish",
+  "Description": "...",
+  "TranslationKey":"mermaid-polish",
+  "Category": "ArtisanGoods",
+  "Edibility": -25,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "GiftTastes":
+  {
+    "Love": ["Jas"],
+    "Like": ["Abigail", "Haley"],
+    "Neutral": ["Gus", "Kent"],
+    "Dislike ": ["Demetrius", "Clint", "Leah"],
+    "Hate": ["George", "Lewis", "Shane"]
+    },
+  "Recipe": null,
+  "CanPurchase": false,       
+"ContextTags":
+      [
+  "wildflour_cosmetic",
+  "artisan_item",
+  "nail_polish_item",
+  "color_cyan"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "Name": "wf lunar lipstick",
+  "Description": "...",
+  "TranslationKey":"lunar-lipstick",
+  "Category": "ArtisanGoods",
+  "Edibility": -25,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "GiftTastes":
+  {
+    "Love": ["Sandy"],
+    "Like": ["Jodi", "Caroline", "Penny"],
+    "Neutral": ["Gus", "Kent"],
+    "Dislike ": ["Demetrius", "Clint", "Leah"],
+    "Hate": ["George", "Lewis", "Shane"]
+    },
+  "Recipe": null,
+  "CanPurchase": false,       
+"ContextTags":
+      [
+  "wildflour_cosmetic",
+  "lipstick_item",
+  "artisan_item",
+  "color_blue"
+  ]
+}

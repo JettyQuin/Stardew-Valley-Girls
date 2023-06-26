@@ -1,0 +1,27 @@
+{
+  "Name": "wf mars lipgloss",
+  "Description": "...",
+  "TranslationKey":"mars-lipgloss",
+  "Category": "ArtisanGoods",
+  "Edibility": -25,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "GiftTastes":
+  {
+    "Love": ["Jas", "Abigail"],
+    "Like": ["Emily", "Sandy"],
+    "Neutral": ["Gus", "Kent", "Maru"],
+    "Dislike ": ["Demetrius", "Clint", "Leah"],
+    "Hate": ["George", "Lewis", "Shane"]
+    },
+  "Recipe": null,
+  "CanPurchase": false,       
+"ContextTags":
+      [
+  "wildflour_cosmetic",
+  "artisan_item",
+  "lipgloss_item",
+  "color_red"
+  ]
+}

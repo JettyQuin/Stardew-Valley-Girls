@@ -1,0 +1,27 @@
+{
+  "Name": "wf greed blush",
+  "Description": "...",
+  "TranslationKey":"greed-blush",
+  "Category": "ArtisanGoods",
+  "Edibility": -25,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "GiftTastes":
+  {
+    "Love": ["Haley"],
+    "Like": ["Emily", "Sandy", "Penny"],
+    "Neutral": ["Gus", "Lewis", "Kent"],
+    "Dislike ": ["Demetrius", "Clint", "Leah"],
+    "Hate": ["George", "Lewis", "Shane"]
+    },
+  "Recipe": null,
+  "CanPurchase": false,       
+"ContextTags":
+      [
+  "wildflour_cosmetic",
+  "artisan_item",
+  "blush_item",
+  "color_dark_blue"
+  ]
+}

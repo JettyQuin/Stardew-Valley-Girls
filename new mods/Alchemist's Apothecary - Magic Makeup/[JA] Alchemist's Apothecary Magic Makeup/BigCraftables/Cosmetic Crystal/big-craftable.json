@@ -1,0 +1,32 @@
+{
+  "Name": "wf cosmetic crystal",
+  "Description": "...",
+  "TranslationKey":"cosmetic-crystal",
+  "Price": 3500,
+  "ProvidesLight": false,
+  "ReserveExtraIndexCount":3,
+  "Recipe":
+  {
+    "ResultCount": 1,
+        "Ingredients": [
+        {
+            "Object": 80,
+            "Count": 1
+        },
+        {
+            "Object": 86,
+            "Count": 1
+        },
+        {
+            "Object": 335,
+            "Count": 2
+        }
+        ],
+        "IsDefault": true,
+    },
+    "CanPurchase":true,
+    "PurchaseFrom": "Gus",
+    "PurchaseRequirements":["f Wizard 1250"]
+
+     
+}

@@ -1,0 +1,14 @@
+﻿[
+	{
+		"ProducerName": "wf cosmetic crystal",
+		"AlternateFrameProducing": false, 
+		"AlternateFrameWhenReady": false,
+		"DisableBouncingAnimationWhileWorking": true,
+		"ProducingAnimation": { 
+            "RelativeFrameIndex": [ 1, 2, 3 ], //Index and order of the frames that should be used for the animation. Index start at zero, the base frame and index of the non producing state. Extra frames are content from that frame. Extra frames can be added with Json Assets or Content Patcher.
+            "FrameInterval": 10, // Amount of game ticks between frames. Default is 10
+            
+            }
+        },
+	
+]

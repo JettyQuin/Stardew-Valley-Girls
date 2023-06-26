@@ -1,0 +1,27 @@
+{
+  "Name": "wf whirlwind perfume",
+  "Description": "...",
+  "TranslationKey":"whirlwind-perfume",
+  "Category": "ArtisanGoods",
+  "Edibility": -25,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "GiftTastes":
+  {
+    "Love": ["Haley","Evelyn", "Jodi"],
+    "Like": ["Elliott", "Harvey"],
+    "Neutral": ["Gus", "Kent", "Maru"],
+    "Dislike ": ["Demetrius", "Clint"],
+    "Hate": ["George", "Lewis", "Shane"]
+    },
+  "Recipe": null,
+  "CanPurchase": false,       
+"ContextTags":
+      [
+  "wildflour_cosmetic",
+  "artisan_item",
+  "perfume_item",
+  "color_blue"
+  ]
+}

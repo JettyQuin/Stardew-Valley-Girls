@@ -1,0 +1,27 @@
+{
+  "Name": "wf goblin mascara",
+  "Description": "...",
+  "TranslationKey":"goblin-mascara",
+  "Category": "ArtisanGoods",
+  "Edibility": -25,
+  "EdibleIsDrink": false,
+  "EdibleBuffs": null,
+  "Price": 250,
+  "GiftTastes":
+  {
+    "Love": ["Haley", "Caroline", "Marnie"],
+    "Like": ["Dwarf", "Krobus", "Wizard", "Jodi"],
+    "Neutral": ["Demetrius", "Clint","Leah"],
+    "Dislike ": ["Gus", "Lewis", "Kent"],
+    "Hate": ["George", "Lewis", "Shane"]
+    },
+  "Recipe": null,
+  "CanPurchase": false,       
+"ContextTags":
+      [
+  "wildflour_cosmetic",
+  "artisan_item",
+  "mascara_item",
+  "color_jade"
+  ]
+}

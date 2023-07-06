@@ -1,9 +1,0 @@
-{
-  "ItemName": "Deluxe Barn",
-  "Type": "Building",
-  "Seasons": ["Winter"],
-  "TextureWidth": 224,
-  "TextureHeight": 128,
-  "Keywords": ["seasonal"],
-  "Variations": 1
-}

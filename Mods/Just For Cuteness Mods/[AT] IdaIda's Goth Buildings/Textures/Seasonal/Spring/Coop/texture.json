@@ -1,9 +1,0 @@
-{
-  "ItemName": "Coop",
-  "Type": "Building",
-  "Seasons": ["Spring"],
-  "TextureWidth": 96,
-  "TextureHeight": 128,
-  "Keywords": ["seasonal"],
-  "Variations": 1
-}

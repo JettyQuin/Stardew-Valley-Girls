@@ -18,6 +18,9 @@ EMET-SELCH CUSTOM NPC - 1.0
 • Or edit the config.json file directly.
       • "Appearance" has options "Solus" or "Hades". [default Solus]
       • "Replace Generic Relationship Dialogue" is true or false. [default true]
+      • "World Map Edit" has true or false. [default true]
+      • "Platonic Relationship has true or false. [default false]
+
 
 :: NOTES ::
 • To experience the mod as intended, DO NOT propose until after seeing all

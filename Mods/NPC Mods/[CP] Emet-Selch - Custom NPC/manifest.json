@@ -1,7 +1,7 @@
 {
     "Name": "Emet-Selch - Custom NPC",
     "Author": "Visorlights",
-    "Version": "1.1.1",
+    "Version": "1.1.2",
     "Description": "Adds Emet-Selch as a new romanceable NPC, with a new map, events, and dialogue.",
     "UniqueID": "Visorlights.EmetSelchCustomNPC",
     "UpdateKeys": [ "Nexus:13436" ],
@@ -20,7 +20,7 @@
       },
       {
         "UniqueID": "DaisyNiko.SVR3",
-        "IsRequied": false
+        "IsRequired": false
       }
     ]
 }

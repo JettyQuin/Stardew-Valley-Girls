@@ -1,0 +1,11 @@
+{
+  "EnableMod": true,
+  "MoveCursor": true,
+  "RaiseButton": "D3",
+  "LowerButton": "D4",
+  "LeftButton": "D1",
+  "RightButton": "D2",
+  "ModKey": "LeftAlt",
+  "ModSpeed": 5,
+  "MoveSpeed": 10
+}

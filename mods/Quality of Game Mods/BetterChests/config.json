@@ -17,7 +17,7 @@
     "ScrollPage": "LeftShift, RightShift",
     "ScrollUp": "DPadUp",
     "StashItems": "Z",
-    "ToggleInfo": "F2"
+    "ToggleInfo": "F1"
   },
   "CraftFromWorkbench": "Location",
   "CraftFromWorkbenchDistance": -1,
@@ -371,7 +371,7 @@
   "ChestMenuTabSet": [],
   "CollectItems": "Disabled",
   "Configurator": "Enabled",
-  "ConfigureMenu": "Simple",
+  "ConfigureMenu": "Full",
   "CraftFromChest": "Location",
   "CraftFromChestDisableLocations": [],
   "CraftFromChestDistance": -1,

@@ -2,8 +2,8 @@
   "Recolor": "Pastoral",
   "VibrantFall": "Orange",
   "WittilyDirt": "Dark",
-  "YellogGrassSpring": "False",
-  "YellogGrassSummer": "False",
-  "YellogGrassFall": "False",
+  "YellogGrassSpring": "false",
+  "YellogGrassSummer": "false",
+  "YellogGrassFall": "false",
   "EnableLocations": "All"
 }

@@ -1,0 +1,14 @@
+{
+  "ExpShareType": "Tile",
+  "ShareAllExpAtMaxLevel": true,
+  "NearbyPlayerTileRange": 25,
+  "ExpPercentageToActor": 0.75,
+  "VanillaSkillEnabled": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "SpaceCoreSkillEnabled": {}
+}

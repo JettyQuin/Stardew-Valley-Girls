@@ -1,7 +1,7 @@
 {
   "EnableMod": true,
   "EnableOpenPhoneKey": true,
-  "OpenPhoneKey": "End",
+  "OpenPhoneKey": "Home",
   "EnableRotatePhoneKey": true,
   "RotatePhoneKey": "PageDown",
   "AddRotateApp": true,
@@ -19,7 +19,8 @@
   "AppList": [
     "aedenthorn.MobilePhone",
     "aedenthorn.MobilePhone_themes",
-    "aedenthorn.MobilePhone_Rotate"
+    "aedenthorn.MobilePhone_Rotate",
+    "jltaylor-us.ToDew"
   ],
   "PhoneWidth": 286,
   "PhoneHeight": 503,
@@ -31,8 +32,8 @@
   "PhoneOffsetY": -64,
   "ScreenOffsetX": 13,
   "ScreenOffsetY": 37,
-  "PhoneIconOffsetX": -5,
-  "PhoneIconOffsetY": 260,
+  "PhoneIconOffsetX": -6,
+  "PhoneIconOffsetY": 333,
   "PhoneRotatedWidth": 503,
   "PhoneRotatedHeight": 286,
   "ScreenRotatedWidth": 429,

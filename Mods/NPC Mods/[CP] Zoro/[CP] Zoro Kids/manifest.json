@@ -1,0 +1,10 @@
+{
+   "Name": "Zoro's kids",
+   "Author": "EmpressKimi",
+   "Description": "Makes kids look like Zoro",
+   "Version": "1.1.0",
+   "UniqueID": "EmpressKimi.Zorokids",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

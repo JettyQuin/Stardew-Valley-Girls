@@ -1,0 +1,12 @@
+{
+  "Name": "Hachio's Hairstyles",
+  "Author": "Hachio and mushroomhash",
+  "Version": "1.0.0",
+  "Description": "Fashion Sense port of Hachio's hairstyles!.",
+  "UniqueID": "mushhach.FashionSense.Hair",
+  "UpdateKeys": ["Nexus:16151"],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "2.4.0"
+  }
+}

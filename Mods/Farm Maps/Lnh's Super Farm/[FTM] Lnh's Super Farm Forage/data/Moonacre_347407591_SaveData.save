@@ -1,0 +1,75 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {
+    "StumpsLnhSuperFarm1": []
+  },
+  "SavedObjects": [
+    {
+      "MapName": "Custom_SuperFarm_Woods",
+      "Name": null,
+      "Tile": "17, 25",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SuperFarm_Woods",
+      "Name": null,
+      "Tile": "14, 25",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SuperFarm_Woods",
+      "Name": null,
+      "Tile": "16, 22",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SuperFarm_Woods",
+      "Name": null,
+      "Tile": "19, 22",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SuperFarm_Woods",
+      "Name": null,
+      "Tile": "20, 25",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SuperFarm_Woods",
+      "Name": null,
+      "Tile": "13, 22",
+      "Type": "ResourceClump",
+      "ID": 600,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

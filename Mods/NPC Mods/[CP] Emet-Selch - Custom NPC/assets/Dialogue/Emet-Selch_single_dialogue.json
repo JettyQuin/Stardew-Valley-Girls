@@ -1,0 +1,104 @@
+{
+  //Start with default for every day of week ----------------------------------------------------------------------
+  //then update 4ish days a week with each heart level
+
+  //Sun and Mon are his weekend days
+  "Sun": "%He motions for you to shuffle away.",
+  "Sun2": "Oh, to return to the blessed days before your town encroached on this valley.$0#$b#The days without people trudging through these woods.$6",
+  "Sun4": "In case you haven't noticed, I have a very busy schedule of napping to attend to.$0",
+  "Sun10": "I've a good many cozy areas in the house.$u#$b#Pick whichever you like, just leave room for me.$u",
+
+  "Mon": "Despite what you seem to think, we are not friends, and I do not enjoy you hovering about while I'm trying to relax.$6",
+  "Mon4": "If you insist on staying, find something to entertain yourself with rather than bother me.$0#$b#I'm sure there's something in my library that can hold your interest, if you've any taste.$0#e#Fiction and leisure reads are in the living room; my office has many informational tomes, if that interests you.$0",
+  "Mon6": "Inviting yourself over again, I see. Yes, just make yourself at home!$7#$e#Your dedication to taking up my time would be impressive if it weren't so tiring.",
+  "Mon10": "Yes, yes, make yourself at home.$7#$b#As usual.$h",
+
+  //work week beginning
+  "Tue": "That I could 'bring ruin to you' was not an idle threat, you know.$0#$e#Do not underestimate my willingness to make this a regrettable experience for us both.$6",
+  "Tue2": "Don't you have a farm to look after? Surely there is something that requires your attention.$6",
+  "Tue6": "Another day of reviewing aetheric measurements that are almost certainly unremarkable.$n#$b#Perhaps I will make a pot of coffee after all...$8",
+
+  "Wed": "Whatever petty matter you intend to bring up: don't.$6",
+  "Wed4": "Dare I ask what it is you want this time?",
+  "Wed6": "Ah, you again. Sending anything in particular to market this time of year?$0#$b#The produce of that farm is certainly a benefit of living here.",
+  "Wed8": "Why did I put the chaise lounge in my office of all places...$9#$b#Ever does it tempt me.$6",
+
+  "Thu": "Do you enjoy testing my patience? Unless you have business, leave me be.$6",
+  "Thu2": "Would some manner of beast deter your visits?#$b#Perhaps it is time to summon forth a guard Cubus$6.",
+  "Thu4": "Hang about much longer and I will find something useful for you to do.",
+  "Thu6": "I'm preparing for a meeting at the moment.$n#$b#Rare as they are, there's quite a bit to report.$n#$e#Most people would have taken the hint not to interrupt me further.$6",
+
+  //Fri is his work day out
+  "Fri": "Oh, for the love of... Save your chatter for someone who is at all interested. I have observations to make.$7",
+  "Fri4": "I pass through the surrounding towns only to access their passages into the earth.#$b#I am not here to socialize$6.",
+  "Fri6": "As little as I care to be involved in the lives of you townsfolk, I admit the drama can be amusing to watch.$u",
+  "Fri8": "Don't you dare try and rope me into a 'fun night out'.$n#$b#I've heard every possible attempt to goad me into such before.$6",
+
+  "Sat": "If I've done something to make you think your visits are wanted, tell me so I can stop it immediately.$6",
+  "Sat4": "Congratulations, I've acknowledged you are here. Now begone with you.$7",
+  "Sat6": "I do try to be productive on Saturdays.$0#b#Then I can be blessedly unconscious for the better part of two days.$6",
+  "Sat10": "Allow me to attend to my duties today, will you.$7#$b#Then you may command my attention for as long as you wish.$u",
+
+  //------------------------------------------------------------------------------------------------
+  //Season_<dayofweek>, or Season_<dayofmonth>-specific lines (or season_)
+  //overrwrites generic day of week dialogue
+
+  //you have two hearts in spring year one, quite frankly i'm impressed. wonder if this is even possible without getting a Loved gift for his nameday
+  "spring_Mon2_1": "Just what is it you want? The moment you start asking favors, I'm unmaking that pathway.$6",
+
+  //special day one
+  "spring_15": "I'm in no mood to entertain.$0#$b#I wish to be alone.$9",
+  "spring_15_6": "I wish to be alone today.$s", //buhh apparently i cant do day of month + hearts as a key nvm
+  //spring peony time
+  "springCustom_EmetSelchCustomNPC_Naples_30_23": "The paeonias have started blooming, so I'll be staking them to support the stems.$0#$e#And yes, I could simply enchant them; I choose not to.$7",
+  "springCustom_EmetSelchCustomNPC_Naples_32_23": "Enjoying the flowers? This particular variety of paeonia is the 'Festiva Maxima'.$u",
+
+  "summer_Sun4_1": "With how much effort you put into getting my attention, one might get the wrong idea.$u", //farmer are you coming onto me, i have 6 hearts in summer year one
+  "summer_Mon": "The long light of summer may benefit your line of work, but I've spared no effort in making curtains to block it out.$6",
+  "summer_Wed4": "So many creatures about the woods this time of year. Yet none here match the majesty of the Cubus.",
+  "summer_Thu4": "Uninterested in joining a summer's day out with the rest of the townspeople? I can hardly say I don't understand.",
+  //statement one if community center is around, two if it's not
+  "summer_Fri_1": "$d cc#I've seen you running about with the Junimo in the community center. I hope you're doing something about all that, it's just pathetic as it stands.|Finally given up on the town, have they? I would've almost called the community center nice, at one point.",
+
+  "fall_Mon2": "Spacial rifts are tricky things, but they do make for convenient points of travel. I've attuned the aetheryte outside to one such portal.$8#$b#Should you seek it out, I'll note that it does deposit you nearly unto oncoming traffic.$6",
+  "fall_Thu6": "I do try not to hoard possessions, lest my home be overrun.%revealtasteEmet-Selch428#$b#I've never regretted a purchase of soft fabrics, however.",
+  "fall_Sun8": "The mistake with the kitchen window irks me, but I find it difficult to unmake it.$6#$b#They were so very amused with their 'little fix'...$7",
+
+  "winter_Mon4": "At least greenery may survive indoors these frigid months. The vibrant purples of the prospero autumnale are welcome company this time of year.$0#$e#It's name is Ariel.",
+  "winter_Wed6": "Wandering about, are we? I suppose there's little to do on a farm in winter.",
+  "winter_Sat10": "About now there's nothing I'd like better than to forgo work and laze about.$6#$b# Would you care to join me?$1",
+  "winterTown_Fri": "Ugh, how I loathe the cold. I'm teleporting inside the moment I'm finished here, and I'm not coming out until this horrid season is over.$6",
+  "winterMountain_Fri": "Ugh, how I loathe the cold. I'm teleporting inside the moment I'm finished here, and I'm not coming out until this horrid season is over.$6",
+
+  //early fall clematis blooming
+  "fallCustom_EmetSelchCustomNPC_Naples_25_23": "Just taking in the clematis blooms. I enjoy the regal purples and reds of the 'horn of plenty' variety.$h",
+
+
+  //special day two
+  "winter_21": "I'm in no mood to entertain.$0#$b#I wish to be alone.$9",
+  "winter_21_6": "I would prefer to be alone, today.$s",
+  //---------------------------------------------------------------------
+  //location-based dialogue
+  "Custom_EmetSelchCustomNPC_House_18_7": "%Emet-Selch is dead asleep.", //bed
+  "springCustom_EmetSelchCustomNPC_Naples_25_23": "This crystalline structure is an aetheryte, to facilitate teleportation. A magick largely lost to time, it would seem.",
+  //in front of kitchen window
+  "summerCustom_EmetSelchCustomNPC_House_3_21": "Yes, the window should only show the living room; there was an error in the room's creation. It has been enchanted to show the view of the front yard rather than the wall.$0#$e$It wasn't my error, mind you. *I* take pride in my work.$6",
+  "summerCustom_EmetSelchCustomNPC_Naples_20_28": "This tree may shed leaves all over my hammock come fall, but blocking out the accursed summer sun is worth it.",
+
+  //special dialogue-----------------------------------------------------
+  "MovieInvitation": "This better be good, you know. I have quite the taste in theatre.",
+  "breakUp": "Done with me, are you? Hmph. It was inevitable that one of us would get bored of this, though I admit I thought I would be first.$6",
+  "divorced": "What is it that you want.$6",
+  "Resort_Entering": "Why did I not simply teleport...$6",
+  "Resort_Leaving": "*Sigh*$9#$b#Back to the realities of life I go.",
+  "Resort_Leaving_2": "If I must leave, I may as well take the scenic route.",
+  "Resort_Shore": "...Hm?#$b#The waves on the white sands are ever a sight...",
+  "Resort_Shore_2": "Kick sand at me and you will learn I am not above ending you.$6",
+  "Resort_Umbrella": "You can play about all you like, I've no intention of frying in the sun.",
+  "Resort": "Come to get away from work as well, have you?#$e#Yet I would not be surprised to find you've found some task to chase even here.",
+  "Resort_2": "I may have to observe the aether of the volcano, but I can at least pretend to be here for pleasure.#$e#I need the relaxation, simply recalling the last time the volcano became volatile is enough to raise my ire.$6",
+  "Resort_Chair": "If you're looking for further errands, fetch me a drink.#$b#My refreshment will be its own reward.",
+  "Resort_Wander": "What is the point of a 'getaway' if I must be surrounded by half the town?$6#$b#I'm off to find a more secluded area, thank you.",
+  "Resort_Bar": "A drink, if you will. Preferably with a little umbrella in it."
+
+}

@@ -1,0 +1,141 @@
+{
+
+  "Changes": [
+
+        //edits world map
+        {
+          "LogName": "World Map Edit",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Map",
+          "FromFile": "assets/Maps/Worldmap/{{season}}_map.png",
+          "ToArea": { "X": 91, "Y": 0 , "Width": 48, "Height": 54},
+          "PatchMode": "Overlay",
+          "When": {
+              "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+              "World Map Edit": true
+          }
+        },
+
+        {
+          "LogName": "World Map Edit (SVE)",
+          "Action": "EditImage",
+          "Target": "LooseSprites/Map",
+          "FromFile": "assets/Maps/Worldmap/SVE/{{season}}_map_SVE.png",
+          "ToArea": { "X": 97, "Y": 0 , "Width": 36, "Height": 42},
+          "PatchMode": "Overlay",
+          "When": {
+              "HasMod": "FlashShifter.StardewValleyExpandedCP",
+              "World Map Edit": true
+          }
+        },
+
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Backwoods",
+          "FromFile": "assets/Maps/Backwoods_editonly_Default.tmx",
+          "ToArea": { "X": 21, "Y": 0, "Width": 11, "Height": 11},
+          "When": {
+            "HasMod |contains=DaisyNiko.SVR3": false
+          }
+        },
+
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Backwoods",
+          "FromFile": "assets/Maps/Backwoods_editonly_SVR3.tmx",
+          "ToArea": { "X": 21, "Y": 0, "Width": 11, "Height": 11},
+          "When": {
+            "HasMod |contains=DaisyNiko.SVR3": true
+          }
+        },
+
+        //adds temp warp between bus stop to naples
+        {
+          "Action": "EditMap",
+          "Target": "Maps/BusStop",
+          "PatchMode": "Overlay",
+          "FromFile": "assets/Maps/portal.tmx",
+          "ToArea": {"X": 24, "Y": 5, "Width": 1, "Height": 1},
+          "MapProperties": {
+            "NPCWarp": "24 6 Custom_EmetSelchCustomNPC_Naples 23 25"
+          },
+          "When": {
+            "HasSeenEvent: anyPlayer|contains=134360004": false
+          }
+        },
+
+        //make that warp a normal warp after meeting him
+        {
+          "Action": "EditMap",
+          "Target": "Maps/BusStop",
+          "PatchMode": "Overlay",
+          "FromFile": "assets/Maps/portal.tmx",
+          "ToArea": {"X": 24, "Y": 5, "Width": 1, "Height": 1},
+          "AddWarps": [
+            "24 6 Custom_EmetSelchCustomNPC_Naples 23 25"
+          ],
+          "When": {
+            "HasSeenEvent: anyPlayer": "134360004"
+          }
+        },
+
+      //adds warp to outside from emet's house, and warp to attic
+      //doesnt seem to work? so warp is done via map properties in his house
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Custom_EmetSelchCustomNPC_House",
+          "AddWarps": [
+            "11 25 Custom_EmetSelchCustomNPC_Naples 28 23",
+            "11 3 Custom_EmetSelchCustomNPC_Attic 5 16",
+            "12 3 Custom_EmetSelchCustomNPC_Attic 6 16"
+          ]
+        },
+
+        //adds warp from emet's attic to rest of house
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_EmetSelchCustomNPC_Attic",
+            "AddWarps": [
+              "5 18 Custom_EmetSelchCustomNPC_House 11 4",
+              "6 18 Custom_EmetSelchCustomNPC_House 12 4"
+            ]
+        },
+
+      //adds warp between backwoods to emet's map
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Backwoods",
+          "AddWarps": [
+            "24 -1 Custom_EmetSelchCustomNPC_Naples 46 58",
+            "25 -1 Custom_EmetSelchCustomNPC_Naples 46 58",
+            "26 -1 Custom_EmetSelchCustomNPC_Naples 46 58",
+            "27 -1 Custom_EmetSelchCustomNPC_Naples 46 58",
+            "28 -1 Custom_EmetSelchCustomNPC_Naples 46 58"
+          ]
+        },
+
+        //adds warps between emet's map and Backwoods
+        {
+          "Action": "EditMap",
+          "Target": "Maps/Custom_EmetSelchCustomNPC_Naples",
+          "AddWarps": [
+            "44 60 Backwoods 26 1",
+            "45 60 Backwoods 26 1",
+            "46 60 Backwoods 26 1",
+            "47 60 Backwoods 26 1",
+            "48 60 Backwoods 26 1",
+            "22 24 BusStop 24 7"
+          ]
+        },
+
+        //add forageable spawns to naples
+        {
+          "Action": "EditData",
+          "Target": "Data/Locations",
+          "Entries": {
+              "Custom_EmetSelchCustomNPC_Naples" : "18 .9 22 .5 257 .4/396 .5 398 .8 402 .8/420 .8 422 .9 406 .5/414 .5 416 .1 418 .8/136 -1 142 -1 153 -1 702 -1 700 -1/136 -1 142 -1 153 -1 138 -1 702 -1 700 -1 698 -1/136 -1 140 -1 142 -1 153 -1 702 -1 700 -1 269 -1/136 -1 140 -1 141 -1 153 -1 707 -1 702 -1 700 -1 698 -1 269 -1/114 .09 581 .1 378 .1 102 .15 390 .25 330 1"
+          }
+        },
+
+  ]
+}

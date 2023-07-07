@@ -1,0 +1,99 @@
+{
+  "areas": {
+    "Zoro": {
+      "location": {
+        "X": 69,
+        "Y": 8
+      },
+      "useDefaultTiles": "false",
+      "specialTiles": [
+        {
+          "location": {
+            "X": 70,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 3
+        },
+        {
+          "location": {
+            "X": 71,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 4
+        },
+        {
+          "location": {
+            "X": 72,
+            "Y": 8
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 5
+        },
+        {
+          "location": {
+            "X": 70,
+            "Y": 9
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 10
+        },
+        {
+          "location": {
+            "X": 71,
+            "Y": 9
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 11
+        },
+        {
+          "location": {
+            "X": 72,
+            "Y": 9
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 12
+        },
+        {
+          "location": {
+            "X": 71,
+            "Y": 10
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 18
+        },
+        {
+          "location": {
+            "X": 69,
+            "Y": 9
+          },
+          "layer": "Buildings",
+          "tilesheet": "Zoro patio",
+          "tileIndex": 15
+        }
+      ],
+      "npcOffset": {
+        "X": 2,
+        "Y": 3
+      },
+      "npcAnimation": "zoro_weights"
+    }
+  },
+  "tileSheetsToAdd": {
+    "Zoro patio": {
+      "path": "assets/Zoro patio.png",
+      "width": 7,
+      "height": 5,
+      "tileWidth": 16,
+      "tileHeight": 16
+    }
+  }
+}

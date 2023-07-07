@@ -1,0 +1,108 @@
+{
+  "WeatherForYesterday": "Sunny",
+  "LNOSCounter": {
+    "TheLostValleyPathBlock": 1
+  },
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Custom_BoardingHouse_TheLostValley",
+      "Name": null,
+      "Tile": "94, 22",
+      "Type": "ResourceClump",
+      "ID": 602,
+      "DaysUntilExpire": 0,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_TheLostValley",
+      "Name": null,
+      "Tile": "23, 30",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_TheLostValley",
+      "Name": null,
+      "Tile": "21, 30",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine4",
+      "Name": null,
+      "Tile": "36, 29",
+      "Type": "Forage",
+      "ID": 420,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine3",
+      "Name": null,
+      "Tile": "33, 20",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine3",
+      "Name": null,
+      "Tile": "39, 18",
+      "Type": "Forage",
+      "ID": 86,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine3",
+      "Name": null,
+      "Tile": "26, 20",
+      "Type": "Forage",
+      "ID": 414,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "12, 24",
+      "Type": "Forage",
+      "ID": 404,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_BoardingHouse_AbandonedMine2B",
+      "Name": null,
+      "Tile": "30, 19",
+      "Type": "Forage",
+      "ID": 80,
+      "DaysUntilExpire": 2,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
+}

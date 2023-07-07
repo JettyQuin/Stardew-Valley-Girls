@@ -1,0 +1,219 @@
+{
+    "Format": "1.28.0",
+    "ConfigSchema": {
+        //Note: all changes dependent on these toggles are in the Emet-Selch_data.json file.
+        "Emet Appearance": {
+            "AllowValues": "Solus, Hades, Transformed",
+            "Default": "Solus",
+            "Description": "Portrait and character sprite appearance of Emet-Selch."
+        },
+        "Replace Relationship Dialogue": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "Description": "Overrides generic bouquet, proposal, and married dialogue. Note: will use custom Emet-Selch dialogue regardless of romanced NPC. [ignored if Custom Fixed Dialogue is installed.]",
+        },
+        "World Map Edit": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "Description": "Toggles patching of world map to add his location. Currently supports Vanilla, NPCMapLocations, and SVE."
+        },
+        "Platonic Relationship": {
+            "AllowValues": "true, false",
+            "Default": false,
+            "Description": "[BETA] Edits events and dialogue to be platonic, and marks him as non-romanceable. All pre-marriage events will be accessible without dating."
+        }
+    },
+    "CustomLocations" : [
+      //emet's outdoor area
+        {
+          "Name": "Custom_EmetSelchCustomNPC_Naples",
+          "FromMapFile": "assets/Maps/Naples.tmx"
+        },
+
+      //emet's house
+        {
+          "Name": "Custom_EmetSelchCustomNPC_House",
+          "FromMapFile": "assets/Maps/Emet_house.tmx"
+        },
+
+        //emet's attic
+        {
+          "Name": "Custom_EmetSelchCustomNPC_Attic",
+          "FromMapFile": "assets/Maps/Emet_house_attic.tmx"
+        },
+
+        //emet's attic (special version oooo)
+        {
+          "Name": "Custom_EmetSelchCustomNPC_Attic_Open",
+          "FromMapFile": "assets/Maps/Emet_house_attic_open.tmx"
+        },
+
+        //mine level for shenanigans
+        {
+          "Name": "Custom_EmetSelchCustomNPC_Mine",
+          "FromMapFile": "assets/Maps/Deep_mine.tmx"
+        },
+
+        //mine level, crystal edition
+        {
+          "Name": "Custom_EmetSelchCustomNPC_Crystal_Mine",
+          "FromMapFile": "assets/Maps/Deep_mine_crystal.tmx"
+        }
+    ],
+
+    "Changes": [
+       //load emet character data
+       {
+         "LogName": "Emet-Selch Character Data",
+         "Action": "Include",
+         "FromFile": "assets/Characters/Emet-Selch_data.json"
+       },
+
+       //load hyth character data
+       {
+         "LogName": "Hythlodaeus Character Data",
+         "Action": "Include",
+         "FromFile": "assets/Characters/Hythlodaeus_data.json"
+       },
+
+       //load path layer-only map edits BEFORE unlocking map/ event 134360003,
+       //otherwise trees n stuff will be in that spot
+       {
+         "LogName": "Emet-Selch Map Changes(before custom area unlock)",
+         "Action": "Include",
+         "FromFile": "assets/Maps/map_edits_noaccess.json",
+         "When": { "HasSeenEvent |contains=134360003": false}
+       },
+
+       //load map edits AFTER Unlocking map
+      {
+         "LogName": "Emet-Selch Map Changes(after custom area unlock)",
+         "Action": "Include",
+         "FromFile": "assets/Maps/map_edits.json",
+         "When": { "HasSeenEvent: anyPlayer": "134360003"}
+      },
+
+      //loads special attic on certain dates. seems to overwrite the attic warps in the normal map_edits just fine, if it's loaded after?
+      {
+        "LogName": "Emet-Selch Map Changes(special dates)",
+        "Action": "Include",
+        "FromFile": "assets/Maps/map_edits_specialdate.json",
+        "When": {
+              "Render:{{season}} {{day}}": "spring 15, winter 21"
+          }
+      },
+
+      //load inspection strings for new maps
+      {
+          "LogName": "Emet-Selch StringsFromMaps edits",
+          "Action": "EditData",
+          "Target": "Strings/StringsFromMaps",
+          "Entries": {
+              "Custom_EmetSelchCustomNPC_House.1": "On the desk is a neat and very tall stack of notes. They appear to mostly be about 'aetheric findings'.",
+              "Custom_EmetSelchCustomNPC_House.2": "These shelves hold many dense-looking tomes.",
+              "Custom_EmetSelchCustomNPC_House.3": "This plant seems to be prospering.",
+              "Custom_EmetSelchCustomNPC_House.4": "This window looks out to the front of the house.",
+              "Custom_EmetSelchCustomNPC_House.5": "Sitting in this chair feels like it would be a lot of work.",
+              "Custom_EmetSelchCustomNPC_Attic.1": "In the box is a board game labeled 'Scurry and Scattergories.'",
+              "Custom_EmetSelchCustomNPC_Attic.2": "Strangely, some invisible force prevents you from touching the chest.",
+              "Custom_EmetSelchCustomNPC_Attic.3": "A very large and ornate sword hangs against the wall.",
+              "Custom_EmetSelchCustomNPC_Attic.4": "A well-worn journal. Each entry is about a different place.",
+              "Custom_EmetSelchCustomNPC_Attic.5": "A locket on a chain. A lock of lavender hair is clipped inside."
+          }
+      },
+
+      //Load spouse room
+      {
+        "LogName": "Emet-Selch register spouse room",
+        "Action": "EditData",
+        "Target": "Data/SpouseRooms",
+        "Entries": {
+            "Emet-Selch": "EmetSelchCustomNPC_SpouseRoom/0"
+        }
+      },
+
+      //load spouse room map
+      {
+        "LogName": "Emet-Selch load spouse room",
+        "Action": "Load",
+        "Target": "Maps/EmetSelchCustomNPC_SpouseRoom",
+        "FromFile": "assets/Maps/Emet_spouseroom.tmx"
+      },
+
+      //register spouse patio
+      {
+        "LogName": "Emet-Selch Register Spouse Patio",
+        "Action": "EditData",
+        "Target": "Data/SpousePatios",
+        "Entries": {
+              "Emet-Selch": "Custom_EmetSelchCustomNPC_OutsideArea/0/40 40 40 40 40 40 40/30 0"
+        }
+      },
+      //load spouse patio
+      {
+        "Action": "Load",
+        "Target": "Maps/Custom_EmetSelchCustomNPC_OutsideArea",
+        "FromFile": "assets/Maps/Emet_spousepatio.tmx"
+      },
+
+      //load Rift sprite
+      {
+        "LogName": "Rift Character Sprite",
+        "Action": "Load",
+        "Target": "Characters/Rift",
+        "FromFile": "assets/Characters/Rift.png"
+      },
+
+      //loads transformed sprite
+      {
+        "LogName": "Emet Transformed Sprite",
+        "Action": "Load",
+        "Target": "Characters/Emet-Selch-Transformed",
+        "FromFile": "assets/Characters/Emet-Selch-Transformed.png"
+      },
+
+      //load Beaft sprite
+      {
+        "LogName": "Creature Character Sprite",
+        "Action": "Load",
+        "Target": "Characters/Beaft",
+        "FromFile": "assets/Characters/Beaft.png"
+      },
+
+
+
+      //add quest for unlocking his house + one sent after two heart event in mine
+      {
+        "LogName": "Emet-Selch add quests",
+        "Action": "EditData",
+        "Target": "Data/Quests",
+        "Entries": {
+            //added in event 134360001, leads to following quest in event 134360003
+            "13436001": "Basic/Dropped Note/Find who dropped the note./It reads: 'While quartz in the local mines may sometimes exhibit aether-absorption qualities and disrupt enchantments, this alone cannot explain the thinning of the local ambient aether'./-1/13436002/0/-1/false",
+            //added in event 134360003, removed in event 134360004
+            "13436002": "Basic/Check on Crystal/Investigate the quartz left in the backwoods path after a time./Leave the quartz overnight./-1/-1/0/-1/false",
+            //started after talking to emet in mines
+            "13436003": "ItemDelivery/Mine Sample/Emet-Selch has tasked you with retrieving a frozen geode./Bring Emet-Selch a frozen geode./Emet-Selch 536 1/-1/500/-1/true/This will do for my analysis. Satisfactory work, farmer.",
+            //sent at eight hearts event
+            "13436004": "ItemDelivery/Deep Mine Sample/Emet-Selch has tasked you with finding crystals of fire quartz./Bring Emet-Selch three fire quartz./Emet-Selch 82 3/-1/2000/-1/true/Well, aren't you surprisingly useful? Good work, farmer."
+        }
+      },
+
+      //Mail data. adds letter for two heart quest and to ask pls, wait for all ten-heart events to play out before marriage. pwetty pwease :(
+      {
+        "LogName": "Emet-Selch mail data",
+        "Action": "EditData",
+        "Target": "Data/Mail",
+        "Entries": {
+          "13436_Emet_2hearts": "Farmer,^ I have need of a frozen geode, and I dislike the colder floors. Fetch one for me. ^ -Emet-Selch %item quest 13436003 %%[#]Emet-Selch's Request",
+          "13436_Emet_quartz": "Farmer,^ I must examine the aetheric density of crystals from deep within the mine. Four samples of fire quartz should do. ^ -Emet-Selch %item quest 13436004 %%[#]Emet-Selch's Next Request",
+          "13436_Emet_8hearts": "Heya,^ thanks for playing the Custom Emet-Selch NPC mod! Congrats on getting his 8-heart event. If you plan to marry him, I'd recommend you wait to propose until after you've seen the remaining four events to experience this mod as intended, and to avoid any unintented mod behavior! A list of events and their conditions can be found on the modpage, or in the events.txt file in the mod folder. And if you happen to know how to set requirements for marrying an NPC.. let me know!^ -ModAuthor %item 517 1%%[#]A Heads-Up",
+          "13436_Emet_14hearts": "@,^ I created some of Hythlodaeus's concepts; they were marked 'the moon and stars, for those that light and guide my way'. They were a tad much for my tastes, but perhaps you'd like them.^ -Emet-Selch %item furniture 1914 %%[#]To My Star",
+          "13436_Emet_14hearts1": "^ ^-Emet-Selch %item furniture 1915 %%[#]To My Star",
+          "13436_Emet_14hearts2": "^ ^-Emet-Selch %item furniture 1916 %%[#]To My Star"
+        }
+      }
+
+
+    ]
+}

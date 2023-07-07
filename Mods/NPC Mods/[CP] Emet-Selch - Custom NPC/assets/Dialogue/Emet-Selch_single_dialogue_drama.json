@@ -1,0 +1,22 @@
+{
+  //no talk him he angy
+
+  //default daily text
+  "Sun": "Cease these visits, @.$6#$b#I did not ask for nor do I desire your presence.$6.",
+  "Mon": "Did I not make myself clear? I wish to be left alone.$6",
+  "Tue": "If you were hoping to catch me in some state of regret, you will be sorely disappointed.$6",
+  "Wed": "...$2",
+  "Thu": "Are you willfully ignoring my ultimatum, or are you just daft?$10",
+  "Fri": "I have work to do. Goodbye.$6",
+  "Sat": "Do you think to win me over with persistence? I assure you, I want nothing more to do with you.$6",
+
+  //specific dates
+  "spring_15": "I'm in no mood for this. Leave.$6",
+  "winter_21": "I'm in no mood for this. Leave.$6",
+
+  //special Dialogue
+  "MovieInvitation": "And *why* would I go anywhere with you?$10",
+  "breakUp": "...$2#$b#It is for the best.$6",
+  "divorced": "Do you truly think I wish to speak with you?$10"
+
+}

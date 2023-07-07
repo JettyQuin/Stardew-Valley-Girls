@@ -1,0 +1,1975 @@
+{
+   "Changes":[
+//load blank
+	{
+		"LogName":"Zoro Dialogue",
+        "Action":"Load",
+        "Target":"Characters/Dialogue/Zoro",
+        "FromFile":"{{blankFile}}"
+	},
+
+///DIALOGUE
+	{
+		"LogName": "Zoro Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/Zoro",
+		"Entries": {
+			"Introduction": "{{i18n:dialogue.introduction}}",
+            "intro_question_fertilizer":"{{i18n:intro_question_fertilizer}}",
+			"intro_question_copperbar":"{{i18n:intro_question_copperbar}}",
+			"intro_question_no":"{{i18n:intro_question_no}}",
+//special dialogue
+			"dumped_Guys": "{{i18n:dialogue.dumped_Guys}}",
+			"secondChance_Guys": "{{i18n:dialogue.secondChance_Guys}}",
+			"pamHouseUpgrade": "{{i18n:dialogue.pamHouseUpgrade}}",
+			"pamHouseUpgradeAnonymous": "{{i18n:dialogue.pamHouseUpgradeAnonymous}}",
+			"divorced": "{{i18n:dialogue.Divorced}}",
+			"danceRejection": "{{i18n:dialogue.danceRejection}}",
+			"breakUp": "{{i18n:dialogue.breakUp}}",
+//movie invitation
+			"MovieInvitation":"{{i18n:dialogue.MovieInvitation}}",
+//misscoriels courtship dialogue
+			"stardrop_gift": "{{i18n:courtship.stardrop_gift}}",
+			"give_flowersA": "{{i18n:courtship.give_flowersA}}",
+			"give_flowersB": "{{i18n:courtship.give_flowersB}}",
+			"give_pendant": "{{i18n:courtship.give_pendant}}",
+			"reject_two_heartA": "{{i18n:courtship.reject_two_heartA}}",
+			"reject_two_heartB": "{{i18n:courtship.reject_two_heartB}}",
+			"reject_four_heartA": "{{i18n:courtship.reject_four_heartA}}",
+			"reject_four_heartB": "{{i18n:courtship.reject_four_heartB}}",
+			"engageA": "{{i18n:courtship.engageA}}",
+			"engageB": "{{i18n:courtship.engageB}}",
+			"marriedA": "{{i18n:courtship.marriedA}}",
+			"marriedB": "{{i18n:courtship.marriedB}}",
+			"refusal_no_heartsA": "{{i18n:courtship.refusal_no_heartsA}}",
+			"refusal_no_heartsB": "{{i18n:courtship.refusal_no_heartsB}}",
+			"refusal_knownA": "{{i18n:courtship.refusal_knownA}}",
+			"refusal_knownB": "{{i18n:courtship.refusal_knownB}}",
+			"refusal_botherA": "{{i18n:courtship.refusal_botherA}}",
+			"refusal_botherB": "{{i18n:courtship.refusal_botherB}}",
+			"rejectNPCA": "{{i18n:courtship.rejectNPCA}}",
+			"rejectNPCB": "{{i18n:courtship.rejectNPCB}}",
+//location coordinate dialogue
+			"BoardingHouse_14_19":"{{i18n:dialogue.BoardingHouse_14_19}}",
+			"BoardingHouse_14_5":"{{i18n:dialogue.BoardingHouse_14_5}}",
+			"BoatHouseCellar_5_4":"{{i18n:dialogue.Custom_EK_BoatHouseCellar_5_4}}",
+			"Custom_EK_BoatHouseCellar_8_4":"{{i18n:dialogue.Custom_EK_BoatHouseCellar_8_4}}",
+			"Custom_EK_ZoroBoatHouse_3_5":"{{i18n:dialogue.Custom_EK_ZoroBoatHouse_3_5}}",
+			"Custom_EK_ZoroBoatHouse_2_5":"{{i18n:dialogue.Custom_EK_ZoroBoatHouse_2_5}}",
+			"Beach_11_39":"{{i18n:dialogue.Beach_11_39}}",
+//getting lost dialogue
+			"Town_29_27": "{{i18n:dialogue.Town_29_27}}",
+			"SeedShop_14_23": "{{i18n:dialogue.SeedShop_14_23}}",
+			"Mountain_56_21": "{{i18n:dialogue.Mountain_56_21}}",
+			"Blacksmith_2_15": "{{i18n:dialogue.Blacksmith_2_15}}",
+			"Forest_12_26": "{{i18n:dialogue.Forest_12_26}}",
+			"AnimalShop_13_16": "{{i18n:dialogue.AnimalShop_13_16}}",
+			"Forest_95_100": "{{i18n:dialogue.Forest_95_100}}",
+			"Hospital_12_14": "{{i18n:dialogue.Hospital_12_14}}",
+//new year dialogue
+			"spring_1_2": "{{i18n:dialogue.spring_1_2}}",
+//saloon dialogue
+			"Saloon_Entry": "{{i18n:dialogue.Saloon_Entry}}",
+			"Saloon_Mon": "{{Random:{{i18n:dialogue.Saloon_Mon.A}}--{{i18n:dialogue.Saloon_Mon.B}}|inputSeparator=--}}" ,
+			"Saloon_Tue": "{{Random:{{i18n:dialogue.Saloon_Tue.A}}--{{i18n:dialogue.Saloon_Tue.B}}|inputSeparator=--}}",
+			"Saloon_Wed": "{{Random:{{i18n:dialogue.Saloon_Wed.A}}--{{i18n:dialogue.Saloon_Wed.B}}|inputSeparator=--}}",
+			"Saloon_Thu": "{{Random:{{i18n:dialogue.Saloon_Thu.A}}--{{i18n:dialogue.Saloon_Thu.B}}|inputSeparator=--}}",
+			"Saloon_Fri": "{{Random:{{i18n:dialogue.Saloon_Fri.A}}--{{i18n:dialogue.Saloon_Fri.B}}|inputSeparator=--}}",
+			"Saloon_Sat": "{{Random:{{i18n:dialogue.Saloon_Sat.A}}--{{i18n:dialogue.Saloon_Sat.B}}|inputSeparator=--}}",
+			"Saloon_Sun": "{{Random:{{i18n:dialogue.Saloon_Sun.A}}--{{i18n:dialogue.Saloon_Sun.B}}|inputSeparator=--}}",
+  
+			"summerSaloon_Mon": "{{Random:{{i18n:dialogue.summerSaloon_Mon.A}}--{{i18n:dialogue.summerSaloon_Mon.B}}|inputSeparator=--}}",
+			"summerSaloon_Tue": "{{Random:{{i18n:dialogue.summerSaloon_Tue.A}}--{{i18n:dialogue.summerSaloon_Tue.B}}|inputSeparator=--}}",
+			"summerSaloon_Wed": "{{Random:{{i18n:dialogue.summerSaloon_Wed.A}}--{{i18n:dialogue.summerSaloon_Wed.B}}|inputSeparator=--}}",
+			"summerSaloon_Thu": "{{Random:{{i18n:dialogue.summerSaloon_Thu.A}}--{{i18n:dialogue.summerSaloon_Thu.B}}|inputSeparator=--}}",
+			"summerSaloon_Fri": "{{Random:{{i18n:dialogue.summerSaloon_Fri.A}}--{{i18n:dialogue.summerSaloon_Fri.B}}|inputSeparator=--}}",
+			"summerSaloon_Sat": "{{Random:{{i18n:dialogue.summerSaloon_Sat.A}}--{{i18n:dialogue.summerSaloon_Sat.B}}|inputSeparator=--}}",
+			"summerSaloon_Sun": "{{Random:{{i18n:dialogue.summerSaloon_Sun.A}}--{{i18n:dialogue.summerSaloon_Sun.B}}|inputSeparator=--}}",
+
+			"fallSaloon_Mon": "{{Random:{{i18n:dialogue.fallSaloon_Mon.A}}--{{i18n:dialogue.fallSaloon_Mon.B}}|inputSeparator=--}}",
+			"fallSaloon_Tue": "{{Random:{{i18n:dialogue.fallSaloon_Tue.A}}--{{i18n:dialogue.fallSaloon_Tue.B}}|inputSeparator=--}}",
+			"fallSaloon_Wed": "{{Random:{{i18n:dialogue.fallSaloon_Wed.A}}--{{i18n:dialogue.fallSaloon_Wed.B}}|inputSeparator=--}}",
+			"fallSaloon_Thu": "{{Random:{{i18n:dialogue.fallSaloon_Thu.A}}--{{i18n:dialogue.fallSaloon_Thu.B}}|inputSeparator=--}}",
+			"fallSaloon_Fri": "{{Random:{{i18n:dialogue.fallSaloon_Fri.A}}--{{i18n:dialogue.fallSaloon_Fri.B}}|inputSeparator=--}}",
+			"fallSaloon_Sat": "{{Random:{{i18n:dialogue.fallSaloon_Sat.A}}--{{i18n:dialogue.fallSaloon_Sat.B}}|inputSeparator=--}}",
+			"fallSaloon_Sun": "{{Random:{{i18n:dialogue.fallSaloon_Sun.A}}--{{i18n:dialogue.fallSaloon_Sun.B}}|inputSeparator=--}}",
+
+			"winterSaloon_Mon": "{{Random:{{i18n:dialogue.winterSaloon_Mon.A}}--{{i18n:dialogue.winterSaloon_Mon.B}}|inputSeparator=--}}",
+			"winterSaloon_Tue": "{{Random:{{i18n:dialogue.winterSaloon_Tue.A}}--{{i18n:dialogue.winterSaloon_Tue.B}}|inputSeparator=--}}",
+			"winterSaloon_Wed": "{{Random:{{i18n:dialogue.winterSaloon_Wed.A}}--{{i18n:dialogue.winterSaloon_Wed.B}}|inputSeparator=--}}",
+			"winterSaloon_Thu": "{{Random:{{i18n:dialogue.winterSaloon_Thu.A}}--{{i18n:dialogue.winterSaloon_Thu.B}}|inputSeparator=--}}",
+			"winterSaloon_Fri": "{{Random:{{i18n:dialogue.winterSaloon_Fri.A}}--{{i18n:dialogue.winterSaloon_Fri.B}}|inputSeparator=--}}",
+			"winterSaloon_Sat": "{{Random:{{i18n:dialogue.winterSaloon_Sat.A}}--{{i18n:dialogue.winterSaloon_Sat.B}}|inputSeparator=--}}",
+			"winterSaloon_Sun": "{{Random:{{i18n:dialogue.winterSaloon_Sun.A}}--{{i18n:dialogue.winterSaloon_sun.B}}|inputSeparator=--}}",
+//bus stop (Zoro passes through the bus stop only if he is living inside the boarding house)
+			"BusStop":"{{i18n:dialogue.BusStop}}",
+			"BusStop2":"{{i18n:dialogue.BusStop2}}",
+			"BusStop4":"{{i18n:dialogue.BusStop4}}",
+			"BusStop6":"{{i18n:dialogue.BusStop6}}",
+			"BusStop8":"{{i18n:dialogue.BusStop8}}",
+			"BusStop10":"{{i18n:dialogue.BusStop10}}",
+//archaeology
+			"ArchaeologyHouse":"{{i18n:dialogue.ArchaeologyHouse}}",
+			"ArchaeologyHouse2":"{{i18n:dialogue.ArchaeologyHouse2}}",
+			"ArchaeologyHouse6":"{{i18n:dialogue.ArchaeologyHouse6}}",
+			"ArchaeologyHouse4":"{{i18n:dialogue.ArchaeologyHouse4}}",
+			"ArchaeologyHouse10":"{{i18n:dialogue.ArchaeologyHouse10}}",
+			"ArchaeologyHouse8":"{{i18n:dialogue.ArchaeologyHouse8}}",
+//forest (Zoro enters the forest only during fall and winter season)
+			"Forest":"{{i18n:dialogue.Forest}}",
+			"Forest2":"{{i18n:dialogue.Forest2}}",
+			"Forest4":"{{i18n:dialogue.Forest4}}",
+			"Forest6":"{{i18n:dialogue.Forest6}}",
+			"Forest8":"{{i18n:dialogue.Forest8}}",
+			"Forest10":"{{i18n:dialogue.Forest10}}",
+//resort 
+			"Resort_Entering": "{{i18n:dialogue.Resort_Entering}}",
+			"Resort_Leaving": "{{i18n:dialogue.Resort_Leaving}}",
+			"Resort_Shore": "{{i18n:dialogue.Resort_Shore}}",
+			"Resort_Umbrella": "{{i18n:dialogue.Resort_Umbrella}}",
+			"Resort_Wander": "{{i18n:dialogue.Resort_Wander}}",
+			"Resort_Bar": "{{i18n:dialogue.Resort_Bar}}",
+			"Resort": "{{i18n:dialogue.Resort}}",
+//spring question 
+			"spring_19": "{{i18n:dialogue.spring_19}}",
+			"fishing_question_yes":"{{i18n:fishing_question_yes}}",
+			"fishing_question_no":"{{i18n:fishing_question_no}}",
+			"fishing_question_busy":"{{i18n:fishing_question_busy}}",
+			"fishing_question":"{{i18n:fishing_question}}",
+
+//spring dialogue
+			"spring_10": "{{i18n:dialogue.spring_10}}",
+			"spring_12": "{{i18n:dialogue.spring_12}}",
+			"spring_22": "{{i18n:dialogue.spring_22}}",
+
+			"spring_Mon": "{{i18n:dialogue.spring_Mon}}",
+			"spring_Mon2": "{{i18n:dialogue.spring_Mon2}}",
+			"spring_Mon4": "{{i18n:dialogue.spring_Mon4}}",
+			"spring_Mon6": "{{i18n:dialogue.spring_Mon6}}",
+			"spring_Mon8": "{{i18n:dialogue.spring_Mon8}}",
+			"spring_Mon10": "{{i18n:dialogue.spring_Mon10}}",
+ 
+			"spring_Tue": "{{i18n:dialogue.spring_Tue}}",
+			"spring_Tue2": "{{i18n:dialogue.spring_Tue2}}",
+			"spring_Tue4": "{{i18n:dialogue.spring_Tue4}}",
+			"spring_Tue6": "{{i18n:dialogue.spring_Tue6}}",
+			"spring_Tue8": "{{i18n:dialogue.spring_Tue8}}",
+			"spring_Tue10": "{{i18n:dialogue.spring_Tue10}}",
+
+			"spring_Wed": "{{i18n:dialogue.spring_Wed}}",
+			"spring_Wed2": "{{i18n:dialogue.spring_Wed2}}",
+			"spring_Wed4": "{{i18n:dialogue.spring_Wed4}}",
+			"spring_Wed6": "{{i18n:dialogue.spring_Wed6}}",
+			"spring_Wed8": "{{i18n:dialogue.spring_Wed8}}",
+			"spring_Wed10": "{{i18n:dialogue.spring_Wed10}}",
+
+			"spring_Thu": "{{i18n:dialogue.spring_Thu}}",
+			"spring_Thu2": "{{i18n:dialogue.spring_Thu2}}",
+			"spring_Thu4": "{{i18n:dialogue.spring_Thu4}}",
+			"spring_Thu6": "{{i18n:dialogue.spring_Thu6}}",
+			"spring_Thu8": "{{i18n:dialogue.spring_Thu8}}",
+			"spring_Thu10": "{{i18n:dialogue.spring_Thu10}}",
+
+			"spring_Fri": "{{i18n:dialogue.spring_Fri}}",
+			"spring_Fri2": "{{i18n:dialogue.spring_Fri2}}",
+			"spring_Fri4": "{{i18n:dialogue.spring_Fri4}}",
+			"spring_Fri6": "{{i18n:dialogue.spring_Fri6}}",
+			"spring_Fri8": "{{i18n:dialogue.spring_Fri8}}",
+			"spring_Fri10": "{{i18n:dialogue.spring_Fri10}}",
+
+			"spring_Sat": "{{i18n:dialogue.spring_Sat}}",
+			"spring_Sat2": "{{i18n:dialogue.spring_Sat2}}",
+			"spring_Sat4": "{{i18n:dialogue.spring_Sat4}}",
+			"spring_Sat6": "{{i18n:dialogue.spring_Sat6}}",
+			"spring_Sat8": "{{i18n:dialogue.spring_Sat8}}",
+			"spring_Sat10": "{{i18n:dialogue.spring_Sat10}}",
+
+			"spring_Sun": "{{i18n:dialogue.spring_Sun}}",
+			"spring_Sun2": "{{i18n:dialogue.spring_Sun2}}",
+			"spring_Sun4": "{{i18n:dialogue.spring_Sun4}}",
+			"spring_Sun6": "{{i18n:dialogue.spring_Sun6}}",
+			"spring_Sun8": "{{i18n:dialogue.spring_Sun8}}",
+			"spring_Sun10": "{{i18n:dialogue.spring_Sun10}}",
+//summer question
+			"summer_27": "{{i18n:dialogue.summer_27}}",
+			"fun_question_sports": "{{i18n:fun_question_sports}}",
+			"fun_question_music": "{{i18n:fun_question_music}}",
+			"fun_question_vegan": "{{i18n:fun_question_vegan}}",
+			"fun_question_games": "{{i18n:fun_question_games}}",
+			"fun_question_dance": "{{i18n:fun_question_dance}}",
+			"fun_question_anime": "{{i18n:fun_question_anime}}",
+			"fun_question_fashion": "{{i18n:fun_question_fashion}}",
+			"fun_question_books": "{{i18n:fun_question_books}}",
+			"fun_question_drawing": "{{i18n:fun_question_drawing}}",
+			"fun_question_you": "{{i18n:fun_question_you}}",
+			"fun_question_nothing": "{{i18n:fun_question_nothing}}",
+			"fun_question": "{{i18n:fun_question}}",
+
+//summer dialogue
+			"summer_5": "{{i18n:dialogue.summer_5}}",
+			"summer_10": "{{i18n:dialogue.summer_10}}",
+			"summer_23": "{{i18n:dialogue.summer_23}}",
+
+			"summer_Mon": "{{i18n:dialogue.summer_Mon}}",
+			"summer_Mon2": "{{i18n:dialogue.summer_Mon2}}",
+			"summer_Mon4": "{{i18n:dialogue.summer_Mon4}}",
+			"summer_Mon6": "{{i18n:dialogue.summer_Mon6}}",
+			"summer_Mon8": "{{i18n:dialogue.summer_Mon8}}",
+			"summer_Mon10": "{{i18n:dialogue.summer_Mon10}}",
+
+			"summer_Tue": "{{i18n:dialogue.summer_Tue}}",
+			"summer_Tue2": "{{i18n:dialogue.summer_Tue2}}", 
+			"summer_Tue4": "{{i18n:dialogue.summer_Tue4}}",
+			"summer_Tue6": "{{i18n:dialogue.summer_Tue6}}",
+			"summer_Tue8": "{{i18n:dialogue.summer_Tue8}}",
+			"summer_Tue10": "{{i18n:dialogue.summer_Tue10}}",
+
+			"summer_Wed": "{{i18n:dialogue.summer_Wed}}",
+			"summer_Wed2": "{{i18n:dialogue.summer_Wed2}}",
+			"summer_Wed4": "{{i18n:dialogue.summer_Wed4}}",
+			"summer_Wed6": "{{i18n:dialogue.summer_Wed6}}",
+			"summer_Wed8": "{{i18n:dialogue.summer_Wed8}}",
+			"summer_Wed10": "{{i18n:dialogue.summer_Wed10}}",
+
+			"summer_Thu": "{{i18n:dialogue.summer_Thu}}",
+			"summer_Thu2": "{{i18n:dialogue.summer_Thu2}}",
+			"summer_Thu4": "{{i18n:dialogue.summer_Thu4}}",
+			"summer_Thu6": "{{i18n:dialogue.summer_Thu6}}",
+			"summer_Thu8": "{{i18n:dialogue.summer_Thu8}}",
+			"summer_Thu10": "{{i18n:dialogue.summer_Thu10}}",
+
+			"summer_Fri": "{{i18n:dialogue.summer_Fri}}",
+			"summer_Fri2": "{{i18n:dialogue.summer_Fri2}}",
+			"summer_Fri4": "{{i18n:dialogue.summer_Fri4}}",
+			"summer_Fri6": "{{i18n:dialogue.summer_Fri6}}",
+			"summer_Fri8": "{{i18n:dialogue.summer_Fri8}}",
+			"summer_Fri10": "{{i18n:dialogue.summer_Fri10}}",
+
+			"summer_Sat": "{{i18n:dialogue.summer_Sat}}",
+			"summer_Sat2": "{{i18n:dialogue.summer_Sat2}}",
+			"summer_Sat4": "{{i18n:dialogue.summer_Sat4}}",
+			"summer_Sat6": "{{i18n:dialogue.summer_Sat6}}",
+			"summer_Sat8": "{{i18n:dialogue.summer_Sat8}}",
+			"summer_Sat10": "{{i18n:dialogue.summer_Sat10}}",
+
+			"summer_Sun": "{{i18n:dialogue.summer_Sun}}",
+			"summer_Sun2": "{{i18n:dialogue.summer_Sun2}}",
+			"summer_Sun4": "{{i18n:dialogue.summer_Sun4}}",
+			"summer_Sun6": "{{i18n:dialogue.summer_Sun6}}",
+			"summer_Sun8": "{{i18n:dialogue.summer_Sun8}}",
+			"summer_Sun10": "{{i18n:dialogue.summer_Sun10}}",
+//fall question
+			"fall_12_1": "{{i18n:dialogue.fall_12_1}}",
+			"like_question_yes": "{{i18n:like_question_yes}}",
+			"like_question_no": "{{i18n:like_question_no}}",
+			"like_question_yesyou":"{{i18n:like_question_yesyou}}",
+			"like_question_notyou": "{{i18n:like_question_notyou}}",
+			"like_question":"{{i18n:like_question}}",
+
+//fall dialogue
+			"fall_15": "{{i18n:dialogue.fall_15}}",
+			"fall_26": "{{i18n:dialogue.fall_26}}",
+
+			"fall_Mon": "{{i18n:dialogue.fall_Mon}}",
+			"fall_Mon2": "{{i18n:dialogue.fall_Mon2}}",
+			"fall_Mon4": "{{i18n:dialogue.fall_Mon4}}",
+			"fall_Mon6": "{{i18n:dialogue.fall_Mon6}}",
+			"fall_Mon8": "{{i18n:dialogue.fall_Mon8}}",
+			"fall_Mon10": "{{i18n:dialogue.fall_Mon10}}",
+
+			"fall_Tue": "{{i18n:dialogue.fall_Tue}}",
+			"fall_Tue2": "{{i18n:dialogue.fall_Tue2}}",
+			"fall_Tue4": "{{i18n:dialogue.fall_Tue4}}",
+			"fall_Tue6": "{{i18n:dialogue.fall_Tue6}}",
+			"fall_Tue8": "{{i18n:dialogue.fall_Tue8}}",
+			"fall_Tue10": "{{i18n:dialogue.fall_Tue10}}",
+
+			"fall_Wed": "{{i18n:dialogue.fall_Wed}}",
+			"fall_Wed2": "{{i18n:dialogue.fall_Wed2}}",
+			"fall_Wed4": "{{i18n:dialogue.fall_Wed4}}",
+			"fall_Wed6": "{{i18n:dialogue.fall_Wed6}}",
+			"fall_Wed8": "{{i18n:dialogue.fall_Wed8}}",
+			"fall_Wed10": "{{i18n:dialogue.fall_Wed10}}",
+
+			"fall_Thu": "{{i18n:dialogue.fall_Thu}}",
+			"fall_Thu2": "{{i18n:dialogue.fall_Thu2}}",
+			"fall_Thu4": "{{i18n:dialogue.fall_Thu4}}",
+			"fall_Thu6": "{{i18n:dialogue.fall_Thu6}}",
+			"fall_Thu8": "{{i18n:dialogue.fall_Thu8}}",
+			"fall_Thu10": "{{i18n:dialogue.fall_Thu10}}",
+
+			"fall_Fri": "{{i18n:dialogue.fall_Fri}}",
+			"fall_Fri2": "{{i18n:dialogue.fall_Fri2}}",
+			"fall_Fri4": "{{i18n:dialogue.fall_Fri4}}",
+			"fall_Fri6": "{{i18n:dialogue.fall_Fri6}}",
+			"fall_Fri8": "{{i18n:dialogue.fall_Fri8}}",
+			"fall_Fri10": "{{i18n:dialogue.fall_Fri10}}",
+
+			"fall_Sat": "{{i18n:dialogue.fall_Sat}}",
+			"fall_Sat2": "{{i18n:dialogue.fall_Sat2}}",
+			"fall_Sat4": "{{i18n:dialogue.fall_Sat4}}",
+			"fall_Sat6": "{{i18n:dialogue.fall_Sat6}}",
+			"fall_Sat8": "{{i18n:dialogue.fall_Sat8}}",
+			"fall_Sat10": "{{i18n:dialogue.fall_Sat10}}",
+
+			"fall_Sun": "{{i18n:dialogue.fall_Sun}}",
+			"fall_Sun2": "{{i18n:dialogue.fall_Sun2}}",
+			"fall_Sun4": "{{i18n:dialogue.fall_Sun4}}",
+			"fall_Sun6": "{{i18n:dialogue.fall_Sun6}}",
+			"fall_Sun8": "{{i18n:dialogue.fall_Sun8}}",
+			"fall_Sun10": "{{i18n:dialogue.fall_Sun10}}",
+//winter question
+			"winter_19": "{{i18n:dialogue.winter_19}}",
+			"gift_question_nottelling": "{{i18n:gift_question_nottelling}}",
+			"gift_question_you": "{{i18n:gift_question_you}}",
+			"gift_question_notyou": "{{i18n:gift_question_notyou}}",
+			"gift_question": "{{i18n:gift_question}}",
+
+//winter dialogue
+			"winter_6": "{{i18n:dialogue.winter_6}}",
+			"winter_9":"{{i18n:dialogue.winter_9}}",
+			"winter_14": "{{i18n:dialogue.winter_14}}",
+			"winter_24":"{{i18n:dialogue.winter_24}}",
+			"winter_28":"{{i18n:dialogue.winter_28}}",
+
+			"winter_Mon": "{{i18n:dialogue.winter_Mon}}",
+			"winter_Mon2": "{{i18n:dialogue.winter_Mon2}}",
+			"winter_Mon4": "{{i18n:dialogue.winter_Mon4}}",
+			"winter_Mon6": "{{i18n:dialogue.winter_Mon6}}",
+			"winter_Mon8": "{{i18n:dialogue.winter_Mon8}}",
+			"winter_Mon10": "{{i18n:dialogue.winter_Mon10}}",
+
+			"winter_Tue": "{{i18n:dialogue.winter_Tue}}",
+			"winter_Tue2": "{{i18n:dialogue.winter_Tue2}}",
+			"winter_Tue4": "{{i18n:dialogue.winter_Tue4}}",
+			"winter_Tue6": "{{i18n:dialogue.winter_Tue6}}",
+			"winter_Tue8": "{{i18n:dialogue.winter_Tue8}}",
+			"winter_Tue10": "{{i18n:dialogue.winter_Tue10}}",
+
+			"winter_Wed": "{{i18n:dialogue.winter_Wed}}",
+			"winter_Wed2": "{{i18n:dialogue.winter_Wed2}}",
+			"winter_Wed4": "{{i18n:dialogue.winter_Wed4}}",
+			"winter_Wed6": "{{i18n:dialogue.winter_Wed6}}",
+			"winter_Wed8": "{{i18n:dialogue.winter_Wed8}}",
+			"winter_Wed10": "{{i18n:dialogue.winter_Wed10}}",
+
+			"winter_Thu": "{{i18n:dialogue.winter_Thu}}",
+			"winter_Thu2": "{{i18n:dialogue.winter_Thu2}}",
+			"winter_Thu4": "{{i18n:dialogue.winter_Thu4}}",
+			"winter_Thu6": "{{i18n:dialogue.winter_Thu6}}",
+			"winter_Thu8": "{{i18n:dialogue.winter_Thu8}}",
+			"winter_Thu10": "{{i18n:dialogue.winter_Thu10}}",
+
+			"winter_Fri": "{{i18n:dialogue.winter_Fri}}",
+			"winter_Fri2": "{{i18n:dialogue.winter_Fri2}}",
+			"winter_Fri4": "{{i18n:dialogue.winter_Fri4}}",
+			"winter_Fri6": "{{i18n:dialogue.winter_Fri6}}",
+			"winter_Fri8": "{{i18n:dialogue.winter_Fri8}}",
+			"winter_Fri10": "{{i18n:dialogue.winter_Fri10}}",
+
+			"winter_Sat": "{{i18n:dialogue.winter_Sat}}",
+			"winter_Sat2": "{{i18n:dialogue.winter_Sat2}}",
+			"winter_Sat4": "{{i18n:dialogue.winter_Sat4}}",
+			"winter_Sat6": "{{i18n:dialogue.winter_Sat6}}",
+			"winter_Sat8": "{{i18n:dialogue.winter_Sat8}}",
+			"winter_Sat10": "{{i18n:dialogue.winter_Sat10}}",
+
+			"winter_Sun": "{{i18n:dialogue.winter_Sun}}",
+			"winter_Sun2": "{{i18n:dialogue.winter_Sun2}}",
+			"winter_Sun4": "{{i18n:dialogue.winter_Sun4}}",
+			"winter_Sun6": "{{i18n:dialogue.winter_Sun6}}",
+			"winter_Sun8": "{{i18n:dialogue.winter_Sun8}}",
+			"winter_Sun10": "{{i18n:dialogue.winter_Sun10}}",
+
+//10 heart event dialogue response
+			"Answer_Yes":"{{i18n:10heart.Answer_Yes}}",
+			"Answer_No":"{{i18n:10heart.Answer_No}}"
+	}
+	},
+
+///ENGAGEMENT DIALOGUE
+	{
+		"LogName": "Engagement Dialogue",
+		"Action": "EditData",
+		"Target": "Data/EngagementDialogue",
+		"Entries": {
+			"Zoro0": "{{i18n:engagement.0}}",
+			"Zoro1": "{{i18n:engagement.1}}"
+	}
+	},
+
+///WEDDING DIALOGUE
+	{
+		"LogName": "Zoro Wedding dialogue",
+		"Action": "EditData",
+		"Target": "strings/StringsFromCSFiles",
+		"Entries": {
+			"Utility.cs.5371": "{{i18n:marriage.Utility.cs.5371}}",
+			"Utility.cs.5377": "{{i18n:marriage.Utility.cs.5377}}",
+			"Utility.cs.5367": "{{i18n:marriage.Utility.cs.5367}}",
+			"Utility.cs.5369": "{{i18n:marriage.Utility.cs.5369}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Engaged, Married"
+	}
+	},
+
+//load blank
+	{ 
+		"LogName": "Zoro Marriage Dialogue",
+		"Action": "Load",
+		"Target": "Characters/Dialogue/MarriageDialogueZoro",
+		"FromFile": "{{blankFile}}"
+	},
+
+///MARRIAGE DIALOGUE
+	{
+		"LogName": "Zoro Marriage Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueZoro",
+		"Entries": {
+//special dialogue
+			"spouseRoom_Zoro": "{{Random:{{i18n:marriage.spouseRoom_Zoro.A}}--{{i18n:marriage.spouseRoom_Zoro.B}}--{{i18n:marriage.spouseRoom_Zoro.C}}--{{i18n:marriage.spouseRoom_Zoro.D}}--{{i18n:marriage.spouseRoom_Zoro.E}}--{{i18n:marriage.spouseRoom_Zoro.F}}--{{i18n:marriage.spouseRoom_Zoro.G}}|inputSeparator=--}}",
+			"funLeave_Zoro": "{{Random:{{i18n:marriage.funLeave_Zoro.A}}--{{i18n:marriage.funLeave_Zoro.B}}|inputSeparator=--}}",
+			"funReturn_Zoro": "{{Random:{{i18n:marriage.funReturn_Zoro.A}}--{{i18n:marriage.funReturn_Zoro.B}}|inputSeparator=--}}",
+			"OneKid_0": "{{i18n:marriage.OneKid_0}}",
+			"OneKid_1": "{{i18n:marriage.OneKid_1}}",
+			"OneKid_2": "{{i18n:marriage.OneKid_2}}",
+			"OneKid_3": "{{i18n:marriage.OneKid_3}}",
+			"OneKid_4": "{{i18n:marriage.OneKid_4}}",
+			"TwoKids_0": "{{i18n:marriage.TwoKids_0}}",
+			"TwoKids_1": "{{i18n:marriage.TwoKids_1}}",
+			"TwoKids_2": "{{i18n:marriage.TwoKids_2}}",
+			"TwoKids_3": "{{i18n:marriage.TwoKids_3}}",
+			"TwoKids_4": "{{i18n:marriage.TwoKids_4}}",
+//day dialogue
+			"Indoor_Day_Zoro": "{{i18n:marriage.Indoor_Day_Zoro}}",
+			"Indoor_Day_0": "{{i18n:marriage.Indoor_Day_0}}",
+			"Indoor_Day_1": "{{i18n:marriage.Indoor_Day_1}}",
+			"Indoor_Day_2": "{{i18n:marriage.Indoor_Day_2}}",
+			"Indoor_Day_3": "{{i18n:marriage.Indoor_Day_3}}",
+			"Indoor_Day_4": "{{i18n:marriage.Indoor_Day_4}}",
+			"Outdoor_Zoro": "{{i18n:marriage.Outdoor_Zoro}}",
+			"Outdoor_0": "{{i18n:marriage.Outdoor_0}}",
+			"Outdoor_1": "{{i18n:marriage.Outdoor_1}}",
+			"Outdoor_2": "{{i18n:marriage.Outdoor_2}}",
+			"Outdoor_3": "{{i18n:marriage.Outdoor_3}}",
+			"Outdoor_4": "{{i18n:marriage.Outdoor_4}}",
+			"Rainy_Day_0": "{{i18n:marriage.Rainy_Day_0}}",
+			"Rainy_Day_1": "{{i18n:marriage.Rainy_Day_1}}",
+			"Rainy_Day_2": "{{i18n:marriage.Rainy_Day_2}}",
+			"Rainy_Day_3": "{{i18n:marriage.Rainy_Day_3}}",
+			"Rainy_Day_4": "{{i18n:marriage.Rainy_Day_4}}",
+//night dialogue
+			"Indoor_Night_Zoro": "{{i18n:marriage.Indoor_Night_Zoro}}",
+			"Indoor_Night_0": "{{i18n:marriage.Indoor_Night_0}}",
+			"Indoor_Night_1": "{{i18n:marriage.Indoor_Night_1}}",
+			"Indoor_Night_2": "{{i18n:marriage.Indoor_Night_2}}",
+			"Indoor_Night_3": "{{i18n:marriage.Indoor_Night_3}}",
+			"Rainy_Night_Zoro": "{{i18n:marriage.Rainy_Night_Zoro}}",
+			"Rainy_Night_0": "{{i18n:marriage.Rainy_Night_0}}",
+			"Rainy_Night_1": "{{i18n:marriage.Rainy_Night_1}}",
+			"Rainy_Night_2": "{{i18n:marriage.Rainy_Night_2}}",
+			"Rainy_Night_3": "{{i18n:marriage.Rainy_Night_3}}",
+			"Rainy_Night_4": "{{i18n:marriage.Rainy_Night_4}}",
+//affection dialogue
+			"Good_0": "{{i18n:marriage.Good_0}}",
+			"Good_1": "{{i18n:marriage.Good_1}}",
+			"Good_2": "{{i18n:marriage.Good_2}}",
+			"Good_3": "{{i18n:marriage.Good_3}}",
+			"Good_4": "{{i18n:marriage.Good_4}}",
+			"Good_5": "{{i18n:marriage.Good_5}}",
+			"Good_6": "{{i18n:marriage.Good_6}}",
+			"Good_7": "{{i18n:marriage.Good_7}}",
+			"Good_8": "{{i18n:marriage.Good_8}}",
+			"Good_9": "{{i18n:marriage.Good_9}}",
+			"Neutral_0": "{{i18n:marriage.Neutral_0}}",
+			"Neutral_1": "{{i18n:marriage.Neutral_1}}",
+			"Neutral_2": "{{i18n:marriage.Neutral_2}}",
+			"Neutral_3": "{{i18n:marriage.Neutral_3}}",
+			"Neutral_4": "{{i18n:marriage.Neutral_4}}",
+			"Neutral_5": "{{i18n:marriage.Neutral_5}}",
+			"Neutral_6": "{{i18n:marriage.Neutral_6}}",
+			"Neutral_7": "{{i18n:marriage.Neutral_7}}",
+			"Neutral_8": "{{i18n:marriage.Neutral_8}}",
+			"Neutral_9": "{{i18n:marriage.Neutral_9}}",
+			"Bad_0": "{{i18n:marriage.Bad_0}}",
+			"Bad_1": "{{i18n:marriage.Bad_1}}",
+			"Bad_2": "{{i18n:marriage.Bad_2}}",
+			"Bad_3": "{{i18n:marriage.Bad_3}}",
+			"Bad_4": "{{i18n:marriage.Bad_4}}",
+			"Bad_5": "{{i18n:marriage.Bad_5}}",
+			"Bad_6": "{{i18n:marriage.Bad_6}}",
+			"Bad_7": "{{i18n:marriage.Bad_7}}",
+			"Bad_8": "{{i18n:marriage.Bad_8}}",
+			"Bad_9": "{{i18n:marriage.Bad_9}}",
+///seasonal marriage dialogue
+//spring
+			"spring_Zoro": "{{i18n:marriage.spring_Zoro}}",
+			"spring_1": "{{i18n:marriage.spring_1}}",
+			"spring_13": "{{i18n:marriage.spring_13}}",
+			"spring_24": "{{i18n:marriage.spring_24}}",
+			"spring_25":"{{i18n:marriage.spring_25}}",
+
+//summer
+			"summer_Zoro": "{{i18n:marriage.summer_Zoro}}",
+			"summer_1": "{{i18n:marriage.summer_1}}",
+			"summer_11": "{{i18n:marriage.summer_11}}",
+			"summer_27":"{{i18n:marriage.summer_27}}",
+			"summer_28": "{{i18n:marriage.summer_28}}",
+
+//fall
+			"fall_Zoro": "{{i18n:marriage.fall_Zoro}}",
+			"fall_1": "{{i18n:marriage.fall_1}}",
+			"fall_16": "{{i18n:marriage.fall_16}}",
+			"fall_26": "{{i18n:marriage.fall_26}}",
+			"fall_28":"{{i18n:marriage.fall_28}}",
+
+//winter
+			"winter_Zoro": "{{i18n:marriage.winter_Zoro}}",
+			"winter_1": "{{i18n:marriage.winter_1}}",
+			"winter_8": "{{i18n:marriage.winter_8}}",
+			"winter_9":"{{i18n:marriage.winter_9}}",
+			"winter_14": "{{i18n:marriage.winter_14}}",
+			"winter_24":"{{i18n:marriage.winter_24}}",
+			"winter_25": "{{i18n:marriage.winter_25}}",
+			"winter_28":"{{i18n:marriage.winter_28}}"
+	}
+	},
+///FUN LEAVE & FUN RETURN
+//dialogue for work
+	{
+		"LogName": "Zoro Marriage Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueZoro",
+		"Entries": {
+			"funLeave_Zoro": "{{Random:{{i18n:marriage.funLeave2_Zoro.A}}--{{i18n:marriage.funLeave2_Zoro.B}}--{{i18n:marriage.funLeave2_Zoro.C}}|inputSeparator=--}}",
+			"funReturn_Zoro": "{{Random:{{i18n:marriage.funReturn2_Zoro.A}}--{{i18n:marriage.funReturn2_Zoro.B}}--{{i18n:marriage.funReturn2_Zoro.C}}|inputSeparator=--}}"
+	},
+		"When": {
+			"DayOfWeek": "Monday, Friday"
+	}
+
+	},
+
+//dialogue for errand day
+	{
+		"LogName": "Zoro Marriage Dialogue",
+		"Action": "EditData",
+		"Target": "Characters/Dialogue/MarriageDialogueZoro",
+		"Entries": {
+			"funLeave_Zoro": "{{i18n:marriage.funLeave3_Zoro}}",
+			"funReturn_Zoro": "{{i18n:marriage.funReturn3_Zoro}}"
+	},
+		"When": {
+			"DayOfWeek": "Wednesday"
+	}
+
+	},
+
+///FESTIVAL DIALOGUE 
+//(outdated method that doesn't use dynamic randomised dialogue)
+//	{
+//		"LogName": "Zoro Festival Dialogue",
+//		"Action": "EditData",
+//		"Target": "Data/Festivals/spring13, Data/Festivals/spring24, Data/Festivals/summer11, Data/Festivals/summer28, Data/Festivals/fall3, Data/Festivals/fall1, Data/Festivals/fall16, Data/Festivals/fall27, Data/Festivals/fall20, Data/Festivals/winter8, Data/Festivals/winter25, Data/Festivals/winter28",
+//		"Entries": {
+//			"Zoro": "{{i18n:{{TargetWithoutPath}}.{{Relationship:Zoro}} |default={{i18n:{{TargetWithoutPath}} |default={{i18n:festival-default}} }} }}"
+//	}
+//	},
+
+///EGG FESTIVAL
+//UNMET
+	{
+		"LogName": "Egg Festival Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring13.A}}--{{i18n:spring13.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Egg Festival Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring13.friendly.A}}--{{i18n:spring13.friendly.B}}--{{i18n:spring13.friendly.C}}--{{i18n:spring13.friendly.D}}--{{i18n:spring13.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Egg Festival Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring13.dating.A}}--{{i18n:spring13.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Egg Festival Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring13.married.A}}--{{i18n:spring13.married.B}}--{{i18n:spring13.married.C}}--{{i18n:spring13.friendly.D}}--{{i18n:spring13.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Egg Festival Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring13.divorced.A}}--{{i18n:spring13.divorced.B}}--{{i18n:spring13.divorced.C}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///FLOWER DANCE
+//UNMET
+	{
+		"LogName": "Flower Dance Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring24.A}}--{{i18n:spring24.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Flower Dance Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring24.friendly.A}}--{{i18n:spring24.friendly.B}}--{{i18n:spring24.friendly.C}}--{{i18n:spring24.friendly.D}}--{{i18n:spring24.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Flower Dance Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring24.dating.A}}--{{i18n:spring24.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Flower Dance Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring24.married.A}}--{{i18n:spring24.married.B}}--{{i18n:spring24.married.C}}--{{i18n:spring24.married.D}}--{{i18n:spring24.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Flower Dance Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/spring24",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:spring24.divorced.A}}--{{i18n:spring24.divorced.B}}--{{i18n:spring24.divorced.C}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///LUAU
+//UNMET
+	{
+		"LogName": "Luau Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer11.A}}--{{i18n:summer11.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Luau Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer11.friendly.A}}--{{i18n:summer11.friendly.B}}--{{i18n:summer11.friendly.C}}--{{i18n:summer11.friendly.D}}--{{i18n:summer11.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Luau Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer11.dating.A}}--{{i18n:summer11.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Luau Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer11.married.A}}--{{i18n:summer11.married.B}}--{{i18n:summer11.married.C}}--{{i18n:summer11.married.D}}--{{i18n:summer11.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Luau Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer11",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer11.divorced.A}}--{{i18n:summer11.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///DANCE OF THE MOONLIGHT JELLIES
+//UNMET
+	{
+		"LogName": "Dance of the Moonlight Jeliies Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer28.A}}--{{i18n:summer28.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Dance of the Moonlight Jeliies Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer28.friendly.A}}--{{i18n:summer28.friendly.B}}--{{i18n:summer28.friendly.C}}--{{i18n:summer28.friendly.D}}--{{i18n:summer28.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Dance of the Moonlight Jeliies Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer28.dating.A}}--{{i18n:summer28.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Dance of the Moonlight Jeliies Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer28.married.A}}--{{i18n:summer28.married.B}}--{{i18n:summer28.married.C}}--{{i18n:summer28.married.D}}--{{i18n:summer28.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Dance of the Moonlight Jeliies Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/summer28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:summer28.divorced.A}}--{{i18n:summer28.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///MARKETPALOOZA (Nikolai NPC mod)
+//UNMET
+	{
+		"LogName": "Marketpalooza Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall13.A}}--{{i18n:fall13.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Marketpalooza Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall13.friendly.A}}--{{i18n:fall13.friendly.B}}--{{i18n:fall13.friendly.C}}--{{i18n:fall13.friendly.D}}--{{i18n:fall13.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Marketpalooza Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall13.dating.A}}--{{i18n:fall13.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Marketpalooza Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall13.married.A}}--{{i18n:fall13.married.B}}--{{i18n:fall13.married.C}}--{{i18n:fall13.married.D}}--{{i18n:fall13.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Marketpalooza Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall13",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall13.divorced.A}}--{{i18n:fall13.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///STARDEW VALLEY FAIR
+//UNMET
+	{
+		"LogName": "Stardew Valley Fair Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall16.A}}--{{i18n:fall16.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Stardew Valley Fair Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall16.friendly.A}}--{{i18n:fall16.friendly.B}}--{{i18n:fall16.friendly.C}}--{{i18n:fall16.friendly.D}}--{{i18n:fall16.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Stardew Valley Fair Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall16.dating.A}}--{{i18n:fall16.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Stardew Valley Fair Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall16.married.A}}--{{i18n:fall16.married.B}}--{{i18n:fall16.married.C}}--{{i18n:fall16.married.D}}--{{i18n:fall16.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Stardew Valley Fair Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall16",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall16.divorced.A}}--{{i18n:fall16.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///RIDGESIDE VILLAGE GATHERING (RSV mod)
+//UNMET
+	{
+		"LogName": "Ridgeside Village Gathering Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall20.A}}--{{i18n:fall20.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Ridgeside Village Gathering Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall20.friendly.A}}--{{i18n:fall20.friendly.B}}--{{i18n:fall20.friendly.C}}--{{i18n:fall20.friendly.D}}--{{i18n:fall20.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Ridgeside Village Gathering Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall20.dating.A}}--{{i18n:fall20.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Ridgeside Village Gathering Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall20.married.A}}--{{i18n:fall20.married.B}}--{{i18n:fall20.married.C}}--{{i18n:fall20.married.D}}--{{i18n:fall20.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Ridgeside Village Gathering Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall20",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall20.divorced.A}}--{{i18n:fall20.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///SPIRITS EVE
+//UNMET
+	{
+		"LogName": "Spirits Eve Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall27.A}}--{{i18n:fall27.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Spirits Eve Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall27.friendly.A}}--{{i18n:fall27.friendly.B}}--{{i18n:fall27.friendly.C}}--{{i18n:fall27.friendly.D}}--{{i18n:fall27.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Spirits Eve Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall27.dating.A}}--{{i18n:fall27.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Spirits Eve Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall27.married.A}}--{{i18n:fall27.married.B}}--{{i18n:fall27.married.C}}--{{i18n:fall27.married.D}}--{{i18n:fall27.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Spirits Eve Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/fall27",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:fall27.divorced.A}}--{{i18n:fall27.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///FESTIVAL OF ICE
+//UNMET
+	{
+		"LogName": "Festival of Ice Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter8.A}}--{{i18n:winter8.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Festival of Ice Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter8.friendly.A}}--{{i18n:winter8.friendly.B}}--{{i18n:winter8.friendly.C}}--{{i18n:winter8.friendly.D}}--{{i18n:winter8.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Festival of Ice Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter8.dating.A}}--{{i18n:winter8.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Festival of Ice Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter8.married.A}}--{{i18n:winter8.married.B}}--{{i18n:winter8.married.C}}--{{i18n:winter8.married.D}}--{{i18n:winter8.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Festival of Ice Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter8",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter8.divorced.A}}--{{i18n:winter8.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///FEAST OF THE WINTER STAR
+//UNMET
+	{
+		"LogName": "Feast of the Winter Star Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter25.A}}--{{i18n:winter25.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Feast of the Winter Star Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter25.friendly.A}}--{{i18n:winter25.friendly.B}}--{{i18n:winter25.friendly.C}}--{{i18n:winter25.friendly.D}}--{{i18n:winter25.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Feast of the Winter Star Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter25.dating.A}}--{{i18n:winter25.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Feast of the Winter Star Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter25.married.A}}--{{i18n:winter25.married.B}}--{{i18n:winter25.married.C}}--{{i18n:winter25.married.D}}--{{i18n:winter25.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Feast of the Winter Star Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter25",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter25.divorced.A}}--{{i18n:winter25.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///EMBER OF RESOLUTIONS (RSV mod)
+//UNMET
+	{
+		"LogName": "Ember of Resolutions Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter28.A}}--{{i18n:winter28.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Unmet"
+
+	}
+	},
+//FRIENDLY
+	{
+		"LogName": "Ember of Resolutions Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter28.friendly.A}}--{{i18n:winter28.friendly.B}}--{{i18n:winter28.friendly.C}}--{{i18n:winter28.friendly.D}}--{{i18n:winter28.friendly.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Friendly"
+
+	}
+	},
+//DATING
+	{
+		"LogName": "Ember of Resolutions Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter28.dating.A}}--{{i18n:winter28.dating.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating"
+
+	}
+	},
+//MARRIED
+	{
+		"LogName": "Ember of Resolutions Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter28.married.A}}--{{i18n:winter28.married.B}}--{{i18n:winter28.married.C}}--{{i18n:winter28.married.D}}--{{i18n:winter28.married.E}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Married"
+
+	}
+	},
+//DIVORCED
+	{
+		"LogName": "Ember of Resolutions Dialogue",
+		"Action": "EditData",
+		"Target": "Data/Festivals/winter28",
+		"Entries": {
+			"Zoro": "{{Random:{{i18n:winter28.divorced.A}}--{{i18n:winter28.divorced.B}}|inputSeparator=--}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Divorced"
+
+	}
+	},
+
+///MAP ITEM DESCRIPTIONS
+	{
+		"LogName": "Map Strings Edit",
+		"Action": "EditData",
+		"Target": "Strings/StringsFromMaps",
+		"Entries": {
+			"Custom_EK_ZoroBoatHouse.1": "{{i18n:maps.ZoroBoatHouse.1}}",
+			"Custom_EK_ZoroBoatHouse.2": "{{i18n:maps.ZoroBoatHouse.2}}",
+			"Custom_EK_ZoroBoatHouse.3": "{{i18n:maps.ZoroBoatHouse.3}}",
+			"Custom_EK_ZoroBoatHouse.4": "{{i18n:maps.ZoroBoatHouse.4}}",
+			"Custom_EK_ZoroBoatHouse.5": "{{i18n:maps.ZoroBoatHouse.5}}",
+			"Custom_EK_ZoroBoatHouse.6": "{{i18n:maps.ZoroBoatHouse.6}}",
+			"Custom_EK_ZoroBoatHouse.7": "{{i18n:maps.ZoroBoatHouse.7}}",
+			"Custom_EK_ZoroBoatHouse.8": "{{i18n:maps.ZoroBoatHouse.8}}",
+			"Custom_EK_ZoroBoatHouse.9": "{{i18n:maps.ZoroBoatHouse.9}}",
+			"Custom_EK_BoatHouseCellar.1": "{{i18n:maps.BoatHouseCellar.1}}",
+			"Custom_EK_BoatHouseCellar.2": "{{i18n:maps.BoatHouseCellar.2}}",
+			"Custom_EK_BoatHouseCellar.3": "{{i18n:maps.BoatHouseCellar.3}}",
+			"Custom_EK_BoatHouseCellar.4": "{{i18n:maps.BoatHouseCellar.4}}",
+			"Custom_EK_BoatHouseCellar.5": "{{i18n:maps.BoatHouseCellar.5}}",
+			"Custom_EK_BoatHouseCellar.6": "{{i18n:maps.BoatHouseCellar.6}}",
+			"Custom_EK_BoatHouseCellar.7": "{{i18n:maps.BoatHouseCellar.7}}",
+			"ZoroBoardingHouse.1": "{{i18n:maps.ZoroBoardingHouse.1}}",
+			"ZoroBoardingHouse.2": "{{i18n:maps.ZoroBoardingHouse.2}}",
+			"ZoroBoardingHouse.3": "{{i18n:maps.ZoroBoardingHouse.3}}",
+			"Custom_EK_ZoroSpouseRoom.1": "{{i18n:maps.ZoroSpouseRoom.1}}",
+			"Custom_EK_ZoroSpouseRoom.2": "{{i18n:maps.ZoroSpouseRoom.2}}",
+			"Custom_EK_ZoroSpouseRoom.3": "{{i18n:maps.ZoroSpouseRoom.3}}"
+	}
+	},
+///MOVIE INVITATION DIALOGUE
+	{
+		"LogName": "Movie Invite dialogue",
+		"Action": "EditData",
+		"Target": "strings/Characters",
+		"Entries": {
+				"MovieInvite_Spouse_Zoro":"{{i18n:dialogue.MovieInvite_Spouse_Zoro}}"
+	},
+		"When": {
+			"Relationship:Zoro": "Dating, Engaged, Married"
+	}
+	},
+
+///RAINY DAY DIALOGUE
+    {
+	  "LogName": "Rainy Day Dialogue",
+	  "Action": "EditData",
+	  "Target": "Characters/Dialogue/Zoro",
+	  "Entries": {
+		  "Custom_EK_ZoroBoatHouse": "{{Random:{{i18n:rainy.0}}&&{{i18n:rainy.1}}|inputSeparator=&&}}"
+	},
+        "When": {
+                "Weather": "rain, storm"
+  
+    }
+    },
+
+///NPC DIALOGUE CHANGES
+
+//WILLY
+	{
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+         "FishShop":"{{i18n:willy.0}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Unmet"
+    }
+    },
+
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+		 "FishShop_Mon":"{{i18n:willy.FishShop_Mon}}",
+		 "Forest_Sat":"{{Random:{{i18n:willy.Forest_Sat.B}}--{{i18n:willy.Forest_Sat.C}}--{{i18n:willy.Forest_Sat.D}}|inputSeparator=--}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Friendly"
+    }
+    },
+//2-3 HEARTS
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+
+		 "FishShop_Thu":"{{Random:{{i18n:willy.Thu2.A}}--{{i18n:willy.Thu2.B}}--{{i18n:willy.Thu2.C}}|inputSeparator=--}}"
+    },
+      "When": {
+	  "Hearts:Zoro": "{{Range:2, 3}}"
+    }
+    },
+
+//4-5 HEARTS
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+         "FishShop_Fri":"{{Random:{{i18n:willy.Fri4.A}}--{{i18n:willy.Fri4.B}}--{{i18n:willy.Fri4.C}}|inputSeparator=--}}"
+    },
+      "When": {
+	  "Hearts:Zoro": "{{Range:4, 5}}"
+    }
+    },
+
+//6-7 HEARTS
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+         "FishShop_Thu6":"{{Random:{{i18n:willy.Thu6.A}}--{{i18n:willy.Thu6.B}}--{{i18n:willy.Thu6.C}}|inputSeparator=--}}"
+    },
+      "When": {
+	  "Hearts:Zoro": "{{Range:6, 7}}"
+    }
+    },
+//8-9 HEARTS
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+         "FishShop_Fri":"{{Random:{{i18n:willy.Fri8.A}}--{{i18n:willy.Fri8.B}}--{{i18n:willy.Fri8.C}}|inputSeparator=--}}"
+    },
+
+      "When": {
+	  "Hearts:Zoro": "{{Range:8, 9}}"
+    }
+    },
+//dating
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+	
+         "FishShop_Tue": "{{i18n:willy.FishShop_Tue}}",
+         "Forest_Sat":"{{i18n:willy.Forest_Sat.A}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Dating"
+    }
+    },
+//married
+    {
+       "LogName": "Willy",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Willy",
+       "Entries": {
+	
+         "FishShop": "{{i18n:willy.FishShop_Married.Mon}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Married",
+      "DayOfWeek": "Monday"
+    }
+    },
+
+//GUS
+    {
+      "LogName": "Gus",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Gus",
+      "Entries": {
+        "Saloon_Fri":"{{Random:{{i18n:gus.Saloon_Fri.A}}--{{i18n:gus.Saloon_Fri.B}}--{{i18n:gus.Saloon_Fri.C}}--{{i18n:gus.Saloon_Fri.D}}--{{i18n:gus.Saloon_Fri.E}}--{{i18n:gus.Saloon_Fri.F}}|inputSeparator=--}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Friendly, Dating, Married"
+    }
+    },
+
+//PENNY
+    {
+      "LogName": "Penny",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Penny",
+      "Entries": {
+      "ArchaeologyHouse_Wed":"{{Random:{{i18n:penny.ArchaeologyHouse_Wed.A}}--{{i18n:penny.ArchaeologyHouse_Wed.B}}--{{i18n:penny.ArchaeologyHouse_Wed.C}}--{{i18n:penny.ArchaeologyHouse_Wed.D}}--{{i18n:penny.ArchaeologyHouse_Wed.E}}|inputSeparator=--}}"
+    },
+      "When": {
+      "HasSeenEvent": "63160002"
+    }
+    },
+
+//LEWIS
+    {
+      "LogName": "Lewis",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Lewis",
+      "Entries": {
+      "Town_Thu": "{{Random:{{i18n:lewis.Town_Thu.A}}--{{i18n:lewis.Town_Thu.B}}--{{i18n:lewis.Town_Thu.C}}--{{i18n:lewis.Town_Thu.D}}--{{i18n:lewis.Town_Thu.E}}|inputSeparator=--}}"
+    },
+      "When": {
+      "HasSeenEvent": "63160001"
+    }
+    },
+
+//VINCENT
+    {
+      "LogName": "Vincent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Vincent",
+      "Entries": {
+      "Town_Wed":"{{Random:{{i18n:vincent.Town_Wed.A}}--{{i18n:vincent.Town_Wed.B}}--{{i18n:vincent.Town_Wed.C}}--{{i18n:vincent.Town_Wed.D}}--{{i18n:vincent.Town_Wed.E}}--{{i18n:vincent.Town_Wed.F}}--{{i18n:vincent.Town_Wed.G}}|inputSeparator=--}}",
+	  "Beach_Thu":"{{Random:{{i18n:vincent.Beach_Thu.A}}--{{i18n:vincent.Beach_Thu.B}}--{{i18n:vincent.Beach_Thu.C}}--{{i18n:vincent.Beach_Thu.D}}{{i18n:vincent.Beach_Thu.E}}--{{i18n:vincent.Beach_Thu.F}}|inputSeparator=--}}"
+    },
+      "When": {
+      "HasSeenEvent": "63160002"
+    }
+    },
+
+//JODI
+    {
+      "LogName": "Vincent",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Jodi",
+      "Entries": {
+      "Town_Thu":"{{Random:{{i18n:jodi.Town_Thu.A}}--{{i18n:jodi.Town_Thu.B}}--{{i18n:jodi.Town_Thu.C}}--{{i18n:jodi.Town_Thu.D}}|inputSeparator=--}}"
+    },
+      "When": {
+      "HasSeenEvent": "63160002"
+    }
+    },
+
+
+//CLINT
+    {
+      "LogName": "Clint",
+      "Action": "EditData",
+      "Target": "Characters/Dialogue/Clint",
+      "Entries": {
+      "Saloon_Sat": "{{Random:{{i18n:clint.Saloon_Sat.A}}--{{i18n:clint.Saloon_Sat.B}}--{{i18n:clint.Saloon_Sat.C}}|inputSeparator=--}}",
+      "winter_Tue":"{{Random:{{i18n:clint.winter_Tue.A}}--{{i18n:clint.winter_Tue.B}}--{{i18n:clint.winter_Tue.C}}|inputSeparator=--}}"
+    },
+      "When": {
+      "HasSeenEvent": "63160003"
+    }
+    },
+
+///ZORO LOCATION DIALOGUE (FOR NON MARRIAGE / MARRIAGE)
+//FARM
+  {
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		 "Farm_71_11":"{{i18n:dialogue.Farm_71_11}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Married"
+    }
+    }, 
+
+//BUS STOP
+    {
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		 "BusStop":"{{i18n:marriage.BusStop}}",
+		 "BusStop2":"{{i18n:marriage.BusStop2}}",
+		 "BusStop4":"{{i18n:marriage.BusStop4}}",
+		 "BusStop6":"{{i18n:marriage.BusStop6}}",
+		 "BusStop8":"{{i18n:marriage.BusStop8}}",
+		 "BusStop10":"{{i18n:marriage.BusStop10}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Married"
+    }
+    },
+
+//BEACH 2 HEART
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.0.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:2, 3}}"
+    }
+	},
+
+//BEACH 4 HEART
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.1.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:4, 5}}"
+    }
+	},
+
+//BEACH 6 HEART
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.2.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:6, 7}}"
+    }
+	}, 
+
+//BEACH 8 HEART
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.3.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:8, 9}}"
+    }
+	},
+
+//BEACH 10 HEART 
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.4.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "10"
+    }
+	},
+
+//BEACH 8 HEART MARRIED
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.5.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:8, 9}}",
+      "Relationship:Zoro": "Married"
+    }
+	},
+
+//BEACH 10 HEART MARRIED
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "Beach_11_39":"{{i18n:zoro.6.Beach_11_39}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:10, 14}}",
+      "Relationship:Zoro": "Married"
+    }
+	},
+
+///FISH SHOP
+//MON 0-1 HEARTS
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "FishShop_4_7":"{{i18n:zoro.FishShop_4_7.M}}"
+	},
+      "When": {
+      "DayOfWeek": "Monday",
+	  "Hearts:Zoro": "{{Range:0, 1}}"
+    }
+	},
+//MON 2-3 HEARTS 
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "FishShop_4_7":"{{i18n:zoro.FishShop_4_7.N}}"
+	},
+      "When": {
+      "DayOfWeek": "Monday",
+	  "Hearts:Zoro": "{{Range:2, 3}}"
+    }
+	},
+//MON 4-10 HEARTS
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "FishShop_4_7":"{{i18n:zoro.FishShop_4_7.O}}"
+	},
+      "When": {
+      "DayOfWeek": "Monday",
+	  "Hearts:Zoro": "{{Range:4, 10}}"
+    }
+	},
+
+//0-1 HEARTS
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "FishShop_4_6":"{{Random:{{i18n:zoro.FishShop_4_6.A}}--{{i18n:zoro.FishShop_4_6.B}}--{{i18n:zoro.FishShop_4_6.C}}--{{i18n:zoro.FishShop_4_6.D}}|inputSeparator=--}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:0, 1}}"
+    }
+	},
+
+//2-3 HEARTS
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "FishShop_4_6":"{{Random:{{i18n:zoro.FishShop_4_6.E}}--{{i18n:zoro.FishShop_4_6.F}}--{{i18n:zoro.FishShop_4_6.G}}--{{i18n:zoro.FishShop_4_6.H}}|inputSeparator=--}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:2, 3}}"
+    }
+	},
+//4-10 HEARTS
+	{
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		  "FishShop_4_6":"{{Random:{{i18n:zoro.FishShop_4_6.I}}--{{i18n:zoro.FishShop_4_6.J}}--{{i18n:zoro.FishShop_4_6.K}}--{{i18n:zoro.FishShop_4_6.L}}|inputSeparator=--}}"
+	},
+      "When": {
+	  "Hearts:Zoro": "{{Range:4, 10}}"
+    }
+	},
+
+//married
+    {
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		 "FishShop_Mon": "{{Random:{{i18n:FishShop_Mon.A}}--{{i18n:FishShop_Mon.B}}--{{i18n:FishShop_Mon.C}}--{{i18n:FishShop_Mon.D}}|inputSeparator=--}}",
+		 "FishShop_Fri": "{{Random:{{i18n:FishShop_Fri.A}}--{{i18n:FishShop_Fri.B}}--{{i18n:FishShop_Fri.C}}--{{i18n:FishShop_Fri.D}}|inputSeparator=--}}"
+    },
+      "When": {
+      "Relationship:Zoro": "Married"
+    }
+    },
+
+//SALOON
+
+    {
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		 "Saloon_Entry":"{{i18n:marriage.Saloon_Entry}}",
+		 "Saloon_Mon": "{{Random:{{i18n:marriage.Saloon_Mon.A}}--{{i18n:marriage.Saloon_Mon.B}}|inputSeparator=--}}",
+		 "Saloon_Wed": "{{Random:{{i18n:marriage.Saloon_Wed.A}}--{{i18n:marriage.Saloon_Wed.B}}|inputSeparator=--}}",
+		 "Saloon_Fri": "{{Random:{{i18n:marriage.Saloon_Fri.A}}--{{i18n:marriage.Saloon_Fri.B}}|inputSeparator=--}}",
+		 "Saloon_Sun": "{{Random:{{i18n:marriage.Saloon_Sun.A}}--{{i18n:marriage.Saloon_Sun.B}}|inputSeparator=--}}",
+
+		 "summerSaloon_Mon": "{{Random:{{i18n:marriage.summerSaloon_Mon.A}}--{{i18n:marriage.summerSaloon_Mon.B}}|inputSeparator=--}}",
+		 "summerSaloon_Wed": "{{Random:{{i18n:marriage.summerSaloon_Wed.A}}--{{i18n:marriage.summerSaloon_Wed.B}}|inputSeparator=--}}",
+		 "summerSaloon_Fri": "{{Random:{{i18n:marriage.summerSaloon_Fri.A}}--{{i18n:marriage.summerSaloon_Fri.B}}|inputSeparator=--}}",
+		 "summerSaloon_Sun": "{{Random:{{i18n:marriage.summerSaloon_Sun.A}}--{{i18n:marriage.summerSaloon_Sun.B}}|inputSeparator=--}}",
+
+		 "fallSaloon_Mon": "{{Random:{{i18n:marriage.fallSaloon_Mon.A}}--{{i18n:marriage.fallSaloon_Mon.B}}|inputSeparator=--}}",
+		 "fallSaloon_Wed": "{{Random:{{i18n:marriage.fallSaloon_Wed.A}}--{{i18n:marriage.fallSaloon_Wed.B}}|inputSeparator=--}}",
+		 "fallSaloon_Fri": "{{Random:{{i18n:marriage.fallSaloon_Fri.A}}--{{i18n:marriage.fallSaloon_Fri.B}}|inputSeparator=--}}",
+		 "fallSaloon_Sun": "{{Random:{{i18n:marriage.fallSaloon_Sun.A}}--{{i18n:marriage.fallSaloon_Sun.B}}|inputSeparator=--}}",
+
+		 "winterSaloon_Mon": "{{Random:{{i18n:marriage.winterSaloon_Mon.A}}--{{i18n:marriage.winterSaloon_Mon.B}}|inputSeparator=--}}",
+		 "winterSaloon_Wed": "{{Random:{{i18n:marriage.winterSaloon_Wed.A}}--{{i18n:marriage.winterSaloon_Wed.B}}|inputSeparator=--}}",
+		 "winterSaloon_Fri": "{{Random:{{i18n:marriage.winterSaloon_Fri.A}}--{{i18n:marriage.winterSaloon_Fri.B}}|inputSeparator=--}}",
+		 "winterSaloon_Sun": "{{Random:{{i18n:marriage.winterSaloon_Sun.A}}--{{i18n:marriage.winterSaloon_Sun.B}}|inputSeparator=--}}"
+    },
+      "When": {
+	  "Relationship:Zoro": "Married"
+    }
+    },
+
+//SEED SHOP
+    {
+       "LogName": "Zoro",
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Zoro",
+       "Entries": {
+		 "SeedShop_14_23": "{{Random:{{i18n:SeedShop_14_23.A}}&&{{i18n:SeedShop_14_23.B}}|inputSeparator=&&}}"
+    },
+      "When": {
+	  "Relationship:Zoro": "Married",
+      "DayOfWeek": "Sunday"
+    }
+    },
+
+///COMMUNITY CENTER DAY DIALOGUE
+//unmet, friendly
+//SPRING DIALOGUE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+		"CommunityCenter_Mon": "{{i18n:dialogue.CommunityDay_Zoro}}"
+	},
+	 "When": { 
+	 "Season": "Spring", 
+	 "Relationship:Zoro": "Unmet, Friendly"
+	}
+	},
+//SUMMER DIALOGUE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+	"CommunityCenter_Mon": "{{i18n:dialogue.CommunityDay_Zoro1}}"
+	},
+	 "When": { 
+	 "Season": "Summer", 
+	 "Relationship:Zoro": "Unmet, Friendly"
+	}
+	},
+//FALL DIALOGUE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+		"CommunityCenter_Mon": "{{i18n:dialogue.CommunityDay_Zoro2}}"
+	},
+	 "When": {
+	 "Season": "Fall", 
+	 "Relationship:Zoro": "Unmet, Friendly"
+	}
+	},
+//WINTER DIALOUGE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+		"CommunityCenter_Mon": "{{i18n:dialogue.CommunityDay_Zoro3}}"
+	},
+	 "When": { 
+	 "Season": "Winter", 
+	 "Relationship:Zoro": "Unmet, Friendly"
+	}
+	},
+
+//dating, engaged, married
+//SPRING DIALOGUE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+		"CommunityCenter": "{{i18n:marriage.CommunityDay_Zoro}}"
+	},
+	 "When": { 
+	 "Season": "Spring", 
+	 "Relationship:Zoro": "Dating, Engaged, Married"
+
+	}
+	},
+//SUMMER DIALOGUE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+	"CommunityCenter": "{{i18n:marriage.CommunityDay_Zoro1}}"
+	},
+	 "When": { 
+	 "Season": "Summer",
+	 "Relationship:Zoro": "Dating, Engaged, Married"
+	}
+	},
+//FALL DIALOGUE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+	"CommunityCenter": "{{i18n:marriage.CommunityDay_Zoro2}}"
+	},
+	 "When": {
+	 "Season": "Fall", 
+	 "Relationship:Zoro": "Dating, Engaged, Married"
+	}
+	},
+//WINTER DIALOUGE
+	{
+	 "Action": "EditData",
+	 "Target": "Characters/Dialogue/Zoro",
+	 "Entries":
+	{
+	"CommunityCenter": "{{i18n:marriage.CommunityDay_Zoro3}}"
+	},
+	 "When": { 
+	 "Season": "Winter", 
+	 "Relationship:Zoro": "Dating, Engaged, Married"
+	}
+	},
+
+///ANIMATION
+
+//ANIMATION DIALOGUE
+	{
+      "LogName": "Animation Description Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+      "Entries": {
+			"zoro_weights": "{{i18n:zoro_weights.0}}",
+			"zoro_read": "{{i18n:zoro_read.1}}",
+			"zoro_bath":"{{i18n:zoro_bath.2}}"
+    },
+      "When": {
+	  "Relationship:Zoro": "Unmet, Friendly"
+    }
+    },
+
+//ANIMATION MARRIAGE DIALOGUE
+    { 
+      "LogName": "Animation Description Strings",
+      "Action": "EditData",
+      "Target": "Strings/animationDescriptions",
+       "Entries": {
+			"zoro_weights": "{{i18n:zoro_weights.2}}",
+			"zoro_read": "{{i18n:zoro_read.3}}",
+			"zoro_bath":"{{i18n:zoro_bath.3}}"
+    },
+      "When": {
+	  "Relationship:Zoro": "Dating, Engaged, Married"
+    }
+    }
+
+]
+
+
+
+}

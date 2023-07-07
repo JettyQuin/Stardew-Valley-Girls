@@ -1,0 +1,11 @@
+{
+  "Name": "Zoro",
+  "Author": "EmpressKimi",
+  "Description": "Custom NPC Roronoa Zoro",
+  "Version": "1.2.3",
+  "UniqueID": "EmpressKimi.Zoro",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "UpdateKeys": ["Nexus:6316"]
+}

@@ -1,0 +1,19 @@
+{
+  "Name": "Custom Patio for Zoro",
+  "Author": "EmpressKimi",
+  "Version": "1.0.0",
+  "Description": "Adds a custom patio for Zoro",
+  "UniqueID": "EmpressKimi.Zoropatio",
+  "MinimumApiVersion": "3.5.0",
+  "ContentPackFor": {
+    "UniqueID": "aedenthorn.CustomSpousePatio",
+    "MinimumVersion": "0.1.0",
+  "UpdateKeys": []
+  },
+  "Dependencies": [
+   {
+      "UniqueID": "aedenthorn.CustomSpousePatio",
+      "IsRequired": true
+   }
+  ]
+}

@@ -1,0 +1,1593 @@
+{
+//NPC INFO
+   "npc-display-name": "Zoro",
+
+///GIFT TASTE DIALOGUE
+
+//before marriage
+   "gift.love.A": "How did you know I loved this?$7#$b#Many thanks, friend!",
+   "gift.love.B": "You seem to know exactly what I was looking for, @!$3#$b#Thank you so much!",
+   "gift.love.C": "You're giving something this great to me? It's not even my birthday, yet.$7#$b#You're a great person, you know that?$12#$b#Thanks!",
+   "gift.love.D": "@, Did you read my mind? I've been looking for this!",
+   "gift.love.E": "No way! You're giving me something this amazing?$9#$b#Now I have to buy you a round or two at the saloon tonight!",
+
+   "gift.like.A": "You got this for me? You're pretty nice, farmer.",
+   "gift.like.B": "You got something for me?#$b#Now I feel like I should get something for you in return.$8#$b#Thanks.",
+   "gift.like.C": "@, you don't always have to give me such expensive things you know.$3#$b#But thank you, I really appreciate it.",
+   "gift.like.D": "You're the only person who ever gives me gifts in this town, thanks @.",
+   "gift.like.E": "You give me the best things, @$8#$b#Thank you.",
+
+   "gift.dislike.A": "What am I supposed to do with this? I guess I can sell this to Pierre.$11#$b#Thanks.",
+   "gift.dislike.B": "What's the point of giving this to me?",
+   "gift.dislike.C": "Hmmn...$2#$b#Oh what? I'm suppose to take this? I thought you were just showing it to me.$2#$b#I don't really want it to be honest.",
+
+   "gift.hate.A": "Why are you giving me this? You trying to pick a fight with me?!$5#$b#I hate this!",
+   "gift.hate.B": "What am I suppose to do with this junk?$10#$b#You want me to throw it in the trash for you or something?",
+   "gift.hate.C": "Are you really my friend?$2#$b#You know I hate this stuff, right?",
+
+   "gift.neutral.A": "I suppose this can be useful, thanks.",
+   "gift.neutral.B": "Thanks for the thought, farmer.",
+   "gift.neutral.C": "Oh, you want me to have this? Sure, thanks.",
+   "gift.neutral.D": "Oh thanks, I wonder how much this is worth?",
+   "gift.neutral.E": "This is neat, can I keep it?",
+
+
+//marriage
+   "marriage_gift.love.A": "I love you! How did you know I wanted this?$7#$b#Many thanks, babe!",
+   "marriage_gift.love.B": "You bring me the best things in this world.$7#$b#Love you!",
+   "marriage_gift.love.C": "This is for me?$3#$b#It's like you can read my mind on what I need, thanks hun.",
+   "marriage_gift.love.D": "@, you just seem to know how to make my day.$7#$b#How did you know I needed this? Thank you!",
+   "marriage_gift.love.E": "The best part of my day is your thoughtful gifts full of love.$7#$b#Thanks sweetie.",
+   "marriage_gift.like.F": "This is the type of gift that deserves a foot massage later tonight.$7#$b#Thanks babe.",
+
+   "marriage_gift.like.A": "You got this for me? You're the best, sweetie.",
+   "marriage_gift.like.B": "How did you know I wanted this? Thanks love.",
+   "marriage_gift.like.C": "A kiss and a gift? What more can I ask for to start my day?$7#$b#Thank you.",
+   "marriage_gift.like.D": "How did you know I was looking for this? Thanks love.",
+   "marriage_gift.like.E": "It must have been hard getting this for me, thank you!",
+
+   "marriage_gift.dislike.A": "Honey, what am I supposed to do with this? I guess I can sell this to Pierre.$11#$b#Thanks.",
+   "marriage_gift.dislike.B": "We've been together for how long and you still give me junk I don't like?",
+   "marriage_gift.dislike.C": "Babe, don't give me your garbage. I don't want this.",
+
+   "marriage_gift.hate.A": "What the hell, babe! Why are you giving me this?! Are you trying to make me angry?!$5#$b#You know I hate this!",
+   "marriage_gift.hate.B": "@, is this how you're going to start the day?$10#$b#By picking a fight with me?$10#$b#You know I hate this stuff.",
+   "marriage_gift.hate.C": "Sweetie, I know you mean well, but this gift is utter garbage to me.$10#$b#My day is now worse for it.",
+
+   "marriage_gift.neutral.A": "I suppose this can be useful, thanks love.",
+   "marriage_gift.neutral.B": "Thanks hun, I didn't know I needed something like this.",
+   "marriage_gift.neutral.C": "Oh cool, thanks babe.",
+   "marriage_gift.neutral.D": "Where did you find this, @?#$b#I guess I can try and find a use for this, thanks.",
+   "marriage_gift.neutral.E": "I already have this, but thanks anyway for the thought.",
+
+///BIRTHDAY RESPONSE
+
+   "birthday.NPC.cs.4274": "What? For my birthday?!$8#$b#I can't believe you remembered my birthday! I didn't even remember it was today.$12#$b#Many thanks @, I seriously love this!$7",
+   "birthday.NPC.cs.4276": "You're giving me this? Wow, what's the special occasion?$3#$b#My birthday?! That makes it even better! Thanks @!$7",
+   "birthday.NPC.cs.4278": "What is this?$9#$b#For my birthday?! Why would you give me this on my birthday?$10#$b#Are you trying to pick a fight with me?! This is a terrible gift! I hate this!$5",
+   "birthday.NPC.cs.4280": "You got this for my birthday?$13#$b#You're really nice, you know that? Thanks.$1",
+    
+///DIALOGUE
+
+//intro
+  "dialogue.introduction": "Hey, you're the new farmer.#$b#The name's Zoro. Roronoa Zoro.#$b#Some time ago, I used to be a pirate hunter.#$b#Later on, I became a pirate myself.#$b#And now, I've ended up in Pelican Town, and just started working in Willy's fish shop recently.#$b#Life's been funny that way.#$b#Here, let me give you a little something as a welcoming present. I don't have a need for them anyway.$1#$b#$q 101/102 intro_question#Would you like some fertilizer or copper bar?#$r 101 10 intro_question_fertilizer#Fertilizer, thanks!#$r 101 10 intro_question_copperbar#Copper bar, thanks!#$r 102 -20 intro_question_no#No thanks, keep your gifts.",
+  "intro_question_fertilizer": "Fertilizer is a good choice.$1[368]",
+  "intro_question_copperbar": "Copper bar is a good choice.$1[334]",
+  "intro_question_no": "Oh, ok then...See you around, I guess.$2",
+
+//special dialogue
+  "dialogue.dumped_Guys": "We have nothing to talk about!$5#$b#I can't believe I was played like that...$10#$b#How many other people were you seeing?!$10#$e#Don't talk to me right now!$5",
+  "dialogue.secondChance_Guys": "I thought it over long and hard...$2#$b#And I decided to give you a second chance because I love you too much.$4#$b#Just don't cheat on me again, this is the first and last time, alright?$11",
+  "dialogue.pamHouseUpgrade": "I heard you were one of the people who donated towards Pam's new house.$1#$b#I didn't know you were such a philanthropist!$3",
+  "dialogue.pamHouseUpgradeAnonymous": "I heard some rich and generous person in Pelican town donated a ton of money for Pam's new house.#$b#I wonder who the donor was?",
+  "dialogue.Divorced": "You broke my heart by divorcing me!$5#$b#We have nothing more to talk about!$5#$e#%Zoro is now ignoring you.",
+  "dialogue.danceRejection": "Sorry, ask someone else. I'm not interested in dancing.$11#$b#I already told you I have two left feet when it comes to dancing.$14",
+  "dialogue.breakUp": "What's this? A wilted bouquet?$9#$b#You want to break up with me?!$9#$b#Fine, if that's what you want, I won't ask further!$5#$e#Go away, we're through, right?$10#$e#%Zoro is no longer speaking to you.",
+
+  "courtship.stardrop_gift": "My life at the farm has been great and it's all thanks to you.$l#$b#I love you and everything that you do for me.$12#$b#I'd like you to have this.$8",
+  "courtship.give_flowersA": "Oh these flowers are pretty...#$b#What? They're for me?! Thanks!$3#$b#Date? Date who...?$11#$b#Date me?!$9#$b#You want me to be your boyfriend?$9#$b#...What took you so long to ask? Of course, I'll say yes.$8",
+  "courtship.give_flowersB": "Oh these flowers are pretty...#$b#What? They're for me?! Thanks!$3#$b#Date? Date who...?$11#$b#Date me?!$9#$b#You want me to be your boyfriend?$9#$b#...What took you so long to ask? Of course, I'll say yes.$8",
+  "courtship.give_pendant": "A mermaid pendant?!$9#$b#You...You want to marry me?$9#$b#I have no words right now-I mean, of course I'll marry you, @!$7#$b#I have to let the Mayor know right?$8#$b#The wedding will take place in three days!$8#$e#This is the happiest day of my life!$7#$b#No wait, our wedding day would be the happiest day in my life.$8",
+  "courtship.reject_two_heartA": "Sorry, but you're still a stranger to me.$2",
+  "courtship.reject_two_heartB": "We're not that close, sorry.$2",
+  "courtship.reject_four_heartA": "Um, maybe ask again when we're a bit closer, yeah?$11",
+  "courtship.reject_four_heartB": "Sorry friend, I don't see you that way.$11",
+  "courtship.engageA": "You're already engaged but you're still asking me?$10",
+  "courtship.engageB": "You already have someone so why are you asking me?$10",
+  "courtship.marriedA": "You're already married but you're still looking at other people?!$5",
+  "courtship.marriedB": "Who do you take me for?!$5#$b#You're already married! I'm no homewrecker..$10",
+  "courtship.refusal_no_heartsA": "Who are you again?$16#$b#Sorry, I don't know you. Give that to someone else.$11",
+  "courtship.refusal_no_heartsB": "Are you kidding me? Why would you give me this? Not funny.$10",
+  "courtship.refusal_knownA": "Sorry, not interested.$2",
+  "courtship.refusal_knownB": "Sorry, ask someone else.$2",
+  "courtship.refusal_botherA": "I said no, stop bothering me will you?$10",
+  "courtship.refusal_botherB": "Go bother someone else, will you?$10",
+  "courtship.rejectNPCA": "Sorry, but no.$11",
+  "courtship.rejectNPCB": "Can't say I feel the same way, sorry...$2",
+
+//location coordinate dialogue
+  "dialogue.BoardingHouse_14_19":"Can't a man get some privacy while in the bathroom?$10#$b#At least wait outside till I'm done.$2#$b#You want to watch me shower or something?$11",
+  "dialogue.BoardingHouse_14_5":"I like my coffee dark, not because I prefer it, but because I hate sweet things like sugar or cream.",
+  "dialogue.Custom_EK_BoatHouseCellar_5_4":"Can't a man get some privacy while in the bathroom?$10#$b#At least wait outside till I'm done.$2#$b#You want to watch me shower or something?$11",
+  "dialogue.Custom_EK_BoatHouseCellar_8_4":"Can you not stare at me while I'm trying to use the toilet?$2#5#$b#Get out of here @!$10",
+  "dialogue.Custom_EK_ZoroBoatHouse_3_5":"I'm just grilling up some fish I caught this morning for today's dinner. Since it's raining today, I don't want to have to walk all the way to the Saloon tonight.#$b#Want to join me?",
+  "dialogue.Custom_EK_ZoroBoatHouse_2_5":"Hey, morning. I'm just making some coffee before I start my day.",
+  "dialogue.Beach_11_39":"Are you wondering how I ended up in a place like Pelican town?$11#$b#I wonder that myself, too.$11#$b#I used to be a part of this funny crew with some really interesting fellas.$13",
+  "dialogue.Farm_71_11":"Hey Babe. You want to watch me work out?$6#$b#Just kidding, I'll be done in a bit, then I can help you around the farm.$6#$b#3226...3227...3228...$6",
+
+//getting lost dialogue
+  "dialogue.Town_29_27": "Hey this isn't Pierre's shop.$11#$b#Where am I?$2#$b#What? I'm not lost.$15",
+  "dialogue.SeedShop_14_23": "Afternoon, @. How's your day so far?#$b#Willy asked me to get a couple supplies from Pierre's today.",
+  "dialogue.Mountain_56_21": "Hey this isn't Clint's blacksmith.$10#$b#Where am I?$2#$b#Don't you dare say I'm lost.$16#$b#Because I'm not...$4#$b#Yeah, that's right. I'm just taking a detour.$7",
+  "dialogue.Blacksmith_2_15": "We left some fishing rods for Clint to upgrade a few days ago.#$b#I'm here to pick them up for Willy today.",
+  "dialogue.Forest_12_26": "Hey this isn't Marnie's ranch.$11#$b#Where am I?$2#$b#What? Don't look at me like that.$4#$b#No, I don't need to look at your mini map!$10",
+  "dialogue.AnimalShop_13_16": "Marnie sells some useful things other than farm animals.#$b#Her heaters are a blessing during the winter.#$b#I'm stocking up on some things for Willy and myself to prepare for the coming winter.$1",
+  "dialogue.Forest_95_100": "Hey this isn't Harvey's clinic.$10#$b#Where am I?$2#$b#What's that?$11#$b#No, I'm not directionally challenged! How could you say that!$10#$b#What? You're willing to show me the way?$8#$b#That's really kind of you, but I'll find my way eventually. Thanks though, @!$7",
+  "dialogue.Hospital_12_14": "Harvey has been nagging me all year to come in to get regular checkups.$11#$b#I really don't need them, I've never been sick a day in my life.$2#$b#But if it will keep him from annoying me while I'm at work, I guess I'll go once in a while.#$b#...#$b#Wait! What?! What do you mean Harvey has Saturdays off?!$9#$b#No wonder this place is empty!$10#$b#I wasted my day off coming here.$10",
+
+//new years dialogue
+  "dialogue.spring_1_2": "Hey @, Happy New Years.$1#$b#I'm glad you're the first person I talked to this New Years.$3#$b#Were you able to accomplish all that you could last year?$13#$b#I hope this year will be as enjoyable as the last for you and me.$3",
+
+//saloon dialogue
+  "dialogue.Saloon_Entry": "Give me the usual, Gus!/What's for dinner, Gus?/What's cooking tonight, Gus?/Bring out your best alcohol, Gus!",
+//spring
+  "dialogue.Saloon_Mon.A": "Evening @! How was your farm work today?#$b#Have you met everyone in Pelican town yet?$1" ,
+  "dialogue.Saloon_Mon.B": "Evening @! Willy caught this giant catfish that was bigger than our boat this morning.$#b#He let it go though, said a fish that big deserved to continue living.#$b#And that catfish that massive won't taste good, anyway." ,
+
+  "dialogue.Saloon_Tue.A": "Evening @! Good work today.#$b#It must be hard running a farm, let me know if you ever need an extra pair of hands once in a while.$13#$b#I'd be glad to help if I'm ever free.$1",
+  "dialogue.Saloon_Tue.B": "Evening @!Seagulls have been trying to steal my fish that I catch lately.#$b#I've been seeing more and more of them, is spring seagull season?",
+
+  "dialogue.Saloon_Wed.A": "Evening @! How's everything going at the farm?#$b#Don't work yourself too hard!$1",
+  "dialogue.Saloon_Wed.B": "Evening @. I was thinking what I should do with my katanas.$11#$b#I don't really need them for work at Willy's shop.$11#$b#And I don't have the heart to sell them, but I don't want them going unused.$11#$b#Should I just join the Adventure's Guild?",
+
+  "dialogue.Saloon_Thu.A": "Evening @! The week is almost over.#$b#I'm looking forward to the weekend!$1",
+  "dialogue.Saloon_Thu.B": "Evening @! Wanna hear one of my pirate adventures tonight? Grab a beer and join me!",
+
+  "dialogue.Saloon_Fri.A": "Evening @! It's so lively at the Saloon right now!$8#$b#Let loose and have a drink or three with me tonight!$7",
+  "dialogue.Saloon_Fri.B": "Evening @! Friday night must be 'come to the saloon night' because everyone and their mothers are here.",
+
+  "dialogue.Saloon_Sat.A": "Evening @! Sunday is my favorite day.#$b#It's when I have no work and can do whatever I want.$3#$b#Maybe I'll sleep in tomorrow.$13",
+  "dialogue.Saloon_Sat.B": "Evening @! No matter how often I go to the saloon, I can never remember the way here.$4#$b#I usually follow Willy here.$15#$b#And even then I still get lost.$14",
+
+  "dialogue.Saloon_Sun.A": "Evening @! The week starts again tomorrow.#$b#You ready for another productive week?$1",
+  "dialogue.Saloon_Sun.B": "Evening @.#$b#Do you often miss your friends and family back in the city?$11#$b#Do you think about them often?$11#$b#Because I think about my crew every single day.$2#$b#I keep thinking about how I can get back to them again someday.$16",
+//summer
+  "dialogue.summerSaloon_Mon.A": "Evening @! How was work today?#$b#Have you gotten the hang of things around here yet?$1",
+  "dialogue.summerSaloon_Mon.B": "Evening @!#$b#I've been trying to catch octopus so that Gus could make me takoyaki, but they're harder to catch than I thought.$14#$b#I remember Willy saying something about them being one of the hardest sea creatures to catch around these waters.$11",
+
+  "dialogue.summerSaloon_Tue.A": "Evening @! How is the farm going?#$b#I admire that you haven't given up yet.",
+  "dialogue.summerSaloon_Tue.B": "Evening @! Have you made any friends, yet?#$b#Lucky you, aside from Willy and you, I haven't talked much with anyone.$2",
+
+  "dialogue.summerSaloon_Wed.A": "Evening @! It's sure hot and humid during the day.$16#$b#I'm glad it gets cooler at night time.$11#$b#Walking home in the cool night air after a few drinks sure feels great.$3",
+  "dialogue.summerSaloon_Wed.B": "Evening @! You know what goes good with a cold beer during summer?#$b#Cold soba noodles. One of my favorite summertime foods back where I was from.$7",
+
+  "dialogue.summerSaloon_Thu.A": "Evening @! Another week is nearly done. Time sure passes by quickly!#$b#I can't wait for summer to be over too.$13",
+  "dialogue.summerSaloon_Thu.B": "Evening @! It's been such humid summer this year, I've found myself needing to drink more.#$b#More ice cold beer I mean!$7",
+
+  "dialogue.summerSaloon_Fri.A": "Evening @! Join me for a drink.$8#$b#There's nothing I love more than relaxing with a cold one or two after a hard day of work during the summer!$7",
+  "dialogue.summerSaloon_Fri.B": "Evening @!#$b#I haven't been sleeping too well because of the heat.$2#b#I'm glad tomorrow is Saturday. I'm going to sleep in and wake up late.",
+
+  "dialogue.summerSaloon_Sat.A": "Evening @! I'm glad Gus opens the Saloon so late.#$b#Otherwise there'd be nothing to do at night.$3",
+  "dialogue.summerSaloon_Sat.B": "Evening @! I'm getting used to the work at the Fish Shop.#$b#Are you getting used to farm work?",
+
+  "dialogue.summerSaloon_Sun.A": "Evening @! Good work this week.$1#$b#You're starting to get good at this farmer thing.",
+  "dialogue.summerSaloon_Sun.B": "Evening @! Are you a fan of fishing? What do you like to catch during the Summer?#$b#I like to go after tuna and rainbow trout!$1",
+//fall
+  "dialogue.fallSaloon_Mon.A": "Evening @! The days are getting a lot cooler now.#$b#This is my favorite time of year.$1",
+  "dialogue.fallSaloon_Mon.B": "Evening @! Fall reminds me of mushrooms, specifically Shiitake Mushrooms, they're one of my favorite mushrooms.$1#$b#Does Stardew Valley have those?#$b#No? Shame.",
+
+  "dialogue.fallSaloon_Tue.A": "Evening @! Fall is the only season where you can catch salmon.#$b#I've been having a craving for it. I wish Gus made more dishes with salmon.$11",
+  "dialogue.fallSaloon_Tue.B": "Evening @! I always eat roasted hazelnuts and roasted sweet potatoes during the fall.#$b#They go great with a cold beer.$3",
+
+  "dialogue.fallSaloon_Wed.A": "Evening @! Has your harvest been good this Fall? I'm looking forward to all the pumpkin and yam dishes this season.#$b#They go great with a cold beer!$3",
+  "dialogue.fallSaloon_Wed.B": "Evening @! Have you tried those arcade games here yet?#$b#I'm not much of a gamer so I couldn't beat even the first levels.",
+
+  "dialogue.fallSaloon_Thu.A": "Evening @! Fall is great, it's when you can grow grapes and produce wine!$3#$b#Gus sells plenty of good wine during this season.",
+  "dialogue.fallSaloon_Thu.B": "Evening @! Man, I thought I could drink, but I've watch Pam down like 14 large beer mugs tonight already.$17#$b#She must be thirsty.$14",
+
+  "dialogue.fallSaloon_Fri.A": "Evening @! Come join our table for a drink or two!$8#$b#Gus made some really good food this evening!$7",
+  "dialogue.fallSaloon_Fri.B": "Evening @! I've been watching Sam lose at pool all night, Sebastian should give the kid a little break.$3",
+
+  "dialogue.fallSaloon_Sat.A": "Evening @! How's your weekend going? Glad to see you at the Saloon tonight!$1",
+  "dialogue.fallSaloon_Sat.B": "Evening @! I can see you are putting a lot of work and effort into you farm.#$b#You seem to have not only grown stronger physically but mentally, too.#1#$b#When I met you, you just quit your corporate job and I could tell you were exhausted and burnt out.#$b#But now it seems you've become more cheerful and energetic.$3",
+
+  "dialogue.fallSaloon_Sun.A": "Evening @! Winter is approaching fast, I can't wait for winter fishing.#$b#Nothing beats fresh fried squid and hot sake during winter!$3",
+  "dialogue.fallSaloon_Sun.B": "Evening @! I've been craving sashimi.#$b#I'm not much of a cook, however.@#b#What's that? Sashimi is just raw fish?#$b#Raw fish still needs to be prepared carefully!",
+
+//winter
+  "dialogue.winterSaloon_Mon.A": "Evening @! It sure was cold today.$11#$b#I'm glad Gus turns on the heater this time of year.",
+  "dialogue.winterSaloon_Mon.B": "Evening @! There's something so peaceful about walking home in the silent cold and snow with a belly full of warm alcohol.",
+
+  "dialogue.winterSaloon_Tue.A": "Evening @! I'm always looking forward to the Night Market this time of year.$13#$b#I just wish it lasted longer than three days.$2",
+  "dialogue.winterSaloon_Tue.B": "Evening @! Cheers, the year is almost ending! It's been one wild ride this year.",
+
+  "dialogue.winterSaloon_Wed.A": "Evening @! Winter must be rough for a farmer since you can barely grow anything. How are you holding up?$2#$b#Here, have a drink on me.$1[346]",
+  "dialogue.winterSaloon_Wed.B": "Evening @. I asked Willy for a holiday this winter and he said a fisherman has no holidays. He said fishing is year round.$11",
+
+  "dialogue.winterSaloon_Thu.A": "Evening @! Winter evenings are best spent with good food, good drinks and good friends!$3",
+  "dialogue.winterSaloon_Thu.B": "Evening @! Evelyn knitted me a new bandana for the winter.#$b#She says my old one has seen better days.#$b#What a nice lady.",
+
+  "dialogue.winterSaloon_Fri.A": "Evening @! Winter nights sure are freezing.$8#$b#It's a good thing we have plenty of alcohol to keep us warm!$7#$b#Why don't you join us and share the warmth?$7",
+  "dialogue.winterSaloon_Fri.B": "Evening @! A little ice and snow won't stop me!@#b#Don't mean to brag but I take ice baths, daily! It builds stamina and muscle.",
+
+  "dialogue.winterSaloon_Sat.A": "Evening @. I wonder how Linus is doing during this winter. He must be freezing in his tent at night.$11#$b#I dropped by his tent the other day with a six pack and a few extra blankets.$13",
+  "dialogue.winterSaloon_Sat.B": "Evening @. I didn't look where I was going tonight, and accidentally fell into the freezing ocean water near Willy's shop.#$b#Had to go home to change real quick before coming here.",
+
+  "dialogue.winterSaloon_Sun.A": "Evening @! I can't wait until winter is over.#$b#I don't mind the cold but there's not much fresh fruits and vegetables available.$11#$b#Ice fishing has been great, though.",
+  "dialogue.winterSaloon_Sun.B": "Evening @! It was freezing this morning, I went fishing and my fishing line froze and snapped off!",
+
+//bus stop (Zoro passes through the bus stop only if he is living inside the boarding house)
+  "dialogue.BusStop":"You heading to town, too?",
+  "dialogue.BusStop2":"Living at the Boarding House is pretty convenient.#$b#It's by the Bus Stop and it's near town.",
+  "dialogue.BusStop4":"You live so close to me, I feel like we're neighbors, @.$1",
+  "dialogue.BusStop6":"Morning, @.#$b#I'm heading off for work. You have a good day too.$1",
+  "dialogue.BusStop8":"I live so close to your farm, I can drop by and give a helping hand if you ever need it.$3",
+  "dialogue.BusStop10":"What's your farmhouse like?#$b#Lately I been thinking of wanting to move out of the Boarding House and into a place more spacious.$1",
+//archaeology
+  "dialogue.ArchaeologyHouse":"There's so many books here.#$b#My friend Robin would have loved this place.",
+  "dialogue.ArchaeologyHouse2":"I come here every Sunday, and I've never once seen Gunther leave that spot before.$11",
+  "dialogue.ArchaeologyHouse6":"I feel Penny, Jas and Vincent deserve a better learning environment.$2#$b#Can't we fund for a small school or something?$11",
+  "dialogue.ArchaeologyHouse4":"The more I come here, the more I feel like I'm starting to understand why people like reading so much.$3",
+  "dialogue.ArchaeologyHouse10":"I found an interesting book the other day.#$b#About traveling to an alternate dimension.#$b#I've been thinking maybe that happened to me...$11#$b#Kuma...Devil fruit...$17#$b#Oh, it's nothing, I was just thinking to myself.$14",
+  "dialogue.ArchaeologyHouse8":"Are all of these artifacts from you, @?#$b#Where do you find all of this stuff?#$b#Gunther has been praising you nonstop lately.$1#$b#About how you are singlehandedly restoring the museum back to life.#$b#Good job.$3",
+
+//forest (Zoro enters the forest only during fall and winter season)
+  "dialogue.Forest":"Hey @.#$b#What are you up to in the forest today?",
+  "dialogue.Forest2":"I got lost- I mean, I explored in the forest a while back.#$b#If the wizard didn't find me- I mean, if I didn't run into him, I'd been stuck here- I mean, I would have stayed and slept in the forest for the night.$15",
+  "dialogue.Forest4":"I like coming here to the forest to do some fishing.#$b#There's a peace and quietness that can't be found anywhere else in Stardew Valley.",
+  "dialogue.Forest6":"I heard there was a secret forest around here somewhere.$11#$b#Have you found it yet, @?",
+  "dialogue.Forest8":"This forest is so big, make sure to not get lost, @!#$b#What do you mean you're not like me?!$10#$b#I don't get lost.$17#$b#I take detours.$4",
+  "dialogue.Forest10":"You won't believe what I saw the other day while out here!$17#$b#I ran into a bear!$2#$b#And get this, when I tried to scare it away by making loud noises and pounding my chest and feet, it asked me if I was stupid!$9#$b#A talking bear, now I've seen everything...$16",
+
+//resort 
+  "dialogue.Resort_Entering": "I paid 1000 gold to check this place out, there better be a free buffet here or something worth my time.",
+  "dialogue.Resort_Leaving": "This is actually a nice place, I might come back to visit again.",
+  "dialogue.Resort_Shore": "The smell of the salt air here really reminds me of the time when I spent most of my days on my pirate ship.",
+  "dialogue.Resort_Umbrella": "Don't mind me, you go and have fun.",
+  "dialogue.Resort_Wander": "I could spend all day here.",
+  "dialogue.Resort_Bar": "It's nice to get alcohol somewhere other than Gus' saloon all the time.$1",
+  "dialogue.Resort": "This place isn't half bad.",
+
+//spring dialogue
+  "dialogue.spring_10": "I gave Vincent a chocolate chip cookie for his birthday today.#$b#In return, he gave me a mudball and told me it was a rice ball...$2#$e#It was nicely made though, I guess.$11",
+  "dialogue.spring_12": "The Egg Festival is tomorrow.$1#$b#I've heard Abigail is pretty good at finding those eggs.$11#$e#This event is more for the children then anybody else, so she really should just leave it to the kids.",
+  "dialogue.spring_22": "The Flower Dance is coming up in a few days. I'm not sure if I want to attend.$11#$b#Dancing isn't really my thing. I wouldn't even know who to ask.$4",
+
+//spring question 
+  "dialogue.spring_19": "I'm planning on going fishing on my day off this weekend.#$b#$q 501/502 fishing_question#Would you like to join me?#$r 501 20 fishing_question_yes#Yeah, sure I'd love to!#$r 502 -10 fishing_question_no#No, thanks.#$r 502 0 fishing_question_busy#Sorry, I can't this weekend. I'm too busy.",
+  "fishing_question_yes": "Great! I hope we catch plenty of fish.$3",
+  "fishing_question_no": "Oh, okay. See you around.$2",
+  "fishing_question_busy":"That's understandable, maybe next time.$1",
+  "fishing_question": "#$p 502#I wonder if anyone else would like to go fishing with me..|Let's both have fun this weekend!$1",
+
+  "dialogue.spring_Mon": "Hey farmer.$11#$e#Need something?$11",
+  "dialogue.spring_Mon2": "My favorite spring crop is unmilled rice.#$b#You can turn it into rice using the mill.#$e#Rice is one of my favorite things ever!$3",
+  "dialogue.spring_Mon4": "%Zoro looks annoyed. His mind seems to be elsewhere.#$e#Oh sorry, @. Didn't see you there.$16#$b#I didn't have time this morning to make coffee, so I'm a little cranky right now.$11",
+  "dialogue.spring_Mon6": "One of my swords is called Wado Ichimonji.$11#$b#It belonged to a childhood friend of mine who passed away.$11",
+  "dialogue.spring_Mon8": "These days, I think about you more than I think of fish or sword training.$15",
+  "dialogue.spring_Mon10": "They say spring is the season for love, but I've been feeling this way for a while now..$4",
+
+  "dialogue.spring_Tue": "Don't bother befriending me, farmer. I'll be leaving this place soon enough.$11",
+  "dialogue.spring_Tue2": "You know, @, You're one of the only people in this town whose willing to keep talking to me.#$b#Most folks here are scared of me when I tell them I'm a pirate.$11",
+  "dialogue.spring_Tue4": "Doesn't Pam know that her alcoholism is affecting her daughter too?$10#$e#I feel sorry for Penny.$2",
+  "dialogue.spring_Tue6": "There used to be an annoying pervert cook in my pirate crew who I argued with every day.$10#$e#His food was okay though, I guess.$11",
+  "dialogue.spring_Tue8": "Are you free tonight?$1#$b#Want to meet me at the Saloon later?$1#$e#What? N-no it's not a date...!$4#$b#Unless...?$4",
+  "dialogue.spring_Tue10": "Are you free tonight?$1#$b#Want to meet me at the Saloon later?$1#$e#What? Yeah, I'm asking you on a date.$7",
+
+  "dialogue.spring_Wed": "You sure talk to me alot, you're not afraid of me?$11",
+  "dialogue.spring_Wed2": "This town is pretty peaceful and quiet.#$b#I guess that's one of this place's charms.",
+  "dialogue.spring_Wed4": "I saw Linus rummaging through trash cans in town the other night.$2#$b#I left him some food by his tent early this morning.$11#$e#I'd hate to see the old guy go hungry.$11",
+  "dialogue.spring_Wed6": "%Zoro looks tired and out of it today, let's not bother him for now.",
+  "dialogue.spring_Wed8": "Out of everyone in Pelican town, I think you're the most important to me.$3#$b#Why? I'm not too sure myself.$4",
+  "dialogue.spring_Wed10": "Life in Pelican town was pretty boring until you arrived.$11#$e#I'm glad you decided to live here.$7",
+
+  "dialogue.spring_Thu": "My crew needs me. I can't be stuck in this peaceful place forever.$2#$b#I don't even exactly know where I am.$2#$b#Stardew Valley? Pelican Town? Never heard of it.$11",
+  "dialogue.spring_Thu2": "I work at Willy's fish shop.#$b#Drop by some time and I can give you a discount.$3",
+  "dialogue.spring_Thu4": "I saw Jodi, Sam and Vincent having a picnic yesterday at the beach.#$b#I was going to say hi, but I didn't want to intrude on their family time.$13",
+  "dialogue.spring_Thu6": "Are you curious what the green thing I am wearing across my stomach is?$1#$b#It's called a haramaki.",
+  "dialogue.spring_Thu8": "One of my neigbors was making such a ruckus last night, I could barely get any sleep.$10",
+  "dialogue.spring_Thu10": "There's no one in Pelican town who makes me feel butterflies in my stomach like you do, @.$4",
+
+  "dialogue.spring_Fri": "The only good thing about this town is the saloon.$11#$b#I'll be heading to the Saloon tonight. You going there, too?",
+  "dialogue.spring_Fri2": "I always like going to the Saloon on Fridays. Many in town drop by.#$b#It gets pretty loud and rowdy!$3",
+  "dialogue.spring_Fri4": "Shane invited me to go drinking later tonight at the Saloon.$11#$b#I'll be there, but Shane should really cut down on all that drinking, it's not good for his health.$11#$e#I can drink plenty myself, but I don't drink to drown out my sorrows like he does. Poor guy..$16",
+  "dialogue.spring_Fri6": "Don't ever give me chocolate or icecream if you want to still be my friend.$11",
+  "dialogue.spring_Fri8": "When I see you working so hard, I just want to become a farmer too and help you out everyday.$4",
+  "dialogue.spring_Fri10": "I hope that I mean as much to you as you do to me.$4",
+
+  "dialogue.spring_Sat": "There's nothing to do in this small town.$2#$b#I want to go back out to sea already.$11",
+  "dialogue.spring_Sat2": "Willy gave me a list to go shopping today but I lost it somewhere.$2#$e#Oh well, it'll work out somehow.$3",
+  "dialogue.spring_Sat4": "I started talking to more of the villagers recently.$12#$b#Robin told me if I smiled more, people would be less afraid of me.$8#$e#Am I smiling correctly?$8",
+  "dialogue.spring_Sat6": "It's strange to hear, but in my old pirate crew, we had a human cyborg that ran on cola.$3",
+  "dialogue.spring_Sat8": "I had a weird dream the other night..$11#$b#You collapsed in the mines and I had to go rescue you.$11#$b#Strange, right?$14",
+  "dialogue.spring_Sat10": "I'm thinking of growing a mini garden for vegetables.#$b#Would you give me some tips on how to care for plants?$1",
+
+  "dialogue.spring_Sun": "Old man Willy hired me to work in his Fish Shop.#$b#It was the only place that would hire me.$11#$b#Pierre said I scared away his customers.$2#$b#And Morris said my pirate background is unsafe and against store policies.$2#$b#Whatever that meant.$11",
+  "dialogue.spring_Sun2": "Willy has been showing me how to use crab pots recently.#$b#I've been catching plenty of crabs, lobsters and shrimps!$3",
+  "dialogue.spring_Sun4": "Emily has been telling me to wear more jade and put amethyst under my pillow when I sleep.$11#$b#She said my 'aura' is too violent and rough. Whatever that means...$10",
+  "dialogue.spring_Sun6": "My dream is to become the greatest swordsman in the world.$1#$e#I still have a long way to go until I get there.",
+  "dialogue.spring_Sun8": "Don't forget to take breaks and take care of your body.#$b#Being a farmer is tough work, I wouldn't want you getting hurt.$2",
+  "dialogue.spring_Sun10": "Are you eating proper meals?#$b#Maybe I can cook something for you if you'd like?$1",
+
+//summer dialogue
+  "dialogue.summer_5": "I saw Sam, Jas and Vincent at the beach yesterday. Apparently it was Jas' birthday.#$e#I haven't been in Pelican town long enough to remember everyone's birthday, yet.$11#$b#I'll try to at least remember the children's birthdays next year.$1",
+  "dialogue.summer_10": "The Luau is tomorrow! I'm looking forward to this festival.$1#$b#People say there's always good, fresh seafood there.$3",
+  "dialogue.summer_23": "Willy's birthday is tomorrow.#$b#I wonder what I should get the old man.$11#$e#All he talks about is fish.$2#$b#And he sells some of the best fishing rods and equipment so I can't gift him those either.$10#$e#You think he'll like a case of beer?$17",
+
+//summer question
+  "dialogue.summer_27": "What do you like to do for fun, @?$13#$b#I feel like you know so much about me, but I barely know anything about you.$2#$e#Tell me something about yourself!$1#$b#$q 401/402 fun_question#What are your interests? What are you into?#$r 401 40 fun_question_sports#I'm really into sports!#$r 401 40 fun_question_music#Music defines who I am!#$r 401 40 fun_question_vegan#I'm actually a vegan!#$r 401 40 fun_question_games#I really love videogames!#$r 401 40 fun_question_dance#Dancing is my passion!#$r 401 40 fun_question_anime#I love watching anime!#$r 401 40 fun_question_fashion#I love fashion and shopping for clothes!#$r 401 40 fun_question_books#I'm a huge bookworm, I love reading!#$r 401 40 fun_question_drawing#I'm actually really good at drawing and art!#$r 401 50 fun_question_you#I'm into you, Zoro!#$r 402 0 gift_question_nothing#I'm a boring person and have no interests or hobbies.",
+  "fun_question_sports": "Really? So am I!$3#$b#I've been really into football recently.#$b#Alex has been teaching me how to play.",
+  "fun_question_music": "What type of music do you like?#$b#I've been into Sebastian and Sam's music lately.#$b#Their songs have been pretty catchy.$1",
+  "fun_question_vegan": "I don't think I can live without meat, but I really respect your dedication!",
+  "fun_question_games": "I'm not big on videogames, maybe you could show me one of your games and teach me how to play?$1",
+  "fun_question_dance": "I'm not a dancer, but it's kind of like fighting with swords.#$b#You need balance and rhythm and move with your entire body, right?",
+  "fun_question_anime": "I been really into this anime called One Piece lately, have you heard of it?$3",
+  "fun_question_fashion": "I've been told I have a terrible fashion sense.$2#$b#Maybe you can come over and help me fix my wardrobe?$7",
+  "fun_question_books": "I was never a big reader myself.#$b#But lately I've been learning to enjoy reading.$1",
+  "fun_question_drawing": "Really? You're so talented, @!$3#$b#Will you show me your artworks sometime?$1",
+  "fun_question_you": "I know you're just joking, but that made me really happy to hear that and a bit embarrassed too.$12",
+  "fun_question_nothing": "Hmm...At least I don't think you're a boring person.$16",
+  "fun_question": "#$p 402#You have to have something you're interested in right?$14|You're such an interesting person, I'm sure you have many talents.$1",
+
+  "dialogue.summer_Mon": "This town is so boring, with nothing to do. No wonder Shane is an alcoholic.$11",
+  "dialogue.summer_Mon2": "I just got news about my crew.$11#$b#My captain wants me to meet him again in two years time. Guess I'm stuck here for now.$11",
+  "dialogue.summer_Mon4": "At first I didn't like Pelican Town, but now it's really growing on me.$4#$e#I wonder if I can still leave when the time comes?$17",
+  "dialogue.summer_Mon6": "I brought three katanas with me when I came to Pelican town.$11#$e#I don't remember where I put them, unfortunately.$2",
+  "dialogue.summer_Mon8": "Why is it that if I don't see you for even a day, I get anxious?$2#$b#What is this feeling?$4",
+  "dialogue.summer_Mon10": "My world got a lot brighter ever since I met you.$13#$b#I started noticing the colors of the flowers and the singing of birds.$4#$b#Is that wierd?$12",
+
+  "dialogue.summer_Tue": "Hey farmer. I sure am running into you a lot.#$b#Small town, am I right?",
+  "dialogue.summer_Tue2": "Hmmm...$11#$b#I've been thinking recently...#$b#Pelican Town isn't that bad of a place.#$b#Maybe I'll stay a while longer.$1", 
+  "dialogue.summer_Tue4": "I saw Elliot writing at the beach yesterday.$11#$b#I asked him what he was doing, and he said he's writing a book and dedicating it for a special someone in Stardew Valley.#$e#Who do you think it's for @?$1",
+  "dialogue.summer_Tue6": "When I was still a pirate, my captain was a funny guy who could stretch himself.#$e#I wonder how he's doing...$11",
+  "dialogue.summer_Tue8": "Just because you're a guy, you shouldn't be walking home so late at night. There could be monsters lurking around.$2^Because you're a girl, you shouldn't be walking home so late at night. There could be monsters lurking around.$2",
+  "dialogue.summer_Tue10": "You're like the ocean, @. Calm and quiet at times and tough to figure out other times.$11#$e#I wish I had my navigator friend's skills so that I could understand you better.$4",
+
+  "dialogue.summer_Wed": "Summer is so hot here.$2#$b#I need to get back sailing on the ocean soon.$11#$b#It's a lot cooler out on the waves.",
+  "dialogue.summer_Wed2": "I've been hearing the villagers talk about the mine on the mountain and how it's full of monsters.#$b#Maybe I'll explore it on my day off soon.$1",
+  "dialogue.summer_Wed4": "Leah showed me one of her sculptures recently.#$b#She said I was her inspiration.$1#$b#She called it 'Swordsman into Fisherman: A Pirate's Transition'.$11#$e#It didn't look anything like a swordsman or fisherman, though.$2",
+  "dialogue.summer_Wed6": "I accidentally left my keys at the Saloon yesterday night.$10#$b#I had walked all the way home before I realized.$11#$e#I had to walk all the way back to the Saloon, Gus was already asleep and was pissed I woke him up.$2#e#I didn't get back home till 3AM.$16",
+  "dialogue.summer_Wed8": "You've been on my mind...$4#$b#I keep worrying about how you are doing.$4",
+  "dialogue.summer_Wed10": "I was fishing and caught more fish than I needed. I thought you would like a free fish!$1#$b#Here.$3[128 138 150 145 143]",
+
+  "dialogue.summer_Thu": "I can't stand the heat.$2#$b#The humidity makes it even worse.$10",
+  "dialogue.summer_Thu2": "I've been craving takoyaki.#$b#I wonder if Gus would make some for me if I bring him fresh octopus.$1",
+  "dialogue.summer_Thu4": "I passed by Sebastian's house the other day while going up the mountain to fish.#$b#He was working on his motorcyle.#$e#I stopped to talk to him a bit.#$b#Despite how he looks, he's a pretty nice guy.$1",
+  "dialogue.summer_Thu6": "One of my old crewmates was a fishman.#$e#No, not a fisherman, he was a fish person who could walk and talk on land.$11#$e#Mermaid? No, I wouldn't call him a mermaid to his face if I were you.$2",
+  "dialogue.summer_Thu8": "I accidentally dropped a crate of live worms all over the Fish Shop yesterday.$17#$b#Willy made me pick them back up by hand.$2",
+  "dialogue.summer_Thu10": "I sometimes forget my words whenever I'm around you.$4",
+
+  "dialogue.summer_Fri": "Summer makes me feel so lazy...$2#$e#I just want to stay home and sleep with the air con running.$2",
+  "dialogue.summer_Fri2": "This weather makes me feel sticky all day.$10#$b#I can't wait for a cold shower.$1",
+  "dialogue.summer_Fri4": "Harvey came into the fish shop the other day and told me I needed to come in for checkups.$11#$e#I'm healthier than a horse, why would I need to go to the doctor's when I'm perfectly fine?$2",
+  "dialogue.summer_Fri6": "I haven't been doing any sword training for a while now.$2#$b#Maybe I should start again.$11",
+  "dialogue.summer_Fri8": "I don't want you passing out on me in this heat.$11#$b#So I got you something that can hopefully cool you off while you work in the fields.$1#$b#Here.[350]",
+  "dialogue.summer_Fri10": "Is it my imagination or do you look cooler everyday?$12^Is it my imagination or do you look cuter everyday?$12",
+
+  "dialogue.summer_Sat": "How are you able to stand outside all day in this heat?$17#$b#Being a farmer is tough work, I'm kind of impressed.$1",
+  "dialogue.summer_Sat2": "Since I will be stuck in Pelican Town for a while, I decided it wouldn't hurt trying to befriend the villagers here a bit more.",
+  "dialogue.summer_Sat4": "Clint was telling me and Willy how he has a crush on Emily the other night at the Saloon.$14#$b#He was so drunk, I doubt he remembers telling us.$17",
+  "dialogue.summer_Sat6": "Are you curious about the scar across my stomach?$11#$b#I got this from challenging the most powerful swordsman in the world.$1#$e#Pretty cool, huh? I wear it like a badge of honor.",
+  "dialogue.summer_Sat8": "Recently I've been getting tongue-tied whenever I'm around you.$4#$b#Why is that?$15",
+  "dialogue.summer_Sat10": "You've done so much to bring life back to Pelican town.$3#$b#I wish more people appreciated you and your efforts like I do.$7",
+
+  "dialogue.summer_Sun": "It's too hot to be standing around talking.$2#$e#Not in the mood for chit chat.$11",
+  "dialogue.summer_Sun2": "Rainbow trouts can only be found during the summer.#$b#It's one of my favorite fishes.$1#$e#I need to make time to go fishing for them when I'm free.#$b#Maybe I'll do it today.$3",
+  "dialogue.summer_Sun4": "I don't want to admit it, but I think I will miss the villagers in Pelican Town after I leave.$4#$b#I've gotten to know a lot of them these past few months.",
+  "dialogue.summer_Sun6": "One of my old crewmates was an archeologist.#$b#She would have loved Pelican town's museum and it's library.$13",
+  "dialogue.summer_Sun8": "Why don't we have a community pool in Pelican town?$2#$b#I feel a lot of people would appreciate a pool in this heat.$1#$e#Can we bring it up to Lewis in the next community meetup?",
+  "dialogue.summer_Sun10": "I used to thought I was alone in Pelican town.$11#$b#But after meeting you, I began to open up a lot more.$12",
+
+//fall dialogue
+  "dialogue.fall_15": "I'm looking forward to the Valley Fair tomorrow.$1#$b#It's the only time I can get some of Gus's survival burgers.$3",
+  "dialogue.fall_26": "Tomorrow is Spirit's Eve. Have you decided what your costume will be?#$b#I'm still having trouble coming up with ideas.$2",
+
+//fall question
+  "dialogue.fall_12_1": "I've been wanting to ask you this for a while...$4#$b#I didn't know when was the right time to ask, but well...$4#$b#$q 201/202 like_question#Do you have someone that you like?#$r 201 20 like_question_yes#Yes I do.#$r 202 10 like_question_no#No, I don't.#$r 201 50 like_question_yesyou#Yes I do, and it's you.#$r 202 -50 like_question_notyou#I do, but it's not you.",
+  "like_question_yes": "Really? Is it anyone I know?$12",
+  "like_question_no": "Oh, well I guess that's okay too.",
+  "like_question_yesyou":"Oh! Um...$12#$b#This is a bit embarrassing to admit...$8#$b#But I feel the same way.$7",
+  "like_question_notyou": "!!!$9#$b#That's..Well..Hmm..$2#$b#You didn't have to put it like that..$16",
+  "like_question":"#$p 202#I know you won't say it's me, so I'm not holding any hopes.$14|It's okay, you can tell me the truth, I won't tell anyone, promise!$7",
+
+  "dialogue.fall_Mon": "Pelican Town is too relaxing for me.$2#$b#I feel like I'm losing my edge. I need to get back to training my body and sword again.$11",
+  "dialogue.fall_Mon2": "I miss my crew and days out at sea, but life here right now isn't so bad I guess.",
+  "dialogue.fall_Mon4": "Abigail asked me if I had dyed my hair.#$b#I told her it was my natural color.$1#$b#She then said maybe she'll dye her hair green next.$14",
+  "dialogue.fall_Mon6": "When I was still a pirate, my fighting style was called santoryu.#$b#I would hold one katana in each hand and one in my mouth.#$b#Pretty cool, right?$1",
+  "dialogue.fall_Mon8": "Did you get a haircut or something? You look somehow different...$13#$e#You're looking more cool though.$4^You're looking more pretty though.$4",
+  "dialogue.fall_Mon10": "I finally found my katanas again.#$b#One was under my bed, another was in a closet and the last one somehow Clint had it.$11#$b#Maybe I left it to him for repair when I got here and forgot all about it.$2#$e#I thought I lost them to be honest.$14#$e#It wasn't like they were much needed in such a peaceful place anyway.$13",
+
+  "dialogue.fall_Tue": "Fall is not that bad here in Pelican Town.#$b#There's a lot of good food and plenty of fall fish to catch.",
+  "dialogue.fall_Tue2": "Eel is delicious this time of year.#$b#You can make Fried Eel or Spicy Eel dishes.#$b#Gus can make one mean Spicy Eel dish!$1",
+  "dialogue.fall_Tue4": "Willy dropped by the Boarding House where I'm staying the other day and gave me a fish tank and some goldfishes.$11#$e#What am I supposed to do with that?$2#$b#It's not like I'm not already surrounded by fish every day at work...$16",
+  "dialogue.fall_Tue6": "It might sound strange, but when I was still a pirate, I had a crewmate who was a walking and singing skeleton.$1",
+  "dialogue.fall_Tue8": "I've been thinking about it for a while and well...$4#$b#About us...$4#$e#Nevermind.$4",
+  "dialogue.fall_Tue10": "Seeing you work so hard on that farm of yours everyday, makes me want to become a better person and work harder towards my own goals too.$7",
+
+  "dialogue.fall_Wed": "My old pirate crew used to say I'd lose my own head if it weren't attached to my shoulders.$11#$e#They don't say nice things very often.$10",
+  "dialogue.fall_Wed2": "I'm so busy at the fish shop all year long.#$e#Willy makes me do all the heavy lifting.$10",
+  "dialogue.fall_Wed4": "Penny was reading to Jas and Vincent at the museum today.#$b#I wish we had something like a school for the little ones, then maybe Penny would actually get paid for teaching.$11#$b#It would definitely help her family situation somewhat.",
+  "dialogue.fall_Wed6": "The food I hate the most would be chocolate.$10#$b#It's too damn sweet.$16",
+  "dialogue.fall_Wed8": "I know you're a very capable and strong farmer, but I can't help but worry about you, @.$2",
+  "dialogue.fall_Wed10": "You're able to make me smile just by seeing your face.$4#$e#Have I become strange?$15",
+
+  "dialogue.fall_Thu": "The weather feels nice and cool during the fall.#$b#I prefer this over summer.",
+  "dialogue.fall_Thu2": "I fell asleep while fishing the other day.#$b#Willy said I was lucky since it's only fall and that I would have been in trouble if it was winter.$2#$e#I can't help it, fishing gets boring sometimes when nothing is biting.$11",
+  "dialogue.fall_Thu4": "I'm not one to gossip, but that Lewis really should man up and announce his relationship with Marnie already.$11#$e#Everyone and their mothers practically already know they're seeing each other.$11",
+  "dialogue.fall_Thu6": "My old pirate crew was full of strange people.#$b#We had a reindeer doctor who could talk and walk like a human.$3",
+  "dialogue.fall_Thu8": "Sometimes when I'm not thinking about anything, suddenly you pop up in my mind.$4#$b#Sorry, is that weird?$15",
+  "dialogue.fall_Thu10": "I sometimes think you're the only one in Pelican town that understands me the most.$12",
+
+  "dialogue.fall_Fri": "You sure look busy today.#$b#You look busy every day, really.#$e#A farmer doesn't get weekends off, huh?",
+  "dialogue.fall_Fri2": "I've been trying to catch Midnight Carp but those only appear from 10pm to 2am.$11#$b#It's such a hassle having to stay up so late.$2",
+  "dialogue.fall_Fri4": "I was pulling up net after net of fishes barehanded yesterday.$2#$b#Willy said I should put my monsterous strength to good use.$11#$b#I wish he paid me better for it though.$10",
+  "dialogue.fall_Fri6": "Sleeping is my favorite pastime.#$b#I can sleep through a hurricane or earthquake.$1#$e#What? That's not something to brag about? I sure think it is.$3",
+  "dialogue.fall_Fri8": "Are you having proper meals every day?$13#$b#Don't skip meals just because you're busy.$13",
+  "dialogue.fall_Fri10": "I'm not the type to say my emotions out loud, but I wanted you to know that you're very special to me.$12",
+
+  "dialogue.fall_Sat": "There are no one strong in this town for me to fight.$10#$b#I feel like my sword skills are rusting the longer I stay here.$2",
+  "dialogue.fall_Sat2": "Sam asked me to play pool with him tonight.#$b#He says he's been trying to beat Sebastian and needs all the practice.",
+  "dialogue.fall_Sat4": "I think the villagers are starting to warm up to me now.1#$b#The ladies who hang out at the square during the afternoon even said hi to me as I walked by today.$3",
+  "dialogue.fall_Sat6": "I saw many strange islands during my journey at sea.#$b#There was an island with live dinosaurs, believe it or not.",
+  "dialogue.fall_Sat8": "I'm starting to think you mean more to me than just a friend...$4#$b#A best friend maybe?$7",
+  "dialogue.fall_Sat10": "I know you're the silent type but even when there are no words between us, I really like spending time with you, @.$8",
+
+  "dialogue.fall_Sun": "It's pretty boring and peaceful in this town.#$b#What do you do all day, @?",
+  "dialogue.fall_Sun2": "I caught a huge catfish this morning!$1#$b#What should I do with it? Maybe broil it?#$b#Fried catfish is delicious too.$1",
+  "dialogue.fall_Sun4": "I was able to get Gus to specially sell hot sake for me during the fall whenever I drop by.#$b#I'll drop by the Saloon this evening for some.$3",
+  "dialogue.fall_Sun6": "When I was still a pirate, we would catch Sea Kings all the time.#$e#Sea King meat tastes great with sake.$1#$b#I doubt there are any Sea Kings here in Stardew Valley though.$2",
+  "dialogue.fall_Sun8": "I'm glad you take the time out of your busy day to come see me.$3",
+  "dialogue.fall_Sun10": "I think I'm no longer able to go about my day without seeing you at least once.$15",
+
+//winter dialogue
+  "dialogue.winter_6": "The Festival of Ice is coming up this Monday.#$b#I love ice fishing and making it a competition is even better!$1",
+  "dialogue.winter_9":"I was disappointed they didn't let us keep the fish we caught yesterday at the festival.$11#$b#I was looking forward to fresh fish for dinner.$2",
+  "dialogue.winter_14": "The three day Night Market starts tomorrow.#$b#I've been looking forward to getting the exclusive fishes that are only available when the market opens.$3",
+  "dialogue.winter_24":"The Winter Star festival is almost here!$1#$b#You can feel the festivities in the air.$3#$e#Everyone in town has their houses decorated with lights and holly.$13",
+  "dialogue.winter_28":"It's finally the last day of the year!$1#$b#Are you excited, @?#$e#I'll be staying up late and counting down till midnight with the guys over a few drinks.#$b#It'll be great!$3",
+
+//winter question
+  "dialogue.winter_19": "Are you looking forward to the Feast of the Winter Star next week?#$b#So who is your secret person you are giving a gift to?$4#$e#What? You can tell me, I can keep a secret!$1#$b#$q 301/302 gift_question#So who is it?$3#$r 301 20 gift_question_nottelling#Sorry, but I'm not telling!#$r 302 20 gift_question_you#It's you.#$r 302 20 gift_question_notyou#It's not you.",
+  "gift_question_nottelling": "Come on, you can tell me! I won't tell them it's you, promise!$3",
+  "gift_question_you": "Are you serious? Why did you tell me?!$9#$b#Oh, you were just kidding!$3",
+  "gift_question_notyou": "Oh, that's too bad. I was hoping you were my secret gifter.$1",
+  "gift_question": "#$p 302#Fine, don't tell me. Keep your secrets.$14|At least tell me what you're gifting the person then?$8",
+
+  "dialogue.winter_Mon": "Looks like winter is now here.$11#$b#The days have gotten a lot colder. Make sure to dress warm, farmer.",
+  "dialogue.winter_Mon2": "I need to go fishing for squid soon. You can only find them during the winter.#$b#I'm looking forward to eating Fried Calamari.$3",
+  "dialogue.winter_Mon4": "Have you met the Wizard yet?#$b#I got lost one day...I mean I took a detour in the forest one day and he showed me the way back to town.$11#$b#Strange man, but a good person.$1",
+  "dialogue.winter_Mon6": "There used to be a guy in my old crew who was always lying and exaggerating.#$b#But his sniping skills were the real deal.",
+  "dialogue.winter_Mon8": "You've been on my mind a bit...$4#$e#I wonder why...$12",
+  "dialogue.winter_Mon10": "I'm starting to think living in Pelican town might not be so bad if you're here too.$7",
+
+  "dialogue.winter_Tue": "Hey @, winter must be tough for a farmer. Nothing grows during this time.$11",
+  "dialogue.winter_Tue2": "I wonder how everyone from my crew are doing?$11#$b#They must be busy growing stronger, while I'm stuck in this peaceful place.$16",
+  "dialogue.winter_Tue4": "I was talking to Demetrius the other night at the Saloon.$11#$b#All he talked about were the plants and animals in Stardew Valley.$17",
+  "dialogue.winter_Tue6": "You might not believe this, but during one of my adventures as a pirate, I visited an island in the sky.#$e#How'd I get there? By ship, of course.$1",
+  "dialogue.winter_Tue8": "Woah!$9#$b#Sorry, you surprised me there.$4#$e#I was just thinking about you and you suddenly appeared.$3#$b#Maybe it's fate.$7",
+  "dialogue.winter_Tue10": "Are you free this weekend?$12#$b#Would you like to go to the beach with me?#$b#Dinner too, maybe?$8",
+
+  "dialogue.winter_Wed": "I look forward to all the ice fishing during the winter.",
+  "dialogue.winter_Wed2": "I went training up in the mountains other other day and this morning I got an earful from Lewis for destroying the land and cutting down too many trees.$10#$b#I guess I'll just stick to killing monsters in the mines.$2",
+  "dialogue.winter_Wed4": "Alex wanted a competition on who could lift the heaviest weights the other day.#$e#Let's just say he's asking tips from me now.$3",
+  "dialogue.winter_Wed6": "One of my favorite foods is rice.#$b#You might think its plain, but rice is so versatile! It goes with almost everything.$1",
+  "dialogue.winter_Wed8": "It's so cold in Pelican town during the winter.#$b#This weather reminds me of the time I almost froze to death on a winter island because I wanted to go for a swim in the river in the middle of winter.#$e#Why'd I do that? Because I'm a man, and it was for manly training. A test of mettle and bravery.#1#$e#I wouldn't do it again, though.#3",
+  "dialogue.winter_Wed10": "I wish I was able to spend more time with you, @.",
+
+  "dialogue.winter_Thu": "It was freezing this morning.$2#$b#But it's gotten a bit warmer this afternoon.",
+  "dialogue.winter_Thu2": "I tried to go fishing this morning and my entire bucket of bait was completely frozen.$10#$e#I caught zero fishes obviously.$11",
+  "dialogue.winter_Thu4": "Caroline invited me to her exercise classes on Tuesdays.$11#$b#I thanked her but said no.$13#$e#It would look odd with a swordsman doing aerobics with a bunch of ladies.$4",
+  "dialogue.winter_Thu6": "I wish there was a waterfall for me to train under during the winter.$11#$b#Lifting weights just isn't enough anymore.$11",
+  "dialogue.winter_Thu8": "Oh it's you @...$4#$b#Did you need something?$4",
+  "dialogue.winter_Thu10": "I'm so impressed with what you've done with your farm.#$b#You've come a long way, @.$3",
+
+  "dialogue.winter_Fri": "I didn't know that Pelican town winters were this cold.#$b#I wish I prepared more warm clothes.",
+  "dialogue.winter_Fri2": "It would be nice if Pelican town had a general store that sold clothes too.#$b#It's such a hassle having to travel all the way to Zuzu City for supplies.$11",
+  "dialogue.winter_Fri4": "Evelyn knitted me some clothes for the winter.#$b#She's such a nice lady.#$e#I try to visit her and George whenever I can.",
+  "dialogue.winter_Fri6": "My old pirate crew used to have this money loving navigator.#$b#She could guide us out of the most roughest, treacherous seas every time.",
+  "dialogue.winter_Fri8": "How's your health been lately?$1#$b#It's cold during the winter. Are you keeping warm?#$e#You're not overworking yourself, are you? I worry about you some time.$4",
+  "dialogue.winter_Fri10": "I was fishing the other day and I came across a fish that got away. It reminded me of you...#$b#Hard to capture...$4#$e#What did I mean by that?#$b#Nothing, really...",
+
+  "dialogue.winter_Sat": "I can't wait till spring arrives. I've had enough of all this cold and snow.$2",
+  "dialogue.winter_Sat2": "Sometimes I look out to sea and I have this burning desire to jump onto a boat and just leave already.$2",
+  "dialogue.winter_Sat4": "The villagers actually come up and talk to me these days.$1#$b#They mostly ask me to help them carry heavy things, but still.$7",
+  "dialogue.winter_Sat6": "I wonder why Joja Corp even wanted to settle down in a small place like Pelican town?$11#$b#Must be a secret gold mine or oil reserve here somewhere.$11",
+  "dialogue.winter_Sat8": "Hey @.$1#$b#I've been looking for you.#$e#What for? No reason, I just wanted to see you.$12",
+  "dialogue.winter_Sat10": "I went into the mines the other day and collected more ore than I needed.$1#$b#Want one?$3[384 380 378]",
+
+  "dialogue.winter_Sun": "I have nothing to do today.#$b#Maybe I'll go fishing again.$1",
+  "dialogue.winter_Sun2": "I went fishing in the forest the other day and didn't get a single catch.$10",
+  "dialogue.winter_Sun4": "When I first arrived at Pelican town Robin was the first person I met.#$b#She showed me to where Willy's fish shop was.#$e#She's been helping me with whatever problems I've had since.#$b#In return, she just asked me to try and befriend her son Sebastian.$3#$b#He's not a bad kid, just a bit moody and lonely.$1",
+  "dialogue.winter_Sun6": "During my travels as a pirate, I came across a giant whale who was waiting for his old crew to return to him for fifty years.#$e#Talk about loyalty.$11",
+  "dialogue.winter_Sun8": "Oh hey, um..$4#$b#Nice weather?$4#$b#No wait, sorry. It's winter, of course the weather isn't nice..$4#$e#What was I saying again?$4",
+  "dialogue.winter_Sun10": "Sometimes I wonder if you're thinking about me as much as I think about you.$4",
+
+///ENGAGEMENT DIALOGUE
+  "engagement.1": "It's hard to imagine someone as wonderful as you wants to marry someone like me.$4#$e#Are you sure you want to go through with it?$14#$b#Sorry, just making sure.$7",
+  "engagement.0": "Are you ready for the big day tomorrow?$1#$e#I hope everything goes well.",
+
+///WEDDING DIALOGUE
+  "marriage.Utility.cs.5371": "%spouse... @...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and husband!$1#$b#May the rest of your lives be filled with love and happiness. Congratulations!$1",
+  "marriage.Utility.cs.5377": "%spouse... @...#$b#As the mayor of Pelican Town, and regional bearer of the matrimonial seal, I now pronounce you husband and wife!$1#$b#May the rest of your lives be filled with love and happiness. Congratulations!$1",
+  "marriage.Utility.cs.5367": "Dearly beloved, we are gathered here on this joyous day to join %spouse and @ in holy matrimony.#$b#When @ first arrived in Pelican Town, no one knew if he'd fit in with our community...#$b#This was the same for %spouse.#$b#But both of their arrivals have been a blessing for all of us. Pelican Town would not be where it is today without the contributions and help from these two wonderful people.#$b#And so, it is my great honor on this beautiful day, to unite %spouse and @ in the bonds of marriage.$1#$b#If anyone has a reason why these two should not be married, speak now or forever hold your peace...#$b#...#$b#If there are no objections, then we shall continue.",
+  "marriage.Utility.cs.5369": "Dearly beloved, we are gathered here on this joyous day to join %spouse and @ in holy matrimony.#$b#When @ first arrived in Pelican Town, no one knew if she'd fit in with our community...#$b#This was the same for %spouse.#$b#But both of their arrivals have been a blessing for all of us. Pelican Town would not be where it is today without the contributions and help from these two wonderful people.#$b#And so, it is my great honor on this beautiful day, to unite %spouse and @ in the bonds of marriage.$1#$b#If anyone has a reason why these two should not be married, speak now or forever hold your peace...#$b#...#$b#If there are no objections, then we shall continue.",
+
+///MARRIAGE DIALOGUE
+
+//special dialogue
+  "marriage.spouseRoom_Zoro.A": "Hey, babe. My room doesn't seem to match the interior of your farm. So I'm thinking of redecorating.",
+  "marriage.spouseRoom_Zoro.B": "I designed this room myself! I'm actually pretty proud of it.#$b#What do you think? Do you like it? Should I change it up or keep it?$7",
+  "marriage.spouseRoom_Zoro.C": "@, what do you think about the theme of my room?#$b#I tried going for the 'sophisticated captain of a luxury liner' look.$1",
+  "marriage.spouseRoom_Zoro.D": "Should I put my katanas on display here, too?#$b#What do you think, babe?",
+  "marriage.spouseRoom_Zoro.E": "I do miss living in my boathouse, so I tried decorating this room to remind me of the ocean.",
+  "marriage.spouseRoom_Zoro.F": "The goldfish in the fishbowl looks like its getting pretty big.#$b#I was thinking of putting a larger fish tank in here and adding other fishes, too.",
+  "marriage.spouseRoom_Zoro.G": "What kind of furniture should we put in our house next?$#b#I was thinking some new wallpaper or carpet?",
+
+//sunday dialogue
+  "marriage.funReturn_Zoro.A": "Evening, love.#$b#How did your day go?#$b#Here's one of the bigger fishes I caught today.$1[139 143 150 699 705 708 701 145]#$b#Maybe you can cook something for dinner with it?",
+  "marriage.funReturn_Zoro.B": "Hey @, how was your day?#$b#Found anything interesting?$1#$b#I found this strange book at the musuem.#$b#It was about some creature called Junimos. It said that they hide away from humans and are spirits of nauture.#$b#I wonder if they actually exist?",
+  "marriage.funLeave_Zoro.A": "@, I'm taking off today to do some fishing.#$b#Do you need me to get anything while I'm out?",
+  "marriage.funLeave_Zoro.B": "Today is such a nice day, maybe I will stop by the museum after doing some grocery shopping.",
+
+//work dialogue
+  "marriage.funReturn2_Zoro.A": "Hey, @. How was your day? I smell like fish right now from work, let me take a shower first before we have dinner.#$b#You won't believe what happened at Willy's today.$11",
+  "marriage.funReturn2_Zoro.B": "What an exhausting day at the fish shop.$2#$b#A barrel of live fish tipped over and we had to pick up every live fish by hand.$11",
+  "marriage.funReturn2_Zoro.C": "Hey honey, did you get a lot of stuff done today?#$b#You must be tired, let me prepare us some dinner.#$b#Is seafood ok?",
+  "marriage.funLeave2_Zoro.A": "Morning babe, I'm off to work soon.#$b#Will you drop by Willy's shop to visit me when you're free today?$7",
+  "marriage.funLeave2_Zoro.B": "Good morning handsome. I'll be heading to work soon.#$b#Made us a quick breakfast.[195 201 210 211 213 240]^Good morning beautiful. I'll be heading to work soon.#$b#Made us a quick breakfast.[195 201 210 211 213 240]",
+  "marriage.funLeave2_Zoro.C": "Hey love, have a good day today.$1#$b#I made us some coffee before I leave for work, too.[253 395]",
+
+//wednesday dialogue
+  "marriage.funReturn3_Zoro": "Welcome back honey, I got some stuff at Pierre's for dinner tonight.[432 216 245 246 247 248 238 419 423 430 445]",
+  "marriage.funLeave3_Zoro": "It's such a nice day, I think I'll go exercise in the town's park this morning.#$b#Oh, we are also out of some groceries, I'll head to Pierre's later, too. Need me to get anything for you?",
+
+  "marriage.OneKid_0": "%kid1 is growing up so fast.#$b#It feels like %kid1 was born just yesterday and now they're moving around so much already.",
+  "marriage.OneKid_1": "Sweetie, do you think %kid1 looks more like you or me?$1#$b#I hope %kid1 grows up to be cute just like you.$12",
+  "marriage.OneKid_2": "If only my old pirate crew knew I settled down, got married and even had a kid...$4#$b#Just imagining all their shocked faces...Haha!$8",
+  "marriage.OneKid_3": "%kid1 is the proof of our love and marriage.$12#$b#It's tough raising a child but I'm glad I'm going through this with you, @.$7",
+  "marriage.OneKid_4": "%kid1 puked all over my back today after I fed and burped them over my shoulder.$16#$e#It looks like %kid1 needs a diaper change right now too.$17#$b#Can you take care of that, my dear? I'm so tired right now.$2",
+  "marriage.TwoKids_0": "Evelyn and George dropped by the other day to visit the children.$1#$b#They insisted on leaving us this gift.[186 221 344 350 604 608 612]#$b#I told them we appreciated their thought but they didn't have to every time.$13#$e#Evelyn would not take no for an answer, though.$13#$b#They're such good people.$1",
+  "marriage.TwoKids_1": "Jas and Vincent came to play with our kids today.#$b#It's nice to see more children in Pelican town.$1#$e#Now Jas and Vincent can have more friends around their age.",
+  "marriage.TwoKids_2": "I hope %kid1 and %kid2 love the farm as much as us when they grow up.#$e#It would be great if even one of them decide to take over for us.$3",
+  "marriage.TwoKids_3": "I saw %kid1 and %kid2 running around playing pirates today.$3#$b#I think I've been telling them too many stories of my pirate days.$14",
+  "marriage.TwoKids_4": "It's great that our children are growing up on a farm.#$b#They are able to eat fresh, organic foods straight off the vines.$1#$e#I hope %kid1 and %kid2 can grow up strong and healthy.$7",
+
+//day dialogue
+  "marriage.Indoor_Day_Zoro": "This house needs a good clean right about now.$2#$b#We've been so busy lately, we hadn't had time to do some deep cleaning.$11#$b#I think I'll start on that today.#$e#First, I'll need to bleach the toilet..Next scrub the bathtub..Then mop the floors..Oh, and wipe down all the windows, cabinets, desks and chairs..$11#$b#So much to do in such a big house!$16",
+  "marriage.Indoor_Day_0": "@, I know I don't tell you I love you enough.$16#$b#But you mean the world to me.$12#$e#I'm not a man of many sappy words, so I hope I can show you my love through my actions.$4#$e#Would you like a back rub or foot massage later tonight?$3",
+  "marriage.Indoor_Day_1": "Do you think %pet is lonely?#$b#I was thinking we should adopt another cat or dog to give %pet a friend.",
+  "marriage.Indoor_Day_2": "I love waking up every morning and seeing you by my side.$7#$b#It's my greatest happiness.$12",
+  "marriage.Indoor_Day_3": "Where did you get all of these strange sculptures and paintings, @?$11#$b#You sure have eccentric tastes in furniture.$14#$e#No I don't hate them, I think it gives our home personality.$1",
+  "marriage.Indoor_Day_4": "Morning sunshine! Ready to start another day?$1#$b#Let me know if there's anything you need help with around the farm today.",
+  "marriage.Outdoor_Zoro": "I think I'll help take care of our crops today.#$b#Maybe I'll go pull out the weeds and clean up any trash.#$e#Love, if you need any help, just give me a shout. I'll be nearby.",
+  "marriage.Outdoor_0": "Just seeing my hubbie in his farmer outfit, toiling away on the farm, with sweat glistening on your face in the sun, sure gets my heart racing...$8^Just seeing my wifey in her farmer outfit, toiling away on the farm, with sweat glistening on your face in the sun, sure gets my heart racing...$8#$b#You look sexy is what I'm trying to say.$12",
+  "marriage.Outdoor_1": "I feel like working out outside today.#$b#The weather feels really good right now.#$b#Would you like to go for a jog with me?$1",
+  "marriage.Outdoor_2": "Just taking one look at this farm and anyone can see how much work and love you have put into it.$3#$b#I'm so happy to finally be able to help you everyday on this wonderful farm.$1#$b#Before we got married, I always wanted to give you a hand with the farm work.#$b#You were just one person working on such a big farm.$11#$b#I was amazed how you were able to do it everyday.#$e#And now I know it's all because of your hard work and perseverance.$13",
+  "marriage.Outdoor_3": "The longer I live in Pelican town, the more I love and admire the beauty and simplicity of this place.#$b#And now that I'm living with you on a farm, I'm able to see another side of this place.#$e#I did like working with Willy on the beach, but I like being a farmer too.$1",
+  "marriage.Outdoor_4": "It's such a nice day out, isn't it my love?$1#$b#I'll be around the farm, so give me a holler if you need me.#$b#Don't overwork yourself.",
+  "marriage.Rainy_Day_0": "Sweetie remember to wear a raincoat or bring an umbrella when you go out today, ok?#$b#The weather looks terrible right now.$2#$b#I wonder when this rain will stop.$11#$b#At least we don't have to worry about watering the crops today.$14",
+  "marriage.Rainy_Day_1": "I hate going out on rainy days like this.$10#$b#Maybe I'll just lift weights inside all day.$11",
+  "marriage.Rainy_Day_2": "I don't really have anything to do whenever it rains.$11#$b#Guess I'll just play around with %pet and watch the house today.#$b#Come back home soon okay?$1",
+  "marriage.Rainy_Day_3": "I wish you'd stay home with me all day whenever it rains.$2#$b#But I know a farmer's work is never done, rain or shine.$1#$e#Just try to keep dry and not get sick in this weather.",
+  "marriage.Rainy_Day_4": "This weather reminds me of the storms when I was still out at sea.$11",
+
+//night dialogue
+  "marriage.indoor_Night_Zoro": "Good work today babe.#$e#You must be exhausted.$2#$b#I ran the hot water and prepared the bath for you.$3#$b#Take a long soak and I'll get dinner ready.$1",
+  "marriage.Indoor_Night_0": "How did your day go, sweetie?#$b#Well I hope it went well.#$e#What would you like me to make for dinner?$1#$b#I have a few ideas but what are you craving?",
+  "marriage.Indoor_Night_1": "Willy dropped by earlier today and gave us some fresh seafood he caught in the morning.$1[715 717 718 719 720 723]#$b#He's such a kind man.#$e#We should invite him over for dinner some time.#$e#I owe him a lot for taking care of me and letting me work at his fish shop when I first got here.",
+  "marriage.Indoor_Night_2": "Evening hubby, how did work go today?^Evening wifey, how did work go today?#$e#Me? I just did some small chores around the house.$1",
+  "marriage.Indoor_Night_3": "Today I fixed the barn door that's been falling apart.#$b#And I replaced the broken window at the front of the house.#$b#I also reposted all the broken fences around the farm.#$e#Our farm is so big, there's always something that needs repair.$16#$e#I'm exhausted, can we go to bed early @?$11",
+  "marriage.Rainy_Night_Zoro": "Babe you look exhausted. The weather was terrible today.#$b#Let me help you get out of those wet clothes and warm you up tonight.$8",
+  "marriage.Rainy_Night_0": "On rainy nights like this there is nothing to do.$11#$b#...$4#$b#...$4#$b#Hey, sweetie, are you in the mood to make a kid?$7",
+  "marriage.Rainy_Night_1": "It's cold, windy and rainy tonight.#$b#Perfect weather for cuddling in front of the fireplace.$1#$e#You pick out a movie and I'll get the wine and popcorn?$7",
+  "marriage.Rainy_Night_2": "I wanted to go fishing today, but the rain hasn't stopped all day.$11#$b#What a shame, I wanted us to have fresh fish for dinner.$2",
+  "marriage.Rainy_Night_3": "Welcome home, my love. I missed you while you were gone.#$b#I always worry you might get sick whenever you work outside when it rains.$16#$e#Let me make you a hot meal, what would you like for dinner?$1",
+  "marriage.Rainy_Night_4": "@, welcome back!#$b#Make sure not to track the mud and rain into the house.$11#$b#I just finished mopping and cleaning the floors today.$11",
+  
+//affection dialogue
+  "marriage.Good_0": "I picked up a new hobby of brewing beer and ale in our cellar.$1#$b#Here is a sample from my recent batch.[303 459 346]#$b#What do you think babe?$3",
+  "marriage.Good_1": "I love my life right now and it's all thanks to you my dear.$1#$b#I love you so much, I wonder why I didn't marry you sooner.$12",
+  "marriage.Good_2": "I'm thankful every day that you decided to marry me, babe.$7#$b#I wear this mermaid pendant with pride.$8",
+  "marriage.Good_3": "Sweetie, have you made a trip to the desert yet?#$b#I heard you can find coconuts and cactus fruits there.#$b#Apparently, we can make really good juice out of them.$1#$e#I'd like to try fresh coconut juice if possible.$3",
+  "marriage.Good_4": "My love, what do you think of adding a hot tub to our home?#$b#I was thinking maybe an outdoors hot tub. It'd be great during the winter.$1",
+  "marriage.Good_5": "I saw this flower in the wild today and it reminded me of you, my dear.$8#$b#I just had to pick it for you, here.$12[591 593 597 18]",
+  "marriage.Good_6": "Babe, here is the groceries you wanted me to get this morning.#$e#Here is the bread.[216]#$b#And the sugar.[245]#$b#And the oil.[247]#$b#And the flour.[246]#$e#That was all of it, right? I didn't forget anything?$11",
+  "marriage.Good_7": "I just got back from Pierre's and when I was there he said I was the 10th customer of the day and that I won a small thank you gift.#$b#I think you will have better use of this than I would.[466 465 805 368 369 371]",
+  "marriage.Good_8": "Babe I made coffee, would you like some?[395]#$b#I drink mine dark, but would you like sugar or milk with yours?[245 184]",
+  "marriage.Good_9": "Sometimes I worry that I'm not doing enough for you as a husband, @.$16#$b#I wish I was more useful to you than just a conversation partner.$11",
+
+  "marriage.Neutral_0": "I went to collect eggs this morning for breakfast and I found this strange egg in the mix.$11[558]#$b#You know what it is?$11",
+  "marriage.Neutral_1": "I was thinking we could spruce up the house with a new set of wallpaper and flooring.$1#$e#What do you think?",
+  "marriage.Neutral_2": "Our farm is so large, and we produce so much excess goods.#$b#I wish we had a food bank or something similar so we could donate the food.$11#$b#That way, people like Linus wouldn't have to rummage through trashcans for food.",
+  "marriage.Neutral_3": "It's nice living on such spacious farmland by ourselves, but occasionally I wish we had neighbors.$3",
+  "marriage.Neutral_4": "My katanas have become a little blunt lately, I wonder if Clint sells some whetstones I could buy.",
+  "marriage.Neutral_5": "I took %pet out for a walk this morning.#$b#We've been getting along really well these days.$1#$b#I think %pet is starting to get used to me living here.$3",
+  "marriage.Neutral_6": "Just looking at you puts a smile on my face.$1#$b#I'm grateful I married such a wonderful person.$12",
+  "marriage.Neutral_7": "I'm amazed you joined the Adventure's Guild.#$b#I'm pretty handy with a katana, three katanas in fact.$1#$b#Maybe we can go adventuring together in a mine when you're done with farmwork.$3",
+  "marriage.Neutral_8": "I'm content and happy with the life we have.$1#$b#I don't think I'd be returning to the pirate's life anytime soon.",
+  "marriage.Neutral_9": "I made breakfast, make sure you eat something before you head out honey.[201]",
+
+  "marriage.Bad_0": "What is it?$10#$e#What? No, I'm not mad. It's fine.$11#$b#I'll get upset for real if you keep asking.$10#$e#I said forget about it!$5#$e#%Zoro no longer wants to talk.",
+  "marriage.Bad_1": "Hmph.$10#$b#%Zoro is now ignoring you.",
+  "marriage.Bad_2": "Hey...About what happened yesterday...We need to seriously talk about it.$11#$b#I can't ignore it any longer.$2",
+  "marriage.Bad_3": "@...Do you even love me?$11#$b#If you do, why do you treat me like this?$2",
+  "marriage.Bad_4": "Sorry, now's not a good time.$2#$b#I'm not in the mood to talk.$11",
+  "marriage.Bad_5": "I feel we've been drifting apart lately...$11#$b#Have you gotten tired of me?$2",
+  "marriage.Bad_6": "I don't like how you've been treating me lately, @.$10#$b#If it's something I did, then just let me know and we can work through it together.$2",
+  "marriage.Bad_7": "...$10#$b#%Zoro does not look in the mood to talk, let's come back later.",
+  "marriage.Bad_8": "My fishing line snapped and the fish got away this morning...$10#$b#I wasn't able to catch anything either.$2#$e#Sorry, I'm still upset, don't talk to me right now.$16",
+  "marriage.Bad_9": "Hey...We need to talk about...Us.$2#$b#I've just been disappointed in our relationship lately.$11#$b#I feel we've lost our communication with each other.$16#$e#Nevermind, you're busy. We'll talk about it later.$10",
+
+///seasonal marriage dialogue
+
+//spring
+  "marriage.spring_Zoro": "It's finally spring!#$b#I'm looking forward to all the fresh fruits and vegetables.$1#$b#I was getting tired of eating dried foods and fish all winter.$11",
+  "marriage.spring_1": "It's the start of a new year once again!$1#$b#I hope for this new year that we will both still be in good health and as in love as the year before.$8#$b#Let's make this year another great one, @!$7",
+  "marriage.spring_13": "Will you be joining the egg hunt today, @?#$e#No offense to Abigail, but I'd prefer to see you win.$3",
+  "marriage.spring_24": "I'm not big on having everyone watch as I dance, but if you invite me, I'll dance with you babe.$12",
+  "marriage.spring_25":"Did it look like I made a fool of myself dancing yesterday?$15#$b#I hope not, but you will tell me if I did, right?$14",
+
+//summer
+  "marriage.summer_Zoro": "Have I told you how much I dislike summer, babe?$10#$b#I get sweaty and sticky so fast.$2#$b#Cold showers are the best this time of season.$7",
+  "marriage.summer_1": "Great, another hot and humid summer.$10#$b#Let's just get this season over with.$2",
+  "marriage.summer_11": "What are you bringing for the pot today, sweetie?#$b#I'll make sure not to bring the same thing.$1",
+  "marriage.summer_27":"I was thinking that for tomorrow's festival, we could make a romantic date out of it?$8#$b#We can bring candles and wine and a picnic blanket and all our favorite foods.$7#$b#We can spread out on the beach somewhere away from everyone else and enjoy the Moonlight Jellies together.$12",
+  "marriage.summer_28": "I've always wondered how Moonlight Jellies taste?$13#$b#Like water, maybe?$11",
+
+//fall
+  "marriage.fall_Zoro": "Fall is my favorite season!$1#$b#Not too hot and not too cold.#$b#Fall foods go great with beer, too!$3",
+  "marriage.fall_1": "Looks like fall is finally here!#$b#Stardew Valley becomes really pretty with all the reds and golds and oranges.",
+  "marriage.fall_16": "Babe, have you decided what you're going to showcase at the fair today?#$b#Let me help you prepare!",
+  "marriage.fall_26": "I might have to pass on the maze this year.$11#$b#You know how bad I am at...$2#$b#Last year I was in that maze all night.#$b#Lewis had to get me out the next morning.$4",
+  "marriage.fall_28":"I'm amazed I was able to get out of that maze by myself by only asking just six other people yesterday.$3",
+
+//winter
+  "marriage.winter_Zoro": "This winter is especially cold.$2#$b#I forget how cold our winters are.$2#$b#Be sure to dress warm, babe.",
+  "marriage.winter_1": "My dear, were we able to prepare for winter?#$b#Did you collect all the harvest yesterday?$1",
+  "marriage.winter_8": "I look forward to the ice fishing, it's my favorite part of the festival.#$b#I'll make sure to catch a big one and we can cook it for dinner.$1",
+  "marriage.winter_9":"I tried sneaking out some fishes that everyone had caught at the festival for our dinner yesterday, but Lewis stopped me immediately.$2#$b#What's one or two fishes? Why did we have to release all of them? Seems a waste to me.$11",
+  "marriage.winter_14": "Are you looking to buy any exotic fishes at the Night Market, @?#$b#I was thinking we could buy some new furniture for the farm?$1",
+  "marriage.winter_24":"The Winter Star festival is tomorrow!$1#$b#I saw everyone in town decorating and Pierre's shop was filled with last minute people buying ingredients to cook for the feast.#$b#Are we going to be bringing food, too?",
+  "marriage.winter_25": "Merry Winter Star, babe.$3#$b#The year is coming to an end once again, and I'm forever grateful I get to spend the beginning of the year with you and the end of the year with you.$7#$b#Let's hope together that next year is also full of happiness with each other.$8",
+  "marriage.winter_28":"Today is the last day of the year, and tomorrow will be the beginning of a brand new one.$1#$b#Do you want to stay up tonight together and watch the countdown?$7",
+
+///FESTIVAL DIALOGUE
+
+//festival default
+  "festival-default": "I never get tired of these festivals.#$b#There's always free food.$1",
+
+//egg festival
+  "spring13.A": "Hey, you new in town? I'm Zoro.#$b#You participating in this event?",
+  "spring13.B": "Hey, nice to meet you, I'm Zoro. I arrived in Pelican Town just recently.#$b#Funny how we only just started talking at this festival, huh?$1",
+
+  "spring13.friendly.A": "I really think Abigail shouldn't participate.$11#$b#She should leave this to the kids.$11#$e#Oh, what? You're participating too?$14#$e#Don't you feel a bit too old for this?$15",
+  "spring13.friendly.B": "I helped hide some of the eggs this year.$1#$b#I doubt anyone could reach where I put them though.$3",
+  "spring13.friendly.C": "Marnie said I could get some free eggs if I helped set up the festival.#$b#I was in charge of the rabbit cut out.#$b#But I accidentally made it my height, so I think it is too tall for most people to fit correctly.$15",
+  "spring13.friendly.D": "Why is the prize the same thing every year?$2#$b#How many of the reward have you collected already?",
+  "spring13.friendly.E": "Good luck this year, @! I'll be rooting for you.$3",
+
+  "spring13.dating.A": "I hope you win babe!$1#$b#Beat that girl Abigail once and for all.$3",
+  "spring13.dating.B": "Do you think you will break your record from last year? Good luck, babe!$1",
+  "spring13.dating.B": "You've gotten a lot faster at egg hunting, will you win this year @?",
+
+  "spring13.married.A": "How many years has Abigail been participating?$11#$b#Isn't it about time she leave this to the kids?$11#$e#Oh you're going to play, too?$15#$b#I'd rather my husband win then.$12^I'd rather my wife win then.$12",
+  "spring13.married.B": "I helped hide some of the eggs, want me to tell you where some of them are?$4#$b#Just kidding, babe. I won't tell.$3#$b#Unless...?$4",
+  "spring13.married.C": "I never get tired of watching Abigail lose.$7#$b#Don't let her win this year either.$13",
+  "spring13.married.D": "Good luck, @! Maybe we can bring some eggs home with us this year.",
+  "spring13.married.E": "I accidentally smashed more than one egg while helping paint them.#$b#Eggs are so delicate.",
+
+  "spring13.divorced.A": "I hope you lose.$10#$b#Don't talk to me again.$11",
+  "spring13.divorced.B": "Well look who it is. The little Mr. Heartbreaker.$10^Well look who it is. The little Ms. Heartbreaker.$10#$e#Here to beat some children again just to win another hat?$10",
+  "spring13.divorced.C": "I hope you find no eggs today.$10",
+
+
+//flower dance
+  "spring24.A": "Don't ask me to dance, thanks.$11",
+  "spring24.B": "Hey, nice to meet you. This your first time at this festival, too?",
+
+  "spring24.friendly.A": "I'm telling you now, I have two left feet when it comes to dancing.$14#$b#So don't bother asking me.$15",
+  "spring24.friendly.B": "I'm only here for the free food and drinks.#$b#Are these flowers edible, too?$4",
+  "spring24.friendly.C": "So what are we supposed to do at this festival again?$11#$e#What? Dance?!$9#$b#It's not mandatory, is it?$16",
+  "spring24.friendly.D": "Hey look at you farmer, all dressed up!$1#$b#You must have been looking forward to this festival, huh?",
+  "spring24.friendly.E": "I would rather be off fighting monsters than dance in front of people.$4",
+
+  "spring24.dating.A": "Babe, are you going to ask me to dance with you?$7",
+  "spring24.dating.B": "You look great today!$7#$b#Were you looking forward to the flower dance @?",
+
+  "spring24.married.A": "I'd prefer not to dance in front of everyone, but if my husband wants me to, then I will.$15^I'd prefer not to dance in front of everyone, but if my wife wants me to, then I will.$15",
+  "spring24.married.B": "Dancing is not my forte, but I will dance if it is with you.$4",
+  "spring24.married.C": "Honey, please don't ask me to dance in front of everyone again this year.$15",
+  "spring24.married.D": "Will you dance with me this year, @?",
+  "spring24.married.E": "We practiced dancing for this all week!$1#$b#We're going to be the best couple dancing at this flower dance.$7",
+
+  "spring24.divorced.A": "You better not even think about asking me to dance.$10",
+  "spring24.divorced.B": "I don't even know why I came here.$10",
+  "spring24.divorced.C": "Great, it's you again.$10",
+
+//luau
+  "summer11.A": "Hey, nice to meet you. I'm Zoro.#$b#So did you bring anything good for the potluck?",
+  "summer11.B": "Hey, have we met before?#$b#You new in town, too? I'm Zoro.#$b#What did you bring for the potluck?",
+
+  "summer11.friendly.A": "Hurry up Linus!$1#$b#When will the meat be ready?$3",
+  "summer11.friendly.B": "Just look at that roast, this will go great with beer!$3",
+  "summer11.friendly.C": "The potluck smells a little weird this year, so I'd rather have what Linus is cooking!$14",
+  "summer11.friendly.D": "Did someone put something gross in the pot this year?$2#$b#The color looks a little off, don't you think?$11",
+  "summer11.friendly.E": "I caught an exotic pufferfish this morning and brought it to the potluck. Hope it's good enough...$3#$b#What?! What do you mean it's poisonous?!$9",
+
+  "summer11.dating.A": "Babe what did you bring to the potluck this year?",
+  "summer11.dating.B": "I like the Luau, it means the Fish Shop is closed and I get a day off to spend with you!$3",
+
+  "summer11.married.A": "Every year Linus makes the best fire roasted beef!$3#$b#You want me to ask him some for you too, @?$1",
+  "summer11.married.B": "I've been watching what people put in the pot and it's been pretty mediocre.$11#$b#I hope you brought something good that can save it, @.$17",
+  "summer11.married.C": "I think I just saw Sam pour some Joja Cola into the pot!$9#$b#I might skip out on the soup this year.$16",
+  "summer11.married.D": "Babe, check out what Linus is roasting! Doesn't it smell good?$8#$b#I asked him what kind of meat it is and he said it was a secret.$14",
+  "summer11.married.E": "I forgot we were suppose to bring something for the potluck.$14#$b#It's a good thing you came prepared!$1",
+
+  "summer11.divorced.A": "I'm trying to enjoy this festival, so can you not bother me for once?$10",
+  "summer11.divorced.B": "Have we met before?$11#$b#Oh, right, my ex that broke my heart. What do you want?$10",
+
+//dance of the moonlight jellies
+  "summer28.A": "Willy was right, this is a pretty sight.",
+  "summer28.A": "Hey, it's nice to finally meet you.#$b#I'm Zoro, you here to watch the Moonlight Jellies, too?",
+
+  "summer28.friendly.A": "I've heard about the Moonlight Jelly migration from Willy.#$b#I have to see it for myself, if it's really as spectacular as he keeps telling me.$1",
+  "summer28.friendly.B": "I've been looking forward to this.#$b#I've never seen Moonlight Jellies up close before.",
+  "summer28.friendly.C": "Where do you think the Moonlight Jellies come from?#$b#And where are they going?#$#Does their journey ever end?",
+  "summer28.friendly.D": "Do you think the Moonlight Jellies will let me touch them?",
+  "summer28.friendly.E": "I'm looking forward to seeing the baby jellies this year.",
+
+  "summer28.dating.A": "Babe, being here with you, makes the night more beautiful.$12",
+  "summer28.dating.B": "I didn't think I would look forward to watching the Moonlight Jellies with you this much, @.$8",
+
+  "summer28.married.A": "Somehow its more romantic watching the Moonlight Jellies together with you.$12",
+  "summer28.married.B": "Oh babe, look at that! I think I see the Moonlight Jellies in the far distance!$3",
+  "summer28.married.C": "Come stand by me so we can watch the Moonlight Jellies this year.$8",
+  "summer28.married.D": "Honey, do you want me to catch a Moonlight Jelly for you so we can put it in our aquarium?$7#$b#Haha, I'm just kidding.$8#$b#Unless...?$4",
+  "summer28.married.E": "There is just something special in the air tonight.$8#$b#The Moonlight Jellies are always magical when seeing it with you, @.$7",
+
+  "summer28.divorced.A": "%Zoro is ignoring you.",
+  "summer28.divorced.B": "It's not as magical after seeing them so many times.$11",
+
+//marketpalooza (Nikolai NPC mod)
+  "fall3.A": "Hey, funny to meet you here.#$b#I'm Zoro.#$b#So you know Nikolai, too?",
+  "fall3.B": "Oh, nice to meet you. I'm Zoro.#$b#This is my first time at this event.",
+
+  "fall3.friendly.A": "I've been waiting all year for this!$3#$b#Finally, Gus's famous survival burgers! Try 'em, @!$7#$e#Nickolai sure knows how to throw a festival.$3#$e#I can see he's put a lot of work into this.$1#$b#It's for a good cause too.$13#$b#What a standup guy.",
+  "fall3.friendly.B": "It's nice seeing everyone come together for a good cause.$1",
+  "fall3.friendly.C": "I donated a little something to help with the cause.#$b#It's not much but I hope it helps.",
+
+  "fall3.dating.A": "Seeing Nikolai plan this event, gave me an idea.#$b#We could definitely host our own festival, too. Right babe?$7",
+  "fall3.dating.B": "The food is pretty good here.#$b#You want to share this burger with me, @?$12",
+
+  "fall3.married.A": "Babe, check out all the great food at this festival Nickolai threw!$3#$b#Gus is even cooking his famous Survival Burgers.$1#$e#Nickolai sure knows how to throw a festival.$3#$b#I can see he's put a lot of work into this.$1#$e#It's for a good cause too.$13#$b#What a standup guy.",
+  "fall3.married.B": "Honey, did we donate anything to help Nikolai?#$b#I feel bad if we didn't contribute to the good cause, too.",
+  "fall3.married.C": "It must have been a lot of work to host an event this big by yourself. Nikolai worked hard!",
+
+  "fall3.divorced.A": "%Zoro glares at you and turns away.",
+  "fall3.divorced.B": "I'm only here to help Nikolai with his cause, not to talk to you.$10",
+
+//stardew valley fair
+  "fall16.A": "Hey,nice to meet you. I'm Zoro.#$b#Have you tried the burgers here yet?",
+  "fall16.B": "Hey, good to see you. The name is Zoro.#$b#It's my first time at a festival like this.#$b#The food is good here.",
+
+  "fall16.friendly.A": "Gus's food is the only reason why I'm here.$13#$e#Keep 'em coming Gus!$3#$e#Have you tried this pumpkin cider yet, @?$1",
+  "fall16.friendly.B": "I saw the granges that are on display, looks like you have tough competition this year.",
+  "fall16.friendly.C": "Fall is my favorite season, Gus is able to make all my favorite dishes.$3",
+  "fall16.friendly.D": "Have you tried that spinning game?$11#$b#It's definitely rigged. I've lost every round for 50 rounds straight.$2",
+  "fall16.friendly.E": "Some of the fish in Willy's display are ones that I caught.$1#$b#I hope he doesn't place last at least.$14",
+
+  "fall16.dating.A": "Babe, be sure to try some of this pumpkin pie Gus is giving away.$1",
+  "fall16.dating.B": "You can do it this year, @!#$b#I know you will be able to win 1st place.$1",
+
+  "fall16.married.A": "Oh babe! Gus is giving away free food, want me to bring some home for us?$7",
+  "fall16.married.B": "What are you going to display at your grange this year, honey?#$b#You should put something good we produced on our farm.",
+  "fall16.married.C": "Good luck in the competition, @!$1#$b#It's going to be great watching Pierre lose.$$7",
+  "fall16.married.D": "I talked to the fortune teller earlier, and they said we might be expecting a baby soon!$3",
+  "fall16.married.E": "I'm confidant we can win the grange display again this year.$1#$b#All of our products and produce are tbe best of the best!$3",
+
+  "fall16.divorced.A": "Can't you see I'm eating?$10#$b#Leave me alone!$10",
+  "fall16.divorced.B": "Are you my shadow? Why are you at every festival I go to?$2",
+
+
+//ridgeside village gathering (RSV mod)
+  "fall20.A": "What kind of festival is this?$11",
+  "fall20.B": "Hey, nice to meet you. I'm Zoro.#$b#You come up to Ridgeside often?",
+
+  "fall20.friendly.A": "The girls had asked me to help them carry so many boxes of decoration up from Pelican Town.$2#$b#It's a good thing the guys forgot theirs, they probably would have asked me for help, too.",
+  "fall20.friendly.B": "I like coming to Ridgeside, the mountain is very different from the sea and ocean that I'm used to.",
+  "fall20.friendly.C": "Every time a visit Ridgeside, I meet someone new.#$b#The Gathering is always a good chance to meet new people.",
+  "fall20.friendly.D": "I'm looking forward to all the good food and drinks here.",
+  "fall20.friendly.E": "Hey, @! Good to see you around.$1#$b#You friends with the Ridgeside folks, too?#$b#You sure know a lot of people.",
+
+  "fall20.dating.A": "Hey @! Glad to see you could make a trip all the way up here. It's kinda fun riding the cable car.#$b#It gets old quickly when you have to carry so many boxes of decoration up and down the valley though.$11",
+  "fall20.dating.B": "Honey, can you help me with the preparations for this festival?#$b#The folks asked me to help out left and right and I'm swamped.",
+
+  "fall20.married.A": "The guys forgot their decorations again this year.$11",
+  "fall20.married.B": "@, we should visit Ridgeside together more often!#$b#I've made a few friends here, too.",
+  "fall20.married.C": "Pika makes some of the best food, but don't tell Gus I said that!$14",
+  "fall20.married.D": "Ridgeside Village is so massive, I get lost every time I step out of the cable car.$14",
+  "fall20.married.E": "I heard Sam's band is going to be playing later.#$b#I wonder what new songs they have come up with?",
+
+  "fall20.divorced.A": "...$11",
+  "fall20.divorced.B": "I can't escape from you even in Ridgeside, huh?$2",
+
+//spirits eve
+  "fall27.A": "Who are you?$2#b#What? I'm not lost!$10",
+  "fall27.B": "Nice to meet you, the name is Zoro.#$b#So... You know where to exit is?$17",
+
+  "fall27.friendly.A": "Where the hell am I?$16#$b#I've passed by this chicken-legged house 100 times now!$10",
+  "fall27.friendly.B": "Why did I decide to even do this damn maze?$2#$b#I have no idea where I am now!$2",
+  "fall27.friendly.C": "Oh hey, @. How's it going?#$b#What? Am I lost?$11#$b#No... no.$17#$b#Hey, can I follow you out, you know just to protect you in case you run into anything dangerous.$$15",
+  "fall27.friendly.D": "I swear if I pass by this chicken house once again, I will lose my mind.$9#$b#How do I get out of here?$2",
+  "fall27.friendly.E": "Where in Yoba is the exit?$14#$b#Who came up with this stupid maze?$10",
+
+  "fall27.dating.A": "Babe, if you are scared, just stick close to me, ok?$4",
+  "fall27.dating.B": "@, relax, I'm not going to get lost so you don't have to keep an eye on me.$15",
+
+  "fall27.married.A": "Thank Yoba you're here, you came to rescue me from the wretched maze this year too, right?$14#$e#I've been stuck here for hours.$15#$b#Let's go home already.$2",
+  "fall27.married.B": "Honey, remind me again why I'm in this maze?$2#$b#Oh, right. I said I was going to conquer this place once and for all.$$14#$b#Yeah, that turned out to be a lie. Can you show me the way out?$15",
+  "fall27.married.C": "Babe, I've passed by this chicken house a hundred times now.$2#$b#Wait, don't tell me. I'm lost aren't I?$10",
+  "fall27.married.D": "I admit, I'm not the best at directions...$11#$b#But honey, you have to agree this maze is playing tricks on us!$10#$b#I've passed by this chicken house a dozen times now!$2",
+  "fall27.married.E": "It's about time you found me, @!$1#$b#I've decided that this isn't the year for me to take on the maze. Maybe I will try again next year.$3#$b#So can you show me the way out?$14",
+
+  "fall27.divorced.A": "Why do I see you everywhere?$10#$b#Why are you even talking to me in this remote place?#10",
+  "fall27.divorced.B": "I'd never ask directions from you, so go away.$10",
+
+//festival of ice
+  "winter8.A": "I'm pretty good at ice fishing, if I do say so myself.",
+  "winter8.B": "Hey, I'm Zoro.#$b#I work at Willy's Fish Shop and know a thing or two about catching fish myself.",
+
+  "winter8.friendly.A": "You'd think someone like me would join in a fishing competition.#$b#And I did thought about it.#$b#But old man Willy was really looking forward to winning this year.$13#$b#And I didn't want to one up him and crush his spirits, ya know?$1#$e#It's a different story if you do it though.$3",
+  "winter8.friendly.B": "Maybe I should join the contest this year, too!$1",
+  "winter8.friendly.C": "How many fish do you think you will catch this year, @?",
+  "winter8.friendly.D": "I've gotten really good at fishing, ice fishing is easy for me, too.",
+  "winter8.friendly.E": "Maybe I'll join the competition next year.$1#$b#Who knows, I could even beat you or Willy.$3",
+
+  "winter8.dating.A": "Want to bet on who can catch the most fish today?$1",
+  "winter8.dating.B": "Fishing is a hard skill to learn, I'll be cheering for you, @.",
+
+  "winter8.married.A": "Beat Willy this year too, ok?#$b#I'm looking forward to all the fresh fish we will eat tonight!$3",
+  "winter8.married.B": "Good luck this year, @! Go catch all the fishes for us!$3",
+  "winter8.married.C": "Let's sneak the fishes you catch home so we can make dinner.$8",
+  "winter8.married.D": "I know you can break your record from last year, good luck babe!$3",
+  "winter8.married.E": "Willy is my friend and you are my husband, I don't want to see either of you lose, so I'll just cheer for both of you.$1^Willy is my friend and you are my wife, I don't want to see either of you lose, so I'll just cheer for both of you.$1#$e#Who am I kidding, of course I want you to win! Goood luck sweetie.$7",
+
+  "winter8.divorced.A": "I hope your line breaks constantly and that all your fishes get away today.$11#$b#Don't talk to me again.$10",
+  "winter8.divorced.B": "I hope Willy beats you again this year.$10",
+
+//feast of the winter star
+  "winter25.A": "Hey, nice to meet you. I'm Zoro. I've heard a lot of good things about you from the villagers.#$b#Anyway, happy holidays. See you around.",
+  "winter25.B": "Don't think I've seen you around before.#$b#I'm Zoro, I'm new in town.#$b#Happy Feast of the Winter Star, hope to see more of you next year.",
+
+  "winter25.friendly.A": "I wonder who my secret gifter is?$7#$e#I was a secret gifter for %rival this year.$3#$e#I'm only telling you this because I trust you, @. Don't tell him yet.$1^I'm only telling you this because I trust you, @. Don't tell her yet.$1",
+  "winter25.friendly.B": "Happy Feast of the Winter Star, @!$1#$b#Did you accomplish everything that you wanted this year?",
+  "winter25.friendly.C": "My present this year was a bottle of premium aged sake.$3#$b#I couldn't be more happier.$1#$b#What do you think you're getting, @?",
+  "winter25.friendly.D": "My secret gift giver was one of the children this year.#$b#I wasn't expecting much but, I recieved clay.$14",
+  "winter25.friendly.E": "Happy holidays, @! The year passed by so quickly.#$b#I'm glad I got to meet you and all the villagers.$1#$b#I hope our friendship continues to grow.$7",
+
+  "winter25.dating.A": "Babe, happy winter star.$3#$b#Can I come over to your place tonight?$12",
+  "winter25.dating.B": "@, you've made my Feast of the Winter Star special this year by being together with me. Thank you.$$7",
+
+  "winter25.married.A": "I hope you are my secret gifter this year, my love.$12#$e#Me? I'm a secret gifter for %rival this year.$13#$b#I wish I had you though, I thought up such a great present for you, too.$11",
+  "winter25.married.B": "It's been a wild year with you once again, @.#$b#But I'd rather go through it with no one else but you, honey.$7",
+  "winter25.married.C": "@, I'm proud of the things you have accomplished and what you have done to our farm.$1#$b#I look forward to another brand new year with you, sweetie.$7",
+  "winter25.married.D": "Feast of the Winter Star always reminds me that I am greatful for you always being by my side, @.$1#$b#My wish for the new year is for you to be healthy and happy, my love.$12",
+  "winter25.married.E": "Happy Feast of the Winter Star, @.$1#$b#I didn't think I could love you any more, but my love for you grows with each passing year.$12#$b#I hope we continue to walk down the path of life together year after year.$8.",
+
+  "winter25.divorced.A": "Happy holidays, or whatever.$11#$b#Now get out of my sight.$10",
+  "winter25.divorced.B": "Do you expect me to wish you happy Winter Star? Get out of here.$10",
+
+//ember of resolutions (RSV mod)
+  "winter28.A": "Resolution for the new year, huh?$11#$b#I guess I can try meeting more people.",
+  "winter28.B": "Nice to meet you. I'm Zoro.#$b#So what is your resolution for the new year?",
+
+  "winter28.friendly.A": "Happy New Years.#$b#What would my resolution for the new year be?$11#$b#I guess I can try making more friends.$12#$b#What's your wish, @?",
+  "winter28.friendly.B": "Hey, @! What's your New Years resolution?#$b#Mine is that I want to catch one of the legendary fishes!$1",
+  "winter28.friendly.C": "It's freezing right now and yet so many people are up in the mountains at night making wishes.$11#$b#I must be crazy since I'm joining them, too.$14",
+  "winter28.friendly.D": "Let's see, my wish for the new year...$11#$b#Probably try to find a way out of Stardew Valley and back to where I belong again.",
+  "winter28.friendly.E": "My New Years resolution is nothing too grand.#$b#I just want to eat good food and be surrounded by good people in my life.$1",
+
+  "winter28.dating.A": "Has it already been another year? Time sure passes quickly.#$b#My only wish for this new year is to be able to spend more time with you.$7",
+  "winter28.dating.B": "I can't believe an entire year passed by in a blink of an eye.#$b#What's your New Years resolution babe?$1#$b#Mine? Well... To be honest, I'd like for us to settle down and start a family.$15",
+
+  "winter28.married.A": "Happy New Years, babe.#$b#My resolution for the new year would be to strive to become a better husband that you can depend on more and more.$4#$b#What are you going to wish for?$7#$e#It's freezing, let's leave soon, @.$16#$b#%pet and our warm bed are waiting for us back home.$8",
+  "winter28.married.B": "My New Years resolution is to sleep more, eat more and work less!$7#$b#We're already rich because of you, sweetie. So we should start enjoying life more!$1",
+  "winter28.married.C": "What do I want to wish for?#$b#I wish we were back at home in our warm bed again.$4",
+  "winter28.married.D": "@, have you decided what your News Year Resolution is going to be?#$b#I've decided I should pick up my katanas and start trainging again.$1",
+  "winter28.married.E": "I don't need a New Years resolution.#$b#I've accomplished all I wanted by being with you.$12",
+
+  "winter28.divorced.A": "My wish for the new year is to never have to run into you again.$10",
+  "winter28.divorced.B": "I don't want to share my New Years resolution with some one like you.$2",
+
+///MOVIE REACTION DIALOGUE
+
+//movie: the brave little sapling (SPRING Y1)
+  "movies.0.before": "Isn't this a kid's movie?$17#$b#Are we really going to watch this?$2",
+  "movies.0.during-script": "Zoro looks bored.",
+  "movies.0.during-message": "This movie is just too childish for me.$11#$b#At least you're enjoying it though, right?$13",
+  "movies.0.after": "It wasn't a bad movie, just not my thing.",
+
+//movie: journey of the prarie king: the motion picture (SUMMER Y1)
+  "movies.1.before": "Sam and Alex had a lot of good things to say about this one.$13",
+  "movies.1.during-script": "Zoro looks entertained.",
+  "movies.1.during-message": "The movie is staying pretty true to the video game!#$b#I'm impresssed.$1",
+  "movies.1.after": "That was a decent movie.#$b#I actually liked it.",
+
+//movie: mysterium (FALL Y1)
+  "movies.2.before": "I've been waiting for this movie to come out!$3#$b#I can't wait to see it.#1",
+  "movies.2.during-script": "Zoro is watching the screen in excitement.",
+  "movies.2.during-message": "I hope this movie doesn't disappoint.#$b#I'm a fan of mystery movies.$3",
+  "movies.2.after": "Hmmn... It was ok, it just wasn't what I expected.$2",
+
+//movie: the miracle at coldstar ranch (WINTER Y1)
+  "movies.3.before": "I saw a trailer for this one.#$b#It looked really mushy.",
+  "movies.3.during-script": "Zoro laughs.",
+  "movies.3.during-message": "Do people really cry at this part?$14",
+  "movies.3.after": "The movie was way too sentimental for me.$11",
+
+//movie: natural wonders: exploring our vibrant world (SPRING Y2)
+  "movies.4.before": "A nature movie, huh?$13#$b#Is it like a documentary?$13",
+  "movies.4.during-script": "Zoro looks like he is enjoying the movie.",
+  "movies.4.during-message": "I should find the chance to visit these places in the future.",
+  "movies.4.after": "You think the actual places look as good in real life as in the movie?",
+
+//movie: wumbus (SUMMER Y2)
+  "movies.5.before": "This looks interesting.#$b#I hope.$16",
+  "movies.5.during-script": "Zoro stares at the screen dumbfounded.",
+  "movies.5.during-message": "The director must have been huffing paint when he came up with this one.$14",
+  "movies.4.after": "I didn't actually hate it, believe it or not.#$b#It was strange, but in a good way.$14",
+
+//movie: it howls in the rain (FALL Y2)
+  "movies.6.before": "I love horror movies.$1#$b#So I'm having high hopes for this one.$3",
+  "movies.6.during-script": "Zoro stares at the screen intensely.",
+  "movies.6.during-message": "You think they're going to make it out alive?$9",
+  "movies.6.after": "That movie was so suspenseful!$1#$b#I was on the edge of my seat the entire time.$3",
+
+//movie: the zuzu express (WINTER Y2)
+  "movies.7.before": "Is this one of those romance movies?#$b#I didn't take you for a romance kind of guy.^I didn't take you for a romance kind of gal.",
+  "movies.7.during-script": "Zoro looks more focused on his food than the movie.",
+  "movies.7.during-message": "Yeah, I just don't see the appeal in this.$16",
+  "movies.7.after": "It was so cheesy, I couldn't take it seriously.$14",
+
+//seen_love
+  "movies.8.before": "Oh I love this movie!$3#$b#Yeah, let's watch it again.$1",
+  "movies.8.during-script":"Zoro happily watches the screen.",
+  "movies.8.during-message":"Yeah, this part is still as good as I remembered it!",
+  "movies.8.after": "No matter how many times I see this one, it's just as good as the first time.",
+
+//seen_like
+  "movies.9.before": "I saw this one already. It was decent.#$b#You want to watch it again? Sure, I have nothing else to do right now.",
+  "movies.9.during-script":"Zoro seems deep in thought.",
+  "movies.9.during-message":"I think watching this part again, made me see the movie in a different way.",
+  "movies.9.after": "I don't mind watching movies I've seen before.#$b#I catch things that I didn't notice the first time.$1",
+
+//seen_dislike
+  "movies.10.before": "Do we really have to watch this one again?$10#$b#Ok, fine.$2",
+  "movies.10.during-script":"Zoro yawns.",
+  "movies.10.during-message":"I never liked this part.$2",
+  "movies.10.after": "Please don't make me watch it again next time.$16",
+
+///MAP ITEM DESCRIPTIONS
+  "maps.ZoroBoatHouse.1": "It's an old treasure map. Upon further inspection, you see the name of the map: Grand Line",
+  "maps.ZoroBoatHouse.2": "It's a box of fresh fish that Zoro caught this morning.",
+  "maps.ZoroBoatHouse.3": "Zoro has a collection of sakes and alcohols.",
+  "maps.ZoroBoatHouse.4": "Zoro's trusty fishing pole. The handle looks worn from use.",
+  "maps.ZoroBoatHouse.5": "Zoro's three katanas: Sandai Kitetsu, Shusui and Wado Ichimonji are on display. Does he even use them anymore?",
+  "maps.ZoroBoatHouse.6": "Zoro's area where he works out. I wonder how much he can bench?",
+  "maps.ZoroBoatHouse.7": "Zoro's wardrobe. He only has four outfits...",
+  "maps.ZoroBoatHouse.8": "A list of where all shops in Pelican Town are at. It looks well used.",
+  "maps.ZoroBoatHouse.9": "It smells of burnt fish.",
+  "maps.BoatHouseCellar.1": "The generator that supplies electricity to Zoro's boathouse is down here. It runs on coal. It helps make the bathroom nice and toasty during the winter.",
+  "maps.BoatHouseCellar.2": "This is a casket of sake.",
+  "maps.BoatHouseCellar.3": "Zoro keeps his supply of freshwater down here.",
+  "maps.BoatHouseCellar.4": "Zoro prefers baths to showers.",
+  "maps.BoatHouseCellar.5": "You see yourself in the mirror. Lookin' good!",
+  "maps.BoatHouseCellar.6": "There are extra supplies of toothpaste, toilet paper, medicine, shampoo, and towels in these cabinets.",
+  "maps.BoatHouseCellar.7": "What a nice looking toilet.",
+  "maps.ZoroBoardingHouse.1": "Zoro's trusty fishing rod.",
+  "maps.ZoroBoardingHouse.2": "Zoro's workout area. You occasionally see him working out in his room shirtless.",
+  "maps.ZoroBoardingHouse.3": "It's a dumbbell.",
+  "maps.ZoroSpouseRoom.1": "It's an old treasure map. It has locations you've never heard of before. The name of the map says 'Grand Line'.",
+  "maps.ZoroSpouseRoom.2": "It's a collection of you and your husband's sakes, wines and alcohols.",
+  "maps.ZoroSpouseRoom.3": "Zoro is trying really hard to read more books. There's even romance! Upon further inspection, there's a book titled 'How to be a better husband' hidden underneath the pile.",
+		
+///MOVIE INVITE DIALOGUE
+  "dialogue.MovieInvitation": "Are you inviting me on a date to the movies?$4#b#Sure, I'll go. What are we watching?$12",
+  "dialogue.MovieInvite_Spouse_Zoro": "It's been a while since we went on a date, babe. Going to the movies sounds like a good idea!$7",
+
+
+///EVENTS DIALOGUE
+
+//1 heart intro
+  "1heart.1":"A few months before the new farmer arrives...",
+  "1heart.2":"Boy are you ok?",
+  "1heart.3":"This doesn't look good.",
+  "1heart.4":"You said you found him like this?",
+  "1heart.5":"Yup. Passed out cold.",
+  "1heart.6":"Who is he? Where did he come from?",
+  "1heart.7":"No clue. What do we do now?",
+  "1heart.8":"He looks dangerous. Look at that sword he's got!",
+  "1heart.9":"Let's try gently shaking him first.",
+  "1heart.10":"...",
+  "1heart.11":"...",
+  "1heart.12":"...",
+
+//2 heart
+  "2heart.1":"Where am I?",
+  "2heart.2":"Oh, it's you, @. Did you need something?$11",
+  "2heart.3":"What? Am I lost? No I'm not lost!$10",
+  "2heart.4":"What am I doing then?$11#$b#I'm heading to Lewis' house to discuss something.#$b#But it looks like his house disappeared overnight!$10",
+  "2heart.5":"I could have sworn his house was near here...$2",
+  "2heart.6":"What?! His house is further south, to the right of the graveyard?!$9#$b#Where is the graveyard?!$10",
+  "2heart.7":"Near the bridge to the beach?$10",
+  "2heart.8":"When did it get moved there?!$10",
+  "2heart.9":"Well, thanks for letting me know, @, I appreciate it.$7",
+  "2heart.10":"Now then, he lives on the beach right?#$b#I'm off to the beach then. Later @!$1",
+
+//4 heart
+  "4heart.1":"Thanks again for coming today Zoro.$1#$b#The children have been constantly asking to hear more of your adventuring stories of when you were out at sea.",
+  "4heart.2":"No problem, I'm happy to be here.$13",
+  "4heart.3":"I figured it would be really educational for the kids to learn about new places and cultures.$1",
+  "4heart.4":"Oh, hello @!$1#$b#It's good to see you at the museum today.$1",
+  "4heart.5":"Hi!",
+  "4heart.6":"Hello.",
+  "4heart.7":"Hey farmer.",
+  "4heart.8":"Zoro was just about to tell us some of his stories of his travels, would you like to join us?",
+  "4heart.9":"Great! Come have a seat with us.$1",
+  "4heart.10":"So, you were about to begin, Zoro?",
+  "4heart.11":"Sure, what would you kids like to know?",
+  "4heart.12":"Oh! Tell us about being inside the giant whale!$4",
+  "4heart.13":"No, I want to hear about the dinosaurs!$1#$b#Tell us about them first!",
+  "4heart.14":"Ok, ok dinosaurs first then.",
+  "4heart.15":"It was the second island my crew and I landed on after reaching the Grand Line.#$b#It was an island where time never moved past the age of dinosaurs.$1#$b#T-rexes and sabertooth tigers roamed everywhere!$3",
+  "4heart.16":"Whoaa..!",
+  "4heart.17":"It was there that we ran into the warlord Crocodile's henchmen, Mr.3 and Mr.5!$9#$b#My crew and I fought in a life and death battle against them.$10#$b#But Mr.3 used his tricks and trapped us in wax that slowly made our bodies completely hard.$10#$b#I thought I was seriously a goner.$3",
+  "4heart.18":"What?! How did you escape?$3",
+  "4heart.19":"I tried cutting my feet off.$1",
+  "4heart.20":"Nooo...!$2",
+  "4heart.21":"That's so COOL!$1",
+  "4heart.22":"Do you have scars on your feet? Can I see?",
+  "4heart.23":"Yeah, su-$1",
+  "4heart.24":"OK! How about moving on to the next adventure now, yes???$5",
+  "4heart.25":"Oh sure thing, Penny.$13",
+  "4heart.26":"Hey Mr. Roronoa, how did you get that giant scar on your chest?",
+  "4heart.27":"Oh this thing?#$b#I got this from challenging the world's strongest swordsman and losing.$1#$b#I was prepared to die back then, but the swordsman spared my life and only gave me this slash mark!",
+  "4heart.28":"I wear it like a badge of honor now.$3",
+  "4heart.29":"No way! Was there blood everywhere when it happened?",
+  "4heart.30":"Sure was!$3",
+  "4heart.31":"Ewww...!$2",
+  "4heart.32":"OK! That's enough story telling for the day.#$b#I think it's about time for the children to head home.$3#$b#Thank you for your time today, Zoro.$3",
+  "4heart.33":"Aww but I wanted to hear more!$3",
+  "4heart.34":"You sure Penny? I don't mind telling a bit more.$1",
+  "4heart.35":"You might not mind, but I'm sure Jodi and Marnie will mind...$3",
+  "4heart.36":"Anyway, it's time for the children to leave. I'll walk them home.#$b#Have a nice day, Zoro and @.",
+  "4heart.37":"Let's go home, kids.",
+  "4heart.38":"Bye Mr. Roronoa.",
+  "4heart.39":"Bye Mr. Roronoa!",
+  "4heart.40":"Hey @, can I ask you something?$11",
+  "4heart.41":"Are you afraid of me because I am a pirate?$2",
+  "4heart.42":"Well, some of the residents here don't like it when I mention anything about my pirate life before I came here.$11#$b#They'd give me weird glances or avoid me completely on the streets.$10#$b#Not that I care much, though.$2",
+  "4heart.43":"But are you afraid of me, too?$11",
+  "4heart.44":"Oh good, you're the last person I want to be afraid of me.$1#$b#I feel like you're the only friend I've made so far here.$8#$b#So hearing you say that makes me feel better.$3#$b#Thanks, @.$7",
+
+//6 heart
+  "6heart.1":"...And so I told him, 'Do you think I run a charity! I can't live off of exposure. You need to actually pay me for my blacksmithing!$3",
+  "6heart.2":"Hmph. Typical customers, am I right? Always trying to lowball you out of every nickle and dime possible.$3",
+  "6heart.3":"Oh, it's @.",
+  "6heart.4":"So it is!",
+  "6heart.5":"Heya farmer! How's it been? Glad to see you here tonight.",
+  "6heart.6":"Why don't you join us for a few rounds?$1",
+  "6heart.7":"How have things been going on the farm, @?$1",
+  "6heart.8":"That's good to know!$1#$b#I heard from Pierre you've been making a pretty penny off of him this season.",
+  "6heart.9":"Your crops are always the freshest.#$b#Whenever there's a new shipment at the store, I make sure to stock up.$1",
+  "6heart.10":"It's very reassuring to know Stardew Valley gained such a talented farmer.#$b#This old sea dog is very happy you decided to move here.$1",
+  "6heart.11":"Don't work too hard, @.$11#$b#Make sure to take breaks and take care of yourself.$13",
+  "6heart.12":"I worry about you working on your own on such a big farm like that.$2#$b#If you ever need help, just let me know and I'm there.$1",
+  "6heart.13":"Hmm? When did you two become so close without us noticing?$3",
+  "6heart.14":"I didn't know you had any other friends besides us, Zoro.$1",
+  "6heart.15":"...$4",
+  "6heart.16":"Say, since it's Friday night and it's rare for @ to be joining us, why don't we do something fun?$1",
+  "6heart.17":"What do you have in mind?",
+  "6heart.18":"How about a good 'ol drinking contest?$3#$b#Whoever can handle their alcohol the most wins!$1",
+  "6heart.19":"Oh come on, it will be fun @!#$b#Think of it as a special welcoming party for you moving to Pelican Town!$1",
+  "6heart.20":"I don't mind since I can drink plenty, but are you sure you two old men can handle it?$1",
+  "6heart.21":"Oh? Is this a challenge I hear?$1",
+  "6heart.22":"We might be old, but we can drink you youngsters under the table any day! Right Clint?$1",
+  "6heart.23":"That's right, Willy!$1#$b#If there is ever a day where I lose to you kids, I'm closin' up my blacksmith shop!",
+  "6heart.24":"You don't have to go that far, Clint.$1#$b#I wouldn't want to see you closing up shop tomorrow.$3",
+  "6heart.25":"We can take these guys on, right @?",
+  "6heart.26":"Enough talk, let's start! You first, kids! Bottoms up!$1",
+  "6heart.27":"@ doesn't look so good.$2#$b#Looks like that's it for him tonight.$2^Looks like that's it for her tonight.$2",
+  "6heart.28":"I think you better take him back to his farm, Zoro.$2^I think you better take her back to her farm, Zoro.$2",
+  "6heart.29":"Yeah, I think so, too.$11#$b#Can you still walk, @?$2",
+  "6heart.30":"That's good then.#$b#Be careful on your way back you two.",
+  "6heart.31":"Take care of him for us, will you Zoro? Me and Willy will be here for a while more if you need us.^Take care of her for us, will you Zoro? Me and Willy will be here for a while more if you need us.",
+  "6heart.32":"Of course.",
+  "6heart.33":"Let's go @. The night air can help clear your head.$11#$b#You can put your arm around my shoulders and I'll support you.",
+  "6heart.34":"Did the walk help clear your mind a bit?$13",
+  "6heart.35":"That's good. I was worried you got alcohol poisoning or something.$2#$b#You really drank alot tonight.$16",
+  "6heart.36":"Tonight was really fun though, wasn't it?$1#$b#I'm glad you dropped by the Saloon.$3",
+  "6heart.37":"But next time, let's hangout with just the two of us.$4#$b#That way, you don't have to do anymore drinking contests.$7",
+  "6heart.38":"It's getting late. You should head back home now. You can walk the rest of the way home right?$13",
+  "6heart.39":"Ok then, see you later, @.#$b#I'm going to head back to the Saloon and meet back up with Willy and Clint for a bit longer.$1",
+  "6heart.40":"Hey, @...?$4",
+  "6heart.41":"I'm glad you're my friend.$4#$b#That's all. Good night.$4",
+
+//8 heart
+  "8heart.1":"Oh @! Glad to see you.$1#$b#You here in the mountains to do some fishing, too?",
+  "8heart.2":"That's too bad.$13#$b#But, if you're free for a little bit, would you mind keeping me company for a while?$1#b#Fishing can get awefully boring by myself sometimes.",
+  "8heart.3":"Great! You can help me with the bait if you want.$1",
+  "8heart.4":"Hey @, can I talk to you about something?$11",
+  "8heart.5":"What did you think of me when we first met?$11",
+  "8heart.6":"So you didn't think anything bad of me, huh?$1",
+  "8heart.7":"You know @, you're the most honest and nicest person I know since being stranded here in Stardew Valley.$1",
+  "8heart.8":"You never judged me for being a pirate or tried to pry into my life before I came here like other people.$11",
+  "8heart.9":"I just wanted you to know that I appreciate that, and I appreciate you being a friend to me.$4#$b#Thank you.$7",
+  "8heart.10":"I've been thinking about this long and hard, and it was a really tough decision to make, but because you're here...$11#$b#I've decided to live here in Stardew Valley from now on.$8",
+  "8heart.11":"Yeah, that's right. I'm not going back out to sea or back to my crew anymore.$13#$b#I've decided I want to be where you are.$12",
+  "8heart.12":"Don't be embarrassed or feel guilty. I already know why I've decided to do this.$3#$b#...And maybe someday, you might understand my feelings, too.$7",
+  "8heart.13":"Hey pass me another bait, will you? The fish got away while we were talking.",
+
+//10 heart
+  "10heart.1":"@! You're finally here!$7",
+  "10heart.2":"No I didn't wait long at all. I just got here a little while ago.$1",
+  "10heart.3":"What did I call you out here for?$11#$b#Well, I wanted to tell you a story...About me.$11",
+  "10heart.4":"Would you care to stay awhile and listen?",
+  "10heart.5":"Thanks @.",
+  "10heart.6":"...Well, it started with my best friend dying from an accident when I was a child.$11",
+  "10heart.7":"She was the daughter of the teacher at the dojo where I lived and trained.$11#$b#I could never seem to beat her in a match back then, no matter how hard I tried.$2",
+  "10heart.8":"She became my sole inspiration and motivation to become the best swordsman in the entire world.",
+  "10heart.9":"I told myself I was going to defeat her in a match one day.$13#$b#But that day never happened...Her life was ended short.$11",
+  "10heart.10":"After she passed away, I promised her that I would achieve that dream for the both of us.$11",
+  "10heart.11":"During my teen years I became a bounty hunter, hunting pirates to hone my skills and put food on my plate.",
+  "10heart.12":"I got caught by the Navy one day for a stupid reason and was put on deathrow.$11#$b#That was when I met my captain and he saved my life and broke me out of there.$1",
+  "10heart.13":"He asked me to become a pirate with him and so I swore my allegiance to him.$1",
+  "10heart.14":"Since that day, I have been on life and death adventures with him and the crew he made along the way.$3",
+  "10heart.15":"One of the life and death adventures led me to be transported here to Stardew Valley.$11",
+  "10heart.16":"A while back, I saw information from my captain on the newspaper telling us to meet him back at our rendezvous point in two years time.$11",
+  "10heart.17":"So I decided for the next two years, Stardew Valley was going to be my new beginning, where I would train like never before to get stronger.",
+  "10heart.18":"I swore after these two years, I was never going to lose again.$11#$b#I was still going to become the best swordsman in the world.$11",
+  "10heart.19":"...And that's when I met you.",
+  "10heart.20":"Ever since I met you, my world has been completely changed.$4",
+  "10heart.21":"Suddenly my life long dream of becoming the best swordsman, my goal that I've strived for in every waking moment of my life, didn't seem as important to me anymore.$15",
+  "10heart.22":"I'm suddenly willing to give up my days as a pirate.$4#$b#I'm willing to leave my captain and my crew.$4#$b#And most important of all, I'm willing to let go of my promise with my childhood friend, which meant the entire world to me.$4",
+  "10heart.23":"...Because I have someone who is my entire world now.$12",
+  "10heart.24":"What I'm trying to say is...$15#$b#I'm in love with you, @.$8",
+  "10heart.25":"This is for you.[458]$7#$b#It represents my feelings.$12",
+  "10heart.26.1":"It took a lot of courage for this confession, and what I'm about to ask next requires even more courage.$15", 
+  "10heart.42":"*Deep breath*... @...We've been dating for a while, and in this time I've come to realise something important.$11",
+  "10heart.43":"I've come to realise that you are the man of my dreams.$12^I've come to realise that you are the woman of my dreams.$12",
+  "10heart.44":"You make me feel complete, like I am already worthy.$12",
+  "10heart.45":"I used to think I would do anything to be the best swordsman in the world, now I only want to do everything to make you my world.$8#b#I would like to spend the rest of my days by your side.",
+  "10heart.46":"@, will you marry me?$7",
+  "10heart.27q":"Will you marry Zoro?",
+  "10heart.Answer_Yes":"Yes!",
+  "10heart.Answer_No":"No!",
+  "10heart.28.1":"I'm the happiest guy in the world right now!$7",
+  "10heart.29.1":"I was afraid you didn't feel the same way.$8",
+  "10heart.30.1":"But now I know my worries were baseless.$12",
+  "10heart.31.1":"We do not have to get married right now. I do not want to rush you.#$b#Think of this as a promise to each other to wed in the future. I will wait until you are ready.",
+  "10heart.32.1":"Just knowing your feelings is enough for me.$3",
+  "10heart.33.1":"Oh right! It's already getting so late.$14#$b#I made you stay out so long.$14",
+  "10heart.34.1":"Let me walk you back home, it's the least I can do.$1",
+  "10heart.35.2":"I understand...$2#$b#You don't feel the same way about me.$2#$b#I must have been the only one that was in love in this relationship.$16",
+  "10heart.36.2":"Don't feel bad, @.$15#$b#I don't regret telling you how I feel.$11",
+  "10heart.37.2":"In fact, it's a load off my shoulders that I finally was able to tell you what I've been bottling up.$11",
+  "10heart.38.2":"I always knew there was a chance that you didn't feel the same way and that's okay.$11",
+  "10heart.39.2":"You still mean a lot to me, @. But maybe we both need to step back and take some time to figure things out between us.$11#$b#I need to think about my future again, because I suddenly don't have a reason to stay in Pelican town anymore.$17",
+  "10heart.40.2":"...It's getting late. Thank you for coming out to meet me tonight.$11#$b#You can go home first.$11",
+  "10heart.41.2":"I'll just stay out here a little bit longer...$11",
+
+//12 heart
+  "12heart.1":"Ready for our date?$3#$b#It's a beautiful day.$1",
+  "12heart.2":"Great! I found the perfect place for our date. Let's go.",
+  "12heart.3":"Well look who it is, it's the newlyweds!$1",
+  "12heart.4":"How's the married life treating you two?",
+  "12heart.5":"It's been great!$3#$b#It feels like we're still in our honeymoon phase.$1",
+  "12heart.6":"That's great to hear!#$b#It warms my old heart knowing there is still young love happening in Pelican town.$1",
+  "12heart.7":"That reminds me, I never got the chance to personally congratulate you two.",
+  "12heart.8":"Your wedding was a blur of events and people, I completely forgot to give you my wedding gift.",
+  "12heart.9":"Let me go get it right now.",
+  "12heart.10":"So where are you two lovebirds heading?",
+  "12heart.11":"I'm taking @ on a date right now.$12",
+  "12heart.12":"Oh apologies, we old folks didn't mean to intrude on your date.",
+  "12heart.13":"Oh it's not a problem.#$b#We're in no rush today. Right, @?",
+  "12heart.14":"Sorry for the wait.",
+  "12heart.15":"Here you go.$1[681]",
+  "12heart.16":"Caroline and I found this totem at a flee market in ZuZu City the last time we went.",
+  "12heart.17":"The owner said it's supposed to bring rain if you use it.",
+  "12heart.18":"We figured it would be mighty useful for a farmer who needs to water such large fields.",
+  "12heart.19":"I hope you like it, @.",
+  "12heart.20":"Thanks, Pierre. We really appreciate it.$1",
+  "12heart.21":"So what are you two doing out here?",
+  "12heart.22":"Taking a break, Pierre?",
+  "12heart.23":"Yeah, Lewis here was inviting me to go fishing on our day off, but I said no since I plan on spending it with my family for a change.",
+  "12heart.24":"Pierre, Zoro said that he and @ are on a date right now.$1",
+  "12heart.25":"Oh, is that so? Well don't let us keep you two, then.$1",
+  "12heart.26":"We'll get going then.",
+  "12heart.27":"Drop by any time for a chat, okay?$1",
+  "12heart.28":"Let's go, @.$1",
+  "12heart.29":"Oh, there's Robin and Demetrius.",
+  "12heart.30":"Want to go say hi to them for a bit?$13",
+  "12heart.31":"Hey you two.",
+  "12heart.32":"@! Zoro! It's so good to see you two.$4",
+  "12heart.33":"Hey there. How have you guys been?#$b#Everything well on the farm?",
+  "12heart.34":"We've been well.#$b#How's work going for you two?",
+  "12heart.35":"Oh you know, busy as ever.#$b#I barely finish one project and another is already knocking at my door.#$b#I've been in my workshop for the past four days straight working from morning till night.$5",
+  "12heart.36":"I've been nagging her to take a break and go outside for some fresh air.#$b#She's helping me water the plants right now.",
+  "12heart.37":"And how are you guys doing?#$b#How does it feel being married?",
+  "12heart.38":"You guys aren't having any marriage troubles yet, are you?$1",
+  "12heart.39":"Nope, everything has been going great so far.$1",
+  "12heart.40":"He has been really busy with farming lately.^She has been really busy with farming lately.",
+  "12heart.41":"And I've just been helping him wherever I can.^And I've just been helping her wherever I can.#$b#We honestly have no time for marriage troubles.$3",
+  "12heart.42":"That's so great to hear!#$b#I hope your marriage lasts a lifetime.$1",
+  "12heart.43":"True love is very hard to find, this is me speaking from experience.",
+  "12heart.44":"My first marriage ended in failure.$2#$b#And when I remarried, my parents didn't approve of Demetrius because of his race.$2",
+  "12heart.45":"It was honestly one problem after the next.$1",
+  "12heart.46":"Oh, but after learning that Demetrius treated me a lot better than my ex-husband, my parents finally got around to accepting him.$1#$b#So it all worked out in the end.$1",
+  "12heart.47":"What Robin meant was to try and not be like her.$1#$b#That no matter the trouble, if you two work together and stick together through the hard times, you can overcome it all.$1",
+  "12heart.48":"Yes! That's what I meant, sorry for blabbing about my life story.$1",
+  "12heart.49":"Not at all, we learned something important today. Right @?",
+  "12heart.50":"I'm taking @ on a date today, so we have to get going now.",
+  "12heart.51":"It was great seeing you two again, Zoro and @.",
+  "12heart.52":"Take care!",
+  "12heart.53":"The view is incredible from up here, isn't it, @?$7",
+  "12heart.54":"I've always wanted to come up here with you.$12",
+  "12heart.55":"You know what, @?$13",
+  "12heart.56":"This still feels like it's all been a pleasant dream.$13#$b#Getting married to you, and our life together now, that is.$13",
+  "12heart.57":"Never in a hundred years would I have thought that someone like me could be married and living such a blissful and peaceful life.",
+  "12heart.58":"I was a pirate with a bounty on my head not too long ago.$11#$b#I was a wanted man out at sea.$11",
+  "12heart.59":"But here, I can spend my days quietly with the man I love.$12^ But here, I can spend my days quietly with the woman I love.$12",
+  "12heart.60":"It still doesn't feel real to me.$17#$b#I can still hear the words of my captain telling me to meet them in two years' time.$16#$b#And yet, here I am, already married and leaving my pirate days behind.$11",
+  "12heart.61":"I've changed so much, my dreams and ambitions gone, and in return I received love and dreams of a new future, with you.$4",
+  "12heart.62":"To be honest, sometimes I lay in bed awake at night, wondering if the path that I chose, was the right one.$11#$b#But I don't ever regret meeting you, @.$3",
+  "12heart.63":"I've even thought about taking you out to sea with me.$7",
+  "12heart.64":"Robin and Demetrius are right.#$b#Our marriage won't be smooth sailing throughout.#$b#I know we will have our rough days.$2",
+  "12heart.65":"But no matter how bad the troubles, I want us to be there for each other and work through it together.$1",
+  "12heart.66":"I married you for the good times and the bad, in sickness and in health.$8#$b#I don't want to leave you, @.#$b#You've become an irreplaceable part of my heart.$12",
+  "12heart.67":"I shouldn't be so worried about this, it's not like me.$14",
+  "12heart.68":"If any troubles ever arises, we'll just cross that bridge when we get there, together.$8",
+  "12heart.69":"It's getting late. And you have things to do before the day ends.#$b#So let's head back, @. I'll make us dinner when you get back home.$1",
+
+//14 heart
+  "14heart.1":"Hello.",
+  "14heart.2":"Morning @! How's your day going?$1",
+  "14heart.3":"You're looking for Zoro?",
+  "14heart.4":"Oh dear, did he get himself lost again?$1",
+  "14heart.5":"We did see Zoro walking by some time ago.",
+  "14heart.6":"We don't know where it looked like he was going, but it was not to the park though...$2",
+  "14heart.7":"Maybe try the beach? He works at the Fish Shop right? It's as good as any place to start looking.",
+  "14heart.8":"Good luck, @. Hope you find your husband soon.",
+  "14heart.9":"Hey there lad. What brings you out here to the sea today?$3^Hey there lass. What brings you out here to the sea today?$3",
+  "14heart.10":"Ye lookin' fer yer husband, is it?$3",
+  "14heart.11":"Well, I did see him. But not anywhere near here.",
+  "14heart.12":"I passed him on my way down the mountains from fishin' a while ago.",
+  "14heart.13":"Oh, you two were supposed to have a picnic at the park?$2",
+  "14heart.14":"Sorry there lad. If I had known, I would have told Zoro he was goin' the wrong way!^Sorry there lass. If I had known, I would have told Zoro he was goin' the wrong way!",
+  "14heart.15":"Alright then, I hope ye find yer husband.",
+  "14heart.16":"That boy, I swear, if his head wasn't attached to his neck, he'd lose it, too!$3",
+  "14heart.17":"Oh. It's you.",
+  "14heart.18":"What is it?",
+  "14heart.19":"Haha! Zoro is lost? Again? What else is new?$1",
+  "14heart.20":"Luckily for you, I actually did see Zoro coming by here.",
+  "14heart.21":"He looked like he was heading towards the mines.",
+  "14heart.22":"Sorry I can't help more. Good luck finding him, bye.",
+  "14heart.23":"Hey there. Heading into the mines today, @?",
+  "14heart.24":"Looking for Zoro, huh?",
+  "14heart.25":"Well, I did see him come here. You just missed him!",
+  "14heart.26":"He was about to walk into the mines with a picnic basket!",
+  "14heart.27":"It was so strange, I had to stop him to ask.",
+  "14heart.28":"I figured he was up to his shenanigans and getting lost again or something.",
+  "14heart.29":"And it looked like I was right. He told me he was going to the park!",
+  "14heart.30":"'Well you won't find any parks here!' I had told him.",
+  "14heart.31":"I pointed him the way back down the mountain. But yoba knows if that helped at all.",
+  "14heart.32":"I don't even know how your husband finds his way back home every night, with how bad he is with directions.",
+  "14heart.33":"How long has he been living in Stardew Valley again? And he still doesn't know his way around the place?",
+  "14heart.34":"You should run back into town, you might just catch up to him in time.",
+  "14heart.35":"WOAH!!! Slow down there!$7",
+  "14heart.36":"@? Why are you in such a rush? You almost knocked me down!$5",
+  "14heart.37":"You're looking for Zoro?",
+  "14heart.38":"With how fast you were running, I thought you were chasing down a robber or something!$1",
+  "14heart.39":"Zoro was like, literally just in our store, too.",
+  "14heart.40":"I gave him directions to the park like almost five minutes ago.",
+  "14heart.41":"If you hurry, you might catch up to him!",
+  "14heart.42":"Bye!",
+  "14heart.43":"Oh my! Where are you running to in such a rush, @?$4",
+  "14heart.44":"Zoro? Yes, I saw Zoro.",
+  "14heart.45":"I passed him on my way to town. He looked like he was walking towards the direction of my ranch.",
+  "14heart.46":"He was supposed to meet you at the park?$2",
+  "14heart.47":"But the park is just right up ahead, what was he doing in my part of the neighborhood, then?$2",
+  "14heart.48":"Oh, don't be too embarrassed, dear.",
+  "14heart.49":"Zoro being directionally challenged is just... One of his charms. Yes.$1",
+  "14heart.50":"You married him even with that flaw of his, right? So don't be too upset.$1",
+  "14heart.51":"I'm sure you'll find him sooner or later.",
+  "14heart.52":"You should hurry along now, before Zoro gets further away from you.",
+  "14heart.53":"The trail runs cold, you have lost track of Zoro...",
+  "14heart.54":"Let's go back to town and try searching there again...",
+  "14heart.55":"Oh @! What took you so long? I've been waiting forever!$7#$b#Did you get lost while coming here or something? And I thought I was bad with directions.$7",
+
+///EXTRA MINOR HEART EVENTS
+//12 heart
+  "12recruit.1":"Well this is a surprise. I don't see you around me shop very often. What can I do ya for, Marlon?#$b#You lookin' to put down yer sword to catch some fish finally?$1",
+  "12recruit.2":"I'm afraid not.#$b#I'm actually here for Zoro.",
+  "12recruit.3":"Me?",
+  "12recruit.4":"Willy has been telling me about how insanely strong you are. He also said you had a way with katanas.#$b#Have you ever thought of working for the Adventure's Guild instead?",
+  "12recruit.5":"Now wait just a moment, Marlon!$2#$b#I know yer not tryin' to steal me only employee, now are ya?$2",
+  "12recruit.6":"Don't you also agree that Zoro's talents are better suited for slaying monsters, than letting him waste his life away on helping you sell fish?",
+  "12recruit.7":"What do you mean waste his life away?!$2#$b$A fisherman is a manly profession!#$b#We battle every day against the elements of nature and the sea. Our spoils of war just happen to be fish.#$b#Besides, Zoro is a pirate, he is more suited for the ocean than some damp underground cavern.",
+  "12recruit.8":"Zoro is a warrior, he was born to wield a blade.#$b#Ever since he arrived to Pelican Town, you have been suppressing his abilities by keeping him to yourself.#$b#I can see the fire still in his eyes, this boy wants to pick up his katanas again!",
+  "12recruit.9":"...",
+  "12recruit.10":"Zoro is the only help I have around me shop, you think it's easy running a store by meself?$2#$b#But you Marlon, old friend, have tons of adventurers who you can hire, why take away me only helping hand?$2",
+  "12recruit.11":"Why not let the boy decide?#$b#I'm sure he will make the right decision.",
+  "12recruit.12":"Hmph. Fine.",
+  "12recruit.13":"What do you say, Zoro?#$b#I can still see a fighting spirit inside of you.",
+  "12recruit.14":"...I would have to talk about this with my husband first.$16^...I would have to talk about this with my wife first.$16",
+  "12recruit.15":"@ is an adventurer himself. I'm sure he would understand.^@ is an adventurer herself. I'm sure she would understand.",
+  "12recruit.16":"I know, but when I got married, I had already planned to put down my blades to help my husband and raise our kids on the farm.$11^I know, but when I got married, I had already planned to put down my blades to help my wife and raise our kids on the farm.$11",
+  "12recruit.17":"If something happens to @ in the mines, it would be up to me to raise our children.$11#$b#As much as I want to pick up my katanas again, we can't have both parents risking our lives.$2",
+  "12recruit.18":"Hmm... The Adventure's Guild will pay you double, no TRIPLE what Willy pays you.",
+  "12recruit.19":"HEY!",
+  "12recruit.20":"...Triple?$15#$b#@ might like the sound of that...$4",
+  "12recruit.21":"Plus, we will also let you choose what quests you want to take on.#$b#And anything you collect in the mines across Stardew Valley will be yours to keep.",
+  "12recruit.22":"It is a tempting offer, but I feel bad if I just quit on Willy.$17#$b#He was the first friend I made in Pelican Town, and gave me a job when everyone else was too scared of my shady background to hire me.#$b#I owe a lot to him.",
+  "12recruit.23":"How about this, if @ agrees, I'll also join the Adventure's Guild, but work only on rainy days.$1#$b#I am just at home whenever it rains anyway.",
+  "12recruit.24":"Hmmn. I suppose that works, too.#$b#Do let us know soon what you have decided on. I look forward to hearing from you, Zoro.",
+  "12recruit.25":"Goodbye and have a good day, Willy.",
+  "12recruit.26":"Yeah, get outta here already.",
+
+//npc jade colab event
+  "jade.1":"1621...",
+  "jade.2":"1622...",
+  "jade.3":"1623...",
+  "jade.4":"Helloooo!$1#$b#Is anyyybodyyy hooommeee?$1",
+  "jade.5":"Who's bothering me so early in the morning?$18",
+  "jade.6":"I'm really not in the mood to be bothered right now.$18",
+  "jade.7":"1630...1631...$6",
+  "jade.8":"Helloooo?? I know you're in there!$1",
+  "jade.9":"...$19",
+  "jade.10":"Sigh...",
+  "jade.11":"Who is it?$11",
+  "jade.12":"It's me!$1",
+  "jade.13":"Me who?$2",
+  "jade.14":"You know, me! It's me!$1",
+  "jade.15":"Like I said, I don't know who you are!$10",
+  "jade.16":"You know me, Zoro! It's me, Jade!$1#$b#Your friendly Boarding House neighbor!$1",
+  "jade.17":"The bug girl...?$2#$b#Why is she here?$2",
+  "jade.18":"What do you want?$11",
+  "jade.19":"Can I come in?$1",
+  "jade.20":"Why? Tell me what you want first.$2",
+  "jade.21":"It's a secret!$1",
+  "jade.22":"Then I'm not letting you in!$10",
+  "jade.23":"I'll tell you if you let me in!$1",
+  "jade.24":"This girl...!!!$10",
+  "jade.25":"Fine! Come in.$2#$b#This better be good.$2",
+  "jade.26":"Morning Zoro!$1",
+  "jade.27":"Yeah, ok, now tell me what you want.$11",
+  "jade.28":"Nice room you have here.$1",
+  "jade.29":"Very pirate-y.$1#$b#Did you decorate it yourself?$1",
+  "jade.30":"...$10",
+  "jade.31":"Jade, why are you here?$16",
+  "jade.32":"Oh right, why I'm here.#$b#Look at this, Zoro!$1",
+  "jade.33":"Isn't it cute?$1",
+  "jade.34":"What is that?$2#$b#Is that a stag beetle?$2",
+  "jade.35":"Yeah! Isn't he cute?$1#$b#I found him on my window sill this morning and he reminded me of you!$1",
+  "jade.36":"And what's that supposed to mean?$16",
+  "jade.37":"Well he's green and I saw him trying to fight with his reflection in the window...He looked lost, too...#$b#And well, he just reminded me of you!$1", 
+  "jade.38":"I have no idea what you're trying to get at.$17#$b#Are we done here? I still have things to do today.$11",
+  "jade.39":"But won't you take a closer look at him, he's-#$b#Oh oops! Oh no he's flying away!$2",
+  "jade.40":"I'll get him!",
+  "jade.41":"I got him! Hehe.$1#$b#Ouch...$2",
+  "jade.42":"My lamp!!$5#$b#I mean, are you ok?$16",
+  "jade.43":"Yeah, I'm ok.$1#$b#Your lamp doesn't seem to be ok though...Sorry.$2",
+  "jade.44":"How am I going to fix this?$16#$b#Joe will chew me out for breaking his furniture.$17",
+  "jade.45":"It's ok Zoro! There's a fix for this.$1#$b#Just download my BoardingHouse.tmx fix!$1",
+  "jade.46":"What? What are you talking about now?$16",
+  "jade.47":"Don't worry it's an easy fix!$1#$b#Anyway, sorry for intruding. I'll get out of your hair now!$1",
+  "jade.48":"Bye Zoro!",
+  "jade.49":"What a strange girl...$2",
+
+///rainy day dialogue
+  "rainy.0":"It sounds like it's pouring out there.$2#$b#On days like this, I just want to stay inside.$11",
+  "rainy.1":"Why are you out and walking around in this weather?$2#$b#Did you bring an umbrella at least?$17",
+
+///npc dialogue changes
+
+//willy
+  "willy.0":"Have you met Zoro?#$b#He's the proclaimed pirate lad that just arrived to Pelican Town a while back.$1#$b#He didn't have a penny on him when he came here.#$b#I felt bad for him so I hired him to work in my Fish Shop.#$b#He has ungodly strength, that boy.$2#$b#I told him to move my boat to the other side of the dock the other day, and he goes and lifts the damn thing over his head.$2#$b#Where did he come from? And how did someone like him end up here?$2",
+  "willy.Thu2.A":"Zoro's been going around town telling people he'll give them discounts if they shop more often at me shop.#$b#I know he's trying to mean well, but let me tell you, there's no discounts!$2",
+  "willy.Thu2.B":"There are days where I catch Zoro staring off into the sea.#$b#It seems that the ocean is calling for him, but where to?",
+  "willy.Thu2.C":"Zoro, this boy...$2#$b#He is as strong as a sea kraken, maybe even stronger.$2#$b#I had 20 large barrels full of live fish that needed to be transported from me boat to the shop.#$b#A job that would take me a good 3 or 4 hours...#$b#I witnessed that boy stack and carry 10 barrels in each arm!#$b#Is he using magic? How can a human be that strong?$2",
+  "willy.Fri4.A":"Zoro has been talking about you lately.#$b#Telling me about how he finally made a friend here in Pelican Town.#$b#What does he take me for then I wonder?$3",
+  "willy.Fri4.B":"You know @, I think it's because of you that Zoro seems to have calmed down these days.#$b#After washing ashore on these waters, he was like a maniac for weeks.$2#$b#Going on and on about how his friends are in danger and he needed to go back.$2#$b#Go back where I wonder?$2",
+  "willy.Fri4.C":"I've always wondered how Zoro got that massive scar across his chest?#$b#He said another pirate swordmaster slashed him during their battle, but I just can't believe it.",
+  "willy.Thu6.A":"Zoro has been opening up more lately, I think it's because of your influence, @.#$b#Keep doing what you have been doing ok?$1",
+  "willy.Thu6.B":"Has Zoro also been telling you more about himself?#$b#He's only begun opening up to me and by Yoba... The stories he's told me are just unimaginable!#$b#I would like to believe him, but sometimes I wonder if he drank too much sea water when he drowned and washed ashore Pelican Town, and his head's not all there.$2",
+  "willy.Thu6.C":"I told Zoro to talk to the youngsters that are around his age in Pelican Town to make more friends.#$b#He tells me those kids are too sheltered and spoiled and wouldn't have anything in common with a pirate that has fought life and death battles.$2#$b#Has he really risked his life that many times? How much of the things he's told us are true, I wonder?",
+  "willy.Fri8.A":"Zoro talks about you so often, you'd think at this point he'd ask you out already.$3#$b#That boy still doesn't understand his own feelings.",
+  "willy.Fri8.B":"Zoro's been telling me how he's gotten used to life in Pelican Town.#$b#Good for him. And I know you played a big part in helping him adjust.#$b#As someone who has been watching over him, I wanted to thank you.$1",
+  "willy.Fri8.C":"Hey @! You here to buy anything from me shop or just looking for Zoro?",
+  "willy.Forest_Sat.A":"Hey @! Looking for your boyfriend Zoro? He's not with me right now.#$b#I had him running some errands for me. He should be around town...I think.#$b#Truth be told, that boy is directionally challenged, so I honestly don't know where he is right now.$2",
+  "willy.Forest_Sat.B":"I close me shop on Saturdays, so Zoro isn't with me right now.#$b#He's out running errands for me.#$b#What a good lad.$1",
+  "willy.Forest_Sat.C":"Hey, @. Looking for Zoro?#$b#I sent him on some errands today.#$b#He should be in town somewhere...Er, I think, maybe.$2#$b#Honestly, with how bad he is with directions, one can only hope he is still in Stardew Valley.$2",
+  "willy.Forest_Sat.D":"It's a good day to be out fishing!$1#$b#Usually I take my day offs to do errands and such, but now that I have Zoro as me helping hand, I can spend more time doing what I love.",
+  "willy.FishShop_Mon":"Zoro has been a great help for me around the shop.#$b#There are just some things that these old bones can't lift and carry any longer.",
+  "willy.FishShop_Tue":"So you're finally dating Zoro.#$b#Took you two long enough.$1#$b#So when is the wedding already? Make sure to invite me.$3",
+  "willy.FishShop_Married.Mon":"So you and Zoro finally got married, huh?$1#$b#I always knew there was something special between you two.$1#$b#This old seadog wishes for your happiness.",
+//gus
+  "gus.Saloon_Fri.A":"Have you met Zoro before? He's that pirate fellow that moved in a while back.#$b#He's been going to my Saloon every night, and I mean every night.",
+  "gus.Saloon_Fri.B":"I have never seen someone with a stomach like aan actual blackhole before I met Zoro.$3#$b#He cleaned out all of my fish dishes the other day!#$b#Now I have nothing in stock and am waiting for Willy's new shipment of fish.$3",
+  "gus.Saloon_Fri.C":"Zoro has been asking me to make all these dishes I've never heard of before.#$2$b#Sea King meat? What is that?$2#$b#He says it goes great with sake, though.#$b#Now I have to go to Pierre or Willy to see if they sell those ingredients.$3",
+  "gus.Saloon_Fri.D":"That Zoro, he sure can drink.#$b#Between him, Clint and Willy, they would drink three kegs of beer every Friday.#$b#And Zoro drinks two and a half of them!$3",
+  "gus.Saloon_Fri.E":"I've been hearing from other townfolk about how bad Zoro is at directions.$2#$b#It's a miracle he is able to find his way to my saloon every night!$1",
+  "gus.Saloon_Fri.F":"Zoro often brings me live seafood that he catches and asks me to cook it for him when he gets here.#$b#One time he brought me this massive 500lb tuna that was still alive and flopping!$1#$b#He was able to carry that thing by hand all the way from the beach to my Saloon. How is he so strong?",
+//penny
+  "penny.ArchaeologyHouse_Wed.A":"I'm still getting an earful from Marnie and Jodie about how Zoro has been a bad influence on Jas and Vincent.$2#$b#Apparently, Vincent has been pretending to be a pirate every chance he gets.$3#$b#I really shouldn't have let Zoro tell the children those violent stories.$2#$b#I really thought it would be educational at first.$3",
+  "penny.ArchaeologyHouse_Wed.B":"Never again am I asking Zoro to teach the children.$2#$b#His adventures out at sea are just too violent for their young minds!#3",
+  "penny.ArchaeologyHouse_Wed.C":"I'm sure Zoro is a nice person, but his... Lifestyle is a bit too much for the susceptible young minds of Jas and Vincent.$2#$b#Especially Vincent, all he talks about is wanting to learn more about pirates.$3",
+  "penny.ArchaeologyHouse_Wed.D":"Oh dear, Vincent just told me he wanted to become a pirate when he grows up.$2#$b#I'm not going to hear the end of this from Jodi.$2",
+  "penny.ArchaeologyHouse_Wed.E":"Maybe I should invite Zoro back to teach the children that becoming a pirate is a dangerous way of life and it is not something they should pursue just for fun...#$b#No, it would probably only make matters worse.$2",
+//lewis
+  "lewis.Town_Thu.A":"That Zoro...I've never met anyone who was so bad at directions in my entire life.#$b#He was looking for my house the other day to discuss Willy's shipment of seafood and I found him running around on the beach.$2#$b#If I wasn't going to talk to Willy that day and spotted him coincidentally, Zoro would have been looking for my place all night.$2",
+  "lewis.Town_Thu.B":"Have you befriend Zoro yet, @?#$b#He is a strange fellow, but he doesn't seem like a bad person.#$b#I hope he can adjust to life in Pelican Town.",
+  "lewis.Town_Thu.C":"When I met Zoro, he told me he needed to go back to his pirate crew and that his friends are in danger.$2#$b#I'm worried for the boy, he should quit being a pirate and just live here in Pelican Town.",
+  "lewis.Town_Thu.D":"Zoro seems like the type of person that gets lost walking from his house to his mailbox.#$b#I'm afraid he will lose his way one day and end up deep in the mines or forest and not be able to get back to Pelican Town again.$2#$b#You explore a lot @, can you please keep an eye on him, in case you see him out in the wilderness?",
+  "lewis.Town_Thu.E":"It would be nice if the other villagers here in Pelican Town would open up to Zoro and be a bit nicer to him.#$b#It must have been traumatic to wash up ashore in a strange country where you know no one.$2",
+//vincent
+  "vincent.Town_Wed.A":"Mr.Roronoa is so cool!#$b#I want to be a pirate when I grow up.$1#$b#I'm going to be a captain of a huugggee ship and have my own pirate crew of like one hundred, no, one thousand people!$1",
+  "vincent.Town_Wed.B":"Jas doesn't want to play pirates with me.$2#$b#I wish there were more boys my age in Pelican Town.$3",
+  "vincent.Town_Wed.C":"Do you think Mr. Roronoa would teach me how to use katanas and fight people?#$b#I want to be super strong like him!$1",
+  "vincent.Town_Wed.D":"I'm coming up with a design for my pirate flag. It's going to look so cool!$$1#$b#Mr.Roronoa says a pirate flag is called a Jolly Roger. Why is that?",
+  "vincent.Town_Wed.E":"I wanted to hear more of Mr.Roronoa's pirate stories but mom doesn't let me talk to him anymore.$2",
+  "vincent.Town_Wed.F":"I want and eye patch and a hook for a hand!#$b#I want to be a pirate captain so bad. But mom says she won't let me be a pirate.$2",
+  "vincent.Town_Wed.G":"I wonder if there is any hidden treasure chest here.#$b#Maybe there is some in the forest or mines, or buried under the sand at the beach.#$b#I'm gonna be so rich when I find it!$1",
+  "vincent.Beach_Thu.A":"AARGG! I'm captain Vincent!$1#$b#The most fearsome pirate in all of Stardew Valley!#$b#Walk the plank, @!$1",
+  "vincent.Beach_Thu.B":"Ahoy matey! Jas and I are going on a treasure hunt at the beach today.$1",
+  "vincent.Beach_Thu.C":"ARRGG! Crewmate @! I spy enemy ships on the horizon!$1#$b#Raise the anchor and hoist the sails, we're going after them!",
+  "vincent.Beach_Thu.D":"Jas is such a landlubber, she doesn't want to play pirates with me today.$3#$b#Will you play with me, @? You can be the crewmate and I will be the captain!$1",
+  "vincent.Beach_Thu.E":"Come on you scallywag, don't forget to swab the poop deck!#$b#Or I will feed you to the fishes, AARRGG!$1",
+  "vincent.Beach_Thu.F":"I am pirate Vincent! The Scourage of the 7 Seas!#$b#Men flee at the sound of my name, children cry at the sight of me!#$b#I am the greatest pirate to sail the oceans, AARRGG! Fear me, @!$1",
+//jodi
+  "jodi.Town_Thu.A":"That Zoro is such a bad influence on my Vincent!$3#$b#I pray to Yoba that all this pirate nonsense is only a phase for him.$2",
+  "jodi.Town_Thu.B":"Goodness, Vincent does nothing but talk about pirates all day long.$2#$b#When I get my hands on that Zoro kid, I'm going to give him a piece of my mind!$3",
+  "jodi.Town_Thu.C":"I don't know why Penny even thought it was a good idea to let that Zoro around the kids.$2#$b#His background is so shady, where did he come from?$2#$b#And my goodness, a pirate? He is so dangerous!$2#$b#I don't want my poor Vincent to be around a person like that.$2",
+  "jodi.Town_Thu.D":"I talked to Marnie about what happened with the children and that Zoro kid.$2#$b#Apparently, Jas doesn't seem to care about all that pirate nonsense and that it's only my Vincent that's obsessed with it.$3#$b#I really hope he grows out of it.$2",
+//clint
+  "clint.Saloon_Sat.A": "That drinking contest the other day was really fun!$1#$b#The four of us should get together and do that again sometime.$1",
+  "clint.Saloon_Sat.B": "I think Zoro is opening up to me more.$1#$b#All we talk about is weapons, but still..",
+  "clint.Saloon_Sat.C": "Hello @. Zoro was just telling me about some of his pirate stories.#$b#The places that he visited and the people that he saw all sound so extrodinary, it makes me feel like I should pick up and set sail to see the big, wide world myself.$1",
+
+  "clint.winter_Tue.A":"Zoro brought in his katanas for me to sharpen the other day.#$b#I gotta say, I've never seen any weapons with such quality craftsmenship before.$1#$b#He said they were well used, but they looked almost brand new.#$b#He said it was because he used 'haki' on them, whatever that meant.",
+  "clint.winter_Tue.B":"That Zoro is something else I tell you.#$b#I asked Zoro for a favor to get me some lumber the other day, and he drags an entire pine tree, roots and all and left it outside my door.$3#$b#I was only hoping for a few blocks of wood!$2",
+  "clint.winter_Tue.C":"When I first met Zoro, I was very nervous around him. He carried his swords where ever he went. As if he was just looking for trouble.#$b#It wasn't until he started leaving them at home did I feel a bit more easy around him.$1",
+
+//bus stop
+  "marriage.BusStop":"%Zoro is ignoring you.",
+  "marriage.BusStop2":"%Zoro is pretending he doesn't see you.", 
+  "marriage.BusStop4":"%Zoro is walking faster so that he doesn't have to walk by your side.",
+  "marriage.BusStop6":"%Zoro doesn't want you talking to him right now.",
+  "marriage.BusStop8":"Babe, don't talk to me.$2#$b#I'm upset about how bad our relationship is right now.$2",
+  "marriage.BusStop10":"Hey honey, want to walk to town with me?#$b#We can hold hands if you want.$4",
+
+///beach
+//2 heart
+  "zoro.0.Beach_11_39":"When I look out to sea, I sometimes get the urge to go back to my adventuring days with those guys...$11#$b#The pirate flag...And the sea, she calls for me...$11#$b#One of these days I'll get back out there again.$11",
+//4 heart
+  "zoro.1.Beach_11_39":"I haven't given up on the pirate life, or my dream of becoming the world's best swordsman.$2#$b#It's just...Now is not the time to return to sea yet.$11",
+//6 heart
+  "zoro.2.Beach_11_39":"After living in Pelican town for a while and getting to know everyone here, I'm thinking it might not be so bad to stay here a bit longer.#$b#It's still not as exciting as my days out at sea, but there is a relaxing calm here that is quite nice.$13",
+//8 heart
+  "zoro.3.Beach_11_39":"It's funny, I never thought I'd ever say this but, I'm starting to see myself actually living in Pelican town.$14#$b#Maybe it was for the best that I ended up here.$1#$b#Besides, I was able to meet you, @.$7",
+//10 heart
+  "zoro.4.Beach_11_39":"If I ever do decide to leave for the sea again one day, I don't think I will be able to leave you behind, @.$4#$b#If I asked you to come with me, would you be able to give up your farmer life and sail with me under the pirate flag?$12",
+//8 heart married
+  "zoro.5.Beach_11_39":"Maybe it's about time I leave Stardew Valley and go back to my pirate days.$11",
+//10 heart married
+  "zoro.6.Beach_11_39":"You're my husband now. So if I ever decide to go back out to sea, I would want you to come with me.$12^You're my wife now. So if I ever decide to go back out to sea, I would want you to come with me.$12",
+
+///fishshop
+//MON
+//0-1 HEARTS
+  "zoro.FishShop_4_7.M":"Yeah? What do you want?$11#$b#You want help picking out fishing rods?$11#$b#What do I look like? An expert on fishing rods? Go ask Willy.$11",
+//2-3 HEARTS
+  "zoro.FishShop_4_7.N":"Willy says I need to be nicer to the customers.$11",
+//4-10 HEARTS
+  "zoro.FishShop_4_7.O":"Hey, welcome farmer. Need anything today? Let me know if you are looking for anything in particular.",
+//0-1 HEARTS
+  "zoro.FishShop_4_6.A":"Quit bothering me while I'm on the job, will you?$11#$b#If you need something, go ask Willy.$11",
+  "zoro.FishShop_4_6.B":"I'm busy right now.$11#$b#Go ask Willy for help.$11",
+  "zoro.FishShop_4_6.C":"I don't want to talk to customers.$11#$b#What do you mean it is my job to help, though?$10#$b#Go ask Willy. He's the one that sells you stuff.$11",
+  "zoro.FishShop_4_6.D":"Willy is the expert on fish, go ask him for help, not me.$11",
+//2-3 HEARTS
+  "zoro.FishShop_4_6.E":"Willy says I have to smile while talking to customers.$10",
+  "zoro.FishShop_4_6.F":"I'm not good with customer service.$11",
+  "zoro.FishShop_4_6.G":"Willy says I gotta be nicer to paying customers.$11#$b#So if they don't buy anything, does that mean I don't have to be nice?$3",
+  "zoro.FishShop_4_6.H":"Willy says he will deduct my pay if I keep scaring customers away.$2",
+//4-10 HEARTS
+  "zoro.FishShop_4_6.I":"Nice of you to drop by, @. You looking to buy some fishing gear or bait today?",
+  "zoro.FishShop_4_6.J":"Welcome, @. What brings you by to the shop today?#$b#We've got premium bait available this week.$1#$b#There's also some new lures in stock. Want to see them?",
+  "zoro.FishShop_4_6.K":"Hey, glad to see another friendly face today.$1#$b#Not many people drop by the shop much.#$b#What can I get for you?",
+  "zoro.FishShop_4_6.L":"Oh, @! Welcome, Willy is running some discounts today. Want me to show you what's for sale?$1",
+
+///married
+  "FishShop_Mon.A": "Hey babe, welcome.#$b#Need anything today? Let me know if you are looking for anything in particular.",
+  "FishShop_Mon.B": "Oh, @! So glad you came, honey.$3#$b#$I've been bored out of my mind today.$2#$b#Things have been really slow at the shop lately.$16",
+  "FishShop_Mon.C": "I'm a bit busy working at the moment, give me a few minutes and I'll be right with you, @.",
+  "FishShop_Mon.D": "Willy is so stingy, he won't even give you family discounts even though I've been working here for such a long time.$11",
+
+  "FishShop_Fri.A": "Did you drop by to see me, babe?$7#$b#Or were you only looking to buy some fishing gear and bait today?$11",
+  "FishShop_Fri.B": "@! Did you bring any food for me? I didn't get to eat this morning before I rushed out of the house.$2#$b#And now I'm starving and can't wait for dinner.$2",
+  "FishShop_Fri.C": "Hi sweetie, how has your day been going?#$b#You at the beach to catch some fish?$1",
+  "FishShop_Fri.D": "Honey, do you want to meet me at the Saloon after our work is done?$8",
+
+//saloon
+//spring
+  "marriage.Saloon_Entry":"I'll have a hot sake, Gus!/Give me the usual, Gus!/Don't skimp on the beer tonight, Gus!/Bring me your best alcohol, Gus!/What's for dinner, Gus?/What's cooking tonight, Gus?/I got paid today, drinks on me boys!",
+  "marriage.Saloon_Mon.A": "Hey love, I don't feel like cooking tonight, so can we just get something at Gus's to go?",
+  "marriage.Saloon_Mon.B": "I found a spring onion while on my way to town today.#$b#I thought of you and maybe you might have a use for it?$1#$b#Do you want it?[399]",
+  "marriage.Saloon_Wed.A": "Babe, how was work today?#$b#You must be exhausted.#$b#Here, I saved you a seat at our table in case you dropped by.$1",
+  "marriage.Saloon_Wed.B": "Did we remember to feed the animals today, @$11?#$b#I was in a rush to work this morning, I completely forgot.$11#$b#Oh, you fed them already? That's a relief.$1",
+  "marriage.Saloon_Fri.A": "Babe!$7#$b#So good to see you here right now!$7#$b#Come join me and Clint and Willy for a few drinks tonight.$8#$b#What's that?$12#$b#No, I'm not already drunk!$4",
+  "marriage.Saloon_Fri.B": "It's good to see majority of the villagers still go to the saloon these Fridays.$1",
+  "marriage.Saloon_Sun.A": "The food and drinks tonight just got better now that I saw you, babe!$8#$b#Relax and join us for a few rounds before we go home.$7",
+  "marriage.Saloon_Sun.B": "I didn't forget to go grocery shopping today!$3#$b#I even remembered where Pierre's shop was, too.$1#$b#It only took me 3 hours to find his shop.$7",
+//summer
+  "marriage.summerSaloon_Mon.A": "It's so hot even during the evening!$16#$b#Gus! A round of ice cold beer for me and my husband!^Gus! A round of ice cold beer for me and my wife!$3",
+  "marriage.summerSaloon_Mon.B": "I almost caught an octopus today, but it got away at the last minute.$2#$b#I'll try harder tomorrow.$1",
+  "marriage.summerSaloon_Wed.A": "I know I drank a lot yesterday.$4#$b#But that's only because it was Friday.$15#$b#I promise to drink moderately today.#12",
+  "marriage.summerSaloon_Wed.B": "I some times forget how hot Stardew Valley gets during the summers.$17#$b#It was exhausting working at the beach in the sun today.$11",
+  "marriage.summerSaloon_Fri.A": "@, my love, it's Friday!$8#$b#Won't you drink with the guys and me for a bit?$7",
+  "marriage.summerSaloon_Fri.B": "@, I think you're gonna have to drag me by my feet home tonight...$15#$b#Willy and Clint have been making me down so many glasses of beer already, and the night's only just begun.$15",
+  "marriage.summerSaloon_Sun.A": "Gus always makes great food, don't you think so too babe?$1",
+  "marriage.summerSaloon_Sun.B": "I heard from Willy that Sturgeon roe sells for a lot of money.#$b#Sturgeon season is this summer, @, are we raising any Sturgeon?",
+//fall
+  "marriage.fallSaloon_Mon.A": "I really need a drink right now.$11#$b#Work was exhausting at the Fish Shop today, babe.$2",
+  "marriage.fallSaloon_Mon.B": "I can't wait to get home and relax with you, @.$12#$b#But for now, let's enjoy ourselves at the Saloon tonight with our friends.$1",
+  "marriage.fallSaloon_Wed.A": "Hey babe, I promise I won't drink too much tonight.#3#$b#So you don't have to worry about dragging me back home while I'm passed out like yesterday.$12",
+  "marriage.fallSaloon_Wed.B": "Fall really is my favorite season.#$b#Gus makes the best fall themed dishes.$1",
+  "marriage.fallSaloon_Fri.A": "Everyone tells me that I am a lot more approachable when I'm drunk.$15#$b#I guess I'm a happy drunk.$12#$b#What do you think, babe?$12#$b#Does my personality change when I'm drunk?$8",
+  "marriage.fallSaloon_Fri.B": "The drinks always taste better when you're here, @.$7",
+  "marriage.fallSaloon_Sun.A": "Hey @! Good to see you here.#$b#I was discussing our plans for the farm for winter with Willy and Clint.#$b#They heard this winter was going to be extra cold.",
+  "marriage.fallSaloon_Sun.B": "I don't have the stomach for much alcohol tonight, do you want to share my glass with me, @?",
+//winter
+  "marriage.winterSaloon_Mon.A": "Honey, Gus was just telling me about this awesome new fish recipe he's been making and I just have to try and make it myself.#$b#I'll give you a taste when it's done!$1",
+  "marriage.winterSaloon_Mon.B": "Work was tiring today.$11#$b#How were things on your end? Everything ok on the farm today?",
+  "marriage.winterSaloon_Wed.A": "I was so drunk yesterday, I forgot I lived on the farm now and went back to my old home.$15#$b#I was so confused when my key didn't work.$7",
+  "marriage.winterSaloon_Wed.B": "It's freezing tonight, I can't wait for us to get home to our warm bed.$12",
+  "marriage.winterSaloon_Fri.A": "@, I'm glad you dropped by the Saloon!$7#$b#I was just telling Willy how great my marriage is.$12#$b#No, I'm not drunk yet!$10",
+  "marriage.winterSaloon_Fri.B": "I caught this huge tuna today and Gus made me a ton of sashimi.$1#$b#Have some, @.[227]",
+  "marriage.winterSaloon_Sun.A": "It's so cold today babe, want me to order you a drink to warm you up?",
+  "marriage.winterSaloon_Sun.B": "On cold nights like this, I would rather have hot sake than a cold beer.",
+//seedshop
+  "SeedShop_14_23.A": "Hey babe, I'm just picking up some groceries to make dinner tonight.#$b#Anything in particular you want to eat? I can buy ingredients now while I'm here.",
+  "SeedShop_14_23.B": "Hey babe, what a coincidence seeing you in town!$1#$b#We ran out of some stuff at home so I'm at Pierre's to get them.#$b#Love you, I'll see you at home!$1",
+
+///COMMUNITY DAY DIALOGUE (SVE MOD)
+//unmet, friendly
+  "dialogue.CommunityDay_Zoro": "This is kind of nice. I get to hang out with people who I usually don't have the chance to.$1",
+  "dialogue.CommunityDay_Zoro1": "The guys were talking about maybe making a trip to the beach soon. The weather has been really hot this week.$11#$b#A day just hanging out at the beach sounds fun, but I work down by the beach so it's not a big deal for me.",
+  "dialogue.CommunityDay_Zoro2": "Gus is roasting us some hazelnuts and chestnuts right now. Want some, @?[607]",
+  "dialogue.CommunityDay_Zoro3": "We're having a community meeting about who will decorate what and whose bringing what for Feast of the Winter Star.#$b#I'm in charge of helping people carry heavy things.",		
+
+//dating, engaged, married
+  "marriage.CommunityDay_Zoro": "Can we have a community meeting about all the eggs that still haven't been found from the Egg Festival?$2#$b#The entire town stinks of rotting eggs.$10#$b#Babe, you should tell them, your words hold a lot more weight in this town than even the mayor's.",
+  "marriage.CommunityDay_Zoro1": "Babe, let's invite your friends to hang out at the beach with us soon.#$b#You deserve a break from working in this awful heat. Relax and hang out with our friends for a change.$7",
+  "marriage.CommunityDay_Zoro2": "Honey, Gus is cooking something delicious for all of us again this year.#$b#Here, try some.[235 236 608 611 618]$1#$b#It goes great with this fall weather, don't you think?",
+  "marriage.CommunityDay_Zoro3": "I can't help you out on the farm as much this week.$2#$b#Everyone decided I'm to help out with the heavy lifting again this year for the Winter Star Feast.$11#$b#Robin said she found a tree bigger than last year and needs all the help carrying it back into town.",
+
+///MAIL 
+  "mail.ZoroBeach":"Hey @,^I have something important I want to tell you. If it's not raining that day, would you meet me on the docks around 8pm on Sunday? ^    -Zoro[#]Zoro's Request",
+  "mail.ZoroDate":"My love, we have been so busy after we got married, that it seems we haven't had time for each other lately. Let's go on a date the next time you are free. Meet me in town around 5pm. ^    -Your hubby[#]Zoro's Invitation",
+  "mail.ZoroDate2":"My love, meet me at the fountain near the park around 10AM, I planned us a perfect picnic date for our anniversary. ^    -Your hubby[#]Zoro's Invitation 2",
+
+ ///ANIMATION
+//dialogue
+
+  "zoro_weights.0": "1204...1205...1206...$6#$b#Oh, hey @. Good of you to drop by.$6#$b#I'm just doing some light exercise before heading out.$6#$b#1207...1208...1209...$6",
+  "zoro_read.1": "Hmmn...$2#$b#I don't understand any of this...$3#$b#What am I reading?$11#$b#I'm trying to research if there's a way to get back to where I came from.$11#$b#But I can't even read a map, how can I understand any of this?!$10",
+  "zoro_bath.2":"I'm bathing! Can you not bother me right now?!$19",
+  "zoro_bath.3":"Hey, babe. Want to join me in the bath?",
+//married
+  "zoro_weights.2": "1204...1205...1206...$6#$b#Oh, hey babe. It was such a nice day out, I decided to do my exercising in the park today.$6#$b#I'm just doing some light exercise before starting my day.$6#$b#I'll see you at home tonight, ok?$6#$b#1207...1208...1209...$6",
+  "zoro_read.3": "Hmmnn...$11#$b#Nope, still not getting any of this.$14#$b#I might have to just give up on figuring out how to get back since I have you now, @.$8"
+
+}

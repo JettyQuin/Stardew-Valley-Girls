@@ -9,6 +9,22 @@
   "UseRandomTexturesWhenPlacingObject": true,
   "UseRandomTexturesWhenPlacingFarmAnimal": true,
   "UseRandomTexturesWhenPlacingMonster": true,
-  "UseRandomTexturesWhenPlacingBuilding": false,
-  "DisabledTextures": []
+  "UseRandomTexturesWhenPlacingBuilding": true,
+  "DisabledTextures": [
+    {
+      "TextureId": "CollingAT.Craftables.Craftable_Quality Sprinkler",
+      "DisabledVariations": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "TextureId": "Voids.weird.Craftables.Craftable_Quality Sprinkler",
+      "DisabledVariations": [
+        0
+      ]
+    }
+  ]
 }

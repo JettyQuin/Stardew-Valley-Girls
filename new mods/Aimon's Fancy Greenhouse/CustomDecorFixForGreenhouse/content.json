@@ -1,0 +1,27 @@
+﻿{
+    "data":
+    [
+        {
+            "name": "Greenhouse",
+            "replaceFloors": false,
+            "replaceWalls": false,
+            "replaceNonDecorationTiles": true,
+            "getFloorsFromFile":"",
+            "getWallsFromFile":"",
+            "floors":
+            [
+                
+            ],
+            "walls":
+            [
+                
+            ],
+            "floorsOmit":
+            [
+            ],
+            "wallsOmit":
+            [
+            ]
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+  "Format": "1.24.0",
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "sound_effect_replacement_dictionary",
+      "Entries": {
+       "pig": "../[CP] PigToFoxSound/Fox.wav"
+      }
+    }
+  ]
+}

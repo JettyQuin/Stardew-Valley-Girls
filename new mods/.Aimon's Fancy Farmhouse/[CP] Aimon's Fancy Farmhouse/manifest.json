@@ -1,0 +1,11 @@
+{
+  "Name": "Aimon's Fancy Farmhouse",
+  "Author": "Aimon111",
+  "Version": "1.0.9",
+  "Description": "(AKA RedesignedFarmHouseLayout Alt Version) Makes your farmhouse maps look new and fresh towards more realistic layout.",
+  "UniqueID": "Aimon111.RedesignedFarmHouseLayoutAlt",
+  "UpdateKeys": [ "Nexus:14411" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+  }
+}

@@ -1,0 +1,1024 @@
+{
+   "Format": "1.29.0",
+   
+   "ConfigSchema": {
+   
+		"Recolor": { 
+		"AllowValues": "Vanilla, Vibrant Pastoral, Rustic Country Town(dark), Rustic Country Town(white)",
+		"Default": "Vanilla",
+		"Section": "Main",
+		},
+		
+		"Debug Mode": { 
+		"AllowValues": "true, false",
+		"Default": "false",
+		"Section": "Main",
+		"Description": " Removes all the walls and other obstacles. Enable it if you stuck in the walls or need to pick up your furniture from the void after farmhouse upgrade (or any other messed up thing)"
+			},
+		
+			"Bathroom pool": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Adds or removes pool into your bathroomf - you can swim in it and regen stamina!"
+			},
+			"Hidden area for fridges": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Adds or removes hidden corner at down wall in your kitchen to hide fridges"
+			},
+			"Hidden double bed area": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Adds or removes hidden corner at the right wall of your kitchen to hide your first double bed for your spouse"
+			},
+			"Closet room wall and doorway": { 
+		"AllowValues": "true, false",
+		"Default": "false",
+		"Section": "Main",
+		"Description": "Adds or removes this one wall  and doorway between closet and room located left at the farmhouse entry"
+			},
+			"Wall borders": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Adds or removes those wall borders in hall areas."
+			},
+			
+		//farmhouse upgrades
+		
+		"Starter Farmhouse": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "f"
+			},
+		
+		"1st upgrade Farmhouse": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Please enable it only the day AFTER your farmhouse upgrade happened! Or else your game could crash while saving the night before the upgrade and you'll loose all your day progress"
+			},
+			
+			"2nd upgrade Farmhouse": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Please enable it only the day AFTER your farmhouse upgrade happened! Or else your game could crash while saving the night before the upgrade and you'll loose all your day progress"
+			},
+			
+			"Allow casks in farmhouse": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Main",
+		"Description": "Allows you to place casks in farmhouse"
+			},
+		
+			
+			//KITCHEN
+			"Remove Kitchen": { 
+		"AllowValues": "true, false",
+		"Default": "false",
+		"Section": "Kitchen",
+		"Description": "Removes the Kitchen tiles"
+			},
+			"Kitchen Countertop": { 
+		"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Kitchen",
+		"Description": "Adds or removes kitchen countertop (only for 2nd farmhouse upgrade"
+			},
+			
+		
+			
+			//LIGHTBEAMS
+			"FarmHouse Lightbeams": { 
+			"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Lightbeams",
+		"Description": "Adds lightbeams to attic and farmhouse balcony doors during the day and night (except rainy weather)"
+			},
+			"Balcony Lightbeams": { 
+			"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Lightbeams",
+		"Description": "Adds lightbeams to Balcony location during the day and night (except rainy weather)"
+			},
+		
+		
+		"Add Pond": { 
+			"AllowValues": "true, false",
+		"Default": "true",
+		"Section": "Balcony",
+		"Description": "Adds or removes pond from balcony",
+			},
+		},
+		
+	
+	
+ 	"CustomLocations": [
+
+        {
+           "Name": "Custom_balcony",
+           "FromMapFile": "assets/Custom_balcony_small.tmx"
+        },
+		
+     ],
+
+    "Changes": [
+	//closetroom
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/Deleteroomwall.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 4, "Height": 11 },
+		 "ToArea": { "X": 6, "Y": 16, "Width": 4, "Height": 11 },
+		 "PatchMode": "Replace",
+			"When": { "Closet room wall and doorway": "false",  
+					},
+        },
+	
+	
+	//pool
+	
+	//0st
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 5, "Height": 4 },
+		 "ToArea": { "X": 10, "Y": 3, "Width": 5, "Height": 4 },
+		 "PatchMode": "Overlay",
+			"When": { "bathroom pool": "true",  
+					"Starter Farmhouse": "true", 
+					},
+        },
+		//1st
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 6, "Y": 0, "Width": 6, "Height": 5 },
+		 "ToArea": { "X": 8, "Y": 3, "Width": 6, "Height": 5 },
+		 "PatchMode": "Overlay",
+			"When": { "bathroom pool": "true",  
+					"1st upgrade Farmhouse": "true", 
+					},
+        },
+		//2nd
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 0, "Y": 5, "Width": 6, "Height": 5 },
+		 "ToArea": { "X": 4, "Y": 3, "Width": 6, "Height": 5 },
+		 "PatchMode": "Overlay",
+			"When": { "bathroom pool": "true",  
+					"2nd upgrade Farmhouse": "true", 
+					},
+        },
+
+
+
+	
+	//hiddenareas
+	
+	//1st
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 0, "Y": 11, "Width": 7, "Height": 3 },
+		 "ToArea": { "X": 22, "Y": 22, "Width": 7, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { "Hidden area for fridges": "false",  
+					"1st upgrade Farmhouse": "true", 
+					},
+        },
+		//1st
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 7, "Y": 5, "Width": 6, "Height": 6 },
+		 "ToArea": { "X": 28, "Y": 16, "Width": 6, "Height": 6 },
+		 "PatchMode": "Overlay",
+			"When": { "Hidden double bed area": "false",  
+					"1st upgrade Farmhouse": "true", 
+					},
+        },
+	
+	
+	{//2nd
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 0, "Y": 15, "Width": 9, "Height": 3 },
+		 "ToArea": { "X": 26, "Y": 27, "Width": 9, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { "Hidden area for fridges": "false",  
+					"2nd upgrade Farmhouse": "true", 
+					},
+        },
+		//2nd
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/bath.tmx",
+		 "FromArea": { "X": 9, "Y": 11, "Width": 5, "Height": 8 },
+		 "ToArea": { "X": 34, "Y": 19, "Width": 5, "Height": 8 },
+		 "PatchMode": "Replace",
+			"When": { "Hidden double bed area": "false",  
+					"2nd upgrade Farmhouse": "true", 
+					},
+        },
+		
+	//fish in balcony
+		{
+  "Action": "EditData",
+  "Target": "Data/Locations",
+  "Entries": {
+  "Custom_balcony": "-1/-1/-1/-1/142 -1 153 -1 157 -1/142 -1 153 -1 157 -1/142 -1 153 -1 157 -1/142 -1 153 -1 157 -1/-1",
+			},
+		},
+	
+		//casks in farmhouse
+		
+		
+	{
+      "Action": "EditMap",
+      "Target": "Maps/FarmHouse, Maps/FarmHouse1, Maps/FarmHouse1_marriage, Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+      "MapProperties": {
+                "CanCaskHere": "t"
+            },
+	  "When": {  "Allow casks in farmhouse": "true", },
+		},
+	
+	//LIGHTBEAMS FARMHOUSE
+	//0st
+		{
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 20, "Y": 1, "Width": 8, "Height": 9 },
+		 "ToArea": { "X": 3, "Y": 82, "Width": 8, "Height": 9 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Sun, Wind, Snow",
+					"FarmHouse Lightbeams": "true",  
+					"Starter Farmhouse": "true", 
+					},
+        },
+		
+		
+	//1st
+		{ //attic
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 13, "Height": 4 },
+		 "ToArea": { "X": 2, "Y": 84, "Width": 13, "Height": 4 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Sun, Wind, Snow",
+					"FarmHouse Lightbeams": "true",
+					 "1st upgrade Farmhouse": "true",
+					
+					
+					},
+        },
+	
+		
+		{ //balc
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 0, "Y": 14, "Width": 7, "Height": 5 },
+		 "ToArea": { "X": 12, "Y": 42, "Width": 7, "Height": 5 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Sun, Wind, Snow",
+					"FarmHouse Lightbeams": "true",
+					 "1st upgrade Farmhouse": "true", 
+					
+					},
+        },
+	
+		
+		//2nd
+			{ //attic
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 1, "Y": 7, "Width": 17, "Height": 7 },
+		 "ToArea": { "X": 2, "Y": 92, "Width": 17, "Height": 7 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Sun, Wind, Snow",
+					
+					"FarmHouse Lightbeams": "true", 
+					"2nd upgrade Farmhouse": "true"
+					},
+        },
+		
+		
+		{ //balc2
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 10, "Y": 14, "Width": 8, "Height": 5 },
+		 "ToArea": { "X": 11, "Y": 42, "Width": 8, "Height": 5 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Sun, Wind, Snow",
+					"FarmHouse Lightbeams": "true",
+					"2nd upgrade Farmhouse": "true"
+					},
+        },
+	
+	
+	
+	
+	//ambientlight
+	
+	// red green blue - less number - more intensity
+	{
+      "Action": "EditMap",
+      "Target": "Maps/Custom_balcony",
+      "MapProperties": {
+                "AmbientLight": "180 180 130"
+            },
+	  "When": { 
+	  "Time": "{{Range: 2000, 2600}}", },
+			"Update": "OnTimeChange",
+			
+			},
+			
+			
+	//balcony for 2ndupgrade
+	
+	
+		{
+      "Action": "EditMap",
+      "Target": "Maps/Custom_balcony",
+      "FromFile": "assets/Custom_balcony_big.tmx",
+	  "PatchMode": "Replace",
+	  "When": { 
+		"FarmhouseUpgrade": "2, 3",
+				}
+			},
+			//pond
+		{
+		"Action": "EditMap",
+        "Target": "Maps/Custom_balcony",
+		"FromFile": "assets/Balcpond.tmx",
+
+		 "PatchMode": "Replace",
+			"When": { "Add Pond": "true",
+						"FarmhouseUpgrade": "2, 3",
+					},
+        },
+		
+			
+		{
+      "Action": "EditMap",
+      "Target": "Maps/Custom_balcony",
+      "MapProperties": {
+                "DayTiles": "Buildings 12 5 1587 Buildings 13 5 1588 Buildings 17 5 1592 Buildings 18 5 1593 Front 15 4 1558 Back1 12 4 1555 Back1 13 4 1556 Back1 12 3 1523 Back1 13 3 1524 Back1 17 4 1560 Back1 18 4 1561 Back1 17 3 1528 Back1 18 3 1529 Back1 14 4 1557 Back1 16 4 1559 Back1 14 3 1525 Back1 15 3 1526 Back1 16 3 1527 Back1 14 2 1493 Back1 15 2 1494 Back1 16 2 1495 Back1 14 1 1461 Back1 15 1 1462 Back1 16 1 1463",
+				"NightTiles": "Buildings 12 5 1779 Buildings 13 5 1780 Buildings 17 5 1784 Buildings 18 5 1785 Front 15 4 1750 Back1 12 4 1747 Back1 13 4 1748 Back1 12 3 1715 Back1 13 3 1716 Back1 17 4 1752 Back1 18 4 1753 Back1 17 3 1720 Back1 18 3 1721 Back1 14 4 1749 Back1 16 4 1751 Back1 14 3 1717 Back1 15 3 1718 Back1 16 3 1719 Back1 14 2 1685 Back1 15 2 1686 Back1 16 2 1687 Back1 14 1 1653 Back1 15 1 1654 Back1 16 1 1655"
+            },
+	  "When": { 
+		"FarmhouseUpgrade": "1",
+				}
+			},	
+		{
+      "Action": "EditMap",
+      "Target": "Maps/Custom_balcony",
+      "MapProperties": {
+                "DayTiles": "Front 6 4 2123 Front 15 4 2132 Back1 3 5 2152 Back1 4 5 2153 Back1 3 4 2120 Back1 4 4 2121 Back1 3 3 2088 Back1 4 3 2089 Back1 5 4 2122 Back1 7 4 2124 Back1 5 3 2090 Back1 6 3 2091 Back1 7 3 2092 Back1 5 2 2058 Back1 6 2 2059 Back1 7 2 2060 Back1 5 1 2026 Back1 6 1 2027 Back1 7 1 2028 Back1 9 5 2158 Back1 10 5 2159 Back1 11 5 2160 Back1 12 5 2161 Back1 9 4 2126 Back1 10 4 2127 Back1 11 4 2128 Back1 12 4 2129 Back1 9 3 2094 Back1 10 3 2095 Back1 11 3 2096 Back1 12 3 2097 Back1 9 2 2062 Back1 10 2 2063 Back1 11 2 2064 Back1 12 2 2065 Back1 14 4 2131 Back1 16 4 2133 Back1 14 3 2099 Back1 15 3 2100 Back1 16 3 2101 Back1 14 2 2067 Back1 15 2 2068 Back1 16 2 2069 Back1 14 1 2035 Back1 15 1 2036 Back1 16 1 2037 Back1 17 5 2166 Back1 18 5 2167 Back1 17 4 2134 Back1 18 4 2135 Back1 17 3 2102 Back1 18 3 2103",
+				"NightTiles": "Front 6 4 1963 Front 15 4 1972 Back1 3 5 1992 Back1 4 5 1993 Back1 3 4 1960 Back1 4 4 1961 Back1 3 3 1928 Back1 4 3 1929 Back1 5 4 1962 Back1 7 4 1964 Back1 5 3 1930 Back1 6 3 1931 Back1 7 3 1932 Back1 5 2 1898 Back1 6 2 1899 Back1 7 2 1900 Back1 5 1 1866 Back1 6 1 1867 Back1 7 1 1868 Back1 9 5 1998 Back1 10 5 1999 Back1 11 5 2000 Back1 12 5 2001 Back1 9 4 1966 Back1 10 4 1967 Back1 11 4 1968 Back1 12 4 1969 Back1 9 3 1934 Back1 10 3 1935 Back1 11 3 1936 Back1 12 3 1937 Back1 9 2 1902 Back1 10 2 1903 Back1 11 2 1904 Back1 12 2 1905 Back1 14 4 1971 Back1 16 4 1973 Back1 14 3 1939 Back1 15 3 1940 Back1 16 3 1941 Back1 14 2 1907 Back1 15 2 1908 Back1 16 2 1909 Back1 14 1 1875 Back1 15 1 1876 Back1 16 1 1877 Back1 17 5 2006 Back1 18 5 2007 Back1 17 4 1974 Back1 18 4 1975 Back1 17 3 1942 Back1 18 3 1943"
+            },
+	  "When": { 
+		"FarmhouseUpgrade": "2, 3",
+				}
+			},
+			
+	
+			
+	//LIGHTBEAMS BALCONY
+	
+		{ //balc
+		"Action": "EditMap",
+        "Target": "Maps/Custom_balcony",
+		"FromFile": "assets/light_balcony_small.tmx",
+		 "FromArea": { "X": 10, "Y": 0, "Width": 11, "Height": 9 },
+		 "ToArea": { "X": 10, "Y": 0, "Width": 11, "Height": 9 },
+		 "PatchMode": "Overlay",
+			"When": { 
+					"Weather": "Sun, Wind, Snow",
+					"Balcony Lightbeams": "true",
+					"FarmhouseUpgrade": "1",
+					
+					
+					},
+        },
+		
+	{ //balc1
+		"Action": "EditMap",
+        "Target": "Maps/Custom_balcony",
+		"FromFile": "assets/light_balcony_big.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 22, "Height": 10 },
+		 "ToArea": { "X": 0, "Y": 0, "Width": 22, "Height": 10 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Sun, Wind, Snow",
+					"Balcony Lightbeams": "true",
+					"FarmhouseUpgrade": "2, 3",
+		
+					},
+        },
+	
+   { //wall borders
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 1, "Y": 4, "Width": 3, "Height": 3 },
+		 "ToArea": { "X": 1, "Y": 4, "Width": 3, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+		 { 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 1, "Y": 12, "Width": 11, "Height": 3 },
+		 "ToArea": { "X": 1, "Y": 12, "Width": 11, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+			 { 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 12, "Y": 11, "Width": 9, "Height": 3 },
+		 "ToArea": { "X": 12, "Y": 11, "Width": 9, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+				 { 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 21, "Y": 12, "Width": 15, "Height": 3 },
+		 "ToArea": { "X": 21, "Y": 12, "Width": 15, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 6, "Y": 17, "Width": 3, "Height": 3 },
+		 "ToArea": { "X": 6, "Y": 17, "Width": 3, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 6, "Y": 45, "Width": 2, "Height": 3 },
+		 "ToArea": { "X": 6, "Y": 45, "Width": 2, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 8, "Y": 43, "Width": 3, "Height": 3 },
+		 "ToArea": { "X": 8, "Y": 43, "Width": 3, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 19, "Y": 43, "Width": 3, "Height": 3 },
+		 "ToArea": { "X": 19, "Y": 43, "Width": 3, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					"FarmhouseUpgrade": "2, 3",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/2ndborderoff.tmx",
+		 "FromArea": { "X": 22, "Y": 45, "Width": 2, "Height": 3 },
+		 "ToArea": { "X": 22, "Y": 45, "Width": 2, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+		
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/1stborderoff.tmx",
+		 "FromArea": { "X": 8, "Y": 9, "Width": 13, "Height": 3 },
+		 "ToArea": { "X": 8, "Y": 9, "Width": 13, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/1stborderoff.tmx",
+		 "FromArea": { "X": 9, "Y": 43, "Width": 3, "Height": 3 },
+		 "ToArea": { "X": 9, "Y": 43, "Width": 3, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/1stborderoff.tmx",
+		 "FromArea": { "X": 19, "Y": 43, "Width": 2, "Height": 3 },
+		 "ToArea": { "X": 19, "Y": 43, "Width": 2, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+				 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/1stborderoff.tmx",
+		 "FromArea": { "X": 21, "Y": 45, "Width": 2, "Height": 3 },
+		 "ToArea": { "X": 21, "Y": 45, "Width": 2, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+		
+			 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+		"FromFile": "assets/0stestbordersoff.tmx",
+		 "FromArea": { "X": 4, "Y": 10, "Width": 6, "Height": 3 },
+		 "ToArea": { "X": 4, "Y": 10, "Width": 6, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+			 {
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+		"FromFile": "assets/0stestbordersoff.tmx",
+		 "FromArea": { "X": 10, "Y": 8, "Width": 5, "Height": 3 },
+		 "ToArea": { "X": 10, "Y": 8, "Width": 5, "Height": 3 },
+		 "PatchMode": "Replace",
+			"When": { 
+					"Wall borders": "false",
+					},
+        },
+	
+	
+
+		
+		
+		//RECOLORS
+		
+		{
+            "Action": "Load",
+            "Target": "Maps/z_redesignedfarmhousetiles",
+            "FromFile": "assets/Tilesheets/z_redesignedfarmhousetiles.png",
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/z_lightbeamstilesheet",
+            "FromFile": "assets/Tilesheets/z_lightbeamstilesheet.png",
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/z_additions",
+            "FromFile": "assets/Tilesheets/z_additions.png",
+        },
+
+		{
+       "Action": "EditImage",
+       "Target": "Maps/z_additions",
+       "FromFile": "assets/Tilesheets/z_additionsrkti.png",
+		"When": { "Recolor": "Vibrant Pastoral, Rustic Country Town(dark), Rustic Country Town(white)" },	
+        },
+		{
+       "Action": "EditImage",
+       "Target": "Maps/z_redesignedfarmhousetiles",
+       "FromFile": "assets/Tilesheets/recolors/vpr/z_redesignedfarmhousetiles.png",
+		"When": { "Recolor": "Vibrant Pastoral" },	
+        },	
+		{
+       "Action": "EditImage",
+       "Target": "Maps/z_redesignedfarmhousetiles",
+       "FromFile": "assets/Tilesheets/recolors/rkti/z_redesignedfarmhousetiles.png",
+		"When": { "Recolor": "Rustic Country Town(dark)" },	
+        },	
+		{
+       "Action": "EditImage",
+       "Target": "Maps/z_redesignedfarmhousetiles",
+       "FromFile": "assets/Tilesheets/recolors/rkti/white/z_redesignedfarmhousetiles.png",
+		"When": { "Recolor": "Rustic Country Town(white)" },	
+        },	
+	
+	//FARMHOUSE MAPS
+	
+	{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse",
+      "FromFile": "assets/0stest.tmx",
+	  "When": {  "Starter Farmhouse": "true",  },	
+        },	
+	
+	 
+	
+    		
+	
+		{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse1",
+      "FromFile": "assets/1st.tmx",
+	   "When": { "1st upgrade Farmhouse": "true",
+			 },
+	
+			},
+				{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse1_marriage",
+      "FromFile": "assets/1st_marriage.tmx",
+	   "When": { "1st upgrade Farmhouse": "true", 
+	    },
+				
+			},	
+	 
+		{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse2",
+      "FromFile": "assets/2nd.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true",   "FarmhouseUpgrade |contains=3": false,
+	    },	
+			},
+			{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse2_marriage",
+      "FromFile": "assets/2nd_marriage.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true",   "FarmhouseUpgrade |contains=3": false,
+	
+	    },
+				
+			},
+			
+			//3cellar
+			
+			{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse2",
+      "FromFile": "assets/2nd_cellar.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true", "FarmhouseUpgrade": "3", "HasMod |contains=Aimon111.RedesignedCellarLayout": false,
+	    },	
+			},
+			{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse2_marriage",
+      "FromFile": "assets/2nd_marriage_cellar.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true", "FarmhouseUpgrade": "3", "HasMod |contains=Aimon111.RedesignedCellarLayout": false,
+	    },
+				
+			},
+			
+			//CELLAR REDESIGNED MOD FIX
+			{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse2",
+      "FromFile": "assets/2nd_cellar_cellarmod.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true", "FarmhouseUpgrade": "3", "HasMod |contains=Aimon111.RedesignedCellarLayout": true,
+	    },	
+			},
+			{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse2_marriage",
+      "FromFile": "assets/2nd_marriage_cellar_cellarmod.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true", "FarmhouseUpgrade": "3", "HasMod |contains=Aimon111.RedesignedCellarLayout": true,
+	    },
+				
+			},
+			
+			
+			
+		//debug mode
+
+		{
+      "Action": "EditMap",
+      "Target": "Maps/FarmHouse",
+      "FromFile": "assets/DebugMode.tmx",
+	  "When": { "Debug Mode": "true",
+				},
+				
+		"PatchMode": "Replace",
+    		
+		},
+		{
+      "Action": "EditMap",
+      "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+      "FromFile": "assets/DebugMode1.tmx",
+	  "When": { "Debug Mode": "true",
+				},
+				
+		"PatchMode": "Replace",
+    		
+		},
+		{
+      "Action": "EditMap",
+      "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+      "FromFile": "assets/DebugMode2.tmx",
+	  "When": { "Debug Mode": "true",
+				},
+				
+		"PatchMode": "Replace",
+    		
+		},
+		
+		
+		//FIXSPOUSEDAYNIGHTTILES
+		
+		
+		{ //balconydoor
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 31, "Y": 0, "Width": 5, "Height": 3 },
+		 "ToArea": { "X": 13, "Y": 42, "Width": 5, "Height": 3 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Rain, Storm", "1st upgrade Farmhouse": "true",
+			
+	
+					},
+        },
+		{ //
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 31, "Y": 0, "Width": 5, "Height": 3 },
+		 "ToArea": { "X": 13, "Y": 42, "Width": 5, "Height": 3 },
+		 "PatchMode": "Overlay",
+			"When": {
+	
+					"Time": "{{Range: 2000, 2600}}", "1st upgrade Farmhouse": "true",
+					},
+			"Update": "OnTimeChange",
+        },
+		
+		{ //attic
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 23, "Y": 13, "Width": 13, "Height": 2 },
+		 "ToArea": { "X": 2, "Y": 84, "Width": 13, "Height": 2 },
+		 "PatchMode": "Overlay",
+			"When": { "Weather": "Rain, Storm", "1st upgrade Farmhouse": "true",
+	
+					},
+        },
+		{ //attic
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1_marriage",
+		"FromFile": "assets/light_farmhouse.tmx",
+		 "FromArea": { "X": 23, "Y": 13, "Width": 13, "Height": 2 },
+		 "ToArea": { "X": 2, "Y": 84, "Width": 13, "Height": 2 },
+		 "PatchMode": "Overlay",
+			"When": { 
+	
+					"Time": "{{Range: 2000, 2600}}", "1st upgrade Farmhouse": "true",
+					},
+			"Update": "OnTimeChange",
+				
+        },
+		
+		//KITCHEN STUFF
+		//countertop
+		{ 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/R_Kitchen_Countertop.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 1, "Height": 5 },
+		 "ToArea": { "X": 33, "Y": 18, "Width": 1, "Height": 5 },
+		 "PatchMode": "Overlay",
+			"When": { "Kitchen Countertop": "true", "2nd upgrade Farmhouse": "true" },
+			
+			},
+			
+			//removekitchen
+			{ 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse",
+		"FromFile": "assets/R_Kitchen_Remove.tmx",
+		 "FromArea": { "X": 0, "Y": 0, "Width": 3, "Height": 5 },
+		 "ToArea": { "X": 10, "Y": 8, "Width": 3, "Height": 5 },
+		 "PatchMode": "Replace",
+			"When": { "Remove Kitchen": "true", "Starter Farmhouse": "true", },
+			},
+			{ 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse1, Maps/FarmHouse1_marriage",
+		"FromFile": "assets/R_Kitchen_Remove.tmx",
+		 "FromArea": { "X": 3, "Y": 0, "Width": 4, "Height": 4 },
+		 "ToArea": { "X": 24, "Y": 13, "Width": 4, "Height": 4 },
+		 "PatchMode": "Replace",
+			"When": { "Remove Kitchen": "true", "1st upgrade Farmhouse": "true", },
+			},
+			{ 
+		"Action": "EditMap",
+        "Target": "Maps/FarmHouse2, Maps/FarmHouse2_marriage",
+		"FromFile": "assets/R_Kitchen_Remove.tmx",
+		 "FromArea": { "X": 8, "Y": 0, "Width": 5, "Height": 4 },
+		 "ToArea": { "X": 28, "Y": 17, "Width": 5, "Height": 4 },
+		 "PatchMode": "Replace",
+			"When": { "Remove Kitchen": "true", "2nd upgrade Farmhouse": "true" },
+			},
+			
+			
+			
+			
+			
+	
+			//FIX HOUSE RENOVATIONS
+			
+			{
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_Bedroom_Normal",
+      "FromFile": "assets/F_FarmHouse_Bedroom_Normal.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true" },
+      },
+	  
+	   {
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_CornerRoom_Remove",
+      "FromFile": "assets/F_FarmHouse_CornerRoom_Remove.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true" },
+      },
+	    {
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_SouthernRoom_Remove",
+      "FromFile": "assets/F_FarmHouse_SouthernRoom_Remove.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true" },
+	  
+	  },
+	  
+	  {
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_Bedroom_Open",
+      "FromFile": "assets/F_FarmHouse_Bedroom_Normal.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true" },
+	  
+      },
+	  
+	   {
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_CornerRoom_Add",
+      "FromFile": "assets/F_FarmHouse_CornerRoom_Remove.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true" },
+	  
+      },
+	  
+	    {
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_SouthernRoom_Add",
+      "FromFile": "assets/F_FarmHouse_SouthernRoom_Remove.tmx",
+	  "When": { "2nd upgrade Farmhouse": "true" },
+	  
+			},
+			
+			//CELLAR LOCATION
+			
+					  {
+      "Action": "Load",
+      "Target": "Maps/FarmHouse_Cellar",
+      "FromFile": "assets/Cellarfix.tmx",
+	  "When": {  "2nd upgrade Farmhouse": "true" },
+			},
+					  {
+      "Action": "EditMap",
+		"PatchMode": "Replace",
+      "Target": "Maps/FarmHouse_Cellar",
+      "FromFile": "assets/Cellarfix_cellar.tmx",
+	  "When": {  "2nd upgrade Farmhouse": "true", "HasMod": "Aimon111.RedesignedCellarLayout" },
+			},
+			
+	 
+	
+     
+	  	
+		{ 
+		"Action": "EditMap",
+            "Target": "Maps/Cellar",
+            "AddWarps": [
+                "3 1 FarmHouse 23 25"
+            ],
+			"When": { "2nd upgrade Farmhouse": "true",  },
+			
+        },
+		{ 
+		"Action": "EditMap",
+            "Target": "Maps/Cellar",
+            "AddWarps": [
+                "4 1 FarmHouse 24 25"
+            ],
+			"When": { "2nd upgrade Farmhouse": "true" },
+			
+        },
+		
+			
+			//multiplayer cabins
+			
+			{
+            "Action": "Load",
+            "Target": "Maps/Cabin",
+            "FromFile": "assets/0stest.tmx",
+			 "When": { "Starter Farmhouse": "true",  },
+			 
+			},
+			{
+            "Action": "Load",
+            "Target": "Maps/Cabin1",
+            "FromFile": "assets/1st.tmx",
+			},
+			{
+            "Action": "Load",
+            "Target": "Maps/Cabin1_marriage",
+            "FromFile": "assets/1st_marriage.tmx",
+			},
+			{
+            "Action": "Load",
+            "Target": "Maps/Cabin2",
+            "FromFile": "assets/2nd.tmx",
+			"When": { "2nd upgrade Farmhouse": "true" },
+			},
+			{
+            "Action": "Load",
+            "Target": "Maps/Cabin2_marriage",
+            "FromFile": "assets/2nd_marriage.tmx",
+			"When": { "2nd upgrade Farmhouse": "true" },
+			},
+			
+			//CRIB	
+	
+	{
+            "Action": "Load",
+            "Target": "Maps/FarmHouse_Crib_0",
+            "FromFile": "assets/FarmHouse_Crib_0.tmx",
+			"When": { "2nd upgrade Farmhouse": "true" },
+        },
+		{
+            "Action": "Load",
+            "Target": "Maps/FarmHouse_Crib_1",
+            "FromFile": "assets/FarmHouse_Crib_1.tmx",
+			"When": { "2nd upgrade Farmhouse": "true" },
+        }
+		
+		
+	  
+	   
+	  
+
+	]
+}
+	
+
+  

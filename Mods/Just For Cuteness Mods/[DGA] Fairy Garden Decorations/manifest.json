@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Fairy Garden Decorations",
+  "Author": "Wabi",
+  "Version": "1.2.0",
+  "Description": "Adds fairy themed garden decorations.",
+  "UniqueID": "Wabi.DynamicGameAssets.DGAfairydeco",
+  "UpdateKeys": ["Nexus:16174@DGA"],
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets",
+    "MinimumVersion": "1.1.0"
+  },
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.28.0"
+}

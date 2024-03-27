@@ -1,8 +1,0 @@
-{
-  "ItemName": "Slime Hutch",
-  "Type": "Building",
-  "TextureWidth": 176,
-  "TextureHeight": 144,
-  "Seasons": ["Fall"],
-  "Variations": 4
-}

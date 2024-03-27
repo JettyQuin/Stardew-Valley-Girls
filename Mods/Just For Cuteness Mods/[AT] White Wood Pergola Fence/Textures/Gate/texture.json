@@ -1,8 +1,0 @@
-{
-  "ItemName": "Gate",
-  "Type": "Craftable",
-  "Seasons": ["Spring", "Summer"],
-  "TextureWidth": 48,
-  "TextureHeight": 224,
-  "Variations": 6
-}

@@ -1,8 +1,0 @@
-{
-	"Name": "[FTM] Wildflour Mega Pack",
-	"Author": "wildflourmods",
-	"Description": "adds new foreagables for Wildflour Mega Pack",
-	"Version": "1.0",
-	"UniqueID": "wildflourmegapack.FTM",
-	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"}
-}

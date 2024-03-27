@@ -1,9 +1,0 @@
-{
-	"Name": "[FTM] Wildflour Mega Pack - Forage Spawns for Farm Cave ONLY",
-	"Author": "wildflourmods",
-	"Description": "adds new foreagables Farm Cave map",
-	"Version": "1.0",
-	"UniqueID": "wildflourfarmcave.FTM",
-	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"},
-	"Dependencies": [{"UniqueID": "wildflourmegapack.FTM", "IsRequired": true}]
-}

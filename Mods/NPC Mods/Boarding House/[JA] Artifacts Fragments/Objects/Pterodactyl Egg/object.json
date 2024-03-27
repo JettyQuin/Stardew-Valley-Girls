@@ -1,8 +1,0 @@
-{
-  "Name": "Pterodactyl Egg",
-  "Category": "Egg",
-  "Description": "An ancient egg that belongs to a pre-historic reptile.",
-  "Price": 250,
-  "IsColored": false,
-  "DisableWithMod": "JAPterodactylEgg",
-}

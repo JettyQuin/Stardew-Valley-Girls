@@ -1,8 +1,0 @@
-{
-  "ItemName": "horse",
-  "Type": "Character",
-  "TextureWidth": 224,
-  "TextureHeight": 128,
-  "Keywords": [ "horse" ],
-  "Variations": 8
-}
